@@ -87,3 +87,36 @@ export const thcRanges = [
   { key: '15-20', label: { de: '15–20%', en: '15–20%' }, min: 15, max: 20 },
   { key: '20+', label: { de: '20%+', en: '20%+' }, min: 20, max: 100 },
 ];
+
+// O(1) lookup map — avoids N+1 find() in filter loops
+export const thcRangesMap = new Map(thcRanges.map((r) => [r.key, r]));
+
+export const typeConfig = {
+  indica: {
+    border: 'border-t-indigo-400',
+    badge: 'bg-indigo-500/15 text-indigo-300',
+    badgeBordered: 'bg-indigo-500/15 text-indigo-300 border border-indigo-500/30',
+    glow: '0 8px 30px rgba(99,102,241,0.2)',
+    label: { de: 'Indica', en: 'Indica' },
+  },
+  sativa: {
+    border: 'border-t-amber-400',
+    badge: 'bg-amber-500/15 text-amber-300',
+    badgeBordered: 'bg-amber-500/15 text-amber-300 border border-amber-500/30',
+    glow: '0 8px 30px rgba(245,158,11,0.2)',
+    label: { de: 'Sativa', en: 'Sativa' },
+  },
+  hybrid: {
+    border: 'border-t-emerald-400',
+    badge: 'bg-emerald-500/15 text-emerald-300',
+    badgeBordered: 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30',
+    glow: '0 8px 30px rgba(52,211,153,0.2)',
+    label: { de: 'Hybrid', en: 'Hybrid' },
+  },
+} as const;
+
+export const difficultyConfig = {
+  easy:   { label: { de: 'Einfach',   en: 'Easy' },   badge: 'bg-emerald-500/15 text-emerald-300' },
+  medium: { label: { de: 'Mittel',    en: 'Medium' },  badge: 'bg-amber-500/15 text-amber-300' },
+  hard:   { label: { de: 'Schwierig', en: 'Hard' },    badge: 'bg-red-500/15 text-red-400' },
+} as const;

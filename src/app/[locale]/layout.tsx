@@ -1,18 +1,20 @@
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
-import { DM_Serif_Display, Inter, JetBrains_Mono } from 'next/font/google';
+import { Fraunces, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
+import { ThemeProvider } from 'next-themes';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { CookieBanner } from '@/components/CookieBanner';
 
-const dmSerif = DM_Serif_Display({
+const fraunces = Fraunces({
   subsets: ['latin'],
-  weight: '400',
   variable: '--font-heading',
   display: 'swap',
+  axes: ['opsz'],
 });
 
-const inter = Inter({
+const plusJakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
   variable: '--font-body',
   display: 'swap',
@@ -42,14 +44,18 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${dmSerif.variable} ${inter.variable} ${jetbrains.variable}`}
+      className={`${fraunces.variable} ${plusJakarta.variable} ${jetbrains.variable}`}
+      suppressHydrationWarning
     >
-      <body className="bg-warm-white text-charcoal font-body antialiased">
-        <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
+      <body className="bg-bg text-ink font-body antialiased transition-colors duration-300">
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+          <NextIntlClientProvider messages={messages}>
+            <Header />
+            <main className="min-h-screen">{children}</main>
+            <Footer />
+            <CookieBanner />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -13,7 +13,7 @@ export type {
   GrowingInfo,
 } from './types';
 
-export { effectLabels, negativeLabels, flavorLabels, medicalLabels, terpeneLabels, thcRanges } from './filters';
+export { effectLabels, negativeLabels, flavorLabels, medicalLabels, terpeneLabels, thcRanges, thcRangesMap, typeConfig, difficultyConfig } from './filters';
 
 export const strains = [...strainsAG, ...strainsHO, ...strainsPZ];
 

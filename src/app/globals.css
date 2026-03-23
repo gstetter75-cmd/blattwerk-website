@@ -1,30 +1,130 @@
 @import "tailwindcss";
 
-@theme {
-  --color-deep-forest: #1B3A2D;
-  --color-warm-white: #FAF9F6;
-  --color-sage: #7A8B7A;
-  --color-charcoal: #2C2C2C;
-  --color-sand: #E8E0D5;
-  --color-amber: #C8963E;
-  --color-terracotta: #B8705A;
-  --color-success: #3D7A5F;
-  --color-warning: #D4A03C;
-  --color-error: #A65A4E;
-  --color-info: #5A7A8B;
+/* ─── Dark Mode: class-based für next-themes ─── */
+@custom-variant dark (&:where(.dark, .dark *));
 
-  --font-heading: 'DM Serif Display', serif;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+/* ─── Semantic CSS Custom Properties ─── */
+:root {
+  --bg:          #fafaf7;
+  --bg-surface:  #f0f5f1;
+  --bg-elevated: #e8f0ea;
+  --text:        #0a0f0d;
+  --text-muted:  #4a7a5a;
+  --text-faint:  #a8c4b0;
+  --accent:      #15803d;
+  --accent-soft: #86efac;
+  --gold:        #d97706;
+  --gold-soft:   #fde68a;
+  --border:      rgba(0, 0, 0, 0.1);
+  --glass:       rgba(0, 0, 0, 0.03);
 }
 
+.dark {
+  --bg:          #070d0a;
+  --bg-surface:  #0e1a13;
+  --bg-elevated: #152019;
+  --text:        #f0faf4;
+  --text-muted:  #6b9e7a;
+  --text-faint:  #3a5a44;
+  --accent:      #22c55e;
+  --accent-soft: #86efac;
+  --gold:        #f59e0b;
+  --gold-soft:   #fde68a;
+  --border:      rgba(255, 255, 255, 0.08);
+  --glass:       rgba(255, 255, 255, 0.04);
+}
+
+/* ─── Design Tokens für Tailwind ─── */
+@theme {
+  /* Farben — statisch */
+  --color-void:          #070d0a;
+  --color-surface-dark:  #0e1a13;
+  --color-elevated-dark: #152019;
+  --color-paper:         #fafaf7;
+  --color-paper-soft:    #f0f5f1;
+
+  --color-emerald-glow:  #22c55e;
+  --color-emerald-soft:  #86efac;
+  --color-gold:          #f59e0b;
+  --color-gold-soft:     #fde68a;
+  --color-forest-deep:   #15803d;
+
+  /* Farben — semantisch (folgen CSS-Variablen) */
+  --color-bg:            var(--bg);
+  --color-bg-surface:    var(--bg-surface);
+  --color-bg-elevated:   var(--bg-elevated);
+  --color-ink:           var(--text);
+  --color-ink-muted:     var(--text-muted);
+  --color-ink-faint:     var(--text-faint);
+  --color-accent:        var(--accent);
+  --color-accent-soft:   var(--accent-soft);
+  --color-gold-theme:    var(--gold);
+  --color-gold-theme-soft: var(--gold-soft);
+  --color-border-theme:  var(--border);
+  --color-glass-theme:   var(--glass);
+
+  /* Typografie */
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body:    'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Border Radius */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   32px;
+  --radius-full: 9999px;
+
+  /* Shadows / Glows */
+  --shadow-glow-sm:   0 0 12px rgba(34, 197, 94, 0.2);
+  --shadow-glow-md:   0 0 24px rgba(34, 197, 94, 0.25), 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-glow-gold: 0 0 12px rgba(245, 158, 11, 0.2);
+  --shadow-card:      0 4px 24px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* ─── Base Styles ─── */
 body {
   font-family: var(--font-body);
-  color: var(--color-charcoal);
-  background-color: var(--color-warm-white);
+  color: var(--text);
+  background-color: var(--bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  color: var(--color-deep-forest);
+}
+
+/* ─── Focus Styles (Accessibility) ─── */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar (Dark Mode) ─── */
+.dark ::-webkit-scrollbar {
+  width: 6px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: var(--bg-surface);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated);
+  border-radius: 3px;
+}
+
+/* ─── Blob Animation ─── */
+.blob-animation {
+  animation: blob-drift 14s ease-in-out infinite alternate;
+}
+
+@keyframes blob-drift {
+  from { transform: translate(0, 0) scale(1); }
+  to   { transform: translate(60px, -40px) scale(1.08); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob-animation {
+    animation: none;
+  }
 }

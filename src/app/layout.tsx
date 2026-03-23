@@ -1,9 +1,63 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk-ev.de';
+
 export const metadata: Metadata = {
-  title: 'BlattWerk e.V.',
-  description: 'Cannabis Social Club Hildesheim',
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
+    template: '%s | BlattWerk e.V.',
+  },
+  description: 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim. Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis im Rahmen des KCanG.',
+  keywords: ['Cannabis Social Club', 'Hildesheim', 'BlattWerk', 'KCanG', 'Anbauvereinigung', 'Cannabis'],
+  authors: [{ name: 'BlattWerk e.V.' }],
+  creator: 'BlattWerk e.V.',
+  openGraph: {
+    type: 'website',
+    locale: 'de_DE',
+    alternateLocale: 'en_US',
+    url: BASE_URL,
+    siteName: 'BlattWerk e.V.',
+    title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
+    description: 'Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis. Cannabis Social Club in Hildesheim.',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
+    description: 'Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis.',
+    images: ['/opengraph-image'],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/favicon.svg',
+  },
+  manifest: '/manifest.json',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#070d0a',
+  colorScheme: 'dark light',
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
