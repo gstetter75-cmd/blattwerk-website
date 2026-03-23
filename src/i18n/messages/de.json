@@ -67,7 +67,7 @@
     "title": "Mitgliedschaft",
     "subtitle": "Werden Sie Teil von BlattWerk e.V.",
     "requirements_title": "Voraussetzungen",
-    "req_1": "Mindestalter 18 Jahre",
+    "req_1": "Mindestalter 21 Jahre",
     "req_2": "Wohnsitz in Deutschland",
     "req_3": "Anerkennung der Vereinssatzung",
     "req_4": "Teilnahme an einer Informationsveranstaltung",
@@ -163,7 +163,7 @@
     "concept_title": "Unser Präventionskonzept",
     "contact_title": "Ansprechpartner",
     "resources_title": "Hilfsangebote & Beratungsstellen",
-    "age_notice": "Cannabis darf nur an Personen ab 18 Jahren abgegeben werden."
+    "age_notice": "Cannabis darf nur an Vereinsmitglieder ab 21 Jahren abgegeben werden."
   },
   "donations": {
     "title": "Spenden",

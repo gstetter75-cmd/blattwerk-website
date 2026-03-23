@@ -27,6 +27,48 @@ export function HeroContent({ children }: { children: React.ReactNode }) {
   );
 }
 
+export function HomeHero({ children }: { children: React.ReactNode }) {
+  const prefersReduced = useReducedMotion();
+  return (
+    <motion.div
+      initial={prefersReduced ? false : { opacity: 0, y: 32 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+      className="w-full"
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+export function HomePillar({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+  const prefersReduced = useReducedMotion();
+  return (
+    <motion.div
+      initial={prefersReduced ? false : { opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-60px' }}
+      transition={{ duration: 0.6, delay, ease: 'easeOut' }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+export function HomeSection({ children }: { children: React.ReactNode }) {
+  const prefersReduced = useReducedMotion();
+  return (
+    <motion.div
+      initial={prefersReduced ? false : { opacity: 0, y: 32 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.7, ease: 'easeOut' }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
 export function StatsCard({ children }: { children: React.ReactNode }) {
   const { card } = useVariants();
   return (

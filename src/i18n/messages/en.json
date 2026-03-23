@@ -67,7 +67,7 @@
     "title": "Membership",
     "subtitle": "Become Part of BlattWerk e.V.",
     "requirements_title": "Requirements",
-    "req_1": "Minimum age 18 years",
+    "req_1": "Minimum age 21 years",
     "req_2": "Residence in Germany",
     "req_3": "Acceptance of the club statutes",
     "req_4": "Attendance at an information event",
@@ -163,7 +163,7 @@
     "concept_title": "Our Prevention Concept",
     "contact_title": "Contact Person",
     "resources_title": "Support Services & Counseling Centers",
-    "age_notice": "Cannabis may only be given to persons aged 18 and over."
+    "age_notice": "Cannabis may only be distributed to club members aged 21 and over."
   },
   "donations": {
     "title": "Donate",

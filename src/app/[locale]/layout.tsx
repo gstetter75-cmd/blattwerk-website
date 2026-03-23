@@ -6,6 +6,8 @@ import { ThemeProvider } from 'next-themes';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
+import { CustomCursor } from '@/components/cursor/CustomCursor';
+import { ScrollProgress } from '@/components/layout/ScrollProgress';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -48,8 +50,10 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="bg-bg text-ink font-body antialiased transition-colors duration-300">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+        <ThemeProvider attribute="class" forcedTheme="dark">
           <NextIntlClientProvider messages={messages}>
+            <CustomCursor />
+            <ScrollProgress />
             <Header />
             <main className="min-h-screen">{children}</main>
             <Footer />

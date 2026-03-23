@@ -1,18 +1,19 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 
-const navLinks = [
-  { key: 'about', href: '/ueber-uns' },
+const NAV = [
+  { key: 'about',      href: '/ueber-uns' },
+  { key: 'strains',    href: '/sortendatenbank' },
+  { key: 'knowledge',  href: '/wissensdatenbank' },
+  { key: 'events',     href: '/events' },
   { key: 'membership', href: '/mitgliedschaft' },
-  { key: 'strains', href: '/sortendatenbank' },
-  { key: 'knowledge', href: '/wissensdatenbank' },
-  { key: 'events', href: '/events' },
 ] as const;
 
-const legalLinks = [
+const LEGAL = [
   { key: 'legal_notice', href: '/impressum' },
-  { key: 'privacy', href: '/datenschutz' },
-  { key: 'prevention', href: '/suchtpraevention' },
+  { key: 'privacy',      href: '/datenschutz' },
+  { key: 'prevention',   href: '/suchtpraevention' },
 ] as const;
 
 export function Footer() {
@@ -20,32 +21,38 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-bg-surface border-t border-[var(--border)]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-12">
+    <footer style={{ borderTop: '1px solid rgba(255,255,255,0.06)', background: 'var(--bg)' }}>
+      {/* Main */}
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
 
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <div className="flex items-baseline gap-0.5 mb-3">
-              <span className="font-heading text-xl italic text-ink font-medium">Blattwerk</span>
-              <span className="text-xs text-ink-muted ml-1">e.V.</span>
-            </div>
-            <p className="text-sm text-ink-muted leading-relaxed">
-              Cannabis Social Club Hildesheim
+          <div className="col-span-2 md:col-span-1">
+            <Image
+              src="/images/logo.png"
+              alt="Blattwerk e.V."
+              width={140}
+              height={56}
+              className="h-14 w-auto object-contain mb-3"
+              style={{ filter: 'drop-shadow(0 0 10px rgba(34,197,94,0.25)) brightness(1.1)' }}
+            />
+            <p className="text-xs uppercase tracking-[0.1em] font-body" style={{ color: 'var(--text-faint)' }}>
+              Cannabis Social Club<br />Hildesheim
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h3 className="text-xs font-semibold text-ink-muted uppercase tracking-widest mb-4">
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-5 font-body" style={{ color: 'var(--text-faint)' }}>
               Navigation
-            </h3>
-            <ul className="space-y-2.5">
-              {navLinks.map(({ key, href }) => (
+            </p>
+            <ul className="flex flex-col gap-3">
+              {NAV.map(({ key, href }) => (
                 <li key={key}>
                   <Link
                     href={href}
-                    className="text-sm text-ink-muted hover:text-ink transition-colors duration-200"
+                    className="text-xs uppercase tracking-[0.1em] font-body transition-colors duration-200"
+                    style={{ color: 'var(--text-muted)' }}
                   >
                     {t(`nav.${key}`)}
                   </Link>
@@ -56,15 +63,16 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="text-xs font-semibold text-ink-muted uppercase tracking-widest mb-4">
-              {t('footer.legal_notice')}
-            </h3>
-            <ul className="space-y-2.5">
-              {legalLinks.map(({ key, href }) => (
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-5 font-body" style={{ color: 'var(--text-faint)' }}>
+              Rechtliches
+            </p>
+            <ul className="flex flex-col gap-3">
+              {LEGAL.map(({ key, href }) => (
                 <li key={key}>
                   <Link
                     href={href}
-                    className="text-sm text-ink-muted hover:text-ink transition-colors duration-200"
+                    className="text-xs uppercase tracking-[0.1em] font-body transition-colors duration-200"
+                    style={{ color: 'var(--text-muted)' }}
                   >
                     {t(`footer.${key}`)}
                   </Link>
@@ -75,12 +83,13 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-xs font-semibold text-ink-muted uppercase tracking-widest mb-4">
-              {t('nav.contact')}
-            </h3>
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-5 font-body" style={{ color: 'var(--text-faint)' }}>
+              Kontakt
+            </p>
             <Link
               href="/kontakt"
-              className="text-sm text-ink-muted hover:text-ink transition-colors duration-200"
+              className="text-xs uppercase tracking-[0.1em] font-body transition-colors duration-200"
+              style={{ color: 'var(--text-muted)' }}
             >
               {t('nav.contact')}
             </Link>
@@ -88,14 +97,16 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-xs text-ink-muted text-center sm:text-left">
+      {/* Bottom bar */}
+      <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-[10px] uppercase tracking-[0.1em] font-body text-center sm:text-left"
+            style={{ color: 'var(--text-faint)' }}>
             {t('footer.info_disclaimer')}
           </p>
-          <p className="text-xs text-ink-muted shrink-0">
-            {t('footer.copyright', { year })}
+          <p className="text-[10px] uppercase tracking-[0.1em] font-body shrink-0"
+            style={{ color: 'var(--text-faint)' }}>
+            © {year} Blattwerk e.V.
           </p>
         </div>
       </div>

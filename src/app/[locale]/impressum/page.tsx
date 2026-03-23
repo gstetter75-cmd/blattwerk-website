@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { Building2, Mail, Phone, ScrollText, AlertTriangle, Globe } from 'lucide-react';
+import { Building2, Mail, Phone, ScrollText, AlertTriangle, Globe, UserCheck, Shield } from 'lucide-react';
 import { PageHero } from '@/components/layout/PageHero';
 
 export default async function ImpressumPage({
@@ -26,6 +26,13 @@ export default async function ImpressumPage({
       <section className="py-16 lg:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
 
+          {/* Geltungsbereich */}
+          <p className="text-sm text-ink-muted leading-relaxed px-1">
+            {isDE
+              ? 'Dieses Impressum gilt für alle Angebote unter der Domain www.blattwerk.dev inklusive aller Subdomains sowie die WhatsApp-, Instagram- und Facebook-Auftritte von BlattWerk e.V.'
+              : 'This legal notice applies to all services under the domain www.blattwerk.dev including all subdomains as well as the WhatsApp, Instagram and Facebook presences of BlattWerk e.V.'}
+          </p>
+
           {/* Verein */}
           <div className={glassCard} style={glassStyle}>
             <div className="flex items-center gap-3 mb-5">
@@ -37,7 +44,7 @@ export default async function ImpressumPage({
             <dl className="space-y-3 text-sm">
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Name' : 'Name'}</dt>
-                <dd className="text-ink">BlattWerk e.V.</dd>
+                <dd className="text-ink">BlattWerk e. V.</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Rechtsform' : 'Legal form'}</dt>
@@ -51,15 +58,11 @@ export default async function ImpressumPage({
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Registergericht' : 'Registration court'}</dt>
-                <dd className="text-ink text-ink-muted italic">
-                  {isDE ? 'Amtsgericht Hildesheim (nach Eintragung)' : 'Local court Hildesheim (after registration)'}
-                </dd>
+                <dd className="text-ink">Vereinsregister</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Registernummer' : 'Registration number'}</dt>
-                <dd className="text-ink text-ink-muted italic">
-                  {isDE ? 'wird nach Eintragung ergänzt' : 'to be added after registration'}
-                </dd>
+                <dd className="text-ink">VR 201878</dd>
               </div>
             </dl>
           </div>
@@ -116,13 +119,70 @@ export default async function ImpressumPage({
                 <dt className="text-ink-muted flex items-center gap-1.5">
                   <Phone className="w-3.5 h-3.5" /> {isDE ? 'Telefon' : 'Phone'}
                 </dt>
-                <dd className="text-ink-muted italic">{isDE ? 'wird noch bekanntgegeben' : 'to be announced'}</dd>
+                <dd>
+                  <a href="tel:+4915233539841" className="text-accent hover:text-accent/80 transition-colors">
+                    +49 15233539841
+                  </a>
+                </dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted flex items-center gap-1.5">
                   <Globe className="w-3.5 h-3.5" /> Website
                 </dt>
                 <dd className="text-ink">blattwerk.dev</dd>
+              </div>
+            </dl>
+          </div>
+
+          {/* Verantwortlicher für Inhalte */}
+          <div className={glassCard} style={glassStyle}>
+            <div className="flex items-center gap-3 mb-5">
+              <UserCheck className="w-5 h-5 text-accent opacity-70" />
+              <h2 className="font-heading italic text-xl text-ink">
+                {isDE ? 'Verantwortlicher für Inhalte' : 'Responsible for Content'}
+              </h2>
+            </div>
+            <dl className="space-y-3 text-sm">
+              <div className="grid grid-cols-[140px_1fr] gap-2">
+                <dt className="text-ink-muted">{isDE ? 'Name' : 'Name'}</dt>
+                <dd className="text-ink">Gero Stetter</dd>
+              </div>
+              <div className="grid grid-cols-[140px_1fr] gap-2">
+                <dt className="text-ink-muted">{isDE ? 'Anschrift' : 'Address'}</dt>
+                <dd className="text-ink">
+                  Grabenstraße 19<br />31020 Salzhemmendorf<br />{isDE ? 'Deutschland' : 'Germany'}
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          {/* Datenschutzbeauftragter */}
+          <div className={glassCard} style={glassStyle}>
+            <div className="flex items-center gap-3 mb-5">
+              <Shield className="w-5 h-5 text-accent opacity-70" />
+              <h2 className="font-heading italic text-xl text-ink">
+                {isDE ? 'Datenschutz' : 'Data Protection'}
+              </h2>
+            </div>
+            <p className="text-sm text-ink-muted mb-3">
+              {isDE
+                ? 'Bei Fragen zum Datenschutz wenden Sie sich bitte an:'
+                : 'For data protection inquiries, please contact:'}
+            </p>
+            <dl className="space-y-3 text-sm">
+              <div className="grid grid-cols-[140px_1fr] gap-2">
+                <dt className="text-ink-muted">{isDE ? 'Ansprechpartner' : 'Contact person'}</dt>
+                <dd className="text-ink">Thomas Andreas</dd>
+              </div>
+              <div className="grid grid-cols-[140px_1fr] gap-2">
+                <dt className="text-ink-muted flex items-center gap-1.5">
+                  <Mail className="w-3.5 h-3.5" /> E-Mail
+                </dt>
+                <dd>
+                  <a href="mailto:praevention@blattwerk.dev" className="text-accent hover:text-accent/80 transition-colors">
+                    praevention@blattwerk.dev
+                  </a>
+                </dd>
               </div>
             </dl>
           </div>
@@ -163,13 +223,20 @@ export default async function ImpressumPage({
             </p>
           </div>
 
+          {/* Gültigkeitsdatum */}
+          <p className="text-xs text-ink-muted text-center px-1">
+            {isDE
+              ? 'Dieses Impressum gilt ab dem 30. April 2025.'
+              : 'This legal notice is effective as of April 30, 2025.'}
+          </p>
+
           {/* KCanG Hinweis */}
           <div className="flex gap-3 p-4 bg-gold-theme/5 border border-gold-theme/20 rounded-lg">
             <AlertTriangle className="w-4 h-4 text-gold-theme shrink-0 mt-0.5 opacity-80" />
             <p className="text-xs text-ink-muted leading-relaxed">
               {isDE
-                ? 'BlattWerk e.V. handelt im Rahmen des Konsumcannabisgesetzes (KCanG). Die Abgabe von Cannabis erfolgt ausschließlich an volljährige Vereinsmitglieder gemäß den gesetzlichen Vorgaben.'
-                : 'BlattWerk e.V. operates within the framework of the Consumer Cannabis Act (KCanG). Cannabis is only dispensed to adult club members in accordance with legal requirements.'}
+                ? 'BlattWerk e.V. handelt im Rahmen des Konsumcannabisgesetzes (KCanG). Die Abgabe von Cannabis erfolgt ausschließlich an Vereinsmitglieder ab 21 Jahren gemäß den gesetzlichen Vorgaben.'
+                : 'BlattWerk e.V. operates within the framework of the Consumer Cannabis Act (KCanG). Cannabis is only dispensed to club members aged 21 and over in accordance with legal requirements.'}
             </p>
           </div>
 
