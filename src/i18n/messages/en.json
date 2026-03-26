@@ -20,7 +20,14 @@
     "donations": "Donate",
     "blog": "Blog",
     "csc_founding": "Start a CSC",
-    "contact": "Contact"
+    "contact": "Contact",
+    "mission_desc": "Our mission, values and the board",
+    "membership_desc": "Requirements, process and fees",
+    "prevention_desc": "Youth protection and prevention concept",
+    "csc_desc": "Help with starting your own club",
+    "knowledge_desc": "Articles on law, health and growing",
+    "events_desc": "Workshops, talks and dates",
+    "donations_desc": "Support the club financially"
   },
   "home": {
     "hero_title": "Welcome to BlattWerk e.V.",

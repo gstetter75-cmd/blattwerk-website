@@ -20,7 +20,14 @@
     "donations": "Spenden",
     "blog": "Blog",
     "csc_founding": "CSC gründen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "mission_desc": "Unsere Mission, Werte und der Vorstand",
+    "membership_desc": "Voraussetzungen, Ablauf und Beiträge",
+    "prevention_desc": "Jugendschutz und Präventionskonzept",
+    "csc_desc": "Hilfe beim Aufbau eines eigenen Clubs",
+    "knowledge_desc": "Artikel zu Recht, Gesundheit und Anbau",
+    "events_desc": "Workshops, Vorträge und Termine",
+    "donations_desc": "Den Verein finanziell unterstützen"
   },
   "home": {
     "hero_title": "Willkommen bei BlattWerk e.V.",
