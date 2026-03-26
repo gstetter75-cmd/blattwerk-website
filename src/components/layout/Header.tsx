@@ -97,7 +97,7 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="shrink-0 group">
               <Image
-                src="/images/logo.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
                 alt="Blattwerk e.V."
                 width={180}
                 height={72}

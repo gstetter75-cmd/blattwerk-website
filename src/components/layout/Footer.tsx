@@ -29,7 +29,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Image
-              src="/images/logo.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
               alt="Blattwerk e.V."
               width={140}
               height={56}
