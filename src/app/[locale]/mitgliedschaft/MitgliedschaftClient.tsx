@@ -3,73 +3,56 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
 
 interface Props {
   isDE: boolean;
 }
 
 const fadeUp = {
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.55 },
-} as const;
+  transition: { duration: 0.5 },
+};
 
 export function MitgliedschaftClient({ isDE }: Props) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const requirements = [
-    {
-      num: '01',
-      text: isDE
-        ? 'Mindestalter 21 Jahre (Personalausweis oder Reisepass erforderlich)'
-        : 'Minimum age 21 years (ID card or passport required)',
-    },
-    {
-      num: '02',
-      text: isDE
-        ? 'Wohnsitz in Deutschland (Meldebescheinigung)'
-        : 'Residence in Germany (registration certificate)',
-    },
-    {
-      num: '03',
-      text: isDE
-        ? 'Anerkennung der Vereinssatzung und Vereinsregeln'
-        : 'Acceptance of the association statutes and rules',
-    },
-    {
-      num: '04',
-      text: isDE
-        ? 'Keine Mitgliedschaft in einer anderen Anbauvereinigung'
-        : 'No membership in another cultivation association',
-    },
+    isDE
+      ? 'Mindestalter 21 Jahre (Personalausweis oder Reisepass erforderlich)'
+      : 'Minimum age 21 years (ID card or passport required)',
+    isDE
+      ? 'Wohnsitz in Deutschland (Meldebescheinigung)'
+      : 'Residence in Germany (registration certificate)',
+    isDE
+      ? 'Anerkennung der Vereinssatzung und Vereinsregeln'
+      : 'Acceptance of the association statutes and rules',
+    isDE
+      ? 'Keine Mitgliedschaft in einer anderen Anbauvereinigung'
+      : 'No membership in another cultivation association',
   ];
 
   const steps = [
     {
-      num: '01',
       title: isDE ? 'Antrag stellen' : 'Submit Application',
       text: isDE
         ? 'Registriere dich über die Hanf-App und stelle dort deinen Aufnahmeantrag.'
         : 'Register via the Hanf-App and submit your admission application there.',
     },
     {
-      num: '02',
       title: isDE ? 'Identitätsprüfung' : 'Identity Verification',
       text: isDE
         ? 'Deine Identität und dein Alter werden geprüft. Dies ist gesetzlich vorgeschrieben.'
         : 'Your identity and age will be verified. This is legally required.',
     },
     {
-      num: '03',
       title: isDE ? 'Aufnahme' : 'Admission',
       text: isDE
         ? 'Nach erfolgreicher Prüfung wirst du als Mitglied aufgenommen und erhältst Zugang.'
         : 'After successful verification, you will be admitted as a member and receive access.',
     },
     {
-      num: '04',
       title: isDE ? 'Beitrag zahlen' : 'Pay Membership Fee',
       text: isDE
         ? 'Der monatliche Mitgliedsbeitrag wird per Lastschrift eingezogen.'
@@ -140,226 +123,164 @@ export function MitgliedschaftClient({ isDE }: Props) {
   return (
     <>
       {/* -- Hero -- */}
-      <WQFPageHero
-        label={isDE ? 'Mitgliedschaft' : 'Membership'}
-        title={isDE ? 'Mitglied werden' : 'Become a Member'}
-        subtitle={
-          isDE
-            ? 'Werde Teil unserer Gemeinschaft. Hier erfährst du alles über die Voraussetzungen, den Aufnahmeprozess und deine Rechte als Mitglied.'
-            : 'Become part of our community. Here you will find everything about the requirements, the admission process and your rights as a member.'
-        }
-        accentColor="green"
-      />
+      <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <motion.div {...fadeUp}>
+            <p className="text-sm font-medium text-accent mb-4">
+              {isDE ? 'Mitgliedschaft' : 'Membership'}
+            </p>
+            <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
+              {isDE ? 'Mitglied werden' : 'Become a Member'}
+            </h1>
+            <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
+              {isDE
+                ? 'Werde Teil unserer Gemeinschaft. Hier erfährst du alles über die Voraussetzungen, den Aufnahmeprozess und deine Rechte als Mitglied.'
+                : 'Become part of our community. Here you will find everything about the requirements, the admission process and your rights as a member.'}
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
       {/* -- Requirements -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Voraussetzungen' : 'Requirements'}
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
-              {isDE ? 'Wer kann Mitglied werden?' : 'Who can become a member?'}
             </h2>
-          </motion.div>
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE ? 'Wer kann Mitglied werden?' : 'Who can become a member?'}
+            </p>
 
-          <ul className="space-y-0">
-            {requirements.map(({ num, text }, i) => (
-              <motion.li
-                key={num}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.45, delay: i * 0.07 }}
-                className={`flex items-start gap-6 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
-              >
-                <span className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right text-ink-faint">
-                  {num}
-                </span>
-                <span className="pl-4 text-sm leading-relaxed font-body text-ink-muted border-l border-accent/25">
-                  {text}
-                </span>
-              </motion.li>
-            ))}
-          </ul>
-        </div>
-      </section>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {requirements.map((text, i) => (
+                <div key={i} className="p-5 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </HomeSection>
 
       {/* -- Process Steps -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Aufnahmeprozess' : 'Admission Process'}
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
-              {isDE ? 'So wirst du Mitglied' : 'How to join'}
             </h2>
-          </motion.div>
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE ? 'So wirst du Mitglied' : 'How to join'}
+            </p>
 
-          <div className="grid md:grid-cols-4 gap-px border border-[var(--border)]">
-            {steps.map(({ num, title, text }, i) => (
-              <motion.div
-                key={num}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 bg-bg"
-              >
-                <p className="font-mono text-xs mb-6 text-ink-faint">
-                  {num}
-                </p>
-                <h3 className="font-heading font-bold text-xl mb-3">
-                  {title}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {text}
-                </p>
-              </motion.div>
-            ))}
+            <div className="grid md:grid-cols-4 gap-5">
+              {steps.map(({ title, text }, i) => (
+                <div key={i} className="p-5 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <span className="text-xs font-mono text-ink-faint mb-3 block">{i + 1}.</span>
+                  <h3 className="font-heading font-semibold text-base mb-2">{title}</h3>
+                  <p className="text-sm leading-relaxed text-ink-muted">{text}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </HomeSection>
 
       {/* -- Fees -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
-              {isDE ? 'Beiträge' : 'Fees'}
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
               {isDE ? 'Kosten & Beiträge' : 'Costs & Fees'}
             </h2>
-          </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.55 }}
-          >
             {fees.map(({ label, value }, i) => (
               <div
                 key={i}
                 className={`flex items-center justify-between py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
               >
-                <span className="text-sm font-body text-ink-muted">
-                  {label}
-                </span>
-                <span className="font-mono text-sm font-bold">
-                  {value}
-                </span>
+                <span className="text-sm text-ink-muted">{label}</span>
+                <span className="font-mono text-sm font-bold">{value}</span>
               </div>
             ))}
-          </motion.div>
 
-          <p className="text-xs font-body mt-8 text-ink-faint">
-            {isDE
-              ? 'Der Verein ist nicht gewinnorientiert. Alle Beiträge dienen ausschließlich der Deckung der Betriebskosten.'
-              : 'The association is non-profit. All fees serve exclusively to cover operating costs.'}
-          </p>
-        </div>
-      </section>
+            <p className="text-xs mt-8 text-ink-faint">
+              {isDE
+                ? 'Der Verein ist nicht gewinnorientiert. Alle Beiträge dienen ausschließlich der Deckung der Betriebskosten.'
+                : 'The association is non-profit. All fees serve exclusively to cover operating costs.'}
+            </p>
+          </div>
+        </section>
+      </HomeSection>
 
       {/* -- FAQ -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              FAQ
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
               {isDE ? 'Häufige Fragen' : 'Common Questions'}
             </h2>
-          </motion.div>
 
-          <ul className="space-y-0">
-            {faqs.map(({ q, a }, i) => {
-              const isOpen = openFaq === i;
-              return (
-                <motion.li
-                  key={i}
-                  initial={{ opacity: 0, y: 16 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-60px' }}
-                  transition={{ duration: 0.45, delay: i * 0.06 }}
-                  className={i > 0 ? 'border-t border-[var(--border)]' : ''}
-                >
-                  <button
-                    type="button"
-                    className="w-full text-left flex items-start justify-between gap-4 py-6"
-                    onClick={() => setOpenFaq(isOpen ? null : i)}
-                    aria-expanded={isOpen}
+            <ul className="space-y-0">
+              {faqs.map(({ q, a }, i) => {
+                const isOpen = openFaq === i;
+                return (
+                  <li
+                    key={i}
+                    className={i > 0 ? 'border-t border-[var(--border)]' : ''}
                   >
-                    <span className="font-heading font-bold text-base leading-snug">
-                      {q}
-                    </span>
-                    <span
-                      className="font-mono text-lg shrink-0 mt-0.5 transition-transform duration-300 text-accent"
-                      style={{
-                        transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
-                      }}
+                    <button
+                      type="button"
+                      className="w-full text-left flex items-start justify-between gap-4 py-6"
+                      onClick={() => setOpenFaq(isOpen ? null : i)}
+                      aria-expanded={isOpen}
                     >
-                      +
-                    </span>
-                  </button>
-
-                  <AnimatePresence initial={false}>
-                    {isOpen && (
-                      <motion.div
-                        key="answer"
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3, ease: 'easeInOut' }}
-                        className="overflow-hidden"
+                      <span className="font-heading font-bold text-base leading-snug">
+                        {q}
+                      </span>
+                      <span
+                        className="font-mono text-lg shrink-0 mt-0.5 transition-transform duration-300 text-accent"
+                        style={{
+                          transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
+                        }}
                       >
-                        <p className="pb-6 text-sm leading-relaxed font-body text-ink-muted">
-                          {a}
-                        </p>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </motion.li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
+                        +
+                      </span>
+                    </button>
+
+                    <AnimatePresence initial={false}>
+                      {isOpen && (
+                        <motion.div
+                          key="answer"
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: 'auto', opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.3, ease: 'easeInOut' }}
+                          className="overflow-hidden"
+                        >
+                          <p className="pb-6 text-sm leading-relaxed text-ink-muted">
+                            {a}
+                          </p>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </section>
+      </HomeSection>
 
       {/* -- CTA -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.65 }}
-          >
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-accent">
-              {isDE ? 'Jetzt starten' : 'Get started'}
-            </p>
-            <h2
-              className="font-heading font-bold mb-6"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Aufnahmeantrag stellen' : 'Submit your application'}
             </h2>
-            <p className="text-base leading-relaxed font-body mb-10 max-w-xl text-ink-muted">
+            <p className="text-ink-muted mb-8 max-w-xl">
               {isDE
                 ? 'Der Aufnahmeantrag für unseren Verein erfolgt ausschließlich über die Hanf-App. Dort kannst du dich registrieren, deinen Antrag einreichen und den Status verfolgen.'
                 : 'The admission application for our association is exclusively via the Hanf-App. There you can register, submit your application and track the status.'}
@@ -369,14 +290,27 @@ export function MitgliedschaftClient({ isDE }: Props) {
               href="https://diehanfapp.de"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] font-body transition-opacity duration-200 hover:opacity-70 text-accent"
+              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-md transition-all duration-200 hover:-translate-y-0.5 bg-accent text-white"
             >
               {isDE ? 'Zur Hanf-App' : 'Go to Hanf-App'}
               <ExternalLink className="w-4 h-4" />
             </a>
-          </motion.div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </HomeSection>
     </>
+  );
+}
+
+function HomeSection({ children }: { children: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6 }}
+    >
+      {children}
+    </motion.div>
   );
 }

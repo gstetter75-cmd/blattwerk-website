@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
-import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, ShieldCheck, AlertTriangle } from 'lucide-react';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
+import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, AlertTriangle } from 'lucide-react';
 import { HeroImage } from '@/components/decorative/HeroImage';
 
 interface Props {
@@ -11,11 +10,11 @@ interface Props {
 }
 
 const fadeUp = {
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.55 },
-} as const;
+  transition: { duration: 0.5 },
+};
 
 export function CscGruendungClient({ isDE }: Props) {
   const offerings = [
@@ -23,22 +22,22 @@ export function CscGruendungClient({ isDE }: Props) {
       icon: MessageCircle,
       title: isDE ? 'Erfahrungsaustausch' : 'Experience Sharing',
       text: isDE
-        ? 'Wir teilen unsere Erfahrungen aus dem gesamten Gründungsprozess – von der Satzung über die Behördenkommunikation bis zur Anbaugenehmigung. Ehrlich, ungeschönt und praxisnah.'
-        : 'We share our experiences from the entire founding process – from statutes to authority communication to the cultivation license. Honest, unfiltered and practical.',
+        ? 'Wir teilen unsere Erfahrungen aus dem gesamten Gründungsprozess – von der Satzung über die Behördenkommunikation bis zur Anbaugenehmigung.'
+        : 'We share our experiences from the entire founding process – from statutes to authority communication to the cultivation license.',
     },
     {
       icon: BookOpen,
       title: isDE ? 'Orientierung im Regelwerk' : 'Navigating Regulations',
       text: isDE
-        ? 'Das KCanG ist komplex, die Landesgesetze variieren. Wir helfen dir, die relevanten Paragraphen zu verstehen und auf deine Situation anzuwenden – ohne juristische Beratung zu ersetzen.'
-        : 'The KCanG is complex, state laws vary. We help you understand the relevant paragraphs and apply them to your situation – without replacing legal counsel.',
+        ? 'Das KCanG ist komplex, die Landesgesetze variieren. Wir helfen dir, die relevanten Paragraphen zu verstehen und auf deine Situation anzuwenden.'
+        : 'The KCanG is complex, state laws vary. We help you understand the relevant paragraphs and apply them to your situation.',
     },
     {
       icon: Lightbulb,
       title: isDE ? 'Praktische Tipps' : 'Practical Tips',
       text: isDE
-        ? 'Welche Fehler haben wir gemacht? Was würden wir anders machen? Welche Tools und Strukturen haben sich bewährt? Wir geben Einblicke, die kein Leitfaden abdeckt.'
-        : 'What mistakes did we make? What would we do differently? Which tools and structures have proven useful? We share insights no guide covers.',
+        ? 'Welche Fehler haben wir gemacht? Was würden wir anders machen? Welche Tools und Strukturen haben sich bewährt?'
+        : 'What mistakes did we make? What would we do differently? Which tools and structures have proven useful?',
     },
     {
       icon: Users,
@@ -51,21 +50,18 @@ export function CscGruendungClient({ isDE }: Props) {
 
   const principles = [
     {
-      num: '01',
       title: isDE ? 'Hilfe zur Selbsthilfe' : 'Help for Self-Help',
       text: isDE
-        ? 'Wir übernehmen nicht euer Denken und nicht eure Arbeit. Einen CSC zu gründen erfordert Eigeninitiative, Durchhaltevermögen und die Bereitschaft, sich intensiv mit Gesetzen, Vereinsrecht und Anbau auseinanderzusetzen. Wir können Türen zeigen – durchgehen müsst ihr selbst.'
-        : 'We don\'t do your thinking or your work. Founding a CSC requires initiative, perseverance and the willingness to engage intensively with laws, association law and cultivation. We can show doors – you have to walk through them.',
+        ? 'Wir übernehmen nicht euer Denken und nicht eure Arbeit. Einen CSC zu gründen erfordert Eigeninitiative, Durchhaltevermögen und die Bereitschaft, sich intensiv mit Gesetzen, Vereinsrecht und Anbau auseinanderzusetzen.'
+        : 'We don\'t do your thinking or your work. Founding a CSC requires initiative, perseverance and the willingness to engage intensively with laws, association law and cultivation.',
     },
     {
-      num: '02',
       title: isDE ? 'Ehrliche Einschätzungen' : 'Honest Assessments',
       text: isDE
-        ? 'Wenn wir denken, dass ein Konzept Schwächen hat, sagen wir das. Nicht um zu entmutigen, sondern weil ein solides Fundament der Schlüssel zum Erfolg ist. Beschönigung hilft niemandem.'
-        : 'If we think a concept has weaknesses, we\'ll say so. Not to discourage, but because a solid foundation is the key to success. Sugarcoating helps no one.',
+        ? 'Wenn wir denken, dass ein Konzept Schwächen hat, sagen wir das. Nicht um zu entmutigen, sondern weil ein solides Fundament der Schlüssel zum Erfolg ist.'
+        : 'If we think a concept has weaknesses, we\'ll say so. Not to discourage, but because a solid foundation is the key to success.',
     },
     {
-      num: '03',
       title: isDE ? 'Keine Rechtsberatung' : 'No Legal Advice',
       text: isDE
         ? 'Wir sind keine Anwälte. Unsere Tipps basieren auf Erfahrung, nicht auf juristischer Expertise. Für rechtlich verbindliche Fragen empfehlen wir immer einen spezialisierten Rechtsanwalt.'
@@ -89,29 +85,37 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Brauche ich Cannabis-Erfahrung?' : 'Do I need cannabis experience?',
       a: isDE
-        ? 'Anbau-Erfahrung ist ein großer Vorteil, aber keine zwingende Voraussetzung. Entscheidend sind organisatorisches Talent, Vereinserfahrung, Durchhaltevermögen und die Bereitschaft, sich schnell in komplexe Themen einzuarbeiten.'
-        : 'Growing experience is a big advantage but not a strict requirement. What matters is organizational talent, association experience, perseverance and the willingness to quickly learn complex topics.',
+        ? 'Anbau-Erfahrung ist ein großer Vorteil, aber keine zwingende Voraussetzung. Entscheidend sind organisatorisches Talent, Vereinserfahrung und die Bereitschaft, sich schnell in komplexe Themen einzuarbeiten.'
+        : 'Growing experience is a big advantage but not a strict requirement. What matters is organizational talent, association experience and the willingness to quickly learn complex topics.',
     },
     {
       q: isDE ? 'Könnt ihr uns bei der Satzung helfen?' : 'Can you help with the statutes?',
       a: isDE
-        ? 'Wir können euch zeigen, was in unserer Satzung steht und warum – als Orientierung. Eure Satzung müsst ihr aber selbst erarbeiten, idealerweise mit anwaltlicher Prüfung. Jeder CSC hat andere Voraussetzungen.'
-        : 'We can show you what\'s in our statutes and why – as orientation. But you need to develop your own, ideally with legal review. Every CSC has different conditions.',
+        ? 'Wir können euch zeigen, was in unserer Satzung steht und warum – als Orientierung. Eure Satzung müsst ihr aber selbst erarbeiten, idealerweise mit anwaltlicher Prüfung.'
+        : 'We can show you what\'s in our statutes and why – as orientation. But you need to develop your own, ideally with legal review.',
     },
   ];
 
   return (
     <>
-      <WQFPageHero
-        label={isDE ? 'Für Gründungsinteressierte' : 'For Aspiring Founders'}
-        title={isDE ? 'Einen CSC gründen?' : 'Starting a CSC?'}
-        subtitle={
-          isDE
-            ? 'Du spielst mit dem Gedanken, einen Cannabis Social Club zu gründen? Wir waren an dem gleichen Punkt – und stehen dir bei Fragen gerne zur Seite.'
-            : 'Thinking about founding a Cannabis Social Club? We\'ve been at the same point – and we\'re happy to help with your questions.'
-        }
-        accentColor="green"
-      />
+      {/* -- Hero -- */}
+      <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <motion.div {...fadeUp}>
+            <p className="text-sm font-medium text-accent mb-4">
+              {isDE ? 'Für Gründungsinteressierte' : 'For Aspiring Founders'}
+            </p>
+            <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
+              {isDE ? 'Einen CSC gründen?' : 'Starting a CSC?'}
+            </h1>
+            <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
+              {isDE
+                ? 'Du spielst mit dem Gedanken, einen Cannabis Social Club zu gründen? Wir waren an dem gleichen Punkt – und stehen dir bei Fragen gerne zur Seite.'
+                : 'Thinking about founding a Cannabis Social Club? We\'ve been at the same point – and we\'re happy to help with your questions.'}
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
       <HeroImage
         src="/images/cannabis-indoor.jpg"
@@ -119,144 +123,102 @@ export function CscGruendungClient({ isDE }: Props) {
         height="260px"
       />
 
-      {/* -- Was wir bieten -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Unser Angebot' : 'What We Offer'}
-            </p>
-            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
+      {/* -- What we offer -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Wie wir helfen können' : 'How we can help'}
             </h2>
-          </motion.div>
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE ? 'Unser Angebot für Gründungsinitiativen' : 'What we offer founding initiatives'}
+            </p>
 
-          <div className="grid sm:grid-cols-2 gap-px border border-[var(--border)]">
-            {offerings.map(({ icon: Icon, title, text }, i) => (
-              <motion.div
-                key={title}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 lg:p-10 bg-bg"
-              >
-                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
-                  <Icon className="w-5 h-5 text-accent" />
+            <div className="grid sm:grid-cols-2 gap-5">
+              {offerings.map(({ icon: Icon, title, text }) => (
+                <div key={title} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+                    <Icon className="w-5 h-5 text-accent" />
+                  </div>
+                  <h3 className="font-heading font-semibold text-lg mb-2">{title}</h3>
+                  <p className="text-sm leading-relaxed text-ink-muted">{text}</p>
                 </div>
-                <h3 className="font-heading font-bold text-xl mb-3">
-                  {title}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {text}
-                </p>
-              </motion.div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </HomeSection>
 
-      {/* -- Wichtiger Hinweis -- */}
-      <section className="py-16 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+      {/* -- Important notice -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <div className="flex gap-4 p-6 rounded-xl border border-gold-theme/20 bg-gold-theme/5">
               <AlertTriangle className="w-5 h-5 text-gold-theme shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-heading text-lg mb-2">
+                <h3 className="font-heading font-semibold text-lg mb-2">
                   {isDE ? 'Klare Erwartungen' : 'Clear Expectations'}
                 </h3>
                 <p className="text-sm leading-relaxed text-ink-muted">
                   {isDE
-                    ? 'Einen Cannabis Social Club zu gründen ist kein Wochenendprojekt. Es erfordert monatelange Vorbereitung, fundiertes Wissen über das KCanG und die jeweiligen Landesgesetze, einen festen Kern an engagierten Mitstreitern und erhebliche finanzielle Vorleistungen. Wir können euch Erfahrungen teilen und Orientierung geben – aber die Arbeit, die Recherche und die Entscheidungen liegen bei euch.'
-                    : 'Founding a Cannabis Social Club is not a weekend project. It requires months of preparation, solid knowledge of the KCanG and respective state laws, a core group of committed partners and significant financial upfront investment. We can share experiences and provide orientation – but the work, research and decisions are yours.'}
+                    ? 'Einen Cannabis Social Club zu gründen ist kein Wochenendprojekt. Es erfordert monatelange Vorbereitung, fundiertes Wissen über das KCanG und die jeweiligen Landesgesetze, einen festen Kern an engagierten Mitstreitern und erhebliche finanzielle Vorleistungen.'
+                    : 'Founding a Cannabis Social Club is not a weekend project. It requires months of preparation, solid knowledge of the KCanG and respective state laws, a core group of committed partners and significant financial upfront investment.'}
                 </p>
               </div>
             </div>
-          </motion.div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </HomeSection>
 
-      {/* -- Unsere Grundsätze -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Unser Ansatz' : 'Our Approach'}
-            </p>
-            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
-              {isDE ? 'Hilfe zur Selbsthilfe' : 'Help for Self-Help'}
+      {/* -- Principles -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
+              {isDE ? 'Unsere Grundsätze' : 'Our Principles'}
             </h2>
-          </motion.div>
 
-          {principles.map(({ num, title, text }, i) => (
-            <motion.div
-              key={num}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.45, delay: i * 0.07 }}
-              className={`flex items-start gap-6 py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
-            >
-              <span className="font-mono text-xs shrink-0 mt-1 w-6 text-right text-ink-faint">
-                {num}
-              </span>
-              <div className="pl-4 border-l border-accent/25">
-                <h3 className="font-heading font-bold text-lg mb-2">
-                  {title}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {text}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+            <div className="grid md:grid-cols-3 gap-5">
+              {principles.map(({ title, text }) => (
+                <div key={title} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <h3 className="font-heading font-semibold text-lg mb-2">{title}</h3>
+                  <p className="text-sm leading-relaxed text-ink-muted">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </HomeSection>
 
       {/* -- FAQ -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              FAQ
-            </p>
-            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
               {isDE ? 'Häufige Fragen' : 'Common Questions'}
             </h2>
-          </motion.div>
 
-          {faqs.map(({ q, a }, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.45, delay: i * 0.06 }}
-              className={`py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
-            >
-              <h3 className="font-heading font-bold text-base mb-3">
-                {q}
-              </h3>
-              <p className="text-sm leading-relaxed font-body text-ink-muted">
-                {a}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+            {faqs.map(({ q, a }, i) => (
+              <div
+                key={i}
+                className={`py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
+              >
+                <h3 className="font-heading font-bold text-base mb-3">{q}</h3>
+                <p className="text-sm leading-relaxed text-ink-muted">{a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </HomeSection>
 
       {/* -- CTA -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-accent">
-              {isDE ? 'Kontakt aufnehmen' : 'Get in Touch'}
-            </p>
-            <h2 className="font-heading font-bold mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Schreib uns einfach' : 'Just reach out'}
             </h2>
-            <p className="text-base leading-relaxed font-body mb-10 max-w-xl text-ink-muted">
+            <p className="text-ink-muted mb-8 max-w-xl">
               {isDE
                 ? 'Egal ob du ganz am Anfang stehst oder schon mittendrin bist – schreib uns eine Nachricht. Wir antworten, wenn wir können, und sind ehrlich, wenn wir etwas nicht wissen.'
                 : 'Whether you\'re just starting out or already in the middle of it – send us a message. We\'ll respond when we can, and we\'re honest when we don\'t know something.'}
@@ -265,21 +227,34 @@ export function CscGruendungClient({ isDE }: Props) {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/kontakt"
-                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-all duration-200 hover:-translate-y-0.5 bg-accent text-white"
+                className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-md transition-all duration-200 hover:-translate-y-0.5 bg-accent text-white"
               >
-                {isDE ? 'Kontaktformular' : 'Contact Form'} <ArrowRight className="w-3.5 h-3.5" />
+                {isDE ? 'Kontaktformular' : 'Contact Form'} <ArrowRight className="w-4 h-4" />
               </Link>
               <a
                 href="mailto:info@blattwerk.dev?subject=CSC%20Gr%C3%BCndung%20%E2%80%93%20Fragen"
-                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-colors duration-200 text-ink-muted border border-[var(--border)]"
+                className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-md transition-colors duration-200 text-ink-muted border border-[var(--border)]"
               >
-                <Mail className="w-3.5 h-3.5" />
+                <Mail className="w-4 h-4" />
                 {isDE ? 'Direkt per E-Mail' : 'Direct Email'}
               </a>
             </div>
-          </motion.div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </HomeSection>
     </>
+  );
+}
+
+function HomeSection({ children }: { children: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6 }}
+    >
+      {children}
+    </motion.div>
   );
 }

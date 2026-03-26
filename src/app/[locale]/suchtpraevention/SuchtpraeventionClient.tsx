@@ -1,134 +1,79 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
-
-const fadeUp = {
-  initial: { opacity: 0, y: 24 },
-  whileInView: { opacity: 1, y: 0 } as const,
-  viewport: { once: true } as const,
-};
 
 interface Props {
   isDE: boolean;
 }
 
+const fadeUp = {
+  initial: { opacity: 0, y: 20 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: '-60px' },
+  transition: { duration: 0.5 },
+};
+
 export function SuchtpraeventionClient({ isDE }: Props) {
   const conceptItems = [
     {
-      num: '01',
       title: isDE ? 'Aufklärung statt Verharmlosung' : 'Education Instead of Trivialization',
       text: isDE
-        ? 'Cannabis ist kein harmloses Genussmittel. Unser Präventionskonzept basiert auf evidenzbasierter Aufklärung über Wirkungen, Risiken und Nebenwirkungen. Wir informieren sachlich, ohne zu verharmlosen oder zu dramatisieren.'
-        : 'Cannabis is not a harmless recreational substance. Our prevention concept is based on evidence-based education about effects, risks and side effects. We inform objectively, without trivializing or dramatizing.',
+        ? 'Evidenzbasierte Aufklärung über Wirkungen, Risiken und Nebenwirkungen — sachlich, ohne zu verharmlosen oder zu dramatisieren.'
+        : 'Evidence-based education about effects, risks and side effects — objective, without trivializing or dramatizing.',
     },
     {
-      num: '02',
       title: isDE ? 'Früherkennung & Intervention' : 'Early Detection & Intervention',
       text: isDE
-        ? 'Unsere geschulten Suchtpräventionsbeauftragten beobachten aufmerksam und sprechen Mitglieder an, wenn sie Anzeichen für problematischen Konsum bemerken. Frühzeitige Intervention kann einer Abhängigkeitsentwicklung vorbeugen.'
-        : 'Our trained addiction prevention officers observe attentively and approach members when they notice signs of problematic consumption. Early intervention can prevent the development of addiction.',
+        ? 'Geschulte Beauftragte beobachten aufmerksam und sprechen Mitglieder bei Anzeichen problematischen Konsums an.'
+        : 'Trained officers observe attentively and approach members showing signs of problematic consumption.',
     },
     {
-      num: '03',
       title: isDE ? 'Beratung & Vermittlung' : 'Counseling & Referral',
       text: isDE
-        ? 'Mitglieder mit problematischem Konsum erhalten vertrauliche Beratung und werden bei Bedarf an professionelle Suchtberatungsstellen vermittelt. Die Inanspruchnahme ist freiwillig und vertraulich.'
-        : 'Members with problematic consumption receive confidential counseling and are referred to professional addiction counseling services when needed. Usage is voluntary and confidential.',
+        ? 'Vertrauliche Beratung und bei Bedarf Vermittlung an professionelle Suchtberatungsstellen.'
+        : 'Confidential counseling and referral to professional addiction counseling services when needed.',
     },
     {
-      num: '04',
       title: isDE ? 'Mindestalter 21 Jahre' : 'Minimum Age 21 Years',
       text: isDE
-        ? 'Eine Mitgliedschaft bei BlattWerk e.V. ist erst ab 21 Jahren möglich. Dies geht über die gesetzlichen Mindestanforderungen hinaus und dient dem besonderen Schutz junger Menschen. Der Konsum in der Phase der Gehirnreife birgt erhöhte Gesundheitsrisiken.'
-        : 'Membership at BlattWerk e.V. is only possible from the age of 21. This goes beyond the legal minimum requirements and serves the special protection of young people. Consumption during brain development carries increased health risks.',
+        ? 'Mitgliedschaft erst ab 21 — über die gesetzlichen Mindestanforderungen hinaus, zum Schutz junger Menschen.'
+        : 'Membership from age 21 only — beyond legal minimum requirements, to protect young people.',
     },
   ];
-
-  const warningSigns = isDE
-    ? [
-        'Erhöhte Toleranz – du brauchst mehr für die gleiche Wirkung.',
-        'Kontrollverlust – Konsum ist häufiger oder mehr als geplant.',
-        'Sozialer Rückzug – Isolation von Familie und Freunden.',
-        'Vernachlässigung von Hobbys und früheren Interessen.',
-        'Stimmungsschwankungen – Reizbarkeit oder Niedergeschlagenheit.',
-        'Craving – starkes Verlangen nach Cannabis.',
-        'Konsum trotz negativer Konsequenzen.',
-        'Vernachlässigung beruflicher oder schulischer Pflichten.',
-      ]
-    : [
-        'Increased tolerance – you need more for the same effect.',
-        'Loss of control – consumption is more frequent or heavier than planned.',
-        'Social withdrawal – isolation from family and friends.',
-        'Neglecting hobbies and former interests.',
-        'Mood changes – irritability or low mood.',
-        'Craving – strong desire for cannabis.',
-        'Continued use despite negative consequences.',
-        'Neglecting professional or academic responsibilities.',
-      ];
 
   const helpResources = [
-    {
-      name: isDE
-        ? 'BZgA – Bundeszentrale für gesundheitliche Aufklärung'
-        : 'BZgA – Federal Centre for Health Education',
-      contact: '0221 89 20 31',
-      url: 'https://www.bzga.de',
-    },
-    {
-      name: isDE ? 'Drogen-Hotline' : 'Drug Hotline',
-      contact: '01806 313031',
-      url: null,
-    },
-    {
-      name: 'Telefonseelsorge',
-      contact: '0800 111 0 111',
-      url: 'https://www.telefonseelsorge.de',
-    },
-    {
-      name: 'Drugcom.de (BZgA)',
-      contact: 'drugcom.de',
-      url: 'https://www.drugcom.de',
-    },
-    {
-      name: 'Quit the Shit (BZgA)',
-      contact: 'quit-the-shit.net',
-      url: 'https://www.quit-the-shit.net',
-    },
-  ];
-
-  const contacts = [
-    {
-      name: 'Jennifer Trebbin',
-      role: isDE ? 'Suchtpräventionsbeauftragte' : 'Addiction Prevention Officer',
-    },
-    {
-      name: 'N.N.',
-      role: isDE ? 'Stellvertretung' : 'Deputy Officer',
-    },
+    { name: isDE ? 'BZgA – Bundeszentrale für gesundheitliche Aufklärung' : 'BZgA – Federal Centre for Health Education', contact: '0221 89 20 31', url: 'https://www.bzga.de' },
+    { name: isDE ? 'Drogen-Hotline' : 'Drug Hotline', contact: '01806 313031', url: null },
+    { name: 'Telefonseelsorge', contact: '0800 111 0 111', url: 'https://www.telefonseelsorge.de' },
+    { name: 'Drugcom.de (BZgA)', contact: 'drugcom.de', url: 'https://www.drugcom.de' },
+    { name: 'Quit the Shit (BZgA)', contact: 'quit-the-shit.net', url: 'https://www.quit-the-shit.net' },
   ];
 
   return (
     <>
-      <WQFPageHero
-        label={isDE ? 'Suchtprävention' : 'Addiction Prevention'}
-        title={isDE ? 'Prävention & Hilfe' : 'Prevention & Help'}
-        subtitle={isDE
-          ? 'Verantwortungsvoller Umgang beginnt mit Aufklärung.'
-          : 'Responsible handling begins with education.'}
-        accentColor="gold"
-      />
+      {/* -- Hero -- */}
+      <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <motion.div {...fadeUp}>
+            <p className="text-sm font-medium text-gold-theme mb-4">
+              {isDE ? 'Suchtprävention' : 'Addiction Prevention'}
+            </p>
+            <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
+              {isDE ? 'Prävention & Hilfe' : 'Prevention & Help'}
+            </h1>
+            <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
+              {isDE
+                ? 'Verantwortungsvoller Umgang beginnt mit Aufklärung.'
+                : 'Responsible handling begins with education.'}
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
       {/* Age warning strip */}
-      <div
-        className="py-3 border-b border-[var(--border)]"
-        style={{ background: 'rgba(239,68,68,0.06)' }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center gap-4">
-          <span
-            className="shrink-0 text-xs font-bold uppercase tracking-[0.2em] font-body"
-            style={{ color: '#ef4444' }}
-          >
+      <div className="py-3 border-b border-[var(--border)]" style={{ background: 'rgba(239,68,68,0.06)' }}>
+        <div className="max-w-6xl mx-auto px-6 lg:px-8 flex items-center gap-4">
+          <span className="shrink-0 text-sm font-medium" style={{ color: '#ef4444' }}>
             {isDE ? 'Hinweis' : 'Notice'}
           </span>
           <p className="text-xs leading-relaxed" style={{ color: 'rgba(239,68,68,0.75)' }}>
@@ -139,207 +84,110 @@ export function SuchtpraeventionClient({ isDE }: Props) {
         </div>
       </div>
 
-      {/* Concept -- 2x2 border grid */}
-      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.p
-            {...fadeUp}
-            transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12 text-gold-theme"
-          >
-            {isDE ? 'Unser Konzept' : 'Our Concept'}
-          </motion.p>
+      {/* -- Concept -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
+              {isDE ? 'Unser Konzept' : 'Our Concept'}
+            </h2>
 
-          <div className="grid md:grid-cols-2 border border-[var(--border)]">
-            {conceptItems.map(({ num, title, text }, i) => {
-              const col = i % 2;
-              const row = Math.floor(i / 2);
-              return (
-                <motion.div
-                  key={num}
-                  {...fadeUp}
-                  transition={{ duration: 0.5, delay: i * 0.07 }}
-                  className="p-8 lg:p-10"
-                  style={{
-                    borderRight: col === 0 ? '1px solid var(--border)' : undefined,
-                    borderBottom: row === 0 ? '1px solid var(--border)' : undefined,
-                  }}
-                >
-                  <p
-                    className="font-heading font-bold mb-5 leading-none text-ink-faint/20"
-                    style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)' }}
-                  >
-                    {num}
-                  </p>
-                  <h3
-                    className="font-heading font-bold mb-3"
-                    style={{ fontSize: 'clamp(1.1rem, 1.8vw, 1.4rem)' }}
-                  >
-                    {title}
-                  </h3>
-                  <p className="text-sm leading-relaxed text-ink-muted">
-                    {text}
-                  </p>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Warning signs -- 2-col numbered list */}
-      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
-            {/* Left: sticky heading */}
-            <motion.div
-              {...fadeUp}
-              transition={{ duration: 0.55 }}
-              className="lg:sticky lg:top-32 self-start"
-            >
-              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-gold-theme">
-                {isDE ? 'Risikosignale' : 'Risk Signals'}
-              </p>
-              <h2
-                className="font-heading font-bold leading-none"
-                style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-              >
-                {isDE ? 'Warnsignale' : 'Warning\nSigns'}
-              </h2>
-              <p className="mt-6 text-sm leading-relaxed text-ink-muted">
-                {isDE
-                  ? 'Problematischer Konsum entwickelt sich oft schleichend. Erkennst du mehrere dieser Zeichen, wende dich an unsere Suchtprävention oder an eine externe Beratungsstelle.'
-                  : 'Problematic consumption often develops gradually. If you recognize several of these signs, contact our addiction prevention team or an external counseling service.'}
-              </p>
-            </motion.div>
-
-            {/* Right: 2-col list */}
-            <div className="grid sm:grid-cols-2">
-              {warningSigns.map((sign, i) => {
-                const num = String(i + 1).padStart(2, '0');
-                return (
-                  <motion.div
-                    key={i}
-                    {...fadeUp}
-                    transition={{ duration: 0.45, delay: i * 0.05 }}
-                    className="py-5 pr-4 border-t border-[var(--border)]"
-                  >
-                    <span
-                      className="block font-heading font-bold mb-2 leading-none text-ink-faint"
-                      style={{ fontSize: '1.5rem' }}
-                    >
-                      {num}
-                    </span>
-                    <p className="text-sm leading-relaxed text-ink-muted">
-                      {sign}
-                    </p>
-                  </motion.div>
-                );
-              })}
+            <div className="grid sm:grid-cols-2 gap-5">
+              {conceptItems.map(({ title, text }) => (
+                <div key={title} className="p-5 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <h3 className="font-heading font-semibold text-base mb-2">{title}</h3>
+                  <p className="text-sm leading-relaxed text-ink-muted">{text}</p>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </HomeSection>
 
-      {/* Help resources -- row list with dividers */}
-      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.p
-            {...fadeUp}
-            transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme"
-          >
-            {isDE ? 'Hilfsangebote' : 'Help Resources'}
-          </motion.p>
-          <motion.h2
-            {...fadeUp}
-            transition={{ duration: 0.55, delay: 0.05 }}
-            className="font-heading font-bold mb-14 leading-none"
-            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-          >
-            {isDE ? 'Anlaufstellen' : 'Contact Points'}
-          </motion.h2>
+      {/* -- Beauftragte -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
+              {isDE ? 'Ansprechpersonen' : 'Contact Persons'}
+            </h2>
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE
+                ? 'Bei Fragen zur Suchtprävention oder bei Bedarf an Beratung.'
+                : 'For questions about addiction prevention or counseling needs.'}
+            </p>
 
-          <div>
-            {helpResources.map((resource, i) => (
-              <motion.div
-                key={i}
-                {...fadeUp}
-                transition={{ duration: 0.45, delay: i * 0.06 }}
-                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 py-6 border-t border-[var(--border)]"
-              >
-                <p
-                  className="font-heading font-bold"
-                  style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}
-                >
-                  {resource.name}
+            <div className="grid md:grid-cols-2 gap-5">
+              <div className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                <p className="text-xs font-medium text-gold-theme mb-3">
+                  {isDE ? 'Suchtpräventionsbeauftragte' : 'Addiction Prevention Officer'}
                 </p>
+                <h3 className="font-heading font-semibold text-lg">Jennifer Trebbin</h3>
+              </div>
+              <div className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                <p className="text-xs font-medium text-gold-theme mb-3">
+                  {isDE ? 'Stellvertretung' : 'Deputy Officer'}
+                </p>
+                <h3 className="font-heading font-semibold text-lg">N.N.</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* -- Help resources -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
+              {isDE ? 'Externe Hilfsangebote' : 'External Help Resources'}
+            </h2>
+
+            {helpResources.map((resource, i) => (
+              <div
+                key={i}
+                className={`flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
+              >
+                <p className="font-heading font-semibold text-base">{resource.name}</p>
                 <div className="flex items-center gap-6 shrink-0">
-                  <span className="text-sm font-bold tabular-nums text-gold-theme">
-                    {resource.contact}
-                  </span>
+                  <span className="text-sm font-bold tabular-nums text-gold-theme">{resource.contact}</span>
                   {resource.url && (
                     <a
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs font-bold uppercase tracking-[0.2em] font-body transition-opacity hover:opacity-60 text-ink-faint"
+                      className="text-sm text-ink-faint transition-opacity hover:opacity-60"
                     >
                       &#8599;
                     </a>
                   )}
                 </div>
-              </motion.div>
+              </div>
             ))}
-            <div className="border-t border-[var(--border)]" />
           </div>
-        </div>
-      </section>
+        </section>
+      </HomeSection>
 
-      {/* Club contacts -- simple rows */}
-      <section className="py-20 lg:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.p
-            {...fadeUp}
-            transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-14 text-gold-theme"
-          >
-            {isDE ? 'Vereinskontakte' : 'Club Contacts'}
-          </motion.p>
-
-          <div>
-            {contacts.map(({ name, role }, i) => (
-              <motion.div
-                key={i}
-                {...fadeUp}
-                transition={{ duration: 0.45, delay: i * 0.07 }}
-                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 py-6 border-t border-[var(--border)]"
-              >
-                <p
-                  className="font-heading font-bold"
-                  style={{ fontSize: 'clamp(1.25rem, 2vw, 1.75rem)' }}
-                >
-                  {name}
-                </p>
-                <p className="text-xs font-bold uppercase tracking-[0.2em] font-body text-ink-faint">
-                  {role}
-                </p>
-              </motion.div>
-            ))}
-            <div className="border-t border-[var(--border)]" />
-          </div>
-
-          <motion.p
-            {...fadeUp}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="mt-8 text-xs leading-relaxed max-w-2xl text-ink-faint"
-          >
-            {isDE
-              ? 'Das Suchtpräventionskonzept des BlattWerk e.V. erfüllt die Anforderungen des KCanG (§ 6 Abs. 3). Bei akuten Notfällen: Notruf 112.'
-              : 'The addiction prevention concept of BlattWerk e.V. meets the requirements of the KCanG (§ 6 Abs. 3). In acute emergencies: call 112.'}
-          </motion.p>
-        </div>
-      </section>
+      <div className="py-10 max-w-6xl mx-auto px-6 lg:px-8">
+        <p className="text-xs leading-relaxed max-w-2xl text-ink-faint">
+          {isDE
+            ? 'Das Suchtpräventionskonzept des BlattWerk e.V. erfüllt die Anforderungen des KCanG (§ 6 Abs. 3). Bei akuten Notfällen: Notruf 112.'
+            : 'The addiction prevention concept of BlattWerk e.V. meets the requirements of the KCanG (§ 6 Abs. 3). In acute emergencies: call 112.'}
+        </p>
+      </div>
     </>
+  );
+}
+
+function HomeSection({ children }: { children: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6 }}
+    >
+      {children}
+    </motion.div>
   );
 }

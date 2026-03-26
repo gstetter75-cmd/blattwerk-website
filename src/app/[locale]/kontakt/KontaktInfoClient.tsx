@@ -10,11 +10,11 @@ interface Props {
 }
 
 const fadeUp = {
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.6 },
-} as const;
+  transition: { duration: 0.5 },
+};
 
 function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
   const [consented, setConsented] = useState(false);
@@ -95,19 +95,16 @@ export function KontaktInfoClient({ isDE }: Props) {
   return (
     <>
       {/* -- Form + Info two-column -- */}
-      <section className="py-20 lg:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <section className="py-16 lg:py-24">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
 
             {/* Left: Contact Form */}
             <motion.div {...fadeUp}>
-              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
+              <p className="text-sm font-medium text-accent mb-4">
                 {isDE ? 'Nachricht senden' : 'Send Message'}
               </p>
-              <h2
-                className="font-heading font-bold mb-10"
-                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}
-              >
+              <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
                 {isDE ? 'Schreib uns' : 'Write to us'}
               </h2>
               <ContactForm isDE={isDE} />
@@ -115,18 +112,15 @@ export function KontaktInfoClient({ isDE }: Props) {
 
             {/* Right: Contact info */}
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
+              <p className="text-sm font-medium text-accent mb-4">
                 {isDE ? 'Kontaktdaten' : 'Contact Details'}
               </p>
-              <h2
-                className="font-heading font-bold mb-10"
-                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}
-              >
+              <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
                 {isDE ? 'Wo wir sind' : 'Where we are'}
               </h2>
 
@@ -139,10 +133,10 @@ export function KontaktInfoClient({ isDE }: Props) {
                   >
                     <Icon className="w-4 h-4 shrink-0 mt-0.5 text-accent" />
                     <div>
-                      <p className="text-xs font-bold uppercase tracking-[0.2em] font-body mb-1.5 text-ink-faint">
+                      <p className="text-sm font-medium text-ink-faint mb-1.5">
                         {label}
                       </p>
-                      <p className="text-sm leading-relaxed font-body whitespace-pre-line text-ink-muted">
+                      <p className="text-sm leading-relaxed whitespace-pre-line text-ink-muted">
                         {value}
                       </p>
                     </div>
@@ -154,7 +148,7 @@ export function KontaktInfoClient({ isDE }: Props) {
               <div className="pt-8 border-t border-[var(--border)]">
                 <div className="flex items-center gap-3 mb-6">
                   <Clock className="w-4 h-4 text-gold-theme" />
-                  <p className="text-xs font-bold uppercase tracking-[0.25em] font-body text-gold-theme">
+                  <p className="text-sm font-medium text-gold-theme">
                     {isDE ? 'Öffnungszeiten' : 'Opening Hours'}
                   </p>
                 </div>
@@ -164,12 +158,8 @@ export function KontaktInfoClient({ isDE }: Props) {
                       key={i}
                       className={`flex justify-between items-center py-4 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                     >
-                      <span className="text-sm font-body text-ink-muted">
-                        {day}
-                      </span>
-                      <span className="text-sm font-mono text-ink-faint">
-                        {time}
-                      </span>
+                      <span className="text-sm text-ink-muted">{day}</span>
+                      <span className="text-sm font-mono text-ink-faint">{time}</span>
                     </div>
                   ))}
                 </div>
@@ -180,30 +170,17 @@ export function KontaktInfoClient({ isDE }: Props) {
       </section>
 
       {/* -- Location section -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-12">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-6">
               {isDE ? 'Standort' : 'Location'}
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
-              {isDE ? 'Wetzellplatz 2' : 'Wetzellplatz 2'}
             </h2>
-          </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-          >
-            <div className="flex items-center gap-6 py-8 border-t border-[var(--border)]">
+            <div className="flex items-center gap-6 py-6 border-t border-[var(--border)]">
               <MapPin className="w-5 h-5 shrink-0 text-ink-faint" />
               <div>
-                <p className="text-base font-body text-ink-muted">
+                <p className="text-sm text-ink-muted">
                   BlattWerk e.V. — Wetzellplatz 2, 31137 Hildesheim
                 </p>
                 <p className="text-xs font-mono mt-1 text-ink-faint">
@@ -214,11 +191,23 @@ export function KontaktInfoClient({ isDE }: Props) {
               </div>
             </div>
 
-            {/* Map embed -- consent-gated for GDPR */}
             <GoogleMapsEmbed isDE={isDE} />
-          </motion.div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </HomeSection>
     </>
+  );
+}
+
+function HomeSection({ children }: { children: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6 }}
+    >
+      {children}
+    </motion.div>
   );
 }
