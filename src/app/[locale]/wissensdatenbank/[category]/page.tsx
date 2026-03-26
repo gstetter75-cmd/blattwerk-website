@@ -37,7 +37,7 @@ export default async function CategoryPage({
             <ArrowLeft className="w-4 h-4" />
             {isDE ? 'Zurück zur Übersicht' : 'Back to overview'}
           </Link>
-          <h1 className="font-heading italic font-medium text-ink mb-3" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)' }}>
+          <h1 className="font-heading font-bold text-3xl lg:text-4xl text-ink mb-3">
             {isDE ? category.label_de : category.label_en}
           </h1>
           <p className="text-ink-muted max-w-2xl">

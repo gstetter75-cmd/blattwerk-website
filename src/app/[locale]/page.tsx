@@ -278,7 +278,7 @@ function HomeContent() {
                   {t('strain_label')}
                 </p>
                 <h2 className="font-heading font-bold text-2xl lg:text-3xl leading-tight">
-                  {isDE ? `${strains.length} Sorten dokumentiert` : `${strains.length} strains documented`}
+                  {isDE ? `${strains.length} Sorten in der Planung` : `${strains.length} strains in planning`}
                 </h2>
               </div>
               <Link

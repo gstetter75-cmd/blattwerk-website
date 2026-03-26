@@ -6,6 +6,8 @@ import { cannabinoidArticles } from './articles-cannabinoids';
 import { terpeneArticles } from './articles-terpenes';
 import { growingArticles } from './articles-growing';
 import { preventionArticlesV2 } from './articles-prevention-v2';
+import { historyArticles } from './articles-history';
+import { medicineArticles } from './articles-medicine';
 
 export type { KnowledgeArticle, KnowledgeCategory };
 
@@ -18,6 +20,8 @@ const combinedArticles: readonly KnowledgeArticle[] = [
   ...terpeneArticles,
   ...growingArticles,
   ...preventionArticlesV2,
+  ...historyArticles,
+  ...medicineArticles,
 ];
 
 export const allArticles: readonly KnowledgeArticle[] = combinedArticles;

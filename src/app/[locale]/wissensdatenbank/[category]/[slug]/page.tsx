@@ -73,7 +73,7 @@ export default async function ArticlePage({
             <ArrowLeft className="w-4 h-4" />
             {isDE ? category.label_de : category.label_en}
           </Link>
-          <h1 className="font-heading italic font-medium text-ink mb-4" style={{ fontSize: 'clamp(1.75rem, 4vw, 2.75rem)' }}>
+          <h1 className="font-heading font-bold text-3xl lg:text-4xl text-ink mb-4">
             {title}
           </h1>
           <div className="flex flex-wrap items-center gap-4 text-sm text-ink-faint">

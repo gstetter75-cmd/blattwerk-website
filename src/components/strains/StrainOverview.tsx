@@ -99,17 +99,24 @@ export function StrainOverview() {
 
   return (
     <>
-      <WQFPageHero
-        label={lang === 'de' ? 'Sorten' : 'Strains'}
-        title={lang === 'de' ? 'Sortendatenbank' : 'Strain Database'}
-        subtitle={lang === 'de'
-          ? `${strains.length} Sorten \u2014 wissenschaftlich dokumentiert.`
-          : `${strains.length} strains \u2014 scientifically documented.`}
-        accentColor="green"
-      />
+      <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <p className="text-sm font-medium text-accent mb-4">
+            {lang === 'de' ? 'Sortendatenbank' : 'Strain Database'}
+          </p>
+          <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-4">
+            {lang === 'de' ? `${strains.length} Sorten dokumentiert` : `${strains.length} strains documented`}
+          </h1>
+          <p className="text-lg text-ink-muted max-w-2xl">
+            {lang === 'de'
+              ? 'Unsere Sortenauswahl als Planungsgrundlage für den gemeinschaftlichen Anbau. Genetik, Terpenprofil und Wirkungsspektrum — wissenschaftlich aufbereitet.'
+              : 'Our strain selection as a planning basis for communal cultivation. Genetics, terpene profile and effect spectrum — scientifically documented.'}
+          </p>
+        </div>
+      </section>
 
       <section className="py-10 bg-bg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Search + controls */}
           <div className="flex gap-3 mb-8">
