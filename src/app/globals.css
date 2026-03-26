@@ -37,9 +37,9 @@
   --color-accent-soft: var(--accent-soft);
   --color-gold-theme:  var(--gold);
 
-  --font-heading: 'Fraunces', Georgia, serif;
-  --font-body:    'Plus Jakarta Sans', system-ui, sans-serif;
-  --font-mono:    'JetBrains Mono', monospace;
+  --font-heading: 'Lora', Georgia, serif;
+  --font-body:    'Nunito', system-ui, sans-serif;
+  --font-mono:    'Fira Code', monospace;
 }
 
 /* ─── Base ─── */

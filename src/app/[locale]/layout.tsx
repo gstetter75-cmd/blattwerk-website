@@ -2,27 +2,26 @@ import type { Metadata } from 'next';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
-import { Fraunces, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
+import { Lora, Nunito, Fira_Code } from 'next/font/google';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
-const fraunces = Fraunces({
+const lora = Lora({
   subsets: ['latin'],
   variable: '--font-heading',
   display: 'swap',
-  axes: ['opsz'],
 });
 
-const plusJakarta = Plus_Jakarta_Sans({
+const nunito = Nunito({
   subsets: ['latin'],
   variable: '--font-body',
   display: 'swap',
 });
 
-const jetbrains = JetBrains_Mono({
+const firaCode = Fira_Code({
   subsets: ['latin'],
   variable: '--font-mono',
   display: 'swap',
@@ -46,7 +45,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${fraunces.variable} ${plusJakarta.variable} ${jetbrains.variable}`}
+      className={`${lora.variable} ${nunito.variable} ${firaCode.variable}`}
     >
       <head>
         <link rel="alternate" hrefLang="de" href={`${BASE_URL}/de/`} />
