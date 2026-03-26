@@ -27,7 +27,9 @@
     "csc_desc": "Help with starting your own club",
     "knowledge_desc": "Articles on law, health and growing",
     "events_desc": "Workshops, talks and dates",
-    "donations_desc": "Support the club financially"
+    "donations_desc": "Support the club financially",
+    "more": "More",
+    "contact_desc": "Write to us or visit us"
   },
   "home": {
     "hero_title": "Welcome to BlattWerk e.V.",

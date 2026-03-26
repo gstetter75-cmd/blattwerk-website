@@ -22,19 +22,19 @@ interface NavItem {
 }
 
 const navItems: readonly NavItem[] = [
+  { key: 'about', href: '/ueber-uns' },
+  { key: 'membership', href: '/mitgliedschaft' },
+  { key: 'strains', href: '/sortendatenbank' },
+  { key: 'knowledge', href: '/wissensdatenbank' },
   {
-    key: 'about',
-    href: '/ueber-uns',
+    key: 'more',
+    href: '/kontakt',
     children: [
-      { key: 'about_club', href: '/ueber-uns', description: 'mission_desc' },
-      { key: 'membership', href: '/mitgliedschaft', description: 'membership_desc' },
+      { key: 'contact', href: '/kontakt', description: 'contact_desc' },
       { key: 'prevention', href: '/suchtpraevention', description: 'prevention_desc' },
       { key: 'csc_founding', href: '/csc-gruendung', description: 'csc_desc' },
     ],
   },
-  { key: 'strains', href: '/sortendatenbank' },
-  { key: 'knowledge', href: '/wissensdatenbank' },
-  { key: 'contact', href: '/kontakt' },
 ];
 
 function DropdownMenu({

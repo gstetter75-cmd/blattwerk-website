@@ -27,7 +27,9 @@
     "csc_desc": "Hilfe beim Aufbau eines eigenen Clubs",
     "knowledge_desc": "Artikel zu Recht, Gesundheit und Anbau",
     "events_desc": "Workshops, Vorträge und Termine",
-    "donations_desc": "Den Verein finanziell unterstützen"
+    "donations_desc": "Den Verein finanziell unterstützen",
+    "more": "Mehr",
+    "contact_desc": "Schreib uns oder besuche uns vor Ort"
   },
   "home": {
     "hero_title": "Willkommen bei BlattWerk e.V.",
