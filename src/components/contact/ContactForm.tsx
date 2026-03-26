@@ -28,7 +28,7 @@ function markSubmitted(): void {
   try {
     localStorage.setItem(RATE_LIMIT.STORAGE_KEY, String(Date.now()));
   } catch {
-    // localStorage unavailable — silently continue
+    // localStorage unavailable
   }
 }
 
@@ -49,10 +49,8 @@ export function ContactForm({ isDE }: ContactFormProps) {
     'w-full px-4 py-3 bg-bg-elevated border border-[var(--border)] rounded-md focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent/40 text-ink placeholder:text-ink-faint text-sm transition-colors';
 
   async function onSubmit(data: ContactFormData) {
-    // Honeypot check
     if (honeypot) return;
 
-    // Rate limiting
     if (isRateLimited()) {
       setSubmitState('rate-limited');
       return;
@@ -61,20 +59,19 @@ export function ContactForm({ isDE }: ContactFormProps) {
     setSubmitState('loading');
 
     try {
-      const formData = new URLSearchParams({
-        'form-name': 'contact',
-        'bot-field': '',
-        name: data.name,
-        email: data.email,
-        subject: data.subject,
-        message: data.message,
-        privacy: 'on',
-      });
-
-      const res = await fetch('/', {
+      const res = await fetch('https://formspree.io/f/xdkozqpl', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: formData.toString(),
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          subject: data.subject,
+          message: data.message,
+          _subject: `BlattWerk Kontakt: ${data.subject}`,
+        }),
       });
 
       if (res.ok) {
@@ -114,18 +111,11 @@ export function ContactForm({ isDE }: ContactFormProps) {
 
   return (
     <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit(onSubmit)}
       className="space-y-4"
       noValidate
     >
-      {/* Netlify hidden fields */}
-      <input type="hidden" name="form-name" value="contact" />
-
-      {/* Honeypot — invisible to real users */}
+      {/* Honeypot */}
       <div className="hidden" aria-hidden="true">
         <label htmlFor="bot-field">
           Do not fill this out
@@ -245,8 +235,8 @@ export function ContactForm({ isDE }: ContactFormProps) {
         <div className="flex items-center gap-2 p-3 rounded-md bg-red-500/10 border border-red-500/20 text-red-400 text-sm" role="alert">
           <AlertCircle className="w-4 h-4 shrink-0" />
           {isDE
-            ? 'Fehler beim Senden. Bitte versuche es erneut oder schreib uns direkt per E-Mail.'
-            : 'Error sending. Please try again or contact us directly by email.'}
+            ? 'Fehler beim Senden. Bitte versuche es erneut oder schreib uns direkt an info@blattwerk.dev'
+            : 'Error sending. Please try again or email us directly at info@blattwerk.dev'}
         </div>
       )}
 

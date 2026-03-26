@@ -32,17 +32,6 @@ export default async function ContactPage({
         ]}
       />
 
-      {/* Hidden form for Netlify Forms detection during build */}
-      <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
-        <input name="form-name" />
-        <input name="bot-field" />
-        <input name="name" />
-        <input name="email" />
-        <input name="subject" />
-        <textarea name="message" />
-        <input name="privacy" type="checkbox" />
-      </form>
-
       <WQFPageHero
         label={isDE ? 'Kontakt' : 'Contact'}
         title={isDE ? 'Kontakt' : 'Contact'}

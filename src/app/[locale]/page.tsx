@@ -27,43 +27,7 @@ export default async function HomePage({
   );
 }
 
-const PILLARS = [
-  {
-    num: '01',
-    title: 'Verantwortung',
-    text: 'Bewusster, verantwortungsvoller Umgang mit Cannabis – für Mitglieder, Familie und Gemeinschaft.',
-  },
-  {
-    num: '02',
-    title: 'Transparenz',
-    text: 'Offene Kommunikation, klare Regeln und nachvollziehbare Entscheidungen in allen Vereinsangelegenheiten.',
-  },
-  {
-    num: '03',
-    title: 'Gemeinschaft',
-    text: 'Mehr als ein Verein – ein Netzwerk gleichgesinnter Menschen in Hildesheim.',
-  },
-  {
-    num: '04',
-    title: 'Aufklärung',
-    text: 'Wissenschaftlich fundiertes Wissen zu Cannabinoiden, Prävention und Rechtslage.',
-  },
-] as const;
-
-const STRAIN_FEATURES = [
-  {
-    label: 'Genetik & Herkunft',
-    text: 'Vollständige Stammbäume, Kreuzungshistorie und Herkunftsregionen aller 89 dokumentierten Sorten.',
-  },
-  {
-    label: 'Terpenprofil & Aroma',
-    text: 'Detaillierte Terpendaten – Myrcen, Limonen, Caryophyllen – mit Aromacharakter und Geschmacksprofil.',
-  },
-  {
-    label: 'Wirkung & Cannabinoide',
-    text: 'THC/CBD-Werte, Wirkungsspektrum und Effektprofil für informierte, bewusste Entscheidungen.',
-  },
-] as const;
+const PILLAR_NUMS = ['01', '02', '03', '04'] as const;
 
 function HomeContent() {
   const t = useTranslations('home');
@@ -87,7 +51,7 @@ function HomeContent() {
             <div className="lg:w-[55%] lg:pr-16 py-16 lg:py-0">
               <HomeHero>
                 <p className="text-xs font-bold uppercase tracking-[0.25em] text-accent mb-10 font-body">
-                  Cannabis Social Club · Hildesheim
+                  {t('csc_label')}
                 </p>
 
                 <h1
@@ -113,7 +77,7 @@ function HomeContent() {
                       boxShadow: '0 0 28px rgba(34,197,94,0.25)',
                     }}
                   >
-                    Mitglied werden <ArrowRight className="w-3.5 h-3.5" />
+                    {t('join_button')} <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                   <Link
                     href="/sortendatenbank"
@@ -149,22 +113,22 @@ function HomeContent() {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
             style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
           >
-            {PILLARS.map((p, i) => (
-              <HomePillar key={p.num} delay={i * 0.08}>
+            {PILLAR_NUMS.map((num, i) => (
+              <HomePillar key={num} delay={i * 0.08}>
                 <div
                   className="py-12 px-6 lg:px-8 h-full"
                   style={{
-                    borderRight: i < PILLARS.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none',
+                    borderRight: i < PILLAR_NUMS.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none',
                   }}
                 >
                   <p className="font-mono text-xs mb-6" style={{ color: 'var(--text-faint)' }}>
-                    {p.num} / 04
+                    {num} / 04
                   </p>
                   <h3 className="font-heading italic text-xl mb-4" style={{ color: 'var(--text)' }}>
-                    {p.title}
+                    {t(`pillar_${i + 1}_title`)}
                   </h3>
                   <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                    {p.text}
+                    {t(`pillar_${i + 1}_text`)}
                   </p>
                 </div>
               </HomePillar>
@@ -185,15 +149,13 @@ function HomeContent() {
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.2em] mb-5 font-body"
                   style={{ color: 'var(--accent)' }}>
-                  Sortendatenbank
+                  {t('strain_label')}
                 </p>
                 <h2
                   className="font-heading italic font-bold leading-none"
-                  style={{ fontSize: 'clamp(2.5rem, 5.5vw, 5rem)', color: 'var(--text)' }}
+                  style={{ fontSize: 'clamp(2.5rem, 5.5vw, 5rem)', color: 'var(--text)', whiteSpace: 'pre-line' }}
                 >
-                  89 Sorten.<br />
-                  Wissenschaftlich<br />
-                  dokumentiert.
+                  {t('strain_heading')}
                 </h2>
               </div>
               <Link
@@ -210,18 +172,18 @@ function HomeContent() {
               className="grid grid-cols-1 md:grid-cols-3"
               style={{ borderTop: '1px solid rgba(255,255,255,0.06)', borderLeft: '1px solid rgba(255,255,255,0.06)' }}
             >
-              {STRAIN_FEATURES.map(({ label, text }) => (
+              {[1, 2, 3].map((n) => (
                 <div
-                  key={label}
+                  key={n}
                   className="p-8 lg:p-10"
                   style={{ borderRight: '1px solid rgba(255,255,255,0.06)', borderBottom: '1px solid rgba(255,255,255,0.06)' }}
                 >
                   <div className="w-px h-10 mb-8" style={{ background: 'rgba(34,197,94,0.3)' }} />
                   <h3 className="font-heading italic text-lg mb-3" style={{ color: 'var(--text)' }}>
-                    {label}
+                    {t(`strain_feat_${n}_label`)}
                   </h3>
                   <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                    {text}
+                    {t(`strain_feat_${n}_text`)}
                   </p>
                 </div>
               ))}
@@ -242,7 +204,7 @@ function HomeContent() {
               <div className="lg:w-1/2">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] mb-5 font-body"
                   style={{ color: 'var(--gold)' }}>
-                  Wissensdatenbank
+                  {t('knowledge_label')}
                 </p>
                 <h2
                   className="font-heading italic font-bold leading-none mb-6"
@@ -270,13 +232,13 @@ function HomeContent() {
                   style={{ border: '1px solid rgba(255,255,255,0.06)' }}
                 >
                   {[
-                    { value: '40+', label: 'Wissensartikel' },
-                    { value: '89', label: 'Sorten dokumentiert' },
-                    { value: '12', label: 'Kategorien' },
-                    { value: '100%', label: 'Kostenfrei zugänglich' },
-                  ].map(({ value, label }, i) => (
+                    { value: '40+', labelKey: 'stat_articles' },
+                    { value: '89', labelKey: 'stat_strains' },
+                    { value: '12', labelKey: 'stat_categories' },
+                    { value: '100%', labelKey: 'stat_free' },
+                  ].map(({ value, labelKey }, i) => (
                     <div
-                      key={label}
+                      key={labelKey}
                       className="p-8 lg:p-10"
                       style={{
                         borderRight: i % 2 === 0 ? '1px solid rgba(255,255,255,0.06)' : 'none',
@@ -291,7 +253,7 @@ function HomeContent() {
                       </p>
                       <p className="text-xs uppercase tracking-[0.1em] font-body"
                         style={{ color: 'var(--text-muted)' }}>
-                        {label}
+                        {t(labelKey)}
                       </p>
                     </div>
                   ))}
@@ -312,7 +274,7 @@ function HomeContent() {
             <div className="lg:w-1/2">
               <p className="text-xs font-bold uppercase tracking-[0.2em] mb-5 font-body"
                 style={{ color: 'var(--accent)' }}>
-                Mitgliedschaft
+                {t('membership_label')}
               </p>
               <h2
                 className="font-heading italic font-bold leading-none"

@@ -32,10 +32,11 @@ const TYPE_OPTIONS = [
 
 const TOP_EFFECTS = ['relaxed', 'creative', 'euphoric', 'focused', 'energetic', 'sleepy'];
 
-function filterStrains(list: Strain[], query: string, filters: Filters): Strain[] {
+function filterStrains(list: Strain[], query: string, filters: Filters, locale: string): Strain[] {
   const q = query.toLowerCase();
   return list.filter((s) => {
-    if (q && !s.name.toLowerCase().includes(q) && !s.description_de.toLowerCase().includes(q)) return false;
+    const desc = locale === 'de' ? s.description_de : s.description_en;
+    if (q && !s.name.toLowerCase().includes(q) && !desc.toLowerCase().includes(q)) return false;
     if (filters.types.size > 0 && !filters.types.has(s.type)) return false;
     if (filters.effects.size > 0) {
       const has = Array.from(filters.effects).some((e) => s.effects[e as keyof typeof s.effects] >= 55);
@@ -86,9 +87,9 @@ export function StrainOverview() {
   const totalActive = filters.types.size + filters.effects.size + filters.thcRangeKeys.size;
 
   const results = useMemo(() => {
-    const filtered = filterStrains(strains, query, filters);
+    const filtered = filterStrains(strains, query, filters, locale);
     return sortStrains(filtered, sort);
-  }, [query, filters, sort]);
+  }, [query, filters, sort, locale]);
 
   const sortOptions: { value: SortKey; label: string }[] = [
     { value: 'name-asc',    label: 'A–Z' },

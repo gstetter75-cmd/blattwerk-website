@@ -1,13 +1,31 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useLocale } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Cookie } from 'lucide-react';
 import { Z } from '@/lib/z-index';
 
 const STORAGE_KEY = 'blattwerk-cookie-consent';
 
+const TEXTS = {
+  de: {
+    title: 'Cookies & Datenschutz',
+    text: 'Wir verwenden ausschließlich technisch notwendige Cookies. Keine Tracking- oder Werbe-Cookies.',
+    decline: 'Ablehnen',
+    accept: 'Akzeptieren',
+  },
+  en: {
+    title: 'Cookies & Privacy',
+    text: 'We only use technically necessary cookies. No tracking or advertising cookies.',
+    decline: 'Decline',
+    accept: 'Accept',
+  },
+} as const;
+
 export function CookieBanner() {
+  const locale = useLocale();
+  const t = TEXTS[locale === 'en' ? 'en' : 'de'];
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -40,16 +58,16 @@ export function CookieBanner() {
             backdropFilter: 'blur(20px)',
             boxShadow: '0 8px 40px rgba(0,0,0,0.3)',
           }}
+          role="dialog"
+          aria-label={t.title}
         >
           <div className="flex items-start gap-3 mb-4">
             <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center shrink-0 mt-0.5">
               <Cookie className="w-4 h-4 text-accent" />
             </div>
             <div>
-              <p className="text-sm font-semibold text-ink mb-1">Cookies & Datenschutz</p>
-              <p className="text-xs text-ink-muted leading-relaxed">
-                Wir verwenden ausschließlich technisch notwendige Cookies. Keine Tracking- oder Werbe-Cookies.
-              </p>
+              <p className="text-sm font-semibold text-ink mb-1">{t.title}</p>
+              <p className="text-xs text-ink-muted leading-relaxed">{t.text}</p>
             </div>
           </div>
 
@@ -58,7 +76,7 @@ export function CookieBanner() {
               onClick={decline}
               className="flex-1 py-2 text-sm text-ink-muted hover:text-ink border border-[var(--border)] rounded-md hover:bg-bg-elevated transition-all duration-200 cursor-pointer"
             >
-              Ablehnen
+              {t.decline}
             </button>
             <button
               onClick={accept}
@@ -68,7 +86,7 @@ export function CookieBanner() {
                 boxShadow: '0 0 12px rgba(34,197,94,0.2)',
               }}
             >
-              Akzeptieren
+              {t.accept}
             </button>
           </div>
         </motion.div>
