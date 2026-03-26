@@ -64,3 +64,12 @@ export const RATE_LIMIT = {
   /** LocalStorage key */
   STORAGE_KEY: 'bw_contact_last_submit',
 } as const;
+
+/* ── Contact ────────────────────────────────────────────────────────── */
+
+export const CONTACT = {
+  EMAIL: 'info@blattwerk.dev',
+  PHONE: '+49 15233539841',
+  PHONE_HREF: 'tel:+4915233539841',
+  ADDRESS: 'Wetzellplatz 2, 31137 Hildesheim',
+} as const;

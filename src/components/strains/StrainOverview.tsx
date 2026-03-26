@@ -218,7 +218,7 @@ export function StrainOverview() {
                 {/* Type filter */}
                 <FilterSection
                   label={lang === 'de' ? 'Typ' : 'Type'}
-                  lang={lang}
+
                 >
                   {TYPE_OPTIONS.map(({ value, label }) => (
                     <FilterCheckbox
@@ -232,7 +232,7 @@ export function StrainOverview() {
                 </FilterSection>
 
                 {/* THC filter */}
-                <FilterSection label="THC" lang={lang}>
+                <FilterSection label="THC">
                   {thcRanges.map((r) => (
                     <FilterCheckbox
                       key={r.key}
@@ -247,7 +247,7 @@ export function StrainOverview() {
                 {/* Effects filter */}
                 <FilterSection
                   label={lang === 'de' ? 'Wirkung' : 'Effects'}
-                  lang={lang}
+
                 >
                   {TOP_EFFECTS.map((e) => (
                     <FilterCheckbox
@@ -307,7 +307,7 @@ export function StrainOverview() {
                         )}
                       </div>
 
-                      <FilterSection label={lang === 'de' ? 'Typ' : 'Type'} lang={lang}>
+                      <FilterSection label={lang === 'de' ? 'Typ' : 'Type'}>
                         {TYPE_OPTIONS.map(({ value, label }) => (
                           <FilterCheckbox
                             key={value}
@@ -319,7 +319,7 @@ export function StrainOverview() {
                         ))}
                       </FilterSection>
 
-                      <FilterSection label="THC" lang={lang}>
+                      <FilterSection label="THC">
                         {thcRanges.map((r) => (
                           <FilterCheckbox
                             key={r.key}
@@ -333,7 +333,7 @@ export function StrainOverview() {
 
                       <FilterSection
                         label={lang === 'de' ? 'Wirkung' : 'Effects'}
-                        lang={lang}
+      
                       >
                         {TOP_EFFECTS.map((e) => (
                           <FilterCheckbox
@@ -418,7 +418,6 @@ export function StrainOverview() {
 
 interface FilterSectionProps {
   label: string;
-  lang: string;
   children: React.ReactNode;
 }
 

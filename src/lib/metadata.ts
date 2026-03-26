@@ -59,6 +59,7 @@ export const PAGE_META = {
   blog: {
     de: { title: 'Blog', description: 'Neuigkeiten, Berichte und Einblicke aus dem BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
     en: { title: 'Blog', description: 'News, reports and insights from BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
+    noIndex: true,
   },
   privacy: {
     de: { title: 'Datenschutzerklärung', description: 'Datenschutzerklärung von BlattWerk e.V. – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.' },

@@ -6,6 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { createContactSchema, type ContactFormData } from '@/lib/validation';
 import { RATE_LIMIT } from '@/lib/constants';
+import { Link } from '@/i18n/navigation';
 
 interface ContactFormProps {
   readonly isDE: boolean;
@@ -222,9 +223,11 @@ export function ContactForm({ isDE }: ContactFormProps) {
           aria-describedby={errors.privacy ? 'privacy-error' : undefined}
         />
         <label htmlFor="privacy" className="text-xs text-ink-muted leading-relaxed">
-          {isDE
-            ? 'Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *'
-            : 'I have read the privacy policy and agree to the processing of my data to handle my inquiry. *'}
+          {isDE ? (
+            <>Ich habe die <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">Datenschutzerklärung</Link> gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *</>
+          ) : (
+            <>I have read the <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">privacy policy</Link> and agree to the processing of my data to handle my inquiry. *</>
+          )}
         </label>
       </div>
       {errors.privacy && (
