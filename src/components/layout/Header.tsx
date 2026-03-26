@@ -7,6 +7,7 @@ import { Globe, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Z } from '@/lib/z-index';
 import Image from 'next/image';
+import { SearchDialog } from '@/components/search/SearchDialog';
 
 const navGroups = [
   {
@@ -159,6 +160,8 @@ export function Header() {
 
             {/* Right */}
             <div className="flex items-center gap-4">
+              <SearchDialog />
+
               <button
                 onClick={switchLocale}
                 className="hidden sm:flex items-center gap-1.5 text-xs text-ink-muted hover:text-ink transition-colors font-body uppercase tracking-[0.12em] cursor-pointer"

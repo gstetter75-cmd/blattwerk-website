@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 
 interface Props {
@@ -132,6 +133,18 @@ export function UeberUnsClient({ isDE }: Props) {
         }
         accentColor="green"
       />
+
+      {/* ── Image Banner ──────────────────────────────────────────────────── */}
+      <section className="relative overflow-hidden" style={{ height: '280px', ...sectionBorder }}>
+        <Image
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cannabis-seedlings.jpg`}
+          alt={isDE ? 'Cannabis-Setzlinge im Gewächshaus' : 'Cannabis seedlings in greenhouse'}
+          fill
+          className="object-cover"
+          style={{ opacity: 0.35 }}
+        />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, var(--bg), transparent 30%, transparent 70%, var(--bg))' }} />
+      </section>
 
       {/* ── Values ───────────────────────────────────────────────────────── */}
       <section className="py-20 lg:py-28" style={sectionBorder}>

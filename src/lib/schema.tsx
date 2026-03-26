@@ -48,7 +48,9 @@ export function OrganizationSchema() {
             availableLanguage: ['German', 'English'],
           },
         ],
-        sameAs: [],
+        sameAs: [
+          'https://www.instagram.com/blattwerk_ev',
+        ],
       }}
     />
   );
