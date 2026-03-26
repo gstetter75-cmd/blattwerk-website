@@ -72,25 +72,18 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
           : 'A safe place for community, education and responsible handling.'}
       />
 
-      {/* Areas — thin border grid */}
-      <section
-        className="py-20 lg:py-28"
-        style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
-      >
+      {/* Areas -- thin border grid */}
+      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12"
-            style={{ color: 'var(--accent)' }}
+            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12 text-accent"
           >
             {isDE ? 'Bereiche' : 'Areas'}
           </motion.p>
 
-          <div
-            className="grid lg:grid-cols-3"
-            style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-          >
+          <div className="grid lg:grid-cols-3 border border-[var(--border)]">
             {areas.map(({ num, title, text }, i) => (
               <motion.div
                 key={num}
@@ -99,29 +92,23 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
                 className="p-8 lg:p-10"
                 style={{
                   borderRight: i < areas.length - 1
-                    ? '1px solid rgba(255,255,255,0.06)'
+                    ? '1px solid var(--border)'
                     : undefined,
                 }}
               >
                 <p
-                  className="font-heading italic font-bold mb-6 leading-none"
-                  style={{
-                    fontSize: 'clamp(2.5rem, 4vw, 3.5rem)',
-                    color: 'rgba(255,255,255,0.06)',
-                  }}
+                  className="font-heading font-bold mb-6 leading-none text-ink-faint/20"
+                  style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)' }}
                 >
                   {num}
                 </p>
                 <h3
-                  className="font-heading italic font-bold mb-4"
-                  style={{
-                    fontSize: 'clamp(1.25rem, 2vw, 1.75rem)',
-                    color: 'var(--text)',
-                  }}
+                  className="font-heading font-bold mb-4"
+                  style={{ fontSize: 'clamp(1.25rem, 2vw, 1.75rem)' }}
                 >
                   {title}
                 </h3>
-                <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                <p className="text-sm leading-relaxed text-ink-muted">
                   {text}
                 </p>
               </motion.div>
@@ -130,18 +117,14 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* Rules — numbered list with large faint numbers */}
-      <section
-        className="py-20 lg:py-28"
-        style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
-      >
+      {/* Rules -- numbered list with large faint numbers */}
+      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <motion.p
               {...fadeUp}
               transition={{ duration: 0.5 }}
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6"
-              style={{ color: 'var(--accent)' }}
+              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-accent"
             >
               {isDE ? 'Nutzungsregeln' : 'Usage Rules'}
             </motion.p>
@@ -149,8 +132,8 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
             <motion.h2
               {...fadeUp}
               transition={{ duration: 0.55, delay: 0.05 }}
-              className="font-heading italic font-bold mb-16 leading-none"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold mb-16 leading-none"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Hausordnung' : 'House Rules'}
             </motion.h2>
@@ -163,34 +146,27 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
                     key={i}
                     {...fadeUp}
                     transition={{ duration: 0.45, delay: i * 0.05 }}
-                    className="flex items-start gap-8 py-6"
-                    style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
+                    className="flex items-start gap-8 py-6 border-t border-[var(--border)]"
                   >
                     <span
-                      className="font-heading italic font-bold shrink-0 leading-none"
-                      style={{
-                        fontSize: 'clamp(1.5rem, 3vw, 2.25rem)',
-                        color: 'var(--text-faint)',
-                      }}
+                      className="font-heading font-bold shrink-0 leading-none text-ink-faint"
+                      style={{ fontSize: 'clamp(1.5rem, 3vw, 2.25rem)' }}
                     >
                       {num}
                     </span>
-                    <p
-                      className="text-sm leading-relaxed pt-1"
-                      style={{ color: 'var(--text-muted)' }}
-                    >
+                    <p className="text-sm leading-relaxed pt-1 text-ink-muted">
                       {rule}
                     </p>
                   </motion.div>
                 );
               })}
-              <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }} />
+              <div className="border-t border-[var(--border)]" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Coming soon — address note */}
+      {/* Coming soon -- address note */}
       <section className="py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -198,20 +174,14 @@ export function RaeumlichkeitenClient({ isDE }: Props) {
             transition={{ duration: 0.5 }}
             className="flex flex-col sm:flex-row sm:items-start gap-6"
           >
-            <div
-              className="shrink-0 w-10 h-10 flex items-center justify-center"
-              style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-            >
-              <span style={{ color: 'var(--accent)', fontSize: '1rem' }}>→</span>
+            <div className="shrink-0 w-10 h-10 flex items-center justify-center border border-[var(--border)]">
+              <span className="text-accent" style={{ fontSize: '1rem' }}>&#8594;</span>
             </div>
             <div>
-              <p
-                className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-2"
-                style={{ color: 'var(--accent)' }}
-              >
+              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-2 text-accent">
                 {isDE ? 'Adresse' : 'Address'}
               </p>
-              <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+              <p className="text-sm leading-relaxed text-ink-muted">
                 {isDE
                   ? 'Die genaue Adresse unserer Vereinsräume wird nach erfolgreicher Mitgliedsaufnahme mitgeteilt. Die Räumlichkeiten befinden sich derzeit in Planung.'
                   : 'The exact address of our club premises will be communicated after successful membership admission. The premises are currently in the planning phase.'}

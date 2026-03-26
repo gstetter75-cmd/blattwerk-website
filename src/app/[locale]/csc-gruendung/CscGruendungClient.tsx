@@ -17,8 +17,6 @@ const fadeUp = {
   transition: { duration: 0.55 },
 } as const;
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 export function CscGruendungClient({ isDE }: Props) {
   const offerings = [
     {
@@ -121,19 +119,19 @@ export function CscGruendungClient({ isDE }: Props) {
         height="260px"
       />
 
-      {/* ── Was wir bieten ────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Was wir bieten -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4" style={{ color: 'var(--accent)' }}>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Unser Angebot' : 'What We Offer'}
             </p>
-            <h2 className="font-heading italic font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}>
+            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
               {isDE ? 'Wie wir helfen können' : 'How we can help'}
             </h2>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 gap-px" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="grid sm:grid-cols-2 gap-px border border-[var(--border)]">
             {offerings.map(({ icon: Icon, title, text }, i) => (
               <motion.div
                 key={title}
@@ -141,16 +139,15 @@ export function CscGruendungClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 lg:p-10"
-                style={{ background: 'var(--bg)' }}
+                className="p-8 lg:p-10 bg-bg"
               >
                 <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-6">
                   <Icon className="w-5 h-5 text-accent" />
                 </div>
-                <h3 className="font-heading italic font-bold text-xl mb-3" style={{ color: 'var(--text)' }}>
+                <h3 className="font-heading font-bold text-xl mb-3">
                   {title}
                 </h3>
-                <p className="text-sm leading-relaxed font-body" style={{ color: 'var(--text-muted)' }}>
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {text}
                 </p>
               </motion.div>
@@ -159,17 +156,17 @@ export function CscGruendungClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Wichtiger Hinweis ──────────────────────────────────────── */}
-      <section className="py-16" style={sectionBorder}>
+      {/* -- Wichtiger Hinweis -- */}
+      <section className="py-16 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp}>
             <div className="flex gap-4 p-6 rounded-xl border border-gold-theme/20 bg-gold-theme/5">
               <AlertTriangle className="w-5 h-5 text-gold-theme shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-heading italic text-lg mb-2" style={{ color: 'var(--text)' }}>
+                <h3 className="font-heading text-lg mb-2">
                   {isDE ? 'Klare Erwartungen' : 'Clear Expectations'}
                 </h3>
-                <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                <p className="text-sm leading-relaxed text-ink-muted">
                   {isDE
                     ? 'Einen Cannabis Social Club zu gründen ist kein Wochenendprojekt. Es erfordert monatelange Vorbereitung, fundiertes Wissen über das KCanG und die jeweiligen Landesgesetze, einen festen Kern an engagierten Mitstreitern und erhebliche finanzielle Vorleistungen. Wir können euch Erfahrungen teilen und Orientierung geben – aber die Arbeit, die Recherche und die Entscheidungen liegen bei euch.'
                     : 'Founding a Cannabis Social Club is not a weekend project. It requires months of preparation, solid knowledge of the KCanG and respective state laws, a core group of committed partners and significant financial upfront investment. We can share experiences and provide orientation – but the work, research and decisions are yours.'}
@@ -180,14 +177,14 @@ export function CscGruendungClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Unsere Grundsätze ─────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Unsere Grundsätze -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4" style={{ color: 'var(--accent)' }}>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Unser Ansatz' : 'Our Approach'}
             </p>
-            <h2 className="font-heading italic font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}>
+            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
               {isDE ? 'Hilfe zur Selbsthilfe' : 'Help for Self-Help'}
             </h2>
           </motion.div>
@@ -199,17 +196,16 @@ export function CscGruendungClient({ isDE }: Props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.45, delay: i * 0.07 }}
-              className="flex items-start gap-6 py-6"
-              style={i > 0 ? sectionBorder : undefined}
+              className={`flex items-start gap-6 py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
             >
-              <span className="font-mono text-xs shrink-0 mt-1 w-6 text-right" style={{ color: 'var(--text-faint)' }}>
+              <span className="font-mono text-xs shrink-0 mt-1 w-6 text-right text-ink-faint">
                 {num}
               </span>
-              <div className="pl-4" style={{ borderLeft: '1px solid rgba(34,197,94,0.25)' }}>
-                <h3 className="font-heading italic font-bold text-lg mb-2" style={{ color: 'var(--text)' }}>
+              <div className="pl-4 border-l border-accent/25">
+                <h3 className="font-heading font-bold text-lg mb-2">
                   {title}
                 </h3>
-                <p className="text-sm leading-relaxed font-body" style={{ color: 'var(--text-muted)' }}>
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {text}
                 </p>
               </div>
@@ -218,14 +214,14 @@ export function CscGruendungClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── FAQ ────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- FAQ -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4" style={{ color: 'var(--accent)' }}>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               FAQ
             </p>
-            <h2 className="font-heading italic font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}>
+            <h2 className="font-heading font-bold" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
               {isDE ? 'Häufige Fragen' : 'Common Questions'}
             </h2>
           </motion.div>
@@ -237,13 +233,12 @@ export function CscGruendungClient({ isDE }: Props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.45, delay: i * 0.06 }}
-              className="py-6"
-              style={i > 0 ? sectionBorder : undefined}
+              className={`py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
             >
-              <h3 className="font-heading italic font-bold text-base mb-3" style={{ color: 'var(--text)' }}>
+              <h3 className="font-heading font-bold text-base mb-3">
                 {q}
               </h3>
-              <p className="text-sm leading-relaxed font-body" style={{ color: 'var(--text-muted)' }}>
+              <p className="text-sm leading-relaxed font-body text-ink-muted">
                 {a}
               </p>
             </motion.div>
@@ -251,17 +246,17 @@ export function CscGruendungClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── CTA ────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- CTA -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp}>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6" style={{ color: 'var(--accent)' }}>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-accent">
               {isDE ? 'Kontakt aufnehmen' : 'Get in Touch'}
             </p>
-            <h2 className="font-heading italic font-bold mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}>
+            <h2 className="font-heading font-bold mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}>
               {isDE ? 'Schreib uns einfach' : 'Just reach out'}
             </h2>
-            <p className="text-base leading-relaxed font-body mb-10 max-w-xl" style={{ color: 'var(--text-muted)' }}>
+            <p className="text-base leading-relaxed font-body mb-10 max-w-xl text-ink-muted">
               {isDE
                 ? 'Egal ob du ganz am Anfang stehst oder schon mittendrin bist – schreib uns eine Nachricht. Wir antworten, wenn wir können, und sind ehrlich, wenn wir etwas nicht wissen.'
                 : 'Whether you\'re just starting out or already in the middle of it – send us a message. We\'ll respond when we can, and we\'re honest when we don\'t know something.'}
@@ -270,19 +265,13 @@ export function CscGruendungClient({ isDE }: Props) {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/kontakt"
-                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-all duration-200 hover:-translate-y-0.5"
-                style={{
-                  background: 'var(--accent)',
-                  color: 'var(--bg)',
-                  boxShadow: '0 0 24px rgba(34,197,94,0.2)',
-                }}
+                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-all duration-200 hover:-translate-y-0.5 bg-accent text-white"
               >
                 {isDE ? 'Kontaktformular' : 'Contact Form'} <ArrowRight className="w-3.5 h-3.5" />
               </Link>
               <a
                 href="mailto:info@blattwerk.dev?subject=CSC%20Gr%C3%BCndung%20%E2%80%93%20Fragen"
-                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-colors duration-200"
-                style={{ color: 'var(--text-muted)', border: '1px solid rgba(255,255,255,0.08)' }}
+                className="inline-flex items-center gap-2 px-7 py-3.5 text-xs font-bold uppercase tracking-[0.12em] font-body transition-colors duration-200 text-ink-muted border border-[var(--border)]"
               >
                 <Mail className="w-3.5 h-3.5" />
                 {isDE ? 'Direkt per E-Mail' : 'Direct Email'}

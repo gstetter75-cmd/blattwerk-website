@@ -12,13 +12,13 @@ const fadeUp = {
 };
 
 const iconEmoji: Record<string, string> = {
-  Scale: '⚖',
-  HeartPulse: '♥',
-  Atom: '⬡',
-  Droplets: '◈',
-  Sprout: '⊕',
-  Landmark: '▣',
-  Stethoscope: '✚',
+  Scale: '\u2696',
+  HeartPulse: '\u2665',
+  Atom: '\u2B21',
+  Droplets: '\u25C8',
+  Sprout: '\u2295',
+  Landmark: '\u25A3',
+  Stethoscope: '\u271A',
 };
 
 type CategoryWithCount = KnowledgeCategory & { articleCount: number };
@@ -38,8 +38,8 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
         label={isDE ? 'Wissensdatenbank' : 'Knowledge Base'}
         title={isDE ? 'Wissen' : 'Knowledge'}
         subtitle={isDE
-          ? 'Fundiertes Wissen rund um Cannabis – von der Rechtslage über Gesundheit bis zum Anbau.'
-          : 'In-depth knowledge about cannabis – from legal aspects to health and cultivation.'}
+          ? 'Fundiertes Wissen rund um Cannabis \u2013 von der Rechtslage \u00fcber Gesundheit bis zum Anbau.'
+          : 'In-depth knowledge about cannabis \u2013 from legal aspects to health and cultivation.'}
       />
 
       {/* Categories grid */}
@@ -48,18 +48,14 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12"
-            style={{ color: 'var(--accent)' }}
+            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12 text-accent"
           >
             {isDE ? 'Kategorien' : 'Categories'}
           </motion.p>
 
-          <div
-            className="grid md:grid-cols-2 lg:grid-cols-3"
-            style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-          >
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 border border-[var(--border)]">
             {categories.map((category, i) => {
-              const emoji = iconEmoji[category.icon] ?? '◎';
+              const emoji = iconEmoji[category.icon] ?? '\u25CE';
               const col = i % colCount;
               const row = Math.floor(i / colCount);
 
@@ -70,10 +66,10 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
                   transition={{ duration: 0.5, delay: i * 0.06 }}
                   style={{
                     borderRight: col < colCount - 1
-                      ? '1px solid rgba(255,255,255,0.06)'
+                      ? '1px solid var(--border)'
                       : undefined,
                     borderBottom: row < totalRows - 1
-                      ? '1px solid rgba(255,255,255,0.06)'
+                      ? '1px solid var(--border)'
                       : undefined,
                   }}
                 >
@@ -85,11 +81,8 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
                     {/* Number + emoji */}
                     <div className="flex items-start justify-between mb-6">
                       <span
-                        className="font-heading italic font-bold leading-none"
-                        style={{
-                          fontSize: 'clamp(2rem, 3vw, 2.75rem)',
-                          color: 'rgba(255,255,255,0.06)',
-                        }}
+                        className="font-heading font-bold leading-none text-ink-faint/20"
+                        style={{ fontSize: 'clamp(2rem, 3vw, 2.75rem)' }}
                       >
                         {String(i + 1).padStart(2, '0')}
                       </span>
@@ -103,20 +96,14 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
 
                     {/* Title */}
                     <h2
-                      className="font-heading italic font-bold mb-2 leading-tight group-hover:opacity-70 transition-opacity"
-                      style={{
-                        fontSize: 'clamp(1.1rem, 1.8vw, 1.4rem)',
-                        color: 'var(--text)',
-                      }}
+                      className="font-heading font-bold mb-2 leading-tight group-hover:opacity-70 transition-opacity"
+                      style={{ fontSize: 'clamp(1.1rem, 1.8vw, 1.4rem)' }}
                     >
                       {isDE ? category.label_de : category.label_en}
                     </h2>
 
                     {/* Article count */}
-                    <p
-                      className="text-xs font-bold uppercase tracking-[0.2em] font-body mb-4"
-                      style={{ color: 'var(--accent)' }}
-                    >
+                    <p className="text-xs font-bold uppercase tracking-[0.2em] font-body mb-4 text-accent">
                       {category.articleCount}{' '}
                       {isDE
                         ? 'Artikel'
@@ -126,19 +113,13 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
                     </p>
 
                     {/* Description */}
-                    <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: 'var(--text-muted)' }}
-                    >
+                    <p className="text-sm leading-relaxed text-ink-muted">
                       {isDE ? category.description_de : category.description_en}
                     </p>
 
                     {/* Arrow */}
-                    <p
-                      className="mt-6 text-xs font-bold uppercase tracking-[0.2em] font-body group-hover:translate-x-1 transition-transform inline-block"
-                      style={{ color: 'var(--text-faint)' }}
-                    >
-                      {isDE ? 'Alle Artikel' : 'All articles'} →
+                    <p className="mt-6 text-xs font-bold uppercase tracking-[0.2em] font-body group-hover:translate-x-1 transition-transform inline-block text-ink-faint">
+                      {isDE ? 'Alle Artikel' : 'All articles'} &#8594;
                     </p>
                   </Link>
                 </motion.div>
@@ -149,14 +130,11 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
       </section>
 
       {/* Disclaimer */}
-      <section style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }} className="py-10">
+      <section className="border-t border-[var(--border)] py-10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p
-            className="text-xs leading-relaxed max-w-3xl"
-            style={{ color: 'var(--text-faint)' }}
-          >
+          <p className="text-xs leading-relaxed max-w-3xl text-ink-faint">
             {isDE
-              ? 'Hinweis: Die Informationen in unserer Wissensdatenbank dienen der allgemeinen Aufklärung und ersetzen keine medizinische oder rechtliche Beratung. Bei gesundheitlichen Fragen wende dich bitte an einen Arzt.'
+              ? 'Hinweis: Die Informationen in unserer Wissensdatenbank dienen der allgemeinen Aufkl\u00e4rung und ersetzen keine medizinische oder rechtliche Beratung. Bei gesundheitlichen Fragen wende dich bitte an einen Arzt.'
               : 'Note: The information in our knowledge base is for general education and does not replace medical or legal advice. For health questions, please consult a doctor.'}
           </p>
         </div>

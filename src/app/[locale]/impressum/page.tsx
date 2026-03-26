@@ -17,8 +17,7 @@ export default async function ImpressumPage({
   setRequestLocale(locale);
   const isDE = locale === 'de';
 
-  const glassCard = 'rounded-xl border border-[var(--border)] p-6';
-  const glassStyle = { background: 'var(--glass)', backdropFilter: 'blur(12px)' } as const;
+  const glassCard = 'bg-bg-elevated border border-[var(--border)] rounded-xl p-6';
 
   return (
     <>
@@ -40,7 +39,7 @@ export default async function ImpressumPage({
           </p>
 
           {/* Verein */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <Building2 className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
@@ -74,7 +73,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Vorstand */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <ScrollText className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
@@ -103,7 +102,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Kontakt */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <Mail className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
@@ -141,7 +140,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Verantwortlicher für Inhalte */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <UserCheck className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
@@ -163,7 +162,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Datenschutzbeauftragter */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <Shield className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
@@ -194,7 +193,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Haftung für Inhalte */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <h2 className="font-heading italic text-xl text-ink mb-4">
               {isDE ? 'Haftung für Inhalte' : 'Liability for Content'}
             </h2>
@@ -206,7 +205,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Haftung für Links */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <h2 className="font-heading italic text-xl text-ink mb-4">
               {isDE ? 'Haftung für Links' : 'Liability for Links'}
             </h2>
@@ -218,7 +217,7 @@ export default async function ImpressumPage({
           </div>
 
           {/* Urheberrecht */}
-          <div className={glassCard} style={glassStyle}>
+          <div className={glassCard}>
             <h2 className="font-heading italic text-xl text-ink mb-4">
               {isDE ? 'Urheberrecht' : 'Copyright'}
             </h2>

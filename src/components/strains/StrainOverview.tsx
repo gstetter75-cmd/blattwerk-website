@@ -92,8 +92,8 @@ export function StrainOverview() {
   }, [query, filters, sort, locale]);
 
   const sortOptions: { value: SortKey; label: string }[] = [
-    { value: 'name-asc',    label: 'A–Z' },
-    { value: 'thc-desc',    label: 'THC ↓' },
+    { value: 'name-asc',    label: 'A\u2013Z' },
+    { value: 'thc-desc',    label: 'THC \u2193' },
     { value: 'rating-desc', label: lang === 'de' ? 'Bewertung' : 'Rating' },
   ];
 
@@ -103,44 +103,30 @@ export function StrainOverview() {
         label={lang === 'de' ? 'Sorten' : 'Strains'}
         title={lang === 'de' ? 'Sortendatenbank' : 'Strain Database'}
         subtitle={lang === 'de'
-          ? `${strains.length} Sorten — wissenschaftlich dokumentiert.`
-          : `${strains.length} strains — scientifically documented.`}
+          ? `${strains.length} Sorten \u2014 wissenschaftlich dokumentiert.`
+          : `${strains.length} strains \u2014 scientifically documented.`}
         accentColor="green"
       />
 
-      <section className="py-10" style={{ background: 'var(--bg)' }}>
+      <section className="py-10 bg-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Search + controls */}
           <div className="flex gap-3 mb-8">
-            {/* Search input — bottom border only */}
+            {/* Search input -- bottom border only */}
             <div className="relative flex-1 max-w-sm">
-              <Search
-                className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4"
-                style={{ color: 'var(--text-muted)' }}
-              />
+              <Search className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder={lang === 'de' ? 'Sorte suchen…' : 'Search strain…'}
-                className="w-full pl-7 pr-7 py-2.5 bg-transparent text-sm focus:outline-none transition-colors"
-                style={{
-                  color: 'var(--text)',
-                  borderBottom: '1px solid rgba(255,255,255,0.14)',
-                }}
-                onFocus={(e) => {
-                  (e.currentTarget as HTMLInputElement).style.borderBottomColor = 'var(--accent)';
-                }}
-                onBlur={(e) => {
-                  (e.currentTarget as HTMLInputElement).style.borderBottomColor = 'rgba(255,255,255,0.14)';
-                }}
+                placeholder={lang === 'de' ? 'Sorte suchen\u2026' : 'Search strain\u2026'}
+                className="w-full pl-7 pr-7 py-2.5 bg-transparent text-sm focus:outline-none transition-colors text-ink border-b border-[var(--border)] focus:border-accent"
               />
               {query && (
                 <button
                   onClick={() => setQuery('')}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer"
-                  style={{ color: 'var(--text-muted)' }}
+                  className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer text-ink-muted"
                 >
                   <X className="w-3.5 h-3.5" />
                 </button>
@@ -151,15 +137,11 @@ export function StrainOverview() {
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value as SortKey)}
-              className="px-0 py-2.5 bg-transparent text-sm focus:outline-none cursor-pointer appearance-none"
-              style={{
-                color: 'var(--text-muted)',
-                borderBottom: '1px solid rgba(255,255,255,0.14)',
-                paddingRight: '1.5rem',
-              }}
+              className="px-0 py-2.5 bg-transparent text-sm focus:outline-none cursor-pointer appearance-none text-ink-muted border-b border-[var(--border)]"
+              style={{ paddingRight: '1.5rem' }}
             >
               {sortOptions.map((o) => (
-                <option key={o.value} value={o.value} style={{ background: '#0f0f0f' }}>
+                <option key={o.value} value={o.value} className="bg-bg-elevated">
                   {o.label}
                 </option>
               ))}
@@ -168,19 +150,15 @@ export function StrainOverview() {
             {/* Mobile filter toggle */}
             <button
               onClick={() => setSidebarOpen(!sidebarOpen)}
-              className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer"
+              className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer border border-[var(--border)]"
               style={{
-                color: hasActiveFilters ? 'var(--accent)' : 'var(--text-muted)',
-                border: '1px solid rgba(255,255,255,0.06)',
-                borderLeftColor: hasActiveFilters ? 'rgba(34,197,94,0.4)' : 'rgba(255,255,255,0.06)',
+                color: hasActiveFilters ? 'var(--accent)' : undefined,
+                borderLeftColor: hasActiveFilters ? 'rgba(34,197,94,0.4)' : undefined,
               }}
             >
               <SlidersHorizontal className="w-4 h-4" />
               {hasActiveFilters && (
-                <span
-                  className="text-[10px] font-bold w-4 h-4 flex items-center justify-center"
-                  style={{ color: 'var(--bg)', background: 'var(--accent)' }}
-                >
+                <span className="text-[10px] font-bold w-4 h-4 flex items-center justify-center bg-accent text-white">
                   {totalActive}
                 </span>
               )}
@@ -188,19 +166,13 @@ export function StrainOverview() {
           </div>
 
           <div className="flex gap-0">
-            {/* Desktop sidebar — flat, right border divider */}
-            <aside
-              className="hidden lg:block w-52 shrink-0 pr-8"
-              style={{ borderRight: '1px solid rgba(255,255,255,0.06)' }}
-            >
+            {/* Desktop sidebar -- flat, right border divider */}
+            <aside className="hidden lg:block w-52 shrink-0 pr-8 border-r border-[var(--border)]">
               <div className="sticky top-24 space-y-7">
 
                 {/* Header */}
                 <div className="flex items-center justify-between">
-                  <span
-                    className="text-[10px] font-bold uppercase tracking-[0.22em]"
-                    style={{ color: 'var(--text-faint)' }}
-                  >
+                  <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-ink-faint">
                     {lang === 'de' ? 'Filter' : 'Filters'}
                   </span>
                   {hasActiveFilters && (
@@ -216,10 +188,7 @@ export function StrainOverview() {
                 </div>
 
                 {/* Type filter */}
-                <FilterSection
-                  label={lang === 'de' ? 'Typ' : 'Type'}
-
-                >
+                <FilterSection label={lang === 'de' ? 'Typ' : 'Type'}>
                   {TYPE_OPTIONS.map(({ value, label }) => (
                     <FilterCheckbox
                       key={value}
@@ -245,10 +214,7 @@ export function StrainOverview() {
                 </FilterSection>
 
                 {/* Effects filter */}
-                <FilterSection
-                  label={lang === 'de' ? 'Wirkung' : 'Effects'}
-
-                >
+                <FilterSection label={lang === 'de' ? 'Wirkung' : 'Effects'}>
                   {TOP_EFFECTS.map((e) => (
                     <FilterCheckbox
                       key={e}
@@ -267,10 +233,7 @@ export function StrainOverview() {
             <div className="flex-1 min-w-0 lg:pl-8">
 
               {/* Result count */}
-              <p
-                className="text-[10px] font-bold uppercase tracking-[0.2em] mb-6"
-                style={{ color: 'var(--text-faint)' }}
-              >
+              <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-6 text-ink-faint">
                 {lang === 'de' ? `${results.length} Sorten` : `${results.length} strains`}
               </p>
 
@@ -284,15 +247,9 @@ export function StrainOverview() {
                     transition={{ duration: 0.22 }}
                     className="overflow-hidden mb-6 lg:hidden"
                   >
-                    <div
-                      className="p-5 space-y-6"
-                      style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-                    >
+                    <div className="p-5 space-y-6 border border-[var(--border)]">
                       <div className="flex items-center justify-between">
-                        <span
-                          className="text-[10px] font-bold uppercase tracking-[0.22em]"
-                          style={{ color: 'var(--text-faint)' }}
-                        >
+                        <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-ink-faint">
                           {lang === 'de' ? 'Filter' : 'Filters'}
                         </span>
                         {hasActiveFilters && (
@@ -331,10 +288,7 @@ export function StrainOverview() {
                         ))}
                       </FilterSection>
 
-                      <FilterSection
-                        label={lang === 'de' ? 'Wirkung' : 'Effects'}
-      
-                      >
+                      <FilterSection label={lang === 'de' ? 'Wirkung' : 'Effects'}>
                         {TOP_EFFECTS.map((e) => (
                           <FilterCheckbox
                             key={e}
@@ -353,22 +307,15 @@ export function StrainOverview() {
               {/* Grid or empty state */}
               {results.length === 0 ? (
                 <div className="flex flex-col items-center justify-center py-24 text-center">
-                  <Search
-                    className="w-8 h-8 mb-4"
-                    style={{ color: 'var(--text-faint)' }}
-                  />
-                  <p
-                    className="font-heading italic text-xl mb-2"
-                    style={{ color: 'var(--text)' }}
-                  >
+                  <Search className="w-8 h-8 mb-4 text-ink-faint" />
+                  <p className="font-heading italic text-xl mb-2">
                     {lang === 'de' ? 'Keine Ergebnisse' : 'No results found'}
                   </p>
                   <button
                     onClick={resetFilters}
-                    className="mt-3 text-sm cursor-pointer underline"
-                    style={{ color: 'var(--accent)' }}
+                    className="mt-3 text-sm cursor-pointer underline text-accent"
                   >
-                    {lang === 'de' ? 'Filter zurücksetzen' : 'Reset filters'}
+                    {lang === 'de' ? 'Filter zur\u00fccksetzen' : 'Reset filters'}
                   </button>
                 </div>
               ) : (
@@ -389,21 +336,12 @@ export function StrainOverview() {
             </div>
           </div>
 
-          {/* Disclaimer — minimal, no rounded box */}
-          <div
-            className="mt-14 flex gap-3 py-4"
-            style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
-          >
-            <AlertCircle
-              className="w-3.5 h-3.5 shrink-0 mt-0.5"
-              style={{ color: 'var(--text-faint)' }}
-            />
-            <p
-              className="text-xs leading-relaxed"
-              style={{ color: 'var(--text-faint)' }}
-            >
+          {/* Disclaimer -- minimal, no rounded box */}
+          <div className="mt-14 flex gap-3 py-4 border-t border-[var(--border)]">
+            <AlertCircle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-ink-faint" />
+            <p className="text-xs leading-relaxed text-ink-faint">
               {lang === 'de'
-                ? 'Diese Informationen dienen ausschließlich zu Bildungszwecken und ersetzen keine medizinische Beratung. Cannabis nur für Vereinsmitglieder ab 21 Jahren.'
+                ? 'Diese Informationen dienen ausschlie\u00dflich zu Bildungszwecken und ersetzen keine medizinische Beratung. Cannabis nur f\u00fcr Vereinsmitglieder ab 21 Jahren.'
                 : 'This information is for educational purposes only and does not replace medical advice. Cannabis only for club members aged 21 and over.'}
             </p>
           </div>
@@ -414,7 +352,7 @@ export function StrainOverview() {
   );
 }
 
-// ── Sub-components ──────────────────────────────────────────────────────────
+// -- Sub-components --
 
 interface FilterSectionProps {
   label: string;
@@ -424,10 +362,7 @@ interface FilterSectionProps {
 function FilterSection({ label, children }: FilterSectionProps) {
   return (
     <div>
-      <p
-        className="text-[9px] font-bold uppercase tracking-[0.25em] mb-3"
-        style={{ color: 'var(--text-faint)' }}
-      >
+      <p className="text-[9px] font-bold uppercase tracking-[0.25em] mb-3 text-ink-faint">
         {label}
       </p>
       <div className="space-y-2.5">{children}</div>
@@ -450,14 +385,10 @@ function FilterCheckbox({ id, checked, onChange, label }: FilterCheckboxProps) {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="w-3.5 h-3.5 cursor-pointer accent-[var(--accent)]"
-        style={{
-          background: 'var(--bg)',
-          border: '1px solid rgba(255,255,255,0.14)',
-        }}
+        className="w-3.5 h-3.5 cursor-pointer accent-[var(--accent)] bg-bg-elevated border border-[var(--border)]"
       />
       <span
-        className="text-sm transition-colors group-hover:text-[var(--text)]"
+        className="text-sm transition-colors group-hover:text-ink"
         style={{ color: checked ? 'var(--text)' : 'var(--text-muted)' }}
       >
         {label}

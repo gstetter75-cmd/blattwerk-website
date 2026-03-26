@@ -7,9 +7,6 @@ interface Props {
   isDE: boolean;
 }
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-const rowDivider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 export function SpendenClient({ isDE }: Props) {
   const usages = [
     {
@@ -48,7 +45,7 @@ export function SpendenClient({ isDE }: Props) {
 
   return (
     <>
-      {/* ── Why donate: 2×2 grid ─────────────────────────────────────────── */}
+      {/* -- Why donate: 2x2 grid -- */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -58,25 +55,19 @@ export function SpendenClient({ isDE }: Props) {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--gold)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
               {isDE ? 'Wofür wir spenden verwenden' : 'How we use donations'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Deine Unterstützung' : 'Your Support'}
             </h2>
           </motion.div>
 
-          {/* 2×2 grid with thin border lines */}
-          <div
-            className="grid sm:grid-cols-2"
-            style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-          >
+          {/* 2x2 grid with thin border lines */}
+          <div className="grid sm:grid-cols-2 border border-[var(--border)]">
             {usages.map(({ icon: Icon, num, title, text }, i) => (
               <motion.div
                 key={num}
@@ -84,35 +75,22 @@ export function SpendenClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 lg:p-10"
+                className="p-8 lg:p-10 bg-bg"
                 style={{
-                  background: 'var(--bg)',
-                  borderRight: i % 2 === 0 ? '1px solid rgba(255,255,255,0.06)' : 'none',
-                  borderBottom: i < 2 ? '1px solid rgba(255,255,255,0.06)' : 'none',
+                  borderRight: i % 2 === 0 ? '1px solid var(--border)' : 'none',
+                  borderBottom: i < 2 ? '1px solid var(--border)' : 'none',
                 }}
               >
                 <div className="flex items-start gap-4 mb-5">
-                  <span
-                    className="font-mono text-xs shrink-0 mt-0.5"
-                    style={{ color: 'var(--text-faint)' }}
-                  >
+                  <span className="font-mono text-xs shrink-0 mt-0.5 text-ink-faint">
                     {num}
                   </span>
-                  <Icon
-                    className="w-4 h-4 shrink-0 mt-0.5"
-                    style={{ color: 'var(--gold)' }}
-                  />
+                  <Icon className="w-4 h-4 shrink-0 mt-0.5 text-gold-theme" />
                 </div>
-                <h3
-                  className="font-heading italic font-bold text-xl mb-3"
-                  style={{ color: 'var(--text)' }}
-                >
+                <h3 className="font-heading font-bold text-xl mb-3">
                   {title}
                 </h3>
-                <p
-                  className="text-sm leading-relaxed font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {text}
                 </p>
               </motion.div>
@@ -121,8 +99,8 @@ export function SpendenClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Bank details ─────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Bank details -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -131,15 +109,12 @@ export function SpendenClient({ isDE }: Props) {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--gold)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
               {isDE ? 'Bankverbindung' : 'Bank Details'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Überweisung' : 'Bank Transfer'}
             </h2>
@@ -164,8 +139,8 @@ export function SpendenClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Thank you note ───────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Thank you note -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -174,23 +149,17 @@ export function SpendenClient({ isDE }: Props) {
             transition={{ duration: 0.65 }}
           >
             <blockquote
-              className="font-heading italic font-bold leading-snug"
-              style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold leading-snug"
+              style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
             >
               {isDE
                 ? '"Jede Spende fließt direkt in unsere Gemeinschaft – kein Gewinn, nur Zweck."'
                 : '"Every donation flows directly into our community – no profit, only purpose."'}
             </blockquote>
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mt-8"
-              style={{ color: 'var(--gold)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mt-8 text-gold-theme">
               BlattWerk e.V.
             </p>
-            <p
-              className="text-xs font-mono mt-2"
-              style={{ color: 'var(--text-faint)' }}
-            >
+            <p className="text-xs font-mono mt-2 text-ink-faint">
               {isDE
                 ? 'Alle Spendengelder werden auf der jährlichen Mitgliederversammlung transparent ausgewiesen.'
                 : 'All donations are transparently reported at the annual general assembly.'}

@@ -7,9 +7,6 @@ interface Props {
   isDE: boolean;
 }
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-const rowDivider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 function getMonthDay(dateStr: string, isDE: boolean) {
   const date = new Date(dateStr + 'T00:00:00');
   return {
@@ -95,7 +92,7 @@ export function EventsClient({ isDE }: Props) {
 
   return (
     <>
-      {/* ── Upcoming events ─────────────────────────────────────────────── */}
+      {/* -- Upcoming events -- */}
       <section className="py-20 lg:py-28">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
@@ -105,15 +102,12 @@ export function EventsClient({ isDE }: Props) {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--gold)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
               {isDE ? 'Kommende Veranstaltungen' : 'Upcoming Events'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Termine' : 'Schedule'}
             </h2>
@@ -129,57 +123,38 @@ export function EventsClient({ isDE }: Props) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
                   transition={{ duration: 0.6, delay: i * 0.08 }}
-                  className="flex gap-8 py-8"
-                  style={i > 0 ? rowDivider : undefined}
+                  className={`flex gap-8 py-8 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                 >
                   {/* Date column */}
                   <div className="w-16 shrink-0 flex flex-col items-center gap-0.5 pt-1">
-                    <span
-                      className="font-mono text-[10px] uppercase tracking-[0.2em]"
-                      style={{ color: 'var(--gold)' }}
-                    >
+                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-gold-theme">
                       {month}
                     </span>
                     <span
-                      className="font-heading italic font-bold leading-none"
-                      style={{ fontSize: 'clamp(2rem, 4vw, 2.5rem)', color: 'var(--text)' }}
+                      className="font-heading font-bold leading-none"
+                      style={{ fontSize: 'clamp(2rem, 4vw, 2.5rem)' }}
                     >
                       {day}
                     </span>
-                    <span
-                      className="font-mono text-xs mt-1"
-                      style={{ color: 'var(--text-faint)' }}
-                    >
+                    <span className="font-mono text-xs mt-1 text-ink-faint">
                       {String(i + 1).padStart(2, '0')}
                     </span>
                   </div>
 
                   {/* Content column */}
-                  <div className="flex-1 min-w-0" style={{ borderLeft: '1px solid rgba(245,158,11,0.2)', paddingLeft: '2rem' }}>
+                  <div className="flex-1 min-w-0 border-l border-gold-theme/20 pl-8">
                     <div className="flex items-start justify-between gap-4 mb-2">
-                      <h3
-                        className="font-heading italic font-bold text-xl leading-snug"
-                        style={{ color: 'var(--text)' }}
-                      >
+                      <h3 className="font-heading font-bold text-xl leading-snug">
                         {event.title}
                       </h3>
-                      <span
-                        className="text-xs font-bold uppercase tracking-[0.15em] font-body shrink-0 mt-1"
-                        style={{ color: 'var(--gold)' }}
-                      >
+                      <span className="text-xs font-bold uppercase tracking-[0.15em] font-body shrink-0 mt-1 text-gold-theme">
                         {event.type}
                       </span>
                     </div>
-                    <p
-                      className="text-sm leading-relaxed font-body mb-4"
-                      style={{ color: 'var(--text-muted)' }}
-                    >
+                    <p className="text-sm leading-relaxed font-body mb-4 text-ink-muted">
                       {event.description}
                     </p>
-                    <div
-                      className="flex flex-wrap gap-5 text-xs font-mono"
-                      style={{ color: 'var(--text-faint)' }}
-                    >
+                    <div className="flex flex-wrap gap-5 text-xs font-mono text-ink-faint">
                       <span className="inline-flex items-center gap-1.5">
                         <Clock className="w-3.5 h-3.5" />
                         {event.time}{isDE ? ' Uhr' : ''}
@@ -188,7 +163,7 @@ export function EventsClient({ isDE }: Props) {
                         <MapPin className="w-3.5 h-3.5" />
                         {event.location}
                       </span>
-                      <span style={{ color: 'var(--text-faint)', opacity: 0.6 }}>
+                      <span className="text-ink-faint opacity-60">
                         {full}
                       </span>
                     </div>
@@ -200,8 +175,8 @@ export function EventsClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Past events archive ──────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Past events archive -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -210,15 +185,12 @@ export function EventsClient({ isDE }: Props) {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--text-faint)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-ink-faint">
               {isDE ? 'Archiv' : 'Archive'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Vergangene Termine' : 'Past Events'}
             </h2>
@@ -234,48 +206,29 @@ export function EventsClient({ isDE }: Props) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
                   transition={{ duration: 0.5, delay: i * 0.07 }}
-                  className="flex gap-6 py-6"
-                  style={i > 0 ? rowDivider : undefined}
+                  className={`flex gap-6 py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                 >
                   {/* Date column */}
                   <div className="w-12 shrink-0 flex flex-col items-center gap-0.5 pt-0.5">
-                    <span
-                      className="font-mono text-[9px] uppercase tracking-[0.15em]"
-                      style={{ color: 'var(--text-faint)' }}
-                    >
+                    <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-ink-faint">
                       {month}
                     </span>
-                    <span
-                      className="font-heading italic font-bold text-xl leading-none"
-                      style={{ color: 'var(--text-muted)' }}
-                    >
+                    <span className="font-heading font-bold text-xl leading-none text-ink-muted">
                       {day}
                     </span>
                   </div>
 
                   {/* Content column */}
-                  <div
-                    className="flex-1 min-w-0"
-                    style={{ borderLeft: '1px solid rgba(255,255,255,0.06)', paddingLeft: '1.5rem' }}
-                  >
+                  <div className="flex-1 min-w-0 border-l border-[var(--border)] pl-6">
                     <div className="flex items-start justify-between gap-3 mb-1">
-                      <h3
-                        className="font-heading italic text-base leading-snug"
-                        style={{ color: 'var(--text-muted)' }}
-                      >
+                      <h3 className="font-heading text-base leading-snug text-ink-muted">
                         {event.title}
                       </h3>
-                      <span
-                        className="text-xs font-mono shrink-0"
-                        style={{ color: 'var(--text-faint)' }}
-                      >
+                      <span className="text-xs font-mono shrink-0 text-ink-faint">
                         {event.type}
                       </span>
                     </div>
-                    <p
-                      className="text-sm leading-relaxed font-body"
-                      style={{ color: 'var(--text-faint)' }}
-                    >
+                    <p className="text-sm leading-relaxed font-body text-ink-faint">
                       {event.description}
                     </p>
                   </div>
@@ -286,18 +239,12 @@ export function EventsClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Members only note ───────────────────────────────────────────── */}
-      <section className="py-10" style={sectionBorder}>
+      {/* -- Members only note -- */}
+      <section className="py-10 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="flex items-start gap-4 py-6">
-            <Users
-              className="w-4 h-4 shrink-0 mt-0.5"
-              style={{ color: 'var(--text-faint)' }}
-            />
-            <p
-              className="text-xs leading-relaxed font-body"
-              style={{ color: 'var(--text-faint)' }}
-            >
+            <Users className="w-4 h-4 shrink-0 mt-0.5 text-ink-faint" />
+            <p className="text-xs leading-relaxed font-body text-ink-faint">
               {isDE
                 ? 'Die meisten Veranstaltungen sind nur für Mitglieder zugänglich. Informationsabende sind teilweise auch für Nicht-Mitglieder geöffnet.'
                 : 'Most events are only accessible to members. Information evenings are partially open to non-members.'}

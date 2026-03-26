@@ -16,9 +16,6 @@ const fadeUp = {
   transition: { duration: 0.55 },
 } as const;
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-const rowDivider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 export function MitgliedschaftClient({ isDE }: Props) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
@@ -142,7 +139,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
 
   return (
     <>
-      {/* ── Hero ─────────────────────────────────────────────────────────── */}
+      {/* -- Hero -- */}
       <WQFPageHero
         label={isDE ? 'Mitgliedschaft' : 'Membership'}
         title={isDE ? 'Mitglied werden' : 'Become a Member'}
@@ -154,19 +151,16 @@ export function MitgliedschaftClient({ isDE }: Props) {
         accentColor="green"
       />
 
-      {/* ── Requirements ─────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Requirements -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Voraussetzungen' : 'Requirements'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Wer kann Mitglied werden?' : 'Who can become a member?'}
             </h2>
@@ -180,22 +174,12 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.45, delay: i * 0.07 }}
-                className="flex items-start gap-6 py-5"
-                style={i > 0 ? rowDivider : undefined}
+                className={`flex items-start gap-6 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
               >
-                <span
-                  className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <span className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right text-ink-faint">
                   {num}
                 </span>
-                <span
-                  className="pl-4 text-sm leading-relaxed font-body"
-                  style={{
-                    color: 'var(--text-muted)',
-                    borderLeft: '1px solid rgba(34,197,94,0.25)',
-                  }}
-                >
+                <span className="pl-4 text-sm leading-relaxed font-body text-ink-muted border-l border-accent/25">
                   {text}
                 </span>
               </motion.li>
@@ -204,25 +188,22 @@ export function MitgliedschaftClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Process Steps ────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Process Steps -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Aufnahmeprozess' : 'Admission Process'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'So wirst du Mitglied' : 'How to join'}
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-4 gap-px" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="grid md:grid-cols-4 gap-px border border-[var(--border)]">
             {steps.map(({ num, title, text }, i) => (
               <motion.div
                 key={num}
@@ -230,25 +211,15 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8"
-                style={{ background: 'var(--bg)' }}
+                className="p-8 bg-bg"
               >
-                <p
-                  className="font-mono text-xs mb-6"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <p className="font-mono text-xs mb-6 text-ink-faint">
                   {num}
                 </p>
-                <h3
-                  className="font-heading italic font-bold text-xl mb-3"
-                  style={{ color: 'var(--text)' }}
-                >
+                <h3 className="font-heading font-bold text-xl mb-3">
                   {title}
                 </h3>
-                <p
-                  className="text-sm leading-relaxed font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {text}
                 </p>
               </motion.div>
@@ -257,19 +228,16 @@ export function MitgliedschaftClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Fees ─────────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Fees -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--gold)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
               {isDE ? 'Beiträge' : 'Fees'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Kosten & Beiträge' : 'Costs & Fees'}
             </h2>
@@ -284,29 +252,19 @@ export function MitgliedschaftClient({ isDE }: Props) {
             {fees.map(({ label, value }, i) => (
               <div
                 key={i}
-                className="flex items-center justify-between py-5"
-                style={i > 0 ? rowDivider : undefined}
+                className={`flex items-center justify-between py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
               >
-                <span
-                  className="text-sm font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <span className="text-sm font-body text-ink-muted">
                   {label}
                 </span>
-                <span
-                  className="font-mono text-sm font-bold"
-                  style={{ color: 'var(--text)' }}
-                >
+                <span className="font-mono text-sm font-bold">
                   {value}
                 </span>
               </div>
             ))}
           </motion.div>
 
-          <p
-            className="text-xs font-body mt-8"
-            style={{ color: 'var(--text-faint)' }}
-          >
+          <p className="text-xs font-body mt-8 text-ink-faint">
             {isDE
               ? 'Der Verein ist nicht gewinnorientiert. Alle Beiträge dienen ausschließlich der Deckung der Betriebskosten.'
               : 'The association is non-profit. All fees serve exclusively to cover operating costs.'}
@@ -314,19 +272,16 @@ export function MitgliedschaftClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- FAQ -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               FAQ
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Häufige Fragen' : 'Common Questions'}
             </h2>
@@ -342,7 +297,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
                   transition={{ duration: 0.45, delay: i * 0.06 }}
-                  style={i > 0 ? rowDivider : undefined}
+                  className={i > 0 ? 'border-t border-[var(--border)]' : ''}
                 >
                   <button
                     type="button"
@@ -350,16 +305,12 @@ export function MitgliedschaftClient({ isDE }: Props) {
                     onClick={() => setOpenFaq(isOpen ? null : i)}
                     aria-expanded={isOpen}
                   >
-                    <span
-                      className="font-heading italic font-bold text-base leading-snug"
-                      style={{ color: 'var(--text)' }}
-                    >
+                    <span className="font-heading font-bold text-base leading-snug">
                       {q}
                     </span>
                     <span
-                      className="font-mono text-lg shrink-0 mt-0.5 transition-transform duration-300"
+                      className="font-mono text-lg shrink-0 mt-0.5 transition-transform duration-300 text-accent"
                       style={{
-                        color: 'var(--accent)',
                         transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
                       }}
                     >
@@ -377,10 +328,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
                         transition={{ duration: 0.3, ease: 'easeInOut' }}
                         className="overflow-hidden"
                       >
-                        <p
-                          className="pb-6 text-sm leading-relaxed font-body"
-                          style={{ color: 'var(--text-muted)' }}
-                        >
+                        <p className="pb-6 text-sm leading-relaxed font-body text-ink-muted">
                           {a}
                         </p>
                       </motion.div>
@@ -393,8 +341,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- CTA -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -402,22 +350,16 @@ export function MitgliedschaftClient({ isDE }: Props) {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.65 }}
           >
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-accent">
               {isDE ? 'Jetzt starten' : 'Get started'}
             </p>
             <h2
-              className="font-heading italic font-bold mb-6"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold mb-6"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Aufnahmeantrag stellen' : 'Submit your application'}
             </h2>
-            <p
-              className="text-base leading-relaxed font-body mb-10 max-w-xl"
-              style={{ color: 'var(--text-muted)' }}
-            >
+            <p className="text-base leading-relaxed font-body mb-10 max-w-xl text-ink-muted">
               {isDE
                 ? 'Der Aufnahmeantrag für unseren Verein erfolgt ausschließlich über die Hanf-App. Dort kannst du dich registrieren, deinen Antrag einreichen und den Status verfolgen.'
                 : 'The admission application for our association is exclusively via the Hanf-App. There you can register, submit your application and track the status.'}
@@ -427,8 +369,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
               href="https://diehanfapp.de"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] font-body transition-opacity duration-200 hover:opacity-70"
-              style={{ color: 'var(--accent)' }}
+              className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] font-body transition-opacity duration-200 hover:opacity-70 text-accent"
             >
               {isDE ? 'Zur Hanf-App' : 'Go to Hanf-App'}
               <ExternalLink className="w-4 h-4" />

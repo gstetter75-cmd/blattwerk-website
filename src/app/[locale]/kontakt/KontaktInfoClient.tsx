@@ -16,17 +16,14 @@ const fadeUp = {
   transition: { duration: 0.6 },
 } as const;
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-const rowDivider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
   const [consented, setConsented] = useState(false);
 
   if (!consented) {
     return (
       <div
-        className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)] flex flex-col items-center justify-center gap-4 p-8"
-        style={{ aspectRatio: '16/7', background: 'var(--bg-elevated)' }}
+        className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)] flex flex-col items-center justify-center gap-4 p-8 bg-bg-elevated"
+        style={{ aspectRatio: '16/7' }}
       >
         <MapPinned className="w-8 h-8 text-ink-faint" />
         <p className="text-sm text-ink-muted text-center max-w-md">
@@ -37,11 +34,7 @@ function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
         <button
           type="button"
           onClick={() => setConsented(true)}
-          className="px-5 py-2.5 text-sm font-semibold text-void rounded-md transition-all duration-200 hover:-translate-y-0.5 cursor-pointer"
-          style={{
-            background: 'linear-gradient(135deg, #22c55e, #86efac)',
-            boxShadow: '0 0 12px rgba(34,197,94,0.2)',
-          }}
+          className="px-5 py-2.5 text-sm font-semibold rounded-md transition-all duration-200 hover:-translate-y-0.5 cursor-pointer bg-accent text-white"
         >
           {isDE ? 'Karte laden' : 'Load map'}
         </button>
@@ -55,7 +48,7 @@ function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.5!2d9.9515!3d52.1535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWetzellplatz+2%2C+31137+Hildesheim!5e0!3m2!1sde!2sde!4v1"
         width="100%"
         height="100%"
-        style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) contrast(0.9)' }}
+        style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
@@ -101,22 +94,19 @@ export function KontaktInfoClient({ isDE }: Props) {
 
   return (
     <>
-      {/* ── Form + Info two-column ─────────────────────────────────────── */}
+      {/* -- Form + Info two-column -- */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
 
             {/* Left: Contact Form */}
             <motion.div {...fadeUp}>
-              <p
-                className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-                style={{ color: 'var(--accent)' }}
-              >
+              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
                 {isDE ? 'Nachricht senden' : 'Send Message'}
               </p>
               <h2
-                className="font-heading italic font-bold mb-10"
-                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--text)' }}
+                className="font-heading font-bold mb-10"
+                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}
               >
                 {isDE ? 'Schreib uns' : 'Write to us'}
               </h2>
@@ -130,15 +120,12 @@ export function KontaktInfoClient({ isDE }: Props) {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <p
-                className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-                style={{ color: 'var(--accent)' }}
-              >
+              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
                 {isDE ? 'Kontaktdaten' : 'Contact Details'}
               </p>
               <h2
-                className="font-heading italic font-bold mb-10"
-                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--text)' }}
+                className="font-heading font-bold mb-10"
+                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}
               >
                 {isDE ? 'Wo wir sind' : 'Where we are'}
               </h2>
@@ -148,24 +135,14 @@ export function KontaktInfoClient({ isDE }: Props) {
                 {contactItems.map(({ icon: Icon, label, value }, i) => (
                   <div
                     key={label}
-                    className="flex items-start gap-5 py-5"
-                    style={i > 0 ? rowDivider : undefined}
+                    className={`flex items-start gap-5 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                   >
-                    <Icon
-                      className="w-4 h-4 shrink-0 mt-0.5"
-                      style={{ color: 'var(--accent)' }}
-                    />
+                    <Icon className="w-4 h-4 shrink-0 mt-0.5 text-accent" />
                     <div>
-                      <p
-                        className="text-xs font-bold uppercase tracking-[0.2em] font-body mb-1.5"
-                        style={{ color: 'var(--text-faint)' }}
-                      >
+                      <p className="text-xs font-bold uppercase tracking-[0.2em] font-body mb-1.5 text-ink-faint">
                         {label}
                       </p>
-                      <p
-                        className="text-sm leading-relaxed font-body whitespace-pre-line"
-                        style={{ color: 'var(--text-muted)' }}
-                      >
+                      <p className="text-sm leading-relaxed font-body whitespace-pre-line text-ink-muted">
                         {value}
                       </p>
                     </div>
@@ -174,13 +151,10 @@ export function KontaktInfoClient({ isDE }: Props) {
               </div>
 
               {/* Opening hours */}
-              <div style={rowDivider} className="pt-8">
+              <div className="pt-8 border-t border-[var(--border)]">
                 <div className="flex items-center gap-3 mb-6">
-                  <Clock className="w-4 h-4" style={{ color: 'var(--gold)' }} />
-                  <p
-                    className="text-xs font-bold uppercase tracking-[0.25em] font-body"
-                    style={{ color: 'var(--gold)' }}
-                  >
+                  <Clock className="w-4 h-4 text-gold-theme" />
+                  <p className="text-xs font-bold uppercase tracking-[0.25em] font-body text-gold-theme">
                     {isDE ? 'Öffnungszeiten' : 'Opening Hours'}
                   </p>
                 </div>
@@ -188,19 +162,12 @@ export function KontaktInfoClient({ isDE }: Props) {
                   {openingHours.map(({ day, time }, i) => (
                     <div
                       key={i}
-                      className="flex justify-between items-center py-4"
-                      style={i > 0 ? rowDivider : undefined}
+                      className={`flex justify-between items-center py-4 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                     >
-                      <span
-                        className="text-sm font-body"
-                        style={{ color: 'var(--text-muted)' }}
-                      >
+                      <span className="text-sm font-body text-ink-muted">
                         {day}
                       </span>
-                      <span
-                        className="text-sm font-mono"
-                        style={{ color: 'var(--text-faint)' }}
-                      >
+                      <span className="text-sm font-mono text-ink-faint">
                         {time}
                       </span>
                     </div>
@@ -212,19 +179,16 @@ export function KontaktInfoClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Location section ────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Location section -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-12">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Standort' : 'Location'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Wetzellplatz 2' : 'Wetzellplatz 2'}
             </h2>
@@ -236,22 +200,13 @@ export function KontaktInfoClient({ isDE }: Props) {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <div
-              className="flex items-center gap-6 py-8"
-              style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
-            >
-              <MapPin className="w-5 h-5 shrink-0" style={{ color: 'var(--text-faint)' }} />
+            <div className="flex items-center gap-6 py-8 border-t border-[var(--border)]">
+              <MapPin className="w-5 h-5 shrink-0 text-ink-faint" />
               <div>
-                <p
-                  className="text-base font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-base font-body text-ink-muted">
                   BlattWerk e.V. — Wetzellplatz 2, 31137 Hildesheim
                 </p>
-                <p
-                  className="text-xs font-mono mt-1"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <p className="text-xs font-mono mt-1 text-ink-faint">
                   {isDE
                     ? 'Besuche uns am Wetzellplatz in Hildesheim'
                     : 'Visit us at Wetzellplatz in Hildesheim'}
@@ -259,7 +214,7 @@ export function KontaktInfoClient({ isDE }: Props) {
               </div>
             </div>
 
-            {/* Map embed — consent-gated for GDPR */}
+            {/* Map embed -- consent-gated for GDPR */}
             <GoogleMapsEmbed isDE={isDE} />
           </motion.div>
         </div>

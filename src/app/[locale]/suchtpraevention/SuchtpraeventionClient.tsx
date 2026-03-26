@@ -121,11 +121,8 @@ export function SuchtpraeventionClient({ isDE }: Props) {
 
       {/* Age warning strip */}
       <div
-        className="py-3"
-        style={{
-          borderBottom: '1px solid rgba(255,255,255,0.06)',
-          background: 'rgba(239,68,68,0.06)',
-        }}
+        className="py-3 border-b border-[var(--border)]"
+        style={{ background: 'rgba(239,68,68,0.06)' }}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center gap-4">
           <span
@@ -142,25 +139,18 @@ export function SuchtpraeventionClient({ isDE }: Props) {
         </div>
       </div>
 
-      {/* Concept — 2×2 border grid */}
-      <section
-        className="py-20 lg:py-28"
-        style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
-      >
+      {/* Concept -- 2x2 border grid */}
+      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12"
-            style={{ color: 'var(--gold)' }}
+            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-12 text-gold-theme"
           >
             {isDE ? 'Unser Konzept' : 'Our Concept'}
           </motion.p>
 
-          <div
-            className="grid md:grid-cols-2"
-            style={{ border: '1px solid rgba(255,255,255,0.06)' }}
-          >
+          <div className="grid md:grid-cols-2 border border-[var(--border)]">
             {conceptItems.map(({ num, title, text }, i) => {
               const col = i % 2;
               const row = Math.floor(i / 2);
@@ -171,29 +161,23 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                   transition={{ duration: 0.5, delay: i * 0.07 }}
                   className="p-8 lg:p-10"
                   style={{
-                    borderRight: col === 0 ? '1px solid rgba(255,255,255,0.06)' : undefined,
-                    borderBottom: row === 0 ? '1px solid rgba(255,255,255,0.06)' : undefined,
+                    borderRight: col === 0 ? '1px solid var(--border)' : undefined,
+                    borderBottom: row === 0 ? '1px solid var(--border)' : undefined,
                   }}
                 >
                   <p
-                    className="font-heading italic font-bold mb-5 leading-none"
-                    style={{
-                      fontSize: 'clamp(2rem, 3.5vw, 3rem)',
-                      color: 'rgba(255,255,255,0.06)',
-                    }}
+                    className="font-heading font-bold mb-5 leading-none text-ink-faint/20"
+                    style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)' }}
                   >
                     {num}
                   </p>
                   <h3
-                    className="font-heading italic font-bold mb-3"
-                    style={{
-                      fontSize: 'clamp(1.1rem, 1.8vw, 1.4rem)',
-                      color: 'var(--text)',
-                    }}
+                    className="font-heading font-bold mb-3"
+                    style={{ fontSize: 'clamp(1.1rem, 1.8vw, 1.4rem)' }}
                   >
                     {title}
                   </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                  <p className="text-sm leading-relaxed text-ink-muted">
                     {text}
                   </p>
                 </motion.div>
@@ -203,11 +187,8 @@ export function SuchtpraeventionClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* Warning signs — 2-col numbered list */}
-      <section
-        className="py-20 lg:py-28"
-        style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
-      >
+      {/* Warning signs -- 2-col numbered list */}
+      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
             {/* Left: sticky heading */}
@@ -216,19 +197,16 @@ export function SuchtpraeventionClient({ isDE }: Props) {
               transition={{ duration: 0.55 }}
               className="lg:sticky lg:top-32 self-start"
             >
-              <p
-                className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6"
-                style={{ color: 'var(--gold)' }}
-              >
+              <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-6 text-gold-theme">
                 {isDE ? 'Risikosignale' : 'Risk Signals'}
               </p>
               <h2
-                className="font-heading italic font-bold leading-none"
-                style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+                className="font-heading font-bold leading-none"
+                style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
               >
                 {isDE ? 'Warnsignale' : 'Warning\nSigns'}
               </h2>
-              <p className="mt-6 text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+              <p className="mt-6 text-sm leading-relaxed text-ink-muted">
                 {isDE
                   ? 'Problematischer Konsum entwickelt sich oft schleichend. Erkennst du mehrere dieser Zeichen, wende dich an unsere Suchtprävention oder an eine externe Beratungsstelle.'
                   : 'Problematic consumption often develops gradually. If you recognize several of these signs, contact our addiction prevention team or an external counseling service.'}
@@ -244,16 +222,15 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                     key={i}
                     {...fadeUp}
                     transition={{ duration: 0.45, delay: i * 0.05 }}
-                    className="py-5 pr-4"
-                    style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
+                    className="py-5 pr-4 border-t border-[var(--border)]"
                   >
                     <span
-                      className="block font-heading italic font-bold mb-2 leading-none"
-                      style={{ fontSize: '1.5rem', color: 'var(--text-faint)' }}
+                      className="block font-heading font-bold mb-2 leading-none text-ink-faint"
+                      style={{ fontSize: '1.5rem' }}
                     >
                       {num}
                     </span>
-                    <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                    <p className="text-sm leading-relaxed text-ink-muted">
                       {sign}
                     </p>
                   </motion.div>
@@ -264,25 +241,21 @@ export function SuchtpraeventionClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* Help resources — row list with dividers */}
-      <section
-        className="py-20 lg:py-28"
-        style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}
-      >
+      {/* Help resources -- row list with dividers */}
+      <section className="py-20 lg:py-28 border-b border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-            style={{ color: 'var(--gold)' }}
+            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme"
           >
             {isDE ? 'Hilfsangebote' : 'Help Resources'}
           </motion.p>
           <motion.h2
             {...fadeUp}
             transition={{ duration: 0.55, delay: 0.05 }}
-            className="font-heading italic font-bold mb-14 leading-none"
-            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+            className="font-heading font-bold mb-14 leading-none"
+            style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
           >
             {isDE ? 'Anlaufstellen' : 'Contact Points'}
           </motion.h2>
@@ -293,20 +266,16 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                 key={i}
                 {...fadeUp}
                 transition={{ duration: 0.45, delay: i * 0.06 }}
-                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 py-6"
-                style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
+                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 py-6 border-t border-[var(--border)]"
               >
                 <p
-                  className="font-heading italic font-bold"
-                  style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--text)' }}
+                  className="font-heading font-bold"
+                  style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)' }}
                 >
                   {resource.name}
                 </p>
                 <div className="flex items-center gap-6 shrink-0">
-                  <span
-                    className="text-sm font-bold tabular-nums"
-                    style={{ color: 'var(--gold)' }}
-                  >
+                  <span className="text-sm font-bold tabular-nums text-gold-theme">
                     {resource.contact}
                   </span>
                   {resource.url && (
@@ -314,28 +283,26 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs font-bold uppercase tracking-[0.2em] font-body transition-opacity hover:opacity-60"
-                      style={{ color: 'var(--text-faint)' }}
+                      className="text-xs font-bold uppercase tracking-[0.2em] font-body transition-opacity hover:opacity-60 text-ink-faint"
                     >
-                      ↗
+                      &#8599;
                     </a>
                   )}
                 </div>
               </motion.div>
             ))}
-            <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }} />
+            <div className="border-t border-[var(--border)]" />
           </div>
         </div>
       </section>
 
-      {/* Club contacts — simple rows */}
+      {/* Club contacts -- simple rows */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5 }}
-            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-14"
-            style={{ color: 'var(--gold)' }}
+            className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-14 text-gold-theme"
           >
             {isDE ? 'Vereinskontakte' : 'Club Contacts'}
           </motion.p>
@@ -346,31 +313,26 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                 key={i}
                 {...fadeUp}
                 transition={{ duration: 0.45, delay: i * 0.07 }}
-                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 py-6"
-                style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
+                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 py-6 border-t border-[var(--border)]"
               >
                 <p
-                  className="font-heading italic font-bold"
-                  style={{ fontSize: 'clamp(1.25rem, 2vw, 1.75rem)', color: 'var(--text)' }}
+                  className="font-heading font-bold"
+                  style={{ fontSize: 'clamp(1.25rem, 2vw, 1.75rem)' }}
                 >
                   {name}
                 </p>
-                <p
-                  className="text-xs font-bold uppercase tracking-[0.2em] font-body"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <p className="text-xs font-bold uppercase tracking-[0.2em] font-body text-ink-faint">
                   {role}
                 </p>
               </motion.div>
             ))}
-            <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }} />
+            <div className="border-t border-[var(--border)]" />
           </div>
 
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.5, delay: 0.15 }}
-            className="mt-8 text-xs leading-relaxed max-w-2xl"
-            style={{ color: 'var(--text-faint)' }}
+            className="mt-8 text-xs leading-relaxed max-w-2xl text-ink-faint"
           >
             {isDE
               ? 'Das Suchtpräventionskonzept des BlattWerk e.V. erfüllt die Anforderungen des KCanG (§ 6 Abs. 3). Bei akuten Notfällen: Notruf 112.'

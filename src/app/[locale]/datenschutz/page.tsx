@@ -17,8 +17,7 @@ export default async function DatenschutzPage({
   setRequestLocale(locale);
   const isDE = locale === 'de';
 
-  const glassCard = 'rounded-xl border border-[var(--border)] p-6';
-  const glassStyle = { background: 'var(--glass)', backdropFilter: 'blur(12px)' } as const;
+  const glassCard = 'bg-bg-elevated border border-[var(--border)] rounded-xl p-6';
 
   const sections = isDE ? [
     {
@@ -132,7 +131,7 @@ export default async function DatenschutzPage({
           </p>
 
           {/* Intro */}
-          <div className={`${glassCard} border-accent/20`} style={glassStyle}>
+          <div className={`${glassCard} border-accent/20`}>
             <p className="text-sm text-ink-muted leading-relaxed">
               {isDE
                 ? 'Der Schutz deiner personenbezogenen Daten ist uns wichtig. Diese Datenschutzerklärung informiert dich darüber, wie wir mit deinen Daten umgehen, wenn du unsere Website besuchst. Personenbezogene Daten sind alle Daten, mit denen du persönlich identifiziert werden kannst.'
@@ -141,7 +140,7 @@ export default async function DatenschutzPage({
           </div>
 
           {sections.map(({ icon: Icon, title, content }) => (
-            <div key={title} className={glassCard} style={glassStyle}>
+            <div key={title} className={glassCard}>
               <div className="flex items-center gap-3 mb-4">
                 <Icon className="w-4 h-4 text-accent opacity-70 shrink-0" />
                 <h2 className="font-heading italic text-lg text-ink">{title}</h2>

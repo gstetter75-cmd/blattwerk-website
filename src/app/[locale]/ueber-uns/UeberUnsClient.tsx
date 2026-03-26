@@ -15,9 +15,6 @@ const fadeUp = {
   transition: { duration: 0.55 },
 };
 
-const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-const divider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
-
 export function UeberUnsClient({ isDE }: Props) {
   const values = [
     {
@@ -122,7 +119,7 @@ export function UeberUnsClient({ isDE }: Props) {
 
   return (
     <>
-      {/* ── Hero ─────────────────────────────────────────────────────────── */}
+      {/* -- Hero -- */}
       <WQFPageHero
         label={isDE ? 'Über den Verein' : 'About the Club'}
         title="BlattWerk e.V."
@@ -134,8 +131,8 @@ export function UeberUnsClient({ isDE }: Props) {
         accentColor="green"
       />
 
-      {/* ── Image Banner ──────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden" style={{ height: '280px', ...sectionBorder }}>
+      {/* -- Image Banner -- */}
+      <section className="relative overflow-hidden border-t border-[var(--border)]" style={{ height: '280px' }}>
         <Image
           src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cannabis-seedlings.jpg`}
           alt={isDE ? 'Cannabis-Setzlinge im Gewächshaus' : 'Cannabis seedlings in greenhouse'}
@@ -146,27 +143,24 @@ export function UeberUnsClient({ isDE }: Props) {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, var(--bg), transparent 30%, transparent 70%, var(--bg))' }} />
       </section>
 
-      {/* ── Values ───────────────────────────────────────────────────────── */}
-      <section className="py-20 lg:py-28" style={sectionBorder}>
+      {/* -- Values -- */}
+      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {/* Section header */}
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Unsere Werte' : 'Our Values'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Was uns leitet' : 'What guides us'}
             </h2>
           </motion.div>
 
-          {/* 2×2 grid */}
-          <div className="grid sm:grid-cols-2 gap-px" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          {/* 2x2 grid */}
+          <div className="grid sm:grid-cols-2 gap-px border border-[var(--border)]">
             {values.map(({ num, title, text }, i) => (
               <motion.div
                 key={num}
@@ -174,25 +168,15 @@ export function UeberUnsClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 lg:p-10"
-                style={{ background: 'var(--bg)' }}
+                className="p-8 lg:p-10 bg-bg"
               >
-                <p
-                  className="font-mono text-xs mb-6"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <p className="font-mono text-xs mb-6 text-ink-faint">
                   {num}
                 </p>
-                <h3
-                  className="font-heading italic font-bold text-2xl mb-4"
-                  style={{ color: 'var(--text)' }}
-                >
+                <h3 className="font-heading font-bold text-2xl mb-4">
                   {title}
                 </h3>
-                <p
-                  className="text-sm leading-relaxed font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {text}
                 </p>
               </motion.div>
@@ -201,25 +185,22 @@ export function UeberUnsClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Board ────────────────────────────────────────────────────────── */}
-      <section id="vorstand" className="py-20 lg:py-28 scroll-mt-20" style={sectionBorder}>
+      {/* -- Board -- */}
+      <section id="vorstand" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Vereinsführung' : 'Leadership'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Vorstand' : 'Board'}
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-px" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="grid md:grid-cols-3 gap-px border border-[var(--border)]">
             {boardMembers.map(({ role, name, description }, i) => (
               <motion.div
                 key={name}
@@ -227,25 +208,15 @@ export function UeberUnsClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.1 }}
-                className="p-8"
-                style={{ background: 'var(--bg)' }}
+                className="p-8 bg-bg"
               >
-                <p
-                  className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-                  style={{ color: 'var(--accent)' }}
-                >
+                <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
                   {role}
                 </p>
-                <h3
-                  className="font-heading italic font-bold text-xl mb-3"
-                  style={{ color: 'var(--text)' }}
-                >
+                <h3 className="font-heading font-bold text-xl mb-3">
                   {name}
                 </h3>
-                <p
-                  className="text-sm leading-relaxed font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {description}
                 </p>
               </motion.div>
@@ -254,25 +225,22 @@ export function UeberUnsClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Growing Council ──────────────────────────────────────────────── */}
-      <section id="anbaurat" className="py-20 lg:py-28 scroll-mt-20" style={sectionBorder}>
+      {/* -- Growing Council -- */}
+      <section id="anbaurat" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Fachgremium' : 'Expert Committee'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Anbaurat' : 'Growing Council'}
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-px" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="grid md:grid-cols-3 gap-px border border-[var(--border)]">
             {growingCouncil.map(({ role, name, description }, i) => (
               <motion.div
                 key={name}
@@ -280,25 +248,15 @@ export function UeberUnsClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.55, delay: i * 0.1 }}
-                className="p-8"
-                style={{ background: 'var(--bg)' }}
+                className="p-8 bg-bg"
               >
-                <p
-                  className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-                  style={{ color: 'var(--accent)' }}
-                >
+                <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
                   {role}
                 </p>
-                <h3
-                  className="font-heading italic font-bold text-xl mb-3"
-                  style={{ color: 'var(--text)' }}
-                >
+                <h3 className="font-heading font-bold text-xl mb-3">
                   {name}
                 </h3>
-                <p
-                  className="text-sm leading-relaxed font-body"
-                  style={{ color: 'var(--text-muted)' }}
-                >
+                <p className="text-sm leading-relaxed font-body text-ink-muted">
                   {description}
                 </p>
               </motion.div>
@@ -307,19 +265,16 @@ export function UeberUnsClient({ isDE }: Props) {
         </div>
       </section>
 
-      {/* ── Vereinsregeln ────────────────────────────────────────────────── */}
-      <section id="regeln" className="py-20 lg:py-28 scroll-mt-20" style={sectionBorder}>
+      {/* -- Vereinsregeln -- */}
+      <section id="regeln" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div {...fadeUp} className="mb-16">
-            <p
-              className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4"
-              style={{ color: 'var(--accent)' }}
-            >
+            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
               {isDE ? 'Verbindlich für alle' : 'Binding for all'}
             </p>
             <h2
-              className="font-heading italic font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', color: 'var(--text)' }}
+              className="font-heading font-bold"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
             >
               {isDE ? 'Vereinsregeln' : 'Club Rules'}
             </h2>
@@ -333,22 +288,12 @@ export function UeberUnsClient({ isDE }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.45, delay: i * 0.05 }}
-                className="flex items-start gap-6 py-5"
-                style={i > 0 ? divider : undefined}
+                className={`flex items-start gap-6 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
               >
-                <span
-                  className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right"
-                  style={{ color: 'var(--text-faint)' }}
-                >
+                <span className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right text-ink-faint">
                   {String(i + 1).padStart(2, '0')}
                 </span>
-                <span
-                  className="pl-4 text-sm leading-relaxed font-body"
-                  style={{
-                    color: 'var(--text-muted)',
-                    borderLeft: '1px solid rgba(34,197,94,0.25)',
-                  }}
-                >
+                <span className="pl-4 text-sm leading-relaxed font-body text-ink-muted border-l border-accent/25">
                   {rule}
                 </span>
               </motion.li>

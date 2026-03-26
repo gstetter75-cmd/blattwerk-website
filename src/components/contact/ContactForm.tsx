@@ -224,7 +224,7 @@ export function ContactForm({ isDE }: ContactFormProps) {
         />
         <label htmlFor="privacy" className="text-xs text-ink-muted leading-relaxed">
           {isDE ? (
-            <>Ich habe die <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">Datenschutzerklärung</Link> gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *</>
+            <>Ich habe die <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">Datenschutzerkl&auml;rung</Link> gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *</>
           ) : (
             <>I have read the <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">privacy policy</Link> and agree to the processing of my data to handle my inquiry. *</>
           )}
@@ -257,11 +257,7 @@ export function ContactForm({ isDE }: ContactFormProps) {
       <button
         type="submit"
         disabled={submitState === 'loading'}
-        className="inline-flex items-center justify-center gap-2 px-7 py-3 font-semibold text-void rounded-md text-sm transition-all duration-200 hover:-translate-y-0.5 w-full sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
-        style={{
-          background: 'linear-gradient(135deg, #22c55e, #86efac)',
-          boxShadow: '0 0 16px rgba(34,197,94,0.2)',
-        }}
+        className="inline-flex items-center justify-center gap-2 px-7 py-3 font-semibold rounded-md text-sm transition-all duration-200 hover:-translate-y-0.5 w-full sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0 bg-accent text-white"
       >
         <Send className="w-4 h-4" />
         {submitState === 'loading'

@@ -10,7 +10,7 @@ interface VideoEmbedProps {
 }
 
 /**
- * Privacy-friendly YouTube embed — loads only on click (no tracking until play).
+ * Privacy-friendly YouTube embed -- loads only on click (no tracking until play).
  * Uses youtube-nocookie.com domain for enhanced privacy.
  */
 export function VideoEmbed({ videoId, title, className = '' }: VideoEmbedProps) {
@@ -51,24 +51,19 @@ export function VideoEmbed({ videoId, title, className = '' }: VideoEmbedProps) 
       {/* Dark overlay */}
       <div
         className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-60"
-        style={{ background: 'rgba(14,26,18,0.5)', opacity: 0.7 }}
+        style={{ background: 'rgba(0,0,0,0.45)', opacity: 0.7 }}
       />
 
       {/* Play button */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110"
-          style={{
-            background: 'rgba(34,197,94,0.9)',
-            boxShadow: '0 0 30px rgba(34,197,94,0.4)',
-          }}
-        >
-          <Play className="w-7 h-7 text-void ml-1" fill="currentColor" />
+        <div className="w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110 bg-accent">
+          <Play className="w-7 h-7 text-white ml-1" fill="currentColor" />
         </div>
       </div>
 
       {/* Title */}
       <div className="absolute bottom-0 left-0 right-0 p-4">
-        <p className="text-sm font-body text-ink/80 truncate">{title}</p>
+        <p className="text-sm font-body text-white/80 truncate">{title}</p>
       </div>
     </button>
   );
