@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
@@ -8,6 +9,8 @@ import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
 import { CustomCursor } from '@/components/cursor/CustomCursor';
 import { ScrollProgress } from '@/components/layout/ScrollProgress';
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk-ev.de';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -49,6 +52,11 @@ export default async function LocaleLayout({
       className={`${fraunces.variable} ${plusJakarta.variable} ${jetbrains.variable}`}
       suppressHydrationWarning
     >
+      <head>
+        <link rel="alternate" hrefLang="de" href={`${BASE_URL}/de/`} />
+        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en/`} />
+        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/de/`} />
+      </head>
       <body className="bg-bg text-ink font-body antialiased transition-colors duration-300">
         <ThemeProvider attribute="class" forcedTheme="dark">
           <NextIntlClientProvider messages={messages}>

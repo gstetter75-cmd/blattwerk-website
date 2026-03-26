@@ -1,14 +1,13 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { allCategories, getArticlesByCategory } from '@/data/knowledge';
 import { WissensdatenbankClient } from './WissensdatenbankClient';
 import { BreadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Wissensdatenbank',
-  description:
-    'Umfassende Wissensdatenbank zu Cannabis: Recht, Medizin, Safer Use, Prävention, Anbau und mehr. 40+ fundierte Artikel von BlattWerk e.V.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.knowledge);
+}
 
 export default async function KnowledgeBasePage({
   params,

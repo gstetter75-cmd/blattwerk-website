@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blattwerk-ev.de/sitemap.xml
+Sitemap: https://gstetter75-cmd.github.io/blattwerk-website/sitemap.xml

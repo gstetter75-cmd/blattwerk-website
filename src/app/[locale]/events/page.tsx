@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { EventsClient } from './EventsClient';
 
-export const metadata: Metadata = {
-  title: 'Events & Termine',
-  description:
-    'Workshops, Vorträge, Versammlungen und mehr bei BlattWerk e.V. – Cannabis Social Club Hildesheim. Bleib informiert über unsere Vereinsaktivitäten.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.events);
+}
 
 export default async function EventsPage({
   params,

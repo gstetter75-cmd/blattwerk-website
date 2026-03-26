@@ -1,12 +1,11 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { SuchtpraeventionClient } from './SuchtpraeventionClient';
 
-export const metadata: Metadata = {
-  title: 'Suchtprävention',
-  description:
-    'Unser Präventionskonzept: Aufklärung, Beratung und verantwortungsvoller Umgang mit Cannabis. BlattWerk e.V. Hildesheim.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.prevention);
+}
 
 export default async function PreventionPage({
   params,

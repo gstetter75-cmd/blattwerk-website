@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { MitgliedschaftClient } from './MitgliedschaftClient';
 import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Mitgliedschaft',
-  description:
-    'Werde Mitglied bei BlattWerk e.V. – Cannabis Social Club Hildesheim. Voraussetzungen, Aufnahmeprozess, Beiträge und häufige Fragen.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.membership);
+}
 
 const FAQ_ITEMS_DE = [
   {

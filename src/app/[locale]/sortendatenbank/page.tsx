@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { StrainOverview } from '@/components/strains/StrainOverview';
 import { BreadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Sortendatenbank',
-  description:
-    '89 Cannabis-Sorten wissenschaftlich dokumentiert. Genetik, Terpenprofil, THC/CBD-Werte und Wirkungsspektrum. BlattWerk e.V. Hildesheim.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.strains);
+}
 
 export default async function StrainsPage({
   params,

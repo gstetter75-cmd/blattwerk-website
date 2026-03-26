@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
@@ -6,12 +6,10 @@ import { ContactForm } from '@/components/contact/ContactForm';
 import { KontaktInfoClient } from './KontaktInfoClient';
 import { BreadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Kontakt',
-  description:
-    'Kontaktiere BlattWerk e.V. – Cannabis Social Club Hildesheim. Schreib uns eine Nachricht oder besuche uns vor Ort.',
-  robots: { index: true, follow: true },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.contact);
+}
 
 export default async function ContactPage({
   params,

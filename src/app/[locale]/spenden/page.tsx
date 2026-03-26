@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
+import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { SpendenClient } from './SpendenClient';
 
-export const metadata: Metadata = {
-  title: 'Spenden',
-  description:
-    'Unterstütze BlattWerk e.V. mit einer Spende. Hilf uns, verantwortungsvollen Umgang mit Cannabis in Hildesheim zu fördern.',
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return createMetadata(locale, PAGE_META.donations);
+}
 
 export default async function DonationsPage({
   params,

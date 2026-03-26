@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
-import { contactSchema, type ContactFormData } from '@/lib/validation';
+import { createContactSchema, type ContactFormData } from '@/lib/validation';
 import { RATE_LIMIT } from '@/lib/constants';
 
 interface ContactFormProps {
@@ -36,13 +36,15 @@ export function ContactForm({ isDE }: ContactFormProps) {
   const [submitState, setSubmitState] = useState<SubmitState>('idle');
   const [honeypot, setHoneypot] = useState('');
 
+  const schema = createContactSchema(isDE ? 'de' : 'en');
+
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors },
   } = useForm<ContactFormData>({
-    resolver: zodResolver(contactSchema),
+    resolver: zodResolver(schema),
   });
 
   const inputClass =

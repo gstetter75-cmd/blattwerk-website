@@ -18,7 +18,6 @@ function buildSphere(n: number): readonly Point3D[] {
   return pts;
 }
 
-/** Rotate a point around Y then X axis */
 function rotate(p: Point3D, yaw: number, pitch: number): Point3D {
   const cosY = Math.cos(yaw), sinY = Math.sin(yaw);
   const rx = p.x * cosY - p.z * sinY;
@@ -41,6 +40,7 @@ export function ParticleSphere({ size = 480, count = 350, className = '' }: Part
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const rafRef = useRef<number>(0);
   const angleRef = useRef(0);
+  const visibleRef = useRef(true);
   const mouse = useMouseRef();
   const tiltRef = useRef({ yaw: 0, pitch: 0 });
 
@@ -61,8 +61,20 @@ export function ParticleSphere({ size = 480, count = 350, className = '' }: Part
     const cx = size / 2;
     const cy = size / 2;
 
+    // Pause animation when canvas is not visible
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        visibleRef.current = entry.isIntersecting;
+        if (entry.isIntersecting && !prefersReduced) {
+          rafRef.current = requestAnimationFrame(render);
+        }
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(canvas);
+
     function render() {
-      if (!ctx) return;
+      if (!ctx || !visibleRef.current) return;
       ctx.clearRect(0, 0, size * dpr, size * dpr);
 
       const targetYaw = mouse.current.x * SPHERE.MOUSE_TILT_X;
@@ -100,7 +112,10 @@ export function ParticleSphere({ size = 480, count = 350, className = '' }: Part
     }
 
     render();
-    return () => cancelAnimationFrame(rafRef.current);
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+      observer.disconnect();
+    };
   }, [size, count, mouse]);
 
   return (
