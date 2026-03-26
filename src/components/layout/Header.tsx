@@ -3,13 +3,11 @@
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
-import { Globe, ChevronDown, ArrowRight } from 'lucide-react';
+import { Globe, ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Z } from '@/lib/z-index';
 import Image from 'next/image';
 import { SearchDialog } from '@/components/search/SearchDialog';
-
-/* ── Navigation structure ────────────────────────────────────────────── */
 
 interface NavChild {
   readonly key: string;
@@ -47,9 +45,7 @@ const navItems: readonly NavItem[] = [
   { key: 'contact', href: '/kontakt' },
 ];
 
-/* ── Mega menu panel ─────────────────────────────────────────────────── */
-
-function MegaMenu({
+function DropdownMenu({
   children,
   onClose,
   t,
@@ -63,15 +59,9 @@ function MegaMenu({
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 8 }}
-      transition={{ duration: 0.18, ease: [0.25, 0.46, 0.45, 0.94] }}
-      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 rounded-xl border border-white/[0.08] overflow-hidden"
-      style={{
-        zIndex: Z.dropdown,
-        background: 'rgba(14, 26, 18, 0.97)',
-        backdropFilter: 'blur(24px)',
-        boxShadow: '0 16px 48px rgba(0,0,0,0.4)',
-        minWidth: '280px',
-      }}
+      transition={{ duration: 0.15 }}
+      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 rounded-xl border border-[var(--border)] bg-bg-elevated shadow-lg overflow-hidden"
+      style={{ zIndex: Z.dropdown }}
     >
       <div className="p-2">
         {children.map((child) => (
@@ -79,9 +69,9 @@ function MegaMenu({
             key={child.key}
             href={child.href}
             onClick={onClose}
-            className="group flex flex-col gap-0.5 px-4 py-3 rounded-lg hover:bg-white/[0.05] transition-colors duration-150"
+            className="group flex flex-col gap-0.5 px-4 py-3 rounded-lg hover:bg-bg-surface transition-colors duration-150"
           >
-            <span className="text-sm font-medium text-ink group-hover:text-accent transition-colors duration-150">
+            <span className="text-sm font-medium text-ink group-hover:text-accent transition-colors">
               {t(child.key)}
             </span>
             {child.description && (
@@ -96,8 +86,6 @@ function MegaMenu({
   );
 }
 
-/* ── Header ──────────────────────────────────────────────────────────── */
-
 export function Header() {
   const t = useTranslations('nav');
   const locale = useLocale();
@@ -110,7 +98,7 @@ export function Header() {
   const closeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
@@ -148,32 +136,31 @@ export function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
-          scrolled ? 'border-b border-white/[0.06]' : ''
+        className={`fixed top-0 left-0 right-0 transition-all duration-300 ${
+          scrolled ? 'shadow-sm border-b border-[var(--border)]' : ''
         }`}
         style={{
           zIndex: Z.elevated,
-          background: scrolled ? 'rgba(14,26,18,0.92)' : 'transparent',
-          backdropFilter: scrolled ? 'blur(20px)' : 'none',
+          background: scrolled ? 'rgba(250, 250, 247, 0.95)' : 'transparent',
+          backdropFilter: scrolled ? 'blur(12px)' : 'none',
         }}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 lg:h-24">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 lg:h-20">
 
             {/* Logo */}
-            <Link href="/" className="shrink-0 group">
+            <Link href="/" className="shrink-0">
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
-                alt="Blattwerk e.V."
-                width={200}
-                height={80}
-                className="h-14 lg:h-16 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
-                style={{ filter: 'drop-shadow(0 0 12px rgba(34,197,94,0.2))' }}
+                alt="BlattWerk e.V."
+                width={160}
+                height={48}
+                className="h-10 lg:h-12 w-auto object-contain"
                 priority
               />
             </Link>
 
-            {/* Desktop Nav — centered */}
+            {/* Desktop Nav */}
             <nav className="hidden lg:flex items-center gap-1">
               {navItems.map((item) => {
                 const hasChildren = !!item.children;
@@ -188,29 +175,23 @@ export function Header() {
                   >
                     <Link
                       href={item.href}
-                      className={`relative flex items-center gap-1.5 px-4 py-2 text-sm font-medium transition-colors duration-200 rounded-lg ${
+                      className={`relative flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150 ${
                         active
                           ? 'text-accent'
-                          : 'text-ink-muted hover:text-ink hover:bg-white/[0.04]'
+                          : 'text-ink-muted hover:text-ink hover:bg-black/[0.03]'
                       }`}
                     >
                       {t(item.key)}
                       {hasChildren && (
-                        <ChevronDown className={`w-3.5 h-3.5 opacity-50 transition-transform duration-200 ${
+                        <ChevronDown className={`w-3.5 h-3.5 opacity-40 transition-transform duration-150 ${
                           openMenu === item.key ? 'rotate-180' : ''
                         }`} />
-                      )}
-                      {active && (
-                        <span
-                          className="absolute bottom-0 left-4 right-4 h-px"
-                          style={{ background: 'var(--accent)' }}
-                        />
                       )}
                     </Link>
 
                     <AnimatePresence>
                       {hasChildren && openMenu === item.key && (
-                        <MegaMenu
+                        <DropdownMenu
                           children={item.children!}
                           onClose={() => setOpenMenu(null)}
                           t={t}
@@ -228,7 +209,7 @@ export function Header() {
 
               <button
                 onClick={switchLocale}
-                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-ink-faint hover:text-ink-muted border border-[var(--border)] rounded-md transition-colors cursor-pointer"
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-ink-faint hover:text-ink border border-[var(--border)] rounded-lg transition-colors cursor-pointer"
                 aria-label={locale === 'de' ? 'Switch to English' : 'Auf Deutsch wechseln'}
               >
                 <Globe className="w-3.5 h-3.5" />
@@ -237,49 +218,41 @@ export function Header() {
 
               <Link
                 href="/mitgliedschaft"
-                className="hidden lg:inline-flex items-center gap-2 px-5 py-2 text-sm font-semibold rounded-lg transition-all duration-200 hover:-translate-y-0.5"
-                style={{
-                  background: 'var(--accent)',
-                  color: 'var(--bg)',
-                  boxShadow: '0 0 20px rgba(34,197,94,0.2)',
-                }}
+                className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90"
+                style={{ background: 'var(--accent)' }}
               >
                 {locale === 'de' ? 'Mitglied werden' : 'Join now'}
-                <ArrowRight className="w-3.5 h-3.5" />
               </Link>
 
-              {/* Mobile hamburger */}
+              {/* Mobile menu button */}
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
-                className="lg:hidden flex flex-col gap-1.5 p-2 cursor-pointer"
-                aria-label={locale === 'de' ? 'Menü öffnen' : 'Open menu'}
+                className="lg:hidden p-2 cursor-pointer text-ink-muted hover:text-ink transition-colors"
+                aria-label={locale === 'de' ? 'Menü' : 'Menu'}
               >
-                <span className={`block w-5 h-px bg-ink transition-all duration-300 ${mobileOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
-                <span className={`block w-5 h-px bg-ink transition-all duration-300 ${mobileOpen ? 'opacity-0' : ''}`} />
-                <span className={`block w-5 h-px bg-ink transition-all duration-300 ${mobileOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
+                {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
               </button>
             </div>
           </div>
         </div>
       </header>
 
-      {/* ── Mobile Menu ────────────────────────────────────────────────── */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            className="fixed inset-0 lg:hidden flex flex-col overflow-y-auto"
-            style={{ zIndex: Z.overlay, background: 'rgba(14,26,18,0.98)', backdropFilter: 'blur(20px)' }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 lg:hidden flex flex-col bg-bg overflow-y-auto"
+            style={{ zIndex: Z.overlay }}
           >
-            {/* Top bar spacer */}
-            <div className="h-20 shrink-0" />
+            <div className="h-16 shrink-0" />
 
-            <nav className="flex-1 px-6 py-4">
+            <nav className="flex-1 px-6 py-6">
               {navItems.map((item) => (
-                <div key={item.key} className="border-b border-white/[0.06]">
+                <div key={item.key} className="border-b border-[var(--border)]">
                   <Link
                     href={item.href}
                     className={`block py-4 text-base font-medium transition-colors ${
@@ -310,12 +283,8 @@ export function Header() {
             <div className="px-6 pb-8 flex flex-col gap-4">
               <Link
                 href="/mitgliedschaft"
-                className="flex items-center justify-center gap-2 py-4 text-sm font-semibold rounded-lg"
-                style={{
-                  background: 'var(--accent)',
-                  color: 'var(--bg)',
-                  boxShadow: '0 0 20px rgba(34,197,94,0.2)',
-                }}
+                className="flex items-center justify-center gap-2 py-3.5 text-sm font-semibold text-white rounded-lg"
+                style={{ background: 'var(--accent)' }}
                 onClick={() => setMobileOpen(false)}
               >
                 {locale === 'de' ? 'Mitglied werden' : 'Join now'}

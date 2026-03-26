@@ -43,14 +43,9 @@ export function CookieBanner() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 24 }}
-          transition={{ duration: 0.35, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="fixed bottom-5 left-4 right-4 sm:left-auto sm:right-5 sm:w-96 rounded-xl border border-[var(--border)] p-5"
-          style={{
-            zIndex: Z.cookie,
-            background: 'var(--bg-surface)',
-            backdropFilter: 'blur(20px)',
-            boxShadow: '0 8px 40px rgba(0,0,0,0.3)',
-          }}
+          transition={{ duration: 0.3 }}
+          className="fixed bottom-5 left-4 right-4 sm:left-auto sm:right-5 sm:w-96 rounded-xl border border-[var(--border)] bg-bg-elevated p-5 shadow-lg"
+          style={{ zIndex: Z.cookie }}
           role="dialog"
           aria-label={t.title}
         >
@@ -66,11 +61,8 @@ export function CookieBanner() {
 
           <button
             onClick={acknowledge}
-            className="w-full py-2 text-sm font-semibold text-void rounded-md transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
-            style={{
-              background: 'linear-gradient(135deg, #22c55e, #86efac)',
-              boxShadow: '0 0 12px rgba(34,197,94,0.2)',
-            }}
+            className="w-full py-2.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 cursor-pointer hover:opacity-90"
+            style={{ background: 'var(--accent)' }}
           >
             {t.acknowledge}
           </button>

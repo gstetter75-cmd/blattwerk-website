@@ -1,42 +1,31 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
-/* ─── Design Tokens (Warmer, lighter dark theme) ─── */
+/* ─── Design Tokens — Light, warm, natural ─── */
 :root {
-  --bg:          #0e1a12;
-  --bg-surface:  #142018;
-  --bg-elevated: #1c2b20;
-  --text:        #f0f7f2;
-  --text-muted:  #8aac96;
-  --text-faint:  #4a6b54;
-  --accent:      #34d369;
-  --accent-soft: #86efac;
-  --gold:        #f59e0b;
-  --gold-soft:   #fde68a;
-  --border:      rgba(255, 255, 255, 0.10);
-  --glass:       rgba(255, 255, 255, 0.05);
-}
+  --bg:          #FAFAF7;
+  --bg-surface:  #F2EFE9;
+  --bg-elevated: #FFFFFF;
+  --bg-dark:     #1A2E22;
 
-/* Dark is always active (forcedTheme="dark") — keep for class compatibility */
-.dark {
-  --bg:          #0e1a12;
-  --bg-surface:  #142018;
-  --bg-elevated: #1c2b20;
-  --text:        #f0f7f2;
-  --text-muted:  #8aac96;
-  --text-faint:  #4a6b54;
-  --accent:      #34d369;
-  --accent-soft: #86efac;
-  --gold:        #f59e0b;
-  --gold-soft:   #fde68a;
-  --border:      rgba(255, 255, 255, 0.10);
-  --glass:       rgba(255, 255, 255, 0.05);
+  --text:        #1A2E22;
+  --text-muted:  #4A6B5A;
+  --text-faint:  #8FA99A;
+
+  --accent:      #2D6A4F;
+  --accent-soft: #95D5B2;
+  --accent-hover:#1B4332;
+
+  --gold:        #C17F3E;
+  --gold-soft:   #F5D5A8;
+
+  --border:      rgba(0, 0, 0, 0.08);
+  --glass:       rgba(0, 0, 0, 0.03);
+  --shadow:      rgba(0, 0, 0, 0.04);
 }
 
 @theme {
-  --color-void:        #0e1a12;
-  --color-paper:       #edf7f1;
+  --color-void:        #1A2E22;
+  --color-paper:       #FAFAF7;
 
   --color-bg:          var(--bg);
   --color-bg-surface:  var(--bg-surface);
@@ -85,18 +74,10 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 /* ─── Scrollbar ─── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--bg-elevated); border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
-/* ─── Blob animation ─── */
-.blob-animation {
-  animation: blob-drift 18s ease-in-out infinite alternate;
-}
-
-@keyframes blob-drift {
-  from { transform: translate(0, 0) scale(1); }
-  to   { transform: translate(40px, -30px) scale(1.06); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .blob-animation { animation: none; }
+/* ─── Selection ─── */
+::selection {
+  background: var(--accent-soft);
+  color: var(--void);
 }
