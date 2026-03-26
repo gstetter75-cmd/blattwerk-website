@@ -168,7 +168,7 @@ export function Header() {
                 width={200}
                 height={80}
                 className="h-14 lg:h-16 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
-                style={{ filter: 'drop-shadow(0 0 12px rgba(34,197,94,0.3)) brightness(1.1)' }}
+                style={{ filter: 'drop-shadow(0 0 12px rgba(34,197,94,0.2))' }}
                 priority
               />
             </Link>

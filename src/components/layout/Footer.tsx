@@ -43,7 +43,7 @@ export function Footer() {
               width={140}
               height={56}
               className="h-14 w-auto object-contain mb-3"
-              style={{ filter: 'drop-shadow(0 0 10px rgba(34,197,94,0.25)) brightness(1.1)' }}
+              style={{ filter: 'drop-shadow(0 0 10px rgba(34,197,94,0.2))' }}
             />
             <p className="text-xs uppercase tracking-[0.1em] font-body mb-4" style={{ color: 'var(--text-faint)' }}>
               Cannabis Social Club<br />Hildesheim
