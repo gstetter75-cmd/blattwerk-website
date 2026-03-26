@@ -36,30 +36,13 @@ export const PAGE_META = {
     de: { title: 'Wissensdatenbank', description: 'Umfassende Wissensdatenbank zu Cannabis: Recht, Medizin, Safer Use, Prävention, Anbau und mehr. 40+ fundierte Artikel von BlattWerk e.V.' },
     en: { title: 'Knowledge Base', description: 'Comprehensive cannabis knowledge base: law, medicine, safer use, prevention, growing and more. 40+ articles by BlattWerk e.V.' },
   },
-  events: {
-    de: { title: 'Events & Termine', description: 'Workshops, Vorträge, Versammlungen und mehr bei BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
-    en: { title: 'Events & Dates', description: 'Workshops, lectures, assemblies and more at BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
-  },
-  donations: {
-    de: { title: 'Spenden', description: 'Unterstütze BlattWerk e.V. mit einer Spende. Hilf uns, verantwortungsvollen Umgang mit Cannabis in Hildesheim zu fördern.' },
-    en: { title: 'Donate', description: 'Support BlattWerk e.V. with a donation. Help us promote responsible cannabis use in Hildesheim.' },
-  },
   prevention: {
     de: { title: 'Suchtprävention', description: 'Unser Präventionskonzept: Aufklärung, Beratung und verantwortungsvoller Umgang mit Cannabis. BlattWerk e.V. Hildesheim.' },
     en: { title: 'Addiction Prevention', description: 'Our prevention concept: education, counseling and responsible cannabis use. BlattWerk e.V. Hildesheim.' },
   },
-  rooms: {
-    de: { title: 'Räumlichkeiten', description: 'Unsere Vereinsräume in Hildesheim – Treffpunkt für Mitglieder des BlattWerk e.V.' },
-    en: { title: 'Facilities', description: 'Our club premises in Hildesheim – meeting point for members of BlattWerk e.V.' },
-  },
   contact: {
     de: { title: 'Kontakt', description: 'Kontaktiere BlattWerk e.V. – Cannabis Social Club Hildesheim. Schreib uns eine Nachricht oder besuche uns vor Ort.' },
     en: { title: 'Contact', description: 'Contact BlattWerk e.V. – Cannabis Social Club Hildesheim. Send us a message or visit us.' },
-  },
-  blog: {
-    de: { title: 'Blog', description: 'Neuigkeiten, Berichte und Einblicke aus dem BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
-    en: { title: 'Blog', description: 'News, reports and insights from BlattWerk e.V. – Cannabis Social Club Hildesheim.' },
-    noIndex: true,
   },
   privacy: {
     de: { title: 'Datenschutzerklärung', description: 'Datenschutzerklärung von BlattWerk e.V. – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.' },

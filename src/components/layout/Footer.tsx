@@ -7,7 +7,6 @@ const NAV = [
   { key: 'about',      href: '/ueber-uns' },
   { key: 'strains',    href: '/sortendatenbank' },
   { key: 'knowledge',  href: '/wissensdatenbank' },
-  { key: 'events',     href: '/events' },
   { key: 'membership', href: '/mitgliedschaft' },
 ] as const;
 

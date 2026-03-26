@@ -33,15 +33,7 @@ const navItems: readonly NavItem[] = [
     ],
   },
   { key: 'strains', href: '/sortendatenbank' },
-  {
-    key: 'knowledge',
-    href: '/wissensdatenbank',
-    children: [
-      { key: 'knowledge', href: '/wissensdatenbank', description: 'knowledge_desc' },
-      { key: 'events', href: '/events', description: 'events_desc' },
-      { key: 'donations', href: '/spenden', description: 'donations_desc' },
-    ],
-  },
+  { key: 'knowledge', href: '/wissensdatenbank' },
   { key: 'contact', href: '/kontakt' },
 ];
 
