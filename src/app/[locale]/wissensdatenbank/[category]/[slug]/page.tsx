@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen } from 'lucide-react';
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
 import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
@@ -91,6 +92,20 @@ export default async function ArticlePage({
       {/* Article Body */}
       <article className="py-12 lg:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Hero Image */}
+          {article.images && article.images.length > 0 && (
+            <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${article.images[0].src}`}
+                alt={isDE ? article.images[0].alt_de : article.images[0].alt_en}
+                fill
+                className="object-cover"
+                style={{ opacity: 0.7 }}
+              />
+              <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, var(--bg) 0%, transparent 40%)' }} />
+            </div>
+          )}
 
           {/* Summary Box */}
           <div className="rounded-xl border border-[var(--border)] p-6 mb-8" style={glassStyle}>

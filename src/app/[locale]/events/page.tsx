@@ -1,6 +1,7 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
+import { HeroImage } from '@/components/decorative/HeroImage';
 import { EventsClient } from './EventsClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -27,6 +28,11 @@ export default async function EventsPage({
             : 'Workshops, lectures, assemblies and more – stay informed about our club activities.'
         }
         accentColor="gold"
+      />
+      <HeroImage
+        src="/images/cannabis-plants-outdoor.jpg"
+        alt={isDE ? 'Cannabis-Pflanzen im Freien' : 'Cannabis plants outdoors'}
+        height="240px"
       />
       <EventsClient isDE={isDE} />
     </>

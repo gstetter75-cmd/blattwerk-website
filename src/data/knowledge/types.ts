@@ -1,3 +1,9 @@
+export interface ArticleImage {
+  src: string;
+  alt_de: string;
+  alt_en: string;
+}
+
 export interface KnowledgeArticle {
   slug: string;
   category: string;
@@ -11,6 +17,7 @@ export interface KnowledgeArticle {
   reading_time: number;
   last_updated: string;
   related_slugs: string[];
+  images?: ArticleImage[];
 }
 
 export interface KnowledgeCategory {

@@ -97,7 +97,7 @@ export function SpendenClient({ isDE }: Props) {
     },
     {
       label: isDE ? 'Bank' : 'Bank',
-      value: isDE ? 'wird noch bekanntgegeben' : 'to be announced',
+      value: isDE ? 'Sparkasse Hildesheim Goslar Peine' : 'Sparkasse Hildesheim Goslar Peine',
       mono: false,
       copyable: false,
     },
@@ -245,7 +245,7 @@ export function SpendenClient({ isDE }: Props) {
             style={{ color: 'var(--text-faint)' }}
           >
             {isDE
-              ? 'Die Bankverbindung wird nach der Vereinsgründung und Kontoeröffnung hier aktualisiert.'
+              ? 'Die vollständige Bankverbindung wird in Kürze hier veröffentlicht.'
               : 'Bank details will be updated here after the association is founded and the account is opened.'}
           </p>
         </div>

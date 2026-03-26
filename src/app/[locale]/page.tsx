@@ -5,6 +5,8 @@ import { Link } from '@/i18n/navigation';
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import { ParticleSphere } from '@/components/decorative/ParticleSphere';
 import { HomeHero, HomePillar, HomeSection } from '@/components/home/HomeAnimations';
+import { HeroImage } from '@/components/decorative/HeroImage';
+import { VideoEmbed } from '@/components/decorative/VideoEmbed';
 import { OrganizationSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -261,6 +263,16 @@ function HomeContent() {
           </div>
         </section>
       </HomeSection>
+
+      {/* ════════════════════════════════════
+          IMAGE BREAK
+      ════════════════════════════════════ */}
+      <HeroImage
+        src="/images/cannabis-leaf-dark.jpg"
+        alt="Cannabis"
+        height="280px"
+        opacity={0.25}
+      />
 
       {/* ════════════════════════════════════
           JOIN CTA — large text, two-col

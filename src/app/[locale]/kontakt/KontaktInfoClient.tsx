@@ -22,11 +22,11 @@ export function KontaktInfoClient({ isDE }: Props) {
   const openingHours = [
     {
       day: isDE ? 'Montag – Freitag' : 'Monday – Friday',
-      time: isDE ? 'wird noch bekanntgegeben' : 'to be announced',
+      time: isDE ? 'nach Vereinbarung' : 'by appointment',
     },
     {
       day: isDE ? 'Samstag' : 'Saturday',
-      time: isDE ? 'wird noch bekanntgegeben' : 'to be announced',
+      time: isDE ? 'nach Vereinbarung' : 'by appointment',
     },
     {
       day: isDE ? 'Sonntag & Feiertage' : 'Sunday & Holidays',
@@ -206,33 +206,24 @@ export function KontaktInfoClient({ isDE }: Props) {
                   style={{ color: 'var(--text-faint)' }}
                 >
                   {isDE
-                    ? 'Karte wird nach Vereinsgründung eingebettet'
-                    : 'Map will be embedded after association founding'}
+                    ? 'Besuche uns am Wetzellplatz in Hildesheim'
+                    : 'Visit us at Wetzellplatz in Hildesheim'}
                 </p>
               </div>
             </div>
 
-            {/* Map placeholder */}
-            <div
-              className="w-full mt-4"
-              style={{
-                aspectRatio: '16/5',
-                border: '1px solid rgba(255,255,255,0.06)',
-                background: 'rgba(255,255,255,0.02)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <div className="text-center">
-                <MapPin className="w-6 h-6 mx-auto mb-3" style={{ color: 'var(--text-faint)' }} />
-                <p
-                  className="text-xs font-mono uppercase tracking-[0.2em]"
-                  style={{ color: 'var(--text-faint)' }}
-                >
-                  {isDE ? 'Kartenvorschau folgt' : 'Map preview coming soon'}
-                </p>
-              </div>
+            {/* Map embed */}
+            <div className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)]" style={{ aspectRatio: '16/7' }}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.5!2d9.9515!3d52.1535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWetzellplatz+2%2C+31137+Hildesheim!5e0!3m2!1sde!2sde!4v1"
+                width="100%"
+                height="100%"
+                style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) contrast(0.9)' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={isDE ? 'Standort BlattWerk e.V.' : 'Location BlattWerk e.V.'}
+              />
             </div>
           </motion.div>
         </div>

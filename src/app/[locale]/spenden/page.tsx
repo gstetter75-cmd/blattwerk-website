@@ -1,6 +1,7 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
+import { HeroImage } from '@/components/decorative/HeroImage';
 import { SpendenClient } from './SpendenClient';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -28,6 +29,11 @@ export default async function DonationsPage({
             : 'Support our work and help us promote responsible cannabis use.'
         }
         accentColor="gold"
+      />
+      <HeroImage
+        src="/images/cannabis-grow.jpg"
+        alt={isDE ? 'Cannabis-Anbau' : 'Cannabis cultivation'}
+        height="220px"
       />
       <SpendenClient isDE={isDE} />
     </>

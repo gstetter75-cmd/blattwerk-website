@@ -1,13 +1,24 @@
 import { KnowledgeArticle, KnowledgeCategory } from './types';
 import { categories } from './categories';
-import { articles } from './articles';
-import { preventionArticles } from './articles-prevention';
+import { legalArticles } from './articles-legal';
+import { healthArticles } from './articles-health';
+import { cannabinoidArticles } from './articles-cannabinoids';
+import { terpeneArticles } from './articles-terpenes';
+import { growingArticles } from './articles-growing';
+import { preventionArticlesV2 } from './articles-prevention-v2';
 
 export type { KnowledgeArticle, KnowledgeCategory };
 
 export const allCategories: readonly KnowledgeCategory[] = categories;
 
-const combinedArticles: readonly KnowledgeArticle[] = [...articles, ...preventionArticles];
+const combinedArticles: readonly KnowledgeArticle[] = [
+  ...legalArticles,
+  ...healthArticles,
+  ...cannabinoidArticles,
+  ...terpeneArticles,
+  ...growingArticles,
+  ...preventionArticlesV2,
+];
 
 export const allArticles: readonly KnowledgeArticle[] = combinedArticles;
 

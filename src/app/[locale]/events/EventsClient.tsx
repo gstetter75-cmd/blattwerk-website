@@ -76,6 +76,14 @@ export function EventsClient({ isDE }: Props) {
       type: isDE ? 'Vortrag' : 'Lecture',
     },
     {
+      date: '2026-03-15',
+      title: isDE ? 'Anbaugenehmigung erteilt' : 'Cultivation License Granted',
+      description: isDE
+        ? 'BlattWerk e.V. hat die offizielle Anbaugenehmigung erhalten. Der gemeinschaftliche Anbau kann beginnen!'
+        : 'BlattWerk e.V. has received the official cultivation license. Community growing can begin!',
+      type: isDE ? 'Meilenstein' : 'Milestone',
+    },
+    {
       date: '2026-03-08',
       title: isDE ? 'Terpene-Tasting' : 'Terpene Tasting',
       description: isDE
