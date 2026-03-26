@@ -110,7 +110,7 @@ export function SearchDialog() {
       {/* Trigger button */}
       <button
         onClick={() => setOpen(true)}
-        className="hidden sm:flex items-center gap-2 px-3 py-1.5 text-xs text-ink-faint hover:text-ink-muted border border-[var(--border)] rounded-md transition-colors cursor-pointer"
+        className="flex items-center gap-2 px-3 py-1.5 text-xs text-ink-faint hover:text-ink-muted border border-[var(--border)] rounded-md transition-colors cursor-pointer"
         aria-label={isDE ? 'Suche öffnen' : 'Open search'}
       >
         <Search className="w-3 h-3" />

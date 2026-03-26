@@ -134,7 +134,7 @@ export function Footer() {
                   className="text-xs uppercase tracking-[0.1em] font-body transition-colors duration-200"
                   style={{ color: 'var(--text-muted)' }}
                 >
-                  +49 152 33539841
+                  +49 15233539841
                 </a>
               </li>
             </ul>

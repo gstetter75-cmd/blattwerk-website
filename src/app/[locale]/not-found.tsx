@@ -1,7 +1,11 @@
 import { Link } from '@/i18n/navigation';
+import { useLocale } from 'next-intl';
 import { ArrowLeft } from 'lucide-react';
 
 export default function NotFound() {
+  const locale = useLocale();
+  const isDE = locale === 'de';
+
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
       {/* Blob Background */}
@@ -18,17 +22,19 @@ export default function NotFound() {
           404
         </p>
         <h1 className="font-heading text-3xl italic text-ink mb-3">
-          Seite nicht gefunden
+          {isDE ? 'Seite nicht gefunden' : 'Page not found'}
         </h1>
         <p className="text-ink-muted text-base leading-relaxed mb-8">
-          Diese Seite existiert nicht oder wurde verschoben.
+          {isDE
+            ? 'Diese Seite existiert nicht oder wurde verschoben.'
+            : 'This page does not exist or has been moved.'}
         </p>
         <Link
           href="/"
           className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-void font-semibold rounded-md hover:bg-accent-soft transition-colors duration-200 text-sm"
         >
           <ArrowLeft className="w-4 h-4" />
-          Zurück zur Startseite
+          {isDE ? 'Zurück zur Startseite' : 'Back to home'}
         </Link>
       </div>
     </div>

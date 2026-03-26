@@ -29,8 +29,8 @@ export const PAGE_META = {
     en: { title: 'Membership', description: 'Become a member of BlattWerk e.V. – Cannabis Social Club Hildesheim. Requirements, admission process, fees and FAQs.' },
   },
   strains: {
-    de: { title: 'Sortendatenbank', description: '89 Cannabis-Sorten wissenschaftlich dokumentiert. Genetik, Terpenprofil, THC/CBD-Werte und Wirkungsspektrum. BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Strain Database', description: '89 cannabis strains scientifically documented. Genetics, terpene profile, THC/CBD levels and effect spectrum. BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Sortendatenbank', description: 'Cannabis-Sorten wissenschaftlich dokumentiert. Genetik, Terpenprofil, THC/CBD-Werte und Wirkungsspektrum. BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Strain Database', description: 'Cannabis strains scientifically documented. Genetics, terpene profile, THC/CBD levels and effect spectrum. BlattWerk e.V. Hildesheim.' },
   },
   knowledge: {
     de: { title: 'Wissensdatenbank', description: 'Umfassende Wissensdatenbank zu Cannabis: Recht, Medizin, Safer Use, Prävention, Anbau und mehr. 40+ fundierte Artikel von BlattWerk e.V.' },

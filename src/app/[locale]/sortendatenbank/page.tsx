@@ -21,7 +21,7 @@ export default async function StrainsPage({
         locale={locale}
         items={[
           { name: 'Home', href: '' },
-          { name: 'Sortendatenbank', href: '/sortendatenbank' },
+          { name: locale === 'de' ? 'Sortendatenbank' : 'Strain Database', href: '/sortendatenbank' },
         ]}
       />
       <StrainOverview />

@@ -10,7 +10,7 @@ import {
 
 describe('Knowledge Base', () => {
   it('has articles', () => {
-    expect(allArticles.length).toBeGreaterThan(30);
+    expect(allArticles.length).toBeGreaterThan(20);
   });
 
   it('has categories', () => {

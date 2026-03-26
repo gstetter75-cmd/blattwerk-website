@@ -3,6 +3,9 @@ import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, ExternalLink } from 'lucide-react';
+import { strains } from '@/data/strains';
+import { allArticles } from '@/data/knowledge';
+import { categories } from '@/data/knowledge/categories';
 import { ParticleSphere } from '@/components/decorative/ParticleSphere';
 import { HomeHero, HomePillar, HomeSection } from '@/components/home/HomeAnimations';
 import { HeroImage } from '@/components/decorative/HeroImage';
@@ -232,9 +235,9 @@ function HomeContent() {
                   style={{ border: '1px solid rgba(255,255,255,0.06)' }}
                 >
                   {[
-                    { value: '40+', labelKey: 'stat_articles' },
-                    { value: '89', labelKey: 'stat_strains' },
-                    { value: '12', labelKey: 'stat_categories' },
+                    { value: `${allArticles.length}+`, labelKey: 'stat_articles' },
+                    { value: String(strains.length), labelKey: 'stat_strains' },
+                    { value: String(categories.length), labelKey: 'stat_categories' },
                     { value: '100%', labelKey: 'stat_free' },
                   ].map(({ value, labelKey }, i) => (
                     <div
