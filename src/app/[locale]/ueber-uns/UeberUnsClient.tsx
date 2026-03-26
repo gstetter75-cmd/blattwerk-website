@@ -1,71 +1,39 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
+import { Check, Sprout, Users, Shield, BookOpen, Leaf } from 'lucide-react';
 
 interface Props {
   isDE: boolean;
 }
 
 const fadeUp = {
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.55 },
+  transition: { duration: 0.5 },
 };
 
 export function UeberUnsClient({ isDE }: Props) {
-  const values = [
-    {
-      num: '01',
-      title: isDE ? 'Verantwortung' : 'Responsibility',
-      text: isDE
-        ? 'Wir setzen auf verantwortungsvollen Umgang mit Cannabis und stellen den Jugendschutz in den Mittelpunkt unseres Handelns.'
-        : 'We advocate for responsible cannabis use and place youth protection at the center of our actions.',
-    },
-    {
-      num: '02',
-      title: isDE ? 'Aufklärung' : 'Education',
-      text: isDE
-        ? 'Fundierte, evidenzbasierte Informationen sind die Grundlage unserer Arbeit. Wir klären sachlich und ohne Verharmlosung auf.'
-        : 'Well-founded, evidence-based information is the foundation of our work. We educate objectively and without trivialization.',
-    },
-    {
-      num: '03',
-      title: isDE ? 'Gemeinschaft' : 'Community',
-      text: isDE
-        ? 'Als Verein leben wir von unserer Gemeinschaft. Jedes Mitglied trägt aktiv zu unserem gemeinsamen Ziel bei.'
-        : 'As an association, we thrive on our community. Every member actively contributes to our shared goal.',
-    },
-    {
-      num: '04',
-      title: isDE ? 'Transparenz' : 'Transparency',
-      text: isDE
-        ? 'Offene Kommunikation, nachvollziehbare Entscheidungen und transparente Finanzen sind für uns selbstverständlich.'
-        : 'Open communication, traceable decisions and transparent finances are a matter of course for us.',
-    },
-  ];
-
   const boardMembers = [
     {
       role: isDE ? '1. Vorsitzender' : 'Chairperson',
       name: 'Gero Stetter',
-      description: isDE
+      text: isDE
         ? 'Vertretung des Vereins, Koordination der Vereinsarbeit'
         : 'Representation of the association, coordination of activities',
     },
     {
       role: isDE ? 'Stell. Vorsitzender' : 'Vice Chairperson',
       name: 'Salvatore Runza',
-      description: isDE
+      text: isDE
         ? 'Strategische Ausrichtung, Mitgliederbetreuung'
         : 'Strategic direction, member support',
     },
     {
       role: isDE ? 'Kassenwart' : 'Treasurer',
       name: 'Thomas Andreas',
-      description: isDE
+      text: isDE
         ? 'Finanzverwaltung, Buchführung, Beitragswesen'
         : 'Financial management, bookkeeping, membership fees',
     },
@@ -75,232 +43,205 @@ export function UeberUnsClient({ isDE }: Props) {
     {
       role: isDE ? 'Anbauleitung' : 'Head of Cultivation',
       name: 'Florian Klatt',
-      description: isDE
+      text: isDE
         ? 'Planung und Überwachung des gemeinschaftlichen Anbaus'
         : 'Planning and supervision of communal cultivation',
     },
     {
       role: isDE ? 'Qualitätssicherung' : 'Quality Assurance',
       name: 'Jonas Müller',
-      description: isDE
+      text: isDE
         ? 'Kontrolle der Anbaubedingungen und Produktqualität'
         : 'Monitoring growing conditions and product quality',
     },
     {
       role: isDE ? 'Suchtprävention' : 'Addiction Prevention',
       name: 'Jennifer Trebbin',
-      description: isDE
+      text: isDE
         ? 'Beratung, Prävention und Vermittlung an Hilfsangebote'
         : 'Counseling, prevention and referral to support services',
     },
   ];
 
-  const vereinsregeln = isDE
+  const rules = isDE
     ? [
-        'Der Konsum von Cannabis ist ausschließlich Mitgliedern ab 21 Jahren gestattet.',
-        'Cannabis darf nur in den dafür vorgesehenen Bereichen der Vereinsräume konsumiert werden.',
-        'Die Weitergabe von Cannabis an Nicht-Mitglieder oder Minderjährige ist strengstens untersagt.',
-        'Jedes Mitglied ist verpflichtet, sich an die geltenden Abgabemengen (max. 25g/Tag, 50g/Monat) zu halten.',
-        'Respektvoller Umgang miteinander und gegenseitige Rücksichtnahme sind Grundvoraussetzung.',
-        'Bei Anzeichen von problematischem Konsum ist die Suchtpräventionsbeauftragte/der Suchtpräventionsbeauftragte zu kontaktieren. Alternativ kann auch der Vorstand informiert werden.',
-        'Das Mitbringen und der Konsum anderer Rauschmittel in den Vereinsräumen ist streng verboten. Blattwerk e.V. lehnt Mischkonsum ausdrücklich ab.',
-        'Verstöße gegen die Vereinsregeln können zum Ausschluss aus dem Verein führen.',
+        'Konsum nur für Mitglieder ab 21 Jahren.',
+        'Cannabis nur in vorgesehenen Bereichen.',
+        'Keine Weitergabe an Nicht-Mitglieder oder Minderjährige.',
+        'Max. 25g/Tag, 50g/Monat pro Mitglied.',
+        'Respektvoller Umgang miteinander.',
+        'Bei problematischem Konsum: Suchtpräventionsbeauftragte kontaktieren.',
+        'Keine anderen Rauschmittel — kein Mischkonsum.',
+        'Verstöße können zum Ausschluss führen.',
       ]
     : [
-        'Cannabis consumption is only permitted for members aged 21 and over.',
-        'Cannabis may only be consumed in the designated areas of the club premises.',
-        'Passing cannabis to non-members or minors is strictly prohibited.',
-        'Every member is obliged to comply with the applicable distribution limits (max. 25g/day, 50g/month).',
-        'Respectful interaction and mutual consideration are basic prerequisites.',
-        'If signs of problematic consumption appear, the addiction prevention officer must be contacted. The board may also be informed.',
-        'Bringing and consuming other intoxicants on the club premises is strictly forbidden. BlattWerk e.V. explicitly opposes polysubstance use.',
-        'Violations of the club rules may lead to exclusion from the association.',
+        'Cannabis only for members aged 21+.',
+        'Cannabis only in designated areas.',
+        'No sharing with non-members or minors.',
+        'Max. 25g/day, 50g/month per member.',
+        'Respectful interaction at all times.',
+        'Contact prevention officer for problematic use.',
+        'No other intoxicants — no polysubstance use.',
+        'Violations may lead to exclusion.',
       ];
 
   return (
     <>
-      {/* -- Hero -- */}
-      <WQFPageHero
-        label={isDE ? 'Über den Verein' : 'About the Club'}
-        title="BlattWerk e.V."
-        subtitle={
-          isDE
-            ? 'BlattWerk e.V. ist eine Anbauvereinigung (Cannabis Social Club) mit Sitz in Deutschland. Wir stehen für verantwortungsvollen, aufgeklärten und gemeinschaftlichen Umgang mit Cannabis.'
-            : 'BlattWerk e.V. is a cultivation association (Cannabis Social Club) based in Germany. We stand for responsible, informed and communal cannabis use.'
-        }
-        accentColor="green"
-      />
-
-      {/* -- Image Banner -- */}
-      <section className="relative overflow-hidden border-t border-[var(--border)]" style={{ height: '280px' }}>
-        <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cannabis-seedlings.jpg`}
-          alt={isDE ? 'Cannabis-Setzlinge im Gewächshaus' : 'Cannabis seedlings in greenhouse'}
-          fill
-          className="object-cover"
-          style={{ opacity: 0.35 }}
-        />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, var(--bg), transparent 30%, transparent 70%, var(--bg))' }} />
-      </section>
-
-      {/* -- Values -- */}
-      <section className="py-20 lg:py-28 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          {/* Section header */}
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Unsere Werte' : 'Our Values'}
+      {/* ── Hero ── */}
+      <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <motion.div {...fadeUp}>
+            <p className="text-sm font-medium text-accent mb-4">
+              {isDE ? 'Über den Verein' : 'About the Club'}
             </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
-              {isDE ? 'Was uns leitet' : 'What guides us'}
-            </h2>
+            <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
+              {isDE
+                ? 'Wir sind BlattWerk — ein Cannabis Social Club aus Hildesheim'
+                : 'We are BlattWerk — a Cannabis Social Club from Hildesheim'}
+            </h1>
+            <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
+              {isDE
+                ? 'Gegründet aus der Überzeugung, dass Cannabis verantwortungsvoll, gemeinschaftlich und legal angebaut werden kann. Seit März 2026 haben wir die offizielle Anbaulizenz — und bauen jetzt auf.'
+                : 'Founded from the conviction that cannabis can be grown responsibly, communally and legally. Since March 2026 we hold the official cultivation license — and we\'re building now.'}
+            </p>
           </motion.div>
-
-          {/* 2x2 grid */}
-          <div className="grid sm:grid-cols-2 gap-px border border-[var(--border)]">
-            {values.map(({ num, title, text }, i) => (
-              <motion.div
-                key={num}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="p-8 lg:p-10 bg-bg"
-              >
-                <p className="font-mono text-xs mb-6 text-ink-faint">
-                  {num}
-                </p>
-                <h3 className="font-heading font-bold text-2xl mb-4">
-                  {title}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {text}
-                </p>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 
-      {/* -- Board -- */}
-      <section id="vorstand" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Vereinsführung' : 'Leadership'}
-            </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+      {/* ── Our story ── */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 bg-bg-surface">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-16">
+              <div>
+                <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-6">
+                  {isDE ? 'Unsere Geschichte' : 'Our Story'}
+                </h2>
+                <div className="space-y-4 text-ink-muted leading-relaxed">
+                  <p>
+                    {isDE
+                      ? 'BlattWerk e.V. entstand 2025 in Hildesheim — aus einer Gruppe von Menschen, die an einen besseren Umgang mit Cannabis glauben. Nicht illegal, nicht unkontrolliert, sondern offen, ehrlich und im Rahmen des Konsumcannabisgesetzes.'
+                      : 'BlattWerk e.V. was founded in 2025 in Hildesheim — by a group of people who believe in a better approach to cannabis. Not illegal, not uncontrolled, but open, honest and within the Consumer Cannabis Act.'}
+                  </p>
+                  <p>
+                    {isDE
+                      ? 'Am 18. März 2026 haben wir die offizielle Anbaulizenz erhalten. Das war ein Meilenstein — für uns und für Hildesheim. Seitdem arbeiten wir daran, unsere Anbau-Infrastruktur aufzubauen. Im Sommer 2026 wollen wir die erste Ernte präsentieren.'
+                      : 'On March 18, 2026, we received our official cultivation license. That was a milestone — for us and for Hildesheim. Since then, we\'ve been building our growing infrastructure. In summer 2026, we aim to present our first harvest.'}
+                  </p>
+                  <p>
+                    {isDE
+                      ? 'Wir sind kein anonymer Verein. Hinter BlattWerk stehen echte Menschen mit echten Namen, die sich für Qualität, Transparenz und Gemeinschaft einsetzen.'
+                      : 'We\'re not an anonymous club. Behind BlattWerk are real people with real names, committed to quality, transparency and community.'}
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { icon: Check, title: isDE ? 'Lizenziert' : 'Licensed', text: isDE ? 'Offizielle Anbaugenehmigung seit 18.03.2026' : 'Official cultivation license since March 18, 2026' },
+                  { icon: Users, title: isDE ? 'Gemeinschaft' : 'Community', text: isDE ? 'Aktive Mitglieder, die gemeinsam etwas aufbauen' : 'Active members building something together' },
+                  { icon: Shield, title: isDE ? 'Jugendschutz' : 'Youth protection', text: isDE ? 'Strenge Regeln, Prävention und Aufklärung' : 'Strict rules, prevention and education' },
+                  { icon: Leaf, title: isDE ? 'Qualität' : 'Quality', text: isDE ? 'Kontrollierter Anbau, geprüfte Sorten' : 'Controlled cultivation, tested strains' },
+                ].map(({ icon: Icon, title, text }) => (
+                  <div key={title} className="p-5 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                    <Icon className="w-5 h-5 text-accent mb-3" />
+                    <h3 className="font-heading font-semibold text-sm mb-1.5">{title}</h3>
+                    <p className="text-xs text-ink-muted leading-relaxed">{text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* ── Board + Growing Council ── */}
+      <HomeSection>
+        <section id="vorstand" className="py-16 lg:py-24 scroll-mt-20">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Vorstand' : 'Board'}
             </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-px border border-[var(--border)]">
-            {boardMembers.map(({ role, name, description }, i) => (
-              <motion.div
-                key={name}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.1 }}
-                className="p-8 bg-bg"
-              >
-                <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-                  {role}
-                </p>
-                <h3 className="font-heading font-bold text-xl mb-3">
-                  {name}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* -- Growing Council -- */}
-      <section id="anbaurat" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Fachgremium' : 'Expert Committee'}
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE
+                ? 'Der Vorstand vertritt den Verein nach außen und koordiniert die Vereinsarbeit.'
+                : 'The board represents the association externally and coordinates club activities.'}
             </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+
+            <div className="grid md:grid-cols-3 gap-5 mb-16">
+              {boardMembers.map(({ role, name, text }) => (
+                <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <p className="text-xs font-medium text-accent mb-3">{role}</p>
+                  <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
+                  <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Anbaurat' : 'Growing Council'}
             </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-px border border-[var(--border)]">
-            {growingCouncil.map(({ role, name, description }, i) => (
-              <motion.div
-                key={name}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.55, delay: i * 0.1 }}
-                className="p-8 bg-bg"
-              >
-                <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-                  {role}
-                </p>
-                <h3 className="font-heading font-bold text-xl mb-3">
-                  {name}
-                </h3>
-                <p className="text-sm leading-relaxed font-body text-ink-muted">
-                  {description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* -- Vereinsregeln -- */}
-      <section id="regeln" className="py-20 lg:py-28 scroll-mt-20 border-t border-[var(--border)]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp} className="mb-16">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-accent">
-              {isDE ? 'Verbindlich für alle' : 'Binding for all'}
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE
+                ? 'Der Anbaurat verantwortet den gemeinschaftlichen Anbau, die Qualitätssicherung und die Suchtprävention.'
+                : 'The Growing Council is responsible for communal cultivation, quality assurance and addiction prevention.'}
             </p>
-            <h2
-              className="font-heading font-bold"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)' }}
-            >
+
+            <div className="grid md:grid-cols-3 gap-5">
+              {growingCouncil.map(({ role, name, text }) => (
+                <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                  <p className="text-xs font-medium text-accent mb-3">{role}</p>
+                  <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
+                  <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* ── Club Rules ── */}
+      <HomeSection>
+        <section id="regeln" className="py-16 lg:py-24 bg-bg-surface scroll-mt-20">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
               {isDE ? 'Vereinsregeln' : 'Club Rules'}
             </h2>
-          </motion.div>
+            <p className="text-ink-muted mb-10">
+              {isDE
+                ? 'Verbindlich für alle Mitglieder. Verstöße können zum Ausschluss führen.'
+                : 'Binding for all members. Violations may lead to exclusion.'}
+            </p>
 
-          <ul className="space-y-0">
-            {vereinsregeln.map((rule, i) => (
-              <motion.li
-                key={i}
-                initial={{ opacity: 0, y: 16 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.45, delay: i * 0.05 }}
-                className={`flex items-start gap-6 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
-              >
-                <span className="font-mono text-xs shrink-0 mt-0.5 w-6 text-right text-ink-faint">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <span className="pl-4 text-sm leading-relaxed font-body text-ink-muted border-l border-accent/25">
-                  {rule}
-                </span>
-              </motion.li>
-            ))}
-          </ul>
-        </div>
-      </section>
+            <ol className="space-y-3">
+              {rules.map((rule, i) => (
+                <li key={i} className="flex items-start gap-4 py-3">
+                  <span className="text-xs font-mono text-ink-faint mt-0.5 w-5 shrink-0 text-right">
+                    {i + 1}.
+                  </span>
+                  <span className="text-sm text-ink-muted leading-relaxed">
+                    {rule}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+      </HomeSection>
     </>
+  );
+}
+
+/* Re-use HomeSection for consistent animations */
+function HomeSection({ children }: { children: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.6 }}
+    >
+      {children}
+    </motion.div>
   );
 }
