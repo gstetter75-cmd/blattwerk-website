@@ -92,16 +92,16 @@ export function Header() {
         }}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+          <div className="flex items-center justify-between h-24 lg:h-28">
 
             {/* Logo */}
             <Link href="/" className="shrink-0 group">
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
                 alt="Blattwerk e.V."
-                width={180}
-                height={72}
-                className="h-16 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
+                width={260}
+                height={104}
+                className="h-20 lg:h-24 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
                 style={{ filter: 'drop-shadow(0 0 14px rgba(34,197,94,0.35)) brightness(1.15) contrast(1.1)' }}
                 priority
               />
