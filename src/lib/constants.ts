@@ -52,7 +52,7 @@ export const ANIMATION = {
 
 export const HEADER = {
   SCROLL_THRESHOLD: 40,
-  BG_SCROLLED: 'rgba(5,10,7,0.92)',
+  BG_SCROLLED: 'rgba(14,26,18,0.92)',
   BACKDROP_BLUR: 'blur(20px)',
 } as const;
 

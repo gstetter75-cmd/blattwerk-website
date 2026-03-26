@@ -2,40 +2,40 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ─── Design Tokens (Dark-first, WQF-style) ─── */
+/* ─── Design Tokens (Warmer, lighter dark theme) ─── */
 :root {
-  --bg:          #050a07;
-  --bg-surface:  #0a110d;
-  --bg-elevated: #111a14;
-  --text:        #edf7f1;
-  --text-muted:  #6b8f78;
-  --text-faint:  #2e4a38;
-  --accent:      #22c55e;
+  --bg:          #0e1a12;
+  --bg-surface:  #142018;
+  --bg-elevated: #1c2b20;
+  --text:        #f0f7f2;
+  --text-muted:  #8aac96;
+  --text-faint:  #4a6b54;
+  --accent:      #34d369;
   --accent-soft: #86efac;
   --gold:        #f59e0b;
   --gold-soft:   #fde68a;
-  --border:      rgba(255, 255, 255, 0.07);
-  --glass:       rgba(255, 255, 255, 0.03);
+  --border:      rgba(255, 255, 255, 0.10);
+  --glass:       rgba(255, 255, 255, 0.05);
 }
 
 /* Dark is always active (forcedTheme="dark") — keep for class compatibility */
 .dark {
-  --bg:          #050a07;
-  --bg-surface:  #0a110d;
-  --bg-elevated: #111a14;
-  --text:        #edf7f1;
-  --text-muted:  #6b8f78;
-  --text-faint:  #2e4a38;
-  --accent:      #22c55e;
+  --bg:          #0e1a12;
+  --bg-surface:  #142018;
+  --bg-elevated: #1c2b20;
+  --text:        #f0f7f2;
+  --text-muted:  #8aac96;
+  --text-faint:  #4a6b54;
+  --accent:      #34d369;
   --accent-soft: #86efac;
   --gold:        #f59e0b;
   --gold-soft:   #fde68a;
-  --border:      rgba(255, 255, 255, 0.07);
-  --glass:       rgba(255, 255, 255, 0.03);
+  --border:      rgba(255, 255, 255, 0.10);
+  --glass:       rgba(255, 255, 255, 0.05);
 }
 
 @theme {
-  --color-void:        #050a07;
+  --color-void:        #0e1a12;
   --color-paper:       #edf7f1;
 
   --color-bg:          var(--bg);

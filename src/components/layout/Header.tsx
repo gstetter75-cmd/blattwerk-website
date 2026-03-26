@@ -38,6 +38,7 @@ const navGroups = [
       { key: 'donations', href: '/spenden' },
     ],
   },
+  { key: 'csc_founding', href: '/csc-gruendung' },
   { key: 'contact', href: '/kontakt' },
 ] as const;
 
@@ -88,7 +89,7 @@ export function Header() {
         }`}
         style={{
           zIndex: Z.elevated,
-          background: scrolled ? 'rgba(5,10,7,0.92)' : 'transparent',
+          background: scrolled ? 'rgba(14,26,18,0.92)' : 'transparent',
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
         }}
       >
@@ -201,7 +202,7 @@ export function Header() {
             exit={{ opacity: 0, x: '100%' }}
             transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="fixed inset-0 lg:hidden flex flex-col pt-20 px-6 overflow-y-auto"
-            style={{ zIndex: Z.overlay, background: 'rgba(5,10,7,0.98)', backdropFilter: 'blur(20px)' }}
+            style={{ zIndex: Z.overlay, background: 'rgba(14,26,18,0.98)', backdropFilter: 'blur(20px)' }}
           >
             <nav className="flex flex-col gap-1">
               {navGroups.map((group) => (

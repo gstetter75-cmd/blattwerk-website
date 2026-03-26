@@ -51,7 +51,7 @@ export function VideoEmbed({ videoId, title, className = '' }: VideoEmbedProps) 
       {/* Dark overlay */}
       <div
         className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-60"
-        style={{ background: 'rgba(5,10,7,0.5)', opacity: 0.7 }}
+        style={{ background: 'rgba(14,26,18,0.5)', opacity: 0.7 }}
       />
 
       {/* Play button */}
