@@ -6,7 +6,7 @@
 import { readdirSync, statSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
-const BASE_URL = 'https://gstetter75-cmd.github.io/blattwerk-website';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://blattwerk.dev';
 const OUT_DIR = 'out';
 const NOW = new Date().toISOString().split('T')[0];
 

@@ -2,24 +2,24 @@
   "name": "BlattWerk e.V.",
   "short_name": "BlattWerk",
   "description": "Cannabis Social Club Hildesheim – Gemeinschaft, Aufklärung und verantwortungsvoller Umgang.",
-  "start_url": "/blattwerk-website/de/",
+  "start_url": "/de/",
   "display": "standalone",
   "background_color": "#070d0a",
   "theme_color": "#070d0a",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/blattwerk-website/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     },
     {
-      "src": "/blattwerk-website/images/icon-192.png",
+      "src": "/images/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/blattwerk-website/images/icon-512.png",
+      "src": "/images/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

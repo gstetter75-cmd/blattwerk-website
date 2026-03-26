@@ -27,6 +27,9 @@ jobs:
 
       - run: npm install
       - run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /blattwerk-website
+          NEXT_PUBLIC_BASE_URL: https://gstetter75-cmd.github.io/blattwerk-website
 
       - uses: actions/upload-pages-artifact@v3
         with:
