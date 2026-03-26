@@ -1,7 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, MapPinned } from 'lucide-react';
 import { ContactForm } from '@/components/contact/ContactForm';
 
 interface Props {
@@ -17,6 +18,52 @@ const fadeUp = {
 
 const sectionBorder = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
 const rowDivider = { borderTop: '1px solid rgba(255,255,255,0.06)' } as const;
+
+function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
+  const [consented, setConsented] = useState(false);
+
+  if (!consented) {
+    return (
+      <div
+        className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)] flex flex-col items-center justify-center gap-4 p-8"
+        style={{ aspectRatio: '16/7', background: 'var(--bg-elevated)' }}
+      >
+        <MapPinned className="w-8 h-8 text-ink-faint" />
+        <p className="text-sm text-ink-muted text-center max-w-md">
+          {isDE
+            ? 'Beim Laden der Karte werden Daten an Google LLC übermittelt. Mehr dazu in unserer Datenschutzerklärung.'
+            : 'Loading the map transmits data to Google LLC. See our privacy policy for details.'}
+        </p>
+        <button
+          type="button"
+          onClick={() => setConsented(true)}
+          className="px-5 py-2.5 text-sm font-semibold text-void rounded-md transition-all duration-200 hover:-translate-y-0.5 cursor-pointer"
+          style={{
+            background: 'linear-gradient(135deg, #22c55e, #86efac)',
+            boxShadow: '0 0 12px rgba(34,197,94,0.2)',
+          }}
+        >
+          {isDE ? 'Karte laden' : 'Load map'}
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)]" style={{ aspectRatio: '16/7' }}>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.5!2d9.9515!3d52.1535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWetzellplatz+2%2C+31137+Hildesheim!5e0!3m2!1sde!2sde!4v1"
+        width="100%"
+        height="100%"
+        style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) contrast(0.9)' }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title={isDE ? 'Standort BlattWerk e.V.' : 'Location BlattWerk e.V.'}
+      />
+    </div>
+  );
+}
 
 export function KontaktInfoClient({ isDE }: Props) {
   const openingHours = [
@@ -212,19 +259,8 @@ export function KontaktInfoClient({ isDE }: Props) {
               </div>
             </div>
 
-            {/* Map embed */}
-            <div className="w-full mt-4 rounded-xl overflow-hidden border border-[var(--border)]" style={{ aspectRatio: '16/7' }}>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.5!2d9.9515!3d52.1535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWetzellplatz+2%2C+31137+Hildesheim!5e0!3m2!1sde!2sde!4v1"
-                width="100%"
-                height="100%"
-                style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg) contrast(0.9)' }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title={isDE ? 'Standort BlattWerk e.V.' : 'Location BlattWerk e.V.'}
-              />
-            </div>
+            {/* Map embed — consent-gated for GDPR */}
+            <GoogleMapsEmbed isDE={isDE} />
           </motion.div>
         </div>
       </section>

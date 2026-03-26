@@ -64,7 +64,7 @@ export default async function ImpressumPage({
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Registergericht' : 'Registration court'}</dt>
-                <dd className="text-ink">Vereinsregister</dd>
+                <dd className="text-ink">{isDE ? 'Amtsgericht Hildesheim' : 'District Court of Hildesheim'}</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Registernummer' : 'Registration number'}</dt>

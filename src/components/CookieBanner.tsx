@@ -12,14 +12,12 @@ const TEXTS = {
   de: {
     title: 'Cookies & Datenschutz',
     text: 'Wir verwenden ausschließlich technisch notwendige Cookies. Keine Tracking- oder Werbe-Cookies.',
-    decline: 'Ablehnen',
-    accept: 'Akzeptieren',
+    acknowledge: 'Verstanden',
   },
   en: {
     title: 'Cookies & Privacy',
     text: 'We only use technically necessary cookies. No tracking or advertising cookies.',
-    decline: 'Decline',
-    accept: 'Accept',
+    acknowledge: 'Got it',
   },
 } as const;
 
@@ -33,13 +31,8 @@ export function CookieBanner() {
     if (!consent) setVisible(true);
   }, []);
 
-  const accept = () => {
-    localStorage.setItem(STORAGE_KEY, 'accepted');
-    setVisible(false);
-  };
-
-  const decline = () => {
-    localStorage.setItem(STORAGE_KEY, 'declined');
+  const acknowledge = () => {
+    localStorage.setItem(STORAGE_KEY, 'acknowledged');
     setVisible(false);
   };
 
@@ -71,24 +64,16 @@ export function CookieBanner() {
             </div>
           </div>
 
-          <div className="flex gap-2">
-            <button
-              onClick={decline}
-              className="flex-1 py-2 text-sm text-ink-muted hover:text-ink border border-[var(--border)] rounded-md hover:bg-bg-elevated transition-all duration-200 cursor-pointer"
-            >
-              {t.decline}
-            </button>
-            <button
-              onClick={accept}
-              className="flex-1 py-2 text-sm font-semibold text-void rounded-md transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
-              style={{
-                background: 'linear-gradient(135deg, #22c55e, #86efac)',
-                boxShadow: '0 0 12px rgba(34,197,94,0.2)',
-              }}
-            >
-              {t.accept}
-            </button>
-          </div>
+          <button
+            onClick={acknowledge}
+            className="w-full py-2 text-sm font-semibold text-void rounded-md transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
+            style={{
+              background: 'linear-gradient(135deg, #22c55e, #86efac)',
+              boxShadow: '0 0 12px rgba(34,197,94,0.2)',
+            }}
+          >
+            {t.acknowledge}
+          </button>
         </motion.div>
       )}
     </AnimatePresence>

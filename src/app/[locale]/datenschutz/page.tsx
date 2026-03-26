@@ -34,7 +34,7 @@ export default async function DatenschutzPage({
     {
       icon: FileText,
       title: '3. Kontaktformular',
-      content: `Wenn du unser Kontaktformular nutzt, werden die eingegebenen Daten (Name, E-Mail, Betreff, Nachricht) verarbeitet, um deine Anfrage zu beantworten.\n\nDie Formulardaten werden über Netlify Forms verarbeitet und an uns per E-Mail weitergeleitet. Die Daten werden nicht für andere Zwecke verwendet und nach Abschluss der Anfrage gelöscht, spätestens nach 6 Monaten.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).`,
+      content: `Wenn du unser Kontaktformular nutzt, werden die eingegebenen Daten (Name, E-Mail, Betreff, Nachricht) verarbeitet, um deine Anfrage zu beantworten.\n\nDie Formulardaten werden über den Dienst Formspree Inc. (44 Tehama Street, San Francisco, CA 94105, USA) verarbeitet und an uns per E-Mail weitergeleitet. Formspree speichert die übermittelten Daten auf Servern in den USA. Es besteht ein Angemessenheitsbeschluss der EU-Kommission (EU-US Data Privacy Framework). Die Daten werden nicht für andere Zwecke verwendet und nach Abschluss der Anfrage gelöscht, spätestens nach 6 Monaten. Weitere Informationen: https://formspree.io/legal/privacy-policy\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).`,
     },
     {
       icon: Cookie,
@@ -42,23 +42,28 @@ export default async function DatenschutzPage({
       content: `Diese Website verwendet ausschließlich technisch notwendige Cookies und den lokalen Speicher (localStorage) des Browsers.\n\nWir speichern deine Cookie-Einwilligung (cookie_consent) im localStorage, um zu merken, dass du den Cookie-Hinweis bereits gesehen hast. Dieser Eintrag enthält keine personenbezogenen Daten.\n\nWir verwenden keine Tracking-Cookies, keine Analyse-Tools (z.B. Google Analytics) und kein Remarketing. Es werden keine Daten an Werbenetze übermittelt.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am funktionalen Betrieb der Website).`,
     },
     {
+      icon: Eye,
+      title: '5. Google Maps',
+      content: `Auf unserer Kontaktseite nutzen wir Google Maps zur Darstellung unseres Standorts. Google Maps wird erst nach deiner ausdrücklichen Einwilligung geladen (Klick auf „Karte laden").\n\nBeim Laden von Google Maps wird eine Verbindung zu Servern der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA hergestellt. Dabei können personenbezogene Daten (insbesondere IP-Adresse und Standortdaten) an Google übermittelt werden.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Du kannst deine Einwilligung jederzeit widerrufen, indem du die Seite neu lädst.`,
+    },
+    {
       icon: FileText,
-      title: '5. Schriftarten',
+      title: '6. Schriftarten',
       content: `Diese Website verwendet Google Fonts (Fraunces, Plus Jakarta Sans, JetBrains Mono). Die Schriftarten werden beim Build-Prozess heruntergeladen und von unserem eigenen Server ausgeliefert.\n\nEs wird keine Verbindung zu Google-Servern beim Aufrufen der Website hergestellt. Es findet keine Übermittlung von Nutzerdaten an Google statt.`,
     },
     {
       icon: Eye,
-      title: '6. Deine Rechte',
+      title: '7. Deine Rechte',
       content: `Du hast gegenüber uns folgende Rechte bezüglich deiner personenbezogenen Daten:\n\n• Recht auf Auskunft (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Recht auf Widerspruch (Art. 21 DSGVO)\n\nZur Ausübung deiner Rechte wende dich an: info@blattwerk.dev\n\nDu hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Niedersachsen ist:\n\nDie Landesbeauftragte für den Datenschutz Niedersachsen\nPrinzenstraße 5, 30159 Hannover\nwww.lfd.niedersachsen.de`,
     },
     {
       icon: UserCheck,
-      title: '7. Mitgliederdaten',
+      title: '8. Mitgliederdaten',
       content: `Für Vereinsmitglieder verarbeiten wir zusätzlich die zur Vereinsmitgliedschaft erforderlichen Daten (Name, Geburtsdatum, Adresse, Ausweisdaten, Gesundheitsdaten gemäß KCanG-Anforderungen).\n\nDiese Daten werden gesondert erhoben und in einer separaten Datenschutzerklärung für Mitglieder geregelt, die bei der Aufnahme ausgehändigt wird.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung), Art. 9 Abs. 2 lit. a DSGVO (ausdrückliche Einwilligung für Gesundheitsdaten), § 26 BDSG.`,
     },
     {
       icon: Shield,
-      title: '8. Datensicherheit',
+      title: '9. Datensicherheit',
       content: `Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, um deine Daten gegen Manipulation, Verlust oder unberechtigten Zugriff zu schützen.\n\nDie Verbindung zu unserer Website ist mit TLS/SSL verschlüsselt (HTTPS). Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert.`,
     },
   ] : [
@@ -75,7 +80,7 @@ export default async function DatenschutzPage({
     {
       icon: FileText,
       title: '3. Contact Form',
-      content: `When you use our contact form, the entered data (name, email, subject, message) is processed to respond to your inquiry.\n\nForm data is processed via Netlify Forms and forwarded to us by email. The data is not used for other purposes and is deleted after the inquiry is completed, at the latest after 6 months.\n\nLegal basis: Art. 6 para. 1 lit. b GDPR (pre-contractual measures) or Art. 6 para. 1 lit. f GDPR (legitimate interest in answering inquiries).`,
+      content: `When you use our contact form, the entered data (name, email, subject, message) is processed to respond to your inquiry.\n\nForm data is processed via Formspree Inc. (44 Tehama Street, San Francisco, CA 94105, USA) and forwarded to us by email. Formspree stores the submitted data on servers in the USA. An adequacy decision by the EU Commission exists (EU-US Data Privacy Framework). The data is not used for other purposes and is deleted after the inquiry is completed, at the latest after 6 months. More information: https://formspree.io/legal/privacy-policy\n\nLegal basis: Art. 6 para. 1 lit. b GDPR (pre-contractual measures) or Art. 6 para. 1 lit. f GDPR (legitimate interest in answering inquiries).`,
     },
     {
       icon: Cookie,
@@ -83,23 +88,28 @@ export default async function DatenschutzPage({
       content: `This website uses only technically necessary cookies and the browser's local storage (localStorage).\n\nWe store your cookie consent (cookie_consent) in localStorage to remember that you have already seen the cookie notice. This entry contains no personal data.\n\nWe do not use tracking cookies, analytics tools (e.g. Google Analytics) or remarketing. No data is transmitted to advertising networks.\n\nLegal basis: Art. 6 para. 1 lit. f GDPR (legitimate interest in the functional operation of the website).`,
     },
     {
+      icon: Eye,
+      title: '5. Google Maps',
+      content: `On our contact page, we use Google Maps to display our location. Google Maps is only loaded after your explicit consent (click on "Load map").\n\nWhen loading Google Maps, a connection to servers of Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA is established. Personal data (in particular IP address and location data) may be transmitted to Google.\n\nLegal basis: Art. 6 para. 1 lit. a GDPR (consent). You can revoke your consent at any time by reloading the page.`,
+    },
+    {
       icon: FileText,
-      title: '5. Fonts',
+      title: '6. Fonts',
       content: `This website uses Google Fonts (Fraunces, Plus Jakarta Sans, JetBrains Mono). The fonts are downloaded during the build process and served from our own server.\n\nNo connection to Google servers is made when visiting the website. No user data is transmitted to Google.`,
     },
     {
       icon: Eye,
-      title: '6. Your Rights',
+      title: '7. Your Rights',
       content: `You have the following rights regarding your personal data:\n\n• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object (Art. 21 GDPR)\n\nTo exercise your rights, contact: info@blattwerk.dev\n\nYou also have the right to lodge a complaint with a data protection supervisory authority.`,
     },
     {
       icon: UserCheck,
-      title: '7. Member Data',
+      title: '8. Member Data',
       content: `For club members, we additionally process the data required for club membership (name, date of birth, address, ID data, health data according to KCanG requirements).\n\nThis data is collected separately and governed by a separate privacy policy for members, which is provided upon admission.\n\nLegal basis: Art. 6 para. 1 lit. b GDPR (contract performance), Art. 9 para. 2 lit. a GDPR (explicit consent for health data).`,
     },
     {
       icon: Shield,
-      title: '8. Data Security',
+      title: '9. Data Security',
       content: `We use technical and organizational security measures to protect your data against manipulation, loss or unauthorized access.\n\nThe connection to our website is encrypted with TLS/SSL (HTTPS). Our security measures are continuously improved in line with technological developments.`,
     },
   ];
