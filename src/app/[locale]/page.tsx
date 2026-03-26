@@ -1,16 +1,30 @@
+import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import { ParticleSphere } from '@/components/decorative/ParticleSphere';
 import { HomeHero, HomePillar, HomeSection } from '@/components/home/HomeAnimations';
+import { OrganizationSchema } from '@/lib/schema';
+
+export const metadata: Metadata = {
+  title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
+  description:
+    'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim. Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis im Rahmen des KCanG.',
+  keywords: ['Cannabis Social Club', 'Hildesheim', 'BlattWerk', 'KCanG', 'Anbauvereinigung', 'Cannabis', 'Sortendatenbank', 'Wissensdatenbank'],
+};
 
 export default async function HomePage({
   params,
 }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <HomeContent />;
+  return (
+    <>
+      <OrganizationSchema />
+      <HomeContent />
+    </>
+  );
 }
 
 const PILLARS = [

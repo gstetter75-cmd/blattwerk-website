@@ -71,4 +71,14 @@ export const categories: readonly KnowledgeCategory[] = [
       'Medical cannabis in Germany – prescription, areas of application and current research.',
     icon: 'Stethoscope',
   },
+  {
+    key: 'prevention',
+    label_de: 'Prävention & Jugendschutz',
+    label_en: 'Prevention & Youth Protection',
+    description_de:
+      'Jugendschutz, Früherkennung von Problemkonsum, Selbstcheck und Hilfsangebote – für einen verantwortungsvollen Umgang.',
+    description_en:
+      'Youth protection, early detection of problematic use, self-check and support services – for responsible use.',
+    icon: 'ShieldAlert',
+  },
 ] as const;

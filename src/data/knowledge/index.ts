@@ -1,19 +1,22 @@
 import { KnowledgeArticle, KnowledgeCategory } from './types';
 import { categories } from './categories';
 import { articles } from './articles';
+import { preventionArticles } from './articles-prevention';
 
 export type { KnowledgeArticle, KnowledgeCategory };
 
 export const allCategories: readonly KnowledgeCategory[] = categories;
 
-export const allArticles: readonly KnowledgeArticle[] = articles;
+const combinedArticles: readonly KnowledgeArticle[] = [...articles, ...preventionArticles];
+
+export const allArticles: readonly KnowledgeArticle[] = combinedArticles;
 
 export function getArticleBySlug(slug: string): KnowledgeArticle | undefined {
-  return articles.find((a) => a.slug === slug);
+  return combinedArticles.find((a) => a.slug === slug);
 }
 
 export function getArticlesByCategory(categoryKey: string): readonly KnowledgeArticle[] {
-  return articles.filter((a) => a.category === categoryKey);
+  return combinedArticles.filter((a) => a.category === categoryKey);
 }
 
 export function getCategoryByKey(key: string): KnowledgeCategory | undefined {
@@ -27,7 +30,7 @@ export function searchArticles(
   const lowerQuery = query.toLowerCase().trim();
   if (!lowerQuery) return [];
 
-  return articles.filter((article) => {
+  return combinedArticles.filter((article) => {
     const title = locale === 'de' ? article.title_de : article.title_en;
     const summary = locale === 'de' ? article.summary_de : article.summary_en;
     const content = locale === 'de' ? article.content_de : article.content_en;

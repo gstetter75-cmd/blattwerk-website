@@ -52,10 +52,17 @@ export default async function LocaleLayout({
       <body className="bg-bg text-ink font-body antialiased transition-colors duration-300">
         <ThemeProvider attribute="class" forcedTheme="dark">
           <NextIntlClientProvider messages={messages}>
+            {/* Skip link for keyboard navigation */}
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-accent focus:text-void focus:rounded-md focus:text-sm focus:font-bold"
+            >
+              {locale === 'de' ? 'Zum Inhalt springen' : 'Skip to content'}
+            </a>
             <CustomCursor />
             <ScrollProgress />
             <Header />
-            <main className="min-h-screen">{children}</main>
+            <main id="main-content" className="min-h-screen">{children}</main>
             <Footer />
             <CookieBanner />
           </NextIntlClientProvider>

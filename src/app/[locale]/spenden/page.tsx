@@ -1,6 +1,13 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { SpendenClient } from './SpendenClient';
+
+export const metadata: Metadata = {
+  title: 'Spenden',
+  description:
+    'Unterstütze BlattWerk e.V. mit einer Spende. Hilf uns, verantwortungsvollen Umgang mit Cannabis in Hildesheim zu fördern.',
+};
 
 export default async function DonationsPage({
   params,

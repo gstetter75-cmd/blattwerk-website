@@ -1,6 +1,14 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { Building2, Mail, Phone, ScrollText, AlertTriangle, Globe, UserCheck, Shield } from 'lucide-react';
 import { PageHero } from '@/components/layout/PageHero';
+
+export const metadata: Metadata = {
+  title: 'Impressum',
+  description:
+    'Impressum von BlattWerk e.V. – Angaben gemäß § 5 TMG. Cannabis Social Club Hildesheim.',
+  robots: { index: false, follow: true },
+};
 
 export default async function ImpressumPage({
   params,

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis. Cannabis Social Club in Hildesheim.',
     images: [
       {
-        url: '/opengraph-image',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
     description: 'Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis.',
-    images: ['/opengraph-image'],
+    images: ['/images/og-image.png'],
   },
   icons: {
     icon: [

@@ -1,8 +1,10 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen } from 'lucide-react';
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
+import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
 
 export function generateStaticParams() {
   return allArticles.flatMap((article) => [
@@ -40,6 +42,26 @@ export default async function ArticlePage({
 
   return (
     <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Wissensdatenbank' : 'Knowledge Base', href: '/wissensdatenbank' },
+          { name: isDE ? category.label_de : category.label_en, href: `/wissensdatenbank/${categoryKey}` },
+          { name: title, href: `/wissensdatenbank/${categoryKey}/${slug}` },
+        ]}
+      />
+      <ArticleSchema
+        title={title}
+        description={summary}
+        slug={slug}
+        category={categoryKey}
+        locale={locale}
+        datePublished={article.last_updated}
+        dateModified={article.last_updated}
+        readingTime={article.reading_time}
+      />
+
       {/* Article Header */}
       <section className="relative overflow-hidden py-12 lg:py-16 border-b border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

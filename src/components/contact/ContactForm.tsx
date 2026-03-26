@@ -1,48 +1,95 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { contactSchema, type ContactFormData } from '@/lib/validation';
+import { RATE_LIMIT } from '@/lib/constants';
 
 interface ContactFormProps {
-  isDE: boolean;
+  readonly isDE: boolean;
 }
 
-type SubmitState = 'idle' | 'loading' | 'success' | 'error';
+type SubmitState = 'idle' | 'loading' | 'success' | 'error' | 'rate-limited';
+
+function isRateLimited(): boolean {
+  try {
+    const last = localStorage.getItem(RATE_LIMIT.STORAGE_KEY);
+    if (!last) return false;
+    const elapsed = (Date.now() - Number(last)) / 1000;
+    return elapsed < RATE_LIMIT.COOLDOWN_SECONDS;
+  } catch {
+    return false;
+  }
+}
+
+function markSubmitted(): void {
+  try {
+    localStorage.setItem(RATE_LIMIT.STORAGE_KEY, String(Date.now()));
+  } catch {
+    // localStorage unavailable — silently continue
+  }
+}
 
 export function ContactForm({ isDE }: ContactFormProps) {
-  const [state, setState] = useState<SubmitState>('idle');
+  const [submitState, setSubmitState] = useState<SubmitState>('idle');
+  const [honeypot, setHoneypot] = useState('');
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<ContactFormData>({
+    resolver: zodResolver(contactSchema),
+  });
 
   const inputClass =
     'w-full px-4 py-3 bg-bg-elevated border border-[var(--border)] rounded-md focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent/40 text-ink placeholder:text-ink-faint text-sm transition-colors';
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setState('loading');
+  async function onSubmit(data: ContactFormData) {
+    // Honeypot check
+    if (honeypot) return;
+
+    // Rate limiting
+    if (isRateLimited()) {
+      setSubmitState('rate-limited');
+      return;
+    }
+
+    setSubmitState('loading');
 
     try {
-      const form = e.currentTarget;
-      const body = new URLSearchParams(
-        Array.from(new FormData(form).entries()) as [string, string][]
-      ).toString();
+      const formData = new URLSearchParams({
+        'form-name': 'contact',
+        'bot-field': '',
+        name: data.name,
+        email: data.email,
+        subject: data.subject,
+        message: data.message,
+        privacy: 'on',
+      });
 
       const res = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body,
+        body: formData.toString(),
       });
 
       if (res.ok) {
-        setState('success');
-        form.reset();
+        markSubmitted();
+        setSubmitState('success');
+        reset();
       } else {
-        setState('error');
+        setSubmitState('error');
       }
     } catch {
-      setState('error');
+      setSubmitState('error');
     }
   }
 
-  if (state === 'success') {
+  if (submitState === 'success') {
     return (
       <div className="flex flex-col items-center justify-center gap-4 py-16 rounded-xl border border-accent/20 bg-accent/5 text-center">
         <CheckCircle className="w-10 h-10 text-accent" />
@@ -55,8 +102,9 @@ export function ContactForm({ isDE }: ContactFormProps) {
             : 'We will get back to you as soon as possible.'}
         </p>
         <button
-          onClick={() => setState('idle')}
+          onClick={() => setSubmitState('idle')}
           className="mt-2 text-sm text-accent hover:text-accent/80 transition-colors"
+          type="button"
         >
           {isDE ? 'Weitere Nachricht senden' : 'Send another message'}
         </button>
@@ -70,12 +118,27 @@ export function ContactForm({ isDE }: ContactFormProps) {
       method="POST"
       data-netlify="true"
       netlify-honeypot="bot-field"
-      onSubmit={handleSubmit}
+      onSubmit={handleSubmit(onSubmit)}
       className="space-y-4"
+      noValidate
     >
       {/* Netlify hidden fields */}
       <input type="hidden" name="form-name" value="contact" />
-      <input type="hidden" name="bot-field" className="hidden" />
+
+      {/* Honeypot — invisible to real users */}
+      <div className="hidden" aria-hidden="true">
+        <label htmlFor="bot-field">
+          Do not fill this out
+          <input
+            id="bot-field"
+            name="bot-field"
+            tabIndex={-1}
+            autoComplete="off"
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+          />
+        </label>
+      </div>
 
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-ink-muted mb-1.5">
@@ -84,11 +147,17 @@ export function ContactForm({ isDE }: ContactFormProps) {
         <input
           type="text"
           id="name"
-          name="name"
-          required
+          {...register('name')}
           className={inputClass}
           placeholder={isDE ? 'Dein Name' : 'Your name'}
+          aria-invalid={errors.name ? 'true' : undefined}
+          aria-describedby={errors.name ? 'name-error' : undefined}
         />
+        {errors.name && (
+          <p id="name-error" className="mt-1 text-xs text-red-400" role="alert">
+            {errors.name.message}
+          </p>
+        )}
       </div>
 
       <div>
@@ -98,11 +167,17 @@ export function ContactForm({ isDE }: ContactFormProps) {
         <input
           type="email"
           id="email"
-          name="email"
-          required
+          {...register('email')}
           className={inputClass}
           placeholder={isDE ? 'deine@email.de' : 'your@email.com'}
+          aria-invalid={errors.email ? 'true' : undefined}
+          aria-describedby={errors.email ? 'email-error' : undefined}
         />
+        {errors.email && (
+          <p id="email-error" className="mt-1 text-xs text-red-400" role="alert">
+            {errors.email.message}
+          </p>
+        )}
       </div>
 
       <div>
@@ -112,11 +187,17 @@ export function ContactForm({ isDE }: ContactFormProps) {
         <input
           type="text"
           id="subject"
-          name="subject"
-          required
+          {...register('subject')}
           className={inputClass}
           placeholder={isDE ? 'Worum geht es?' : 'What is it about?'}
+          aria-invalid={errors.subject ? 'true' : undefined}
+          aria-describedby={errors.subject ? 'subject-error' : undefined}
         />
+        {errors.subject && (
+          <p id="subject-error" className="mt-1 text-xs text-red-400" role="alert">
+            {errors.subject.message}
+          </p>
+        )}
       </div>
 
       <div>
@@ -125,21 +206,28 @@ export function ContactForm({ isDE }: ContactFormProps) {
         </label>
         <textarea
           id="message"
-          name="message"
           rows={5}
-          required
+          {...register('message')}
           className={`${inputClass} resize-y`}
           placeholder={isDE ? 'Deine Nachricht...' : 'Your message...'}
+          aria-invalid={errors.message ? 'true' : undefined}
+          aria-describedby={errors.message ? 'message-error' : undefined}
         />
+        {errors.message && (
+          <p id="message-error" className="mt-1 text-xs text-red-400" role="alert">
+            {errors.message.message}
+          </p>
+        )}
       </div>
 
       <div className="flex items-start gap-3">
         <input
           type="checkbox"
           id="privacy"
-          name="privacy"
-          required
+          {...register('privacy')}
           className="mt-1 w-4 h-4 rounded border-[var(--border)] accent-accent bg-bg-elevated"
+          aria-invalid={errors.privacy ? 'true' : undefined}
+          aria-describedby={errors.privacy ? 'privacy-error' : undefined}
         />
         <label htmlFor="privacy" className="text-xs text-ink-muted leading-relaxed">
           {isDE
@@ -147,9 +235,14 @@ export function ContactForm({ isDE }: ContactFormProps) {
             : 'I have read the privacy policy and agree to the processing of my data to handle my inquiry. *'}
         </label>
       </div>
+      {errors.privacy && (
+        <p id="privacy-error" className="text-xs text-red-400" role="alert">
+          {errors.privacy.message}
+        </p>
+      )}
 
-      {state === 'error' && (
-        <div className="flex items-center gap-2 p-3 rounded-md bg-red-500/10 border border-red-500/20 text-red-400 text-sm">
+      {submitState === 'error' && (
+        <div className="flex items-center gap-2 p-3 rounded-md bg-red-500/10 border border-red-500/20 text-red-400 text-sm" role="alert">
           <AlertCircle className="w-4 h-4 shrink-0" />
           {isDE
             ? 'Fehler beim Senden. Bitte versuche es erneut oder schreib uns direkt per E-Mail.'
@@ -157,9 +250,18 @@ export function ContactForm({ isDE }: ContactFormProps) {
         </div>
       )}
 
+      {submitState === 'rate-limited' && (
+        <div className="flex items-center gap-2 p-3 rounded-md bg-gold-theme/10 border border-gold-theme/20 text-gold-theme text-sm" role="alert">
+          <AlertCircle className="w-4 h-4 shrink-0" />
+          {isDE
+            ? 'Bitte warte einen Moment, bevor du eine weitere Nachricht sendest.'
+            : 'Please wait a moment before sending another message.'}
+        </div>
+      )}
+
       <button
         type="submit"
-        disabled={state === 'loading'}
+        disabled={submitState === 'loading'}
         className="inline-flex items-center justify-center gap-2 px-7 py-3 font-semibold text-void rounded-md text-sm transition-all duration-200 hover:-translate-y-0.5 w-full sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
         style={{
           background: 'linear-gradient(135deg, #22c55e, #86efac)',
@@ -167,8 +269,8 @@ export function ContactForm({ isDE }: ContactFormProps) {
         }}
       >
         <Send className="w-4 h-4" />
-        {state === 'loading'
-          ? isDE ? 'Wird gesendet…' : 'Sending…'
+        {submitState === 'loading'
+          ? isDE ? 'Wird gesendet...' : 'Sending...'
           : isDE ? 'Nachricht senden' : 'Send Message'}
       </button>
     </form>

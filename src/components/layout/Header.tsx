@@ -61,6 +61,21 @@ export function Header() {
 
   useEffect(() => { setMobileOpen(false); }, [pathname]);
 
+  // Close mobile menu on Escape key & lock body scroll
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    document.body.style.overflow = 'hidden';
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [mobileOpen]);
+
   const switchLocale = () =>
     router.replace(pathname, { locale: locale === 'de' ? 'en' : 'de' });
 

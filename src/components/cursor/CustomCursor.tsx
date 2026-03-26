@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { CURSOR } from '@/lib/constants';
 
 export function CustomCursor() {
   const [mounted, setMounted] = useState(false);
@@ -11,10 +12,8 @@ export function CustomCursor() {
   const mouseX = useMotionValue(-100);
   const mouseY = useMotionValue(-100);
 
-  // Ring follows with spring physics (lag effect)
-  const springConfig = { stiffness: 120, damping: 14, mass: 0.8 };
-  const ringX = useSpring(mouseX, springConfig);
-  const ringY = useSpring(mouseY, springConfig);
+  const ringX = useSpring(mouseX, CURSOR.SPRING);
+  const ringY = useSpring(mouseY, CURSOR.SPRING);
 
   useEffect(() => {
     setMounted(true);
@@ -64,10 +63,10 @@ export function CustomCursor() {
       <motion.div
         style={{ x: mouseX, y: mouseY, translateX: '-50%', translateY: '-50%' }}
         animate={{
-          scale: clicking ? 0.5 : hovering ? 0 : 1,
+          scale: clicking ? CURSOR.SCALE_CLICK.dot : hovering ? CURSOR.SCALE_HOVER.dot : 1,
           opacity: hovering ? 0 : 1,
         }}
-        transition={{ duration: 0.12 }}
+        transition={{ duration: CURSOR.TRANSITION_DURATION }}
         className="fixed w-1.5 h-1.5 rounded-full bg-accent"
       />
 
@@ -75,10 +74,10 @@ export function CustomCursor() {
       <motion.div
         style={{ x: ringX, y: ringY, translateX: '-50%', translateY: '-50%' }}
         animate={{
-          scale: clicking ? 0.8 : hovering ? 1.8 : 1,
+          scale: clicking ? CURSOR.SCALE_CLICK.ring : hovering ? CURSOR.SCALE_HOVER.ring : 1,
           borderColor: hovering ? 'rgba(34,197,94,0.8)' : 'rgba(34,197,94,0.3)',
-          width: hovering ? '48px' : '32px',
-          height: hovering ? '48px' : '32px',
+          width: hovering ? CURSOR.RING_SIZE_HOVER : CURSOR.RING_SIZE_DEFAULT,
+          height: hovering ? CURSOR.RING_SIZE_HOVER : CURSOR.RING_SIZE_DEFAULT,
         }}
         transition={{ duration: 0.2 }}
         className="fixed rounded-full border border-accent/30"
