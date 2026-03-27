@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, AlertTriangle } from 'lucide-react';
 import { HeroImage } from '@/components/decorative/HeroImage';
+import { HomeSection } from '@/components/shared/HomeSection';
 
 interface Props {
   isDE: boolean;
@@ -243,18 +244,5 @@ export function CscGruendungClient({ isDE }: Props) {
         </section>
       </HomeSection>
     </>
-  );
-}
-
-function HomeSection({ children }: { children: React.ReactNode }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.6 }}
-    >
-      {children}
-    </motion.div>
   );
 }

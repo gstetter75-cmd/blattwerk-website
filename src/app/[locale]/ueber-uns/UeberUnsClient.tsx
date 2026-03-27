@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Check, Sprout, Users, Shield, BookOpen, Leaf } from 'lucide-react';
+import { HomeSection } from '@/components/shared/HomeSection';
 
 interface Props {
   isDE: boolean;
@@ -229,19 +230,5 @@ export function UeberUnsClient({ isDE }: Props) {
         </section>
       </HomeSection>
     </>
-  );
-}
-
-/* Re-use HomeSection for consistent animations */
-function HomeSection({ children }: { children: React.ReactNode }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.6 }}
-    >
-      {children}
-    </motion.div>
   );
 }

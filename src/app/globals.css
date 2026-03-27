@@ -21,6 +21,10 @@
   --border:      rgba(0, 0, 0, 0.08);
   --glass:       rgba(0, 0, 0, 0.03);
   --shadow:      rgba(0, 0, 0, 0.04);
+
+  --warning:     #b45309;
+  --warning-bg:  rgba(180, 83, 9, 0.06);
+  --warning-text: rgba(180, 83, 9, 0.8);
 }
 
 @theme {
