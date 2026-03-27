@@ -40,6 +40,10 @@ export const PAGE_META = {
     de: { title: 'Suchtprävention', description: 'Unser Präventionskonzept: Aufklärung, Beratung und verantwortungsvoller Umgang mit Cannabis. BlattWerk e.V. Hildesheim.' },
     en: { title: 'Addiction Prevention', description: 'Our prevention concept: education, counseling and responsible cannabis use. BlattWerk e.V. Hildesheim.' },
   },
+  events: {
+    de: { title: 'Veranstaltungen', description: 'Workshops, Vorträge, Versammlungen und mehr – bleib informiert über die Vereinsaktivitäten von BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Events', description: 'Workshops, lectures, assemblies and more – stay informed about club activities at BlattWerk e.V. Hildesheim.' },
+  },
   contact: {
     de: { title: 'Kontakt', description: 'Kontaktiere BlattWerk e.V. – Cannabis Social Club Hildesheim. Schreib uns eine Nachricht oder besuche uns vor Ort.' },
     en: { title: 'Contact', description: 'Contact BlattWerk e.V. – Cannabis Social Club Hildesheim. Send us a message or visit us.' },

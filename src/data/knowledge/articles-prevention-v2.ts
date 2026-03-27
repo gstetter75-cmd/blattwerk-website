@@ -953,4 +953,369 @@ Information resources: drugscouts.de for harm reduction information; Eve & Rave 
       'selbstcheck-warnzeichen',
     ],
   },
+
+  {
+    slug: 'elternratgeber-cannabis',
+    category: 'prevention',
+    title_de: 'Elternratgeber: Wenn dein Kind Cannabis konsumiert',
+    title_en: 'Parents\' Guide: When Your Child Uses Cannabis',
+    summary_de:
+      'Anzeichen erkennen, richtig reagieren, Gespräche führen und professionelle Hilfe finden: Ein umfassender Leitfaden für Eltern, deren Kinder mit Cannabis in Berührung kommen.',
+    summary_en:
+      'Recognizing signs, responding appropriately, conducting conversations and finding professional help: a comprehensive guide for parents whose children come into contact with cannabis.',
+    content_de: `Wenige Situationen verunsichern Eltern so sehr wie die Entdeckung, dass ihr Kind Cannabis konsumiert. Angst, Wut, Enttäuschung und Hilflosigkeit mischen sich oft zu einem emotionalen Cocktail, der rationales Handeln erschwert. Dabei ist gerade jetzt besonnenes Reagieren entscheidend – denn wie Eltern in dieser Situation kommunizieren und handeln, hat maßgeblichen Einfluss darauf, ob ihr Kind den Konsum als vorübergehende Phase durchlebt oder in ein problematisches Konsummuster abrutscht. Dieser Ratgeber bietet Eltern eine fundierte, praxisnahe Orientierung – von der Erkennung erster Anzeichen über die Gesprächsführung bis hin zu professionellen Hilfsangeboten.
+
+## Realitätscheck: Wie verbreitet ist Cannabis bei Jugendlichen?
+
+Bevor Eltern in Panik geraten, hilft ein nüchterner Blick auf die Zahlen. Laut der BZgA-Studie (Bundeszentrale für gesundheitliche Aufklärung) von 2024 haben etwa 10 Prozent der 12- bis 17-Jährigen mindestens einmal in ihrem Leben Cannabis probiert. Bei den 18- bis 25-Jährigen sind es rund 46 Prozent. Der regelmäßige Konsum (definiert als mehr als zehnmal in den letzten 12 Monaten) liegt bei den 12- bis 17-Jährigen bei etwa 2 Prozent, bei den 18- bis 25-Jährigen bei etwa 8 Prozent.
+
+Diese Zahlen verdeutlichen zwei wichtige Punkte. Erstens: Einmaliger oder gelegentlicher Probierkonsum ist statistisch häufig und führt in der großen Mehrheit der Fälle nicht zu problematischem Konsum. Die meisten Jugendlichen, die Cannabis probieren, entwickeln kein Suchtproblem. Zweitens: Trotzdem ist das Risiko real – insbesondere bei frühem Einstieg, regelmäßigem Konsum und bestimmten Risikofaktoren wie psychischer Vorbelastung oder familiärer Suchterkrankung.
+
+## Anzeichen erkennen: Worauf Eltern achten sollten
+
+Die Anzeichen für Cannabiskonsum können subtil sein und überschneiden sich teilweise mit normalen pubertären Verhaltensänderungen. Eine einzelne Auffälligkeit bedeutet noch nichts – erst das Zusammentreffen mehrerer Anzeichen über einen längeren Zeitraum sollte Eltern aufmerksam machen.
+
+### Körperliche Anzeichen
+
+Gerötete oder glasige Augen sind eines der auffälligsten Zeichen akuten Cannabiskonsums. THC erweitert die Blutgefäße in den Augen, was zu einer charakteristischen Rötung führt. Manche Jugendliche verwenden Augentropfen, um dies zu kaschieren – ein auffälliger Verbrauch von Augentropfen kann daher selbst ein indirektes Zeichen sein.
+
+Veränderter Appetit, insbesondere plötzliche Heißhungerattacken (die sogenannten Munchies), ist ein typisches Begleitsymptom. Wenn dein Kind abends regelmäßig den Kühlschrank plündert und große Mengen Süßigkeiten oder Snacks konsumiert, kann das ein Hinweis sein.
+
+Müdigkeit und Trägheit, besonders am Morgen oder nach der Schule, können auf Cannabiskonsum am Vorabend hindeuten. THC beeinträchtigt die Schlafarchitektur und kann trotz langer Schlafzeiten zu einer nicht erholsamen Nachtruhe führen.
+
+Veränderter Körpergeruch – ein süßlich-herber, krautiger Geruch an Kleidung, Haaren oder im Zimmer – ist ein relativ eindeutiger Hinweis. Viele Jugendliche versuchen, den Geruch mit Raumspray, Räucherstäbchen oder intensivem Parfüm zu überdecken.
+
+### Verhaltensänderungen
+
+Rückzug aus der Familie und dem bisherigen Freundeskreis zugunsten neuer, den Eltern unbekannter Peers ist ein häufiges Muster. Wenn dein Kind plötzlich den Kontakt zu langjährigen Freunden abbricht und stattdessen Zeit mit einer neuen Gruppe verbringt, deren Mitglieder es nicht vorstellen möchte, ist Aufmerksamkeit geboten.
+
+Nachlassende Schulleistungen sind eines der am besten dokumentierten Korrelate regelmäßigen Cannabiskonsums bei Jugendlichen. Sinkende Noten, fehlende Hausaufgaben, Schwänzen und Desinteresse an Schulfächern, die zuvor Spaß gemacht haben, können Warnsignale sein.
+
+Verändertes Schlafverhalten – insbesondere sehr spätes Einschlafen und Schwierigkeiten beim Aufstehen – passt zum typischen Konsummuster: abendlicher Konsum, spätes Einschlafen, morgendliche Trägheit.
+
+Stimmungsschwankungen, Reizbarkeit und Motivationsverlust können sowohl Symptome pubertärer Entwicklung als auch Folgen regelmäßigen Cannabiskonsums sein. Die Unterscheidung ist schwierig – ein plötzlicher, deutlicher Wandel in der Stimmungslage ist aussagekräftiger als graduelle Veränderungen.
+
+Geheimniskrämerei und Lügen über den Aufenthaltsort, neue Ausgaben ohne erkennbaren Zweck und das Finden von unbekannten Utensilien (Papers, Filter, Grinder, kleine Tüten) sind direkte Hinweise.
+
+### Utensilien und Funde
+
+Typische Utensilien, die auf Cannabiskonsum hindeuten: Zigarettenpapier (lange oder breite Papers), Aktivkohlefilter oder Pappfilter (Tips), Grinder (Kräutermühle zum Zerkleinern), kleine Plastikbeutel oder Döschen mit krautigem Inhalt, Vaporizer oder E-Zigaretten-ähnliche Geräte und Augentropfen.
+
+### Was die Anzeichen nicht bedeuten
+
+Wichtig: Das Vorhandensein einzelner Anzeichen beweist keinen Cannabiskonsum. Gerötete Augen können von Allergien stammen, Müdigkeit von Schlafmangel, Stimmungsschwankungen von der Pubertät. Eltern sollten Anzeichen ernst nehmen, aber nicht voreilig urteilen. Der nächste Schritt ist immer: das Gespräch suchen – nicht das Zimmer durchsuchen.
+
+## Das Gespräch: Wie du mit deinem Kind sprichst
+
+Das Gespräch über Cannabis ist wahrscheinlich das Wichtigste, was du als Elternteil tun kannst. Es ist gleichzeitig das Schwierigste. Viele Eltern machen instinktiv Fehler, die die Kommunikation verschlechtern statt verbessern. Hier sind die wichtigsten Grundsätze.
+
+### Den richtigen Zeitpunkt wählen
+
+Führe das Gespräch nicht im Affekt. Wenn du gerade eine Tüte im Zimmer deines Kindes gefunden hast, nimm dir Zeit, deine Emotionen zu verarbeiten, bevor du das Gespräch suchst. Ein Gespräch unter Wut oder Panik wird fast nie produktiv.
+
+Wähle einen ruhigen, privaten Moment – nicht vor Geschwistern, nicht beim Abendessen, nicht zwischen Tür und Angel. Kündige das Gespräch an: „Ich möchte mit dir über etwas Wichtiges sprechen. Wann passt es dir?" Damit gibst du deinem Kind die Möglichkeit, sich mental vorzubereiten, und signalisierst Respekt.
+
+Führe das Gespräch nicht, wenn dein Kind offensichtlich unter Einfluss steht. In diesem Zustand ist kein sachliches Gespräch möglich.
+
+### Die richtige Haltung: Neugier statt Verhör
+
+Der größte Fehler, den Eltern machen können, ist, das Gespräch als Verhör zu führen. Fragen wie „Nimmst du Drogen?", „Wie lange geht das schon?" und „Wer hat dir das gegeben?" erzeugen Abwehr, nicht Offenheit. Stattdessen solltest du mit Ich-Botschaften beginnen: „Mir ist aufgefallen, dass du dich in letzter Zeit verändert hast, und ich mache mir Sorgen." „Ich möchte verstehen, was in deinem Leben gerade los ist." „Mir ist wichtig, dass du weißt, dass ich für dich da bin – egal was."
+
+Stelle offene Fragen: „Erzähl mir, wie es dir geht." „Was macht dir gerade Spaß, was stresst dich?" „Wie stehst du zum Thema Cannabis?" Höre aktiv zu: Lass dein Kind ausreden, wiederhole das Gehörte in deinen Worten (paraphrasieren), stelle Verständnisfragen statt zu urteilen.
+
+### Ehrlichkeit und Sachlichkeit
+
+Sei ehrlich über deine Gefühle: „Ich habe Angst, dass dir das schadet." Aber vermeide Dramatisierungen und Übertreibungen. Aussagen wie „Du ruinierst dir das Leben" oder „Das ist der Anfang vom Ende" sind kontraproduktiv – Jugendliche erkennen Übertreibungen sofort und schalten ab.
+
+Informiere dich vorher über die tatsächlichen Risiken und Wirkungen von Cannabis. Falschinformationen untergraben deine Glaubwürdigkeit nachhaltig. Wenn du etwas nicht weißt, sag das offen: „Da bin ich mir nicht sicher – lass uns das zusammen herausfinden."
+
+### Dos and Don'ts im Überblick
+
+**Do:** Zuhören, bevor du sprichst. Ich-Botschaften verwenden. Konkrete Beobachtungen benennen (statt Vermutungen). Empathie zeigen. Die Autonomie deines Kindes respektieren. Fragen stellen statt Vorwürfe machen. Ehrlich über deine eigenen Erfahrungen sprechen (wenn du selbst Cannabis probiert hast). Gemeinsam nach Informationen suchen.
+
+**Don't:** Schreien, drohen oder bestrafen. Das Zimmer heimlich durchsuchen. Vor Geschwistern oder Freunden bloßstellen. Ultimaten stellen, die du nicht durchsetzen kannst. Moralisieren oder predigen. Vergleiche mit anderen Jugendlichen ziehen. Den Konsum verharmlosen, um Konflikte zu vermeiden. Das Thema ignorieren in der Hoffnung, dass es sich von allein erledigt.
+
+## Grenzen setzen: Klar, liebevoll und konsequent
+
+Verständnis und Empathie bedeuten nicht, dass alles akzeptiert wird. Eltern haben das Recht und die Pflicht, Grenzen zu setzen – insbesondere bei Minderjährigen, deren Gehirn noch in der Entwicklung ist.
+
+### Klare Regeln aufstellen
+
+Formuliere Regeln gemeinsam mit deinem Kind. Einseitig auferlegte Verbote erzeugen Widerstand. Regeln, die gemeinsam erarbeitet werden, haben eine höhere Akzeptanz. Mögliche Regeln können sein: „Kein Cannabis unter der Woche / an Schultagen." „Kein Konsum in unserer Wohnung." „Du kommst nicht high nach Hause." „Du fährst nie unter Einfluss Fahrrad oder Auto."
+
+### Konsequenzen vereinbaren
+
+Regeln ohne Konsequenzen sind wirkungslos. Vereinbare vorher, was passiert, wenn Regeln gebrochen werden – und halte dich daran. Konsequenzen sollten verhältnismäßig sein (kein Kontaktverbot wegen eines Joints), logisch zusammenhängen (weniger Freiheiten, wenn das Vertrauen missbraucht wurde) und konsequent durchgesetzt werden (inkonsequente Eltern verlieren Glaubwürdigkeit).
+
+### Die Grenze zwischen Probierkonsum und Problemkonsum
+
+Nicht jeder Cannabiskonsum ist gleich problematisch. Eltern sollten lernen, zwischen verschiedenen Konsummustern zu unterscheiden.
+
+Probierkonsum (ein- bis zweimalig): Statistisch normal bei Jugendlichen. Kein Grund zur Panik, aber ein Anlass für ein informatives Gespräch. Risiko für Langzeitschäden: sehr gering.
+
+Gelegentlicher Konsum (monatlich, in sozialen Situationen): Aufmerksamkeit erforderlich. Gespräch über Risiken und Regeln. Regelmäßiges Check-in: „Wie geht es dir damit?"
+
+Regelmäßiger Konsum (wöchentlich oder häufiger): Rotes Warnsignal. Professionelle Beratung empfohlen. Mögliche Beeinträchtigung der Entwicklung. Klare Grenzen und engmaschige Begleitung notwendig.
+
+Täglicher Konsum: Dringendes Handeln erforderlich. Professionelle Hilfe suchen. Mögliche Cannabis-Gebrauchsstörung. Begleitprobleme abklären (Depression, Angst, Trauma).
+
+## Unterstützung anbieten, ohne zu kontrollieren
+
+Der Balanceakt zwischen Fürsorge und Überkontrolle ist eine der größten Herausforderungen für Eltern. Zu viel Kontrolle – Zimmer durchsuchen, Handy kontrollieren, jeden Schritt überwachen – zerstört das Vertrauensverhältnis und treibt Jugendliche erst recht in den heimlichen Konsum. Zu wenig Aufmerksamkeit signalisiert Desinteresse und lässt problematischen Konsum unerkannt.
+
+### Was du tun kannst
+
+Bleibe im Gespräch. Das bedeutet nicht tägliche Verhöre, sondern regelmäßige, ungezwungene Momente der Verbindung: gemeinsame Mahlzeiten, Spaziergänge, Autofahrten. Zeige echtes Interesse am Leben deines Kindes – nicht nur am Cannabisthema. Frage nach Freunden, Schule, Hobbys, Sorgen. Je mehr du über das gesamte Leben deines Kindes weißt, desto besser kannst du einschätzen, welche Rolle Cannabis darin spielt.
+
+Biete Alternativen an. Viele Jugendliche konsumieren Cannabis zur Stressbewältigung, zur Entspannung oder gegen Langeweile. Wenn du diese Funktionen erkennst, kannst du Alternativen vorschlagen: Sport, Musik, kreative Hobbys, Meditation oder einfach mehr gemeinsame Zeit. Erzwingen kannst du nichts – aber anbieten.
+
+Stärke das Selbstwertgefühl deines Kindes. Jugendliche mit einem stabilen Selbstwertgefühl und guten sozialen Beziehungen konsumieren seltener problematisch. Lob, Anerkennung und emotionale Verfügbarkeit sind die stärksten Schutzfaktoren, die Eltern bieten können.
+
+### Was du vermeiden solltest
+
+Vermeide es, Cannabis zum einzigen Thema in eurer Beziehung zu machen. Wenn jedes Gespräch beim Kiffen landet, wird dein Kind aufhören, überhaupt mit dir zu reden.
+
+Vermeide Bestrafungen, die nichts mit dem Konsum zu tun haben (z. B. Taschengeldentzug wegen eines Joints). Solche Strafen erzeugen Trotz, nicht Einsicht.
+
+Vermeide es, dein Kind vor anderen – Geschwistern, Verwandten, Lehrern – bloßzustellen. Cannabiskonsum ist eine private Angelegenheit zwischen euch und eurem Kind. Erweitere den Kreis der Mitwissenden nur, wenn es professionelle Gründe gibt.
+
+## Altersgerechte Aufklärung: Prävention beginnt früh
+
+Die beste Prävention beginnt lange bevor das Thema Cannabis akut wird. Kinder und Jugendliche, die frühzeitig, sachlich und altersgerecht über Substanzen aufgeklärt werden, treffen reflektiertere Entscheidungen.
+
+### 8 bis 11 Jahre: Grundlagen
+
+In diesem Alter geht es noch nicht um Cannabis im Speziellen, sondern um ein grundlegendes Verständnis davon, dass es Substanzen gibt, die den Körper und das Denken verändern. Kinder können lernen, dass Medikamente helfen können, aber auch Nebenwirkungen haben, dass manche Substanzen für Kinder gefährlich sind und dass es okay ist, Nein zu sagen, wenn jemand ihnen etwas anbietet, das sie nicht kennen.
+
+### 12 bis 14 Jahre: Konkretere Information
+
+In der Pubertät wird das Thema konkreter. Jugendliche hören von Klassenkameraden über Cannabis und bilden sich erste Meinungen. Jetzt ist der richtige Zeitpunkt für sachliche Informationen: was Cannabis ist und wie es wirkt, warum das Gehirn in der Entwicklung besonders empfindlich ist, dass es legal, aber nicht harmlos ist (die Analogie zu Alkohol hilft) und dass du ansprechbar bist, wenn Fragen oder Situationen aufkommen.
+
+### 15 bis 17 Jahre: Risikokompetenz aufbauen
+
+In diesem Alter ist die Wahrscheinlichkeit am höchsten, dass Jugendliche mit Cannabis in Berührung kommen. Prävention bedeutet jetzt nicht mehr Abschreckung, sondern Risikokompetenz: Wie erkenne ich problematischen Konsum bei mir selbst? Welche Konsumregeln reduzieren das Risiko (Safer-Use-Prinzipien)? An wen kann ich mich wenden, wenn ich Hilfe brauche? Wie sage ich Nein in einer Gruppe, ohne mein Gesicht zu verlieren?
+
+## Professionelle Hilfe: Wann und wo
+
+Nicht jede Situation lässt sich innerhalb der Familie lösen. Professionelle Hilfe ist empfehlenswert, wenn der Konsum regelmäßig oder täglich stattfindet, wenn du Verhaltensveränderungen beobachtest, die über normales pubertäres Verhalten hinausgehen, wenn du vermutest, dass hinter dem Konsum psychische Probleme stehen (Depression, Angst, Trauma), wenn das Gespräch zwischen euch immer wieder eskaliert und wenn dein Kind selbst den Wunsch äußert, aufzuhören, es aber nicht schafft.
+
+### Suchtberatungsstellen
+
+Suchtberatungsstellen bieten kostenlose, anonyme Beratung für Betroffene und Angehörige. Die Berater sind geschult im Umgang mit Jugendlichen und können eine erste Einschätzung der Situation geben. Du findest Suchtberatungsstellen über die Datenbank der Deutschen Hauptstelle für Suchtfragen (DHS): www.suchthilfeverzeichnis.de. Die Beratung unterliegt der Schweigepflicht – es wird nichts an Schule, Arbeitgeber oder Behörden weitergegeben.
+
+### Kinder- und Jugendpsychotherapie
+
+Wenn hinter dem Cannabiskonsum psychische Probleme stehen – Depression, Angststörung, ADHS, Traumafolgestörung – ist eine psychotherapeutische Behandlung der Schlüssel. Die Wartezeiten für Therapieplätze können lang sein (3 bis 12 Monate). Überbrückungsangebote bieten psychologische Beratungsstellen und die Telefonseelsorge (0800 111 0 111).
+
+### Familienberatung
+
+Wenn der Cannabiskonsum des Kindes die Familie insgesamt belastet – Konflikte zwischen den Eltern, Spannungen mit Geschwistern, Hilflosigkeit – kann eine Familienberatung helfen. Erziehungsberatungsstellen bieten diesen Service kostenlos an.
+
+### Notfalladressen
+
+Bei akuter Krise: Telefonseelsorge (0800 111 0 111 oder 0800 111 0 222, 24/7, kostenlos). Kinder- und Jugendtelefon (Nummer gegen Kummer): 116 111, Mo–Sa 14–20 Uhr. Elterntelefon (Nummer gegen Kummer): 0800 111 0 550, Mo–Fr 9–17 Uhr, Di und Do bis 19 Uhr. BZgA-Suchthotline: 0221 892031, Mo–Do 10–22 Uhr, Fr–So 10–18 Uhr.
+
+## Wenn das Kind volljährig ist
+
+Mit dem 18. Geburtstag ändert sich die Situation grundlegend: Cannabiskonsum ist für Erwachsene legal, und die elterliche Erziehungsverantwortung endet formell. Dennoch bleiben Eltern natürlich wichtige Bezugspersonen. Wenn dein volljähriges Kind konsumiert, gilt: Du kannst nicht mehr verbieten – aber du kannst weiterhin deine Meinung äußern, Sorgen formulieren und Unterstützung anbieten. Respektiere die Autonomie deines erwachsenen Kindes, auch wenn du den Konsum ablehnst. Halte die Gesprächskanäle offen – das ist wichtiger als Recht zu haben. Setze Grenzen in deinem eigenen Bereich: „In unserer Wohnung wird nicht konsumiert" ist auch gegenüber volljährigen Kindern ein legitimes Anliegen.
+
+## Selbstfürsorge für Eltern
+
+Das Wissen um den Cannabiskonsum des eigenen Kindes ist emotional belastend. Viele Eltern entwickeln Schuldgefühle, Zukunftsangst oder Kontrollbedürfnisse, die die eigene psychische Gesundheit beeinträchtigen. Nimm deine eigenen Gefühle ernst. Sprich mit anderen Eltern – du bist nicht allein. Angehörigengruppen von Suchtberatungsstellen bieten einen geschützten Rahmen. Suche selbst professionelle Unterstützung, wenn du dich überfordert fühlst. Erinnere dich: Du bist nicht schuld am Konsum deines Kindes. Cannabiskonsum bei Jugendlichen hat viele Ursachen – die allermeisten haben nichts mit elterlichem Versagen zu tun.
+
+## Zusammenfassung: Die zehn wichtigsten Empfehlungen
+
+1. Ruhe bewahren. Einmaliger Probierkonsum ist kein Weltuntergang.
+2. Informiere dich sachlich über Cannabis – Wissen ersetzt Angst.
+3. Suche das Gespräch – offen, respektvoll, ohne Vorwürfe.
+4. Höre zu, bevor du redest. Verstehe die Perspektive deines Kindes.
+5. Setze klare, gemeinsam erarbeitete Regeln – und halte dich daran.
+6. Unterscheide zwischen Probierkonsum und Problemkonsum.
+7. Biete Alternativen und stärke das Selbstwertgefühl deines Kindes.
+8. Beginne mit altersgerechter Aufklärung, lange bevor Cannabis zum Thema wird.
+9. Suche professionelle Hilfe, wenn der Konsum regelmäßig wird oder psychische Probleme bestehen.
+10. Vergiss dich selbst nicht – auch Eltern brauchen Unterstützung.`,
+    content_en: `Few situations unsettle parents as much as discovering that their child uses cannabis. Fear, anger, disappointment and helplessness often merge into an emotional cocktail that makes rational action difficult. Yet composed reactions are precisely what matters now – because how parents communicate and act in this situation has a significant influence on whether their child passes through consumption as a temporary phase or slides into a problematic pattern of use. This guide offers parents well-founded, practical guidance – from recognizing initial signs through conducting conversations to professional support services.
+
+## Reality Check: How Common Is Cannabis Among Young People?
+
+Before parents panic, a sober look at the numbers helps. According to the 2024 BZgA study (Federal Centre for Health Education), approximately 10 percent of 12- to 17-year-olds have tried cannabis at least once in their lives. Among 18- to 25-year-olds, the figure is around 46 percent. Regular use (defined as more than ten times in the past 12 months) stands at approximately 2 percent among 12- to 17-year-olds and approximately 8 percent among 18- to 25-year-olds.
+
+These figures illustrate two important points. First: one-time or occasional experimental use is statistically common and in the vast majority of cases does not lead to problematic consumption. Most young people who try cannabis do not develop an addiction problem. Second: nevertheless, the risk is real – particularly with early onset, regular consumption and certain risk factors such as pre-existing mental health conditions or family history of addiction.
+
+## Recognizing Signs: What Parents Should Watch For
+
+The signs of cannabis use can be subtle and partly overlap with normal pubescent behavioural changes. A single conspicuous feature means nothing on its own – only the convergence of several signs over a longer period should make parents attentive.
+
+### Physical Signs
+
+Reddened or glassy eyes are one of the most noticeable signs of acute cannabis use. THC dilates blood vessels in the eyes, leading to a characteristic redness. Some young people use eye drops to conceal this – conspicuous consumption of eye drops can therefore itself be an indirect sign.
+
+Changed appetite, particularly sudden cravings (the so-called munchies), is a typical accompanying symptom. If your child regularly raids the fridge in the evening and consumes large amounts of sweets or snacks, this can be an indicator.
+
+Tiredness and lethargy, especially in the morning or after school, may point to cannabis use the previous evening. THC impairs sleep architecture and can lead to non-restorative sleep despite long sleeping times.
+
+Changed body odour – a sweet-herbaceous smell on clothes, hair or in the room – is a relatively clear indicator. Many young people try to mask the smell with room spray, incense or heavy perfume.
+
+### Behavioural Changes
+
+Withdrawal from the family and the existing circle of friends in favour of new, unknown peers is a common pattern. If your child suddenly breaks contact with long-standing friends and instead spends time with a new group whose members they do not want to introduce, attention is warranted.
+
+Declining school performance is one of the best-documented correlates of regular cannabis use among young people. Falling grades, missing homework, truancy and disinterest in school subjects that were previously enjoyed can be warning signals.
+
+Changed sleep patterns – particularly falling asleep very late and difficulty getting up – fit the typical consumption pattern: evening use, late falling asleep, morning lethargy.
+
+Mood swings, irritability and loss of motivation can be symptoms of both pubescent development and consequences of regular cannabis use. The distinction is difficult – a sudden, marked shift in mood is more telling than gradual changes.
+
+Secrecy and lying about whereabouts, new expenditures without apparent purpose and the discovery of unfamiliar paraphernalia (papers, filters, grinders, small bags) are direct indicators.
+
+### Paraphernalia and Discoveries
+
+Typical paraphernalia that indicate cannabis use: cigarette papers (long or wide papers), activated carbon filters or cardboard filter tips, grinders (herb mills for shredding), small plastic bags or containers with herbal content, vaporizers or e-cigarette-like devices and eye drops.
+
+### What the Signs Do Not Mean
+
+Important: the presence of individual signs does not prove cannabis use. Reddened eyes may come from allergies, tiredness from lack of sleep, mood swings from puberty. Parents should take signs seriously but not rush to judgment. The next step is always: seek a conversation – not search the room.
+
+## The Conversation: How to Talk to Your Child
+
+The conversation about cannabis is probably the most important thing you can do as a parent. It is simultaneously the most difficult. Many parents instinctively make mistakes that worsen rather than improve communication. Here are the key principles.
+
+### Choosing the Right Moment
+
+Do not have the conversation in the heat of the moment. If you have just found a bag in your child's room, take time to process your emotions before seeking the conversation. A conversation driven by anger or panic is almost never productive.
+
+Choose a quiet, private moment – not in front of siblings, not at dinner, not in passing. Announce the conversation: "I'd like to talk to you about something important. When suits you?" This gives your child the opportunity to prepare mentally and signals respect.
+
+Do not have the conversation when your child is obviously under the influence. No objective conversation is possible in that state.
+
+### The Right Attitude: Curiosity Instead of Interrogation
+
+The biggest mistake parents can make is to conduct the conversation as an interrogation. Questions like "Are you taking drugs?", "How long has this been going on?" and "Who gave it to you?" create defensiveness, not openness. Instead, begin with I-messages: "I've noticed that you've changed lately, and I'm worried." "I'd like to understand what's going on in your life right now." "I want you to know that I'm here for you – no matter what."
+
+Ask open questions: "Tell me how you're doing." "What's fun for you right now, what's stressing you?" "What's your view on cannabis?" Listen actively: let your child finish speaking, repeat what you heard in your own words (paraphrasing), ask clarifying questions instead of judging.
+
+### Honesty and Objectivity
+
+Be honest about your feelings: "I'm afraid this is harming you." But avoid dramatizations and exaggerations. Statements like "You're ruining your life" or "This is the beginning of the end" are counterproductive – young people recognize exaggerations immediately and switch off.
+
+Inform yourself beforehand about the actual risks and effects of cannabis. Misinformation permanently undermines your credibility. If you don't know something, say so openly: "I'm not sure about that – let's find out together."
+
+### Dos and Don'ts Overview
+
+**Do:** Listen before you speak. Use I-messages. Name concrete observations (rather than assumptions). Show empathy. Respect your child's autonomy. Ask questions rather than make accusations. Be honest about your own experiences (if you have tried cannabis yourself). Seek information together.
+
+**Don't:** Shout, threaten or punish. Secretly search the room. Embarrass your child in front of siblings or friends. Issue ultimatums you cannot enforce. Moralize or preach. Draw comparisons with other young people. Downplay the consumption to avoid conflict. Ignore the topic hoping it will resolve itself.
+
+## Setting Boundaries: Clear, Loving and Consistent
+
+Understanding and empathy do not mean accepting everything. Parents have the right and the duty to set boundaries – especially for minors whose brains are still developing.
+
+### Establishing Clear Rules
+
+Formulate rules together with your child. Unilaterally imposed prohibitions generate resistance. Rules that are jointly developed have higher acceptance. Possible rules may include: "No cannabis on weekdays / school days." "No consumption in our home." "You don't come home high." "You never ride a bicycle or drive under the influence."
+
+### Agreeing on Consequences
+
+Rules without consequences are ineffective. Agree in advance what happens when rules are broken – and follow through. Consequences should be proportionate (no contact prohibition because of one joint), logically connected (fewer freedoms when trust has been abused) and consistently enforced (inconsistent parents lose credibility).
+
+### The Line Between Experimental and Problematic Use
+
+Not all cannabis use is equally problematic. Parents should learn to distinguish between different consumption patterns.
+
+Experimental use (once or twice): Statistically normal for young people. No reason for panic but an occasion for an informative conversation. Risk of long-term harm: very low.
+
+Occasional use (monthly, in social situations): Attention required. Conversation about risks and rules. Regular check-ins: "How are you doing with that?"
+
+Regular use (weekly or more often): Red warning signal. Professional counselling recommended. Possible developmental impairment. Clear boundaries and close accompaniment necessary.
+
+Daily use: Urgent action required. Seek professional help. Possible cannabis use disorder. Investigate accompanying issues (depression, anxiety, trauma).
+
+## Offering Support Without Controlling
+
+The balancing act between care and overcontrol is one of the greatest challenges for parents. Too much control – searching rooms, checking phones, monitoring every step – destroys the relationship of trust and drives young people further into secret consumption. Too little attention signals disinterest and leaves problematic consumption undetected.
+
+### What You Can Do
+
+Stay in conversation. This does not mean daily interrogations but regular, casual moments of connection: shared meals, walks, car rides. Show genuine interest in your child's life – not just the cannabis topic. Ask about friends, school, hobbies, worries. The more you know about your child's overall life, the better you can assess what role cannabis plays in it.
+
+Offer alternatives. Many young people use cannabis for stress management, relaxation or against boredom. If you recognize these functions, you can suggest alternatives: sport, music, creative hobbies, meditation or simply more shared time. You cannot force anything – but you can offer.
+
+Strengthen your child's self-esteem. Young people with stable self-esteem and good social relationships are less likely to consume problematically. Praise, recognition and emotional availability are the strongest protective factors parents can offer.
+
+### What You Should Avoid
+
+Avoid making cannabis the only topic in your relationship. If every conversation ends up about getting high, your child will stop talking to you altogether.
+
+Avoid punishments unrelated to the consumption (e.g. withdrawing pocket money because of a joint). Such penalties generate defiance, not insight.
+
+Avoid embarrassing your child in front of others – siblings, relatives, teachers. Cannabis use is a private matter between you and your child. Only widen the circle of those who know when there are professional reasons.
+
+## Age-Appropriate Education: Prevention Starts Early
+
+The best prevention begins long before the topic of cannabis becomes acute. Children and young people who are educated about substances early, factually and in an age-appropriate manner make more reflective decisions.
+
+### Ages 8 to 11: Basics
+
+At this age, it is not yet about cannabis specifically but about a basic understanding that substances exist that change the body and thinking. Children can learn that medicines can help but also have side effects, that some substances are dangerous for children, and that it is okay to say no when someone offers them something they do not know.
+
+### Ages 12 to 14: More Specific Information
+
+In puberty, the topic becomes more concrete. Young people hear about cannabis from classmates and form initial opinions. Now is the right time for factual information: what cannabis is and how it works, why the developing brain is particularly sensitive, that it is legal but not harmless (the analogy to alcohol helps), and that you are approachable when questions or situations arise.
+
+### Ages 15 to 17: Building Risk Competence
+
+At this age, the likelihood of young people coming into contact with cannabis is highest. Prevention now means not deterrence but risk competence: How do I recognize problematic consumption in myself? What consumption rules reduce risk (safer-use principles)? Who can I turn to if I need help? How do I say no in a group without losing face?
+
+## Professional Help: When and Where
+
+Not every situation can be resolved within the family. Professional help is recommended when consumption occurs regularly or daily, when you observe behavioural changes that go beyond normal pubescent behaviour, when you suspect psychological problems behind the consumption (depression, anxiety, trauma), when conversations between you keep escalating, and when your child expresses a wish to stop but cannot.
+
+### Addiction Counselling Centres
+
+Addiction counselling centres offer free, anonymous advice for affected individuals and family members. The counsellors are trained in working with young people and can provide an initial assessment of the situation. You can find addiction counselling centres through the database of the German Centre for Addiction Issues (DHS): www.suchthilfeverzeichnis.de. The counselling is subject to confidentiality – nothing is reported to schools, employers or authorities.
+
+### Child and Adolescent Psychotherapy
+
+If psychological problems underlie the cannabis use – depression, anxiety disorder, ADHD, trauma-related disorder – psychotherapeutic treatment is key. Waiting times for therapy places can be long (3 to 12 months). Interim services are offered by psychological counselling centres and the telephone counselling service (0800 111 0 111).
+
+### Family Counselling
+
+If the child's cannabis use burdens the family as a whole – conflicts between parents, tensions with siblings, helplessness – family counselling can help. Parenting counselling centres offer this service free of charge.
+
+### Emergency Contacts
+
+In acute crisis: Telephone counselling service (0800 111 0 111 or 0800 111 0 222, 24/7, free). Children and young people's helpline (Nummer gegen Kummer): 116 111, Mon–Sat 2–8 pm. Parents' helpline (Nummer gegen Kummer): 0800 111 0 550, Mon–Fri 9 am–5 pm, Tue and Thu until 7 pm. BZgA addiction hotline: 0221 892031, Mon–Thu 10 am–10 pm, Fri–Sun 10 am–6 pm.
+
+## When Your Child Is an Adult
+
+With the 18th birthday, the situation changes fundamentally: cannabis consumption is legal for adults, and parental responsibility formally ends. Yet parents naturally remain important reference persons. If your adult child consumes, remember: you can no longer prohibit – but you can continue to express your opinion, voice concerns and offer support. Respect the autonomy of your adult child, even if you reject the consumption. Keep the channels of communication open – that is more important than being right. Set boundaries in your own sphere: "No consumption in our home" is a legitimate concern even towards adult children.
+
+## Self-Care for Parents
+
+Knowing about your own child's cannabis use is emotionally taxing. Many parents develop feelings of guilt, anxiety about the future or needs for control that impair their own mental health. Take your own feelings seriously. Talk to other parents – you are not alone. Relatives' groups at addiction counselling centres offer a protected setting. Seek professional support yourself if you feel overwhelmed. Remember: you are not to blame for your child's consumption. Cannabis use among young people has many causes – the vast majority have nothing to do with parental failure.
+
+## Summary: The Ten Most Important Recommendations
+
+1. Stay calm. One-time experimental use is not the end of the world.
+2. Educate yourself factually about cannabis – knowledge replaces fear.
+3. Seek the conversation – openly, respectfully, without accusations.
+4. Listen before you speak. Understand your child's perspective.
+5. Set clear, jointly developed rules – and stick to them.
+6. Distinguish between experimental use and problematic use.
+7. Offer alternatives and strengthen your child's self-esteem.
+8. Begin age-appropriate education long before cannabis becomes a topic.
+9. Seek professional help when consumption becomes regular or psychological problems exist.
+10. Do not forget yourself – parents need support too.`,
+    tags: ['Eltern', 'Jugendschutz', 'Prävention', 'Aufklärung', 'Gesprächsführung', 'Suchtberatung', 'Familie', 'Risikokompetenz'],
+    reading_time: 22,
+    last_updated: '2026-03-27',
+    related_slugs: [
+      'jugendschutz-u18-risiken',
+      'frueherkennung-problemkonsum',
+      'selbstcheck-warnzeichen',
+      'cannabis-psychische-gesundheit',
+      'safer-use-regeln',
+    ],
+  },
 ];
