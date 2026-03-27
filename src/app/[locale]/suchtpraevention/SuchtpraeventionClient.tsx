@@ -34,11 +34,17 @@ export function SuchtpraeventionClient({ isDE }: Props) {
         : 'Confidential counseling and referral to professional addiction counseling services when needed.',
     },
     {
-      title: isDE ? 'Mindestalter 21 Jahre' : 'Minimum Age 21 Years',
+      title: isDE ? 'Mitgliedschaft ab 21 Jahren' : 'Membership from Age 21',
       text: isDE
-        ? 'Mitgliedschaft erst ab 21 — über die gesetzlichen Mindestanforderungen hinaus, zum Schutz junger Menschen.'
-        : 'Membership from age 21 only — beyond legal minimum requirements, to protect young people.',
+        ? 'Wir nehmen ausschließlich Mitglieder ab 21 Jahren auf — eine bewusste Entscheidung zum Schutz junger Menschen.'
+        : 'We only accept members aged 21 and over — a deliberate decision to protect young people.',
     },
+  ];
+
+  const localResources = [
+    { name: isDE ? 'DROBS – Drogenhilfe Hildesheim' : 'DROBS – Drug Counseling Hildesheim', contact: '05121 69605-0', url: 'https://drobs-hi.de' },
+    { name: isDE ? 'Caritas Suchthilfe Hildesheim' : 'Caritas Addiction Services Hildesheim', contact: '05121 1677-230', url: 'https://www.caritas-hildesheim.de/suchthilfe' },
+    { name: isDE ? 'Ökumenische Suchthilfe (Diakonie/Caritas)' : 'Ecumenical Addiction Services (Diakonie/Caritas)', contact: '05121 1677-230', url: 'https://www.diakonie-hildesheim.de/beratung' },
   ];
 
   const helpResources = [
@@ -78,8 +84,8 @@ export function SuchtpraeventionClient({ isDE }: Props) {
           </span>
           <p className="text-xs leading-relaxed" style={{ color: 'rgba(239,68,68,0.75)' }}>
             {isDE
-              ? 'Cannabis ist ausschließlich für Erwachsene ab 21 Jahren. Der Konsum durch jüngere Personen ist gesetzlich verboten und gesundheitlich besonders riskant.'
-              : 'Cannabis is exclusively for adults aged 21 and over. Consumption by younger persons is prohibited by law and particularly risky for health.'}
+              ? 'Bei BlattWerk e.V. ist die Mitgliedschaft erst ab 21 Jahren möglich. Wir setzen bewusst auf ein höheres Mindestalter, um junge Menschen zu schützen.'
+              : 'At BlattWerk e.V., membership is available from age 21 only. We deliberately set a higher minimum age to protect young people.'}
           </p>
         </div>
       </div>
@@ -128,19 +134,57 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                 <p className="text-xs font-medium text-gold-theme mb-3">
                   {isDE ? 'Stellvertretung' : 'Deputy Officer'}
                 </p>
-                <h3 className="font-heading font-semibold text-lg">N.N.</h3>
+                <h3 className="font-heading font-semibold text-lg">Angela Stetter</h3>
               </div>
             </div>
           </div>
         </section>
       </HomeSection>
 
-      {/* -- Help resources -- */}
+      {/* -- Local resources (Hildesheim) -- */}
       <HomeSection>
         <section className="py-16 lg:py-24 bg-bg-surface">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
+              {isDE ? 'Anlaufstellen in Hildesheim' : 'Local Resources in Hildesheim'}
+            </h2>
+            <p className="text-ink-muted mb-10 max-w-xl">
+              {isDE
+                ? 'Kostenlose und auf Wunsch anonyme Beratung — für Betroffene und Angehörige.'
+                : 'Free and optionally anonymous counseling — for those affected and their relatives.'}
+            </p>
+
+            {localResources.map((resource, i) => (
+              <div
+                key={i}
+                className={`flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
+              >
+                <p className="font-heading font-semibold text-base">{resource.name}</p>
+                <div className="flex items-center gap-6 shrink-0">
+                  <span className="text-sm font-bold tabular-nums text-gold-theme">{resource.contact}</span>
+                  {resource.url && (
+                    <a
+                      href={resource.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-ink-faint transition-opacity hover:opacity-60"
+                    >
+                      &#8599;
+                    </a>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* -- Help resources -- */}
+      <HomeSection>
+        <section className="py-16 lg:py-24">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
-              {isDE ? 'Externe Hilfsangebote' : 'External Help Resources'}
+              {isDE ? 'Überregionale Hilfsangebote' : 'National Help Resources'}
             </h2>
 
             {helpResources.map((resource, i) => (
