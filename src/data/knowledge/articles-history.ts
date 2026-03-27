@@ -18,7 +18,7 @@ Bevor wir in die Geschichte eintauchen, lohnt sich ein kurzer Blick auf die Pfla
 
 Die Taxonomie von Cannabis ist bis heute umstritten. Manche Botaniker unterscheiden drei Arten – Cannabis sativa, Cannabis indica und Cannabis ruderalis –, während andere alle Formen als Varietäten einer einzigen Art (Cannabis sativa) betrachten. Für die Kulturgeschichte ist diese Unterscheidung von untergeordneter Bedeutung: Die Menschheit hat Cannabis in allen seinen Erscheinungsformen genutzt und kultiviert.
 
-Die chemische Zusammensetzung von Cannabis ist außerordentlich komplex. Über 140 Phytocannabinoide wurden identifiziert, darunter Delta-9-Tetrahydrocannabinol (THC) als hauptsächlich psychoaktiver Wirkstoff und Cannabidiol (CBD) als nicht-psychoaktives Cannabinoid mit vielfältigen pharmakologischen Eigenschaften. Hinzu kommen über 200 Terpene, Flavonoide und weitere sekundäre Pflanzenstoffe, die gemeinsam das Wirkungs- und Geschmacksprofil einer bestimmten Cannabis-Varietät bestimmen.
+Cannabis war und ist eine der anpassungsfähigsten Kulturpflanzen: Sie gedeiht in nahezu allen Klimazonen, von tropischen Tiefländern bis zu Hochgebirgsregionen, und hat sich durch Jahrhunderte selektiver Züchtung in eine enorme Vielfalt von Sorten und Erscheinungsformen differenziert. Die chemische Zusammensetzung von Cannabis ist außerordentlich komplex. Über 140 Phytocannabinoide wurden identifiziert, darunter Delta-9-Tetrahydrocannabinol (THC) als hauptsächlich psychoaktiver Wirkstoff und Cannabidiol (CBD) als nicht-psychoaktives Cannabinoid mit vielfältigen pharmakologischen Eigenschaften. Hinzu kommen über 200 Terpene, Flavonoide und weitere sekundäre Pflanzenstoffe, die gemeinsam das Wirkungs- und Geschmacksprofil einer bestimmten Cannabis-Varietät bestimmen.
 
 ## Ursprünge in Zentralasien
 
@@ -74,6 +74,14 @@ Das Übereinkommen über psychotrope Substanzen von 1971 und das Übereinkommen 
 
 Erst 2020 nahm die UN-Kommission für Suchtstoffe auf Empfehlung der Weltgesundheitsorganisation Cannabis aus der strengsten Kontrollkategorie (Schedule IV) des Einheitsabkommens heraus – ein symbolisch wichtiger Schritt, der die zunehmende wissenschaftliche Evidenz für den medizinischen Nutzen von Cannabis anerkannte.
 
+## Cannabis in der Neuen Welt: Amerika vor der Prohibition
+
+Die Geschichte von Cannabis in Amerika beginnt lange vor der Prohibition. Spanische Kolonisatoren brachten Hanf im 16. Jahrhundert nach Mexiko und Südamerika, wo er zunächst als Faserlieferant für die Marine und die Textilindustrie angebaut wurde. In Nordamerika war Hanf von den frühesten Kolonialzeiten an eine der wichtigsten Nutzpflanzen. Virginia, Kentucky und andere Südstaaten produzierten große Mengen Hanf für die Seilherstellung.
+
+Der medizinische Gebrauch von Cannabis verbreitete sich in den USA ab der Mitte des 19. Jahrhunderts. Cannabis-Tinkturen waren in Apotheken frei erhältlich und wurden gegen eine Vielzahl von Beschwerden eingesetzt – von Migräne über Menstruationsschmerzen bis hin zu Schlaflosigkeit. Zu den prominentesten Befürwortern gehörte Sir William Osler, einer der Gründer der modernen klinischen Medizin, der Cannabis 1913 als die beste Medizin gegen Migräne bezeichnete.
+
+Erst mit der mexikanischen Einwanderungswelle nach der Revolution von 1910 begann sich das Bild zu wandeln. Die amerikanische Presse übernahm den mexikanisch-spanischen Begriff Marihuana – ein bewusster sprachlicher Kunstgriff, der die vertraute Heilpflanze Cannabis von dem bedrohlich klingenden Marihuana trennte und rassistische Assoziationen weckte.
+
 ## Die Gegenkultur der 1960er und 1970er Jahre
 
 Die Prohibitionspolitik konnte den Cannabiskonsum nicht eliminieren – im Gegenteil. In den 1960er und 1970er Jahren wurde Cannabis zu einem Symbol der Gegenkultur in den USA und Europa. Die Hippie-Bewegung, die Anti-Vietnamkriegs-Proteste und die allgemeine Infragestellung gesellschaftlicher Normen gingen mit einem massiven Anstieg des Cannabiskonsums einher. Woodstock, die Summer of Love in San Francisco und die Studentenbewegungen in Europa prägten eine Generation, für die Cannabis zum Ausdruck von Freiheit und Nonkonformismus wurde.
@@ -92,9 +100,19 @@ Kanada folgte 2018 als erstes G7-Land mit einer landesweiten Legalisierung für 
 
 Deutschland trat 2024 mit dem Konsumcannabisgesetz (KCanG) in diese Reihe ein. Das Gesetz erlaubt den Besitz, Eigenanbau und die gemeinschaftliche Produktion in Cannabis Social Clubs, verzichtet aber auf einen kommerziellen Markt – ein Kompromiss, der sowohl aus innenpolitischen als auch aus EU-rechtlichen Erwägungen resultierte.
 
+## Die Auswirkungen der Prohibition: Eine Bilanz
+
+Die globale Cannabis-Prohibition, die sich über mehr als ein halbes Jahrhundert erstreckte, hat tiefgreifende gesellschaftliche Narben hinterlassen. Die Bilanz ist ernüchternd: Der Cannabiskonsum wurde nicht eliminiert, sondern stieg weltweit kontinuierlich an. Laut dem World Drug Report der Vereinten Nationen von 2024 konsumieren schätzungsweise 209 Millionen Menschen weltweit Cannabis – ein historischer Höchststand, der die Wirkungslosigkeit der Prohibition eindrucksvoll belegt.
+
+Die sozialen Kosten der Prohibition waren enorm. In den USA wurden zwischen 2001 und 2020 über 15 Millionen Verhaftungen wegen Cannabis durchgeführt – mehr als wegen aller Gewaltverbrechen zusammen. Die rassistische Dimension dieser Strafverfolgung ist statistisch eindeutig: Afroamerikaner wurden bei vergleichbaren Konsumraten drei- bis viermal häufiger verhaftet als Weiße. In Deutschland führte die Prohibition zu jährlich rund 200.000 cannabisbezogenen Strafverfahren, von denen die große Mehrheit eingestellt wurde – ein enormer Aufwand an Polizei- und Justizressourcen ohne messbaren Nutzen.
+
+Die wirtschaftlichen Kosten der Prohibition sind schwer zu beziffern, umfassen aber die direkten Kosten der Strafverfolgung, die Kosten des Strafvollzugs, die verlorene Produktivität inhaftierter Personen, die entgangenen Steuereinnahmen und die Gewinne des Schwarzmarkts, die der organisierten Kriminalität zuflossen.
+
 ## Aktuelle globale Situation
 
 Die weltweite Cannabispolitik befindet sich in einem tiefgreifenden Wandel. Neben den bereits genannten Ländern haben Thailand (2022), Luxemburg und Tschechien schrittweise Liberalisierungen vorgenommen. In Lateinamerika experimentieren Kolumbien und Mexiko mit Reformen. Auf dem afrikanischen Kontinent haben Südafrika, Marokko und Lesotho den Anbau für medizinische oder industrielle Zwecke liberalisiert.
+
+Die wirtschaftlichen Dimensionen der legalen Cannabis-Industrie sind beeindruckend. In den USA generierte der legale Cannabismarkt 2024 einen Umsatz von über 30 Milliarden Dollar und beschäftigte rund 400.000 Menschen. In Kanada hat die Legalisierung Milliarden an Steuereinnahmen generiert und Tausende legaler Arbeitsplätze geschaffen.
 
 Zugleich bleibt Cannabis in weiten Teilen der Welt illegal, insbesondere in vielen asiatischen und nahöstlichen Staaten, wo teilweise drakonische Strafen bis hin zur Todesstrafe drohen. Singapur, Malaysia, Indonesien und Saudi-Arabien verfolgen eine kompromisslose Prohibitionspolitik. Auch innerhalb der EU gibt es erhebliche Unterschiede: Während Deutschland und Malta liberal agieren, halten Frankreich, Schweden und die meisten osteuropäischen Staaten an einer strengen Kriminalisierung fest.
 
@@ -183,6 +201,14 @@ The 1971 Convention on Psychotropic Substances and the 1988 Convention against I
 
 Only in 2020 did the UN Commission on Narcotic Drugs, following a recommendation from the World Health Organization, remove cannabis from the strictest control category (Schedule IV) of the Single Convention – a symbolically important step acknowledging the growing scientific evidence for the medical benefits of cannabis.
 
+## Cannabis in the New World: America Before Prohibition
+
+The history of cannabis in America begins long before prohibition. Spanish colonizers brought hemp to Mexico and South America in the 16th century, where it was initially cultivated as a fibre source for the navy and textile industry. In North America, hemp was one of the most important crops from the earliest colonial times. Virginia, Kentucky and other southern states produced large quantities of hemp for rope manufacture.
+
+Medical use of cannabis spread in the US from the mid-19th century onward. Cannabis tinctures were freely available in pharmacies and used for a wide range of complaints – from migraine through menstrual pain to insomnia. Among the most prominent advocates was Sir William Osler, one of the founders of modern clinical medicine, who in 1913 called cannabis the best medicine for migraine.
+
+Only with the Mexican immigration wave following the 1910 revolution did the image begin to shift. The American press adopted the Mexican-Spanish term marijuana – a deliberate linguistic device separating the familiar medicinal plant cannabis from the threatening-sounding marijuana and evoking racial associations.
+
 ## The Counterculture of the 1960s and 1970s
 
 Prohibition policy could not eliminate cannabis use – quite the contrary. In the 1960s and 1970s, cannabis became a symbol of the counterculture in the US and Europe. The hippie movement, anti-Vietnam War protests and the general questioning of social norms accompanied a massive increase in cannabis consumption. Woodstock, the Summer of Love in San Francisco and student movements in Europe shaped a generation for whom cannabis became an expression of freedom and nonconformism.
@@ -201,9 +227,17 @@ Canada followed in 2018 as the first G7 country with nationwide adult-use legali
 
 Germany joined this progression in 2024 with the Cannabis Consumption Act (KCanG). The law permits possession, home cultivation and collective production in Cannabis Social Clubs but forgoes a commercial market – a compromise resulting from both domestic political and EU legal considerations.
 
+## The Impact of Prohibition: A Balance Sheet
+
+The global cannabis prohibition spanning more than half a century has left deep societal scars. The balance sheet is sobering: cannabis use was not eliminated but rose continuously worldwide. According to the 2024 United Nations World Drug Report, an estimated 209 million people worldwide use cannabis – a historic high that impressively demonstrates the ineffectiveness of prohibition.
+
+The social costs of prohibition were enormous. In the United States, over 15 million cannabis-related arrests were made between 2001 and 2020 – more than for all violent crimes combined. The racist dimension of this prosecution is statistically clear: African Americans were arrested three to four times more frequently than whites despite comparable consumption rates. In Germany, prohibition led to approximately 200,000 cannabis-related criminal proceedings annually, the vast majority of which were discontinued – an enormous expenditure of police and judicial resources without measurable benefit.
+
 ## Current Global Situation
 
-Global cannabis policy is undergoing profound change. In addition to the countries already mentioned, Thailand (2022), Luxembourg and the Czech Republic have implemented gradual liberalizations. In Latin America, Colombia and Mexico are experimenting with reforms. On the African continent, South Africa, Morocco and Lesotho have liberalized cultivation for medical or industrial purposes.
+Global cannabis policy is undergoing profound change. The economic dimensions of the legal cannabis industry are impressive. In the US, the legal cannabis market generated revenue exceeding 30 billion dollars in 2024 and employed approximately 400,000 people. In Canada, legalization has generated billions in tax revenue and created thousands of legal jobs.
+
+In addition to the countries already mentioned, Thailand (2022), Luxembourg and the Czech Republic have implemented gradual liberalizations. In Latin America, Colombia and Mexico are experimenting with reforms. On the African continent, South Africa, Morocco and Lesotho have liberalized cultivation for medical or industrial purposes.
 
 At the same time, cannabis remains illegal in large parts of the world, particularly in many Asian and Middle Eastern states where draconian penalties up to and including the death penalty apply. Singapore, Malaysia, Indonesia and Saudi Arabia pursue an uncompromising prohibition policy. Even within the EU there are significant differences: while Germany and Malta act liberally, France, Sweden and most Eastern European states maintain strict criminalization.
 
@@ -263,6 +297,8 @@ In den 2000er Jahren gab es mehrere parlamentarische Vorstöße zur Reform der C
 
 Auf kommunaler Ebene scheiterten mehrere Modellprojektversuche. Frankfurt am Main beantragte 2002 ein wissenschaftlich begleitetes Abgabemodell, das vom damaligen Bundesgesundheitsministerium abgelehnt wurde. Ähnliche Initiativen in Berlin, Köln und München erlitten das gleiche Schicksal. Die rechtliche Hürde war stets dieselbe: Das BtMG als Bundesgesetz ließ den Kommunen keinen Spielraum für eigenständige Regelungen.
 
+Auf europäischer Ebene scheiterte 2007 auch ein Vorstoß der niederländischen Regierung, ein EU-weites System regulierter Coffeeshops zu etablieren. Der Widerstand kam insbesondere von Schweden, Frankreich und Deutschland.
+
 Diese gescheiterten Versuche waren dennoch nicht vergeblich. Sie trugen dazu bei, die öffentliche Debatte in Gang zu halten, juristische Argumentationslinien zu entwickeln und eine Generation von Politikern, Juristen und Aktivisten zu formen, die 20 Jahre später die tatsächliche Legalisierung herbeiführen sollten.
 
 ## Die Debatte der 2010er Jahre
@@ -276,6 +312,8 @@ In den 2010er Jahren intensivierte sich die gesellschaftliche Debatte um Cannabi
 **Gescheiterte Prohibition:** Die Zahl der Cannabiskonsumenten in Deutschland stieg trotz Verbots kontinuierlich an. Schätzungen zufolge konsumierten rund vier Millionen Deutsche regelmäßig Cannabis, der Schwarzmarkt florierte, und die Qualitätskontrolle war inexistent. Synthetische Cannabinoide, die als billige Beimischungen den Schwarzmarkt erreichten, stellten ein erhebliches Gesundheitsrisiko dar.
 
 **Petitionen und Bürgerinitiativen:** Mehrere Bundestagspetitionen zur Legalisierung erreichten hohe Unterstützerzahlen. Die Petition des Deutschen Hanfverbands von 2017 verzeichnete über 79.000 Unterschriften und wurde im Petitionsausschuss beraten.
+
+**Drogenbeauftragte der Bundesregierung:** Die jeweiligen Drogenbeauftragten der Bundesregierung spielten eine ambivalente Rolle. Während Sabine Bätzing (SPD, 2005–2009) und Mechthild Dyckmans (FDP, 2009–2013) die Cannabisprohibition verteidigten, öffnete Marlene Mortler (CSU, 2014–2019) mit ihrer viel zitierten Aussage, Cannabis sei verboten, weil es illegal sei, unfreiwillig die Tür für Kritik an der intellektuellen Grundlage der Prohibition. Burkhard Blienert (SPD), der erste Drogenbeauftragte der Ampelkoalition, begleitete die Legalisierung aktiv und setzte sich für eine Suchtpolitik ein, die auf Prävention statt auf Repression setzt.
 
 **Parteipolitische Positionierung:** Die Grünen forderten bereits seit den 1990er Jahren eine Legalisierung. Die FDP schloss sich in den 2010er Jahren mit einem marktwirtschaftlichen Ansatz an. Die SPD vollzog einen graduellen Wandel von der Ablehnung zur Offenheit. CDU/CSU und AfD blieben bei ihrer prohibitiven Haltung.
 
@@ -291,7 +329,7 @@ Die Bundestagswahl vom 26. September 2021 führte zur Bildung der Ampelkoalition
 
 „Wir führen die kontrollierte Abgabe von Cannabis an Erwachsene zu Genusszwecken in lizenzierten Geschäften ein. Dadurch wird die Qualität kontrolliert, die Weitergabe verunreinigter Substanzen verhindert und der Jugendschutz gewährleistet."
 
-Dieser Satz war historisch: Zum ersten Mal hatten drei Regierungsparteien eine Cannabislegalisierung als gemeinsames Ziel formuliert. Die Federführung lag beim Bundesgesundheitsminister Karl Lauterbach (SPD), der sich von einem früheren Legalisierungsgegner zu einem Befürworter gewandelt hatte.
+Dieser Satz war in der Geschichte der Bundesrepublik beispiellos: Zum ersten Mal hatten drei Regierungsparteien eine Cannabislegalisierung als gemeinsames Ziel formuliert und damit den Grundstein für die umfassendste drogenpolitische Reform seit Bestehen des BtMG gelegt. Die Federführung lag beim Bundesgesundheitsminister Karl Lauterbach (SPD), der sich von einem früheren Legalisierungsgegner zu einem Befürworter gewandelt hatte.
 
 ## Europäische Hürden und der Zwei-Säulen-Ansatz
 
@@ -353,7 +391,11 @@ Die praktische Umsetzung des KCanG verlief nicht reibungslos. In den ersten Mona
 
 **Polizeiliche Übergangsphase:** Die Polizeibehörden mussten ihre Praxis umstellen – von der Verfolgung jedes Cannabisbesitzes hin zur Überprüfung, ob die legalen Grenzen eingehalten werden. Dies erforderte Schulungen und klare Dienstanweisungen, die in vielen Bundesländern erst mit Verzögerung bereitstanden.
 
-**Amnestie-Umsetzung:** Die Überprüfung bestehender Verurteilungen stellte die Justiz vor eine erhebliche Arbeitsbelastung. Hunderttausende Akten mussten gesichtet werden, um festzustellen, ob die zugrundeliegenden Handlungen nach neuem Recht strafbar wären.
+**Amnestie-Umsetzung:** Die Überprüfung bestehender Verurteilungen stellte die Justiz vor eine erhebliche Arbeitsbelastung. Hunderttausende Akten mussten gesichtet werden, um festzustellen, ob die zugrundeliegenden Handlungen nach neuem Recht strafbar wären. Viele Gerichte meldeten erhebliche Rückstände, und der Amnestieprozess dauerte deutlich länger als erwartet.
+
+**Öffentlicher Konsum:** Die ersten Wochen nach dem Inkrafttreten waren von weitverbreitetem öffentlichem Cannabiskonsum geprägt, insbesondere bei den großen Smoke-In-Veranstaltungen, die am 1. April 2024 in Berlin, Hamburg und anderen Städten stattfanden. Obwohl nach dem KCanG legal (unter Beachtung der Schutzzonenregeln), provozierte diese Sichtbarkeit Kritik von Prohibitionsbefürwortern und erneuerte Forderungen nach strengerer Durchsetzung.
+
+**Wirtschaftliche Herausforderungen:** Viele Cannabis Social Clubs standen vor erheblichen wirtschaftlichen Herausforderungen. Die Investitionskosten für die Einrichtung gesicherter Anbauflächen, Überwachungstechnik, Qualitätskontrolle und Verwaltung waren beträchtlich, während die Einnahmen durch die Begrenzung auf 500 Mitglieder und die Nicht-Gewinnorientierung gedeckelt waren. Einige Vereine mussten hohe Mitgliedsbeiträge erheben, was die soziale Zugänglichkeit einschränkte.
 
 ## Politische Reaktionen und der Regierungswechsel
 
@@ -371,7 +413,9 @@ Die politische Zukunft dieser zweiten Säule ist nach dem Regierungswechsel unge
 
 Unabhängig von der parteipolitischen Debatte zeigen Umfragen einen klaren gesellschaftlichen Trend. Laut einer infratest-dimap-Erhebung von 2024 befürworten rund 65 Prozent der deutschen Bevölkerung die Entkriminalisierung von Cannabisbesitz, und etwa 50 Prozent unterstützen eine kontrollierte Legalisierung mit kommerziellem Verkauf. Die Zustimmung ist bei jüngeren Altersgruppen (18–39 Jahre) mit über 70 Prozent besonders hoch.
 
-Dieser gesellschaftliche Wandel spiegelt sich auch in der alltäglichen Realität wider. Der offene Konsum in Großstädten hat nach dem 1. April 2024 deutlich zugenommen, Cannabis Social Clubs sind zu einem festen Bestandteil des Vereinslebens geworden, und die Berichterstattung in den Medien hat sich von einer skandalisierenden zu einer normalisierten Tonalität gewandelt.
+Dieser gesellschaftliche Wandel spiegelt sich auch in der alltäglichen Realität wider. Der offene Konsum in Großstädten hat nach dem 1. April 2024 deutlich zugenommen, Cannabis Social Clubs sind zu einem festen Bestandteil des Vereinslebens geworden, und die Berichterstattung in den Medien hat sich von einer skandalisierenden zu einer normalisierten Tonalität gewandelt. In Großstädten wie Berlin, Hamburg und Köln haben sich Cannabis-bezogene Veranstaltungen, Messen und Kulturformate etabliert, die ein breites Publikum ansprechen und Cannabis als normalen Teil des gesellschaftlichen Lebens präsentieren.
+
+Die Arbeitswelt zeigt ebenfalls Veränderungen. Während einige Arbeitgeber ihre Drogenpolitik gelockert haben, halten andere an strengen Kontrollen fest. Die arbeitsrechtliche Dimension des Cannabiskonsums – insbesondere die Frage, ob ein Arbeitgeber einen Drogentest verlangen darf, der auch legalen Konsum in der Freizeit erfasst – ist Gegenstand laufender juristischer Debatten und wird voraussichtlich erst durch höchstrichterliche Rechtsprechung abschließend geklärt.
 
 ## Der internationale Vergleich: Deutschlands Sonderweg
 
@@ -396,7 +440,7 @@ Auch akademische Stimmen trugen zum Diskurs bei. Die Petition von über 120 Stra
 Der Weg zur Cannabislegalisierung in Deutschland war lang, umkämpft und von Kompromissen geprägt. Das KCanG ist weder die vollständige Legalisierung, die Befürworter sich erhofft hatten, noch die Katastrophe, die Gegner prophezeiten. Es ist ein pragmatischer Mittelweg, der den privaten Umgang mit Cannabis entkriminalisiert und reguliert, ohne einen kommerziellen Markt zu schaffen.
 
 Die gesetzlich vorgeschriebene Evaluation bis 2028 wird zeigen, ob das KCanG seine Ziele erreicht: Verdrängung des Schwarzmarkts, Verbesserung des Jugendschutzes und Entlastung der Justiz. Auf dieser Grundlage werden künftige Regierungen entscheiden müssen, ob sie das Modell ausweiten, beibehalten oder einschränken. Was bereits feststeht: Deutschland hat nach Jahrzehnten der Prohibition einen Kurswechsel vollzogen, dessen gesellschaftliche Wirkung weit über die Frage des Cannabiskonsums hinausreicht.`,
-    content_en: `The legalization of cannabis in Germany is not a sudden event but the result of a decades-long social, political and legal process. The path from complete prohibition under the Narcotics Act to the Cannabis Consumption Act (KCanG) of 2024 passed through court rulings, cross-party debates, European consultations and ultimately a historic coalition agreement. This article traces the stages of that journey in detail.
+    content_en: `The legalization of cannabis in Germany is one of the most significant drug policy changes in the history of the Federal Republic. It is not a sudden event but the result of a decades-long social, political and legal process. The path from complete prohibition under the Narcotics Act to the Cannabis Consumption Act (KCanG) of 2024 passed through court rulings, cross-party debates, European consultations and ultimately a historic coalition agreement. This article traces the stages of that journey in detail.
 
 ## The Starting Point: The Narcotics Act (BtMG)
 
@@ -410,9 +454,19 @@ On 9 March 1994, the Federal Constitutional Court issued a landmark decision on 
 
 This ruling was a double-edged sword. On one hand, it acknowledged that criminalizing consumers with small quantities could be disproportionate. On the other, it legitimized the fundamental prohibition and left the definition of "small quantity" to individual federal states – cementing rather than eliminating the existing inequality. A Berlin consumer was treated differently from a Bavarian one for the same behaviour, despite both being subject to the same federal law.
 
-## The Debate of the 2000s and 2010s
+## Failed Reform Attempts of the 2000s
 
-In the following decades, the social debate around cannabis intensified. Several factors drove this development:
+In the 2000s, there were several parliamentary initiatives to reform cannabis policy, all of which failed. The Greens introduced decriminalization bills in the Bundestag in 2002 and again in 2007, which were rejected by the governing majority. Die Linke called for an evidence-based reassessment of cannabis prohibition in various motions. Even within the SPD, there were isolated voices for reform – Hamburg's then Justice Senator Roger Kusch spoke out in favour of controlled distribution in 2002.
+
+At the municipal level, several model project attempts failed. Frankfurt am Main applied for a scientifically accompanied distribution model in 2002, which was rejected by the Federal Ministry of Health. Similar initiatives in Berlin, Cologne and Munich suffered the same fate. The legal obstacle was always the same: the BtMG as federal law left municipalities no room for independent regulation.
+
+At the European level, a 2007 initiative by the Dutch government to establish an EU-wide system of regulated coffeeshops also failed. Resistance came particularly from Sweden, France and Germany. Several German cities – including Frankfurt, Berlin, Cologne and Munich – applied for scientifically accompanied distribution pilot projects that were rejected by the federal government, as the BtMG left no room for municipal experimentation.
+
+These failed attempts were nevertheless not in vain. They helped keep the public debate alive, develop legal lines of argument and shape a generation of politicians, lawyers and activists who would bring about the actual legalization 20 years later.
+
+## The Debate of the 2010s
+
+In the 2010s, the social debate around cannabis intensified considerably. Several factors drove this development:
 
 **Growing scientific evidence:** Research on cannabis and the endocannabinoid system produced increasingly nuanced findings. The image of cannabis as a uniform gateway drug was largely rejected by science. At the same time, the risks were not denied but placed in an evidence-based context.
 
@@ -421,6 +475,8 @@ In the following decades, the social debate around cannabis intensified. Several
 **Failed prohibition:** The number of cannabis consumers in Germany rose continuously despite the ban. An estimated four million Germans consumed cannabis regularly, the black market flourished, and quality control was non-existent. Synthetic cannabinoids reaching the black market as cheap adulterants posed significant health risks.
 
 **Petitions and citizens' initiatives:** Several Bundestag petitions for legalization achieved high supporter numbers. The German Hemp Association's 2017 petition recorded over 79,000 signatures and was deliberated in the Petitions Committee.
+
+**Federal Drug Commissioners:** The successive Federal Drug Commissioners played an ambivalent role. While some defended cannabis prohibition, the CSU's Marlene Mortler (2014–2019) inadvertently opened the door to criticism of prohibition's intellectual foundations with her widely quoted statement that cannabis was forbidden because it is illegal. Burkhard Blienert (SPD), the first Drug Commissioner of the Ampel coalition, actively accompanied the legalization process and advocated for an addiction policy based on prevention rather than repression.
 
 **Party-political positioning:** The Greens had demanded legalization since the 1990s. The FDP joined with a market-oriented approach in the 2010s. The SPD underwent a gradual shift from rejection to openness. The CDU/CSU and AfD maintained their prohibitionist stance.
 
@@ -488,7 +544,17 @@ Cannabis Social Clubs (CSCs) are the centrepiece of the KCanG and its most innov
 
 ## Implementation in Practice
 
-Practical implementation of the KCanG has not been smooth. Several challenges emerged in the first months after entry into force, including administrative delays in licensing, difficulties obtaining legal seeds and cuttings, police transitioning to new enforcement protocols, and the enormous workload of reviewing existing convictions for the amnesty programme.
+Practical implementation of the KCanG was not smooth. Several challenges emerged in the first months after entry into force:
+
+**Administrative delays:** Many federal states were unprepared for the new responsibility. The competent authorities had to be identified, staff trained and administrative processes established. In some states – particularly Bavaria and Saxony – approval procedures for CSCs were deliberately delayed or burdened with high bureaucratic hurdles.
+
+**Seeds and cuttings:** The legal procurement of seeds and cuttings proved to be a practical problem, as commercial trade was not provided for. CSCs were only permitted to obtain seeds from other CSCs or from within the EU, which delayed the start-up phase for many associations.
+
+**Police transition:** Police authorities had to adapt their practices – from prosecuting every cannabis possession to verifying whether legal limits were being observed. This required training and clear service instructions, which in many federal states were only available with a delay.
+
+**Amnesty implementation:** Reviewing existing convictions placed a considerable workload on the judiciary. Hundreds of thousands of files had to be examined to determine whether the underlying actions would still be criminal under the new law. Many courts reported significant backlogs, and the amnesty process took longer than expected.
+
+**Public consumption:** The first weeks after entry into force saw widespread public cannabis consumption, particularly at the large "Smoke-In" gatherings that took place in Berlin, Hamburg and other cities on 1 April 2024. While legal under the KCanG (subject to the exclusion zone rules), this visibility provoked criticism from prohibition supporters and renewed calls for stricter enforcement.
 
 ## Political Reactions and the Change of Government
 
@@ -499,6 +565,10 @@ Following the collapse of the Ampel coalition in November 2024 and the early ele
 ## Social Change
 
 Regardless of the party-political debate, surveys show a clear societal trend. According to a 2024 infratest-dimap survey, approximately 65 percent of the German population supports the decriminalization of cannabis possession, and about 50 percent support controlled legalization with commercial sales. Approval is particularly high among younger age groups (18–39) at over 70 percent.
+
+This societal change is reflected in everyday reality. Open consumption in major cities increased markedly after 1 April 2024, Cannabis Social Clubs have become an established part of associational life, and media coverage has shifted from sensationalist to normalized in tone. In cities like Berlin, Hamburg and Cologne, cannabis-related events, fairs and cultural formats have become established, addressing broad audiences and presenting cannabis as a normal part of social life.
+
+The workplace is also showing changes. While some employers have relaxed their drug policies, others maintain strict controls. The employment law dimension of cannabis use – particularly the question of whether an employer may require a drug test that captures legal recreational use – is the subject of ongoing legal debate and will likely only be conclusively resolved through case law from the highest courts.
 
 ## International Comparison: Germany's Distinctive Path
 
@@ -572,6 +642,10 @@ Auch in der elektronischen Musik spielt Cannabis eine Rolle, wenngleich eine wen
 
 In Deutschland hat die Cannabis-Kultur Spuren im Deutschrap hinterlassen. Künstler wie Sido, Bushido, Kollegah und zahlreiche Vertreter des Cloud-Rap und Trap thematisieren Cannabis in ihren Texten, wobei die Darstellung zwischen Verherrlichung, Normalisierung und gelegentlich auch kritischer Reflexion schwankt.
 
+### Country, Folk und Cannabis
+
+Selbst in traditionell konservativen Genres wie Country und Folk hat Cannabis seinen Platz gefunden. Willie Nelson, einer der ikonischsten Country-Musiker überhaupt, ist seit Jahrzehnten ein offener Cannabis-Befürworter und gründete seine eigene Cannabis-Marke, Willie's Reserve. In der Folk-Tradition integrierten Musiker wie Bob Dylan Cannabis in die kreative Mythologie der Greenwich-Village-Szene der 1960er Jahre. Die schrittweise Akzeptanz von Cannabis in diesen Genres spiegelt die breitere gesellschaftliche Normalisierung wider.
+
 ## Cannabis im Film
 
 Das Kino hat die Wahrnehmung von Cannabis maßgeblich geprägt – sowohl im negativen als auch im positiven Sinne.
@@ -634,6 +708,8 @@ Trotz der kulturellen Präsenz von Cannabis bleibt die Stigmatisierung von Konsu
 
 **Moralische Panik:** Die Geschichte der Cannabisprohibition ist durchzogen von moralischen Paniken – übertriebenen gesellschaftlichen Ängsten, die von Medien und Politikern geschürt und instrumentalisiert werden. Von Reefer Madness in den 1930er Jahren bis zu den Kampagnen gegen „Komasaufen und Kiffen" in den 2000er Jahren bedient sich die Anti-Cannabis-Rhetorik wiederkehrender Muster der Dramatisierung und Vereinfachung.
 
+**Mediale Darstellung:** Die Art und Weise, wie Medien über Cannabis berichten, hat sich die Stigmatisierung maßgeblich beeinflusst. Jahrzehntelang dominierten Schreckensberichte über Drogenrazzien und vermeintliche Cannabisopfer die Berichterstattung. Erst ab den 2010er Jahren begann ein differenzierterer Journalismus, der medizinische Forschungsergebnisse, internationale Erfahrungen und die Stimmen von Betroffenen einbezog.
+
 **Arbeitsrechtliche Konsequenzen:** Auch nach der Teillegalisierung durch das KCanG haben Cannabiskonsumenten in Deutschland mit Stigmatisierung zu kämpfen. In vielen Berufsfeldern – insbesondere im Transportwesen, im Gesundheitswesen und im öffentlichen Dienst – kann ein positiver Drogentest arbeitsrechtliche Konsequenzen haben, auch wenn der Konsum legal und außerhalb der Arbeitszeit erfolgte.
 
 ## Entstigmatisierung: Der aktuelle Wandel
@@ -647,6 +723,10 @@ Parallel zur fortschreitenden Legalisierung vollzieht sich ein Prozess der Entst
 **Mediale Normalisierung:** Die mediale Darstellung von Cannabis hat sich gewandelt – von der skandalisierten Berichterstattung über Drogenrazzien hin zu differenzierten Reportagen über Cannabis Social Clubs, medizinische Anwendungen und Anbautechniken. Magazinformate, Podcasts und Social-Media-Kanäle, die sich sachlich mit Cannabis befassen, haben eine breite Öffentlichkeit gefunden.
 
 **Prominente als Botschafter:** Öffentliche Persönlichkeiten, die sich zu ihrem Cannabiskonsum bekennen – von Unternehmern über Sportler bis zu Politikern –, tragen zur Normalisierung bei. In den USA hat die Cannabis-Industrie prominente Investoren und Markenbotschafter angezogen, was das Image von Cannabis vom Rand in die Mitte der Gesellschaft verschoben hat.
+
+## Cannabis und Sprache
+
+Cannabis hat die Sprache und den Slang quer durch Kulturen und Generationen geprägt. Die schiere Zahl der Begriffe für die Pflanze und ihre Produkte ist beeindruckend – Forscher haben allein im Englischen Hunderte von Slang-Begriffen katalogisiert. Im Deutschen umfasst das Lexikon Gras, Ganja, Dope, Ott, Haze und Dutzende regionaler Varianten. Die Terminologie selbst ist politisch geworden: Die Verschiebung von Marihuana – einem Begriff mit rassistischen Ursprüngen – zu Cannabis im offiziellen Diskurs spiegelt ein bewusstes Bemühen wider, stigmatisierende Konnotationen abzustreifen.
 
 ## Gesellschaftlicher Wandel in Deutschland
 
@@ -717,7 +797,11 @@ The normalization of cannabis in hip-hop ran parallel to the genre's commerciali
 
 Cannabis also plays a role in electronic music, though less explicitly than in reggae or hip-hop. The ambient and downtempo scene of the 1990s – with artists like The Orb, Massive Attack and Boards of Canada – was frequently associated with a relaxed, cannabis-affine lifestyle. The term "chill-out," describing both a music style and a state of relaxation, emerged in this context.
 
-In Germany, cannabis culture has left its mark on German rap. Artists such as Sido, Bushido, Kollegah and numerous representatives of cloud rap and trap address cannabis in their lyrics.
+In Germany, cannabis culture has left its mark on German rap. Artists such as Sido, Bushido, Kollegah and numerous representatives of cloud rap and trap address cannabis in their lyrics, with portrayals ranging between glorification, normalization and occasionally critical reflection.
+
+### Country and Folk Music
+
+Cannabis has even found a place in the traditionally conservative genres of country and folk music. Willie Nelson, one of the most iconic country musicians, has been an outspoken cannabis advocate for decades and founded his own cannabis brand, Willie's Reserve. In the folk tradition, musicians like Bob Dylan incorporated cannabis into the creative mythology of the 1960s Greenwich Village scene. The gradual acceptance of cannabis in these genres mirrors broader societal normalization.
 
 ## Cannabis in Film
 
@@ -734,6 +818,12 @@ From the 1970s onward, cinematic depiction shifted to comedy. Cheech Marin and T
 ### Documentaries and Critical Cinema
 
 Alongside comedies, serious documentaries questioning prohibition also emerged. The Union: The Business Behind Getting High (2007) and The Culture High (2014) examined the economic and social consequences of the War on Drugs. 13th (2016), Ava DuVernay's award-winning documentary about the American prison system, revealed the racist dimensions of drug prohibition.
+
+### Television and Streaming
+
+Television has increasingly incorporated cannabis into serious dramatic storytelling. Weeds (2005–2012), which followed a suburban mother who becomes a marijuana dealer, was among the first shows to portray cannabis culture from a sympathetic perspective. More recently, High Maintenance (2016–2020) offered a nuanced, intimate portrait of cannabis consumers in New York City, deliberately avoiding stereotypes. Disjointed (2017–2018), set in a Los Angeles dispensary, explored the early days of legal cannabis retail.
+
+In the streaming era, cannabis documentaries have proliferated. Grass Is Greener (2019) on Netflix explored the intersection of cannabis, music and race in America. Weed the People (2018) examined the use of cannabis in paediatric cancer treatment, bringing the medical cannabis debate to a broad audience. These productions have contributed significantly to shifting public perception from stigmatization to curiosity and acceptance.
 
 ## Cannabis in Literature
 
@@ -771,7 +861,11 @@ Despite the cultural presence of cannabis, stigmatization of consumers remains a
 
 **Moral panic:** The history of cannabis prohibition is shot through with moral panics – exaggerated societal fears stoked and exploited by media and politicians.
 
+**Media portrayal:** The way media report on cannabis has significantly influenced stigmatization. For decades, reporting was dominated by alarming stories about drug raids and purported cannabis victims. Only from the 2010s onward did more differentiated journalism emerge, incorporating medical research findings, international experiences and the voices of those affected.
+
 **Employment consequences:** Even after partial legalization through the KCanG, cannabis consumers in Germany face stigmatization. In many professional fields, a positive drug test can have employment consequences even if consumption was legal and occurred outside working hours.
+
+**Housing discrimination:** Cannabis consumers may also face discrimination in the housing market. Some landlords include cannabis prohibition clauses in lease agreements, and neighbours' complaints about cannabis odour have led to disputes and even eviction proceedings. The legal situation in this area remains unsettled and varies considerably between jurisdictions.
 
 ## Destigmatization: The Current Shift
 
@@ -784,6 +878,16 @@ Parallel to advancing legalization, a process of destigmatization is underway, c
 **Media normalization:** Media coverage of cannabis has shifted – from scandal-oriented reporting about drug raids to nuanced reportage about Cannabis Social Clubs, medical applications and cultivation techniques.
 
 **Celebrities as ambassadors:** Public figures who acknowledge their cannabis use – from entrepreneurs to athletes to politicians – contribute to normalization.
+
+## Cannabis and Language
+
+Cannabis has profoundly influenced language and slang across cultures. The sheer number of terms for the plant and its products is staggering – researchers have catalogued hundreds of slang terms in English alone, from the historic reefer, grass and weed to more contemporary terms like loud, gas and za. In German, the lexicon includes Gras, Ganja, Dope, Ott, Haze and dozens of regional variants. Each generation and subculture develops its own vocabulary, reflecting evolving attitudes and social contexts.
+
+The terminology itself has become political. The shift from marijuana – a term with racist origins deliberately popularized by Anslinger – to cannabis in official discourse reflects a conscious effort to strip away stigmatizing connotations. Medical professionals and policy makers increasingly prefer the botanical term cannabis, while the term marijuana is viewed critically for its historical association with anti-Mexican sentiment. In Germany, the KCanG uses the terms Cannabis and Konsumcannabis, deliberately avoiding colloquialisms.
+
+## Cannabis and Gastronomy
+
+With legalization, cannabis has entered the culinary world. In legal markets, cannabis-infused edibles – from gummies and chocolates to gourmet dishes – represent a rapidly growing segment. In the US, cannabis gastronomy has become a distinct culinary category with cannabis-infused dining experiences, cannabis sommeliers and pairing menus that match specific strains with dishes. While the full gastronomic culture has not yet developed in Germany due to the absence of a commercial market, cannabis cookbooks and online recipe platforms in German have proliferated since the KCanG.
 
 ## Social Change in Germany
 

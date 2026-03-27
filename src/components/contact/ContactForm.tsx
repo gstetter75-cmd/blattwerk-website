@@ -62,7 +62,7 @@ export function ContactForm({ isDE }: ContactFormProps) {
     setSubmitState('loading');
 
     try {
-      const res = await fetch('https://formspree.io/f/xdkozqpl', {
+      const res = await fetch('https://formspree.io/f/xaqlneol', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

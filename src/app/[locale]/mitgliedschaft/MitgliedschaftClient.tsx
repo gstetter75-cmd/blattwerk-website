@@ -99,8 +99,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
         ? 'Was passiert, wenn ich kündigen möchte?'
         : 'What happens if I want to cancel?',
       a: isDE
-        ? 'Die Mitgliedschaft kann jederzeit mit einer Frist von einem Monat zum Monatsende gekündigt werden.'
-        : "Membership can be cancelled at any time with one month's notice to the end of the month.",
+        ? 'Die Mitgliedschaft kann mit einer Kündigungsfrist von drei Monaten zum Monatsende gekündigt werden.'
+        : 'Membership can be cancelled with three months\' notice to the end of the month.',
     },
     {
       q: isDE

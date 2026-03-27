@@ -19,7 +19,7 @@ const FAQ_ITEMS_DE = [
   },
   {
     question: 'Was passiert, wenn ich kündigen möchte?',
-    answer: 'Die Mitgliedschaft kann jederzeit mit einer Frist von einem Monat zum Monatsende gekündigt werden.',
+    answer: 'Die Mitgliedschaft kann mit einer Kündigungsfrist von drei Monaten zum Monatsende gekündigt werden.',
   },
   {
     question: 'Welche Rechte habe ich als Mitglied?',

@@ -746,4 +746,1076 @@ Following these basic rules with patience will reward you with cannabis that ful
       'organischer-anbau',
     ],
   },
+
+  // ─── LED-BELEUCHTUNG GUIDE ────────────────────────────────────────────────────
+  {
+    slug: 'beleuchtung-led-guide',
+    category: 'growing',
+    title_de: 'LED-Beleuchtung im Cannabisanbau: Der komplette Guide',
+    title_en: 'LED Lighting in Cannabis Cultivation: The Complete Guide',
+    summary_de:
+      'Alles über LED-Beleuchtung im Cannabisanbau – PAR, PPFD, DLI, Spektrum, LED vs. HPS vs. CMH, Wattzahl pro m², Lichtzyklen, Abstand zur Pflanze, Top-Marken und Kosten-Nutzen-Analyse.',
+    summary_en:
+      'Everything about LED lighting in cannabis cultivation – PAR, PPFD, DLI, spectrum, LED vs. HPS vs. CMH, wattage per m², light cycles, distance to canopy, top brands, and cost-benefit analysis.',
+    images: growingImage,
+    content_de: `Licht ist der Motor der Photosynthese und damit der wichtigste Wachstumsfaktor im Indoor-Cannabisanbau. Die Wahl der richtigen Beleuchtung entscheidet über Ertrag, Qualität, Terpenentwicklung und Energiekosten. Moderne LED-Technologie hat die Anbaubeleuchtung in den letzten Jahren revolutioniert und ist heute in den meisten Setups die beste Wahl. Dieser Guide erklärt alle relevanten Konzepte, Kennzahlen und Entscheidungskriterien im Detail.
+
+## PAR – Photosynthetisch Aktive Strahlung
+
+PAR steht für Photosynthetically Active Radiation und beschreibt den Wellenlängenbereich des Lichts, den Pflanzen für die Photosynthese nutzen können: 400–700 Nanometer (nm). Dieser Bereich umfasst das gesamte sichtbare Spektrum von violett/blau (400 nm) über grün (500 nm) und gelb (580 nm) bis rot (700 nm).
+
+Nicht alles Licht ist gleich nützlich für die Photosynthese. Chlorophyll a und b, die primären Photosynthese-Pigmente, absorbieren am stärksten im blauen (430–450 nm) und roten (640–680 nm) Bereich. Grünes Licht (500–560 nm) wird teilweise reflektiert – daher erscheinen Pflanzenblätter grün –, wird aber entgegen der verbreiteten Annahme ebenfalls zur Photosynthese genutzt, insbesondere in tieferen Gewebeschichten des Blattes.
+
+Neuere Forschung hat gezeigt, dass auch Wellenlängen außerhalb des klassischen PAR-Bereichs biologisch relevant sind. UV-A-Strahlung (315–400 nm) stimuliert die Produktion von sekundären Pflanzenstoffen wie Terpenen und Flavonoiden, während Fernrot (700–780 nm) den Emerson-Effekt auslöst und die Photosynthese-Effizienz in Kombination mit rotem Licht steigert. Dieses erweiterte Spektrum wird als ePAR (extended PAR) bezeichnet und umfasst 280–800 nm.
+
+## PPFD – Die entscheidende Kennzahl
+
+PPFD steht für Photosynthetic Photon Flux Density und misst die Anzahl der Photonen im PAR-Bereich, die pro Sekunde auf einen Quadratmeter Fläche treffen. Die Einheit ist µmol/m²/s (Mikromol pro Quadratmeter pro Sekunde).
+
+PPFD ist die wichtigste Kennzahl für die Beurteilung einer Grow-Lampe, weil sie beschreibt, wie viel nutzbares Licht tatsächlich bei den Pflanzen ankommt. Ein hoher PPF-Wert (Photosynthetic Photon Flux – die Gesamtlichtleistung einer Lampe) nützt wenig, wenn das Licht nicht gleichmäßig auf die Anbaufläche verteilt wird.
+
+**Empfohlene PPFD-Werte nach Wachstumsphase:**
+
+- Keimlinge und Klone: 100–300 µmol/m²/s
+- Vegetative Phase (früh): 300–500 µmol/m²/s
+- Vegetative Phase (spät): 500–700 µmol/m²/s
+- Blütephase: 700–1000 µmol/m²/s
+- Blütephase mit CO₂-Supplementierung: 1000–1500 µmol/m²/s
+
+Über 1500 µmol/m²/s zeigen die meisten Cannabissorten Zeichen von Lichtstress – ausgebleichte Blätter, Foxtailing und reduzierte Trichomproduktion – es sei denn, CO₂ wird auf 1200–1500 ppm angehoben und alle anderen Faktoren (Temperatur, Nährstoffe, VPD) sind optimiert.
+
+Die Messung erfolgt mit einem PAR-Meter oder Quantum-Sensor. Apogee Instruments MQ-500 ist der professionelle Standard. Für Hobbyanwender gibt es preiswertere Alternativen wie den Photone-App-basierten Sensor oder den Uni-T UT383BT Luxmeter mit PAR-Umrechnung (weniger genau).
+
+## DLI – Daily Light Integral
+
+DLI (Daily Light Integral) beschreibt die Gesamtmenge an PAR-Photonen, die über einen ganzen Tag auf einen Quadratmeter auftrifft. Die Einheit ist mol/m²/Tag. DLI integriert PPFD über die gesamte Belichtungszeit und ist ein besserer Indikator für die Gesamtlichtversorgung als momentane PPFD-Werte.
+
+**Berechnung:** DLI = PPFD × Belichtungsstunden × 3600 / 1.000.000
+
+**Beispiel:** 600 µmol/m²/s × 18 Stunden × 3600 / 1.000.000 = 38,9 mol/m²/Tag
+
+**Empfohlene DLI-Werte für Cannabis:**
+
+- Keimlinge: 12–20 mol/m²/Tag
+- Vegetative Phase: 25–40 mol/m²/Tag
+- Blütephase (12/12): 35–50 mol/m²/Tag
+- Blütephase mit CO₂: 50–65 mol/m²/Tag
+
+Ein DLI von 40+ mol/m²/Tag in der Blüte gilt als optimal für maximalen Ertrag und Potenz. Der Vorteil des DLI-Konzepts: Es erlaubt Growern, die Lichtintensität und Belichtungsdauer flexibel anzupassen und dennoch die gleiche Gesamtlichtmenge zu erreichen.
+
+## Das Lichtspektrum: Wellenlängen und ihre Funktion
+
+Die spektrale Zusammensetzung des Lichts beeinflusst Morphologie, Stoffwechsel und sekundäre Metabolitenproduktion der Cannabispflanze erheblich.
+
+**Blau (400–500 nm):** Fördert kompakten, buschigen Wuchs mit kurzen Internodien. Stimuliert die Stomata-Öffnung und damit die Transpiration und CO₂-Aufnahme. Wichtig für die vegetative Phase und zur Kontrolle der Streckung (Stretch) in der frühen Blüte. Blaues Licht aktiviert Cryptochrome und Phototropine – Photorezeptoren, die Phototropismus und zirkadiane Rhythmen regulieren.
+
+**Grün (500–560 nm):** Durchdringt das Pflanzendach besser als blaues oder rotes Licht und erreicht untere Blätter. Trägt ca. 10–15 % zur Gesamtphotosynthese bei. In dichten Beständen ist grünes Licht unterschätzt, weil es die Photosynthese im gesamten Kronenraum optimiert.
+
+**Rot (620–700 nm):** Der effizienteste Wellenlängenbereich für die Photosynthese. Phytochrome (insbesondere Pfr/Pr-Gleichgewicht) steuern die Blütenbildung. Rot mit Peak bei 660 nm ist der Sweet Spot für maximale Photosyntheseeffizienz.
+
+**Fernrot (700–780 nm):** Löst den Emerson-Effekt aus, wenn es zusammen mit rotem Licht angeboten wird, und steigert so die Photosynthese-Effizienz um 10–25 %. Reguliert das Phytochrom-Gleichgewicht und beeinflusst Streckung, Blattfläche und Blühzeitpunkt. Fernrot am Ende des Lichttages kann die Dunkelperiode effektiv verlängern und die Blütenbildung beschleunigen.
+
+**UV-A (315–400 nm):** Stimuliert die Trichom- und Terpenproduktion als Schutzreaktion der Pflanze. UV-Stress induziert die Synthese von Flavonoiden und Anthocyanen, was zu intensiveren Farben und komplexeren Aromaprofilen führt. UV sollte dosiert eingesetzt werden – 2–4 Stunden pro Tag in den letzten 2–3 Wochen der Blüte.
+
+**UV-B (280–315 nm):** Noch stärkerer Stressor als UV-A. Steigert nachweislich den THC-Gehalt in Trichomen. Muss extrem vorsichtig dosiert werden, da Überdosierung Blattschäden verursacht. Separate UV-B-Ergänzungsleuchten (z. B. Reptilienstrahler) werden von einigen fortgeschrittenen Growern in der Spätblüte eingesetzt.
+
+## LED vs. HPS vs. CMH: Der große Vergleich
+
+**LED (Light Emitting Diode):**
+
+Effizienz: 2,5–3,2 µmol/J (Spitzenmodelle). Vollspektrum, dimmbar und programmierbar. Lebensdauer 50.000–100.000 Stunden. Geringe Wärmeabgabe direkt an die Pflanzen. Anschaffungskosten: 150–800 € pro 1,2 m × 1,2 m. Stromkosten ca. 40–60 % geringer als HPS bei gleichem Ertrag. Spektrum kann auf Wachstumsphasen abgestimmt werden. Kein Leuchtmittelwechsel nötig. Samsung LM301B/H-Dioden und Osram-Dioden gelten als Industriestandard.
+
+**HPS (High Pressure Sodium):**
+
+Effizienz: 1,0–1,7 µmol/J. Gelblich-oranges Spektrum, optimiert auf Blüte. Lebensdauer 12.000–24.000 Stunden. Hohe Wärmeabgabe erfordert starke Kühlung. Anschaffungskosten: 80–250 € für Reflektor + Vorschaltgerät + Leuchtmittel. Höhere Betriebskosten durch Stromverbrauch und Kühlungsbedarf. Bewährte Technologie mit Jahrzehnten an Erfahrungswerten. Leuchtmittel müssen alle 12–18 Monate gewechselt werden.
+
+**CMH (Ceramic Metal Halide / LEC):**
+
+Effizienz: 1,5–2,0 µmol/J. Breiteres, natürlicheres Spektrum als HPS, inkl. UV-Anteil. Lebensdauer 15.000–20.000 Stunden. Mittlere Wärmeabgabe. Anschaffungskosten: 200–400 €. Viele Grower berichten über bessere Terpenprofile unter CMH. UV-Strahlung erfordert Schutzbrille. 315W-CMH deckt ca. 1 m × 1 m ab.
+
+**Empfehlung:** Für Neueinsteiger und Cannabis Social Clubs sind Vollspektrum-LEDs eindeutig die beste Wahl. Die niedrigeren Betriebskosten amortisieren die höhere Anschaffung innerhalb von 1–2 Zyklen, und die Flexibilität in Spektrum und Dimmbarkeit ist unübertroffen.
+
+## Wattzahl pro Quadratmeter
+
+Die benötigte Wattzahl hängt von der Effizienz der Lampe ab. Da LEDs deutlich effizienter sind als HPS, benötigen sie weniger Watt für das gleiche Lichtergebnis.
+
+**Richtwerte für maximalen Ertrag:**
+
+- LED (hochwertig, >2,5 µmol/J): 25–35 Watt pro Quadratfuß (270–375 W/m²)
+- LED (mittelklassig, 2,0–2,5 µmol/J): 35–45 Watt pro Quadratfuß (375–485 W/m²)
+- HPS: 50–65 Watt pro Quadratfuß (540–700 W/m²)
+- CMH: 40–55 Watt pro Quadratfuß (430–590 W/m²)
+
+**Beispielrechnungen für 1,2 m × 1,2 m (ca. 1,44 m²):**
+
+- Hochwertige LED: 390–540 Watt
+- HPS: 600–1000 Watt
+- CMH: 2 × 315W = 630 Watt
+
+**Kostenbeispiel (18h Veg, 12h Blüte, 0,40 €/kWh):**
+
+Eine 480W LED im 18/6-Zyklus verbraucht monatlich ca. 260 kWh (≈ 104 €). Eine 600W HPS im gleichen Zyklus verbraucht ca. 324 kWh (≈ 130 €). Dazu kommen bei HPS weitere 100–200 Watt für die Kühlung (Klimaanlage), die bei LED größtenteils entfallen.
+
+## Lichtzyklen im Detail
+
+**Vegetative Phase (18/6):** 18 Stunden Licht, 6 Stunden ununterbrochene Dunkelheit. Dies ist der Standard für photoperiodische Sorten in der Wachstumsphase. Die Dunkelphase ermöglicht Stärke-Zucker-Umwandlung, Wurzelwachstum und Erholung der Photosysteme. Einige Grower nutzen 20/4, was schnelleres Wachstum bei höheren Stromkosten ergibt. 24/0 wird nicht empfohlen – die Pflanze braucht Dunkelphasen für optimale Gesundheit.
+
+**Blütephase (12/12):** 12 Stunden Licht, 12 Stunden absolut ununterbrochene Dunkelheit. Der Wechsel von 18/6 auf 12/12 simuliert den Herbst und löst über das Phytochrom-System die Blütenbildung aus. Jeder Lichteinbruch während der Dunkelphase – selbst eine grüne LED eines Ventilators – kann die Blüte stören oder Zwitterbildung auslösen.
+
+**Autoflowering:** Autoflowering-Sorten reagieren nicht auf Photoperiode. Sie werden üblicherweise unter 18/6 oder 20/4 durch den gesamten Zyklus angebaut. DLI-Optimierung ist hier besonders sinnvoll: 20 Stunden bei mittlerer Intensität kann effektiver sein als 18 Stunden bei hoher Intensität.
+
+**Licht-Ramping:** Moderne LED-Controller ermöglichen Sunrise/Sunset-Simulationen, bei denen die Lichtintensität über 15–30 Minuten langsam hoch- und heruntergefahren wird. Dies reduziert Lichtstress und simuliert natürliche Bedingungen. Wissenschaftliche Belege für signifikante Ertragssteigerungen sind begrenzt, aber viele Grower berichten über gesündere Pflanzen.
+
+## Abstand zur Pflanze
+
+Der optimale Abstand zwischen LED-Lampe und Pflanzendach hängt von der Lampenleistung, dem Abstrahlwinkel und dem gewünschten PPFD-Wert ab.
+
+**Allgemeine Richtwerte:**
+
+- Keimlinge: 60–80 cm bei 25–50 % Dimmung
+- Frühe Veg: 50–70 cm bei 50–75 % Dimmung
+- Späte Veg: 40–60 cm bei 75–100 %
+- Blüte: 30–50 cm bei 100 %
+
+**Warum nicht einfach so nah wie möglich?** Zu geringer Abstand verursacht Lichtstress (Lichtbleiche), ungleichmäßige Ausleuchtung (Hotspots in der Mitte, schwache Ränder) und Wärmestress bei leistungsstarken LEDs. Ein PPFD-Wert über 1000 µmol/m²/s ohne CO₂-Supplementierung führt zu Lichtsättigung und verschwendet Energie.
+
+**Optimierungsmethode:** Mit einem PAR-Meter an 9 Messpunkten (3×3 Raster) den PPFD auf der Anbaufläche messen. Ziel: Gleichmäßige Ausleuchtung mit maximal 15–20 % Abweichung zwischen Mitte und Rand. Den Abstand anpassen, bis die gewünschten PPFD-Werte erreicht sind.
+
+**Zeichen für zu viel Licht:** Bleiche/gelbe Blätter an den der Lampe nächsten Stellen, nach oben gebogene Blattränder (Taco-Effekt), Fox Tailing (turmartige Blütenbildung), verbrannte Trichome.
+
+**Zeichen für zu wenig Licht:** Starke Streckung (lange Internodien), dünne Stängel, kleine Blüten, langsames Wachstum, untere Blätter sterben ab.
+
+## Top-LED-Marken und Modelle (2026)
+
+**Premium-Segment (>2,8 µmol/J):**
+
+- **Lumatek:** ATS und Zeus-Serie. Niederländischer Hersteller, im europäischen professionellen Anbau weit verbreitet. Zeus Pro 600W liefert 1.800 µmol/s bei 2,9 µmol/J.
+- **HLG (Horticulture Lighting Group):** Scorpion und Diablo-Serie. Amerikanischer Pioneer im Quantum-Board-Design. Samsung LM301H-Dioden. HLG Scorpion Diablo liefert 2.600 µmol/s bei 3,0 µmol/J.
+- **Gavita:** Pro 1700e LED. Philips-Tochter, professioneller Standard in großen Anlagen. Bekannt für extreme Gleichmäßigkeit der Ausleuchtung.
+- **Fluence (Osram):** SPYDR 2x und VYPR-Serie. Hochprofessionelle Lösung für kommerzielle Betriebe.
+
+**Mittelklasse (2,3–2,8 µmol/J):**
+
+- **Sanlight:** EVO-Serie. Österreichischer Hersteller, passiv gekühlt, extrem leise, modulares System. Sehr beliebt im DACH-Raum.
+- **Spider Farmer:** SE und SF-Serie. Gutes Preis-Leistungs-Verhältnis mit Samsung-Dioden und MeanWell-Treibern.
+- **Mars Hydro:** FC und SP-Serie. Ähnlich wie Spider Farmer positioniert, breite Modellpalette.
+- **Lumatek:** ATTIS-Serie als preiswertere Alternative zu Zeus.
+
+**Budget (1,8–2,3 µmol/J):**
+
+- **ViparSpectra:** P und XS-Serie. Solide Einstiegsmodelle.
+- **Maxsisun:** PB-Serie. Günstigstes Segment mit akzeptabler Qualität.
+
+**Worauf achten beim Kauf:** Effizienz (µmol/J) – der wichtigste Wert. PPF (µmol/s) – Gesamtlichtleistung. Abstrahlwinkel und Gleichmäßigkeit. Samsung LM301B/H oder Osram-Dioden. MeanWell- oder Inventronics-Treiber. Dimmbarkeit und Daisy-Chain-Fähigkeit. Garantie (mindestens 3 Jahre, Premium 5+ Jahre).
+
+## Kosten-Nutzen-Analyse
+
+**Investitionskosten (1,2 m × 1,2 m Setup):**
+
+LED Premium: 400–800 €. LED Mittelklasse: 200–400 €. HPS-Set: 100–250 €. CMH-Set: 200–400 €.
+
+**Jährliche Betriebskosten (3 Zyklen, 0,40 €/kWh):**
+
+LED 480W: ca. 840 €/Jahr Strom. HPS 600W: ca. 1.050 €/Jahr Strom + 100 €/Jahr Kühlung + 30 €/Jahr Leuchtmittel = 1.180 €/Jahr. CMH 630W: ca. 1.100 €/Jahr Strom + 50 €/Jahr Kühlung + 50 €/Jahr Leuchtmittel = 1.200 €/Jahr.
+
+**Amortisation LED vs. HPS:** Bei einer Mehrausgabe von 300 € für LED gegenüber HPS und jährlichen Einsparungen von ca. 340 € amortisiert sich die LED-Investition in weniger als einem Jahr.
+
+**Ertragsvergleich:** Bei gleicher PPFD sind die Erträge zwischen LED und HPS vergleichbar. Der Vorteil der LED liegt in der Möglichkeit, die Lampe näher an die Pflanzen zu bringen (weniger Wärme), was die PPFD-Gleichmäßigkeit verbessert und den effektiven Ertrag pro m² steigert. Professionelle LED-Grows erzielen routinemäßig 1,0–1,5 g/Watt, während HPS-Grows typischerweise bei 0,8–1,2 g/Watt liegen.
+
+## Häufige Fehler bei der Beleuchtung
+
+**Nur auf Watt achten:** Watt ist ein Maß für Energieverbrauch, nicht für Lichtleistung. Eine 300W-LED mit 2,8 µmol/J liefert mehr nutzbares Licht als eine 400W-LED mit 1,8 µmol/J.
+
+**Billig-LEDs mit Blurple-Spektrum:** Ältere LED-Modelle mit lila Licht (nur rot und blau) liefern zwar Photonen in den Absorptionsmaxima von Chlorophyll, vernachlässigen aber grüne und fernrote Wellenlängen, die für optimales Wachstum wichtig sind. Vollspektrum-Weiß-LEDs (3000–5000K) mit rotem Boost sind der aktuelle Standard.
+
+**Kein PAR-Meter nutzen:** Ohne Messgerät ist die PPFD-Verteilung Rätselraten. Eine einmalige Investition von 50–200 € für ein PAR-Meter zahlt sich schnell aus.
+
+**Lichtzyklus-Unterbrechungen:** Selbst kurze Lichtblitze in der Dunkelphase können die Blüte stören. Alle Lichtquellen (Status-LEDs, Nachtlichter, undichte Zelte) eliminieren.
+
+**Lampe zu früh auf 100 %:** Jungpflanzen brauchen Eingewöhnung. Mit 25–50 % starten und über 1–2 Wochen steigern.
+
+**Keinen Dimmer nutzen:** Nicht dimmbare LEDs müssen über den Abstand reguliert werden, was die Gleichmäßigkeit verschlechtert. Dimmbare Modelle bevorzugen.
+
+Wer diese Grundlagen versteht und umsetzt, schafft die Basis für gesundes Pflanzenwachstum, hohe Erträge und ein optimales Terpenprofil. LED-Beleuchtung ist im Jahr 2026 der unbestrittene Standard im Indoor-Cannabisanbau.`,
+
+    content_en: `Light is the engine of photosynthesis and therefore the most important growth factor in indoor cannabis cultivation. Choosing the right lighting determines yield, quality, terpene development and energy costs. Modern LED technology has revolutionised grow lighting in recent years and is now the best choice for most setups. This guide explains all relevant concepts, metrics and decision criteria in detail.
+
+## PAR – Photosynthetically Active Radiation
+
+PAR stands for Photosynthetically Active Radiation and describes the wavelength range of light that plants can use for photosynthesis: 400–700 nanometres (nm). This range encompasses the entire visible spectrum from violet/blue (400 nm) through green (500 nm) and yellow (580 nm) to red (700 nm).
+
+Not all light is equally useful for photosynthesis. Chlorophyll a and b, the primary photosynthetic pigments, absorb most strongly in the blue (430–450 nm) and red (640–680 nm) ranges. Green light (500–560 nm) is partially reflected – hence why plant leaves appear green – but contrary to popular belief it is also used for photosynthesis, particularly in deeper tissue layers of the leaf.
+
+Recent research has shown that wavelengths outside the classic PAR range are also biologically relevant. UV-A radiation (315–400 nm) stimulates the production of secondary plant metabolites such as terpenes and flavonoids, while far-red (700–780 nm) triggers the Emerson effect and increases photosynthetic efficiency when combined with red light. This extended spectrum is known as ePAR (extended PAR) and covers 280–800 nm.
+
+## PPFD – The Decisive Metric
+
+PPFD stands for Photosynthetic Photon Flux Density and measures the number of photons in the PAR range striking one square metre per second. The unit is µmol/m²/s (micromoles per square metre per second).
+
+PPFD is the most important metric for evaluating a grow light because it describes how much usable light actually reaches the plants. A high PPF value (Photosynthetic Photon Flux – the total light output of a lamp) is useless if the light is not evenly distributed across the growing area.
+
+**Recommended PPFD values by growth stage:**
+
+- Seedlings and clones: 100–300 µmol/m²/s
+- Vegetative phase (early): 300–500 µmol/m²/s
+- Vegetative phase (late): 500–700 µmol/m²/s
+- Flowering phase: 700–1000 µmol/m²/s
+- Flowering with CO₂ supplementation: 1000–1500 µmol/m²/s
+
+Above 1500 µmol/m²/s, most cannabis strains show signs of light stress – bleached leaves, foxtailing and reduced trichome production – unless CO₂ is elevated to 1200–1500 ppm and all other factors (temperature, nutrients, VPD) are optimised.
+
+Measurement is done with a PAR meter or quantum sensor. The Apogee Instruments MQ-500 is the professional standard. For hobbyists there are more affordable alternatives such as the Photone app-based sensor or the Uni-T UT383BT lux meter with PAR conversion (less accurate).
+
+## DLI – Daily Light Integral
+
+DLI (Daily Light Integral) describes the total amount of PAR photons hitting one square metre over an entire day. The unit is mol/m²/day. DLI integrates PPFD over the entire photoperiod and is a better indicator of total light provision than instantaneous PPFD values.
+
+**Calculation:** DLI = PPFD × hours of light × 3600 / 1,000,000
+
+**Example:** 600 µmol/m²/s × 18 hours × 3600 / 1,000,000 = 38.9 mol/m²/day
+
+**Recommended DLI values for cannabis:**
+
+- Seedlings: 12–20 mol/m²/day
+- Vegetative phase: 25–40 mol/m²/day
+- Flowering phase (12/12): 35–50 mol/m²/day
+- Flowering with CO₂: 50–65 mol/m²/day
+
+A DLI of 40+ mol/m²/day during flowering is considered optimal for maximum yield and potency. The advantage of the DLI concept: it allows growers to flexibly adjust light intensity and duration while still achieving the same total light quantity.
+
+## The Light Spectrum: Wavelengths and Their Function
+
+The spectral composition of light significantly influences the morphology, metabolism and secondary metabolite production of the cannabis plant.
+
+**Blue (400–500 nm):** Promotes compact, bushy growth with short internodes. Stimulates stomatal opening, thereby increasing transpiration and CO₂ uptake. Important for the vegetative phase and for controlling stretch during early flowering. Blue light activates cryptochromes and phototropins – photoreceptors that regulate phototropism and circadian rhythms.
+
+**Green (500–560 nm):** Penetrates the plant canopy better than blue or red light and reaches lower leaves. Contributes approximately 10–15% to total photosynthesis. In dense canopies, green light is underestimated because it optimises photosynthesis throughout the entire crown space.
+
+**Red (620–700 nm):** The most efficient wavelength range for photosynthesis. Phytochromes (particularly the Pfr/Pr equilibrium) control flower formation. Red with a peak at 660 nm is the sweet spot for maximum photosynthetic efficiency.
+
+**Far-red (700–780 nm):** Triggers the Emerson effect when offered alongside red light, increasing photosynthetic efficiency by 10–25%. Regulates the phytochrome equilibrium and influences stretching, leaf area and flowering time. Far-red at the end of the light day can effectively extend the dark period and accelerate flower formation.
+
+**UV-A (315–400 nm):** Stimulates trichome and terpene production as a protective response by the plant. UV stress induces the synthesis of flavonoids and anthocyanins, leading to more intense colours and more complex aroma profiles. UV should be applied judiciously – 2–4 hours per day in the final 2–3 weeks of flowering.
+
+**UV-B (280–315 nm):** An even stronger stressor than UV-A. Demonstrably increases THC content in trichomes. Must be dosed extremely carefully as overdosing causes leaf damage. Separate UV-B supplemental lights (e.g. reptile lamps) are used by some advanced growers during late flowering.
+
+## LED vs. HPS vs. CMH: The Comprehensive Comparison
+
+**LED (Light Emitting Diode):**
+
+Efficiency: 2.5–3.2 µmol/J (top models). Full spectrum, dimmable and programmable. Lifespan 50,000–100,000 hours. Low heat emission directly towards plants. Purchase cost: €150–800 per 1.2 m × 1.2 m. Electricity costs approximately 40–60% lower than HPS at comparable yield. Spectrum can be tailored to growth phases. No bulb changes needed. Samsung LM301B/H and Osram diodes are the industry standard.
+
+**HPS (High Pressure Sodium):**
+
+Efficiency: 1.0–1.7 µmol/J. Yellowish-orange spectrum optimised for flowering. Lifespan 12,000–24,000 hours. High heat output requires strong cooling. Purchase cost: €80–250 for reflector + ballast + bulb. Higher operating costs due to electricity consumption and cooling requirements. Proven technology with decades of experience data. Bulbs must be replaced every 12–18 months.
+
+**CMH (Ceramic Metal Halide / LEC):**
+
+Efficiency: 1.5–2.0 µmol/J. Broader, more natural spectrum than HPS, including UV component. Lifespan 15,000–20,000 hours. Moderate heat output. Purchase cost: €200–400. Many growers report improved terpene profiles under CMH. UV radiation requires protective glasses. 315W CMH covers approximately 1 m × 1 m.
+
+**Recommendation:** For beginners and cannabis social clubs, full-spectrum LEDs are clearly the best choice. Lower operating costs amortise the higher purchase price within 1–2 cycles, and the flexibility in spectrum and dimmability is unmatched.
+
+## Wattage per Square Metre
+
+The required wattage depends on the efficiency of the lamp. Since LEDs are significantly more efficient than HPS, they need fewer watts for the same light result.
+
+**Guidelines for maximum yield:**
+
+- LED (high-quality, >2.5 µmol/J): 25–35 watts per square foot (270–375 W/m²)
+- LED (mid-range, 2.0–2.5 µmol/J): 35–45 watts per square foot (375–485 W/m²)
+- HPS: 50–65 watts per square foot (540–700 W/m²)
+- CMH: 40–55 watts per square foot (430–590 W/m²)
+
+**Example calculations for 1.2 m × 1.2 m (approx. 1.44 m²):**
+
+- High-quality LED: 390–540 watts
+- HPS: 600–1000 watts
+- CMH: 2 × 315W = 630 watts
+
+**Cost example (18h veg, 12h flower, €0.40/kWh):**
+
+A 480W LED on an 18/6 cycle consumes approximately 260 kWh monthly (≈ €104). A 600W HPS on the same cycle consumes approximately 324 kWh (≈ €130). Additionally, HPS requires 100–200 watts for cooling (air conditioning), which is largely unnecessary with LED.
+
+## Light Cycles in Detail
+
+**Vegetative phase (18/6):** 18 hours of light, 6 hours of uninterrupted darkness. This is the standard for photoperiodic strains during the growth phase. The dark period enables starch-to-sugar conversion, root growth and recovery of photosystems. Some growers use 20/4, which yields faster growth at higher electricity costs. 24/0 is not recommended – the plant needs dark periods for optimal health.
+
+**Flowering phase (12/12):** 12 hours of light, 12 hours of absolutely uninterrupted darkness. Switching from 18/6 to 12/12 simulates autumn and triggers flower formation via the phytochrome system. Any light intrusion during the dark period – even a green LED from a fan – can disrupt flowering or trigger hermaphroditism.
+
+**Autoflowering:** Autoflowering strains do not respond to photoperiod. They are typically grown under 18/6 or 20/4 throughout the entire cycle. DLI optimisation is particularly useful here: 20 hours at medium intensity can be more effective than 18 hours at high intensity.
+
+**Light ramping:** Modern LED controllers enable sunrise/sunset simulations where light intensity gradually increases and decreases over 15–30 minutes. This reduces light stress and simulates natural conditions. Scientific evidence for significant yield increases is limited, but many growers report healthier plants.
+
+## Distance to Canopy
+
+The optimal distance between LED lamp and plant canopy depends on lamp power, beam angle and desired PPFD value.
+
+**General guidelines:**
+
+- Seedlings: 60–80 cm at 25–50% dimming
+- Early veg: 50–70 cm at 50–75% dimming
+- Late veg: 40–60 cm at 75–100%
+- Flowering: 30–50 cm at 100%
+
+**Why not simply as close as possible?** Too little distance causes light stress (light bleaching), uneven light distribution (hotspots in the centre, weak edges) and heat stress with high-power LEDs. A PPFD value above 1000 µmol/m²/s without CO₂ supplementation leads to light saturation and wastes energy.
+
+**Optimisation method:** Measure PPFD at 9 measurement points (3×3 grid) across the growing area with a PAR meter. Goal: even illumination with a maximum 15–20% deviation between centre and edges. Adjust distance until the desired PPFD values are achieved.
+
+**Signs of too much light:** Bleached/yellow leaves closest to the lamp, upward-curling leaf edges (taco effect), foxtailing (tower-like bud formation), burnt trichomes.
+
+**Signs of too little light:** Excessive stretching (long internodes), thin stems, small buds, slow growth, lower leaves dying off.
+
+## Top LED Brands and Models (2026)
+
+**Premium segment (>2.8 µmol/J):**
+
+- **Lumatek:** ATS and Zeus series. Dutch manufacturer, widely used in European professional cultivation. Zeus Pro 600W delivers 1,800 µmol/s at 2.9 µmol/J.
+- **HLG (Horticulture Lighting Group):** Scorpion and Diablo series. American pioneer in quantum board design. Samsung LM301H diodes. HLG Scorpion Diablo delivers 2,600 µmol/s at 3.0 µmol/J.
+- **Gavita:** Pro 1700e LED. Philips subsidiary, professional standard in large facilities. Known for extreme uniformity of illumination.
+- **Fluence (Osram):** SPYDR 2x and VYPR series. Highly professional solution for commercial operations.
+
+**Mid-range (2.3–2.8 µmol/J):**
+
+- **Sanlight:** EVO series. Austrian manufacturer, passively cooled, extremely quiet, modular system. Very popular in the DACH region.
+- **Spider Farmer:** SE and SF series. Good price-performance ratio with Samsung diodes and MeanWell drivers.
+- **Mars Hydro:** FC and SP series. Similarly positioned to Spider Farmer, broad model range.
+- **Lumatek:** ATTIS series as a more affordable alternative to Zeus.
+
+**Budget (1.8–2.3 µmol/J):**
+
+- **ViparSpectra:** P and XS series. Solid entry-level models.
+- **Maxsisun:** PB series. Most affordable segment with acceptable quality.
+
+**What to look for when buying:** Efficiency (µmol/J) – the most important value. PPF (µmol/s) – total light output. Beam angle and uniformity. Samsung LM301B/H or Osram diodes. MeanWell or Inventronics drivers. Dimmability and daisy-chain capability. Warranty (at least 3 years, premium 5+ years).
+
+## Cost-Benefit Analysis
+
+**Investment costs (1.2 m × 1.2 m setup):**
+
+LED premium: €400–800. LED mid-range: €200–400. HPS set: €100–250. CMH set: €200–400.
+
+**Annual operating costs (3 cycles, €0.40/kWh):**
+
+LED 480W: approx. €840/year electricity. HPS 600W: approx. €1,050/year electricity + €100/year cooling + €30/year bulbs = €1,180/year. CMH 630W: approx. €1,100/year electricity + €50/year cooling + €50/year bulbs = €1,200/year.
+
+**LED vs. HPS amortisation:** With an additional expenditure of €300 for LED compared to HPS and annual savings of approximately €340, the LED investment pays for itself in less than one year.
+
+**Yield comparison:** At equal PPFD, yields between LED and HPS are comparable. The advantage of LED lies in the ability to position the lamp closer to the plants (less heat), which improves PPFD uniformity and increases effective yield per m². Professional LED grows routinely achieve 1.0–1.5 g/watt, while HPS grows typically range from 0.8–1.2 g/watt.
+
+## Common Lighting Mistakes
+
+**Only looking at wattage:** Watts measure energy consumption, not light output. A 300W LED at 2.8 µmol/J delivers more usable light than a 400W LED at 1.8 µmol/J.
+
+**Cheap blurple-spectrum LEDs:** Older LED models with purple light (only red and blue) deliver photons at chlorophyll absorption peaks but neglect green and far-red wavelengths important for optimal growth. Full-spectrum white LEDs (3000–5000K) with a red boost are the current standard.
+
+**Not using a PAR meter:** Without a measuring device, PPFD distribution is guesswork. A one-time investment of €50–200 for a PAR meter pays for itself quickly.
+
+**Light cycle interruptions:** Even brief light flashes during the dark period can disrupt flowering. Eliminate all light sources (status LEDs, nightlights, leaking tent seams).
+
+**Turning lamp to 100% too early:** Young plants need acclimatisation. Start at 25–50% and increase over 1–2 weeks.
+
+**Not using a dimmer:** Non-dimmable LEDs must be regulated via distance, which worsens uniformity. Prefer dimmable models.
+
+Understanding and implementing these fundamentals creates the foundation for healthy plant growth, high yields and an optimal terpene profile. LED lighting is the undisputed standard in indoor cannabis cultivation in 2026.`,
+    tags: [
+      'LED',
+      'Beleuchtung',
+      'PAR',
+      'PPFD',
+      'DLI',
+      'Spektrum',
+      'HPS',
+      'CMH',
+      'Lichtzyklen',
+      'Wattzahl',
+      'Samsung LM301',
+    ],
+    reading_time: 28,
+    last_updated: '2026-03-26',
+    related_slugs: [
+      'indoor-anbau-grundlagen',
+      'naehrstoffe-duengung',
+      'schaedlinge-krankheiten',
+    ],
+  },
+
+  // ─── SCHÄDLINGE UND KRANKHEITEN ──────────────────────────────────────────────
+  {
+    slug: 'schaedlinge-krankheiten',
+    category: 'growing',
+    title_de: 'Schädlinge und Krankheiten: Erkennung, Prävention und Behandlung',
+    title_en: 'Pests and Diseases: Identification, Prevention and Treatment',
+    summary_de:
+      'Der umfassende Leitfaden zu Cannabis-Schädlingen und Krankheiten – Spinnmilben, Trauermücken, Thripse, Blattläuse, Mehltau, Botrytis, Wurzelfäule, Nährstoffmängel erkennen, biologische Bekämpfung und Integrated Pest Management (IPM).',
+    summary_en:
+      'The comprehensive guide to cannabis pests and diseases – spider mites, fungus gnats, thrips, aphids, powdery mildew, botrytis, root rot, identifying nutrient deficiencies, biological control and Integrated Pest Management (IPM).',
+    images: growingImage,
+    content_de: `Schädlinge und Krankheiten können selbst den sorgfältigsten Grow ruinieren. Im Indoor-Anbau bietet die kontrollierte Umgebung zwar gewisse Vorteile, doch die warmen, feuchten Bedingungen sind auch für viele Schadorganismen ein idealer Lebensraum. Die Kenntnis der häufigsten Probleme, ihre frühzeitige Erkennung und ein systematischer Ansatz zur Prävention und Bekämpfung – Integrated Pest Management (IPM) – sind essenziell für jeden Cannabis Social Club und jeden Homegrower.
+
+## Spinnmilben (Tetranychus urticae)
+
+Spinnmilben sind der gefürchtetste Schädling im Indoor-Cannabisanbau. Diese winzigen Spinnentiere (0,3–0,5 mm) sind mit bloßem Auge kaum zu erkennen und können eine Pflanze innerhalb weniger Wochen vollständig zerstören.
+
+**Erkennung:** Erste Anzeichen sind kleine, helle Punkte (Stippling) auf der Blattoberseite – jeder Punkt ist eine Einstichstelle, an der die Milbe den Zellsaft ausgesaugt hat. Die Blattunterseite zeigt bei genauer Betrachtung (Lupe!) winzige, sich bewegende Punkte. Bei fortgeschrittenem Befall bilden sich die charakteristischen feinen Spinnweben zwischen Blättern und Triebspitzen. Die häufigste Art, Tetranychus urticae (Gemeine Spinnmilbe), ist gelblich-grün bis rötlich-braun.
+
+**Lebenszyklus:** Bei 25 °C dauert der gesamte Zyklus vom Ei zum adulten Tier nur 7–10 Tage. Ein einzelnes Weibchen legt bis zu 200 Eier. Das bedeutet: Exponentielle Vermehrung bei Nichtbehandlung. Spinnmilben bevorzugen trockene, warme Bedingungen (>25 °C, <50 % RH).
+
+**Biologische Bekämpfung:** Raubmilben sind das effektivste biologische Bekämpfungsmittel. Phytoseiulus persimilis ist der Klassiker – sie frisst ausschließlich Spinnmilben und kann einen Befall in 2–4 Wochen eliminieren. Benötigt allerdings >60 % Luftfeuchtigkeit und 20–27 °C. Neoseiulus californicus ist robuster und toleriert niedrigere Luftfeuchtigkeit. Amblyseius andersoni fungiert als präventiver Räuber und ernährt sich auch von Pollen, wenn keine Beute vorhanden ist.
+
+**Weitere Behandlungsmethoden:** Neemöl (Azadirachtin) als Spritzmittel – wirkt als Fraßgift und Wachstumsregulator. Kaliseife (Schmierseife) erstickt die Milben bei Kontakt. Pyrethrin (aus Chrysanthemen) als botanisches Insektizid. Isopropylalkohol (70 %) als punktuelle Behandlung. Alle Spritzmittel nur in der vegetativen Phase oder frühen Blüte anwenden – niemals auf reifende Blüten sprühen.
+
+**Prävention:** Luftfeuchtigkeit in der Veg auf 50–60 % halten. Regelmäßige Blattinspektion mit Lupe (wöchentlich). Neue Pflanzen/Stecklinge immer 1–2 Wochen in Quarantäne. Kleidung wechseln, bevor man den Growroom betritt (Spinnmilben reisen auf Kleidung). Saubere Umgebung – keine toten Pflanzenreste im Raum.
+
+## Trauermücken (Sciaridae)
+
+Trauermücken sind kleine, schwarze Fliegen (2–4 mm), die um die Pflanzenbasis und auf dem Substrat herumschwirren. Die adulten Tiere sind harmlos, aber ihre Larven im Boden fressen an den Wurzeln und können erhebliche Schäden verursachen, besonders bei jungen Pflanzen und Stecklingen.
+
+**Erkennung:** Kleine schwarze Fliegen, die bei Berührung des Topfes oder Gießen auffliegen. Auf der Substratoberfläche sichtbare, glänzend-weiße Larven (3–5 mm) mit schwarzem Kopf. Gelbtafeln in Pflanzennähe fangen adulte Tiere und dienen der Bestandsüberwachung. Befallene Pflanzen zeigen verlangsamtes Wachstum, Welken trotz ausreichender Bewässerung und erhöhte Anfälligkeit für Wurzelkrankheiten.
+
+**Lebenszyklus:** Ei bis adultes Tier in 3–4 Wochen. Larven durchlaufen 4 Stadien im feuchten Substrat. Jedes Weibchen legt bis zu 300 Eier in die obere Substratschicht.
+
+**Biologische Bekämpfung:** Bacillus thuringiensis israelensis (BTI) – ein biologisches Bakterienpräparat, das die Larven abtötet. Als Gießmittel anwenden. Steinernema feltiae – parasitäre Nematoden, die Trauermückenlarven infizieren und töten. Hypoaspis miles (Stratiolaelaps scimitus) – Raubmilben, die im Boden leben und Trauermückenlarven fressen.
+
+**Kulturmaßnahmen:** Substrat zwischen den Bewässerungen oberflächlich abtrocknen lassen – Trauermücken legen Eier bevorzugt in feuchte Erde. Eine Schicht Sand (1–2 cm), Perlit oder Diatomeen-Erde auf der Substratoberfläche verhindert die Eiablage. Nicht übergießen – stauende Nässe ist die Hauptursache für Trauermückenbefall.
+
+## Thripse (Thysanoptera)
+
+Thripse sind extrem kleine (1–2 mm), schlanke Insekten, die den Zellsaft aus Blättern und Blüten saugen. Es gibt zahlreiche Arten, wobei der Westliche Blütenthrips (Frankliniella occidentalis) und der Kalifornische Thrips besonders im Cannabisanbau relevant sind.
+
+**Erkennung:** Silbrig-graue oder bronzefarbene Flecken auf den Blättern – Thripse schaben die obersten Zellschichten ab und saugen den austretenden Saft. Winzige, schwarze Kotpunkte auf der Blattoberfläche. Auf der Blattunterseite sind die länglichen, schmalen Insekten bei genauem Hinsehen erkennbar – sie bewegen sich schnell. Bei starkem Befall kräuseln und verformen sich die Blätter.
+
+**Biologische Bekämpfung:** Amblyseius cucumeris und Amblyseius swirskii – Raubmilben, die Thripslarven fressen. Orius laevigatus (Blumenwanzen) – effektive Räuber, die sowohl Larven als auch adulte Thripse fressen. Steinernema feltiae – Nematoden gegen Thripslarven im Substrat.
+
+**Weitere Maßnahmen:** Blaue Leimtafeln (Thripse werden von Blau angezogen). Spinosad-basierte Spritzmittel (biologisch, aber nur bis zur frühen Blüte). Neemöl als Prävention.
+
+## Blattläuse (Aphidoidea)
+
+Blattläuse sind weichhäutige, 1–3 mm große Insekten, die in Kolonien auf jungen Trieben, Blattunterseiten und Stängeln sitzen und Pflanzensaft saugen. Sie vermehren sich extrem schnell – ein einziges Weibchen kann ohne Befruchtung (Parthenogenese) bis zu 12 lebende Nachkommen pro Tag produzieren.
+
+**Erkennung:** Sichtbare Kolonien auf Triebspitzen und jungen Blättern. Honigtau – ein klebriger, glänzender Belag auf den Blättern (Ausscheidung der Blattläuse). Auf dem Honigtau siedelt sich häufig Rußtaupilz an (schwarzer, rußartiger Belag). Verformte, eingerollte junge Blätter. Geflügelte Blattläuse erscheinen, wenn die Kolonie überbevölkert ist oder die Pflanze Stress hat.
+
+**Biologische Bekämpfung:** Chrysoperla carnea (Florfliegen-Larven) – gefräßige Blattlaus-Räuber. Aphidius colemani – Schlupfwespen, die ihre Eier in Blattläuse legen (parasitieren). Coccinella septempunctata (Marienkäfer) und ihre Larven.
+
+**Behandlung:** Kaliseife als Spritzmittel (erstickt die Blattläuse bei Kontakt). Neemöl. Bei leichtem Befall: mit Wasserstrahl absprühen. Befallene Triebspitzen zurückschneiden.
+
+## Mehltau (Echter Mehltau – Podosphaera/Golovinomyces)
+
+Echter Mehltau ist eine Pilzkrankheit, die sich als weißer, pudriger Belag auf der Blattoberseite zeigt. Im Cannabisanbau ist der Erreger meist Golovinomyces cichoracearum oder Podosphaera macularis.
+
+**Erkennung:** Weiße, pudrige Flecken auf der Blattoberseite, die sich schnell ausbreiten. Befallene Blätter vergilben und sterben schließlich ab. Befallene Blüten sind unbrauchbar – Mehltau auf Blüten ist ein Gesundheitsrisiko beim Konsum.
+
+**Begünstigende Faktoren:** Hohe Luftfeuchtigkeit (>60 %), schlechte Luftzirkulation, starke Temperaturschwankungen zwischen Tag und Nacht, dichte Pflanzenbestände, geschwächte Pflanzen.
+
+**Prävention und Behandlung:** Gute Luftzirkulation – mindestens ein oszillierender Ventilator pro Anbaufläche. Luftfeuchtigkeit in der Blüte unter 50 % halten. Defoliation (Entlauben) für besseren Luftfluss. Kaliumbicarbonat-Sprays (1 EL pro Liter Wasser + Tropfen Spülmittel als Netzmittel). Milchsprays (1:9 Milch:Wasser) – die Milchproteine wirken fungizid bei UV-Exposition. Bacillus subtilis-basierte Biopräparate (z. B. Serenade). Schwefel-basierte Fungizide als letzte Maßnahme (nur in der Veg). Befallene Pflanzenteile sofort entfernen und aus dem Growroom entsorgen.
+
+## Botrytis (Grauschimmel – Botrytis cinerea)
+
+Botrytis cinerea, bekannt als Grauschimmel oder Bud Rot, ist die gefürchtetste Krankheit in der Blütephase. Der Pilz befällt die dichtesten, größten Blüten von innen heraus und kann innerhalb von Tagen eine ganze Ernte zerstören.
+
+**Erkennung:** Verfärbung einzelner Blätter innerhalb oder nahe der Blüte (braun/grau). Beim Aufbrechen der betroffenen Blüte zeigt sich grau-braunes, pelziges Myzel. Fortgeschrittener Befall: die Blüte wird matschig und zerfällt. Befallene Blüten haben einen muffigen Geruch, der sich vom normalen Terpenaroma deutlich unterscheidet.
+
+**Begünstigende Faktoren:** Hohe Luftfeuchtigkeit (>50 % in der Spätblüte), schlechte Luftzirkulation, dichte und große Blüten, Temperaturen zwischen 15–25 °C, Verletzungen am Pflanzengewebe (Eintrittspforten für den Pilz).
+
+**Prävention:** Luftfeuchtigkeit in der Spätblüte auf 30–40 % senken. Starke Luftbewegung um und durch die Pflanzen. Defoliation – innere Blätter entfernen, die Feuchtigkeit stauen. Pflanzen nicht zu dicht stellen. Keine Blätter oder organisches Material auf dem Boden des Growrooms lassen. Temperaturkontrolle – nachts nicht unter 18 °C fallen lassen (Kondensation).
+
+**Behandlung:** Befallene Blüten großzügig herausschneiden (5–10 cm über und unter dem sichtbaren Befall). Schnittwerkzeug zwischen Schnitten desinfizieren. Befallenes Material sofort aus dem Raum entfernen. Luftfeuchtigkeit drastisch senken. Im schlimmsten Fall: frühere Ernte der gesamten Pflanze, um gesunde Blüten zu retten.
+
+## Wurzelfäule (Pythium, Fusarium)
+
+Wurzelfäule wird durch verschiedene Oomyceten und Pilze verursacht, wobei Pythium und Fusarium die häufigsten Erreger im Cannabisanbau sind. Besonders in hydroponischen Systemen und bei Übergießen in Erde kann Wurzelfäule verheerende Folgen haben.
+
+**Erkennung:** Welke trotz ausreichender Bewässerung (Symptom Nr. 1). Braune, schleimige, schlecht riechende Wurzeln (gesunde Wurzeln sind weiß bis cremefarben). Verlangsamtes Wachstum. Vergilbende untere Blätter. Stängelbasis kann sich braun verfärben und weich werden (Fusarium).
+
+**Ursachen:** Übergießen – stauende Nässe im Substrat. Zu hohe Substrattemperaturen (>25 °C). Mangelnde Drainage. Kontaminiertes Wasser oder Substrat. Sauerstoffmangel in der Wurzelzone.
+
+**Prävention und Behandlung:** Substrat zwischen Bewässerungen gut abtrocknen lassen (Lift-Test: Topf sollte sich leicht anfühlen). Drainage sicherstellen – Töpfe mit ausreichend Löchern, 10–20 % Ablaufwasser. Mykorrhiza und Trichoderma als Substratimpfung (biologische Antagonisten). Hydroponik: Wassertemperatur unter 22 °C halten, Sauerstoffpumpe verwenden (gelöster O₂ >6 mg/L). Bacillus amyloliquefaciens als biologisches Fungizid. Wasserstoffperoxid (H₂O₂) 3 % als Notfallmaßnahme (tötet aber auch Nützlinge).
+
+## Nährstoffmängel erkennen
+
+Nährstoffmängel sind keine Krankheiten im eigentlichen Sinne, aber sie schwächen die Pflanze und machen sie anfälliger für echte Schädlinge und Krankheiten. Die wichtigsten Mangelbilder im Überblick:
+
+**Stickstoffmangel (N):** Gleichmäßige Vergilbung der unteren, älteren Blätter, die sich von unten nach oben ausbreitet. Blätter werden hellgrün, dann gelb, dann fallen sie ab. Stickstoff ist mobil – die Pflanze verlagert ihn aus alten in junge Blätter.
+
+**Phosphormangel (P):** Dunkelgrüne bis blau-violette Verfärbung der Blätter, besonders an den Blattstielen und -unterseiten. Verlangsamtes Wachstum. Phosphor ist ebenfalls mobil – Symptome beginnen bei älteren Blättern. Häufige Ursache: pH zu hoch (>7,0) oder zu niedrig (<5,5), wodurch Phosphor im Substrat gebunden wird.
+
+**Kaliummangel (K):** Braune, verbrannte Blattränder (Randnekrosen), die sich von den Blattspitzen nach innen ausbreiten. Betrifft zuerst ältere Blätter. Blätter können sich nach oben wölben. Kalium ist mobil.
+
+**Calciummangel (Ca):** Braune Flecken und Nekrosen auf den jüngeren, oberen Blättern. Deformierte, verkrüppelte neue Blätter. Calcium ist immobil – Symptome zeigen sich zuerst an neuen Blättern. Häufig bei Coco-Substrat und Osmosewasser.
+
+**Magnesiummangel (Mg):** Intervenale Chlorose – Vergilbung zwischen den Blattadern, während die Adern selbst grün bleiben. Beginnt bei mittleren bis unteren Blättern. Magnesium ist mobil. Häufig bei niedrigem pH und Coco-Substrat.
+
+**Eisenmangel (Fe):** Ähnlich wie Magnesiummangel, aber an den jüngsten, obersten Blättern (Eisen ist immobil). Neue Blätter erscheinen hellgelb bis fast weiß mit grünen Adern. Ursache fast immer: pH zu hoch (>6,5 in Erde, >6,0 in Hydro).
+
+**Allgemeine Regel:** Bevor ein Nährstoff supplementiert wird, immer zuerst den pH-Wert des Gießwassers und des Ablaufwassers überprüfen. 90 % aller Nährstoffprobleme sind in Wirklichkeit pH-Probleme – der Nährstoff ist im Substrat vorhanden, aber bei falschem pH für die Pflanze nicht verfügbar.
+
+## Integrated Pest Management (IPM)
+
+IPM ist ein systematischer, mehrschichtiger Ansatz zur Schädlingskontrolle, der Prävention vor Intervention stellt und chemische Mittel nur als letzte Option vorsieht.
+
+**Ebene 1 – Kulturelle Maßnahmen (Prävention):**
+
+Sauberkeit: Growroom regelmäßig reinigen, tote Blätter entfernen, Werkzeug desinfizieren. Quarantäne: Neue Pflanzen oder Stecklinge immer 7–14 Tage isoliert halten und auf Schädlinge untersuchen. Klima: Optimale Temperatur und Luftfeuchtigkeit für die Pflanze, suboptimal für Schädlinge. Pflanzengesundheit: Gesunde, gut genährte Pflanzen sind widerstandsfähiger. Hygiene: Hände waschen, saubere Kleidung, keine Haustiere im Growroom.
+
+**Ebene 2 – Biologische Kontrolle (Nützlinge):**
+
+Regelmäßige präventive Ausbringung von Raubmilben (Amblyseius-Arten). Nematoden (Steinernema) im Substrat gegen Trauermücken und Thripslarven. Hypoaspis miles als Bodenraubtier. Diese Nützlinge werden nicht erst beim Befall eingesetzt, sondern präventiv – sie bauen eine Population auf und halten Schädlinge in Schach, bevor diese zum Problem werden.
+
+**Ebene 3 – Biologische Spritzungen (bei leichtem Befall):**
+
+Neemöl (kalt gepresst, verdünnt), Kaliseife, Bacillus thuringiensis, Spinosad. Nur in der vegetativen Phase oder sehr frühen Blüte. Immer abends/nachts sprühen (kein Licht während der Anwendung). Tropfen vermeiden, die sich in Blüten sammeln könnten.
+
+**Ebene 4 – Mechanische und physikalische Kontrolle:**
+
+Gelb- und Blautafeln zur Überwachung und Fang. Absaugen adulter Trauermücken mit Mini-Staubsauger. Befallene Pflanzenteile sofort entfernen. Insektenschutznetze an Zuluftöffnungen.
+
+**Ebene 5 – Chemische Kontrolle (letzte Option):**
+
+Im Cannabisanbau für den Konsum sollten synthetische Pestizide grundsätzlich vermieden werden. Sie hinterlassen Rückstände, die beim Inhalieren gesundheitsschädlich sind. In der EU und unter dem KCanG gibt es strenge Vorgaben für zugelassene Pflanzenschutzmittel – viele konventionelle Pestizide sind für Cannabis nicht zugelassen. Wenn biologische Methoden versagen, ist es oft besser, befallene Pflanzen zu entfernen, den Raum komplett zu reinigen und neu zu starten.
+
+Die konsequente Anwendung eines IPM-Programms ist für jeden Cannabis Social Club essenziell. Prävention kostet weniger als Behandlung – und garantiert ein sauberes, rückstandsfreies Endprodukt.`,
+
+    content_en: `Pests and diseases can ruin even the most carefully managed grow. While indoor cultivation offers certain advantages through its controlled environment, the warm, humid conditions also provide an ideal habitat for many harmful organisms. Knowledge of the most common problems, their early identification, and a systematic approach to prevention and control – Integrated Pest Management (IPM) – are essential for every cannabis social club and home grower.
+
+## Spider Mites (Tetranychus urticae)
+
+Spider mites are the most feared pest in indoor cannabis cultivation. These tiny arachnids (0.3–0.5 mm) are barely visible to the naked eye and can completely destroy a plant within a few weeks.
+
+**Identification:** First signs are small, light dots (stippling) on the leaf surface – each dot is a puncture site where the mite has sucked out cell sap. Close inspection of the leaf underside (magnifying glass!) reveals tiny, moving dots. In advanced infestations, the characteristic fine webs form between leaves and shoot tips. The most common species, Tetranychus urticae (two-spotted spider mite), ranges from yellowish-green to reddish-brown.
+
+**Life cycle:** At 25°C the entire cycle from egg to adult takes only 7–10 days. A single female lays up to 200 eggs. This means exponential multiplication if left untreated. Spider mites prefer dry, warm conditions (>25°C, <50% RH).
+
+**Biological control:** Predatory mites are the most effective biological control agent. Phytoseiulus persimilis is the classic choice – it feeds exclusively on spider mites and can eliminate an infestation in 2–4 weeks, though it requires >60% humidity and 20–27°C. Neoseiulus californicus is more robust and tolerates lower humidity. Amblyseius andersoni functions as a preventive predator and also feeds on pollen when no prey is available.
+
+**Other treatment methods:** Neem oil (azadirachtin) as a spray – works as an antifeedant and growth regulator. Potassium soap (soft soap) suffocates mites on contact. Pyrethrin (from chrysanthemums) as a botanical insecticide. Isopropyl alcohol (70%) as a spot treatment. All sprays should only be applied during the vegetative phase or early flowering – never spray on maturing buds.
+
+**Prevention:** Maintain humidity at 50–60% during veg. Regular leaf inspection with a magnifying glass (weekly). Always quarantine new plants/cuttings for 1–2 weeks. Change clothes before entering the grow room (spider mites travel on clothing). Keep the environment clean – no dead plant material in the room.
+
+## Fungus Gnats (Sciaridae)
+
+Fungus gnats are small, black flies (2–4 mm) that flutter around the plant base and on the substrate surface. The adult flies are harmless, but their soil-dwelling larvae feed on roots and can cause significant damage, especially to young plants and cuttings.
+
+**Identification:** Small black flies that take off when the pot is touched or during watering. Visible, shiny-white larvae (3–5 mm) with black heads on the substrate surface. Yellow sticky traps near plants catch adults and serve as population monitors. Infested plants show slowed growth, wilting despite adequate watering, and increased susceptibility to root diseases.
+
+**Life cycle:** Egg to adult in 3–4 weeks. Larvae pass through 4 stages in moist substrate. Each female lays up to 300 eggs in the upper substrate layer.
+
+**Biological control:** Bacillus thuringiensis israelensis (BTI) – a biological bacterial preparation that kills the larvae, applied as a drench. Steinernema feltiae – parasitic nematodes that infect and kill fungus gnat larvae. Hypoaspis miles (Stratiolaelaps scimitus) – predatory mites that live in the soil and feed on fungus gnat larvae.
+
+**Cultural measures:** Allow the substrate surface to dry between waterings – fungus gnats preferentially lay eggs in moist soil. A layer of sand (1–2 cm), perlite or diatomaceous earth on the substrate surface prevents egg-laying. Do not overwater – standing moisture is the main cause of fungus gnat infestations.
+
+## Thrips (Thysanoptera)
+
+Thrips are extremely small (1–2 mm), slender insects that suck cell sap from leaves and flowers. There are numerous species, with the western flower thrips (Frankliniella occidentalis) being particularly relevant in cannabis cultivation.
+
+**Identification:** Silvery-grey or bronze-coloured spots on leaves – thrips scrape away the upper cell layers and suck the escaping sap. Tiny, black frass dots on the leaf surface. On the leaf underside, the elongated, narrow insects are recognisable on close inspection – they move quickly. In heavy infestations, leaves curl and deform.
+
+**Biological control:** Amblyseius cucumeris and Amblyseius swirskii – predatory mites that feed on thrips larvae. Orius laevigatus (minute pirate bugs) – effective predators that eat both larvae and adult thrips. Steinernema feltiae – nematodes against thrips larvae in the substrate.
+
+**Other measures:** Blue sticky traps (thrips are attracted to blue). Spinosad-based sprays (organic, but only until early flowering). Neem oil for prevention.
+
+## Aphids (Aphidoidea)
+
+Aphids are soft-bodied, 1–3 mm insects that sit in colonies on young shoots, leaf undersides and stems, sucking plant sap. They reproduce extremely rapidly – a single female can produce up to 12 live offspring per day without fertilisation (parthenogenesis).
+
+**Identification:** Visible colonies on shoot tips and young leaves. Honeydew – a sticky, shiny coating on leaves (aphid excretion). Sooty mould frequently colonises the honeydew (black, soot-like coating). Deformed, curled young leaves. Winged aphids appear when the colony is overcrowded or the plant is stressed.
+
+**Biological control:** Chrysoperla carnea (lacewing larvae) – voracious aphid predators. Aphidius colemani – parasitoid wasps that lay their eggs inside aphids. Coccinella septempunctata (ladybirds) and their larvae.
+
+**Treatment:** Potassium soap spray (suffocates aphids on contact). Neem oil. For light infestations: spray off with a water jet. Prune affected shoot tips.
+
+## Powdery Mildew (Podosphaera/Golovinomyces)
+
+Powdery mildew is a fungal disease that appears as a white, powdery coating on the upper leaf surface. In cannabis cultivation, the pathogen is usually Golovinomyces cichoracearum or Podosphaera macularis.
+
+**Identification:** White, powdery spots on the upper leaf surface that spread rapidly. Affected leaves yellow and eventually die. Affected buds are unusable – powdery mildew on flowers is a health risk when consumed.
+
+**Contributing factors:** High humidity (>60%), poor air circulation, large temperature fluctuations between day and night, dense plant populations, weakened plants.
+
+**Prevention and treatment:** Good air circulation – at least one oscillating fan per growing area. Keep humidity below 50% during flowering. Defoliation for better airflow. Potassium bicarbonate sprays (1 tbsp per litre of water + drop of dish soap as surfactant). Milk sprays (1:9 milk:water) – milk proteins act as fungicides under UV exposure. Bacillus subtilis-based biopreparations (e.g. Serenade). Sulphur-based fungicides as a last resort (only in veg). Remove affected plant parts immediately and dispose of them outside the grow room.
+
+## Botrytis (Grey Mould – Botrytis cinerea)
+
+Botrytis cinerea, known as grey mould or bud rot, is the most feared disease during the flowering phase. The fungus attacks the densest, largest buds from the inside out and can destroy an entire harvest within days.
+
+**Identification:** Discolouration of individual leaves within or near the bud (brown/grey). When the affected bud is broken open, grey-brown, fuzzy mycelium is visible. Advanced infestation: the bud becomes mushy and disintegrates. Affected buds have a musty odour clearly distinct from normal terpene aroma.
+
+**Contributing factors:** High humidity (>50% in late flowering), poor air circulation, dense and large buds, temperatures between 15–25°C, injuries to plant tissue (entry points for the fungus).
+
+**Prevention:** Reduce humidity in late flowering to 30–40%. Strong air movement around and through the plants. Defoliation – remove inner leaves that trap moisture. Do not place plants too close together. Do not leave leaves or organic material on the grow room floor. Temperature control – do not let night temperatures drop below 18°C (condensation).
+
+**Treatment:** Cut out affected buds generously (5–10 cm above and below visible infestation). Disinfect cutting tools between cuts. Remove infested material from the room immediately. Reduce humidity drastically. Worst case: early harvest of the entire plant to save healthy buds.
+
+## Root Rot (Pythium, Fusarium)
+
+Root rot is caused by various oomycetes and fungi, with Pythium and Fusarium being the most common pathogens in cannabis cultivation. Root rot can have devastating consequences, particularly in hydroponic systems and when overwatering in soil.
+
+**Identification:** Wilting despite adequate watering (symptom no. 1). Brown, slimy, foul-smelling roots (healthy roots are white to cream-coloured). Slowed growth. Yellowing lower leaves. Stem base may turn brown and become soft (Fusarium).
+
+**Causes:** Overwatering – standing moisture in the substrate. Excessive substrate temperatures (>25°C). Inadequate drainage. Contaminated water or substrate. Oxygen deficiency in the root zone.
+
+**Prevention and treatment:** Allow substrate to dry well between waterings (lift test: pot should feel light). Ensure drainage – pots with sufficient holes, 10–20% runoff. Mycorrhizae and Trichoderma as substrate inoculants (biological antagonists). Hydroponics: keep water temperature below 22°C, use an oxygen pump (dissolved O₂ >6 mg/L). Bacillus amyloliquefaciens as a biological fungicide. Hydrogen peroxide (H₂O₂) 3% as an emergency measure (but also kills beneficials).
+
+## Identifying Nutrient Deficiencies
+
+Nutrient deficiencies are not diseases in the strict sense, but they weaken the plant and make it more susceptible to actual pests and diseases. An overview of the most important deficiency symptoms:
+
+**Nitrogen deficiency (N):** Uniform yellowing of the lower, older leaves, spreading from bottom to top. Leaves turn light green, then yellow, then drop off. Nitrogen is mobile – the plant translocates it from old to young leaves.
+
+**Phosphorus deficiency (P):** Dark green to blue-purple discolouration of leaves, especially on petioles and undersides. Slowed growth. Phosphorus is also mobile – symptoms start on older leaves. Common cause: pH too high (>7.0) or too low (<5.5), locking out phosphorus in the substrate.
+
+**Potassium deficiency (K):** Brown, burnt leaf margins (marginal necrosis) spreading inward from leaf tips. Affects older leaves first. Leaves may curl upward. Potassium is mobile.
+
+**Calcium deficiency (Ca):** Brown spots and necrosis on younger, upper leaves. Deformed, crippled new growth. Calcium is immobile – symptoms appear first on new leaves. Common in coco substrate and with reverse osmosis water.
+
+**Magnesium deficiency (Mg):** Interveinal chlorosis – yellowing between leaf veins while the veins themselves remain green. Starts on middle to lower leaves. Magnesium is mobile. Common at low pH and in coco substrate.
+
+**Iron deficiency (Fe):** Similar to magnesium deficiency but on the youngest, uppermost leaves (iron is immobile). New leaves appear light yellow to almost white with green veins. Cause almost always: pH too high (>6.5 in soil, >6.0 in hydro).
+
+**General rule:** Before supplementing any nutrient, always check the pH of the irrigation water and runoff water first. 90% of all nutrient problems are actually pH problems – the nutrient is present in the substrate but unavailable to the plant at the wrong pH.
+
+## Integrated Pest Management (IPM)
+
+IPM is a systematic, multi-layered approach to pest control that prioritises prevention over intervention and considers chemical measures only as a last resort.
+
+**Level 1 – Cultural measures (prevention):**
+
+Cleanliness: Clean the grow room regularly, remove dead leaves, disinfect tools. Quarantine: Always isolate new plants or cuttings for 7–14 days and inspect for pests. Climate: Optimal temperature and humidity for the plant, suboptimal for pests. Plant health: Healthy, well-nourished plants are more resistant. Hygiene: Wash hands, clean clothes, no pets in the grow room.
+
+**Level 2 – Biological control (beneficial organisms):**
+
+Regular preventive deployment of predatory mites (Amblyseius species). Nematodes (Steinernema) in the substrate against fungus gnats and thrips larvae. Hypoaspis miles as a soil predator. These beneficials are not deployed only when infestation occurs, but preventively – they build up a population and keep pests in check before they become a problem.
+
+**Level 3 – Biological sprays (for light infestations):**
+
+Neem oil (cold-pressed, diluted), potassium soap, Bacillus thuringiensis, spinosad. Only during the vegetative phase or very early flowering. Always spray in the evening/night (no light during application). Avoid droplets that could collect in buds.
+
+**Level 4 – Mechanical and physical control:**
+
+Yellow and blue sticky traps for monitoring and catching. Vacuuming adult fungus gnats with a mini vacuum. Immediately remove affected plant parts. Insect screens on intake openings.
+
+**Level 5 – Chemical control (last resort):**
+
+In cannabis cultivation for consumption, synthetic pesticides should be avoided as a matter of principle. They leave residues that are harmful when inhaled. In the EU and under the KCanG there are strict regulations regarding approved plant protection products – many conventional pesticides are not approved for cannabis. When biological methods fail, it is often better to remove infested plants, completely clean the room and start fresh.
+
+The consistent implementation of an IPM programme is essential for every cannabis social club. Prevention costs less than treatment – and guarantees a clean, residue-free end product.`,
+    tags: [
+      'Schädlinge',
+      'Krankheiten',
+      'Spinnmilben',
+      'Trauermücken',
+      'Thripse',
+      'Blattläuse',
+      'Mehltau',
+      'Botrytis',
+      'Wurzelfäule',
+      'IPM',
+      'Nützlinge',
+      'Nährstoffmangel',
+    ],
+    reading_time: 30,
+    last_updated: '2026-03-26',
+    related_slugs: [
+      'indoor-anbau-grundlagen',
+      'organischer-anbau',
+      'naehrstoffe-duengung',
+    ],
+  },
+
+  // ─── NÄHRSTOFFE UND DÜNGUNG ──────────────────────────────────────────────────
+  {
+    slug: 'naehrstoffe-duengung',
+    category: 'growing',
+    title_de: 'Nährstoffmanagement: NPK, Mikronährstoffe und Düngepläne',
+    title_en: 'Nutrient Management: NPK, Micronutrients and Feeding Schedules',
+    summary_de:
+      'Alles über Nährstoffmanagement im Cannabisanbau – Makro- und Mikronährstoffe, NPK-Verhältnisse, pH- und EC-Wert, organische vs. mineralische Düngung, Über- und Unterdüngung erkennen, Düngepläne für Veg und Blüte, Flush und Mangelbilder.',
+    summary_en:
+      'Everything about nutrient management in cannabis cultivation – macro and micronutrients, NPK ratios, pH and EC values, organic vs. mineral fertilisation, identifying over and underfeeding, feeding schedules for veg and bloom, flushing, and deficiency symptoms.',
+    images: growingImage,
+    content_de: `Nährstoffmanagement ist einer der komplexesten und gleichzeitig wichtigsten Aspekte des Cannabisanbaus. Eine Pflanze, die optimal mit allen benötigten Nährstoffen versorgt ist, wächst schneller, blüht ertragreicher und produziert ein volleres Terpenprofil. Gleichzeitig ist Überdüngung einer der häufigsten Anfängerfehler. Dieser Leitfaden erklärt alle Grundlagen – von den chemischen Elementen über pH und EC bis hin zu konkreten Düngeplänen.
+
+## Makronährstoffe: Die Grundbausteine
+
+Cannabis benötigt wie alle Pflanzen drei primäre Makronährstoffe in großen Mengen:
+
+**Stickstoff (N):** Der Motor des vegetativen Wachstums. Stickstoff ist Hauptbestandteil von Aminosäuren, Proteinen und Chlorophyll. In der vegetativen Phase hat Cannabis den höchsten Stickstoffbedarf – er fördert die Produktion von Blättern, Stängeln und Wurzeln. Typische Aufnahmeformen: Nitrat (NO₃⁻) und Ammonium (NH₄⁺). Pflanzen bevorzugen Nitrat, da Ammonium in hohen Konzentrationen toxisch wirken kann.
+
+**Phosphor (P):** Essenziell für die Energieübertragung (ATP), DNA/RNA-Synthese und die Blütenbildung. In der Blütephase steigt der Phosphorbedarf deutlich an. Phosphor wird als Phosphat (H₂PO₄⁻, HPO₄²⁻) aufgenommen und ist bei falschem pH oft das erste Element, das ausfällt und für die Pflanze unverfügbar wird.
+
+**Kalium (K):** Reguliert den Wassertransport (osmotische Regulation), die Stomata-Funktion, Enzymaktivierung und den Kohlenhydrat-Transport. Kalium wird als K⁺-Ion aufgenommen und ist besonders in der Blütephase für die Harzproduktion und die Blütendichte wichtig. Ein ausreichender Kaliumspiegel erhöht zudem die Stressresistenz der Pflanze.
+
+**NPK-Verhältnisse nach Wachstumsphase:**
+
+- Keimling/Klon: Keine oder minimale Düngung (Woche 1–2)
+- Frühe Veg: NPK 2-1-2 oder 3-1-2 (niedrige Dosierung)
+- Späte Veg: NPK 3-1-2 (volle Dosierung)
+- Übergang zur Blüte (Woche 1–2): NPK 2-2-2 (Transition)
+- Frühe Blüte (Woche 3–4): NPK 1-2-3
+- Mittlere Blüte (Woche 5–6): NPK 0-3-3
+- Späte Blüte (Woche 7–8): NPK 0-2-3 (reduzierte Dosierung)
+- Letzte 1–2 Wochen: Flush (nur Wasser)
+
+## Sekundäre Makronährstoffe
+
+**Calcium (Ca):** Strukturelement der Zellwände (Calciumpektinat), wichtig für Zellteilung und Zellstreckung. Calciumangel zeigt sich an neuen Blättern (immobiler Nährstoff). Besonders kritisch in Coco-Substrat, da Coco Calcium bindet und gegen Natrium und Kalium austauscht. Leitungswasser enthält oft genug Calcium; bei Verwendung von Osmosewasser muss Calcium immer supplementiert werden.
+
+**Magnesium (Mg):** Zentrales Atom im Chlorophyll-Molekül – ohne Magnesium keine Photosynthese. Auch wichtig für die Enzymaktivierung und den Phosphorstoffwechsel. Magnesiummangel zeigt intervenale Chlorose (Vergilbung zwischen den Blattadern) an mittleren bis unteren Blättern. Epsom-Salz (Magnesiumsulfat, MgSO₄) ist die einfachste Ergänzung.
+
+**Schwefel (S):** Bestandteil von Aminosäuren (Cystein, Methionin), Vitaminen und Enzymen. Schwefel ist auch an der Synthese von Terpenen beteiligt. Schwefelmangel ähnelt Stickstoffmangel, tritt aber an jüngeren Blättern auf (Schwefel ist wenig mobil). In den meisten Düngerlinien ist ausreichend Schwefel enthalten.
+
+## Mikronährstoffe: Klein, aber essenziell
+
+Mikronährstoffe werden nur in Spuren benötigt, sind aber für enzymatische Prozesse unverzichtbar:
+
+**Eisen (Fe):** Elektronentransfer in der Photosynthese. Mangel: intervenale Chlorose an den jüngsten Blättern (weiß-gelb mit grünen Adern). Fast immer ein pH-Problem – Eisen wird bei pH >6,5 (Erde) bzw. >6,0 (Hydro) rasch unlöslich.
+
+**Mangan (Mn):** Beteiligt an der Photosynthese (Wasserspaltung) und als Enzym-Cofaktor. Mangel: intervenale Chlorose mit braunen Flecken auf jüngeren Blättern. Überangebot: braune Punkte (Mangan-Toxizität) bei pH <5,5.
+
+**Zink (Zn):** Wichtig für die Auxin-Synthese (Wachstumshormone) und Enzymfunktionen. Mangel: gestörtes Wachstum, kleine, verdrehte junge Blätter. Häufig bei Über-pH und Überangebot von Phosphor (Phosphor blockiert Zinkaufnahme).
+
+**Kupfer (Cu):** Beteiligt an der Photosynthese und Lignin-Bildung (Stängelstabilität). Mangel selten, aber Überangebot toxisch. Neue Blätter werden dunkelgrün und welken.
+
+**Bor (B):** Wichtig für Zellteilung, Calciumtransport und Zellwandstabilität. Mangel: verdickte, deformierte Wachstumspunkte, hohle Stängel. Überangebot: Blattspitzenverbrennungen.
+
+**Molybdän (Mo):** Essenziell für die Nitrat-Reduktase (Umwandlung von Nitrat in Ammonium). Mangel bei niedrigem pH (<5,5), zeigt sich als blassgrüne Blätter mit gekräuselten Rändern.
+
+## pH-Wert: Der Schlüssel zur Nährstoffverfügbarkeit
+
+Der pH-Wert des Gießwassers und des Substrats bestimmt, welche Nährstoffe für die Pflanze verfügbar sind. Dies ist der einzelne wichtigste Faktor im Nährstoffmanagement.
+
+**Optimale pH-Bereiche:**
+
+- Erde/Kompost: 6,0–6,5 (Sweet Spot: 6,3)
+- Coco: 5,5–6,5 (Sweet Spot: 5,8–6,0)
+- Hydroponik: 5,5–6,0 (Sweet Spot: 5,8)
+
+**Warum schwanken lassen?** Innerhalb des optimalen Bereichs ist es empfehlenswert, den pH bei jeder Bewässerung leicht zu variieren (z. B. zwischen 5,8 und 6,2 in Coco). Verschiedene Nährstoffe haben ihre maximale Verfügbarkeit bei unterschiedlichen pH-Werten. Durch Schwankung wird sichergestellt, dass alle Elemente zu verschiedenen Zeitpunkten optimal aufgenommen werden können.
+
+**Nährstoff-Lockout:** Wenn der pH außerhalb des optimalen Bereichs liegt, werden bestimmte Nährstoffe im Substrat chemisch gebunden und können nicht mehr von den Wurzeln aufgenommen werden – selbst wenn sie in ausreichender Menge vorhanden sind. Typische Lockout-Szenarien:
+
+- pH >7,0: Eisen, Mangan, Zink, Kupfer, Bor werden unlöslich
+- pH <5,5: Calcium, Magnesium, Phosphor werden weniger verfügbar
+- pH >6,5 in Hydro: fast alle Mikronährstoffe werden problematisch
+
+**pH-Messung:** Digital-pH-Meter (Bluelab, Apera, Milwaukee) sind Standard. Vor jeder Nutzung kalibrieren (pH 4,0 und 7,0 Referenzlösung). Auch den pH des Ablaufwassers (Runoff) messen – dieser zeigt den tatsächlichen pH im Substrat an. Große Differenz zwischen Input und Runoff deutet auf Salzansammlungen hin.
+
+**pH-Korrektur:** pH-Down (Phosphorsäure oder Salpetersäure), pH-Up (Kaliumhydroxid oder Kaliumcarbonat). In organischen Systemen mit Living Soil ist pH-Korrektur meist überflüssig – das mikrobielle Ökosystem puffert den pH natürlich.
+
+## EC-Wert: Die Nährstoffkonzentration messen
+
+EC steht für Electrical Conductivity (elektrische Leitfähigkeit) und gibt an, wie viele gelöste Salze (Ionen) sich im Wasser befinden. Je mehr Dünger gelöst ist, desto höher der EC-Wert. Die Einheit ist mS/cm (Millisiemens pro Zentimeter) oder µS/cm.
+
+**Richtwerte nach Wachstumsphase:**
+
+- Leitungswasser (Basis): 0,2–0,5 mS/cm
+- Osmosewasser: 0,0–0,05 mS/cm
+- Keimling/Klon: 0,4–0,8 mS/cm (gesamt)
+- Frühe Veg: 0,8–1,2 mS/cm
+- Späte Veg: 1,2–1,6 mS/cm
+- Frühe Blüte: 1,4–1,8 mS/cm
+- Mittlere/Späte Blüte: 1,6–2,2 mS/cm
+- Flush: 0,0–0,3 mS/cm
+
+**Runoff-EC:** Wie beim pH sollte auch der EC des Ablaufwassers gemessen werden. Wenn der Runoff-EC deutlich höher ist als der Input-EC (z. B. Input 1,4, Runoff 2,8), bedeutet dies, dass sich Salze im Substrat angesammelt haben. Ein Flush mit pH-adjustiertem Wasser (EC 0,0–0,3) löst diese Salze.
+
+**TDS vs. EC:** Manche Messgeräte zeigen TDS (Total Dissolved Solids) in ppm an statt EC. Der Umrechnungsfaktor variiert: 1 mS/cm ≈ 500 ppm (US-Skala, Hanna) oder 700 ppm (EU-Skala, Truncheon). Am besten immer in EC arbeiten.
+
+## Organische vs. Mineralische Düngung
+
+**Mineralische (synthetische) Dünger:**
+
+Vorteile: Sofort pflanzenverfügbar (Ionen liegen direkt in löslicher Form vor). Präzise dosierbar. Reproduzierbare Ergebnisse. EC und pH leicht messbar und korrigierbar. Kostengünstig. Schnellere Nährstoffaufnahme.
+
+Nachteile: Können bei Überdosierung schnell Schäden verursachen. Bauen kein Bodenleben auf. Salze können sich im Substrat anreichern. Flush vor der Ernte empfohlen/nötig. Das resultierende Produkt kann einen „chemischen" Geschmack haben, wenn nicht korrekt geflusht wird.
+
+Bekannte Marken: General Hydroponics (Flora-Serie), Advanced Nutrients, CANNA, BioBizz (organisch), Plagron.
+
+**Organische Dünger:**
+
+Vorteile: Werden durch Mikroorganismen langsam freigesetzt – geringere Verbrennungsgefahr. Fördern das Bodenleben (Mikroben, Mykorrhiza, Bakterien). Produzieren komplexere Terpenprofile (viele Grower berichten übereinstimmend). Flush vor der Ernte weniger notwendig. Nachhaltiger und umweltfreundlicher.
+
+Nachteile: Langsamer verfügbar – nicht für schnelle Korrekturen geeignet. Schwieriger präzise zu dosieren. EC/pH-Management weniger vorhersagbar. Können bei unsachgemäßer Kompostierung Krankheitserreger enthalten. In Hydro-Systemen problematisch (verstopfen Leitungen, fördern Algen).
+
+Typische organische Dünger: Wurmhumus, Fledermausguano, Blutmehl (N), Knochenmehl (P), Kelp/Seetang (K + Spurenelemente), Fischemulsion, Komposttee, Mykorrhiza-Impfungen.
+
+**Empfehlung:** Für Einsteiger sind mineralische Dünger einfacher zu handhaben. Für fortgeschrittene Grower und Cannabis Social Clubs, die Wert auf Terpenqualität und Nachhaltigkeit legen, ist organischer Anbau mit Living Soil langfristig die überlegene Methode.
+
+## Überdüngung erkennen und beheben
+
+Überdüngung (Nährstoffverbrennung) ist einer der häufigsten Fehler und zeigt sich in charakteristischen Symptomen:
+
+**Frühe Anzeichen:** Dunkelgrüne, fast schwarz-grüne Blätter (Stickstoffüberschuss). Blattspitzen werden braun und trocken (Nährstoffverbrennung). Die Blattspitzen biegen sich nach unten wie Adlerkrallen (Nitrogen Toxicity = „The Claw"). Langsames, gestauchtes Wachstum trotz scheinbar guter Bedingungen.
+
+**Fortgeschrittene Symptome:** Braune Flecken und Nekrosen auf den Blättern. Blattränder rollen sich ein. Wurzeln werden braun (Salzstress). Nährstoff-Lockout: Die Überdosierung eines Elements blockiert die Aufnahme anderer (z. B. zu viel Kalium blockiert Calcium und Magnesium).
+
+**Sofortmaßnahmen:** Flush mit pH-adjustiertem Wasser – das 2–3-fache des Topfvolumens durchspülen. Runoff-EC messen – sollte unter 0,5 mS/cm fallen. 2–3 Tage nur Wasser geben, dann mit 50 % der normalen Düngerdosis wieder starten.
+
+## Unterdüngung erkennen
+
+Unterdüngung zeigt sich langsamer, aber ebenso deutlich:
+
+**Generelles Bild:** Helle, gelblich-grüne Blätter (Stickstoffmangel). Verlangsamtes Wachstum. Dünne Stängel. Kleine Blüten. Frühzeitiges Absterben unterer Blätter.
+
+**Wichtig:** Vor dem Aufdüngen immer pH überprüfen! Ein pH-Problem kann identische Symptome verursachen wie ein Nährstoffmangel, und mehr Dünger würde das Problem verschlimmern.
+
+## Düngepläne: Veg und Blüte
+
+Nachfolgend ein beispielhafter Düngeplan für mineralische Düngung in Coco-Substrat. Alle EC-Werte sind Gesamtwerte (Basis-EC des Wassers eingerechnet). Angaben in ml/L sind Richtwerte – immer EC messen und anpassen.
+
+**Vegetative Phase (Woche 1–4):**
+
+Woche 1 (nach Keimung): Nur Wasser mit Cal-Mag 0,5 ml/L. EC: 0,4–0,6. pH: 5,8–6,0. Gießfrequenz: Wenn Topf leicht ist.
+
+Woche 2: Basis-A + Basis-B je 0,5 ml/L + Cal-Mag 0,5 ml/L. EC: 0,8–1,0. pH: 5,8–6,2. Tägliches leichtes Gießen.
+
+Woche 3: Basis-A + Basis-B je 1,0 ml/L + Cal-Mag 0,5 ml/L + Wurzelstimulator. EC: 1,0–1,3. pH: 5,8–6,2.
+
+Woche 4: Basis-A + Basis-B je 1,5 ml/L + Cal-Mag 0,5 ml/L. EC: 1,2–1,5. pH: 5,8–6,2. 2–3× täglich Fertigation in Coco.
+
+**Blütephase (Woche 1–8+):**
+
+Woche 1 (Blüte-Trigger 12/12): Basis-A + Basis-B je 1,5 ml/L + Cal-Mag 0,5 ml/L + PK-Boost 0,25 ml/L. EC: 1,3–1,6. pH: 5,8–6,2.
+
+Woche 2–3: Basis-A + Basis-B je 1,5 ml/L + Cal-Mag 0,5 ml/L + PK-Boost 0,5 ml/L. EC: 1,5–1,8. pH: 5,8–6,0.
+
+Woche 4–5 (Bulk-Phase): Basis-A + Basis-B je 1,5 ml/L + Cal-Mag 0,3 ml/L + PK-Boost 1,0 ml/L. EC: 1,6–2,0. pH: 5,8–6,0.
+
+Woche 6–7 (Reifung): Basis-A + Basis-B je 1,0 ml/L + PK-Boost 0,5 ml/L. EC: 1,2–1,6. pH: 5,8–6,0. Cal-Mag reduzieren oder weglassen.
+
+Woche 8+ (letzte 7–14 Tage): Flush – nur pH-adjustiertes Wasser. EC: 0,0–0,3.
+
+**Wichtige Hinweise zum Düngeplan:** Dies ist ein Beispielplan – jede Sorte reagiert unterschiedlich. Immer mit 50 % der Herstellerempfehlung starten und basierend auf der Pflanzenreaktion steigern. Runoff-EC regelmäßig prüfen – wenn der Runoff-EC den Input-EC um mehr als 50 % übersteigt, einen Flush durchführen. Coco muss immer feucht gehalten werden – niemals komplett austrocknen lassen. In Erde ist weniger Düngung nötig, da die Erde selbst Nährstoffe puffert.
+
+## Flush: Sinn und Durchführung
+
+Der Flush am Ende der Blütephase ist ein kontroverses Thema. Bei mineralischer Düngung ist er Standard, bei organischem Anbau weitgehend überflüssig.
+
+**Zweck:** Entfernung überschüssiger Salze aus dem Substrat und der Pflanze. Fördert den Abbau von Chlorophyll und restlichen Nährstoffen in den Blättern. Verbessert Geschmack und Rauchqualität des Endprodukts (weniger harsch, weißere Asche). Blätter beginnen zu vergilben – ein Zeichen, dass die Pflanze ihre Reserven mobilisiert.
+
+**Durchführung:** 7–14 Tage vor der geplanten Ernte nur noch pH-adjustiertes Wasser geben (pH 5,8–6,0 in Coco, 6,0–6,5 in Erde). Am ersten Flush-Tag großzügig spülen (3× Topfvolumen). Danach normal gießen, aber ohne Dünger. Runoff-EC sollte innerhalb von 2–3 Tagen auf unter 0,5 mS/cm fallen.
+
+**Kritische Perspektive:** Eine Studie der University of Guelph (2020) fand keinen signifikanten Unterschied in Geschmack, Asche-Farbe oder chemischer Zusammensetzung zwischen geflussten und ungeflussten Pflanzen bei mineralischer Düngung. In der Praxis berichten die meisten erfahrenen Grower dennoch über eine geschmackliche Verbesserung – möglicherweise durch den natürlichen Reifungsprozess während der Flush-Phase und nicht durch das Flushing selbst.
+
+## Mangelbilder: Schnelle Referenz
+
+| Nährstoff | Mobil? | Symptom | Wo zuerst? |
+|-----------|--------|---------|-----------|
+| N | Ja | Gleichmäßige Vergilbung | Untere Blätter |
+| P | Ja | Dunkelgrün/violett | Untere Blätter |
+| K | Ja | Braune Blattränder | Untere Blätter |
+| Ca | Nein | Braune Flecken, deformiert | Obere Blätter |
+| Mg | Ja | Intervenale Chlorose | Mittlere Blätter |
+| Fe | Nein | Gelbe Blätter, grüne Adern | Jüngste Blätter |
+| Mn | Nein | Chlorose + braune Flecken | Jüngere Blätter |
+| Zn | Nein | Kleine, verdrehte Blätter | Neues Wachstum |
+| S | Wenig | Gleichmäßige Vergilbung | Jüngere Blätter |
+| B | Nein | Deformierte Triebspitzen | Wachstumspunkte |
+
+**Mobil vs. Immobil:** Mobile Nährstoffe (N, P, K, Mg) werden von der Pflanze aus älteren Blättern in junge umverlagert – daher zeigen sich Mängel zuerst an den unteren, älteren Blättern. Immobile Nährstoffe (Ca, Fe, Mn, Zn, B) können nicht umverlagert werden – Mängel zeigen sich an den jüngsten, obersten Blättern.
+
+Wer pH und EC konsequent misst und einen strukturierten Düngeplan befolgt, wird die meisten Nährstoffprobleme von vornherein vermeiden. Die Pflanze zu lesen – also die Blätter regelmäßig auf Verfärbungen und Deformationen zu untersuchen – bleibt dennoch die wichtigste Fähigkeit jedes Growers.`,
+
+    content_en: `Nutrient management is one of the most complex yet important aspects of cannabis cultivation. A plant optimally supplied with all required nutrients grows faster, flowers more productively and produces a fuller terpene profile. At the same time, overfeeding is one of the most common beginner mistakes. This guide explains all fundamentals – from chemical elements through pH and EC to concrete feeding schedules.
+
+## Macronutrients: The Building Blocks
+
+Like all plants, cannabis requires three primary macronutrients in large quantities:
+
+**Nitrogen (N):** The engine of vegetative growth. Nitrogen is a major component of amino acids, proteins and chlorophyll. During the vegetative phase, cannabis has its highest nitrogen demand – it promotes the production of leaves, stems and roots. Typical uptake forms: nitrate (NO₃⁻) and ammonium (NH₄⁺). Plants prefer nitrate, as ammonium in high concentrations can be toxic.
+
+**Phosphorus (P):** Essential for energy transfer (ATP), DNA/RNA synthesis and flower formation. During the flowering phase, phosphorus demand increases significantly. Phosphorus is taken up as phosphate (H₂PO₄⁻, HPO₄²⁻) and at incorrect pH is often the first element to precipitate and become unavailable to the plant.
+
+**Potassium (K):** Regulates water transport (osmotic regulation), stomatal function, enzyme activation and carbohydrate transport. Potassium is taken up as K⁺ ions and is particularly important during flowering for resin production and bud density. Adequate potassium levels also increase the plant's stress resistance.
+
+**NPK ratios by growth phase:**
+
+- Seedling/clone: No or minimal fertilisation (week 1–2)
+- Early veg: NPK 2-1-2 or 3-1-2 (low dose)
+- Late veg: NPK 3-1-2 (full dose)
+- Transition to bloom (week 1–2): NPK 2-2-2 (transition)
+- Early bloom (week 3–4): NPK 1-2-3
+- Mid bloom (week 5–6): NPK 0-3-3
+- Late bloom (week 7–8): NPK 0-2-3 (reduced dose)
+- Final 1–2 weeks: Flush (water only)
+
+## Secondary Macronutrients
+
+**Calcium (Ca):** Structural element of cell walls (calcium pectinate), important for cell division and cell elongation. Calcium deficiency appears on new leaves (immobile nutrient). Particularly critical in coco substrate, as coco binds calcium and exchanges it for sodium and potassium. Tap water often contains sufficient calcium; when using reverse osmosis water, calcium must always be supplemented.
+
+**Magnesium (Mg):** Central atom in the chlorophyll molecule – without magnesium, no photosynthesis. Also important for enzyme activation and phosphorus metabolism. Magnesium deficiency shows interveinal chlorosis (yellowing between leaf veins) on middle to lower leaves. Epsom salt (magnesium sulphate, MgSO₄) is the simplest supplement.
+
+**Sulphur (S):** Component of amino acids (cysteine, methionine), vitamins and enzymes. Sulphur is also involved in terpene synthesis. Sulphur deficiency resembles nitrogen deficiency but appears on younger leaves (sulphur is poorly mobile). Most fertiliser lines contain adequate sulphur.
+
+## Micronutrients: Small but Essential
+
+Micronutrients are needed only in traces but are indispensable for enzymatic processes:
+
+**Iron (Fe):** Electron transfer in photosynthesis. Deficiency: interveinal chlorosis on the youngest leaves (white-yellow with green veins). Almost always a pH problem – iron becomes rapidly insoluble at pH >6.5 (soil) or >6.0 (hydro).
+
+**Manganese (Mn):** Involved in photosynthesis (water splitting) and as an enzyme cofactor. Deficiency: interveinal chlorosis with brown spots on younger leaves. Excess: brown dots (manganese toxicity) at pH <5.5.
+
+**Zinc (Zn):** Important for auxin synthesis (growth hormones) and enzyme functions. Deficiency: disrupted growth, small, twisted young leaves. Common at high pH and excess phosphorus (phosphorus blocks zinc uptake).
+
+**Copper (Cu):** Involved in photosynthesis and lignin formation (stem stability). Deficiency rare, but excess is toxic. New leaves become dark green and wilt.
+
+**Boron (B):** Important for cell division, calcium transport and cell wall stability. Deficiency: thickened, deformed growing points, hollow stems. Excess: leaf tip burn.
+
+**Molybdenum (Mo):** Essential for nitrate reductase (conversion of nitrate to ammonium). Deficiency at low pH (<5.5), showing as pale green leaves with curled edges.
+
+## pH Value: The Key to Nutrient Availability
+
+The pH value of irrigation water and substrate determines which nutrients are available to the plant. This is the single most important factor in nutrient management.
+
+**Optimal pH ranges:**
+
+- Soil/compost: 6.0–6.5 (sweet spot: 6.3)
+- Coco: 5.5–6.5 (sweet spot: 5.8–6.0)
+- Hydroponics: 5.5–6.0 (sweet spot: 5.8)
+
+**Why allow fluctuation?** Within the optimal range, it is advisable to slightly vary the pH with each watering (e.g. between 5.8 and 6.2 in coco). Different nutrients have their maximum availability at different pH values. Through fluctuation, all elements can be optimally absorbed at various times.
+
+**Nutrient lockout:** When pH is outside the optimal range, certain nutrients become chemically bound in the substrate and can no longer be taken up by the roots – even if present in sufficient quantities. Typical lockout scenarios:
+
+- pH >7.0: Iron, manganese, zinc, copper, boron become insoluble
+- pH <5.5: Calcium, magnesium, phosphorus become less available
+- pH >6.5 in hydro: almost all micronutrients become problematic
+
+**pH measurement:** Digital pH meters (Bluelab, Apera, Milwaukee) are standard. Calibrate before each use (pH 4.0 and 7.0 reference solutions). Also measure the pH of runoff water – this indicates the actual pH in the substrate. A large difference between input and runoff indicates salt accumulation.
+
+**pH correction:** pH-Down (phosphoric acid or nitric acid), pH-Up (potassium hydroxide or potassium carbonate). In organic living soil systems, pH correction is usually unnecessary – the microbial ecosystem naturally buffers pH.
+
+## EC Value: Measuring Nutrient Concentration
+
+EC stands for Electrical Conductivity and indicates how many dissolved salts (ions) are in the water. The more fertiliser dissolved, the higher the EC value. The unit is mS/cm (millisiemens per centimetre) or µS/cm.
+
+**Guidelines by growth phase:**
+
+- Tap water (base): 0.2–0.5 mS/cm
+- RO water: 0.0–0.05 mS/cm
+- Seedling/clone: 0.4–0.8 mS/cm (total)
+- Early veg: 0.8–1.2 mS/cm
+- Late veg: 1.2–1.6 mS/cm
+- Early bloom: 1.4–1.8 mS/cm
+- Mid/late bloom: 1.6–2.2 mS/cm
+- Flush: 0.0–0.3 mS/cm
+
+**Runoff EC:** As with pH, the EC of runoff water should also be measured. If runoff EC is significantly higher than input EC (e.g. input 1.4, runoff 2.8), it means salts have accumulated in the substrate. A flush with pH-adjusted water (EC 0.0–0.3) dissolves these salts.
+
+**TDS vs. EC:** Some meters display TDS (Total Dissolved Solids) in ppm rather than EC. The conversion factor varies: 1 mS/cm ≈ 500 ppm (US scale, Hanna) or 700 ppm (EU scale, Truncheon). It is best to always work in EC.
+
+## Organic vs. Mineral Fertilisation
+
+**Mineral (synthetic) fertilisers:**
+
+Advantages: Immediately plant-available (ions are directly in soluble form). Precisely dosable. Reproducible results. EC and pH easily measurable and correctable. Cost-effective. Faster nutrient uptake.
+
+Disadvantages: Can quickly cause damage when overdosed. Do not build soil life. Salts can accumulate in the substrate. Flush before harvest recommended/necessary. The resulting product may have a "chemical" taste if not flushed correctly.
+
+Well-known brands: General Hydroponics (Flora series), Advanced Nutrients, CANNA, BioBizz (organic), Plagron.
+
+**Organic fertilisers:**
+
+Advantages: Released slowly by microorganisms – lower burn risk. Promote soil life (microbes, mycorrhizae, bacteria). Produce more complex terpene profiles (many growers consistently report this). Flush before harvest less necessary. More sustainable and environmentally friendly.
+
+Disadvantages: Slower availability – not suitable for quick corrections. More difficult to dose precisely. EC/pH management less predictable. May contain pathogens if improperly composted. Problematic in hydro systems (clog lines, promote algae).
+
+Typical organic fertilisers: Worm castings, bat guano, blood meal (N), bone meal (P), kelp/seaweed (K + trace elements), fish emulsion, compost tea, mycorrhizal inoculants.
+
+**Recommendation:** For beginners, mineral fertilisers are easier to manage. For advanced growers and cannabis social clubs that prioritise terpene quality and sustainability, organic cultivation with living soil is the superior method long-term.
+
+## Recognising Overfeeding and Corrective Action
+
+Overfeeding (nutrient burn) is one of the most common mistakes and shows characteristic symptoms:
+
+**Early signs:** Dark green, almost black-green leaves (nitrogen excess). Leaf tips turn brown and dry (nutrient burn). Leaf tips bend downward like eagle claws (nitrogen toxicity = "The Claw"). Slow, stunted growth despite seemingly good conditions.
+
+**Advanced symptoms:** Brown spots and necrosis on leaves. Leaf edges curl inward. Roots turn brown (salt stress). Nutrient lockout: overdosing one element blocks uptake of others (e.g. too much potassium blocks calcium and magnesium).
+
+**Immediate measures:** Flush with pH-adjusted water – run 2–3× the pot volume through. Measure runoff EC – should drop below 0.5 mS/cm. Give only water for 2–3 days, then restart at 50% of normal fertiliser dose.
+
+## Recognising Underfeeding
+
+Underfeeding develops more slowly but just as clearly:
+
+**General picture:** Pale, yellowish-green leaves (nitrogen deficiency). Slowed growth. Thin stems. Small buds. Premature death of lower leaves.
+
+**Important:** Always check pH before increasing fertiliser! A pH problem can cause identical symptoms to a nutrient deficiency, and more fertiliser would worsen the problem.
+
+## Feeding Schedules: Veg and Bloom
+
+Below is an example feeding schedule for mineral fertilisation in coco substrate. All EC values are totals (including base EC of the water). ml/L figures are guidelines – always measure EC and adjust accordingly.
+
+**Vegetative Phase (Week 1–4):**
+
+Week 1 (after germination): Water only with Cal-Mag 0.5 ml/L. EC: 0.4–0.6. pH: 5.8–6.0. Watering frequency: When pot feels light.
+
+Week 2: Base-A + Base-B 0.5 ml/L each + Cal-Mag 0.5 ml/L. EC: 0.8–1.0. pH: 5.8–6.2. Daily light watering.
+
+Week 3: Base-A + Base-B 1.0 ml/L each + Cal-Mag 0.5 ml/L + root stimulator. EC: 1.0–1.3. pH: 5.8–6.2.
+
+Week 4: Base-A + Base-B 1.5 ml/L each + Cal-Mag 0.5 ml/L. EC: 1.2–1.5. pH: 5.8–6.2. 2–3× daily fertigation in coco.
+
+**Flowering Phase (Week 1–8+):**
+
+Week 1 (bloom trigger 12/12): Base-A + Base-B 1.5 ml/L each + Cal-Mag 0.5 ml/L + PK boost 0.25 ml/L. EC: 1.3–1.6. pH: 5.8–6.2.
+
+Week 2–3: Base-A + Base-B 1.5 ml/L each + Cal-Mag 0.5 ml/L + PK boost 0.5 ml/L. EC: 1.5–1.8. pH: 5.8–6.0.
+
+Week 4–5 (bulk phase): Base-A + Base-B 1.5 ml/L each + Cal-Mag 0.3 ml/L + PK boost 1.0 ml/L. EC: 1.6–2.0. pH: 5.8–6.0.
+
+Week 6–7 (ripening): Base-A + Base-B 1.0 ml/L each + PK boost 0.5 ml/L. EC: 1.2–1.6. pH: 5.8–6.0. Reduce or eliminate Cal-Mag.
+
+Week 8+ (final 7–14 days): Flush – pH-adjusted water only. EC: 0.0–0.3.
+
+**Important notes on the feeding schedule:** This is an example plan – every strain responds differently. Always start at 50% of the manufacturer's recommendation and increase based on plant response. Check runoff EC regularly – if runoff EC exceeds input EC by more than 50%, perform a flush. Coco must always be kept moist – never let it dry out completely. In soil, less fertilisation is needed as the soil itself buffers nutrients.
+
+## Flushing: Purpose and Procedure
+
+The end-of-bloom flush is a controversial topic. With mineral fertilisation it is standard practice; with organic growing it is largely unnecessary.
+
+**Purpose:** Removal of excess salts from the substrate and plant. Promotes degradation of chlorophyll and residual nutrients in the leaves. Improves taste and smoke quality of the final product (less harsh, whiter ash). Leaves begin to yellow – a sign that the plant is mobilising its reserves.
+
+**Procedure:** 7–14 days before the planned harvest, give only pH-adjusted water (pH 5.8–6.0 in coco, 6.0–6.5 in soil). On the first flush day, rinse generously (3× pot volume). Then water normally but without fertiliser. Runoff EC should drop below 0.5 mS/cm within 2–3 days.
+
+**Critical perspective:** A study from the University of Guelph (2020) found no significant difference in taste, ash colour or chemical composition between flushed and unflushed plants with mineral fertilisation. In practice, most experienced growers still report an improvement in taste – possibly due to the natural ripening process during the flush phase rather than the flushing itself.
+
+## Deficiency Symptoms: Quick Reference
+
+| Nutrient | Mobile? | Symptom | Where first? |
+|----------|---------|---------|-------------|
+| N | Yes | Uniform yellowing | Lower leaves |
+| P | Yes | Dark green/purple | Lower leaves |
+| K | Yes | Brown leaf margins | Lower leaves |
+| Ca | No | Brown spots, deformed | Upper leaves |
+| Mg | Yes | Interveinal chlorosis | Middle leaves |
+| Fe | No | Yellow leaves, green veins | Youngest leaves |
+| Mn | No | Chlorosis + brown spots | Younger leaves |
+| Zn | No | Small, twisted leaves | New growth |
+| S | Low | Uniform yellowing | Younger leaves |
+| B | No | Deformed shoot tips | Growing points |
+
+**Mobile vs. Immobile:** Mobile nutrients (N, P, K, Mg) are translocated by the plant from older leaves to young ones – therefore deficiencies first appear on lower, older leaves. Immobile nutrients (Ca, Fe, Mn, Zn, B) cannot be translocated – deficiencies appear on the youngest, uppermost leaves.
+
+Consistently measuring pH and EC and following a structured feeding plan will prevent most nutrient problems from the outset. Reading the plant – regularly inspecting leaves for discolouration and deformations – nonetheless remains the most important skill of any grower.`,
+    tags: [
+      'Nährstoffe',
+      'NPK',
+      'Düngung',
+      'pH-Wert',
+      'EC-Wert',
+      'Makronährstoffe',
+      'Mikronährstoffe',
+      'Organisch',
+      'Mineralisch',
+      'Flush',
+      'Mangel',
+      'Düngeplan',
+    ],
+    reading_time: 30,
+    last_updated: '2026-03-26',
+    related_slugs: [
+      'indoor-anbau-grundlagen',
+      'organischer-anbau',
+      'schaedlinge-krankheiten',
+    ],
+  },
 ];
