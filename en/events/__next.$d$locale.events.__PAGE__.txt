@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[79529,["/_next/static/chunks/0c64cda301de5898.js","/_next/static/chunks/724f515dad775ce7.js","/_next/static/chunks/0166bb7170c9c77e.js","/_next/static/chunks/f0a0488bdcf4d834.js","/_next/static/chunks/c73ed100eb63a7f7.js","/_next/static/chunks/9242d3af216b751f.js"],"WQFPageHero"]
+3:I[3967,["/_next/static/chunks/0c64cda301de5898.js","/_next/static/chunks/724f515dad775ce7.js","/_next/static/chunks/0166bb7170c9c77e.js","/_next/static/chunks/f0a0488bdcf4d834.js","/_next/static/chunks/c73ed100eb63a7f7.js","/_next/static/chunks/9242d3af216b751f.js"],"HeroImage"]
+4:I[87081,["/_next/static/chunks/0c64cda301de5898.js","/_next/static/chunks/724f515dad775ce7.js","/_next/static/chunks/0166bb7170c9c77e.js","/_next/static/chunks/f0a0488bdcf4d834.js","/_next/static/chunks/c73ed100eb63a7f7.js","/_next/static/chunks/9242d3af216b751f.js"],"EventsClient"]
+5:I[80606,["/_next/static/chunks/ec6b7e5d3172cf06.js","/_next/static/chunks/1bcf3ac87ffd6901.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"buildId":"f1wGRU_I-yUgiFuafEogQ","rsc":["$","$1","c",{"children":[[["$","$L2",null,{"label":"Events","title":"Events","subtitle":"Workshops, lectures, assemblies and more – stay informed about our club activities.","accentColor":"gold"}],["$","$L3",null,{"src":"/images/cannabis-plants-outdoor.jpg","alt":"Cannabis plants outdoors","height":"240px"}],["$","$L4",null,{"isDE":false}]],[["$","script","script-0",{"src":"/_next/static/chunks/9242d3af216b751f.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

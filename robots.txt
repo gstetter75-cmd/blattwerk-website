@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blattwerk.dev/sitemap.xml
