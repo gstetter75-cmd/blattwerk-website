@@ -3,7 +3,8 @@ import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { HeroImage } from '@/components/decorative/HeroImage';
 import { EventsClient } from './EventsClient';
-import { BreadcrumbSchema } from '@/lib/schema';
+import { BreadcrumbSchema, EventListSchema } from '@/lib/schema';
+import { upcomingEvents, pastEvents } from '@/data/events';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -27,6 +28,7 @@ export default async function EventsPage({
           { name: isDE ? 'Veranstaltungen' : 'Events', href: '/events' },
         ]}
       />
+      <EventListSchema events={upcomingEvents} locale={locale} />
       <WQFPageHero
         label={isDE ? 'Veranstaltungen' : 'Events'}
         title="Events"
@@ -42,7 +44,7 @@ export default async function EventsPage({
         alt={isDE ? 'Cannabis-Pflanzen im Freien' : 'Cannabis plants outdoors'}
         height="240px"
       />
-      <EventsClient isDE={isDE} />
+      <EventsClient isDE={isDE} upcomingEvents={upcomingEvents} pastEvents={pastEvents} />
     </>
   );
 }

@@ -2,9 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { Clock, MapPin, Users } from 'lucide-react';
+import type { BlattWerkEvent } from '@/data/events';
 
 interface Props {
-  isDE: boolean;
+  readonly isDE: boolean;
+  readonly upcomingEvents: readonly BlattWerkEvent[];
+  readonly pastEvents: readonly BlattWerkEvent[];
 }
 
 function getMonthDay(dateStr: string, isDE: boolean) {
@@ -21,75 +24,7 @@ function getMonthDay(dateStr: string, isDE: boolean) {
   };
 }
 
-export function EventsClient({ isDE }: Props) {
-  const upcomingEvents = [
-    {
-      date: '2026-04-12',
-      time: '18:00',
-      title: isDE ? 'Mitgliederversammlung Q2' : 'Q2 General Assembly',
-      description: isDE
-        ? 'Ordentliche Mitgliederversammlung mit Bericht des Vorstands, Finanzbericht und Abstimmungen.'
-        : 'Regular general assembly with board report, financial report and votes.',
-      location: isDE ? 'Vereinsräume' : 'Club premises',
-      type: isDE ? 'Versammlung' : 'Assembly',
-    },
-    {
-      date: '2026-04-26',
-      time: '15:00',
-      title: isDE ? 'Safer-Use Workshop' : 'Safer Use Workshop',
-      description: isDE
-        ? 'Interaktiver Workshop zu risikominimierendem Konsum, Dosierung und Konsumformen. Offen für alle Mitglieder.'
-        : 'Interactive workshop on risk-minimizing consumption, dosing and consumption methods. Open to all members.',
-      location: isDE ? 'Vereinsräume' : 'Club premises',
-      type: 'Workshop',
-    },
-    {
-      date: '2026-05-10',
-      time: '14:00',
-      title: isDE ? 'Grow-Einführung für Einsteiger' : 'Growing Introduction for Beginners',
-      description: isDE
-        ? 'Grundlagen des Eigenanbaus: Erde, Licht, Wasser und die ersten Schritte mit deinen drei Pflanzen.'
-        : 'Basics of home growing: soil, light, water and the first steps with your three plants.',
-      location: isDE ? 'Vereinsräume' : 'Club premises',
-      type: 'Workshop',
-    },
-  ];
-
-  const pastEvents = [
-    {
-      date: '2026-02-15',
-      title: isDE ? 'Gründungsversammlung' : 'Founding Assembly',
-      description: isDE
-        ? 'Offizielle Gründung des BlattWerk e.V. mit Wahl des Vorstands und Verabschiedung der Satzung.'
-        : 'Official founding of BlattWerk e.V. with election of the board and adoption of the statutes.',
-      type: isDE ? 'Versammlung' : 'Assembly',
-    },
-    {
-      date: '2026-03-01',
-      title: isDE ? 'Informationsabend: Das KCanG' : 'Information Evening: The KCanG',
-      description: isDE
-        ? 'Vortrag und Diskussion zur aktuellen Rechtslage rund um Cannabis in Deutschland.'
-        : 'Presentation and discussion on the current legal situation around cannabis in Germany.',
-      type: isDE ? 'Vortrag' : 'Lecture',
-    },
-    {
-      date: '2026-03-15',
-      title: isDE ? 'Anbaugenehmigung erteilt' : 'Cultivation License Granted',
-      description: isDE
-        ? 'BlattWerk e.V. hat die offizielle Anbaugenehmigung erhalten. Der gemeinschaftliche Anbau kann beginnen!'
-        : 'BlattWerk e.V. has received the official cultivation license. Community growing can begin!',
-      type: isDE ? 'Meilenstein' : 'Milestone',
-    },
-    {
-      date: '2026-03-08',
-      title: isDE ? 'Terpene-Tasting' : 'Terpene Tasting',
-      description: isDE
-        ? 'Sensorische Verkostung verschiedener Terpenprofile – Aromen erkennen und verstehen lernen.'
-        : 'Sensory tasting of different terpene profiles – learning to recognize and understand aromas.',
-      type: 'Workshop',
-    },
-  ];
-
+export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
   return (
     <>
       {/* -- Upcoming events -- */}
@@ -115,6 +50,10 @@ export function EventsClient({ isDE }: Props) {
 
           <div>
             {upcomingEvents.map((event, i) => {
+              const title = isDE ? event.title_de : event.title_en;
+              const description = isDE ? event.description_de : event.description_en;
+              const location = isDE ? (event.location_de ?? 'Vereinsräume') : (event.location_en ?? 'Club premises');
+              const type = isDE ? event.type_de : event.type_en;
               const { month, day, full } = getMonthDay(event.date, isDE);
               return (
                 <motion.div
@@ -145,14 +84,14 @@ export function EventsClient({ isDE }: Props) {
                   <div className="flex-1 min-w-0 border-l border-gold-theme/20 pl-8">
                     <div className="flex items-start justify-between gap-4 mb-2">
                       <h3 className="font-heading font-bold text-xl leading-snug">
-                        {event.title}
+                        {title}
                       </h3>
                       <span className="text-xs font-bold uppercase tracking-[0.15em] font-body shrink-0 mt-1 text-gold-theme">
-                        {event.type}
+                        {type}
                       </span>
                     </div>
                     <p className="text-sm leading-relaxed font-body mb-4 text-ink-muted">
-                      {event.description}
+                      {description}
                     </p>
                     <div className="flex flex-wrap gap-5 text-xs font-mono text-ink-faint">
                       <span className="inline-flex items-center gap-1.5">
@@ -161,7 +100,7 @@ export function EventsClient({ isDE }: Props) {
                       </span>
                       <span className="inline-flex items-center gap-1.5">
                         <MapPin className="w-3.5 h-3.5" />
-                        {event.location}
+                        {location}
                       </span>
                       <span className="text-ink-faint opacity-60">
                         {full}
@@ -198,6 +137,9 @@ export function EventsClient({ isDE }: Props) {
 
           <div style={{ opacity: 0.6 }}>
             {pastEvents.map((event, i) => {
+              const title = isDE ? event.title_de : event.title_en;
+              const description = isDE ? event.description_de : event.description_en;
+              const type = isDE ? event.type_de : event.type_en;
               const { month, day } = getMonthDay(event.date, isDE);
               return (
                 <motion.div
@@ -222,14 +164,14 @@ export function EventsClient({ isDE }: Props) {
                   <div className="flex-1 min-w-0 border-l border-[var(--border)] pl-6">
                     <div className="flex items-start justify-between gap-3 mb-1">
                       <h3 className="font-heading text-base leading-snug text-ink-muted">
-                        {event.title}
+                        {title}
                       </h3>
                       <span className="text-xs font-mono shrink-0 text-ink-faint">
-                        {event.type}
+                        {type}
                       </span>
                     </div>
                     <p className="text-sm leading-relaxed font-body text-ink-faint">
-                      {event.description}
+                      {description}
                     </p>
                   </div>
                 </motion.div>

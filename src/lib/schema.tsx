@@ -4,6 +4,7 @@
  */
 
 import type { ReactNode } from 'react';
+import type { BlattWerkEvent } from '@/data/events';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
@@ -171,7 +172,7 @@ interface FAQItem {
   readonly answer: string;
 }
 
-export function FAQSchema({ items }: { items: readonly FAQItem[] }) {
+export function FAQSchema({ items }: { readonly items: readonly FAQItem[] }) {
   return (
     <JsonLd
       data={{
@@ -187,5 +188,56 @@ export function FAQSchema({ items }: { items: readonly FAQItem[] }) {
         })),
       }}
     />
+  );
+}
+
+/* ── Event (for Google Events Rich Results) ──────────────────────────── */
+
+export function EventListSchema({
+  events,
+  locale = 'de',
+}: {
+  readonly events: readonly BlattWerkEvent[];
+  readonly locale?: string;
+}) {
+  const isDE = locale === 'de';
+  return (
+    <>
+      {events
+        .filter((e) => e.time)
+        .map((event) => (
+          <JsonLd
+            key={event.date + event.title_de}
+            data={{
+              '@context': 'https://schema.org',
+              '@type': 'Event',
+              name: isDE ? event.title_de : event.title_en,
+              description: isDE ? event.description_de : event.description_en,
+              startDate: `${event.date}T${event.time}:00+02:00`,
+              eventAttendanceMode:
+                'https://schema.org/OfflineEventAttendanceMode',
+              eventStatus: 'https://schema.org/EventScheduled',
+              location: {
+                '@type': 'Place',
+                name: isDE
+                  ? event.location_de ?? 'Vereinsräume'
+                  : event.location_en ?? 'Club premises',
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: 'Wetzellplatz 2',
+                  addressLocality: 'Hildesheim',
+                  postalCode: '31137',
+                  addressCountry: 'DE',
+                },
+              },
+              organizer: {
+                '@type': 'Organization',
+                name: 'BlattWerk e.V.',
+                url: BASE_URL,
+              },
+            }}
+          />
+        ))}
+    </>
   );
 }

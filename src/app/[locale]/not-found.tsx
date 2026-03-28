@@ -2,6 +2,11 @@ import { Link } from '@/i18n/navigation';
 import { useLocale } from 'next-intl';
 import { ArrowLeft } from 'lucide-react';
 
+export const metadata = {
+  title: '404 – Seite nicht gefunden | BlattWerk e.V.',
+  robots: { index: false, follow: false },
+};
+
 export default function NotFound() {
   const locale = useLocale();
   const isDE = locale === 'de';
