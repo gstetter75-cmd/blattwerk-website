@@ -7,7 +7,7 @@ import { strains } from '@/data/strains';
 import { allArticles } from '@/data/knowledge';
 import { HomeHero, HomeSection } from '@/components/home/HomeAnimations';
 import { OrganizationSchema, WebSiteSchema } from '@/lib/schema';
-import Image from 'next/image';
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -39,8 +39,8 @@ function HomeContent() {
           HERO — Club story front and center
       ═══════════════════════════════════════ */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cannabis-plant-veg.jpg`}
+        <OptimizedImage
+          src="/images/cannabis-plant-veg.jpg"
           alt={isDE ? 'Cannabis-Pflanze in der Wachstumsphase' : 'Cannabis plant in vegetative growth stage'}
           fill
           className="object-cover"

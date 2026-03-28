@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
+import { OptimizedImage } from '@/components/OptimizedImage';
 import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen } from 'lucide-react';
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
 import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
@@ -96,8 +96,8 @@ export default async function ArticlePage({
           {/* Hero Image */}
           {article.images && article.images.length > 0 && (
             <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${article.images[0].src}`}
+              <OptimizedImage
+                src={article.images[0].src}
                 alt={isDE ? article.images[0].alt_de : article.images[0].alt_en}
                 fill
                 className="object-cover"

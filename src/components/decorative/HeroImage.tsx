@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 interface HeroImageProps {
   readonly src: string;
@@ -17,8 +17,6 @@ export function HeroImage({
   opacity = 0.35,
   gradient = 'both',
 }: HeroImageProps) {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
   const gradientStyles: Record<string, string> = {
     top: 'linear-gradient(to bottom, var(--bg) 0%, transparent 40%)',
     bottom: 'linear-gradient(to top, var(--bg) 0%, transparent 40%)',
@@ -27,11 +25,10 @@ export function HeroImage({
 
   return (
     <section className="relative overflow-hidden border-t border-[var(--border)]" style={{ height }}>
-      <Image
-        src={`${basePath}${src}`}
+      <OptimizedImage
+        src={src}
         alt={alt}
         fill
-        className="object-cover"
         style={{ opacity }}
         sizes="100vw"
       />
