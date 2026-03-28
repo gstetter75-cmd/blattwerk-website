@@ -5,7 +5,7 @@ import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.strains);
+  return createMetadata(locale, PAGE_META.strains, 'sortendatenbank');
 }
 
 export default async function StrainsPage({

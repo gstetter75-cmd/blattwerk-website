@@ -5,7 +5,7 @@ import { PageHero } from '@/components/layout/PageHero';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.privacy);
+  return createMetadata(locale, PAGE_META.privacy, 'datenschutz');
 }
 
 export default async function DatenschutzPage({
@@ -48,7 +48,7 @@ export default async function DatenschutzPage({
     {
       icon: FileText,
       title: '6. Schriftarten',
-      content: `Diese Website verwendet Google Fonts (Fraunces, Plus Jakarta Sans, JetBrains Mono). Die Schriftarten werden beim Build-Prozess heruntergeladen und von unserem eigenen Server ausgeliefert.\n\nEs wird keine Verbindung zu Google-Servern beim Aufrufen der Website hergestellt. Es findet keine Übermittlung von Nutzerdaten an Google statt.`,
+      content: `Diese Website verwendet Google Fonts (Lora, Nunito, Fira Code). Die Schriftarten werden beim Build-Prozess heruntergeladen und von unserem eigenen Server ausgeliefert.\n\nEs wird keine Verbindung zu Google-Servern beim Aufrufen der Website hergestellt. Es findet keine Übermittlung von Nutzerdaten an Google statt.`,
     },
     {
       icon: Eye,
@@ -94,7 +94,7 @@ export default async function DatenschutzPage({
     {
       icon: FileText,
       title: '6. Fonts',
-      content: `This website uses Google Fonts (Fraunces, Plus Jakarta Sans, JetBrains Mono). The fonts are downloaded during the build process and served from our own server.\n\nNo connection to Google servers is made when visiting the website. No user data is transmitted to Google.`,
+      content: `This website uses Google Fonts (Lora, Nunito, Fira Code). The fonts are downloaded during the build process and served from our own server.\n\nNo connection to Google servers is made when visiting the website. No user data is transmitted to Google.`,
     },
     {
       icon: Eye,

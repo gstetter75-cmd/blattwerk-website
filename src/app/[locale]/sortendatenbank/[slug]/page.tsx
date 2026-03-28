@@ -16,13 +16,29 @@ export async function generateMetadata({ params }: PageProps) {
   const strain = getStrainBySlug(slug);
   if (!strain) return {};
 
-  const lang = locale === 'de' ? 'de' : 'en';
-  const description =
-    lang === 'de' ? strain.description_de : strain.description_en;
+  const isDE = locale === 'de';
+  const description = (isDE ? strain.description_de : strain.description_en).slice(0, 160);
+  const dbLabel = isDE ? 'Sortendatenbank' : 'Strain Database';
+  const altLocale = isDE ? 'en' : 'de';
+  const path = `sortendatenbank/${slug}`;
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
   return {
-    title: `${strain.name} – Sortendatenbank | BlattWerk e.V.`,
-    description: description.slice(0, 160),
+    title: `${strain.name} – ${dbLabel} | BlattWerk e.V.`,
+    description,
+    keywords: [strain.name, strain.type, 'Cannabis', 'BlattWerk', dbLabel],
+    openGraph: {
+      title: `${strain.name} – ${dbLabel} | BlattWerk e.V.`,
+      description,
+      type: 'website',
+    },
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/${path}/`,
+      languages: {
+        [altLocale]: `${BASE_URL}/${altLocale}/${path}/`,
+        'x-default': `${BASE_URL}/de/${path}/`,
+      },
+    },
   };
 }
 

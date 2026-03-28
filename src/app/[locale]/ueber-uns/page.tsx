@@ -5,7 +5,7 @@ import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.about);
+  return createMetadata(locale, PAGE_META.about, 'ueber-uns');
 }
 
 export default async function AboutPage({

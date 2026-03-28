@@ -5,7 +5,7 @@
 
 import type { ReactNode } from 'react';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk-ev.de';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
 /* ── Helpers ──────────────────────────────────────────────────────────── */
 
@@ -51,6 +51,30 @@ export function OrganizationSchema() {
         sameAs: [
           'https://www.instagram.com/blattwerk_ev',
         ],
+      }}
+    />
+  );
+}
+
+/* ── WebSite (Homepage — enables Sitelinks Searchbox) ────────────────── */
+
+export function WebSiteSchema() {
+  return (
+    <JsonLd
+      data={{
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'BlattWerk e.V.',
+        url: BASE_URL,
+        inLanguage: ['de-DE', 'en-US'],
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: `${BASE_URL}/de/?q={search_term_string}`,
+          },
+          'query-input': 'required name=search_term_string',
+        },
       }}
     />
   );

@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
+
 interface PageMeta {
   readonly de: { title: string; description: string };
   readonly en: { title: string; description: string };
   readonly noIndex?: boolean;
 }
 
-export function createMetadata(locale: string, meta: PageMeta): Metadata {
+export function createMetadata(locale: string, meta: PageMeta, path = ''): Metadata {
   const t = locale === 'en' ? meta.en : meta.de;
+  const canonical = `${BASE_URL}/${locale}${path ? `/${path}` : ''}/`;
+  const altLocale = locale === 'de' ? 'en' : 'de';
   return {
     title: t.title,
     description: t.description,
+    alternates: {
+      canonical,
+      languages: {
+        [altLocale]: `${BASE_URL}/${altLocale}${path ? `/${path}` : ''}/`,
+        'x-default': `${BASE_URL}/de${path ? `/${path}` : ''}/`,
+      },
+    },
     ...(meta.noIndex ? { robots: { index: false, follow: true } } : {}),
   };
 }

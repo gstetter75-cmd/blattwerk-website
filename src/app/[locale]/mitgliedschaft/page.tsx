@@ -5,7 +5,7 @@ import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.membership);
+  return createMetadata(locale, PAGE_META.membership, 'mitgliedschaft');
 }
 
 const FAQ_ITEMS_DE = [
@@ -31,6 +31,29 @@ const FAQ_ITEMS_DE = [
   },
 ] as const;
 
+const FAQ_ITEMS_EN = [
+  {
+    question: 'How long does the admission process take?',
+    answer: 'The review typically takes 1-2 weeks. You will be notified once your application is approved.',
+  },
+  {
+    question: 'Can I be a member of multiple clubs at the same time?',
+    answer: 'No. The KCanG stipulates that you may only be a member of one cultivation association at a time.',
+  },
+  {
+    question: 'What happens if I want to cancel my membership?',
+    answer: 'Membership can be terminated with three months\' notice at the end of the month.',
+  },
+  {
+    question: 'What rights do I have as a member?',
+    answer: 'You have voting rights at the general assembly, access to the club premises and can obtain cannabis within the legal limits.',
+  },
+  {
+    question: 'What is the minimum age to become a member?',
+    answer: 'You must be at least 21 years old.',
+  },
+] as const;
+
 export default async function MembershipPage({
   params,
 }: {
@@ -49,7 +72,7 @@ export default async function MembershipPage({
           { name: isDE ? 'Mitgliedschaft' : 'Membership', href: '/mitgliedschaft' },
         ]}
       />
-      <FAQSchema items={FAQ_ITEMS_DE} />
+      <FAQSchema items={isDE ? FAQ_ITEMS_DE : FAQ_ITEMS_EN} />
       <MitgliedschaftClient isDE={isDE} />
     </>
   );

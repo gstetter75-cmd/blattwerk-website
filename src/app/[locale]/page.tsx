@@ -6,7 +6,7 @@ import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users } f
 import { strains } from '@/data/strains';
 import { allArticles } from '@/data/knowledge';
 import { HomeHero, HomeSection } from '@/components/home/HomeAnimations';
-import { OrganizationSchema } from '@/lib/schema';
+import { OrganizationSchema, WebSiteSchema } from '@/lib/schema';
 import Image from 'next/image';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -22,6 +22,7 @@ export default async function HomePage({
   return (
     <>
       <OrganizationSchema />
+      <WebSiteSchema />
       <HomeContent />
     </>
   );
@@ -40,7 +41,7 @@ function HomeContent() {
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <Image
           src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cannabis-plant-veg.jpg`}
-          alt=""
+          alt={isDE ? 'Cannabis-Pflanze in der Wachstumsphase' : 'Cannabis plant in vegetative growth stage'}
           fill
           className="object-cover"
           style={{ opacity: 0.12 }}

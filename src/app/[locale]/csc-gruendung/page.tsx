@@ -16,7 +16,7 @@ const PAGE_META = {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META);
+  return createMetadata(locale, PAGE_META, 'csc-gruendung');
 }
 
 export default async function CscGruendungPage({

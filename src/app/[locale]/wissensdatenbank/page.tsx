@@ -6,7 +6,7 @@ import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.knowledge);
+  return createMetadata(locale, PAGE_META.knowledge, 'wissensdatenbank');
 }
 
 export default async function KnowledgeBasePage({

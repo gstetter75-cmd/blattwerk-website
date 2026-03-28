@@ -1,14 +1,45 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock, ArrowRight, Tag } from 'lucide-react';
 import { allCategories, getArticlesByCategory, getCategoryByKey } from '@/data/knowledge';
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
+
 export function generateStaticParams() {
   return allCategories.flatMap((cat) => [
     { locale: 'de', category: cat.key },
     { locale: 'en', category: cat.key },
   ]);
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; category: string }>;
+}): Promise<Metadata> {
+  const { locale, category: categoryKey } = await params;
+  const category = getCategoryByKey(categoryKey);
+  if (!category) return {};
+
+  const isDE = locale === 'de';
+  const label = isDE ? category.label_de : category.label_en;
+  const description = isDE ? category.description_de : category.description_en;
+  const altLocale = isDE ? 'en' : 'de';
+  const path = `wissensdatenbank/${categoryKey}`;
+
+  return {
+    title: `${label} – ${isDE ? 'Wissensdatenbank' : 'Knowledge Base'}`,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/${path}/`,
+      languages: {
+        [altLocale]: `${BASE_URL}/${altLocale}/${path}/`,
+        'x-default': `${BASE_URL}/de/${path}/`,
+      },
+    },
+  };
 }
 
 export default async function CategoryPage({

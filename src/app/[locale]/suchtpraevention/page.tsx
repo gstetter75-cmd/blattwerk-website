@@ -5,7 +5,7 @@ import { HeroImage } from '@/components/decorative/HeroImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return createMetadata(locale, PAGE_META.prevention);
+  return createMetadata(locale, PAGE_META.prevention, 'suchtpraevention');
 }
 
 export default async function PreventionPage({
