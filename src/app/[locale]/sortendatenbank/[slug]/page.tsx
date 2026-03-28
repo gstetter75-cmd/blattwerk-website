@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { strains, getStrainBySlug } from '@/data/strains';
 import { StrainDetail } from '@/components/strains/StrainDetail';
+import { BreadcrumbSchema } from '@/lib/schema';
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -49,5 +50,18 @@ export default async function StrainPage({ params }: PageProps) {
   const strain = getStrainBySlug(slug);
   if (!strain) notFound();
 
-  return <StrainDetail slug={slug} locale={locale} />;
+  const isDE = locale === 'de';
+  return (
+    <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Sortendatenbank' : 'Strain Database', href: '/sortendatenbank' },
+          { name: strain.name, href: `/sortendatenbank/${slug}` },
+        ]}
+      />
+      <StrainDetail slug={slug} locale={locale} />
+    </>
+  );
 }

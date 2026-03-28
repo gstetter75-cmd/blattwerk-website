@@ -2,6 +2,7 @@ import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { SuchtpraeventionClient } from './SuchtpraeventionClient';
 import { HeroImage } from '@/components/decorative/HeroImage';
+import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -18,6 +19,13 @@ export default async function PreventionPage({
   const isDE = locale === 'de';
   return (
     <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Suchtprävention' : 'Addiction Prevention', href: '/suchtpraevention' },
+        ]}
+      />
       <SuchtpraeventionClient isDE={isDE} />
       <HeroImage
         src="/images/knowledge/prevention.jpg"

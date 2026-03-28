@@ -47,11 +47,7 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${lora.variable} ${nunito.variable} ${firaCode.variable}`}
     >
-      <head>
-        <link rel="alternate" hrefLang="de" href={`${BASE_URL}/de/`} />
-        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en/`} />
-        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/de/`} />
-      </head>
+      {/* hreflang links are now rendered per-page via generateMetadata alternates.languages */}
       <body className="bg-bg text-ink font-body antialiased">
         <NextIntlClientProvider messages={messages}>
           <a

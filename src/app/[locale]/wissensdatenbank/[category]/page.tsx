@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock, ArrowRight, Tag } from 'lucide-react';
 import { allCategories, getArticlesByCategory, getCategoryByKey } from '@/data/knowledge';
+import { BreadcrumbSchema } from '@/lib/schema';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
@@ -58,6 +59,14 @@ export default async function CategoryPage({
 
   return (
     <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Wissensdatenbank' : 'Knowledge Base', href: '/wissensdatenbank' },
+          { name: isDE ? category.label_de : category.label_en, href: `/wissensdatenbank/${categoryKey}` },
+        ]}
+      />
       {/* Header */}
       <section className="relative overflow-hidden py-12 lg:py-16 border-b border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

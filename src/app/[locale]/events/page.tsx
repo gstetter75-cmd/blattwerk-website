@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { HeroImage } from '@/components/decorative/HeroImage';
 import { EventsClient } from './EventsClient';
+import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -19,6 +20,13 @@ export default async function EventsPage({
   const isDE = locale === 'de';
   return (
     <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Veranstaltungen' : 'Events', href: '/events' },
+        ]}
+      />
       <WQFPageHero
         label={isDE ? 'Veranstaltungen' : 'Events'}
         title="Events"

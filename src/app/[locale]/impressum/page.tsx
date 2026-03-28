@@ -2,6 +2,7 @@ import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { Building2, Mail, Phone, ScrollText, AlertTriangle, Globe, UserCheck, Shield } from 'lucide-react';
 import { PageHero } from '@/components/layout/PageHero';
+import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -21,6 +22,13 @@ export default async function ImpressumPage({
 
   return (
     <>
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', href: '' },
+          { name: isDE ? 'Impressum' : 'Legal Notice', href: '/impressum' },
+        ]}
+      />
       <PageHero
         title={isDE ? 'Impressum' : 'Legal Notice'}
         subtitle={isDE
