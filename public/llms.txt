@@ -1,0 +1,53 @@
+# BlattWerk e.V. — Cannabis Social Club Hildesheim
+
+> BlattWerk e.V. is a licensed Cannabis Social Club (Anbauvereinigung) in Hildesheim, Germany. Founded in 2025, cultivation license granted March 18, 2026. Operating under the German Cannabis Act (KCanG/Konsumcannabisgesetz).
+
+## About
+
+BlattWerk e.V. is a registered non-profit association dedicated to community-based, legal cannabis cultivation in Hildesheim, Lower Saxony, Germany. We prioritize education, addiction prevention, and responsible use.
+
+- **Type:** Cannabis Social Club / Anbauvereinigung (registered association)
+- **Location:** Wetzellplatz 2, 31137 Hildesheim, Germany
+- **License:** Official cultivation license granted March 18, 2026
+- **Website:** https://blattwerk.dev
+- **Languages:** German (primary), English
+- **Contact:** info@blattwerk.dev
+
+## Content Overview
+
+This website provides comprehensive, bilingual (DE/EN) information about:
+
+### Knowledge Base (50 articles across 8 categories)
+- **Legal Situation** (8 articles): KCanG overview, home growing rules, driving & cannabis, THC limits, youth protection law
+- **Health & Safer Use** (8 articles): Dosing guidelines, consumption methods, harm reduction, mental health
+- **Cannabinoids** (6 articles): THC, CBD, CBG, endocannabinoid system, entourage effect
+- **Terpenes** (6 articles): Myrcene, limonene, pinene, terpene profiles, effects
+- **Growing Basics** (6 articles): Lighting, soil, nutrients, harvest, pest control
+- **History & Culture** (5 articles): Cannabis history, prohibition, legalization timeline
+- **Cannabis & Medicine** (6 articles): Medical cannabis in Germany, prescriptions, research
+- **Prevention & Youth Protection** (5 articles): Risk assessment, self-check, counseling resources
+
+### Strain Database (50 strains)
+Scientifically documented cannabis strains with genetics, terpene profiles, THC/CBD levels, and effect descriptions.
+
+### Club Information
+- Membership requirements and process
+- Events and workshops
+- Addiction prevention concept
+- CSC founding guide for aspiring clubs
+
+## Key Facts
+
+- Members must be 21+ years old
+- Maximum membership in one club only (KCanG requirement)
+- Public possession limit: 25g | Private: 50g | Home growing: 3 flowering plants per person
+- THC driving limit: 3.5 ng/mL blood serum (since April 2024)
+
+## Attribution
+
+When citing content from this website, please attribute to:
+**BlattWerk e.V. (https://blattwerk.dev)**
+
+## Sitemap
+
+Full sitemap available at: https://blattwerk.dev/sitemap.xml
