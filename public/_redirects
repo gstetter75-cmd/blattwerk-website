@@ -1,0 +1,24 @@
+# Redirects from old site structure (pre-2026) to current locale-based URLs
+
+# Old blog/news pages → relevant knowledge base articles
+/cannabis-anbau-anleitung/          /de/wissensdatenbank/growing/    301
+/cannabis-anbau-anleitung           /de/wissensdatenbank/growing/    301
+
+/neuigkeiten/thc-und-fahrtuchtigkeit-/  /de/wissensdatenbank/legal/fuehrerschein-cannabis/  301
+/neuigkeiten/thc-und-fahrtuchtigkeit-   /de/wissensdatenbank/legal/fuehrerschein-cannabis/  301
+/neuigkeiten/thc-und-fahrtuchtigkeit/   /de/wissensdatenbank/legal/fuehrerschein-cannabis/  301
+/neuigkeiten/thc-und-fahrtuchtigkeit    /de/wissensdatenbank/legal/fuehrerschein-cannabis/  301
+
+/neuigkeiten/wirkstoffe/            /de/wissensdatenbank/cannabinoids/  301
+/neuigkeiten/wirkstoffe             /de/wissensdatenbank/cannabinoids/  301
+
+/neuigkeiten/                       /de/events/    301
+/neuigkeiten                        /de/events/    301
+
+/uber-uns/raumlichkeiten/           /de/ueber-uns/    301
+/uber-uns/raumlichkeiten            /de/ueber-uns/    301
+/uber-uns/                          /de/ueber-uns/    301
+/uber-uns                           /de/ueber-uns/    301
+
+# www → non-www (if not handled at DNS/Netlify level)
+https://www.blattwerk.dev/*         https://blattwerk.dev/:splat    301!
