@@ -5,8 +5,7 @@ import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock, ArrowRight, Tag } from 'lucide-react';
 import { allCategories, getArticlesByCategory, getCategoryByKey } from '@/data/knowledge';
 import { BreadcrumbSchema } from '@/lib/schema';
-
-import { BASE_URL } from '@/lib/config';
+import { createAlternates } from '@/lib/metadata';
 
 export function generateStaticParams() {
   return allCategories.flatMap((cat) => [
@@ -27,19 +26,11 @@ export async function generateMetadata({
   const isDE = locale === 'de';
   const label = isDE ? category.label_de : category.label_en;
   const description = isDE ? category.description_de : category.description_en;
-  const altLocale = isDE ? 'en' : 'de';
-  const path = `wissensdatenbank/${categoryKey}`;
 
   return {
     title: `${label} – ${isDE ? 'Wissensdatenbank' : 'Knowledge Base'}`,
     description,
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/${path}/`,
-      languages: {
-        [altLocale]: `${BASE_URL}/${altLocale}/${path}/`,
-        'x-default': `${BASE_URL}/de/${path}/`,
-      },
-    },
+    alternates: createAlternates(locale, `wissensdatenbank/${categoryKey}`),
   };
 }
 

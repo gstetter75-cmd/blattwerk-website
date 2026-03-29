@@ -7,20 +7,24 @@ interface PageMeta {
   readonly noIndex?: boolean;
 }
 
+export function createAlternates(locale: string, path: string) {
+  const altLocale = locale === 'de' ? 'en' : 'de';
+  const fullPath = path ? `/${path}` : '';
+  return {
+    canonical: `${BASE_URL}/${locale}${fullPath}/`,
+    languages: {
+      [altLocale]: `${BASE_URL}/${altLocale}${fullPath}/`,
+      'x-default': `${BASE_URL}/de${fullPath}/`,
+    },
+  };
+}
+
 export function createMetadata(locale: string, meta: PageMeta, path = ''): Metadata {
   const t = locale === 'en' ? meta.en : meta.de;
-  const canonical = `${BASE_URL}/${locale}${path ? `/${path}` : ''}/`;
-  const altLocale = locale === 'de' ? 'en' : 'de';
   return {
     title: t.title,
     description: t.description,
-    alternates: {
-      canonical,
-      languages: {
-        [altLocale]: `${BASE_URL}/${altLocale}${path ? `/${path}` : ''}/`,
-        'x-default': `${BASE_URL}/de${path ? `/${path}` : ''}/`,
-      },
-    },
+    alternates: createAlternates(locale, path),
     ...(meta.noIndex ? { robots: { index: false, follow: true } } : {}),
   };
 }

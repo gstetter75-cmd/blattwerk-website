@@ -5,7 +5,7 @@ import { Link } from '@/i18n/navigation';
 import { ArrowLeft, Clock, Tag, User } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/data/blog';
 import { BreadcrumbSchema, ArticleSchema } from '@/lib/schema';
-import { BASE_URL } from '@/lib/config';
+import { createAlternates } from '@/lib/metadata';
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -26,7 +26,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const isDE = locale === 'de';
   const title = isDE ? post.title_de : post.title_en;
   const description = (isDE ? post.summary_de : post.summary_en).slice(0, 160);
-  const altLocale = isDE ? 'en' : 'de';
 
   return {
     title,
@@ -38,13 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: post.date,
       authors: [post.author],
     },
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/blog/${slug}/`,
-      languages: {
-        [altLocale]: `${BASE_URL}/${altLocale}/blog/${slug}/`,
-        'x-default': `${BASE_URL}/de/blog/${slug}/`,
-      },
-    },
+    alternates: createAlternates(locale, `blog/${slug}`),
   };
 }
 
