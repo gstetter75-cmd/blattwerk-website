@@ -20,5 +20,15 @@
 /uber-uns/                          /de/ueber-uns/    301
 /uber-uns                           /de/ueber-uns/    301
 
+# Old /kontakt subpages → current structure
+/kontakt/impressum/                 /de/impressum/    301
+/kontakt/impressum                  /de/impressum/    301
+/kontakt/der-anbaurat/              /de/ueber-uns/    301
+/kontakt/der-anbaurat               /de/ueber-uns/    301
+/kontakt/der-vorstand/              /de/ueber-uns/    301
+/kontakt/der-vorstand               /de/ueber-uns/    301
+/kontakt/                           /de/kontakt/      301
+/kontakt                            /de/kontakt/      301
+
 # www → non-www (if not handled at DNS/Netlify level)
 https://www.blattwerk.dev/*         https://blattwerk.dev/:splat    301!
