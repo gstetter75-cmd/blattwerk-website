@@ -170,13 +170,19 @@ export function UeberUnsClient({ isDE }: Props) {
             </p>
 
             <div className="grid md:grid-cols-3 gap-5 mb-16">
-              {boardMembers.map(({ role, name, text }) => (
-                <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
-                  <p className="text-xs font-medium text-accent mb-3">{role}</p>
-                  <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
-                  <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
-                </div>
-              ))}
+              {boardMembers.map(({ role, name, text }) => {
+                const initials = name.split(' ').map((n) => n[0]).join('');
+                return (
+                  <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                    <div className="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center font-heading font-bold text-lg mb-4">
+                      {initials}
+                    </div>
+                    <p className="text-xs font-medium text-accent mb-2">{role}</p>
+                    <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
+                    <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
+                  </div>
+                );
+              })}
             </div>
 
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
@@ -189,13 +195,19 @@ export function UeberUnsClient({ isDE }: Props) {
             </p>
 
             <div className="grid md:grid-cols-3 gap-5">
-              {growingCouncil.map(({ role, name, text }) => (
-                <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
-                  <p className="text-xs font-medium text-accent mb-3">{role}</p>
-                  <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
-                  <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
-                </div>
-              ))}
+              {growingCouncil.map(({ role, name, text }) => {
+                const initials = name.split(' ').map((n) => n[0]).join('');
+                return (
+                  <div key={name} className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                    <div className="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center font-heading font-bold text-lg mb-4">
+                      {initials}
+                    </div>
+                    <p className="text-xs font-medium text-accent mb-2">{role}</p>
+                    <h3 className="font-heading font-semibold text-lg mb-2">{name}</h3>
+                    <p className="text-sm text-ink-muted leading-relaxed">{text}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

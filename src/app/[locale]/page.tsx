@@ -77,15 +77,13 @@ function HomeContent() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <a
-                href="https://diehanfapp.de"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/mitgliedschaft"
                 className="inline-flex items-center gap-2.5 px-6 py-3.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90"
                 style={{ background: 'var(--accent)' }}
               >
-                {isDE ? 'Jetzt Mitglied werden' : 'Become a member'} <ArrowRight className="w-4 h-4" />
-              </a>
+                {isDE ? 'Mitglied werden' : 'Become a member'} <ArrowRight className="w-4 h-4" />
+              </Link>
               <Link
                 href="/ueber-uns"
                 className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-medium text-ink-muted border border-[var(--border)] rounded-lg hover:bg-bg-surface transition-colors duration-200"

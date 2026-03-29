@@ -74,7 +74,9 @@ export function MitgliedschaftClient({ isDE }: Props) {
       label: isDE
         ? 'Cannabis-Bezug (zusätzlich zum Beitrag)'
         : 'Cannabis purchase (in addition to fee)',
-      value: isDE ? 'nach Selbstkostenpreis' : 'at cost price',
+      value: isDE
+        ? 'nach Selbstkostenpreis (Anbau, Energie, Material — kein Gewinn)'
+        : 'at cost price (growing, energy, materials — no profit)',
     },
   ];
 
