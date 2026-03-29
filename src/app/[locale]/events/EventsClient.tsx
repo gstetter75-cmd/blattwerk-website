@@ -57,7 +57,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
               const { month, day, full } = getMonthDay(event.date, isDE);
               return (
                 <motion.div
-                  key={i}
+                  key={`${event.date}-${event.title_de}`}
                   initial={{ opacity: 0, y: 24 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
@@ -143,7 +143,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
               const { month, day } = getMonthDay(event.date, isDE);
               return (
                 <motion.div
-                  key={i}
+                  key={`${event.date}-${event.title_de}`}
                   initial={{ opacity: 0, y: 16 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}

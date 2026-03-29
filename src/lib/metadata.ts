@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
+import { BASE_URL } from './config';
 
 interface PageMeta {
   readonly de: { title: string; description: string };

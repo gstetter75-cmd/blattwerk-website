@@ -5,8 +5,7 @@
 
 import type { ReactNode } from 'react';
 import type { BlattWerkEvent } from '@/data/events';
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
+import { BASE_URL } from './config';
 
 /* ── Helpers ──────────────────────────────────────────────────────────── */
 

@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { strains, getStrainBySlug } from '@/data/strains';
 import { StrainDetail } from '@/components/strains/StrainDetail';
 import { BreadcrumbSchema } from '@/lib/schema';
+import { BASE_URL } from '@/lib/config';
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,7 +23,6 @@ export async function generateMetadata({ params }: PageProps) {
   const dbLabel = isDE ? 'Sortendatenbank' : 'Strain Database';
   const altLocale = isDE ? 'en' : 'de';
   const path = `sortendatenbank/${slug}`;
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
   return {
     title: `${strain.name} – ${dbLabel} | BlattWerk e.V.`,

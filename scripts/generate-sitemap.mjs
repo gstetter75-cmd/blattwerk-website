@@ -35,14 +35,14 @@ const allPaths = collectHtmlPaths(OUT_DIR)
   .sort();
 
 // Group DE/EN pairs by their path suffix (e.g. /mitgliedschaft/)
-const dePaths = allPaths.filter((p) => p.startsWith('/de/'));
-const enPaths = new Set(allPaths.filter((p) => p.startsWith('/en/')));
+const dePathsSet = new Set(allPaths.filter((p) => p.startsWith('/de/')));
+const enPathsSet = new Set(allPaths.filter((p) => p.startsWith('/en/')));
 
 function getAlternatePath(path) {
   const suffix = path.replace(/^\/(de|en)/, '');
   const otherLocale = path.startsWith('/de/') ? 'en' : 'de';
   const candidate = `/${otherLocale}${suffix}`;
-  const otherSet = path.startsWith('/de/') ? enPaths : new Set(dePaths);
+  const otherSet = path.startsWith('/de/') ? enPathsSet : dePathsSet;
   return otherSet.has(candidate) ? candidate : null;
 }
 
@@ -54,17 +54,16 @@ const urls = allPaths.map((path) => {
   const locale = path.startsWith('/de/') ? 'de' : 'en';
   const alternate = getAlternatePath(path);
 
-  let hreflangLinks = `
-    <xhtml:link rel="alternate" hreflang="${locale}" href="${BASE_URL}${path}" />`;
-  if (alternate) {
-    const altLocale = locale === 'de' ? 'en' : 'de';
-    hreflangLinks += `
-    <xhtml:link rel="alternate" hreflang="${altLocale}" href="${BASE_URL}${alternate}" />`;
-  }
-  // x-default points to DE version
+  const altLocale = locale === 'de' ? 'en' : 'de';
   const defaultPath = locale === 'de' ? path : alternate || path;
-  hreflangLinks += `
-    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}${defaultPath}" />`;
+  const hreflangEntries = [
+    { lang: locale, p: path },
+    ...(alternate ? [{ lang: altLocale, p: alternate }] : []),
+    { lang: 'x-default', p: defaultPath },
+  ];
+  const hreflangLinks = hreflangEntries
+    .map(({ lang, p }) => `\n    <xhtml:link rel="alternate" hreflang="${lang}" href="${BASE_URL}${p}" />`)
+    .join('');
 
   return `  <url>
     <loc>${BASE_URL}${path}</loc>

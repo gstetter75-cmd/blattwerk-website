@@ -6,7 +6,7 @@ import { ArrowLeft, Clock, ArrowRight, Tag } from 'lucide-react';
 import { allCategories, getArticlesByCategory, getCategoryByKey } from '@/data/knowledge';
 import { BreadcrumbSchema } from '@/lib/schema';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
+import { BASE_URL } from '@/lib/config';
 
 export function generateStaticParams() {
   return allCategories.flatMap((cat) => [

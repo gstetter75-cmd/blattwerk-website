@@ -7,7 +7,6 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://blattwerk.dev';
 
 const lora = Lora({
   subsets: ['latin'],
