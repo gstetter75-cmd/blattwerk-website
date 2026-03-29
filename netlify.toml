@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# No Next.js plugin needed — this is a static export (output: 'export')
+# The @netlify/plugin-nextjs should be removed from Netlify UI under
+# Site configuration → Build & deploy → Build plugins
