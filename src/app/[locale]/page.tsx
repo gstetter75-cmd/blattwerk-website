@@ -66,14 +66,14 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Wir bauen an. Im Sommer ernten wir. Werde Teil davon.'
-                : 'We\'re growing. This summer we harvest. Be part of it.'}
+                ? 'Wir bauen an. Sei Teil davon.'
+                : 'We\'re growing. Be part of it.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">
               {isDE
-                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz und dem Ziel, im Sommer 2026 die erste Ernte zu präsentieren. Gemeinschaft, Qualität und Transparenz.'
-                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license and the goal of presenting our first harvest in summer 2026. Community, quality and transparency.'}
+                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz und aktivem Anbau. Gemeinschaft, Qualität und Transparenz.'
+                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license and active growing. Community, quality and transparency.'}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -107,7 +107,7 @@ function HomeContent() {
               {isDE ? 'Unser Weg' : 'Our Journey'}
             </p>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-12">
-              {isDE ? 'Vom Verein zur ersten Ernte' : 'From club to first harvest'}
+              {isDE ? 'Unser Weg — vom Verein zum aktiven Anbau' : 'Our journey — from club to active growing'}
             </h2>
 
             <div className="grid md:grid-cols-4 gap-6">
@@ -138,7 +138,7 @@ function HomeContent() {
                   status: 'upcoming' as const,
                   title: isDE ? 'Erste Ernte' : 'First harvest',
                   text: isDE ? 'Qualitätsgeprüft, für unsere Mitglieder' : 'Quality-tested, for our members',
-                  date: isDE ? 'Sommer 2026' : 'Summer 2026',
+                  date: isDE ? 'Bald' : 'Soon',
                 },
               ].map(({ icon: Icon, status, title, text, date }) => (
                 <div
@@ -198,8 +198,8 @@ function HomeContent() {
                 </p>
                 <p className="text-ink-muted leading-relaxed mb-8">
                   {isDE
-                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Jetzt bauen wir die Infrastruktur auf — und im Sommer ernten wir gemeinsam.'
-                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Now we\'re building infrastructure — and this summer we harvest together.'}
+                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Jetzt bauen wir an — und du kannst Teil davon sein.'
+                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Now we\'re growing — and you can be part of it.'}
                 </p>
                 <Link
                   href="/ueber-uns"
@@ -242,8 +242,8 @@ function HomeContent() {
             </h2>
             <p className="text-base leading-relaxed opacity-70 max-w-xl mx-auto mb-8">
               {isDE
-                ? 'Wir suchen Mitglieder, die mit uns anbauen, lernen und die erste Ernte feiern wollen. Der Beitritt erfolgt über die Hanf-App.'
-                : 'We\'re looking for members who want to grow, learn and celebrate the first harvest with us. Join via the Hanf-App.'}
+                ? 'Wir suchen Mitglieder, die mit uns anbauen und lernen wollen. Der Beitritt erfolgt über die Hanf-App.'
+                : 'We\'re looking for members who want to grow and learn with us. Join via the Hanf-App.'}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a

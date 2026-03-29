@@ -126,8 +126,8 @@ export function UeberUnsClient({ isDE }: Props) {
                   </p>
                   <p>
                     {isDE
-                      ? 'Am 18. März 2026 haben wir die offizielle Anbaulizenz erhalten. Das war ein Meilenstein — für uns und für Hildesheim. Seitdem arbeiten wir daran, unsere Anbau-Infrastruktur aufzubauen. Im Sommer 2026 wollen wir die erste Ernte präsentieren.'
-                      : 'On March 18, 2026, we received our official cultivation license. That was a milestone — for us and for Hildesheim. Since then, we\'ve been building our growing infrastructure. In summer 2026, we aim to present our first harvest.'}
+                      ? 'Am 18. März 2026 haben wir die offizielle Anbaulizenz erhalten. Das war ein Meilenstein — für uns und für Hildesheim. Seitdem bauen wir an und entwickeln unsere Infrastruktur weiter. Werde Teil davon.'
+                      : 'On March 18, 2026, we received our official cultivation license. That was a milestone — for us and for Hildesheim. Since then, we\'ve been growing and developing our infrastructure. Be part of it.'}
                   </p>
                   <p>
                     {isDE
