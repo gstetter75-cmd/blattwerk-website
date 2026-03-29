@@ -94,8 +94,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
         ? 'Kann ich in mehreren Clubs gleichzeitig Mitglied sein?'
         : 'Can I be a member of multiple clubs at the same time?',
       a: isDE
-        ? 'Nein. Das KCanG schreibt vor, dass man nur in einer Anbauvereinigung gleichzeitig Mitglied sein darf.'
-        : 'No. The KCanG stipulates that you may only be a member of one cultivation association at a time.',
+        ? 'Nein. Das KCanG (Konsumcannabisgesetz) schreibt vor, dass man nur in einer Anbauvereinigung gleichzeitig Mitglied sein darf.'
+        : 'No. The KCanG (German Cannabis Act) stipulates that you may only be a member of one cultivation association at a time.',
     },
     {
       q: isDE

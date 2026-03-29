@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'BlattWerk e.V. – Cannabis Social Club Hildesheim',
     template: '%s | BlattWerk e.V.',
   },
-  description: 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim. Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis im Rahmen des KCanG.',
+  description: 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim. Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis im Rahmen des Konsumcannabisgesetzes (KCanG).',
   keywords: ['Cannabis Social Club', 'Hildesheim', 'BlattWerk', 'KCanG', 'Anbauvereinigung', 'Cannabis', 'Niedersachsen', 'Cannabis Club Hildesheim'],
   other: {
     'geo.region': 'DE-NI',

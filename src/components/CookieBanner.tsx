@@ -12,11 +12,13 @@ const TEXTS = {
   de: {
     title: 'Cookies & Datenschutz',
     text: 'Wir verwenden ausschließlich technisch notwendige Cookies. Keine Tracking- oder Werbe-Cookies.',
+    privacy: 'Datenschutzerklärung',
     acknowledge: 'Verstanden',
   },
   en: {
     title: 'Cookies & Privacy',
     text: 'We only use technically necessary cookies. No tracking or advertising cookies.',
+    privacy: 'Privacy Policy',
     acknowledge: 'Got it',
   },
 } as const;
@@ -55,7 +57,15 @@ export function CookieBanner() {
             </div>
             <div>
               <p className="text-sm font-semibold text-ink mb-1">{t.title}</p>
-              <p className="text-xs text-ink-muted leading-relaxed">{t.text}</p>
+              <p className="text-xs text-ink-muted leading-relaxed">
+                {t.text}{' '}
+                <a
+                  href={`/${locale === 'en' ? 'en' : 'de'}/datenschutz/`}
+                  className="underline text-accent hover:opacity-70 transition-opacity"
+                >
+                  {t.privacy}
+                </a>
+              </p>
             </div>
           </div>
 
