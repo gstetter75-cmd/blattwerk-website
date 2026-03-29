@@ -31,6 +31,7 @@ const navItems: readonly NavItem[] = [
     key: 'more',
     href: '/kontakt',
     children: [
+      { key: 'blog', href: '/blog', description: 'blog_desc' },
       { key: 'events', href: '/events', description: 'events_desc' },
       { key: 'contact', href: '/kontakt', description: 'contact_desc' },
       { key: 'prevention', href: '/suchtpraevention', description: 'prevention_desc' },
