@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Z } from '@/lib/z-index';
 import Image from 'next/image';
 import { SearchDialog } from '@/components/search/SearchDialog';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 interface NavChild {
   readonly key: string;
@@ -199,6 +200,7 @@ export function Header() {
             {/* Right actions */}
             <div className="flex items-center gap-3">
               <SearchDialog />
+              <ThemeToggle />
 
               <button
                 onClick={switchLocale}

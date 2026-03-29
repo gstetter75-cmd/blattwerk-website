@@ -46,7 +46,9 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${lora.variable} ${nunito.variable} ${firaCode.variable}`}
     >
-      {/* hreflang links are now rendered per-page via generateMetadata alternates.languages */}
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: `(function(){try{var t=localStorage.getItem('blattwerk-theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t)}else if(matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})()` }} />
+      </head>
       <body className="bg-bg text-ink font-body antialiased">
         <NextIntlClientProvider messages={messages}>
           <a
