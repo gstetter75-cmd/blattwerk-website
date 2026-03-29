@@ -37,8 +37,19 @@ export function OrganizationSchema() {
           '@type': 'PostalAddress',
           streetAddress: 'Wetzellplatz 2',
           addressLocality: 'Hildesheim',
+          addressRegion: 'Niedersachsen',
           postalCode: '31137',
           addressCountry: 'DE',
+        },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 52.1535,
+          longitude: 9.9515,
+        },
+        areaServed: {
+          '@type': 'City',
+          name: 'Hildesheim',
+          sameAs: 'https://de.wikipedia.org/wiki/Hildesheim',
         },
         contactPoint: [
           {
