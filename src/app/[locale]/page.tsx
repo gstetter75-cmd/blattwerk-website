@@ -115,7 +115,7 @@ function HomeContent() {
                   status: 'done' as const,
                   title: isDE ? 'Vereinsgründung' : 'Club founded',
                   text: isDE ? 'Eingetragen im Vereinsregister Hildesheim' : 'Registered in Hildesheim association register',
-                  date: '2025',
+                  date: '04.09.2025',
                 },
                 {
                   icon: Check,

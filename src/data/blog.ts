@@ -85,7 +85,7 @@ Thank you to all members and supporters who have walked this path with us.`,
   },
   {
     slug: 'vereinsgruendung',
-    date: '2025-11-15',
+    date: '2025-09-04',
     title_de: 'BlattWerk e.V. gegründet',
     title_en: 'BlattWerk e.V. Founded',
     summary_de: 'BlattWerk e.V. ist offiziell im Vereinsregister Hildesheim eingetragen. Der erste Schritt auf unserem Weg zum Cannabis Social Club.',
