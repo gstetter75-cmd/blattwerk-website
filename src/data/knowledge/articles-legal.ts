@@ -270,7 +270,7 @@ Legal home cultivation does not automatically oblige landlords to permit it. Exp
     tags: ['Eigenanbau', 'Homegrow', 'Pflanzen', 'Recht', 'Samen', 'Mietrecht', 'Ernte'],
     reading_time: 17,
     last_updated: '2026-03-26',
-    related_slugs: ['kcang-ueberblick', 'cannabis-social-clubs', 'besitzmengen-konsumzonen', 'indoor-vs-outdoor'],
+    related_slugs: ['kcang-ueberblick', 'cannabis-social-clubs', 'besitzmengen-konsumzonen', 'indoor-anbau-grundlagen'],
   },
 
   {

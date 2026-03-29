@@ -351,7 +351,7 @@ Germany's model occupies a middle ground: cannabis can be prescribed by any phys
   },
 
   {
-    slug: 'endocannabinoid-system',
+    slug: 'endocannabinoid-system-medizin',
     category: 'medicine',
     title_de: 'Das Endocannabinoid-System erklärt',
     title_en: 'The Endocannabinoid System Explained',
@@ -700,7 +700,7 @@ Third, it suggests that a healthy lifestyle – including regular exercise, a ba
     tags: ['Endocannabinoid-System', 'CB1', 'CB2', 'Anandamid', '2-AG', 'FAAH', 'Rezeptoren', 'Neurowissenschaft'],
     reading_time: 20,
     last_updated: '2026-03-26',
-    related_slugs: ['medizinisches-cannabis-deutschland', 'cannabis-forschung-aktuell', 'thc-wirkung-risiken', 'cbd-cannabidiol'],
+    related_slugs: ['medizinisches-cannabis-deutschland', 'cannabis-forschung-aktuell', 'thc', 'cbd'],
   },
 
   {
@@ -991,7 +991,7 @@ Cannabis research has made enormous progress. Established findings include thera
     tags: ['Forschung', 'Wissenschaft', 'Neuroplastizität', 'Schmerz', 'Psychose', 'Fahrtüchtigkeit', 'Langzeitstudien', 'Suchtpotenzial'],
     reading_time: 22,
     last_updated: '2026-03-26',
-    related_slugs: ['endocannabinoid-system', 'medizinisches-cannabis-deutschland', 'thc-wirkung-risiken', 'safer-use-grundlagen'],
+    related_slugs: ['endocannabinoid-system', 'medizinisches-cannabis-deutschland', 'thc', 'safer-use-regeln'],
   },
 
   // ─── SCHMERZTHERAPIE ──────────────────────────────────────────────────────────
