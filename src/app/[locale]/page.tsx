@@ -6,7 +6,7 @@ import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users } f
 import { strains } from '@/data/strains';
 import { allArticles } from '@/data/knowledge';
 import { HomeHero, HomeSection } from '@/components/home/HomeAnimations';
-import { OrganizationSchema, WebSiteSchema } from '@/lib/schema';
+import { OrganizationSchema, WebSiteSchema, LocalBusinessSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -23,6 +23,7 @@ export default async function HomePage({
     <>
       <OrganizationSchema />
       <WebSiteSchema />
+      <LocalBusinessSchema />
       <HomeContent />
     </>
   );

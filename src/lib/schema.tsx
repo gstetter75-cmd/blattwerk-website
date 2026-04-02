@@ -91,6 +91,56 @@ export function WebSiteSchema() {
   );
 }
 
+/* ── LocalBusiness (Contact + Homepage — enables Local Pack) ─────────── */
+
+export function LocalBusinessSchema() {
+  return (
+    <JsonLd
+      data={{
+        '@context': 'https://schema.org',
+        '@type': 'SportsClub',
+        '@id': `${BASE_URL}/#local-business`,
+        name: 'BlattWerk e.V.',
+        description:
+          'Lizenzierter Cannabis Social Club in Hildesheim. Gemeinschaftlicher Anbau, Aufklärung und Prävention nach KCanG.',
+        url: BASE_URL,
+        telephone: '+4915233539841',
+        email: 'info@blattwerk.dev',
+        image: `${BASE_URL}/images/logo.png`,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Wetzellplatz 2',
+          addressLocality: 'Hildesheim',
+          addressRegion: 'Niedersachsen',
+          postalCode: '31137',
+          addressCountry: 'DE',
+        },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 52.1535,
+          longitude: 9.9515,
+        },
+        openingHoursSpecification: [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            opens: '09:00',
+            closes: '18:00',
+          },
+        ],
+        areaServed: {
+          '@type': 'City',
+          name: 'Hildesheim',
+          sameAs: 'https://de.wikipedia.org/wiki/Hildesheim',
+        },
+        sameAs: [
+          'https://www.instagram.com/blattwerk_ev',
+        ],
+      }}
+    />
+  );
+}
+
 /* ── BreadcrumbList ───────────────────────────────────────────────────── */
 
 interface BreadcrumbItem {
@@ -132,6 +182,7 @@ interface ArticleSchemaProps {
   readonly datePublished?: string;
   readonly dateModified?: string;
   readonly readingTime?: number;
+  readonly authorName?: string;
 }
 
 export function ArticleSchema({
@@ -143,7 +194,24 @@ export function ArticleSchema({
   datePublished,
   dateModified,
   readingTime,
+  authorName,
 }: ArticleSchemaProps) {
+  const author = authorName
+    ? {
+        '@type': 'Person' as const,
+        name: authorName,
+        memberOf: {
+          '@type': 'Organization' as const,
+          name: 'BlattWerk e.V.',
+          url: BASE_URL,
+        },
+      }
+    : {
+        '@type': 'Organization' as const,
+        name: 'BlattWerk e.V.',
+        url: BASE_URL,
+      };
+
   return (
     <JsonLd
       data={{
@@ -152,10 +220,7 @@ export function ArticleSchema({
         headline: title,
         description,
         url: `${BASE_URL}/${locale}/wissensdatenbank/${category}/${slug}`,
-        author: {
-          '@type': 'Organization',
-          name: 'BlattWerk e.V.',
-        },
+        author,
         publisher: {
           '@type': 'Organization',
           name: 'BlattWerk e.V.',

@@ -31,36 +31,36 @@ export function createMetadata(locale: string, meta: PageMeta, path = ''): Metad
 
 export const PAGE_META = {
   home: {
-    de: { title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim', description: 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim. Gemeinschaft, Aufklärung und verantwortungsvoller Umgang mit Cannabis im Rahmen des KCanG.' },
-    en: { title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim', description: 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim. Community, education and responsible cannabis use under the KCanG.' },
+    de: { title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim | Lizenzierte Anbauvereinigung', description: 'BlattWerk e.V. ist der lizenzierte Cannabis Social Club in Hildesheim. Anbaulizenz erteilt, aktiver Anbau. Mitglied werden ab 21 Jahren. Gemeinschaft, Aufklärung & Qualität nach KCanG.' },
+    en: { title: 'BlattWerk e.V. – Cannabis Social Club Hildesheim | Licensed Cultivation Club', description: 'BlattWerk e.V. is the licensed Cannabis Social Club in Hildesheim. Cultivation license granted, active growing. Join from age 21. Community, education & quality under KCanG.' },
   },
   about: {
-    de: { title: 'Über uns', description: 'Erfahre mehr über BlattWerk e.V. – unsere Mission, Werte, den Vorstand und die Vereinsstruktur des Cannabis Social Club Hildesheim.' },
-    en: { title: 'About Us', description: 'Learn more about BlattWerk e.V. – our mission, values, the board and the club structure of Cannabis Social Club Hildesheim.' },
+    de: { title: 'Über BlattWerk e.V. – Cannabis Verein Hildesheim | Vorstand & Mission', description: 'Lerne BlattWerk e.V. kennen: Vorstand, Anbaurat, Vereinsregeln und unsere Mission als Cannabis Social Club in Hildesheim. Gegründet 2025, Anbaulizenz seit März 2026.' },
+    en: { title: 'About BlattWerk e.V. – Cannabis Club Hildesheim | Board & Mission', description: 'Meet BlattWerk e.V.: board, growing council, club rules and our mission as Cannabis Social Club in Hildesheim. Founded 2025, cultivation license since March 2026.' },
   },
   membership: {
-    de: { title: 'Mitgliedschaft', description: 'Werde Mitglied bei BlattWerk e.V. – Cannabis Social Club Hildesheim. Voraussetzungen, Aufnahmeprozess, Beiträge und häufige Fragen.' },
-    en: { title: 'Membership', description: 'Become a member of BlattWerk e.V. – Cannabis Social Club Hildesheim. Requirements, admission process, fees and FAQs.' },
+    de: { title: 'Mitglied werden – Cannabis Social Club Hildesheim', description: 'Jetzt Mitglied werden bei BlattWerk e.V. in Hildesheim. Ab 21 Jahren, 5 €/Monat. Voraussetzungen, Aufnahmeprozess über die Hanf-App und häufige Fragen zur Mitgliedschaft.' },
+    en: { title: 'Become a Member – Cannabis Social Club Hildesheim', description: 'Join BlattWerk e.V. in Hildesheim. From age 21, €5/month. Requirements, admission process via Hanf-App and membership FAQs.' },
   },
   strains: {
-    de: { title: 'Sortendatenbank', description: 'Cannabis-Sorten wissenschaftlich dokumentiert. Genetik, Terpenprofil, THC/CBD-Werte und Wirkungsspektrum. BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Strain Database', description: 'Cannabis strains scientifically documented. Genetics, terpene profile, THC/CBD levels and effect spectrum. BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Cannabis-Sortendatenbank – 50 Sorten mit THC, CBD & Terpenprofil', description: '50 Cannabis-Sorten wissenschaftlich dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Filtern nach Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Cannabis Strain Database – 50 Strains with THC, CBD & Terpene Profiles', description: '50 cannabis strains scientifically documented: genetics, terpene profiles, THC/CBD levels, effects and growing info. Filter by indica, sativa, hybrid. BlattWerk e.V. Hildesheim.' },
   },
   knowledge: {
-    de: { title: 'Wissensdatenbank', description: 'Umfassende Wissensdatenbank zu Cannabis: Recht, Medizin, Safer Use, Prävention, Anbau und mehr. 40+ fundierte Artikel von BlattWerk e.V.' },
-    en: { title: 'Knowledge Base', description: 'Comprehensive cannabis knowledge base: law, medicine, safer use, prevention, growing and more. 40+ articles by BlattWerk e.V.' },
+    de: { title: 'Cannabis-Wissensdatenbank – 40+ Artikel zu Recht, Gesundheit & Anbau', description: '40+ fundierte Artikel zu Cannabis: KCanG-Recht, Safer Use, Terpene, Cannabinoide, Indoor-Anbau, Prävention & Jugendschutz. Evidenzbasiert von BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Cannabis Knowledge Base – 40+ Articles on Law, Health & Growing', description: '40+ evidence-based articles on cannabis: KCanG law, safer use, terpenes, cannabinoids, indoor growing, prevention & youth protection. By BlattWerk e.V. Hildesheim.' },
   },
   prevention: {
-    de: { title: 'Suchtprävention', description: 'Unser Präventionskonzept: Aufklärung, Beratung und verantwortungsvoller Umgang mit Cannabis. BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Addiction Prevention', description: 'Our prevention concept: education, counseling and responsible cannabis use. BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Suchtprävention & Cannabis – Konzept, Selbsttest & Beratung', description: 'Suchtpräventionskonzept von BlattWerk e.V.: Selbsteinschätzungstest, Risikofaktoren, lokale Beratungsstellen in Hildesheim und Warnsignale für problematischen Konsum.' },
+    en: { title: 'Addiction Prevention & Cannabis – Concept, Self-Test & Counseling', description: 'Addiction prevention concept by BlattWerk e.V.: self-assessment test, risk factors, local counseling in Hildesheim and warning signs for problematic use.' },
   },
   events: {
-    de: { title: 'Veranstaltungen', description: 'Workshops, Vorträge, Versammlungen und mehr – bleib informiert über die Vereinsaktivitäten von BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Events', description: 'Workshops, lectures, assemblies and more – stay informed about club activities at BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Veranstaltungen & Workshops – Cannabis Social Club Hildesheim', description: 'Workshops, Vorträge und Mitgliederversammlungen bei BlattWerk e.V. in Hildesheim. Safer-Use Workshop, Grow-Einführung und mehr.' },
+    en: { title: 'Events & Workshops – Cannabis Social Club Hildesheim', description: 'Workshops, lectures and member assemblies at BlattWerk e.V. in Hildesheim. Safer-use workshop, grow introduction and more.' },
   },
   contact: {
-    de: { title: 'Kontakt', description: 'Kontaktiere BlattWerk e.V. – Cannabis Social Club Hildesheim. Schreib uns eine Nachricht oder besuche uns vor Ort.' },
-    en: { title: 'Contact', description: 'Contact BlattWerk e.V. – Cannabis Social Club Hildesheim. Send us a message or visit us.' },
+    de: { title: 'Kontakt – BlattWerk e.V. | Wetzellplatz 2, Hildesheim', description: 'Kontaktiere BlattWerk e.V. am Wetzellplatz 2 in Hildesheim. Kontaktformular, Anfahrt, Öffnungszeiten und direkter Draht per E-Mail oder WhatsApp.' },
+    en: { title: 'Contact – BlattWerk e.V. | Wetzellplatz 2, Hildesheim', description: 'Contact BlattWerk e.V. at Wetzellplatz 2 in Hildesheim. Contact form, directions, opening hours and direct contact via email or WhatsApp.' },
   },
   privacy: {
     de: { title: 'Datenschutzerklärung', description: 'Datenschutzerklärung von BlattWerk e.V. – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.' },

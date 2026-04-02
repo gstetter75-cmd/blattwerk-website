@@ -81,6 +81,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         category="blog"
         locale={locale}
         datePublished={post.date}
+        authorName={post.author}
       />
 
       <article className="pt-28 pb-20 lg:pt-36 lg:pb-28">

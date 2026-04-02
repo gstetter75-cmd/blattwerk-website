@@ -4,10 +4,13 @@ import { Instagram, MessageCircle, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 const NAV = [
-  { key: 'about',      href: '/ueber-uns' },
-  { key: 'strains',    href: '/sortendatenbank' },
-  { key: 'knowledge',  href: '/wissensdatenbank' },
-  { key: 'membership', href: '/mitgliedschaft' },
+  { key: 'about',        href: '/ueber-uns' },
+  { key: 'strains',      href: '/sortendatenbank' },
+  { key: 'knowledge',    href: '/wissensdatenbank' },
+  { key: 'membership',   href: '/mitgliedschaft' },
+  { key: 'blog',         href: '/blog' },
+  { key: 'events',       href: '/events' },
+  { key: 'csc_founding', href: '/csc-gruendung' },
 ] as const;
 
 const LEGAL = [

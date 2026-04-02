@@ -7,12 +7,12 @@ import { BreadcrumbSchema } from '@/lib/schema';
 
 const PAGE_META = {
   de: {
-    title: 'Blog – Neuigkeiten von BlattWerk e.V.',
-    description: 'Aktuelle Neuigkeiten, Meilensteine und Einblicke aus dem Cannabis Social Club BlattWerk e.V. Hildesheim.',
+    title: 'Blog & Neuigkeiten – Cannabis Social Club Hildesheim',
+    description: 'Aktuelle Neuigkeiten von BlattWerk e.V.: Anbaulizenz, Vereinsgründung, Anbau-Updates und Meilensteine aus dem Cannabis Social Club Hildesheim.',
   },
   en: {
-    title: 'Blog – News from BlattWerk e.V.',
-    description: 'Latest news, milestones and insights from Cannabis Social Club BlattWerk e.V. Hildesheim.',
+    title: 'Blog & News – Cannabis Social Club Hildesheim',
+    description: 'Latest news from BlattWerk e.V.: cultivation license, founding, growing updates and milestones from Cannabis Social Club Hildesheim.',
   },
 };
 
