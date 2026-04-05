@@ -42,8 +42,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
     {
       title: isDE ? 'Workshops & Wissen' : 'Workshops & Education',
       text: isDE
-        ? 'Zugang zu regelmäßigen Workshops: Safer-Use, Grow-Einführungen, Verkostungen und Vorträge. Dazu unsere Wissensdatenbank mit 40+ Fachartikeln zu Recht, Gesundheit und Anbau.'
-        : 'Access to regular workshops: safer use, grow introductions, tastings and lectures. Plus our knowledge base with 40+ articles on law, health and growing.',
+        ? 'Zugang zu regelmäßigen Workshops: Safer-Use, Grow-Einführungen und Vorträge. Dazu unsere Wissensdatenbank mit Fachartikeln zu Recht, Gesundheit und Anbau.'
+        : 'Access to regular workshops: safer use, grow introductions and lectures. Plus our knowledge base with articles on law, health and growing.',
     },
   ];
 
