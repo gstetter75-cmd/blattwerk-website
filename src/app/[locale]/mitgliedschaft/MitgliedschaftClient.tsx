@@ -68,7 +68,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
     },
     {
       label: isDE ? 'Monatlicher Mitgliedsbeitrag' : 'Monthly membership fee',
-      value: '5,00 €',
+      value: '10,00 €',
     },
     {
       label: isDE
