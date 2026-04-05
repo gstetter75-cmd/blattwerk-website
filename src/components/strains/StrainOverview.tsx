@@ -2,8 +2,9 @@
 
 import { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import { Search, X, SlidersHorizontal, AlertCircle } from 'lucide-react';
+import { Search, X, SlidersHorizontal, AlertCircle, GitCompareArrows } from 'lucide-react';
 import { strains, effectLabels, thcRanges, thcRangesMap } from '@/data/strains';
 import type { Strain } from '@/data/strains';
 import { StrainCard } from './StrainCard';
@@ -154,6 +155,15 @@ export function StrainOverview() {
               ))}
             </select>
 
+            {/* Compare link */}
+            <Link
+              href="/sortendatenbank/vergleich"
+              className="hidden sm:flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border-b border-[var(--border)]"
+            >
+              <GitCompareArrows className="w-4 h-4" />
+              {lang === 'de' ? 'Vergleichen' : 'Compare'}
+            </Link>
+
             {/* Mobile filter toggle */}
             <button
               onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -170,6 +180,14 @@ export function StrainOverview() {
                 </span>
               )}
             </button>
+
+            {/* Mobile compare link */}
+            <Link
+              href="/sortendatenbank/vergleich"
+              className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
+            >
+              <GitCompareArrows className="w-4 h-4" />
+            </Link>
           </div>
 
           <div className="flex gap-0">
