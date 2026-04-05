@@ -39,7 +39,7 @@ const FAQ_ITEMS_DE = [
   },
   {
     question: 'Welche Sorten baut BlattWerk an?',
-    answer: 'Wir planen mit über 50 Sorten — Indica, Sativa und Hybrid — mit unterschiedlichen THC/CBD-Verhältnissen und Terpenprofilen. Alle Sorten findest du in unserer Sortendatenbank.',
+    answer: 'Wir planen mit einer breiten Auswahl an Sorten — Indica, Sativa und Hybrid — mit unterschiedlichen THC/CBD-Verhältnissen und Terpenprofilen. Alle Sorten findest du in unserer Sortendatenbank.',
   },
   {
     question: 'Ist die Mitgliedschaft wirklich legal?',
@@ -82,7 +82,7 @@ const FAQ_ITEMS_EN = [
   },
   {
     question: 'Which strains does BlattWerk grow?',
-    answer: 'We are planning with over 50 strains — indica, sativa and hybrid — with different THC/CBD ratios and terpene profiles. All strains can be found in our strain database.',
+    answer: 'We are planning with a wide selection of strains — indica, sativa and hybrid — with different THC/CBD ratios and terpene profiles. All strains can be found in our strain database.',
   },
   {
     question: 'Is the membership really legal?',

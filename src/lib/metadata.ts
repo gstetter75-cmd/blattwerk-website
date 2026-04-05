@@ -43,8 +43,8 @@ export const PAGE_META = {
     en: { title: 'Become a Member — Cannabis Club Hildesheim', description: 'Join BlattWerk e.V. in Hildesheim. From age 21, €10/month. Requirements, admission process and membership FAQs.' },
   },
   strains: {
-    de: { title: 'Cannabis-Sortendatenbank — 50 Sorten | BlattWerk', description: '50 Cannabis-Sorten dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Cannabis Strain Database — 50 Strains | BlattWerk', description: '50 cannabis strains documented: genetics, terpene profiles, THC/CBD levels, effects and growing info. Indica, sativa, hybrid. BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Cannabis-Sortendatenbank | BlattWerk e.V.', description: 'Cannabis-Sorten dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Cannabis Strain Database | BlattWerk e.V.', description: 'Cannabis strains documented: genetics, terpene profiles, THC/CBD levels, effects and growing info. Indica, sativa, hybrid. BlattWerk e.V. Hildesheim.' },
   },
   knowledge: {
     de: { title: 'Cannabis-Wissensdatenbank — Recht, Anbau & mehr', description: '40+ fundierte Artikel zu Cannabis: KCanG-Recht, Safer Use, Terpene, Cannabinoide, Indoor-Anbau, Prävention. Evidenzbasiert von BlattWerk e.V. Hildesheim.' },
