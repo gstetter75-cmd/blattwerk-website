@@ -1923,4 +1923,100 @@ Drug interactions with cannabis are real, clinically relevant, and in many cases
     last_updated: '2026-03-27',
     related_slugs: ['medizinisches-cannabis-deutschland', 'cannabis-schmerztherapie', 'cannabis-forschung-aktuell', 'endocannabinoid-system'],
   },
+  {
+    slug: 'cannabis-sorten-gegen-schmerzen',
+    category: 'medicine',
+    title_de: 'Cannabis-Sorten gegen Schmerzen — Was die Forschung sagt',
+    title_en: 'Cannabis Strains for Pain — What Research Says',
+    summary_de: 'Welche Cannabinoide und Terpene bei Schmerzen helfen können, welche Sorten sich eignen und was die aktuelle Forschung zeigt — evidenzbasiert und ohne Heilversprechen.',
+    summary_en: 'Which cannabinoids and terpenes may help with pain, which strains are suitable, and what current research shows — evidence-based, without cure promises.',
+    content_de: `## Cannabis und Schmerztherapie — ein Überblick
+
+Cannabis wird seit Jahrtausenden zur Schmerzlinderung eingesetzt. Seit der Legalisierung des medizinischen Cannabis in Deutschland (2017) und der Einführung des KCanG (2024) hat sich die Forschungslage deutlich verbessert. Dieser Artikel fasst den aktuellen Wissensstand zusammen — ohne Heilversprechen.
+
+## Welche Schmerzen spricht Cannabis an?
+
+Die Forschung unterscheidet verschiedene Schmerzarten, bei denen Cannabis unterschiedlich wirksam zu sein scheint:
+
+**Neuropathische Schmerzen (Nervenschmerzen):** Hier zeigt die Evidenz die stärksten Effekte. Studien aus dem Journal of Pain (2015) und der Cochrane Collaboration (2018) belegen moderate bis gute Wirksamkeit bei chronischen neuropathischen Schmerzen — etwa nach Nervenverletzungen, bei Polyneuropathie oder Multiple-Sklerose-bedingten Schmerzen.
+
+**Chronische Entzündungsschmerzen:** Bei Arthritis, Fibromyalgie und ähnlichen Erkrankungen gibt es vielversprechende, aber noch nicht abschließend belastbare Ergebnisse. Die entzündungshemmende Wirkung von CBD und Caryophyllen spielt hier eine Rolle.
+
+**Akute Schmerzen:** Für akute Schmerzen (z.B. nach Operationen) ist Cannabis weniger geeignet als klassische Analgetika. Die Wirkung setzt zu langsam ein und ist zu variabel.
+
+## Welche Wirkstoffe sind relevant?
+
+**THC (Tetrahydrocannabinol):** Aktiviert CB1-Rezeptoren im zentralen Nervensystem und kann die Schmerzwahrnehmung modulieren. Die analgetische Wirkung von THC ist in mehreren klinischen Studien nachgewiesen, geht aber mit psychoaktiven Nebenwirkungen einher.
+
+**CBD (Cannabidiol):** Wirkt über mehrere Mechanismen entzündungshemmend und schmerzmodulierend, ohne psychoaktiv zu sein. CBD hemmt das Enzym FAAH, das den körpereigenen Cannabinoid Anandamid abbaut — und erhöht so indirekt die Aktivität des Endocannabinoid-Systems.
+
+**Caryophyllen:** Das Terpen Beta-Caryophyllen ist der einzige bekannte Terpenoidstoff, der CB2-Rezeptoren aktiviert — und damit entzündungshemmend wirken kann, ohne psychoaktive Effekte auszulösen.
+
+**Myrcen:** Wirkt muskelentspannend und kann die Aufnahme von Cannabinoiden über die Blut-Hirn-Schranke erleichtern, was die analgetische Wirkung von THC verstärken kann.
+
+## Welche Sorten eignen sich bei Schmerzen?
+
+Basierend auf dem aktuellen Forschungsstand und den relevanten Wirkstoffprofilen eignen sich folgende Sortentypen:
+
+**Für den Abend / Entspannung:**
+Sorten mit moderatem THC (15–20%), etwas CBD (2–5%) und hohem Myrcen-Anteil. Beispiele: Northern Lights, Granddaddy Purple, Bubba Kush. Diese wirken körperlich entspannend und können bei Einschlafproblemen durch Schmerzen helfen.
+
+**Für den Tag / funktional:**
+Sorten mit ausgeglichenem THC:CBD-Verhältnis und Pinene/Limonen-Dominanz. Beispiele: Jack Herer, Blue Dream, Harlequin (CBD-reich). Diese wirken klarer und erlauben die Alltagsfunktionalität.
+
+**Maximal entzündungshemmend:**
+Sorten mit hohem CBD-Anteil und Caryophyllen als dominantem Terpen. Diese haben minimale psychoaktive Wirkung, aber starke entzündungshemmende Eigenschaften.
+
+## Wichtige Einschränkungen
+
+Cannabis ist kein Wundermittel. Die aktuelle Evidenzlage zeigt moderate Wirksamkeit bei bestimmten Schmerztypen — nicht bei allen. Cannabis ersetzt keine ärztliche Behandlung. Wer Cannabis zur Schmerzlinderung nutzen möchte, sollte dies mit einem Arzt besprechen. Medizinisches Cannabis auf Rezept ermöglicht eine ärztlich begleitete, dosisgesteuerte Therapie.
+
+Dieser Artikel dient der Information und ersetzt keine ärztliche Beratung.`,
+    content_en: `## Cannabis and Pain Therapy — An Overview
+
+Cannabis has been used for pain relief for millennia. Since the legalization of medical cannabis in Germany (2017) and the introduction of the KCanG (2024), the research landscape has improved significantly. This article summarizes the current state of knowledge — without cure promises.
+
+## What Types of Pain Does Cannabis Address?
+
+Research distinguishes different types of pain where cannabis appears to be variably effective:
+
+**Neuropathic pain (nerve pain):** This is where the evidence shows the strongest effects. Studies from the Journal of Pain (2015) and the Cochrane Collaboration (2018) demonstrate moderate to good efficacy for chronic neuropathic pain — such as after nerve injuries, polyneuropathy, or multiple sclerosis-related pain.
+
+**Chronic inflammatory pain:** For arthritis, fibromyalgia, and similar conditions, there are promising but not yet conclusive results. The anti-inflammatory effects of CBD and caryophyllene play a role here.
+
+**Acute pain:** For acute pain (e.g., post-surgery), cannabis is less suitable than classical analgesics. The effect onset is too slow and too variable.
+
+## Which Active Compounds Are Relevant?
+
+**THC (Tetrahydrocannabinol):** Activates CB1 receptors in the central nervous system and can modulate pain perception. The analgesic effect of THC is documented in several clinical studies but comes with psychoactive side effects.
+
+**CBD (Cannabidiol):** Works through several mechanisms as anti-inflammatory and pain-modulating without being psychoactive. CBD inhibits the enzyme FAAH, which breaks down the endocannabinoid anandamide — thus indirectly increasing endocannabinoid system activity.
+
+**Caryophyllene:** The terpene beta-caryophyllene is the only known terpenoid that activates CB2 receptors — and can thus have anti-inflammatory effects without psychoactive effects.
+
+**Myrcene:** Has muscle-relaxing properties and can facilitate cannabinoid absorption across the blood-brain barrier, potentially enhancing THC's analgesic effect.
+
+## Which Strains Are Suitable for Pain?
+
+Based on current research and relevant compound profiles, the following strain types are suitable:
+
+**For evening / relaxation:**
+Strains with moderate THC (15–20%), some CBD (2–5%), and high myrcene content. Examples: Northern Lights, Granddaddy Purple, Bubba Kush. These are physically relaxing and can help with pain-related sleep problems.
+
+**For daytime / functional:**
+Strains with balanced THC:CBD ratio and pinene/limonene dominance. Examples: Jack Herer, Blue Dream, Harlequin (CBD-rich). These have clearer effects and allow daily functionality.
+
+**Maximum anti-inflammatory:**
+Strains with high CBD content and caryophyllene as the dominant terpene. These have minimal psychoactive effects but strong anti-inflammatory properties.
+
+## Important Limitations
+
+Cannabis is not a miracle cure. Current evidence shows moderate efficacy for certain pain types — not all. Cannabis does not replace medical treatment. Anyone wanting to use cannabis for pain relief should discuss this with a doctor. Medical cannabis on prescription enables physician-guided, dose-controlled therapy.
+
+This article is for information purposes and does not replace medical advice.`,
+    tags: ['Schmerzen', 'Schmerztherapie', 'THC', 'CBD', 'Caryophyllen', 'Nervenschmerzen', 'Entzündung'],
+    reading_time: 10,
+    last_updated: '2026-04-05',
+    related_slugs: ['cannabis-schmerztherapie', 'endocannabinoid-system-medizin', 'medizinisches-cannabis-deutschland', 'wechselwirkungen-medikamente'],
+  },
 ] as const;

@@ -1818,4 +1818,98 @@ Consistently measuring pH and EC and following a structured feeding plan will pr
       'schaedlinge-krankheiten',
     ],
   },
+  {
+    slug: 'cannabis-sorten-anfaenger',
+    category: 'growing',
+    title_de: 'Cannabis-Sorten für Anfänger — Welche Sorte passt zu mir?',
+    title_en: 'Cannabis Strains for Beginners — Which Strain Suits You?',
+    summary_de: 'Nicht jede Sorte ist für Einsteiger geeignet. Wir erklären, worauf du bei der ersten Sortenwahl achten solltest — von THC-Gehalt über Terpene bis zur Konsumform.',
+    summary_en: 'Not every strain is suitable for beginners. We explain what to look for when choosing your first strain — from THC content to terpenes to consumption method.',
+    content_de: `## Warum die Sortenwahl für Anfänger wichtig ist
+
+Cannabis ist nicht gleich Cannabis. Eine Sorte mit 28% THC hat eine völlig andere Wirkung als eine mit 12% THC und 8% CBD. Für Einsteiger ist die Sortenwahl entscheidend für eine positive erste Erfahrung — und dafür, ob Cannabis etwas wird, das man bewusst genießt, oder etwas, das man nach einem schlechten Erlebnis nie wieder anrührt.
+
+## Die goldene Regel: Weniger THC, mehr Kontrolle
+
+Der häufigste Anfängerfehler: eine Sorte mit maximalem THC-Gehalt wählen, weil „stärker = besser". Das Gegenteil ist der Fall. Hohe THC-Werte (über 20%) können bei unerfahrenen Konsumenten Angst, Paranoia und Unwohlsein auslösen.
+
+Unsere Empfehlung für den Einstieg:
+- **THC: 10–15%** — stark genug für eine deutliche Wirkung, aber kontrollierbar
+- **CBD: mindestens 2–5%** — CBD moduliert die THC-Wirkung und reduziert Nebenwirkungen
+- **Terpenprofil:** Myrcen + Limonen als Kombination — entspannend, aber nicht überwältigend
+
+## Gute Einstiegssorten
+
+**Blue Dream** — Ein Hybrid mit moderatem THC (17–21%) und einem ausgeglichenen Terpenprofil (Myrcen, Pinene, Caryophyllen). Wirkt sanft euphorisch und kreativ, ohne zu stark zu sedieren. Eine der beliebtesten Sorten weltweit, weil sie selten negative Nebenwirkungen verursacht.
+
+**Northern Lights** — Ein Indica-Klassiker mit moderatem THC und hohem Myrcen-Anteil. Wirkt körperlich entspannend und beruhigend. Ideal für den Abend. Bekannt für wenig Paranoia-Potenzial.
+
+**Jack Herer** — Ein Sativa-dominanter Hybrid mit klarer, fokussierter Wirkung. Gut für den Tag, kreatives Arbeiten oder soziale Situationen. Pinene-dominant.
+
+**Cannatonic / CBD-reiche Sorten** — Sorten mit hohem CBD-Anteil (8–15% CBD, 5–8% THC) sind ideal für absolute Neulinge. Die Wirkung ist subtil, klar und praktisch ohne Rauschgefühl.
+
+## Worauf du sonst achten solltest
+
+**Konsumform:** Inhalation (Vaporizer) wirkt schneller und lässt sich besser dosieren als essbare Produkte. Beim Vaporisieren merkst du die Wirkung nach 5–15 Minuten. Bei Edibles kann es 1–2 Stunden dauern — und dann oft stärker als erwartet.
+
+**Dosierung:** Starte mit 1–2 Zügen am Vaporizer und warte 15 Minuten. Nachlegen ist immer möglich, rückgängig machen nicht.
+
+**Umgebung:** Ein ruhiger, vertrauter Ort mit Menschen, denen du vertraust. Nicht auf einer Party, nicht allein an einem fremden Ort.
+
+**Nicht mischen:** Kein Alkohol, kein Nikotin, keine anderen Substanzen beim ersten Mal.
+
+## Was du vermeiden solltest
+
+- Sorten mit über 25% THC
+- Konzentrate (Dabs, Wax) — viel zu stark für Einsteiger
+- Edibles ohne Erfahrung mit der Dosierung
+- Konsum unter Zeitdruck oder Stress
+
+In unserer Sortendatenbank kannst du gezielt nach Sorten mit moderatem THC-Gehalt filtern und die Terpenprofile vergleichen.`,
+    content_en: `## Why Strain Choice Matters for Beginners
+
+Cannabis is not all the same. A strain with 28% THC has a completely different effect than one with 12% THC and 8% CBD. For beginners, strain selection is crucial for a positive first experience — and for whether cannabis becomes something you consciously enjoy or something you never touch again after a bad experience.
+
+## The Golden Rule: Less THC, More Control
+
+The most common beginner mistake: choosing a strain with maximum THC because "stronger = better." The opposite is true. High THC levels (over 20%) can trigger anxiety, paranoia, and discomfort in inexperienced users.
+
+Our recommendation for getting started:
+- **THC: 10–15%** — strong enough for a clear effect, but controllable
+- **CBD: at least 2–5%** — CBD modulates THC effects and reduces side effects
+- **Terpene profile:** Myrcene + limonene as a combination — relaxing but not overwhelming
+
+## Good Entry-Level Strains
+
+**Blue Dream** — A hybrid with moderate THC (17–21%) and a balanced terpene profile (myrcene, pinene, caryophyllene). Gently euphoric and creative without being too sedating. One of the most popular strains worldwide because it rarely causes negative side effects.
+
+**Northern Lights** — A classic indica with moderate THC and high myrcene content. Physically relaxing and calming. Ideal for evenings. Known for low paranoia potential.
+
+**Jack Herer** — A sativa-dominant hybrid with a clear, focused effect. Good for daytime, creative work, or social situations. Pinene-dominant.
+
+**Cannatonic / CBD-rich strains** — Strains with high CBD content (8–15% CBD, 5–8% THC) are ideal for absolute newcomers. The effect is subtle, clear, and practically without intoxication.
+
+## What Else to Consider
+
+**Consumption method:** Inhalation (vaporizer) works faster and is easier to dose than edibles. With vaporizing, you feel the effect after 5–15 minutes. With edibles, it can take 1–2 hours — and then often stronger than expected.
+
+**Dosage:** Start with 1–2 puffs on the vaporizer and wait 15 minutes. You can always add more, but you can't undo it.
+
+**Environment:** A quiet, familiar place with people you trust. Not at a party, not alone in an unfamiliar place.
+
+**Don't mix:** No alcohol, no nicotine, no other substances the first time.
+
+## What to Avoid
+
+- Strains with over 25% THC
+- Concentrates (dabs, wax) — far too strong for beginners
+- Edibles without dosing experience
+- Consumption under time pressure or stress
+
+In our strain database, you can specifically filter for strains with moderate THC content and compare terpene profiles.`,
+    tags: ['Anfänger', 'Sortenwahl', 'THC', 'CBD', 'Dosierung', 'Safer Use'],
+    reading_time: 7,
+    last_updated: '2026-04-05',
+    related_slugs: ['indoor-anbau-grundlagen', 'indica-vs-sativa', 'dosierung-einsteiger'],
+  },
 ];

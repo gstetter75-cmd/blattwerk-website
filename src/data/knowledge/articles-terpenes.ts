@@ -1457,4 +1457,94 @@ Terpinolene and humulene are fascinating examples of how much complexity remains
       },
     ],
   },
+  {
+    slug: 'indica-vs-sativa',
+    category: 'terpenes',
+    title_de: 'Indica vs. Sativa — Was ist der echte Unterschied?',
+    title_en: 'Indica vs. Sativa — What Is the Real Difference?',
+    summary_de: 'Die klassische Unterscheidung Indica/Sativa ist wissenschaftlich überholt. Der wahre Unterschied liegt im Terpenprofil und Cannabinoidverhältnis — nicht in der Pflanzenform.',
+    summary_en: 'The classic indica/sativa distinction is scientifically outdated. The real difference lies in the terpene profile and cannabinoid ratio — not the plant shape.',
+    content_de: `## Die Indica/Sativa-Einteilung — ein populärer Irrtum?
+
+Fast jede Sortendatenbank teilt Cannabis in drei Kategorien: Indica, Sativa und Hybrid. Die gängige Erzählung: Indica macht müde und entspannt, Sativa macht wach und kreativ. So einfach ist es leider nicht.
+
+## Was die Wissenschaft sagt
+
+Botanisch gesehen beschreiben Indica und Sativa lediglich die Wuchsform der Pflanze. Indica-Pflanzen sind kompakt, breitblättrig und haben kürzere Blütezeiten. Sativa-Pflanzen sind schlank, schmalblättrig und brauchen länger bis zur Ernte. Diese morphologischen Unterschiede sagen aber nichts über die Wirkung aus.
+
+Studien der Dalhousie University (Kanada, 2015) und der University of British Columbia (2018) haben gezeigt, dass die chemische Zusammensetzung — also die Kombination aus Cannabinoiden und Terpenen — die Wirkung bestimmt, nicht die botanische Klassifizierung.
+
+## Was wirklich die Wirkung bestimmt
+
+Drei Faktoren beeinflussen die Wirkung einer Cannabissorte maßgeblich:
+
+**1. Das Terpenprofil**
+Myrcen-dominante Sorten wirken tendenziell sedierender und körperlich entspannender — unabhängig davon, ob sie als Indica oder Sativa vermarktet werden. Limonen-dominante Sorten wirken eher aufmunternd und stimmungsaufhellend. Caryophyllen hat entzündungshemmende Eigenschaften. Linalool wirkt beruhigend.
+
+**2. Das Cannabinoidverhältnis**
+Das Verhältnis von THC zu CBD ist entscheidender als die Indica/Sativa-Klassifizierung. Sorten mit hohem THC und wenig CBD wirken stärker psychoaktiv. Sorten mit ausgeglichenem THC:CBD-Verhältnis wirken moderater und klarer.
+
+**3. Individuelle Faktoren**
+Körpergewicht, Toleranz, Konsumform, Dosierung, psychischer Zustand und die Umgebung (Set und Setting) beeinflussen die Wirkung mindestens ebenso stark wie die Sorte selbst.
+
+## Warum die Einteilung trotzdem nützlich ist
+
+Obwohl die Indica/Sativa-Unterscheidung wissenschaftlich ungenau ist, hat sie sich als Orientierungshilfe im Alltag bewährt. Die meisten Sorten, die als Indica vermarktet werden, haben tatsächlich höhere Myrcen-Anteile — und wirken daher eher beruhigend. Die meisten Sativa-Sorten haben mehr Limonen und Pinene — und wirken eher anregend.
+
+Die Einteilung ist also nicht falsch, nur unpräzise. Wer Cannabis bewusster auswählen möchte, sollte das Terpenprofil und die Cannabinoidwerte der Sorte berücksichtigen, nicht nur das Label.
+
+## Worauf du beim Sortenkauf achten solltest
+
+Statt dich auf Indica oder Sativa zu verlassen, achte auf:
+
+- **Dominantes Terpen**: Myrcen (entspannend), Limonen (aufheiternd), Pinene (konzentrationsfördernd)
+- **THC-Gehalt**: Weniger ist manchmal mehr, besonders für Einsteiger
+- **CBD-Gehalt**: Ein höherer CBD-Anteil kann die THC-Wirkung modulieren
+- **Persönliche Erfahrung**: Führe ein Konsumtagebuch, um herauszufinden, welche Profile dir am besten gefallen
+
+In unserer Sortendatenbank findest du das vollständige Terpenprofil und die Cannabinoidwerte jeder Sorte — damit du dich nicht auf Labels verlassen musst.`,
+    content_en: `## The Indica/Sativa Classification — a Popular Misconception?
+
+Almost every strain database divides cannabis into three categories: indica, sativa, and hybrid. The common narrative: indica makes you sleepy and relaxed, sativa makes you alert and creative. Unfortunately, it's not that simple.
+
+## What Science Says
+
+Botanically speaking, indica and sativa merely describe the growth form of the plant. Indica plants are compact, broad-leafed, and have shorter flowering times. Sativa plants are slender, narrow-leafed, and take longer to harvest. But these morphological differences say nothing about the effects.
+
+Studies from Dalhousie University (Canada, 2015) and the University of British Columbia (2018) have shown that the chemical composition — the combination of cannabinoids and terpenes — determines the effects, not the botanical classification.
+
+## What Really Determines the Effects
+
+Three factors significantly influence the effects of a cannabis strain:
+
+**1. The Terpene Profile**
+Myrcene-dominant strains tend to be more sedating and physically relaxing — regardless of whether they are marketed as indica or sativa. Limonene-dominant strains tend to be more uplifting and mood-enhancing. Caryophyllene has anti-inflammatory properties. Linalool has calming effects.
+
+**2. The Cannabinoid Ratio**
+The ratio of THC to CBD is more decisive than the indica/sativa classification. Strains with high THC and little CBD have stronger psychoactive effects. Strains with a balanced THC:CBD ratio are more moderate and clearer.
+
+**3. Individual Factors**
+Body weight, tolerance, consumption method, dosage, mental state, and environment (set and setting) influence the effects at least as much as the strain itself.
+
+## Why the Classification Is Still Useful
+
+Although the indica/sativa distinction is scientifically imprecise, it has proven useful as a rough guide. Most strains marketed as indica do have higher myrcene levels — and therefore tend to be more calming. Most sativa strains have more limonene and pinene — and tend to be more stimulating.
+
+So the classification isn't wrong, just imprecise. Anyone who wants to choose cannabis more consciously should consider the terpene profile and cannabinoid values of the strain, not just the label.
+
+## What to Look for When Choosing Strains
+
+Instead of relying on indica or sativa, pay attention to:
+
+- **Dominant terpene**: Myrcene (relaxing), limonene (uplifting), pinene (concentration-enhancing)
+- **THC content**: Less is sometimes more, especially for beginners
+- **CBD content**: A higher CBD percentage can modulate the THC effects
+- **Personal experience**: Keep a consumption journal to find out which profiles suit you best
+
+In our strain database, you'll find the complete terpene profile and cannabinoid values of each strain — so you don't have to rely on labels.`,
+    tags: ['Indica', 'Sativa', 'Hybrid', 'Terpene', 'Wirkung', 'Entourage-Effekt'],
+    reading_time: 8,
+    last_updated: '2026-04-05',
+    related_slugs: ['was-sind-terpene', 'myrcen', 'limonen', 'caryophyllen'],
+  },
 ];

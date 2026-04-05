@@ -18,6 +18,42 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'cannabis-fuehrerschein-2026',
+    date: '2026-04-03',
+    title_de: 'Cannabis und Führerschein 2026 — Die 5 wichtigsten Regeln',
+    title_en: 'Cannabis and Driving License 2026 — The 5 Most Important Rules',
+    summary_de: 'Der THC-Grenzwert liegt bei 3,5 ng/ml, Mischkonsum mit Alkohol ist verboten, und die MPU kann teuer werden. Was du als Cannabis-Konsument über den Führerschein wissen musst.',
+    summary_en: 'The THC limit is 3.5 ng/ml, mixing with alcohol is prohibited, and the MPU can be expensive. What you need to know about driving as a cannabis user.',
+    content_de: `Seit August 2024 gilt für Cannabis im Straßenverkehr ein eigenständiger THC-Grenzwert von 3,5 ng/ml im Blutserum. Damit wurde Cannabis aus dem pauschalen Drogenverbot herausgelöst und einer ähnlichen Regelung wie Alkohol unterstellt. Was bedeutet das konkret für dich?
+
+Regel 1: Der Grenzwert liegt bei 3,5 ng/ml. Wer mit einem THC-Wert über 3,5 ng/ml im Blutserum am Steuer erwischt wird, begeht eine Ordnungswidrigkeit. Erstverstoß: 500 € Bußgeld, 1 Monat Fahrverbot, 2 Punkte in Flensburg. Zweitverstoß: 1.000 €, 3 Monate Fahrverbot. Ab dem dritten Verstoß: 1.500 €, 3 Monate Fahrverbot. Wichtig: Der Grenzwert bezieht sich auf aktives THC im Blutserum, nicht auf THC-COOH (den Abbauwert). THC-COOH ist deutlich länger nachweisbar, wird aber für den Grenzwert nicht herangezogen.
+
+Regel 2: Mischkonsum mit Alkohol ist verboten. Wer Cannabis und Alkohol kombiniert und fährt, begeht unabhängig vom THC-Wert eine Ordnungswidrigkeit. Es gilt eine absolute Null-Toleranz für die Kombination. Auch geringe Alkoholmengen in Kombination mit Cannabis können zu Sanktionen führen.
+
+Regel 3: Fahranfänger haben strengere Regeln. Für Fahranfänger in der Probezeit und Personen unter 21 Jahren gilt ein absolutes Cannabisverbot am Steuer — analog zur 0,0-Promille-Grenze bei Alkohol. Jeder nachweisbare THC-Wert führt zu Sanktionen.
+
+Regel 4: Die MPU kann schnell kommen. Ab dem zweiten Verstoß oder bei hohen THC-Werten kann die Fahrerlaubnisbehörde eine medizinisch-psychologische Untersuchung (MPU) anordnen. Die MPU kostet 350–750 €, dazu kommen Abstinenzprogramme (200–500 €), Vorbereitungskurse (300–1.500 €) und gegebenenfalls Anwaltskosten. Der gesamte Prozess dauert 6–18 Monate.
+
+Regel 5: Zeitliche Trennung ist der einzige sichere Schutz. THC kann je nach Konsumhäufigkeit unterschiedlich lange im Blut nachweisbar sein. Bei gelegentlichem Konsum fällt der aktive THC-Spiegel innerhalb von 6–8 Stunden unter den Grenzwert. Bei regelmäßigem Konsum kann es deutlich länger dauern. Die einzige sichere Regel: Nicht fahren, wenn du konsumiert hast. Im Zweifel lieber einen Tag länger warten.
+
+Unsere Empfehlung: Informiere dich in unserem ausführlichen Artikel „Cannabis und Straßenverkehr" in der Wissensdatenbank über alle Details — inklusive der Regelungen zu Blutentnahme, Polizeikontrollen und Fahrradfahren unter THC-Einfluss.`,
+    content_en: `Since August 2024, there has been a specific THC limit of 3.5 ng/ml in blood serum for cannabis in road traffic. This removed cannabis from the blanket drug prohibition and placed it under a regulation similar to alcohol. What does this mean for you specifically?
+
+Rule 1: The limit is 3.5 ng/ml. Anyone caught driving with a THC level above 3.5 ng/ml in blood serum commits an administrative offense. First offense: €500 fine, 1-month driving ban, 2 points. Second offense: €1,000, 3-month ban. Third offense onwards: €1,500, 3-month ban. Important: The limit refers to active THC in blood serum, not THC-COOH (the metabolite). THC-COOH is detectable much longer but is not used for the limit.
+
+Rule 2: Mixing with alcohol is prohibited. Anyone who combines cannabis and alcohol and drives commits an offense regardless of THC level. There is absolute zero tolerance for the combination. Even small amounts of alcohol combined with cannabis can lead to sanctions.
+
+Rule 3: New drivers face stricter rules. For new drivers in the probationary period and persons under 21, there is an absolute cannabis prohibition while driving — analogous to the 0.0 per mille alcohol limit. Any detectable THC level leads to sanctions.
+
+Rule 4: The MPU can come quickly. From the second offense or with high THC levels, the driver's license authority can order a medical-psychological examination (MPU). The MPU costs €350–750, plus abstinence programs (€200–500), preparation courses (€300–1,500) and potentially lawyer costs. The entire process takes 6–18 months.
+
+Rule 5: Temporal separation is the only safe protection. THC can be detectable in blood for varying lengths of time depending on consumption frequency. With occasional use, active THC levels fall below the limit within 6–8 hours. With regular use, it can take significantly longer. The only safe rule: Don't drive if you've consumed. When in doubt, wait an extra day.
+
+Our recommendation: Read our detailed article "Cannabis and Road Traffic" in our knowledge base for all details — including regulations on blood draws, police stops, and cycling under THC influence.`,
+    tags: ['Führerschein', 'Straßenverkehr', 'THC-Grenzwert', 'MPU', 'Recht'],
+    author: 'Gero Stetter',
+  },
+  {
     slug: 'indoor-anbau-erste-wochen',
     date: '2026-04-05',
     title_de: 'Indoor-Anbau: Unsere ersten Wochen',
