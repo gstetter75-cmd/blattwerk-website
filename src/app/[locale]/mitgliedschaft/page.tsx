@@ -1,6 +1,7 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { MitgliedschaftClient } from './MitgliedschaftClient';
+import { HeroImage } from '@/components/decorative/HeroImage';
 import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -114,6 +115,12 @@ export default async function MembershipPage({
       />
       <FAQSchema items={isDE ? FAQ_ITEMS_DE : FAQ_ITEMS_EN} />
       <MitgliedschaftClient isDE={isDE} />
+      <HeroImage
+        src="/images/cannabis-grow.jpg"
+        alt={isDE ? 'Cannabis-Anbau im Gemeinschaftsgarten' : 'Cannabis cultivation in community garden'}
+        height="240px"
+        gradient="top"
+      />
     </>
   );
 }

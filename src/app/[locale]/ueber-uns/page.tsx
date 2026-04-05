@@ -1,6 +1,7 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { UeberUnsClient } from './UeberUnsClient';
+import { HeroImage } from '@/components/decorative/HeroImage';
 import { BreadcrumbSchema } from '@/lib/schema';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -27,6 +28,12 @@ export default async function AboutPage({
         ]}
       />
       <UeberUnsClient isDE={isDE} />
+      <HeroImage
+        src="/images/cannabis-seedlings.jpg"
+        alt={isDE ? 'Cannabis-Setzlinge im Wachstum' : 'Cannabis seedlings growing'}
+        height="240px"
+        gradient="top"
+      />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { Clock, ArrowRight, Tag } from 'lucide-react';
 import { blogPosts } from '@/data/blog';
+import { HeroImage } from '@/components/decorative/HeroImage';
 import { BreadcrumbSchema } from '@/lib/schema';
 
 const PAGE_META = {
@@ -113,6 +114,13 @@ export default async function BlogPage({
           )}
         </div>
       </section>
+
+      <HeroImage
+        src="/images/cannabis-leaf-dark.jpg"
+        alt={isDE ? 'Cannabis-Blatt im Dunkeln' : 'Cannabis leaf in the dark'}
+        height="200px"
+        gradient="top"
+      />
     </>
   );
 }
