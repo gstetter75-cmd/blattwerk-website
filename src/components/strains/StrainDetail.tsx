@@ -22,6 +22,7 @@ import {
 } from '@/data/strains';
 import type { Strain } from '@/data/strains';
 import { StarRating } from './StarRating';
+import { allArticles } from '@/data/knowledge';
 
 interface StrainDetailProps {
   slug: string;
@@ -74,6 +75,27 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
   const similar = strains
     .filter((s) => s.type === strain.type && s.slug !== strain.slug)
     .sort((a, b) => b.rating - a.rating)
+    .slice(0, 3);
+
+  // Find related knowledge articles based on strain's terpenes, cannabinoids, and growing info
+  const topTerpeneKeys = Object.entries(strain.terpenes)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 2)
+    .map(([key]) => key.toLowerCase());
+
+  const strainKeywords = [
+    ...topTerpeneKeys,
+    'thc', 'cbd',
+    strain.cannabinoids.cbd >= 5 ? 'cbd' : '',
+    strain.growing.difficulty === 'easy' ? 'indoor' : '',
+    'anbau', 'growing', 'terpene', 'cannabinoid',
+  ].filter(Boolean);
+
+  const relatedArticles = allArticles
+    .filter((article) => {
+      const searchText = `${article.title_de} ${article.title_en} ${article.tags.join(' ')} ${article.category}`.toLowerCase();
+      return strainKeywords.some((kw) => searchText.includes(kw));
+    })
     .slice(0, 3);
 
   const sortedEffects = Object.entries(strain.effects)
@@ -365,6 +387,32 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
           ))}
         </div>
       </Section>
+
+      {/* Related Knowledge Articles */}
+      {relatedArticles.length > 0 && (
+        <Section title={lang === 'de' ? 'Weiterführende Artikel' : 'Related Articles'}>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {relatedArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/wissensdatenbank/${article.category}/${article.slug}`}
+                className="block rounded-lg p-4 border border-[var(--border)] hover:border-accent/30 transition-all duration-200 hover:-translate-y-0.5"
+                style={{ background: 'var(--glass)', backdropFilter: 'blur(8px)' }}
+              >
+                <span className="text-xs font-medium text-accent/70 mb-2 block">
+                  {article.reading_time} min
+                </span>
+                <p className="font-heading text-sm text-ink leading-snug mb-1">
+                  {lang === 'de' ? article.title_de : article.title_en}
+                </p>
+                <p className="text-xs text-ink-muted line-clamp-2">
+                  {lang === 'de' ? article.summary_de : article.summary_en}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* Similar Strains */}
       {similar.length > 0 && (

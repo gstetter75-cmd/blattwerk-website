@@ -31,9 +31,9 @@ export function HomeHero({ children }: { children: React.ReactNode }) {
   const prefersReduced = useReducedMotion();
   return (
     <motion.div
-      initial={prefersReduced ? false : { opacity: 0, y: 32 }}
+      initial={prefersReduced ? false : { opacity: 1, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+      transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
       className="w-full"
     >
       {children}

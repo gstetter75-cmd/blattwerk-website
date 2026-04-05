@@ -2,9 +2,10 @@ import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { useTranslations, useLocale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users } from 'lucide-react';
+import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users, Newspaper, Calendar } from 'lucide-react';
 import { strains } from '@/data/strains';
-import { allArticles } from '@/data/knowledge';
+import { allArticles, allCategories } from '@/data/knowledge';
+import { blogPosts } from '@/data/blog';
 import { HomeHero, HomeSection } from '@/components/home/HomeAnimations';
 import { OrganizationSchema, WebSiteSchema, LocalBusinessSchema } from '@/lib/schema';
 import { OptimizedImage } from '@/components/OptimizedImage';
@@ -355,6 +356,72 @@ function HomeContent() {
                   </h3>
                   <p className="text-sm text-ink-muted leading-relaxed line-clamp-2">
                     {isDE ? article.summary_de : article.summary_en}
+                  </p>
+                </Link>
+              ))}
+            </div>
+
+            {/* Knowledge category quick links */}
+            <div className="mt-10 pt-8 border-t border-[var(--border)]">
+              <p className="text-sm font-medium text-ink-muted mb-4">
+                {isDE ? 'Alle Themengebiete' : 'All Topics'}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {allCategories.map((cat) => (
+                  <Link
+                    key={cat.key}
+                    href={`/wissensdatenbank/${cat.key}`}
+                    className="px-3 py-1.5 text-sm rounded-full border border-[var(--border)] bg-bg-elevated text-ink-muted hover:text-accent hover:border-accent/30 transition-colors"
+                  >
+                    {isDE ? cat.label_de : cat.label_en}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* ═══════════════════════════════════════
+          BLOG — latest news
+      ═══════════════════════════════════════ */}
+      <HomeSection>
+        <section className="py-20 lg:py-28">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
+              <div>
+                <p className="text-sm font-medium text-accent mb-3">
+                  <Newspaper className="w-4 h-4 inline-block mr-1.5 -mt-0.5" />
+                  {isDE ? 'Neuigkeiten' : 'News'}
+                </p>
+                <h2 className="font-heading font-bold text-2xl lg:text-3xl leading-tight">
+                  {isDE ? 'Aktuelles aus dem Verein' : 'Latest from the club'}
+                </h2>
+              </div>
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline shrink-0"
+              >
+                {isDE ? 'Alle Beiträge' : 'All posts'} <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-5">
+              {blogPosts.slice(0, 3).map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group p-6 rounded-xl border border-[var(--border)] bg-bg-elevated hover:shadow-md transition-all duration-200"
+                >
+                  <div className="flex items-center gap-2 mb-3">
+                    <Calendar className="w-3.5 h-3.5 text-ink-faint" />
+                    <span className="text-xs font-mono text-ink-faint">{post.date}</span>
+                  </div>
+                  <h3 className="font-heading font-semibold text-base mb-2 group-hover:text-accent transition-colors leading-snug">
+                    {isDE ? post.title_de : post.title_en}
+                  </h3>
+                  <p className="text-sm text-ink-muted leading-relaxed line-clamp-2">
+                    {isDE ? post.summary_de : post.summary_en}
                   </p>
                 </Link>
               ))}
