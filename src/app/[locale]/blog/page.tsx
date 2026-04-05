@@ -44,7 +44,7 @@ export default async function BlogPage({
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-sm font-medium text-accent mb-4">Blog</p>
           <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-4">
-            {isDE ? 'Neuigkeiten' : 'News'}
+            {isDE ? 'Blog — Cannabis Social Club Hildesheim' : 'Blog — Cannabis Social Club Hildesheim'}
           </h1>
           <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
             {isDE

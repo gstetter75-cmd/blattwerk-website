@@ -31,7 +31,7 @@ export default async function EventsPage({
       <EventListSchema events={upcomingEvents} locale={locale} />
       <WQFPageHero
         label={isDE ? 'Veranstaltungen' : 'Events'}
-        title="Events"
+        title={isDE ? 'Veranstaltungen & Workshops — Hildesheim' : 'Events & Workshops — Hildesheim'}
         subtitle={
           isDE
             ? 'Workshops, Vorträge, Versammlungen und mehr – bleib informiert über unsere Vereinsaktivitäten.'

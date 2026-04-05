@@ -70,7 +70,7 @@ export function SuchtpraeventionClient({ isDE }: Props) {
               {isDE ? 'Suchtprävention' : 'Addiction Prevention'}
             </p>
             <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
-              {isDE ? 'Prävention & Hilfe' : 'Prevention & Help'}
+              {isDE ? 'Suchtprävention & Cannabis — Konzept & Hilfe' : 'Addiction Prevention & Cannabis — Concept & Help'}
             </h1>
             <p className="text-lg leading-relaxed max-w-2xl mb-4">
               {isDE

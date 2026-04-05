@@ -40,7 +40,7 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
               {isDE ? 'Wissensdatenbank' : 'Knowledge Base'}
             </p>
             <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
-              {isDE ? 'Wissen' : 'Knowledge'}
+              {isDE ? 'Cannabis-Wissensdatenbank' : 'Cannabis Knowledge Base'}
             </h1>
             <p className="text-lg text-ink-muted leading-relaxed max-w-2xl">
               {isDE

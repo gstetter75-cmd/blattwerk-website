@@ -105,7 +105,7 @@ export function StrainOverview() {
             {lang === 'de' ? 'Sortendatenbank' : 'Strain Database'}
           </p>
           <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-4">
-            {lang === 'de' ? `${strains.length} Sorten dokumentiert` : `${strains.length} strains documented`}
+            {lang === 'de' ? `Cannabis-Sortendatenbank — ${strains.length} Sorten` : `Cannabis Strain Database — ${strains.length} Strains`}
           </h1>
           <p className="text-lg text-ink-muted max-w-2xl">
             {lang === 'de'

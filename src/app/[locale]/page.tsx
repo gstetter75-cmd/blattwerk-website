@@ -68,8 +68,8 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Wir bauen an. Sei Teil davon.'
-                : 'We\'re growing. Be part of it.'}
+                ? 'Cannabis Social Club Hildesheim — Wir bauen an.'
+                : 'Cannabis Social Club Hildesheim — We\'re Growing.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">

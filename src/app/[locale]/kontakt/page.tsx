@@ -32,7 +32,7 @@ export default async function ContactPage({
 
       <WQFPageHero
         label={isDE ? 'Kontakt' : 'Contact'}
-        title={isDE ? 'Kontakt' : 'Contact'}
+        title={isDE ? 'Kontakt — Cannabis Social Club Hildesheim' : 'Contact — Cannabis Social Club Hildesheim'}
         subtitle={
           isDE
             ? 'Du hast Fragen? Schreib uns eine Nachricht oder komm vorbei.'
