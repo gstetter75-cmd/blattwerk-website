@@ -27,4 +27,6 @@ export interface KnowledgeCategory {
   description_de: string;
   description_en: string;
   icon: string;
+  intro_de?: string;
+  intro_en?: string;
 }

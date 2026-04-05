@@ -3,7 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
 import { OptimizedImage } from '@/components/OptimizedImage';
-import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen } from 'lucide-react';
+import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen, User } from 'lucide-react';
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
 import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
 
@@ -61,6 +61,7 @@ export default async function ArticlePage({
         datePublished={article.last_updated}
         dateModified={article.last_updated}
         readingTime={article.reading_time}
+        authorName="Redaktion BlattWerk e.V."
       />
 
       {/* Article Header */}
@@ -77,6 +78,10 @@ export default async function ArticlePage({
             {title}
           </h1>
           <div className="flex flex-wrap items-center gap-4 text-sm text-ink-faint">
+            <span className="inline-flex items-center gap-1.5">
+              <User className="w-4 h-4" />
+              {isDE ? 'Redaktion BlattWerk e.V.' : 'BlattWerk e.V. Editorial'}
+            </span>
             <span className="inline-flex items-center gap-1.5">
               <Clock className="w-4 h-4" />
               {article.reading_time} min {isDE ? 'Lesezeit' : 'read'}
@@ -137,8 +142,28 @@ export default async function ArticlePage({
             ))}
           </div>
 
+          {/* E-E-A-T: Author & Sources */}
+          <div className="mt-10 p-5 rounded-xl border border-[var(--border)] bg-bg-surface">
+            <p className="text-sm font-medium text-ink mb-2">
+              {isDE ? 'Über diesen Artikel' : 'About this article'}
+            </p>
+            <p className="text-xs text-ink-muted leading-relaxed mb-2">
+              {isDE
+                ? 'Verfasst und geprüft von der Redaktion BlattWerk e.V. — lizenzierte Anbauvereinigung in Hildesheim. Unsere Artikel basieren auf dem aktuellen Stand der Gesetzgebung, wissenschaftlichen Publikationen und unserer praktischen Erfahrung als Cannabis Social Club.'
+                : 'Written and reviewed by the BlattWerk e.V. editorial team — licensed cultivation association in Hildesheim. Our articles are based on current legislation, scientific publications and our practical experience as a Cannabis Social Club.'}
+            </p>
+            <p className="text-xs text-ink-faint">
+              {isDE
+                ? `Zuletzt aktualisiert: ${article.last_updated} · Hast du einen Fehler gefunden oder fehlt etwas? `
+                : `Last updated: ${article.last_updated} · Found an error or something missing? `}
+              <Link href="/kontakt" className="text-accent hover:underline">
+                {isDE ? 'Sag uns Bescheid' : 'Let us know'}
+              </Link>
+            </p>
+          </div>
+
           {/* Tags */}
-          <div className="mt-10 pt-6 border-t border-[var(--border)]">
+          <div className="mt-6 pt-6 border-t border-[var(--border)]">
             <div className="flex flex-wrap gap-2">
               {article.tags.map((tag) => (
                 <span

@@ -77,9 +77,27 @@ export default async function CategoryPage({
         </div>
       </section>
 
+      {/* Pillar Content */}
+      {(isDE ? category.intro_de : category.intro_en) && (
+        <section className="py-12 lg:py-16 bg-bg-surface">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="space-y-4">
+              {(isDE ? category.intro_de! : category.intro_en!).split('\n\n').map((p, i) => (
+                <p key={i} className="text-base leading-relaxed text-ink-muted">
+                  {p}
+                </p>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Article List */}
       <section className="py-12 lg:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-heading font-bold text-2xl mb-8">
+            {isDE ? `Alle Artikel — ${category.label_de}` : `All Articles — ${category.label_en}`}
+          </h2>
           <div className="space-y-4">
             {articles.map((article) => (
               <Link
