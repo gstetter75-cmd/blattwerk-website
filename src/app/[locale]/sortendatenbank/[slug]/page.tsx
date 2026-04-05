@@ -4,7 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { strains, getStrainBySlug, typeConfig } from '@/data/strains';
 import { StrainDetail } from '@/components/strains/StrainDetail';
-import { BreadcrumbSchema } from '@/lib/schema';
+import { BreadcrumbSchema, AggregateRatingSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
 
 const TYPE_SLUGS = ['indica', 'sativa', 'hybrid'] as const;
@@ -170,6 +170,7 @@ export default async function StrainPage({ params }: PageProps) {
           { name: strain.name, href: `/sortendatenbank/${slug}` },
         ]}
       />
+      <AggregateRatingSchema strain={strain} locale={locale} />
       <StrainDetail slug={slug} locale={locale} />
     </>
   );

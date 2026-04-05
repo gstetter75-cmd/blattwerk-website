@@ -18,6 +18,170 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'cannabis-social-clubs-niedersachsen',
+    date: '2026-04-10',
+    title_de: 'Cannabis Social Clubs in Niedersachsen — Ein Überblick',
+    title_en: 'Cannabis Social Clubs in Lower Saxony — An Overview',
+    summary_de: 'Wie viele CSCs gibt es in Niedersachsen? Welche Hürden gibt es? Ein Überblick über die Lage der Anbauvereinigungen im Bundesland — mit Blick auf Hildesheim.',
+    summary_en: 'How many CSCs are there in Lower Saxony? What hurdles exist? An overview of cultivation associations in the state — with a focus on Hildesheim.',
+    content_de: `Das Konsumcannabisgesetz (KCanG) ist seit April 2024 in Kraft, doch die Umsetzung verläuft in den Bundesländern unterschiedlich schnell. Niedersachsen gehört zu den Ländern, in denen die Genehmigungsverfahren vergleichsweise strukturiert ablaufen — auch wenn es Herausforderungen gibt.
+
+Stand April 2026 sind in Niedersachsen mehrere Anbauvereinigungen lizenziert, darunter BlattWerk e.V. in Hildesheim. Weitere Clubs befinden sich in Hannover, Braunschweig, Oldenburg und Göttingen in verschiedenen Stadien des Genehmigungsprozesses.
+
+Die Hürden sind überall ähnlich: geeignete Räumlichkeiten finden, ein überzeugendes Suchtpräventionskonzept vorlegen, die Finanzierung sichern und die Geduld für einen Genehmigungsprozess aufbringen, der mehrere Monate dauern kann. In Niedersachsen ist das Landesamt für Verbraucherschutz und Lebensmittelsicherheit (LAVES) die zuständige Behörde.
+
+Was Hildesheim besonders macht: Als mittelgroße Stadt mit rund 100.000 Einwohnern zeigt Hildesheim, dass Cannabis Social Clubs nicht nur in Großstädten funktionieren. Die Nähe zur Gemeinschaft, kürzere Wege und ein engagiertes Netzwerk vor Ort sind echte Vorteile.
+
+Für alle, die selbst einen CSC in Niedersachsen gründen möchten, haben wir auf unserer Seite [CSC gründen](/csc-gruendung) einen ausführlichen Praxisleitfaden zusammengestellt — mit Kostenaufstellung, Zeitplan und unseren eigenen Erfahrungen.
+
+Die Entwicklung der Cannabis Social Clubs in Niedersachsen steht noch am Anfang. Wir sind überzeugt: Je mehr Vereine transparent, professionell und gesetzeskonform arbeiten, desto stärker wird die Akzeptanz in der Gesellschaft wachsen.
+
+Wer Fragen zur Gründung hat oder sich mit uns austauschen möchte, kann uns jederzeit über unser [Kontaktformular](/kontakt) erreichen.`,
+    content_en: `The Cannabis Act (KCanG) has been in effect since April 2024, but implementation varies in speed across German states. Lower Saxony is among those where approval processes run comparatively smoothly — though challenges remain.
+
+As of April 2026, several cultivation associations are licensed in Lower Saxony, including BlattWerk e.V. in Hildesheim. Additional clubs in Hannover, Braunschweig, Oldenburg and Göttingen are at various stages of the approval process.
+
+The hurdles are similar everywhere: finding suitable premises, presenting a convincing addiction prevention concept, securing funding and having the patience for an approval process that can take several months. In Lower Saxony, the State Office for Consumer Protection and Food Safety (LAVES) is the responsible authority.
+
+What makes Hildesheim special: As a mid-sized city with around 100,000 inhabitants, Hildesheim shows that Cannabis Social Clubs don't only work in major cities. Proximity to the community, shorter distances and an engaged local network are real advantages.
+
+For anyone wanting to found a CSC in Lower Saxony, we've compiled a detailed practical guide on our [Start a CSC](/csc-gruendung) page — with cost breakdown, timeline and our own experiences.
+
+The development of Cannabis Social Clubs in Lower Saxony is still in its early stages. We're convinced: the more associations work transparently, professionally and in compliance with the law, the more acceptance will grow in society.
+
+If you have questions about founding a club or want to exchange ideas with us, you can reach us anytime via our [contact form](/kontakt).`,
+    tags: ['Niedersachsen', 'CSC', 'Anbauvereinigung', 'Regional'],
+    author: 'Redaktion BlattWerk e.V.',
+  },
+  {
+    slug: 'mitglied-werden-so-funktionierts',
+    date: '2026-04-08',
+    title_de: 'Mitglied werden bei BlattWerk — So funktioniert\u2019s',
+    title_en: 'Becoming a Member at BlattWerk — How It Works',
+    summary_de: 'Von der Registrierung über die Hanf-App bis zur Identitätsprüfung: Schritt für Schritt erklärt, wie du Mitglied bei BlattWerk e.V. wirst.',
+    summary_en: 'From registration via the Hanf-App to identity verification: A step-by-step guide to becoming a member of BlattWerk e.V.',
+    content_de: `Du überlegst, Mitglied bei BlattWerk e.V. zu werden? Hier erfährst du Schritt für Schritt, wie der Aufnahmeprozess abläuft — transparent und ohne Überraschungen.
+
+**Voraussetzungen**
+
+Bevor du eine Mitgliedsanfrage stellst, prüfe diese Voraussetzungen:
+- Du bist mindestens 21 Jahre alt
+- Du hast deinen Wohnsitz in Deutschland
+- Du bist nicht bereits Mitglied in einer anderen Anbauvereinigung (das KCanG erlaubt nur eine gleichzeitige Mitgliedschaft)
+- Du erfüllst alle gesetzlichen Voraussetzungen nach dem KCanG
+
+**Schritt 1: Registrierung über die Hanf-App**
+
+Die Mitgliedschaft bei BlattWerk beginnt digital: Lade die Hanf-App herunter und registriere dich dort. Suche nach „BlattWerk Hildesheim" und stelle eine Mitgliedsanfrage. Die App ist das offizielle Tool, über das Anbauvereinigungen in Deutschland ihre Mitglieder verwalten.
+
+**Schritt 2: Vorläufige Aufnahme**
+
+Nach deiner Anfrage wirst du als vorläufiges Mitglied zugelassen. Das bedeutet: Dein Antrag wurde registriert, aber du musst noch einen weiteren Schritt erledigen.
+
+**Schritt 3: Identitätsprüfung**
+
+Um deine Mitgliedschaft zu bestätigen, musst du dich persönlich bei einem Vorstandsmitglied vorstellen und deinen Ausweis vorzeigen. Das ist gesetzlich vorgeschrieben — wir müssen sicherstellen, dass alle Angaben korrekt sind und du die Altersvoraussetzung erfüllst.
+
+**Schritt 4: Einführung und Prävention**
+
+Als neues Mitglied erhältst du eine Einführung in die Vereinsregeln, unser Suchtpräventionskonzept und den [Selbsteinschätzungstest](/suchtpraevention). Das ist keine Formalität — das KCanG verpflichtet uns zur aktiven Prävention.
+
+**Kosten**
+
+Der Monatsbeitrag beträgt 10 €. Damit finanzieren wir den Vereinsbetrieb: Miete, Strom, Verwaltung, Präventionsarbeit und den gemeinschaftlichen Anbau. Cannabis wird zum Selbstkostenpreis an Mitglieder abgegeben — wir sind gemeinnützig und nicht gewinnorientiert.
+
+Alle Details findest du auf unserer [Mitgliedschaftsseite](/mitgliedschaft). Bei Fragen erreichst du uns unter info@blattwerk.dev.`,
+    content_en: `Thinking about joining BlattWerk e.V.? Here's a step-by-step guide to the admission process — transparent and without surprises.
+
+**Requirements**
+
+Before submitting a membership request, check these requirements:
+- You are at least 21 years old
+- You reside in Germany
+- You are not already a member of another cultivation association (the KCanG only allows one simultaneous membership)
+- You meet all legal requirements under the KCanG
+
+**Step 1: Register via the Hanf-App**
+
+Membership at BlattWerk starts digitally: Download the Hanf-App and register there. Search for "BlattWerk Hildesheim" and submit a membership request. The app is the official tool through which cultivation associations in Germany manage their members.
+
+**Step 2: Provisional Admission**
+
+After your request, you'll be admitted as a provisional member. This means: Your application has been registered, but you still need to complete one more step.
+
+**Step 3: Identity Verification**
+
+To confirm your membership, you must present yourself in person to a board member and show your ID. This is legally required — we must ensure all information is correct and you meet the age requirement.
+
+**Step 4: Introduction and Prevention**
+
+As a new member, you'll receive an introduction to club rules, our addiction prevention concept and the [self-assessment test](/suchtpraevention). This is not a formality — the KCanG requires us to actively practice prevention.
+
+**Costs**
+
+The monthly fee is €10. This funds club operations: rent, electricity, administration, prevention work and communal cultivation. Cannabis is distributed to members at cost price — we are non-profit.
+
+Find all details on our [membership page](/mitgliedschaft). For questions, reach us at info@blattwerk.dev.`,
+    tags: ['Mitgliedschaft', 'Anleitung', 'Aufnahme', 'Hanf-App'],
+    author: 'Redaktion BlattWerk e.V.',
+  },
+  {
+    slug: 'terpene-verstehen',
+    date: '2026-04-06',
+    title_de: 'Terpene verstehen — Warum Cannabis nicht gleich Cannabis ist',
+    title_en: 'Understanding Terpenes — Why Not All Cannabis Is the Same',
+    summary_de: 'Myrcen, Limonen, Linalool — Terpene bestimmen Geschmack, Geruch und Wirkung von Cannabis. Warum das Terpenprofil wichtiger ist als Indica oder Sativa.',
+    summary_en: 'Myrcene, limonene, linalool — terpenes determine the taste, smell and effect of cannabis. Why the terpene profile matters more than indica or sativa.',
+    content_de: `Wer sich mit Cannabis beschäftigt, stößt schnell auf Begriffe wie THC und CBD. Doch die eigentliche Vielfalt von Cannabis liegt in den Terpenen — aromatischen Verbindungen, die Geschmack, Geruch und vor allem die Wirkung entscheidend beeinflussen.
+
+**Was sind Terpene?**
+
+Terpene sind flüchtige organische Verbindungen, die in vielen Pflanzen vorkommen — nicht nur in Cannabis. Lavendel enthält Linalool, Zitronen enthalten Limonen, Hopfen enthält Myrcen. In Cannabis wurden über 200 verschiedene Terpene identifiziert, wobei eine Handvoll die Wirkung dominiert.
+
+**Die wichtigsten Cannabis-Terpene**
+
+*Myrcen* ist das häufigste Terpen in Cannabis und verantwortlich für erdige, moschusartige Aromen. Hoher Myrcen-Anteil wird mit entspannender, sedierender Wirkung assoziiert. Sorten mit über 0,5% Myrcen gelten als besonders körperbetont.
+
+*Limonen* riecht nach Zitrusfrüchten und wird mit stimmungsaufhellender, energetisierender Wirkung in Verbindung gebracht. Sorten mit hohem Limonen-Anteil eignen sich tendenziell besser für Tagesaktivitäten.
+
+*Linalool* kennt man aus Lavendel — blumig, beruhigend. In Cannabis trägt Linalool zu angstlösenden und entspannenden Eigenschaften bei.
+
+*Pinene* riecht nach Kiefernwald und wird mit Klarheit und Fokus assoziiert. Interessant: Pinene kann dem „Vergesslichkeitseffekt" von THC entgegenwirken.
+
+*Caryophyllen* ist einzigartig, weil es als einziges Terpen direkt an Cannabinoid-Rezeptoren (CB2) bindet. Es hat entzündungshemmende Eigenschaften und schmeckt pfeffrig-würzig.
+
+**Warum Indica vs. Sativa irreführend ist**
+
+Die klassische Einteilung in Indica (entspannend) und Sativa (anregend) basiert auf Wuchsform, nicht auf Wirkung. In der Realität bestimmt das Terpenprofil — zusammen mit dem Cannabinoidverhältnis — wie eine Sorte wirkt. Eine „Sativa" mit hohem Myrcen-Anteil kann durchaus sedierend wirken, während eine „Indica" mit viel Limonen energetisierend sein kann.
+
+In unserer [Sortendatenbank](/sortendatenbank) findest du für jede Sorte das vollständige Terpenprofil. Mehr über die Wissenschaft hinter Terpenen erfährst du in unserer [Wissensdatenbank](/wissensdatenbank).`,
+    content_en: `Anyone exploring cannabis quickly encounters terms like THC and CBD. But the real diversity of cannabis lies in terpenes — aromatic compounds that decisively influence taste, smell and especially effects.
+
+**What Are Terpenes?**
+
+Terpenes are volatile organic compounds found in many plants — not just cannabis. Lavender contains linalool, lemons contain limonene, hops contain myrcene. Over 200 different terpenes have been identified in cannabis, though a handful dominate the effects.
+
+**The Most Important Cannabis Terpenes**
+
+*Myrcene* is the most common terpene in cannabis, responsible for earthy, musky aromas. High myrcene content is associated with relaxing, sedating effects. Strains with over 0.5% myrcene are considered particularly body-focused.
+
+*Limonene* smells like citrus fruits and is associated with mood-lifting, energizing effects. Strains high in limonene tend to be better suited for daytime activities.
+
+*Linalool* is known from lavender — floral, calming. In cannabis, linalool contributes to anxiety-reducing and relaxing properties.
+
+*Pinene* smells like pine forest and is associated with clarity and focus. Interestingly, pinene can counteract the "forgetfulness effect" of THC.
+
+*Caryophyllene* is unique because it's the only terpene that directly binds to cannabinoid receptors (CB2). It has anti-inflammatory properties and tastes peppery-spicy.
+
+**Why Indica vs. Sativa Is Misleading**
+
+The classic division into indica (relaxing) and sativa (stimulating) is based on growth form, not effects. In reality, the terpene profile — together with the cannabinoid ratio — determines how a strain works. A "sativa" with high myrcene can be quite sedating, while an "indica" with lots of limonene can be energizing.
+
+In our [strain database](/sortendatenbank), you'll find the complete terpene profile for every strain. Learn more about the science behind terpenes in our [knowledge base](/wissensdatenbank).`,
+    tags: ['Terpene', 'Wissen', 'Wirkung', 'Myrcen', 'Limonen'],
+    author: 'Redaktion BlattWerk e.V.',
+  },
+  {
     slug: 'cannabis-fuehrerschein-2026',
     date: '2026-04-03',
     title_de: 'Cannabis und Führerschein 2026 — Die 5 wichtigsten Regeln',

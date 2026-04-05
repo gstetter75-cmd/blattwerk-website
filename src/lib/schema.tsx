@@ -5,6 +5,7 @@
 
 import type { ReactNode } from 'react';
 import type { BlattWerkEvent } from '@/data/events';
+import type { Strain } from '@/data/strains/types';
 import { BASE_URL } from './config';
 
 /* ── Helpers ──────────────────────────────────────────────────────────── */
@@ -102,7 +103,7 @@ export function LocalBusinessSchema() {
         '@id': `${BASE_URL}/#local-business`,
         name: 'BlattWerk e.V.',
         description:
-          'Lizenzierter Cannabis Social Club in Hildesheim. Gemeinschaftlicher Anbau, Aufklärung und Prävention nach KCanG.',
+          'Lizenzierter Cannabis Social Club in Hildesheim. Vereinsbüro am Wetzellplatz — Aufklärung, Prävention und Mitgliederbetreuung nach KCanG.',
         url: BASE_URL,
         telephone: '+4915233539841',
         email: 'info@blattwerk.dev',
@@ -261,6 +262,35 @@ export function FAQSchema({ items }: { readonly items: readonly FAQItem[] }) {
             text: faq.answer,
           },
         })),
+      }}
+    />
+  );
+}
+
+/* ── AggregateRating (Strain Detail — enables Review Stars) ──────────── */
+
+export function AggregateRatingSchema({
+  strain,
+  locale = 'de',
+}: {
+  readonly strain: Strain;
+  readonly locale?: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: strain.name,
+        description: locale === 'de' ? strain.description_de : strain.description_en,
+        url: `${BASE_URL}/${locale}/sortendatenbank/${strain.slug}`,
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: strain.rating,
+          bestRating: 5,
+          worstRating: 1,
+          ratingCount: strain.review_count,
+        },
       }}
     />
   );
