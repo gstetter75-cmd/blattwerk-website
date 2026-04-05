@@ -30,7 +30,7 @@ export default async function CscGruendungPage({
 
   const faqItems = isDE
     ? [
-        { question: 'Was kostet es insgesamt, einen CSC zu gründen?', answer: 'Rechnet realistisch mit 15.000–50.000 € Startkapital. Die größten Posten sind Räumlichkeiten (Miete, Kaution, Umbau), Anbauausstattung und Rechtsberatung. Dazu kommen laufende Kosten von 2.000–5.000 €/Monat, bevor die erste Ernte stattfindet.' },
+        { question: 'Was kostet es insgesamt, einen CSC zu gründen?', answer: 'Rechnet realistisch mit einem sechsstelligen Startkapital. Die größten Posten sind Räumlichkeiten (Miete, Kaution, Umbau), Anbauausstattung und Rechtsberatung. Dazu kommen laufende Kosten von mehreren tausend Euro pro Monat, bevor die erste Ernte stattfindet.' },
         { question: 'Wie lange dauert es von der Idee bis zur Anbaulizenz?', answer: 'Im besten Fall 6–9 Monate, realistischer sind 9–18 Monate. Bei uns dauerte es von der Vereinsgründung (Mai 2025) bis zur Anbaulizenz (März 2026) etwa 10 Monate. Die Behörden-Bearbeitungszeit allein liegt bei 3–12 Monaten.' },
         { question: 'Brauche ich Cannabis-Erfahrung oder Anbau-Know-how?', answer: 'Anbau-Erfahrung im Team ist ein großer Vorteil. Aber der Flaschenhals ist meistens die Organisation: Vereinsrecht, Buchhaltung, Behördenkommunikation. Ein guter Vereinsmanager ist wertvoller als ein guter Grower.' },
         { question: 'Könnt ihr uns bei der Satzung helfen?', answer: 'Wir können unsere Satzung als Orientierung zeigen. Eure Satzung müsst ihr aber selbst erarbeiten und zwingend von einem spezialisierten Anwalt prüfen lassen. Eine fehlerhafte Satzung ist der häufigste Grund für abgelehnte Lizenzanträge.' },

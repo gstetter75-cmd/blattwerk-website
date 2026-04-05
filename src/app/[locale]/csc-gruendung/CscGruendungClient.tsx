@@ -91,8 +91,8 @@ export function CscGruendungClient({ isDE }: Props) {
     { label: isDE ? 'Notar & Vereinsregister' : 'Notary & Register', value: '500–1.000 €' },
     { label: isDE ? 'Rechtsberatung (Satzung, Lizenzantrag)' : 'Legal advice (statutes, license)', value: '2.000–5.000 €' },
     { label: isDE ? 'Mietkaution & erste Mieten' : 'Deposit & first rents', value: '3.000–10.000 €' },
-    { label: isDE ? 'Umbau & Sicherheitstechnik' : 'Renovation & security', value: '5.000–20.000 €' },
-    { label: isDE ? 'Anbauausstattung (Licht, Klima, Bewässerung)' : 'Growing equipment (light, climate, irrigation)', value: '5.000–15.000 €' },
+    { label: isDE ? 'Umbau & Sicherheitstechnik' : 'Renovation & security', value: '10.000–40.000 €' },
+    { label: isDE ? 'Anbauausstattung (Licht, Klima, Bewässerung)' : 'Growing equipment (light, climate, irrigation)', value: '15.000–40.000 €' },
     { label: isDE ? 'Samen, Substrate, Nährstoffe' : 'Seeds, substrates, nutrients', value: '1.000–3.000 €' },
     { label: isDE ? 'Versicherungen' : 'Insurance', value: '500–2.000 €/Jahr' },
     { label: isDE ? 'Laufende Betriebskosten (Strom, Miete, Material)' : 'Ongoing costs (electricity, rent, materials)', value: '2.000–5.000 €/Monat' },
@@ -166,8 +166,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Was kostet es insgesamt, einen CSC zu gründen?' : 'What does it cost in total to found a CSC?',
       a: isDE
-        ? 'Rechnet realistisch mit 15.000–50.000 € Startkapital, je nach Bundesland, Standort und Größe des geplanten Anbaus. Die größten Posten sind Räumlichkeiten (Miete, Kaution, Umbau), Anbauausstattung und Rechtsberatung. Dazu kommen laufende Kosten von 2.000–5.000 €/Monat, bevor überhaupt die erste Ernte stattfindet. Ohne finanzielle Reserve für 6–12 Monate wird es eng.'
-        : 'Realistically plan with €15,000–50,000 starting capital, depending on state, location and planned grow size. The biggest items are premises (rent, deposit, renovation), growing equipment and legal advice. Add ongoing costs of €2,000–5,000/month before the first harvest even happens. Without a financial reserve for 6–12 months, it gets tight.',
+        ? 'Rechnet realistisch mit einem sechsstelligen Startkapital, je nach Bundesland, Standort und Größe des geplanten Anbaus. Die größten Posten sind Räumlichkeiten (Miete, Kaution, Umbau), Anbauausstattung und Rechtsberatung. Dazu kommen laufende Kosten von 2.000–5.000 €/Monat, bevor überhaupt die erste Ernte stattfindet. Ohne finanzielle Reserve für 6–12 Monate wird es eng.'
+        : 'Realistically plan with a six-figure starting capital, depending on state, location and planned grow size. The biggest items are premises (rent, deposit, renovation), growing equipment and legal advice. Add ongoing costs of €2,000–5,000/month before the first harvest even happens. Without a financial reserve for 6–12 months, it gets tight.',
     },
     {
       q: isDE ? 'Wie lange dauert es von der Idee bis zur Anbaulizenz?' : 'How long from idea to cultivation license?',
@@ -202,8 +202,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Was ist der häufigste Fehler bei der CSC-Gründung?' : 'What is the most common mistake when founding a CSC?',
       a: isDE
-        ? 'Die Kosten unterschätzen und die Räumlichkeiten zu spät suchen. Viele Gründungsinitiativen planen mit einem vierstelligen Budget und scheitern, sobald die ersten Mietkautionen und Anwaltsrechnungen kommen. Der zweithäufigste Fehler: Eine fehlerhafte Satzung einreichen und den Lizenzantrag dadurch um Monate verzögern.'
-        : 'Underestimating costs and searching for premises too late. Many founding initiatives plan with a four-figure budget and fail when the first deposits and lawyer bills arrive. Second most common mistake: submitting faulty statutes and delaying the license application by months.',
+        ? 'Die Kosten unterschätzen und die Räumlichkeiten zu spät suchen. Viele Gründungsinitiativen planen mit einem fünfstelligen Budget und scheitern, sobald die ersten Mietkautionen und Anwaltsrechnungen kommen. Der zweithäufigste Fehler: Eine fehlerhafte Satzung einreichen und den Lizenzantrag dadurch um Monate verzögern.'
+        : 'Underestimating costs and searching for premises too late. Many founding initiatives plan with a five-figure budget and fail when the first deposits and lawyer bills arrive. Second most common mistake: submitting faulty statutes and delaying the license application by months.',
     },
     {
       q: isDE ? 'Welches Bundesland ist am gründungsfreundlichsten?' : 'Which state is most founder-friendly?',
@@ -311,8 +311,8 @@ export function CscGruendungClient({ isDE }: Props) {
               <p className="text-sm text-ink-muted leading-relaxed">
                 <strong className="text-ink">{isDE ? 'Unser Fazit:' : 'Our takeaway:'}</strong>{' '}
                 {isDE
-                  ? 'Plant mit mindestens 15.000–30.000 € Startkapital und einer finanziellen Reserve für 6–12 Monate laufende Kosten ohne Einnahmen. Die Mitgliedsbeiträge allein reichen in der Anfangsphase nicht aus.'
-                  : 'Plan with at least €15,000–30,000 starting capital and a financial reserve for 6–12 months of ongoing costs without income. Membership fees alone are not sufficient in the initial phase.'}
+                  ? 'Plant mit einem sechsstelligen Startbudget und einer finanziellen Reserve für 6–12 Monate laufende Kosten ohne Einnahmen. Die Mitgliedsbeiträge allein reichen in der Anfangsphase nicht aus.'
+                  : 'Plan with a six-figure starting budget and a financial reserve for 6–12 months of ongoing costs without income. Membership fees alone are not sufficient in the initial phase.'}
               </p>
             </div>
           </div>
