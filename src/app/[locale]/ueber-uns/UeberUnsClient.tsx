@@ -72,7 +72,8 @@ export function UeberUnsClient({ isDE }: Props) {
         'Max. 25g/Tag, 50g/Monat pro Mitglied.',
         'Respektvoller Umgang miteinander.',
         'Bei problematischem Konsum: Suchtpräventionsbeauftragte kontaktieren.',
-        'Keine anderen Rauschmittel — kein Mischkonsum.',
+        'Kein Alkohol und kein Tabak auf dem Vereinsgelände.',
+        'Keine anderen Rauschmittel — kein Mischkonsum, auch nicht auf Veranstaltungen.',
         'Verstöße können zum Ausschluss führen.',
       ]
     : [
@@ -82,7 +83,8 @@ export function UeberUnsClient({ isDE }: Props) {
         'Max. 25g/day, 50g/month per member.',
         'Respectful interaction at all times.',
         'Contact prevention officer for problematic use.',
-        'No other intoxicants — no polysubstance use.',
+        'No alcohol or tobacco on club premises.',
+        'No other intoxicants — no polysubstance use, including at events.',
         'Violations may lead to exclusion.',
       ];
 
