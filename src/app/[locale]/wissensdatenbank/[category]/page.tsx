@@ -6,6 +6,7 @@ import { ArrowLeft, Clock, ArrowRight, Tag } from 'lucide-react';
 import { allCategories, getArticlesByCategory, getCategoryByKey } from '@/data/knowledge';
 import { BreadcrumbSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 export function generateStaticParams() {
   return allCategories.flatMap((cat) => [
@@ -147,6 +148,12 @@ export default async function CategoryPage({
           )}
         </div>
       </section>
+      <HeroImage
+        src="/images/knowledge/cannabis-science.jpg"
+        alt={isDE ? 'Cannabis-Wissenschaft' : 'Cannabis science'}
+        height="180px"
+        gradient="top"
+      />
     </>
   );
 }

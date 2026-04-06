@@ -2,6 +2,7 @@ import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
 import { StrainOverview } from '@/components/strains/StrainOverview';
 import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -36,6 +37,12 @@ export default async function StrainsPage({
         { question: 'Can I obtain strains from BlattWerk directly?', answer: 'The strain database serves as a planning basis. As a member of BlattWerk e.V., you can obtain cannabis at cost price once the first harvest is complete. The final strain selection also considers member preferences.' },
       ]} />
       <StrainOverview />
+      <HeroImage
+        src="/images/cannabis-indoor.jpg"
+        alt={locale === 'de' ? 'Cannabis Indoor-Anbau' : 'Cannabis indoor cultivation'}
+        height="200px"
+        gradient="top"
+      />
     </>
   );
 }

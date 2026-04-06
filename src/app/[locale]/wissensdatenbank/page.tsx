@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { allCategories, getArticlesByCategory } from '@/data/knowledge';
 import { WissensdatenbankClient } from './WissensdatenbankClient';
 import { BreadcrumbSchema } from '@/lib/schema';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -33,6 +34,12 @@ export default async function KnowledgeBasePage({
         ]}
       />
       <WissensdatenbankClient isDE={isDE} categories={categoriesWithCount} />
+      <HeroImage
+        src="/images/knowledge/terpenes-herbs.jpg"
+        alt={locale === 'de' ? 'Kräuter und Terpene' : 'Herbs and terpenes'}
+        height="200px"
+        gradient="top"
+      />
     </>
   );
 }

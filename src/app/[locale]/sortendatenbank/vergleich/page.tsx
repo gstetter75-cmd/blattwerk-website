@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { BreadcrumbSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
 import { StrainCompare } from '@/components/strains/StrainCompare';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -37,6 +38,12 @@ export default async function ComparePage({ params }: PageProps) {
         ]}
       />
       <StrainCompare />
+      <HeroImage
+        src="/images/cannabis-leaf-dark.jpg"
+        alt={isDE ? 'Cannabis-Blatt' : 'Cannabis leaf'}
+        height="180px"
+        gradient="top"
+      />
     </>
   );
 }

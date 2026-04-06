@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { BreadcrumbSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
 import { StrainFinder } from '@/components/strains/StrainFinder';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -54,6 +55,12 @@ export default async function FinderPage({ params }: PageProps) {
       </section>
 
       <StrainFinder />
+      <HeroImage
+        src="/images/cannabis-plants-outdoor.jpg"
+        alt={isDE ? 'Cannabis-Pflanzen im Freien' : 'Cannabis plants outdoors'}
+        height="180px"
+        gradient="top"
+      />
     </>
   );
 }

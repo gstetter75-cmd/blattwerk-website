@@ -5,6 +5,7 @@ import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { KontaktInfoClient } from './KontaktInfoClient';
 import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
+import { HeroImage } from '@/components/decorative/HeroImage';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -99,6 +100,12 @@ export default async function ContactPage({
       />
 
       <KontaktInfoClient isDE={isDE} />
+      <HeroImage
+        src="/images/cannabis-plants-outdoor.jpg"
+        alt={isDE ? 'Cannabis-Pflanzen' : 'Cannabis plants'}
+        height="200px"
+        gradient="top"
+      />
     </>
   );
 }
