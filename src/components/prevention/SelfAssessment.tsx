@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 
 interface Props {
   isDE: boolean;
@@ -165,13 +164,9 @@ export function SelfAssessment({ isDE }: Props) {
         )}
       </div>
 
-      <AnimatePresence>
-        {result && (
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -12 }}
-            className="p-6 rounded-xl border"
+      {result && (
+          <div
+            className="animate-fade-up p-6 rounded-xl border"
             style={{ borderColor: result.color, backgroundColor: result.bg }}
           >
             <h4 className="font-heading font-bold text-lg mb-2" style={{ color: result.color }}>
@@ -197,9 +192,8 @@ export function SelfAssessment({ isDE }: Props) {
                 {isDE ? 'Selbsttest auf drugcom.de' : 'Self-test on drugcom.de'}
               </a>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
 
       <p className="text-xs text-ink-faint leading-relaxed">
         {isDE

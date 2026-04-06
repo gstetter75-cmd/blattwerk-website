@@ -1,19 +1,11 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Check, Sprout, Users, Shield, BookOpen, Leaf } from 'lucide-react';
 import { HomeSection } from '@/components/shared/HomeSection';
 
 interface Props {
   isDE: boolean;
 }
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 export function UeberUnsClient({ isDE }: Props) {
   const boardMembers = [
@@ -93,7 +85,7 @@ export function UeberUnsClient({ isDE }: Props) {
       {/* ── Hero ── */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+          <div className="animate-fade-up">
             <p className="text-sm font-medium text-accent mb-4">
               {isDE ? 'Über den Verein' : 'About the Club'}
             </p>
@@ -107,7 +99,7 @@ export function UeberUnsClient({ isDE }: Props) {
                 ? 'Gegründet aus der Überzeugung, dass Cannabis verantwortungsvoll, gemeinschaftlich und legal angebaut werden kann. Seit März 2026 haben wir die offizielle Anbaulizenz — und bauen jetzt auf.'
                 : 'Founded from the conviction that cannabis can be grown responsibly, communally and legally. Since March 2026 we hold the official cultivation license — and we\'re building now.'}
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 

@@ -1,114 +1,77 @@
 'use client';
 
 import React from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
-import { fadeUp, scaleIn, staggerContainer, reducedFadeIn } from '@/lib/animations';
-
-function useVariants() {
-  const prefersReduced = useReducedMotion();
-  return {
-    item: prefersReduced ? reducedFadeIn : fadeUp,
-    container: prefersReduced ? {} : staggerContainer,
-    card: prefersReduced ? reducedFadeIn : scaleIn,
-  };
-}
+import { useReveal } from '@/lib/useReveal';
 
 export function HeroContent({ children }: { children: React.ReactNode }) {
-  const { container, item } = useVariants();
   const childArray = React.Children.toArray(children);
   return (
-    <motion.div variants={container} initial="hidden" animate="visible">
+    <div className="animate-fade-up">
       {childArray.map((child, i) => (
-        <motion.div key={i} variants={item}>
+        <div key={i} className={`animate-fade-up stagger-${Math.min(i + 1, 4)}`}>
           {child}
-        </motion.div>
+        </div>
       ))}
-    </motion.div>
+    </div>
   );
 }
 
 export function HomeHero({ children }: { children: React.ReactNode }) {
-  const prefersReduced = useReducedMotion();
   return (
-    <motion.div
-      initial={prefersReduced ? false : { opacity: 1, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
-      className="w-full"
-    >
+    <div className="w-full animate-fade-up">
       {children}
-    </motion.div>
+    </div>
   );
 }
 
 export function HomePillar({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
-  const prefersReduced = useReducedMotion();
+  const { ref, visible } = useReveal('-60px');
   return (
-    <motion.div
-      initial={prefersReduced ? false : { opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-60px' }}
-      transition={{ duration: 0.6, delay, ease: 'easeOut' }}
-    >
+    <div ref={ref} className={`reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: `${delay}s` }}>
       {children}
-    </motion.div>
+    </div>
   );
 }
 
 export function HomeSection({ children }: { children: React.ReactNode }) {
-  const prefersReduced = useReducedMotion();
+  const { ref, visible } = useReveal();
   return (
-    <motion.div
-      initial={prefersReduced ? false : { opacity: 0, y: 32 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.7, ease: 'easeOut' }}
-    >
+    <div ref={ref} className={`reveal ${visible ? 'visible' : ''}`}>
       {children}
-    </motion.div>
+    </div>
   );
 }
 
 export function StatsCard({ children }: { children: React.ReactNode }) {
-  const { card } = useVariants();
   return (
-    <motion.div variants={card} initial="hidden" animate="visible" transition={{ delay: 0.3 }}>
+    <div className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
       {children}
-    </motion.div>
+    </div>
   );
 }
 
 export function SectionHeader({ children }: { children: React.ReactNode }) {
-  const { item } = useVariants();
+  const { ref, visible } = useReveal();
   return (
-    <motion.div
-      variants={item}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: '-80px' }}
-      className="mb-12"
-    >
+    <div ref={ref} className={`reveal mb-12 ${visible ? 'visible' : ''}`}>
       {children}
-    </motion.div>
+    </div>
   );
 }
 
 export function FeatureGrid({ children }: { children: React.ReactNode }) {
-  const { container, item } = useVariants();
+  const { ref, visible } = useReveal();
   const childArray = React.Children.toArray(children);
   return (
-    <motion.div
-      variants={container}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: '-80px' }}
-      className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10"
+    <div
+      ref={ref}
+      className={`grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 ${visible ? 'visible' : ''}`}
     >
       {childArray.map((child, i) => (
-        <motion.div key={i} variants={item}>
+        <div key={i} className={`reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: `${i * 0.08}s` }}>
           {child}
-        </motion.div>
+        </div>
       ))}
-    </motion.div>
+    </div>
   );
 }

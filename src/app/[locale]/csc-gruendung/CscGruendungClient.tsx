@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, AlertTriangle, CheckCircle, Clock, FileText, Building, Scale, Sprout, Shield } from 'lucide-react';
 import { HeroImage } from '@/components/decorative/HeroImage';
@@ -10,13 +9,6 @@ import { HomeSection } from '@/components/shared/HomeSection';
 interface Props {
   isDE: boolean;
 }
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 export function CscGruendungClient({ isDE }: Props) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -218,7 +210,7 @@ export function CscGruendungClient({ isDE }: Props) {
       {/* -- Hero -- */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+          <div className="animate-fade-up">
             <p className="text-sm font-medium text-accent mb-4">
               {isDE ? 'Praxis-Guide aus Erfahrung' : 'Practical Guide from Experience'}
             </p>
@@ -235,7 +227,7 @@ export function CscGruendungClient({ isDE }: Props) {
                 ? 'Keine Rechtsberatung, keine Garantie, aber die Informationen, die wir gerne gehabt hätten, bevor wir angefangen haben.'
                 : 'Not legal advice, no guarantees, but the information we wish we had before we started.'}
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -456,20 +448,11 @@ export function CscGruendungClient({ isDE }: Props) {
                         +
                       </span>
                     </button>
-                    <AnimatePresence initial={false}>
-                      {isOpen && (
-                        <motion.div
-                          key="answer"
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.3, ease: 'easeInOut' }}
-                          className="overflow-hidden"
-                        >
-                          <p className="pb-6 text-sm leading-relaxed text-ink-muted">{a}</p>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                    <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+                      <div>
+                        <p className="pb-6 text-sm leading-relaxed text-ink-muted">{a}</p>
+                      </div>
+                    </div>
                   </li>
                 );
               })}

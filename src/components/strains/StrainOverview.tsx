@@ -3,13 +3,11 @@
 import { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { Search, X, SlidersHorizontal, AlertCircle, GitCompareArrows, Sparkles } from 'lucide-react';
 import { strains, effectLabels, thcRanges, thcRangesMap } from '@/data/strains';
 import type { Strain } from '@/data/strains';
 import { StrainCard } from './StrainCard';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
-import { staggerContainer, fadeUp } from '@/lib/animations';
 
 type SortKey = 'name-asc' | 'thc-desc' | 'rating-desc';
 
@@ -72,8 +70,6 @@ function toggle(set: Set<string>, val: string): Set<string> {
 export function StrainOverview() {
   const locale = useLocale();
   const lang = locale === 'de' ? 'de' : 'en';
-  const prefersReduced = useReducedMotion();
-
   const [query, setQuery]             = useState('');
   const [sort, setSort]               = useState<SortKey>('name-asc');
   const [filters, setFilters]         = useState<Filters>(emptyFilters);
@@ -280,14 +276,9 @@ export function StrainOverview() {
               </p>
 
               {/* Mobile sidebar drawer */}
-              <AnimatePresence>
-                {sidebarOpen && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.22 }}
-                    className="overflow-hidden mb-6 lg:hidden"
+              {sidebarOpen && (
+                  <div
+                    className="animate-fade-in overflow-hidden mb-6 lg:hidden"
                   >
                     <div className="p-5 space-y-6 border border-[var(--border)]">
                       <div className="flex items-center justify-between">
@@ -342,9 +333,8 @@ export function StrainOverview() {
                         ))}
                       </FilterSection>
                     </div>
-                  </motion.div>
+                  </div>
                 )}
-              </AnimatePresence>
 
               {/* Grid or empty state */}
               {results.length === 0 ? (
@@ -361,19 +351,13 @@ export function StrainOverview() {
                   </button>
                 </div>
               ) : (
-                <motion.div
-                  key={`${query}-${sort}-${totalActive}`}
-                  variants={prefersReduced ? {} : staggerContainer}
-                  initial="hidden"
-                  animate="visible"
-                  className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4"
-                >
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
                   {results.map((strain) => (
-                    <motion.div key={strain.slug} variants={prefersReduced ? {} : fadeUp}>
+                    <div key={strain.slug}>
                       <StrainCard strain={strain} locale={locale} />
-                    </motion.div>
+                    </div>
                   ))}
-                </motion.div>
+                </div>
               )}
             </div>
           </div>

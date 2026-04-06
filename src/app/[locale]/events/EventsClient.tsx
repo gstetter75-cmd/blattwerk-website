@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Clock, MapPin, Users } from 'lucide-react';
 import type { BlattWerkEvent } from '@/data/events';
 
@@ -30,13 +29,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
       {/* -- Upcoming events -- */}
       <section className="py-20 lg:py-28">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            className="mb-16"
-          >
+          <div className="mb-16 animate-fade-up">
             <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-gold-theme">
               {isDE ? 'Kommende Veranstaltungen' : 'Upcoming Events'}
             </p>
@@ -46,7 +39,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
             >
               {isDE ? 'Termine' : 'Schedule'}
             </h2>
-          </motion.div>
+          </div>
 
           <div>
             {upcomingEvents.map((event, i) => {
@@ -56,13 +49,9 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
               const type = isDE ? event.type_de : event.type_en;
               const { month, day, full } = getMonthDay(event.date, isDE);
               return (
-                <motion.div
+                <div
                   key={`${event.date}-${event.title_de}`}
-                  initial={{ opacity: 0, y: 24 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-60px' }}
-                  transition={{ duration: 0.6, delay: i * 0.08 }}
-                  className={`flex gap-8 py-8 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
+                  className={`flex gap-8 py-8 animate-fade-up stagger-${Math.min(i + 1, 4)} ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                 >
                   {/* Date column */}
                   <div className="w-16 shrink-0 flex flex-col items-center gap-0.5 pt-1">
@@ -107,7 +96,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
                       </span>
                     </div>
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>
@@ -117,13 +106,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
       {/* -- Past events archive -- */}
       <section className="py-20 lg:py-28 border-t border-[var(--border)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            className="mb-16"
-          >
+          <div className="mb-16 animate-fade-up">
             <p className="text-xs font-bold uppercase tracking-[0.25em] font-body mb-4 text-ink-faint">
               {isDE ? 'Archiv' : 'Archive'}
             </p>
@@ -133,7 +116,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
             >
               {isDE ? 'Vergangene Termine' : 'Past Events'}
             </h2>
-          </motion.div>
+          </div>
 
           <div style={{ opacity: 0.6 }}>
             {pastEvents.map((event, i) => {
@@ -142,13 +125,9 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
               const type = isDE ? event.type_de : event.type_en;
               const { month, day } = getMonthDay(event.date, isDE);
               return (
-                <motion.div
+                <div
                   key={`${event.date}-${event.title_de}`}
-                  initial={{ opacity: 0, y: 16 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-60px' }}
-                  transition={{ duration: 0.5, delay: i * 0.07 }}
-                  className={`flex gap-6 py-6 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
+                  className={`flex gap-6 py-6 animate-fade-up stagger-${Math.min(i + 1, 4)} ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
                 >
                   {/* Date column */}
                   <div className="w-12 shrink-0 flex flex-col items-center gap-0.5 pt-0.5">
@@ -174,7 +153,7 @@ export function EventsClient({ isDE, upcomingEvents, pastEvents }: Props) {
                       {description}
                     </p>
                   </div>
-                </motion.div>
+                </div>
               );
             })}
           </div>

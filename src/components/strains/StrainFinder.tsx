@@ -3,8 +3,6 @@
 import { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import type { Variants } from 'framer-motion';
 import { ArrowLeft, ArrowRight, AlertCircle, GitCompareArrows } from 'lucide-react';
 import { strains, effectLabels, flavorLabels, typeConfig } from '@/data/strains';
 import type { Strain, EffectProfile } from '@/data/strains';
@@ -116,14 +114,6 @@ function getResults(state: WizardState): Strain[] {
   return scored.slice(0, MAX_RESULTS).map((s) => s.strain);
 }
 
-/* ── Animation variants ─────────────────────────────────────────────── */
-
-const stepVariants: Variants = {
-  enter: { opacity: 0, x: 40 },
-  center: { opacity: 1, x: 0, transition: { duration: 0.3, ease: 'easeOut' as const } },
-  exit: { opacity: 0, x: -40, transition: { duration: 0.2 } },
-};
-
 /* ── Sub-components ─────────────────────────────────────────────────── */
 
 const TYPE_LEFT_BORDER: Record<string, string> = {
@@ -225,8 +215,6 @@ function ProgressBar({ step, total }: { step: number; total: number }) {
 export function StrainFinder() {
   const locale = useLocale();
   const lang = locale === 'de' ? 'de' : 'en';
-  const prefersReduced = useReducedMotion();
-
   const [step, setStep] = useState(1);
   const [state, setState] = useState<WizardState>({
     goal: null,
@@ -287,16 +275,8 @@ export function StrainFinder() {
         </div>
 
         {/* Steps */}
-        <AnimatePresence mode="wait">
-          {step === 1 && (
-            <motion.div
-              key="step1"
-              variants={prefersReduced ? {} : stepVariants}
-              initial="enter"
-              animate="center"
-              exit="exit"
-              className="space-y-3"
-            >
+        {step === 1 && (
+            <div key="step1" className="animate-fade-up space-y-3">
               {GOAL_OPTIONS.map((opt) => {
                 const active = state.goal === opt.value;
                 return (
@@ -314,18 +294,11 @@ export function StrainFinder() {
                   </button>
                 );
               })}
-            </motion.div>
+            </div>
           )}
 
           {step === 2 && (
-            <motion.div
-              key="step2"
-              variants={prefersReduced ? {} : stepVariants}
-              initial="enter"
-              animate="center"
-              exit="exit"
-              className="space-y-3"
-            >
+            <div key="step2" className="animate-fade-up space-y-3">
               {THC_OPTIONS.map((opt) => {
                 const active = state.thcPref === opt.value;
                 return (
@@ -342,17 +315,11 @@ export function StrainFinder() {
                   </button>
                 );
               })}
-            </motion.div>
+            </div>
           )}
 
           {step === 3 && (
-            <motion.div
-              key="step3"
-              variants={prefersReduced ? {} : stepVariants}
-              initial="enter"
-              animate="center"
-              exit="exit"
-            >
+            <div key="step3" className="animate-fade-up">
               <p className="text-sm text-ink-muted mb-4">
                 {lang === 'de'
                   ? `Wähle bis zu ${MAX_FLAVORS} Geschmacksrichtungen (optional).`
@@ -378,17 +345,11 @@ export function StrainFinder() {
                   );
                 })}
               </div>
-            </motion.div>
+            </div>
           )}
 
           {step === 4 && (
-            <motion.div
-              key="step4"
-              variants={prefersReduced ? {} : stepVariants}
-              initial="enter"
-              animate="center"
-              exit="exit"
-            >
+            <div key="step4" className="animate-fade-up">
               {results.length === 0 ? (
                 <div className="flex flex-col items-center justify-center py-16 text-center">
                   <p className="font-heading italic text-xl mb-2">
@@ -437,9 +398,8 @@ export function StrainFinder() {
                   </div>
                 </>
               )}
-            </motion.div>
+            </div>
           )}
-        </AnimatePresence>
 
         {/* Navigation buttons */}
         {step < TOTAL_STEPS && (

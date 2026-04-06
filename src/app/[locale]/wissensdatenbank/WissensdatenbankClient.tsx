@@ -1,16 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import type { KnowledgeCategory } from '@/data/knowledge/types';
 import { HomeSection } from '@/components/shared/HomeSection';
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 const iconEmoji: Record<string, string> = {
   Scale: '\u2696',
@@ -38,7 +30,7 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
       {/* -- Hero -- */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+          <div className="animate-fade-up">
             <p className="text-sm font-medium text-accent mb-4">
               {isDE ? 'Wissensdatenbank' : 'Knowledge Base'}
             </p>
@@ -50,7 +42,7 @@ export function WissensdatenbankClient({ isDE, categories }: Props) {
                 ? `${totalArticles} fundierte Artikel zu Cannabis — von der Rechtslage über Gesundheit und Terpene bis zum Anbau. Evidenzbasiert, regelmäßig aktualisiert und frei zugänglich.`
                 : `${totalArticles} in-depth articles on cannabis — from legal aspects to health, terpenes and cultivation. Evidence-based, regularly updated and freely accessible.`}
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 

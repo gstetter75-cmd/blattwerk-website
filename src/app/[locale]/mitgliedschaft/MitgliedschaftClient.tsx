@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { HomeSection } from '@/components/shared/HomeSection';
@@ -9,13 +8,6 @@ import { HomeSection } from '@/components/shared/HomeSection';
 interface Props {
   isDE: boolean;
 }
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 export function MitgliedschaftClient({ isDE }: Props) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -217,7 +209,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
       {/* -- Hero -- */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+          <div className="animate-fade-up">
             <p className="text-sm font-medium text-accent mb-4">
               {isDE ? 'Mitgliedschaft' : 'Membership'}
             </p>
@@ -234,7 +226,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 ? 'Keine Gewinnabsicht, keine anonymen Strukturen. Ein Verein von und für Erwachsene, die Cannabis verantwortungsvoll konsumieren.'
                 : 'No profit motive, no anonymous structures. A club by and for adults who consume cannabis responsibly.'}
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -450,22 +442,13 @@ export function MitgliedschaftClient({ isDE }: Props) {
                       </span>
                     </button>
 
-                    <AnimatePresence initial={false}>
-                      {isOpen && (
-                        <motion.div
-                          key="answer"
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.3, ease: 'easeInOut' }}
-                          className="overflow-hidden"
-                        >
-                          <p className="pb-6 text-sm leading-relaxed text-ink-muted">
-                            {a}
-                          </p>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                    <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+                      <div>
+                        <p className="pb-6 text-sm leading-relaxed text-ink-muted">
+                          {a}
+                        </p>
+                      </div>
+                    </div>
                   </li>
                 );
               })}

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock, MapPinned } from 'lucide-react';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { HomeSection } from '@/components/shared/HomeSection';
@@ -9,13 +8,6 @@ import { HomeSection } from '@/components/shared/HomeSection';
 interface Props {
   isDE: boolean;
 }
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
   const [consented, setConsented] = useState(false);
@@ -101,7 +93,7 @@ export function KontaktInfoClient({ isDE }: Props) {
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
 
             {/* Left: Contact Form */}
-            <motion.div {...fadeUp}>
+            <div className="animate-fade-up">
               <p className="text-sm font-medium text-accent mb-4">
                 {isDE ? 'Nachricht senden' : 'Send Message'}
               </p>
@@ -109,15 +101,10 @@ export function KontaktInfoClient({ isDE }: Props) {
                 {isDE ? 'Schreib uns' : 'Write to us'}
               </h2>
               <ContactForm isDE={isDE} />
-            </motion.div>
+            </div>
 
             {/* Right: Contact info */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
+            <div className="animate-fade-up">
               <p className="text-sm font-medium text-accent mb-4">
                 {isDE ? 'Kontaktdaten' : 'Contact Details'}
               </p>
@@ -165,7 +152,7 @@ export function KontaktInfoClient({ isDE }: Props) {
                   ))}
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>

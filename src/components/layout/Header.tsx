@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { Globe, ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Z } from '@/lib/z-index';
 import Image from 'next/image';
 import { SearchDialog } from '@/components/search/SearchDialog';
@@ -50,12 +49,8 @@ function DropdownMenu({
   t: (key: string) => string;
 }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 8 }}
-      transition={{ duration: 0.15 }}
-      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 rounded-xl border border-[var(--border)] bg-bg-elevated shadow-lg overflow-hidden"
+    <div
+      className="animate-scale-in absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 rounded-xl border border-[var(--border)] bg-bg-elevated shadow-lg overflow-hidden"
       style={{ zIndex: Z.dropdown }}
     >
       <div className="p-2">
@@ -77,7 +72,7 @@ function DropdownMenu({
           </Link>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -184,15 +179,13 @@ export function Header() {
                       )}
                     </Link>
 
-                    <AnimatePresence>
-                      {hasChildren && openMenu === item.key && (
-                        <DropdownMenu
-                          children={item.children!}
-                          onClose={() => setOpenMenu(null)}
-                          t={t}
-                        />
-                      )}
-                    </AnimatePresence>
+                    {hasChildren && openMenu === item.key && (
+                      <DropdownMenu
+                        children={item.children!}
+                        onClose={() => setOpenMenu(null)}
+                        t={t}
+                      />
+                    )}
                   </div>
                 );
               })}
@@ -234,14 +227,9 @@ export function Header() {
       </header>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 lg:hidden flex flex-col bg-bg overflow-y-auto"
+      {mobileOpen && (
+          <div
+            className="animate-fade-in fixed inset-0 lg:hidden flex flex-col bg-bg overflow-y-auto"
             style={{ zIndex: Z.overlay }}
           >
             <div className="h-16 shrink-0" />
@@ -294,9 +282,8 @@ export function Header() {
                 {locale === 'de' ? 'English' : 'Deutsch'}
               </button>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
     </>
   );
 }

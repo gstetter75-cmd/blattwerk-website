@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { useLocale } from 'next-intl';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Cookie } from 'lucide-react';
 import { Z } from '@/lib/z-index';
 
@@ -39,14 +38,10 @@ export function CookieBanner() {
   };
 
   return (
-    <AnimatePresence>
+    <>
       {visible && (
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 24 }}
-          transition={{ duration: 0.3 }}
-          className="fixed bottom-5 left-4 right-4 sm:left-auto sm:right-5 sm:w-96 rounded-xl border border-[var(--border)] bg-bg-elevated p-5 shadow-lg"
+        <div
+          className="animate-slide-up fixed bottom-5 left-4 right-4 sm:left-auto sm:right-5 sm:w-96 rounded-xl border border-[var(--border)] bg-bg-elevated p-5 shadow-lg"
           style={{ zIndex: Z.cookie }}
           role="dialog"
           aria-label={t.title}
@@ -76,8 +71,8 @@ export function CookieBanner() {
           >
             {t.acknowledge}
           </button>
-        </motion.div>
+        </div>
       )}
-    </AnimatePresence>
+    </>
   );
 }

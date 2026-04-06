@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { HomeSection } from '@/components/shared/HomeSection';
 import { SelfAssessment } from '@/components/prevention/SelfAssessment';
 import { RiskAccordion } from '@/components/prevention/RiskAccordion';
@@ -17,13 +16,6 @@ import {
 interface Props {
   isDE: boolean;
 }
-
-const fadeUp = {
-  initial: { opacity: 0, y: 20 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.5 },
-};
 
 function localize<T extends { title_de: string; title_en: string; text_de: string; text_en: string }>(
   items: readonly T[],
@@ -65,7 +57,7 @@ export function SuchtpraeventionClient({ isDE }: Props) {
       {/* Hero */}
       <section className="pt-28 pb-16 lg:pt-36 lg:pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div {...fadeUp}>
+          <div className="animate-fade-up">
             <p className="text-sm font-medium text-gold-theme mb-4">
               {isDE ? 'Suchtprävention' : 'Addiction Prevention'}
             </p>
@@ -82,7 +74,7 @@ export function SuchtpraeventionClient({ isDE }: Props) {
                 ? 'Wenn du Fragen hast, dir Sorgen machst oder einfach reden willst — wir sind für dich da. Vertraulich und ohne Vorurteile.'
                 : 'If you have questions, are worried or just want to talk — we\'re here for you. Confidential and without judgment.'}
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 

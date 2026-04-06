@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X, Leaf, BookOpen, Command } from 'lucide-react';
 import { strains } from '@/data/strains';
 import { allArticles } from '@/data/knowledge';
@@ -121,27 +120,18 @@ export function SearchDialog() {
       </button>
 
       {/* Dialog */}
-      <AnimatePresence>
-        {open && (
+      {open && (
           <>
             {/* Backdrop */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.15 }}
-              className="fixed inset-0"
+            <div
+              className="animate-fade-in fixed inset-0"
               style={{ zIndex: Z.modal, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }}
               onClick={() => setOpen(false)}
             />
 
             {/* Panel */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.96, y: -8 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.96, y: -8 }}
-              transition={{ duration: 0.15 }}
-              className="fixed top-[15vh] left-1/2 -translate-x-1/2 w-[90vw] max-w-lg rounded-xl border border-[var(--border)] overflow-hidden"
+            <div
+              className="animate-scale-in fixed top-[15vh] left-1/2 -translate-x-1/2 w-[90vw] max-w-lg rounded-xl border border-[var(--border)] overflow-hidden"
               style={{ zIndex: Z.modal + 1, background: 'var(--bg-surface)', boxShadow: '0 24px 80px rgba(0,0,0,0.5)' }}
               role="dialog"
               aria-label={isDE ? 'Suche' : 'Search'}
@@ -212,10 +202,9 @@ export function SearchDialog() {
               <div className="px-4 py-2 border-t border-[var(--border)] flex items-center justify-between text-[10px] text-ink-faint">
                 <span>↑↓ {isDE ? 'navigieren' : 'navigate'} · ↵ {isDE ? 'öffnen' : 'open'} · esc {isDE ? 'schließen' : 'close'}</span>
               </div>
-            </motion.div>
+            </div>
           </>
         )}
-      </AnimatePresence>
     </>
   );
 }

@@ -1,6 +1,5 @@
 'use client';
 
-import { motion, useReducedMotion } from 'framer-motion';
 import { Link } from '@/i18n/navigation';
 import type { Strain } from '@/data/strains';
 import { effectLabels, flavorLabels, typeConfig } from '@/data/strains';
@@ -26,8 +25,6 @@ const TYPE_TEXT_COLOR: Record<string, string> = {
 export function StrainCard({ strain, locale }: StrainCardProps) {
   const config = typeConfig[strain.type];
   const lang = locale === 'de' ? 'de' : 'en';
-  const prefersReduced = useReducedMotion();
-
   const topEffects = Object.entries(strain.effects)
     .sort(([, a], [, b]) => b - a)
     .slice(0, 3)
@@ -43,11 +40,8 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
 
   return (
     <Link href={`/sortendatenbank/${strain.slug}`} className="block h-full">
-      <motion.article
-        initial={prefersReduced ? false : { y: 0 }}
-        whileHover={prefersReduced ? undefined : { y: -4 }}
-        transition={{ duration: 0.2, ease: 'easeOut' }}
-        className="h-full flex flex-col transition-colors duration-200 bg-bg border border-[var(--border)] hover:border-ink-faint/30"
+      <article
+        className="h-full flex flex-col transition-colors duration-200 bg-bg border border-[var(--border)] hover:border-ink-faint/30 hover:-translate-y-1 transition-transform duration-200 motion-reduce:hover:translate-y-0"
         style={{ borderLeft: `4px solid ${accentBorder}` }}
       >
         <div className="p-5 flex flex-col gap-3 flex-1">
@@ -113,7 +107,7 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
           </div>
 
         </div>
-      </motion.article>
+      </article>
     </Link>
   );
 }

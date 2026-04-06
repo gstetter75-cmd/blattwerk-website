@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 interface RiskTopic {
   readonly title: string;
@@ -33,16 +32,11 @@ export function RiskAccordion({ topics }: { readonly topics: readonly RiskTopic[
                 ▾
               </span>
             </button>
-            {isOpen && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                transition={{ duration: 0.25 }}
-                className="px-5 pb-5"
-              >
+            <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+              <div className="px-5 pb-5">
                 <p className="text-sm leading-relaxed text-ink-muted">{topic.text}</p>
-              </motion.div>
-            )}
+              </div>
+            </div>
           </div>
         );
       })}
