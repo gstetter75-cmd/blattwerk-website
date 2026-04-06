@@ -146,7 +146,7 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="shrink-0">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/optimized/logo.webp`}
                 alt="BlattWerk e.V."
                 width={160}
                 height={48}

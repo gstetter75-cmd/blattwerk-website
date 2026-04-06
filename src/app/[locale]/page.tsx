@@ -326,7 +326,7 @@ function HomeContent() {
                   </h3>
                   <p className="text-xs text-ink-muted leading-relaxed mb-3">{text}</p>
                   <span className="mt-auto inline-flex items-center gap-1 text-xs font-medium text-accent">
-                    {isDE ? 'Mehr erfahren' : 'Learn more'} <ArrowRight className="w-3 h-3" />
+                    {title} <ArrowRight className="w-3 h-3" />
                   </span>
                 </Link>
               ))}
