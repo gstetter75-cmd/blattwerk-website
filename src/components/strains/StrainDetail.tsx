@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import {
   ArrowLeft,
+  GitCompareArrows,
   Sprout,
   Sun,
   CloudRain,
@@ -118,14 +119,23 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
 
-      {/* Back link */}
-      <Link
-        href="/sortendatenbank"
-        className="inline-flex items-center gap-2 text-sm text-ink-muted hover:text-ink transition-colors"
-      >
-        <ArrowLeft className="w-4 h-4" />
-        {lang === 'de' ? 'Zurück zur Übersicht' : 'Back to overview'}
-      </Link>
+      {/* Back link + Compare link */}
+      <div className="flex items-center gap-4">
+        <Link
+          href="/sortendatenbank"
+          className="inline-flex items-center gap-2 text-sm text-ink-muted hover:text-ink transition-colors"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          {lang === 'de' ? 'Zurück zur Übersicht' : 'Back to overview'}
+        </Link>
+        <Link
+          href="/sortendatenbank/vergleich"
+          className="inline-flex items-center gap-2 text-sm text-ink-muted hover:text-ink transition-colors"
+        >
+          <GitCompareArrows className="w-4 h-4" />
+          {lang === 'de' ? 'Vergleichen' : 'Compare'}
+        </Link>
+      </div>
 
       {/* Header Card */}
       <div
@@ -443,6 +453,13 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               );
             })}
           </div>
+          <Link
+            href="/sortendatenbank/vergleich"
+            className="inline-flex items-center gap-2 text-sm text-ink-muted hover:text-ink transition-colors mt-4"
+          >
+            <GitCompareArrows className="w-4 h-4" />
+            {lang === 'de' ? 'Sorten direkt vergleichen' : 'Compare strains directly'}
+          </Link>
         </Section>
       )}
 
