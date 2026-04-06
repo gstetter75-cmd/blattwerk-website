@@ -18,6 +18,122 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'kcang-2026-was-hat-sich-geaendert',
+    date: '2026-04-14',
+    title_de: 'KCanG 2026 — Was hat sich seit Inkrafttreten geändert?',
+    title_en: 'KCanG 2026 — What Has Changed Since It Took Effect?',
+    summary_de: 'Zwei Jahre nach dem Konsumcannabisgesetz — wie viele CSCs sind lizenziert, welche Herausforderungen bestehen und was steht als Nächstes an?',
+    summary_en: 'Two years after the Cannabis Act — how many CSCs are licensed, what challenges remain and what comes next?',
+    content_de: `Am 1. April 2024 trat das Konsumcannabisgesetz (KCanG) in Kraft. Zwei Jahre später lässt sich eine erste Bilanz ziehen: Was wurde umgesetzt, wo hakt es, und was steht noch aus?
+
+**Lizenzierte Anbauvereinigungen in Deutschland**
+
+Stand April 2026 sind bundesweit rund 300 Cannabis Social Clubs offiziell lizenziert. Die Verteilung ist ungleichmäßig: Nordrhein-Westfalen, Berlin und Bayern haben die meisten genehmigten Vereine, während einige Bundesländer — darunter Sachsen und das Saarland — deutlich weniger Genehmigungen erteilt haben. Die Unterschiede liegen vor allem an den zuständigen Landesbehörden und deren Auslegung der Genehmigungsvoraussetzungen.
+
+**Herausforderungen in der Praxis**
+
+Die größten Hürden für Anbauvereinigungen sind nach wie vor struktureller Natur. Geeignete Räumlichkeiten zu finden, die sowohl den baurechtlichen als auch den sicherheitstechnischen Anforderungen entsprechen, bleibt schwierig. Viele Vereine berichten von Problemen bei der Kontoeröffnung, da einige Banken die Zusammenarbeit mit Cannabis-Vereinen ablehnen. Die Bürokratie — von der Antragstellung bis zur endgültigen Genehmigung — dauert in den meisten Bundesländern zwischen drei und neun Monaten.
+
+**Was funktioniert**
+
+Die Präventionsarbeit in den Clubs hat sich als Stärke des Modells erwiesen. Die gesetzlich vorgeschriebenen Suchtpräventionsbeauftragten, regelmäßige Informationsveranstaltungen und der direkte Kontakt zu Mitgliedern ermöglichen eine niedrigschwellige Aufklärung. Auch der Gemeinschaftsaspekt wird von vielen Mitgliedern positiv bewertet.
+
+**Niedersachsen im Detail**
+
+In Niedersachsen ist das LAVES für die Genehmigung zuständig. Das Verfahren gilt als vergleichsweise strukturiert. Aktuell sind im Land mehrere Vereine lizenziert, darunter BlattWerk e.V. in Hildesheim. Die Zusammenarbeit mit den Behörden verläuft sachlich und lösungsorientiert.
+
+**Ausblick: Modellprojekte für kommerziellen Verkauf**
+
+Die zweite Säule des KCanG — regionale Modellprojekte für den kommerziellen Verkauf in lizenzierten Fachgeschäften — befindet sich weiterhin in der Vorbereitungsphase. Mehrere Kommunen haben Interesse bekundet, konkrete Starttermine stehen jedoch noch aus. Die wissenschaftliche Begleitforschung wird die Auswirkungen auf Gesundheitsschutz, Jugendschutz und den Schwarzmarkt untersuchen.
+
+Weitere Informationen zur rechtlichen Grundlage findest du in unserer [Wissensdatenbank](/wissensdatenbank/legal). Wer selbst einen CSC gründen möchte, findet auf unserer Seite [CSC gründen](/csc-gruendung) einen Praxisleitfaden mit Erfahrungswerten.`,
+    content_en: `On April 1, 2024, the Cannabis Act (KCanG) came into effect. Two years later, it is time for an initial assessment: what has been implemented, where are the problems, and what remains to be done?
+
+**Licensed Cultivation Associations in Germany**
+
+As of April 2026, approximately 300 Cannabis Social Clubs are officially licensed nationwide. The distribution is uneven: North Rhine-Westphalia, Berlin and Bavaria have the most approved associations, while some states — including Saxony and Saarland — have issued significantly fewer licenses. The differences are mainly due to the responsible state authorities and their interpretation of licensing requirements.
+
+**Practical Challenges**
+
+The biggest hurdles for cultivation associations remain structural. Finding suitable premises that meet both building code and security requirements continues to be difficult. Many associations report problems opening bank accounts, as some banks refuse to work with cannabis clubs. The bureaucracy — from application to final approval — takes between three and nine months in most states.
+
+**What Works**
+
+Prevention work within clubs has proven to be a strength of the model. The legally mandated addiction prevention officers, regular information events and direct contact with members enable low-threshold education. The community aspect is also rated positively by many members.
+
+**Lower Saxony in Detail**
+
+In Lower Saxony, LAVES is responsible for licensing. The process is considered comparatively well-structured. Several associations are currently licensed in the state, including BlattWerk e.V. in Hildesheim. Cooperation with authorities has been factual and solution-oriented.
+
+**Outlook: Pilot Projects for Commercial Sales**
+
+The second pillar of the KCanG — regional pilot projects for commercial sales in licensed specialty shops — remains in the preparatory phase. Several municipalities have expressed interest, but concrete start dates are still pending. The accompanying scientific research will examine effects on health protection, youth protection and the black market.
+
+For more information on the legal framework, visit our [knowledge base](/wissensdatenbank/legal). Anyone wanting to start a CSC can find a practical guide with real-world experience on our [Start a CSC](/csc-gruendung) page.`,
+    tags: ['KCanG', 'Recht', 'Politik', '2026'],
+    author: 'Redaktion BlattWerk e.V.',
+  },
+  {
+    slug: 'qualitaetskontrolle-cannabis-social-club',
+    date: '2026-04-12',
+    title_de: 'Qualitätskontrolle im Cannabis Social Club — So wird geprüft',
+    title_en: 'Quality Control in a Cannabis Social Club — How Testing Works',
+    summary_de: 'Von der Ernte bis zur Laboranalyse: Wie ein Cannabis Social Club die Qualität seiner Erzeugnisse sicherstellt — mit Schadstofftests, Cannabinoid-Analyse und Kennzeichnungspflichten.',
+    summary_en: 'From harvest to lab analysis: how a Cannabis Social Club ensures the quality of its products — with contaminant testing, cannabinoid analysis and labeling requirements.',
+    content_de: `Einer der wichtigsten Vorteile einer Anbauvereinigung gegenüber dem Schwarzmarkt ist die kontrollierte Qualität. Doch wie läuft die Qualitätskontrolle in einem Cannabis Social Club konkret ab? Ein Überblick über die einzelnen Schritte — von der Ernte bis zur Abgabe.
+
+**Schritt 1: Sichtprüfung und Erntekontrolle**
+
+Nach der Ernte erfolgt zunächst eine visuelle Inspektion. Dabei wird auf Schimmelbefall, Schädlingsbefall, Verfärbungen und allgemeine Pflanzengesundheit geprüft. Pflanzen mit sichtbaren Mängeln werden aussortiert und nicht weiterverarbeitet. Die Trocknung und Aushärtung (Curing) werden unter kontrollierten Bedingungen durchgeführt, um gleichbleibende Qualität sicherzustellen.
+
+**Schritt 2: Feuchtigkeitsmessung**
+
+Der Feuchtigkeitsgehalt des getrockneten Cannabis wird mit einem kalibrierten Messgerät bestimmt. Der ideale Wert liegt zwischen 8 und 12 Prozent. Zu hohe Feuchtigkeit begünstigt Schimmelbildung, zu niedrige Feuchtigkeit verschlechtert Geschmack und Konsistenz. Diese Messung ist eine Grundvoraussetzung für die Lagerfähigkeit.
+
+**Schritt 3: Cannabinoid-Analyse im Labor**
+
+Eine akkreditierte Laboranalyse bestimmt die genauen Gehalte von THC, CBD und weiteren Cannabinoiden. Zusätzlich wird ein Terpenprofil erstellt, das Aufschluss über Aromastoffe und deren potenzielle Wirkungsunterschiede gibt. Diese Analyse ist nicht nur für die Kennzeichnung erforderlich, sondern hilft Mitgliedern auch bei der informierten Auswahl. Die Ergebnisse fließen in unsere [Sortendatenbank](/sortendatenbank) ein.
+
+**Schritt 4: Schadstofftests**
+
+Das Labor prüft auf Schwermetalle (Blei, Cadmium, Quecksilber, Arsen), Pestizidrückstände, mikrobiologische Belastungen (Schimmelsporen, Bakterien) und gegebenenfalls Lösungsmittelrückstände. Cannabis, das die Grenzwerte überschreitet, wird nicht an Mitglieder abgegeben und fachgerecht entsorgt.
+
+**Schritt 5: Kennzeichnung nach KCanG**
+
+Das KCanG schreibt eine eindeutige Kennzeichnung vor. Jede Abgabe muss den THC- und CBD-Gehalt in Prozent, das Gewicht, die Sortenbezeichnung, das Erntedatum und einen Hinweis auf gesundheitliche Risiken enthalten. Diese Transparenz dient dem Verbraucherschutz und unterscheidet legale Anbauvereinigungen grundlegend vom unregulierten Markt.
+
+**BlattWerk und Qualität**
+
+Bei BlattWerk e.V. ist die Qualitätskontrolle fester Bestandteil des Anbaubetriebs. Jede Ernte wird dokumentiert und laboranalytisch geprüft, bevor eine Abgabe an Mitglieder erfolgt. Weitere Informationen zu den angebauten Sorten findest du in unserer [Sortendatenbank](/sortendatenbank), Hintergrundwissen zu Cannabinoiden und Terpenen in unserer [Wissensdatenbank](/wissensdatenbank).`,
+    content_en: `One of the most important advantages of a cultivation association over the black market is controlled quality. But how does quality control actually work in a Cannabis Social Club? An overview of the individual steps — from harvest to distribution.
+
+**Step 1: Visual Inspection and Harvest Control**
+
+After harvest, a visual inspection is conducted first. This checks for mold, pest infestation, discoloration and general plant health. Plants with visible defects are sorted out and not processed further. Drying and curing are carried out under controlled conditions to ensure consistent quality.
+
+**Step 2: Moisture Testing**
+
+The moisture content of the dried cannabis is determined with a calibrated measuring device. The ideal value is between 8 and 12 percent. Excessive moisture promotes mold growth, while insufficient moisture degrades taste and consistency. This measurement is a basic prerequisite for shelf stability.
+
+**Step 3: Cannabinoid Analysis in the Laboratory**
+
+An accredited laboratory analysis determines the exact levels of THC, CBD and other cannabinoids. Additionally, a terpene profile is created that provides information about aromatic compounds and their potential differences in effect. This analysis is not only required for labeling but also helps members make informed choices. The results are incorporated into our [strain database](/sortendatenbank).
+
+**Step 4: Contaminant Testing**
+
+The laboratory tests for heavy metals (lead, cadmium, mercury, arsenic), pesticide residues, microbiological contamination (mold spores, bacteria) and, where applicable, solvent residues. Cannabis that exceeds the limit values is not distributed to members and is disposed of properly.
+
+**Step 5: Labeling Under the KCanG**
+
+The KCanG requires clear labeling. Each distribution must include the THC and CBD content in percent, weight, strain name, harvest date and a note on health risks. This transparency serves consumer protection and fundamentally distinguishes legal cultivation associations from the unregulated market.
+
+**BlattWerk and Quality**
+
+At BlattWerk e.V., quality control is an integral part of cultivation operations. Every harvest is documented and laboratory-tested before distribution to members. For more information on the strains we grow, visit our [strain database](/sortendatenbank). Background knowledge on cannabinoids and terpenes can be found in our [knowledge base](/wissensdatenbank).`,
+    tags: ['Qualität', 'Anbau', 'Labortest', 'KCanG'],
+    author: 'Redaktion BlattWerk e.V.',
+  },
+  {
     slug: 'cannabis-social-clubs-niedersachsen',
     date: '2026-04-10',
     title_de: 'Cannabis Social Clubs in Niedersachsen — Ein Überblick',

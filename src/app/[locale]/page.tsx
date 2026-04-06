@@ -2,7 +2,7 @@ import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { useTranslations, useLocale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users, Newspaper, Calendar } from 'lucide-react';
+import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users, Newspaper, Calendar, Shield, Mail } from 'lucide-react';
 import { strains } from '@/data/strains';
 import { allArticles, allCategories } from '@/data/knowledge';
 import { blogPosts } from '@/data/blog';
@@ -262,6 +262,74 @@ function HomeContent() {
               >
                 {isDE ? 'Infos zur Mitgliedschaft' : 'Membership info'}
               </Link>
+            </div>
+          </div>
+        </section>
+      </HomeSection>
+
+      {/* ═══════════════════════════════════════
+          QUICK LINKS — explore more
+      ═══════════════════════════════════════ */}
+      <HomeSection>
+        <section className="py-16 lg:py-24 border-t border-[var(--border)]">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <p className="text-sm font-medium text-accent mb-4">
+              {isDE ? 'Mehr entdecken' : 'Explore More'}
+            </p>
+            <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
+              {isDE ? 'Mehr entdecken' : 'Explore More'}
+            </h2>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {[
+                {
+                  icon: Calendar,
+                  title: 'Events',
+                  text: isDE
+                    ? 'Infoveranstaltungen, Workshops und Vereinstreffen'
+                    : 'Info events, workshops and club meetings',
+                  href: '/events' as const,
+                },
+                {
+                  icon: Shield,
+                  title: isDE ? 'Suchtprävention' : 'Prevention',
+                  text: isDE
+                    ? 'Unser Präventionskonzept und Beratungsangebote'
+                    : 'Our prevention concept and counseling services',
+                  href: '/suchtpraevention' as const,
+                },
+                {
+                  icon: Sprout,
+                  title: isDE ? 'CSC gründen' : 'Start a CSC',
+                  text: isDE
+                    ? 'Praxisleitfaden für deine eigene Anbauvereinigung'
+                    : 'Practical guide for your own cultivation association',
+                  href: '/csc-gruendung' as const,
+                },
+                {
+                  icon: Mail,
+                  title: isDE ? 'Kontakt' : 'Contact',
+                  text: isDE
+                    ? 'Fragen? Schreib uns — wir antworten persönlich'
+                    : 'Questions? Write us — we respond personally',
+                  href: '/kontakt' as const,
+                },
+              ].map(({ icon: Icon, title, text, href }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="group flex flex-col p-5 rounded-xl border border-[var(--border)] bg-bg-elevated hover:shadow-md transition-all duration-200"
+                >
+                  <Icon className="w-5 h-5 text-accent mb-3" />
+                  <h3 className="font-heading font-semibold text-sm mb-1.5 group-hover:text-accent transition-colors">
+                    {title}
+                  </h3>
+                  <p className="text-xs text-ink-muted leading-relaxed mb-3">{text}</p>
+                  <span className="mt-auto inline-flex items-center gap-1 text-xs font-medium text-accent">
+                    {isDE ? 'Mehr erfahren' : 'Learn more'} <ArrowRight className="w-3 h-3" />
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
