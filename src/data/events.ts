@@ -22,15 +22,15 @@ export interface BlattWerkEvent {
 export const upcomingEvents: readonly BlattWerkEvent[] = [
   {
     date: '2026-04-12',
-    time: '18:00',
+    time: '15:00',
     title_de: 'Vorstandsversammlung',
     title_en: 'Board Meeting',
     description_de:
       'Interne Vorstandsversammlung zur Planung und Abstimmung aktueller Vereinsthemen.',
     description_en:
       'Internal board meeting for planning and coordination of current club topics.',
-    location_de: 'Vereinsräume',
-    location_en: 'Club premises',
+    location_de: 'Salzhemmendorf',
+    location_en: 'Salzhemmendorf',
     type_de: 'Versammlung',
     type_en: 'Assembly',
   },

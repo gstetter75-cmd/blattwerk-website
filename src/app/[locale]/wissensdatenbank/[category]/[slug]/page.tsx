@@ -6,6 +6,7 @@ import { OptimizedImage } from '@/components/OptimizedImage';
 import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen, User } from 'lucide-react';
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
 import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
+import { renderMarkdown } from '@/lib/markdown';
 
 export function generateStaticParams() {
   return allArticles.flatMap((article) => [
@@ -31,7 +32,7 @@ export default async function ArticlePage({
   const title = isDE ? article.title_de : article.title_en;
   const summary = isDE ? article.summary_de : article.summary_en;
   const content = isDE ? article.content_de : article.content_en;
-  const paragraphs = content.split('\n\n').filter(Boolean);
+
 
   const relatedArticles = article.related_slugs
     .map((s) => allArticles.find((a) => a.slug === s))
@@ -134,13 +135,10 @@ export default async function ArticlePage({
           )}
 
           {/* Article Content */}
-          <div className="space-y-5">
-            {paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-ink-muted leading-relaxed">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          <div
+            className="prose-blog space-y-5 text-ink-muted leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
+          />
 
           {/* E-E-A-T: Author & Sources */}
           <div className="mt-10 p-5 rounded-xl border border-[var(--border)] bg-bg-surface">

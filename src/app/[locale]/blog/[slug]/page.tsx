@@ -4,6 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowLeft, Clock, Tag, User } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/data/blog';
+import { renderMarkdown } from '@/lib/markdown';
 import { BreadcrumbSchema, ArticleSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
 
@@ -51,8 +52,6 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const title = isDE ? post.title_de : post.title_en;
   const content = isDE ? post.content_de : post.content_en;
-  const paragraphs = content.split('\n\n').filter(Boolean);
-
   const date = new Date(post.date + 'T00:00:00');
   const formattedDate = date.toLocaleDateString(isDE ? 'de-DE' : 'en-US', {
     year: 'numeric',
@@ -122,13 +121,10 @@ export default async function BlogPostPage({ params }: PageProps) {
             </div>
           </header>
 
-          <div className="space-y-4">
-            {paragraphs.map((paragraph, i) => (
-              <p key={i} className="text-base leading-relaxed text-ink-muted">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          <div
+            className="prose-blog space-y-4 text-base leading-relaxed text-ink-muted"
+            dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
+          />
 
           {(prevPost || nextPost) && (
             <nav className="mt-16 pt-8 border-t border-[var(--border)] grid sm:grid-cols-2 gap-4">

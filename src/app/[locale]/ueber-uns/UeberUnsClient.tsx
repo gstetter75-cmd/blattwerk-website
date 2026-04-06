@@ -43,7 +43,7 @@ export function UeberUnsClient({ isDE }: Props) {
   const growingCouncil = [
     {
       role: isDE ? 'Anbauleitung' : 'Head of Cultivation',
-      name: 'Florian Klatt',
+      name: 'Florian K.',
       text: isDE
         ? 'Planung und Überwachung des gemeinschaftlichen Anbaus'
         : 'Planning and supervision of communal cultivation',
