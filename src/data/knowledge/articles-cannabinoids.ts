@@ -1285,4 +1285,194 @@ THCV and CBDV represent a new class of cannabinoids that fundamentally differ fr
     last_updated: '2026-03-27',
     related_slugs: ['thc', 'cbd', 'cbg', 'cbn-cannabinol', 'endocannabinoid-system'],
   },
+
+  // ─── CBC — DAS UNTERSCHÄTZTE CANNABINOID ──────────────────────────────────────
+  {
+    slug: 'cbc-cannabichromene',
+    category: 'cannabinoids',
+    title_de: 'CBC — Das unterschätzte Cannabinoid',
+    title_en: 'CBC — The Underestimated Cannabinoid',
+    summary_de:
+      'Cannabichromen (CBC) ist eines der am häufigsten vorkommenden Cannabinoide, steht aber selten im Rampenlicht. Aktuelle Forschung deutet auf entzündungshemmende und antidepressive Eigenschaften hin.',
+    summary_en:
+      'Cannabichromene (CBC) is one of the most abundant cannabinoids yet rarely in the spotlight. Current research points to anti-inflammatory and antidepressant properties.',
+    images: [
+      {
+        src: '/images/knowledge/cannabis-science.jpg',
+        alt_de: 'Cannabis-Wissenschaft',
+        alt_en: 'Cannabis science',
+      },
+    ],
+    content_de: `## Was ist CBC?
+
+Cannabichromen – kurz CBC – ist ein nicht-psychoaktives Cannabinoid, das erstmals 1966 von Raphael Mechoulam und Yechiel Gaoni beschrieben wurde, nur zwei Jahre nach ihrer bahnbrechenden Isolierung von THC. CBC ist in vielen Cannabissorten das dritthäufigste Cannabinoid nach THC und CBD. Besonders in jungen Cannabispflanzen und tropischen Landrassen können die CBC-Konzentrationen beachtlich hoch sein.
+
+Wie alle Phytocannabinoide entsteht CBC aus der gemeinsamen Vorstufe Cannabigerolsäure (CBGA). Das Enzym CBC-Synthase wandelt CBGA in Cannabichromensäure (CBCA) um, die durch Decarboxylierung (Hitzeeinwirkung) zum aktiven CBC wird. Die Summenformel von CBC lautet C₂₁H₃₀O₂ – identisch mit THC –, doch die unterschiedliche räumliche Anordnung der Atome führt zu völlig anderen pharmakologischen Eigenschaften.
+
+## Wirkungsmechanismus
+
+Im Gegensatz zu THC bindet CBC kaum an die klassischen Cannabinoidrezeptoren CB1 und CB2. Stattdessen interagiert es mit anderen Rezeptorsystemen, die für seine biologische Wirkung verantwortlich sind:
+
+**TRPV1- und TRPA1-Rezeptoren:** CBC aktiviert die Vanilloid-Rezeptoren TRPV1 und TRPA1, die an der Schmerzwahrnehmung, Entzündungsregulation und Temperaturempfindung beteiligt sind. Über diesen Mechanismus könnte CBC schmerzlindernde und entzündungshemmende Wirkungen entfalten.
+
+**Anandamid-Wiederaufnahme:** CBC hemmt die Wiederaufnahme des Endocannabinoids Anandamid, sodass dieses länger im synaptischen Spalt verbleibt und seine Wirkung verlängert wird. Da Anandamid stimmungsaufhellende und angstlösende Eigenschaften hat, könnte dieser Mechanismus die antidepressive Wirkung von CBC erklären.
+
+## Forschungslage: Entzündungshemmung
+
+Die entzündungshemmenden Eigenschaften von CBC gehören zu den am besten untersuchten Wirkungsbereichen. Eine 2010 im British Journal of Pharmacology veröffentlichte Studie zeigte, dass CBC im Tiermodell Entzündungen im Verdauungstrakt signifikant reduzierte – und zwar über einen Mechanismus, der unabhängig von den CB1- und CB2-Rezeptoren war. Die Kombination von CBC mit THC zeigte dabei eine stärkere entzündungshemmende Wirkung als jede Substanz allein, was auf eine synergistische Interaktion hindeutet.
+
+Weitere präklinische Studien deuten darauf hin, dass CBC die Produktion proinflammatorischer Zytokine hemmen und die Aktivierung von Mastzellen modulieren kann. Diese Befunde sind besonders relevant für chronisch-entzündliche Erkrankungen, bei denen herkömmliche Entzündungshemmer oft unzureichend wirken oder erhebliche Nebenwirkungen haben.
+
+## Forschungslage: Antidepressive Wirkung
+
+Eine vielzitierte Studie von El-Alfy et al. aus dem Jahr 2010 untersuchte die antidepressive Wirkung verschiedener Cannabinoide im Tiermodell. CBC zeigte dabei signifikante antidepressive Effekte – vergleichbar mit denen anderer Cannabinoide, aber ohne psychoaktive Nebenwirkungen. Die Autoren führten diese Wirkung auf die Hemmung der Anandamid-Wiederaufnahme und die daraus resultierende Verstärkung der endocannabinoiden Signalübertragung zurück.
+
+Diese Befunde sind vielversprechend, müssen aber durch klinische Studien am Menschen bestätigt werden, bevor therapeutische Schlussfolgerungen gezogen werden können.
+
+## Der Entourage-Effekt
+
+CBC leistet einen wichtigen Beitrag zum sogenannten Entourage-Effekt – dem Phänomen, dass die Gesamtwirkung aller Cannabinoide, Terpene und Flavonoide einer Cannabissorte die Summe der Einzelwirkungen übersteigt. Insbesondere die synergistische Wirkung von CBC mit THC und CBD bei der Entzündungshemmung und Schmerzlinderung unterstützt die Hypothese, dass Vollspektrum-Cannabisprodukte therapeutisch wirksamer sein können als isolierte Einzelsubstanzen.
+
+## Aktuelle Herausforderungen
+
+Die CBC-Forschung steht noch am Anfang. Die Mehrzahl der Studien basiert auf Tier- oder Zellkulturmodellen, und klinische Studien am Menschen sind selten. Zudem ist die Verfügbarkeit von reinem CBC für Forschungszwecke begrenzt, da die Isolierung aufwendig ist. Die zunehmende Legalisierung und das wachsende wissenschaftliche Interesse an Cannabinoiden jenseits von THC und CBD lassen jedoch erwarten, dass die CBC-Forschung in den kommenden Jahren deutlich an Fahrt gewinnen wird.`,
+    content_en: `## What Is CBC?
+
+Cannabichromene – CBC for short – is a non-psychoactive cannabinoid first described in 1966 by Raphael Mechoulam and Yechiel Gaoni, just two years after their groundbreaking isolation of THC. In many cannabis varieties, CBC is the third most abundant cannabinoid after THC and CBD. Particularly in young cannabis plants and tropical landraces, CBC concentrations can be remarkably high.
+
+Like all phytocannabinoids, CBC originates from the common precursor cannabigerolic acid (CBGA). The enzyme CBC synthase converts CBGA into cannabichromenic acid (CBCA), which becomes active CBC through decarboxylation (heat application). The molecular formula of CBC is C₂₁H₃₀O₂ – identical to THC – yet the different spatial arrangement of atoms leads to entirely different pharmacological properties.
+
+## Mechanism of Action
+
+Unlike THC, CBC barely binds to the classical cannabinoid receptors CB1 and CB2. Instead, it interacts with other receptor systems responsible for its biological effects:
+
+**TRPV1 and TRPA1 receptors:** CBC activates the vanilloid receptors TRPV1 and TRPA1, which are involved in pain perception, inflammation regulation and temperature sensation. Through this mechanism, CBC could exert analgesic and anti-inflammatory effects.
+
+**Anandamide reuptake:** CBC inhibits the reuptake of the endocannabinoid anandamide, allowing it to remain longer in the synaptic cleft and prolonging its effect. Since anandamide has mood-elevating and anxiolytic properties, this mechanism could explain the antidepressant effect of CBC.
+
+## Research: Anti-Inflammatory Properties
+
+The anti-inflammatory properties of CBC are among the best-studied areas of its effects. A 2010 study published in the British Journal of Pharmacology showed that CBC significantly reduced inflammation in the digestive tract in animal models – via a mechanism independent of the CB1 and CB2 receptors. The combination of CBC with THC showed a stronger anti-inflammatory effect than either substance alone, suggesting a synergistic interaction.
+
+Further preclinical studies indicate that CBC can inhibit the production of pro-inflammatory cytokines and modulate mast cell activation. These findings are particularly relevant for chronic inflammatory conditions where conventional anti-inflammatory drugs often prove insufficient or have significant side effects.
+
+## Research: Antidepressant Effect
+
+A widely cited 2010 study by El-Alfy et al. investigated the antidepressant effects of various cannabinoids in animal models. CBC showed significant antidepressant effects – comparable to those of other cannabinoids but without psychoactive side effects. The authors attributed this effect to the inhibition of anandamide reuptake and the resulting enhancement of endocannabinoid signalling.
+
+These findings are promising but must be confirmed by clinical human studies before therapeutic conclusions can be drawn.
+
+## The Entourage Effect
+
+CBC makes an important contribution to the so-called entourage effect – the phenomenon whereby the overall effect of all cannabinoids, terpenes and flavonoids of a cannabis variety exceeds the sum of their individual effects. In particular, the synergistic effect of CBC with THC and CBD in inflammation reduction and pain relief supports the hypothesis that full-spectrum cannabis products may be therapeutically more effective than isolated individual substances.
+
+## Current Challenges
+
+CBC research is still in its early stages. The majority of studies are based on animal or cell culture models, and clinical human studies are rare. Furthermore, the availability of pure CBC for research purposes is limited, as isolation is complex. However, increasing legalisation and the growing scientific interest in cannabinoids beyond THC and CBD suggest that CBC research will gain significant momentum in the coming years.`,
+    tags: ['CBC', 'Cannabinoide', 'Forschung', 'Wirkung'],
+    reading_time: 5,
+    last_updated: '2026-04-06',
+    related_slugs: ['thc', 'cbd', 'cbg', 'cbn-cannabinol', 'endocannabinoid-system', 'vollspektrum-vs-isolat'],
+  },
+
+  // ─── VOLLSPEKTRUM VS. ISOLAT ──────────────────────────────────────────────────
+  {
+    slug: 'vollspektrum-vs-isolat',
+    category: 'cannabinoids',
+    title_de: 'Vollspektrum vs. Isolat — Was ist der Unterschied?',
+    title_en: 'Full Spectrum vs. Isolate — What Is the Difference?',
+    summary_de:
+      'Vollspektrum, Breitspektrum, Isolat: Was bedeuten diese Begriffe, warum sind Terpenprofile wichtig, und welche Rolle spielt der Entourage-Effekt bei getrockneten Blüten und Extrakten?',
+    summary_en:
+      'Full spectrum, broad spectrum, isolate: what do these terms mean, why do terpene profiles matter, and what role does the entourage effect play in dried flower and extracts?',
+    images: [
+      {
+        src: '/images/knowledge/cannabis-science.jpg',
+        alt_de: 'Cannabis-Wissenschaft',
+        alt_en: 'Cannabis science',
+      },
+    ],
+    content_de: `## Drei Begriffe, drei Ansätze
+
+In der Welt der Cannabisprodukte begegnen einem drei zentrale Begriffe, die beschreiben, welches Spektrum an Inhaltsstoffen ein Produkt enthält. Das Verständnis dieser Unterscheidung ist grundlegend für eine informierte Auswahl.
+
+**Vollspektrum (Full Spectrum):** Ein Vollspektrumprodukt enthält das gesamte natürliche Spektrum der Cannabispflanze – alle Cannabinoide (THC, CBD, CBG, CBC, CBN und weitere), Terpene, Flavonoide und andere sekundäre Pflanzenstoffe in ihren natürlichen Verhältnissen. Getrocknete Cannabisblüten sind per Definition Vollspektrumprodukte, da sie die Pflanze in ihrer natürlichen chemischen Komplexität repräsentieren.
+
+**Breitspektrum (Broad Spectrum):** Breitspektrumprodukte enthalten ebenfalls ein breites Spektrum an Cannabinoiden und Terpenen, jedoch wurde gezielt ein oder mehrere Bestandteile entfernt – typischerweise THC. Breitspektrum-CBD-Öle sind ein gängiges Beispiel: Sie bieten die Vorteile mehrerer Cannabinoide und Terpene, ohne die psychoaktive Wirkung von THC.
+
+**Isolat:** Ein Isolat ist ein einzelnes, hochreines Cannabinoid – typischerweise CBD-Isolat mit einer Reinheit von 99 Prozent oder mehr. Alle anderen Cannabinoide, Terpene und Pflanzenstoffe wurden durch aufwendige Extraktions- und Reinigungsverfahren entfernt. Isolate sind geruchs- und geschmacksneutral und bieten die maximale Kontrolle über die aufgenommene Substanz.
+
+## Der Entourage-Effekt: Mehr als die Summe der Teile
+
+Das zentrale Argument für Vollspektrumprodukte ist der Entourage-Effekt. Dieser 1998 von Raphael Mechoulam und Shimon Ben-Shabat geprägte Begriff beschreibt das Phänomen, dass die verschiedenen Inhaltsstoffe der Cannabispflanze synergistisch zusammenwirken und dabei eine Gesamtwirkung erzeugen, die über die Summe der Einzelwirkungen hinausgeht.
+
+Die wissenschaftliche Evidenz für den Entourage-Effekt wächst stetig. Eine vielbeachtete Übersichtsarbeit von Ethan Russo aus dem Jahr 2011 dokumentierte zahlreiche synergistische Interaktionen: CBD moduliert die psychoaktive Wirkung von THC und kann Angst und Paranoia reduzieren. Das Terpen Myrcen verstärkt die Passage von Cannabinoiden durch die Blut-Hirn-Schranke. Linalool und Limonen zeigen in Kombination mit CBD verstärkte angstlösende Wirkungen. CBC und CBG ergänzen die entzündungshemmenden Eigenschaften von THC und CBD.
+
+Eine 2015 an der Hebrew University Jerusalem durchgeführte Studie verglich die Wirksamkeit von reinem CBD-Isolat mit einem CBD-reichen Vollspektrumextrakt im Tiermodell. Das Ergebnis: Der Vollspektrumextrakt zeigte eine dosisabhängig zunehmende Wirksamkeit, während das Isolat eine glockenförmige Dosiskurve aufwies – ab einer bestimmten Dosis nahm die Wirksamkeit wieder ab. Die Autoren führten diesen Unterschied auf die synergistischen Interaktionen der begleitenden Cannabinoide und Terpene im Vollspektrumextrakt zurück.
+
+## Warum Terpenprofile wichtig sind
+
+Terpene sind aromatische Verbindungen, die nicht nur für den charakteristischen Geruch und Geschmack von Cannabissorten verantwortlich sind, sondern auch eigene biologische Wirkungen entfalten. Das Terpenprofil einer Cannabissorte bestimmt maßgeblich mit, wie sich deren Wirkung subjektiv anfühlt – oft mehr als der reine THC-Gehalt.
+
+Myrcen, das häufigste Terpen in Cannabis, wirkt sedierend und muskelentspannend. Limonen hat stimmungsaufhellende und angstlösende Eigenschaften. Pinene kann die Aufmerksamkeit fördern und der sedierenden Wirkung von THC entgegenwirken. Linalool wirkt beruhigend und angstlösend. Caryophyllen bindet als einziges Terpen direkt an den CB2-Rezeptor und hat entzündungshemmende Eigenschaften.
+
+In unserer [Sortendatenbank](/sortendatenbank) sind die Terpenprofile der verfügbaren Sorten dokumentiert, um Mitgliedern eine informierte Auswahl zu ermöglichen.
+
+## Vollspektrum bei getrockneten Blüten
+
+Getrocknete Cannabisblüten – die primäre Abgabeform in Cannabis Social Clubs – sind naturgemäß Vollspektrumprodukte. Jede Sorte hat ein einzigartiges chemisches Profil, das durch die Genetik der Pflanze, die Anbaubedingungen, den Erntezeitpunkt und die Trocknung bestimmt wird. Dieses Profil umfasst typischerweise 10 bis 20 verschiedene Cannabinoide in messbaren Konzentrationen und 20 bis 40 Terpene.
+
+Die Vollspektrumnatur getrockneter Blüten ist einer der Gründe, warum viele Konsumenten die Blütenform gegenüber Konzentraten oder Isolaten bevorzugen: Sie bietet die vollständige chemische Komplexität der Pflanze und damit das volle Potenzial des Entourage-Effekts.
+
+## Wann ist ein Isolat sinnvoll?
+
+Trotz der Vorteile des Entourage-Effekts gibt es Situationen, in denen Isolate die bessere Wahl sein können. In der medizinischen Anwendung kann die präzise Dosierung eines einzelnen Wirkstoffs wichtig sein, insbesondere in klinischen Studien. Für Personen, die empfindlich auf THC reagieren, bieten CBD-Isolate eine Möglichkeit, CBD ohne jede Spur von THC zu nutzen. In der pharmazeutischen Forschung sind Isolate unerlässlich, um die Wirkung einzelner Cannabinoide isoliert untersuchen zu können.
+
+## Qualitätsmerkmale beachten
+
+Unabhängig davon, ob Vollspektrum, Breitspektrum oder Isolat: Die Qualität eines Cannabisprodukts steht und fällt mit der Analyse. Seriöse Produkte werden durch unabhängige Labore auf ihr Cannabinoid- und Terpenprofil, Schwermetalle, Pestizide, Mykotoxine und mikrobielle Verunreinigungen getestet. In Cannabis Social Clubs wie BlattWerk e. V. unterliegt die Produktion den Qualitätsanforderungen des KCanG, die regelmäßige Analysen vorschreiben.`,
+    content_en: `## Three Terms, Three Approaches
+
+In the world of cannabis products, three central terms describe the spectrum of active compounds a product contains. Understanding this distinction is fundamental to making an informed choice.
+
+**Full Spectrum:** A full-spectrum product contains the entire natural spectrum of the cannabis plant – all cannabinoids (THC, CBD, CBG, CBC, CBN and others), terpenes, flavonoids and other secondary plant compounds in their natural ratios. Dried cannabis flowers are by definition full-spectrum products, as they represent the plant in its natural chemical complexity.
+
+**Broad Spectrum:** Broad-spectrum products also contain a wide range of cannabinoids and terpenes, but one or more components have been deliberately removed – typically THC. Broad-spectrum CBD oils are a common example: they offer the benefits of multiple cannabinoids and terpenes without the psychoactive effect of THC.
+
+**Isolate:** An isolate is a single, highly pure cannabinoid – typically CBD isolate with a purity of 99 per cent or more. All other cannabinoids, terpenes and plant compounds have been removed through elaborate extraction and purification processes. Isolates are odourless and tasteless and offer maximum control over the substance consumed.
+
+## The Entourage Effect: More Than the Sum of Parts
+
+The central argument for full-spectrum products is the entourage effect. This term, coined in 1998 by Raphael Mechoulam and Shimon Ben-Shabat, describes the phenomenon whereby the various constituents of the cannabis plant work synergistically together, producing an overall effect that exceeds the sum of their individual effects.
+
+The scientific evidence for the entourage effect is steadily growing. A widely noted 2011 review by Ethan Russo documented numerous synergistic interactions: CBD modulates the psychoactive effect of THC and can reduce anxiety and paranoia. The terpene myrcene enhances the passage of cannabinoids through the blood-brain barrier. Linalool and limonene show enhanced anxiolytic effects in combination with CBD. CBC and CBG complement the anti-inflammatory properties of THC and CBD.
+
+A 2015 study conducted at the Hebrew University of Jerusalem compared the efficacy of pure CBD isolate with a CBD-rich full-spectrum extract in animal models. The result: the full-spectrum extract showed dose-dependently increasing efficacy, while the isolate exhibited a bell-shaped dose curve – above a certain dose, efficacy decreased again. The authors attributed this difference to the synergistic interactions of the accompanying cannabinoids and terpenes in the full-spectrum extract.
+
+## Why Terpene Profiles Matter
+
+Terpenes are aromatic compounds responsible not only for the characteristic smell and taste of cannabis varieties but also for their own biological effects. The terpene profile of a cannabis variety significantly co-determines how its effect feels subjectively – often more so than the pure THC content.
+
+Myrcene, the most common terpene in cannabis, has sedating and muscle-relaxing effects. Limonene has mood-elevating and anxiolytic properties. Pinene can promote alertness and counteract the sedating effect of THC. Linalool has calming and anxiolytic effects. Caryophyllene is the only terpene that binds directly to the CB2 receptor and has anti-inflammatory properties.
+
+In our [strain database](/sortendatenbank), the terpene profiles of available varieties are documented to enable members to make informed choices.
+
+## Full Spectrum in Dried Flower
+
+Dried cannabis flowers – the primary form of distribution in Cannabis Social Clubs – are inherently full-spectrum products. Each variety has a unique chemical profile determined by the plant's genetics, growing conditions, harvest timing and drying process. This profile typically comprises 10 to 20 different cannabinoids in measurable concentrations and 20 to 40 terpenes.
+
+The full-spectrum nature of dried flower is one reason why many consumers prefer flower over concentrates or isolates: it offers the complete chemical complexity of the plant and thus the full potential of the entourage effect.
+
+## When Is an Isolate Appropriate?
+
+Despite the advantages of the entourage effect, there are situations where isolates may be the better choice. In medical applications, precise dosing of a single active compound can be important, particularly in clinical studies. For individuals who are sensitive to THC, CBD isolates offer a way to use CBD without any trace of THC. In pharmaceutical research, isolates are essential for studying the effects of individual cannabinoids in isolation.
+
+## Quality Indicators to Watch For
+
+Regardless of whether full spectrum, broad spectrum or isolate: the quality of a cannabis product depends on its analysis. Reputable products are tested by independent laboratories for their cannabinoid and terpene profile, heavy metals, pesticides, mycotoxins and microbial contamination. In Cannabis Social Clubs such as BlattWerk e.V., production is subject to the quality requirements of the KCanG, which mandate regular analyses.`,
+    tags: ['Vollspektrum', 'Isolat', 'Cannabinoide', 'Terpene'],
+    reading_time: 6,
+    last_updated: '2026-04-06',
+    related_slugs: ['thc', 'cbd', 'cbc-cannabichromene', 'cbg', 'endocannabinoid-system', 'terpene-grundlagen'],
+  },
 ];

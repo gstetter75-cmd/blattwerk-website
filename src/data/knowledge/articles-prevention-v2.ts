@@ -1318,4 +1318,325 @@ Knowing about your own child's cannabis use is emotionally taxing. Many parents 
       'safer-use-regeln',
     ],
   },
+
+  // ─── CANNABIS UND SCHWANGERSCHAFT ─────────────────────────────────────────────
+  {
+    slug: 'cannabis-schwangerschaft',
+    category: 'prevention',
+    title_de: 'Cannabis und Schwangerschaft — Warum Konsum tabu ist',
+    title_en: 'Cannabis and Pregnancy — Why Consumption Is Off Limits',
+    summary_de:
+      'THC überwindet die Plazentaschranke und gelangt in den fetalen Kreislauf. Während Schwangerschaft und Stillzeit gilt: kein Cannabis – die wissenschaftliche Evidenz ist eindeutig.',
+    summary_en:
+      'THC crosses the placental barrier and enters the foetal circulation. During pregnancy and breastfeeding the rule is clear: no cannabis – the scientific evidence is unambiguous.',
+    content_de: `## Eine klare Botschaft
+
+In der Debatte um Cannabis gibt es Bereiche, in denen Grautöne angebracht sind – und Bereiche, in denen Eindeutigkeit geboten ist. Cannabis in der Schwangerschaft und Stillzeit gehört zur zweiten Kategorie. Alle relevanten medizinischen Fachgesellschaften – die Deutsche Gesellschaft für Gynäkologie und Geburtshilfe, das American College of Obstetricians and Gynecologists, die WHO – sind sich einig: Cannabiskonsum während der Schwangerschaft und Stillzeit ist mit erheblichen Risiken für das ungeborene bzw. neugeborene Kind verbunden und sollte vollständig vermieden werden.
+
+## Wie THC die Plazenta überwindet
+
+THC ist eine stark lipophile (fettlösliche) Substanz mit einem niedrigen Molekulargewicht. Diese Eigenschaften ermöglichen es dem Molekül, die Plazentaschranke nahezu ungehindert zu passieren. Studien zeigen, dass fetales Blut THC-Konzentrationen erreicht, die etwa einem Drittel bis zur Hälfte der mütterlichen Plasmakonzentration entsprechen. Das bedeutet: Wenn eine schwangere Person Cannabis konsumiert, ist auch der Fötus der Substanz ausgesetzt.
+
+Das Endocannabinoid-System spielt eine zentrale Rolle in der embryonalen und fetalen Entwicklung. Bereits in den ersten Schwangerschaftswochen sind CB1- und CB2-Rezeptoren im sich entwickelnden Gehirn nachweisbar. Das endogene Cannabinoidsystem reguliert kritische Prozesse wie die neuronale Migration, die Synaptogenese und die Ausbildung neuronaler Schaltkreise. Exogenes THC kann diese fein abgestimmten Prozesse stören.
+
+## Risiken für die fetale Entwicklung
+
+Die wissenschaftliche Evidenz zu den Auswirkungen von Cannabis auf die Schwangerschaft umfasst mehrere gut dokumentierte Risikobereiche:
+
+**Geburtsgewicht und Frühgeburtlichkeit:** Mehrere Metaanalysen, darunter eine umfassende Auswertung der Universität Ottawa aus dem Jahr 2016 mit über 24.000 Schwangerschaften, zeigen einen signifikanten Zusammenhang zwischen Cannabiskonsum in der Schwangerschaft und niedrigerem Geburtsgewicht. Das Risiko einer Frühgeburt ist ebenfalls erhöht.
+
+**Neurologische Entwicklung:** Die OPPS-Studie (Ottawa Prenatal Prospective Study) und die MHPCD-Studie (Maternal Health Practices and Child Development) verfolgen seit den 1980er Jahren Kinder, deren Mütter während der Schwangerschaft Cannabis konsumierten. Die Ergebnisse zeigen Auffälligkeiten in der Aufmerksamkeit, dem Arbeitsgedächtnis, der Impulskontrolle und den exekutiven Funktionen – Defizite, die bis ins Jugendalter nachweisbar waren.
+
+**Plazentakomplikationen:** Es gibt Hinweise darauf, dass Cannabiskonsum das Risiko für eine vorzeitige Plazentalösung erhöhen kann – eine potenziell lebensbedrohliche Komplikation.
+
+**Verhaltensauffälligkeiten:** Kinder mit pränataler Cannabisexposition zeigen in Langzeitstudien häufiger Verhaltensauffälligkeiten, einschließlich erhöhter Hyperaktivität und Probleme in sozialen Interaktionen.
+
+## Stillzeit: THC in der Muttermilch
+
+THC reichert sich aufgrund seiner Fettlöslichkeit in der Muttermilch an. Studien zeigen, dass THC bis zu sechs Tage nach dem letzten Konsum in der Muttermilch nachweisbar sein kann. Es gibt keinen sicheren Zeitabstand zwischen Konsum und Stillen, der das Risiko eliminieren würde. Auch CBD-Produkte sind während der Stillzeit nicht empfohlen, da die Datenlage zu deren Sicherheit unzureichend ist.
+
+## Keine sichere Dosis
+
+Ein häufiges Missverständnis ist die Annahme, gelegentlicher oder geringer Konsum sei unbedenklich. Die aktuelle Forschung kann keine Schwellendosis definieren, unterhalb derer Cannabis in der Schwangerschaft als sicher gilt. Die empfohlene Dosis ist daher null. Dies gilt unabhängig von der Konsumform – Rauchen, Verdampfen, Edibles und topische Anwendungen mit THC sind gleichermaßen zu vermeiden.
+
+## Was tun bei bestehendem Konsum?
+
+Schwangere Personen, die aktuell Cannabis konsumieren, sollten dies ihrem behandelnden Arzt oder ihrer Hebamme mitteilen. Es gibt keine strafrechtlichen Konsequenzen für diese Offenheit, und nur mit dieser Information kann die medizinische Betreuung optimal angepasst werden. Bei cannabisabhängigen Schwangeren kann ein abruptes Absetzen in seltenen Fällen problematisch sein – hier sollte das Vorgehen ärztlich begleitet werden.
+
+Beratungsstellen wie die BZgA-Telefonberatung (0800 135 3771) und lokale Suchtberatungen bieten vertrauliche Unterstützung.`,
+    content_en: `## A Clear Message
+
+In the cannabis debate there are areas where nuance is appropriate – and areas where clarity is essential. Cannabis during pregnancy and breastfeeding belongs to the second category. All relevant medical professional bodies – the German Society for Gynaecology and Obstetrics, the American College of Obstetricians and Gynecologists, the WHO – agree: cannabis use during pregnancy and breastfeeding carries significant risks for the unborn or newborn child and should be avoided entirely.
+
+## How THC Crosses the Placenta
+
+THC is a highly lipophilic (fat-soluble) substance with a low molecular weight. These properties allow the molecule to cross the placental barrier virtually unimpeded. Studies show that foetal blood reaches THC concentrations of approximately one-third to one-half of the maternal plasma concentration. This means: when a pregnant person consumes cannabis, the foetus is also exposed to the substance.
+
+The endocannabinoid system plays a central role in embryonic and foetal development. CB1 and CB2 receptors are already detectable in the developing brain during the first weeks of pregnancy. The endogenous cannabinoid system regulates critical processes such as neuronal migration, synaptogenesis and the formation of neural circuits. Exogenous THC can disrupt these finely tuned processes.
+
+## Risks for Foetal Development
+
+The scientific evidence on the effects of cannabis on pregnancy encompasses several well-documented risk areas:
+
+**Birth weight and preterm birth:** Several meta-analyses, including a comprehensive evaluation by the University of Ottawa from 2016 involving over 24,000 pregnancies, show a significant association between cannabis use during pregnancy and lower birth weight. The risk of preterm birth is also elevated.
+
+**Neurological development:** The OPPS study (Ottawa Prenatal Prospective Study) and the MHPCD study (Maternal Health Practices and Child Development) have followed children whose mothers consumed cannabis during pregnancy since the 1980s. The results show abnormalities in attention, working memory, impulse control and executive functions – deficits that were detectable into adolescence.
+
+**Placental complications:** There is evidence that cannabis use may increase the risk of placental abruption – a potentially life-threatening complication.
+
+**Behavioural abnormalities:** Children with prenatal cannabis exposure show behavioural abnormalities more frequently in long-term studies, including increased hyperactivity and difficulties in social interactions.
+
+## Breastfeeding: THC in Breast Milk
+
+Due to its fat solubility, THC accumulates in breast milk. Studies show that THC can be detectable in breast milk for up to six days after the last use. There is no safe interval between consumption and breastfeeding that would eliminate the risk. CBD products are also not recommended during breastfeeding, as the data on their safety is insufficient.
+
+## No Safe Dose
+
+A common misconception is the assumption that occasional or low-level use is harmless. Current research cannot define a threshold dose below which cannabis is considered safe during pregnancy. The recommended dose is therefore zero. This applies regardless of the method of consumption – smoking, vaporising, edibles and topical applications containing THC are all to be avoided equally.
+
+## What to Do If Currently Using?
+
+Pregnant individuals who currently use cannabis should disclose this to their attending physician or midwife. There are no criminal consequences for this openness, and only with this information can medical care be optimally adjusted. For cannabis-dependent pregnant individuals, abrupt cessation can in rare cases be problematic – in such cases the approach should be medically supervised.
+
+Counselling services such as the BZgA telephone helpline (0800 135 3771) and local addiction counselling centres offer confidential support.`,
+    tags: ['Schwangerschaft', 'Risiken', 'Gesundheit', 'Prävention'],
+    reading_time: 5,
+    last_updated: '2026-04-06',
+    related_slugs: [
+      'jugendschutz-u18-risiken',
+      'safer-use-regeln',
+      'cannabis-psychische-gesundheit',
+    ],
+    images: [
+      {
+        src: '/images/knowledge/prevention.jpg',
+        alt_de: 'Prävention und Gesundheitsschutz',
+        alt_en: 'Prevention and health protection',
+      },
+    ],
+  },
+
+  // ─── TOLERANZENTWICKLUNG ──────────────────────────────────────────────────────
+  {
+    slug: 'toleranzentwicklung-cannabis',
+    category: 'prevention',
+    title_de: 'Toleranzentwicklung — Wenn die Wirkung nachlässt',
+    title_en: 'Tolerance Development — When the Effect Fades',
+    summary_de:
+      'Bei regelmäßigem Cannabiskonsum lässt die Wirkung nach. Dieser Artikel erklärt die neurobiologischen Mechanismen der Toleranzentwicklung, das Konzept der Toleranzpause und wann professionelle Hilfe sinnvoll ist.',
+    summary_en:
+      'With regular cannabis use, the effect diminishes. This article explains the neurobiological mechanisms of tolerance development, the concept of a tolerance break and when professional help is advisable.',
+    content_de: `## Was ist Toleranz?
+
+Toleranz bezeichnet in der Pharmakologie das Phänomen, dass eine Substanz bei wiederholter Einnahme eine abnehmende Wirkung zeigt – oder dass für die gleiche Wirkung eine höhere Dosis erforderlich wird. Toleranzentwicklung ist bei Cannabis ein häufiges Phänomen und betrifft insbesondere die psychoaktiven, schmerzlindernden und appetitanregenden Effekte von THC. Sie ist kein Zeichen von Schwäche oder mangelnder Disziplin, sondern ein normaler neurobiologischer Anpassungsprozess.
+
+## Der Mechanismus: CB1-Rezeptor-Downregulation
+
+Die neurobiologische Grundlage der Cannabistoleranz ist gut erforscht. THC entfaltet seine Wirkung primär über die Bindung an CB1-Rezeptoren im Gehirn. Bei regelmäßiger THC-Exposition reagiert das Gehirn mit zwei Anpassungsmechanismen:
+
+**Rezeptor-Downregulation:** Die Anzahl der CB1-Rezeptoren an der Zelloberfläche wird reduziert. Rezeptoren werden internalisiert – also ins Zellinnere zurückgezogen – und teilweise abgebaut. Bildgebende Studien mittels PET-Scans zeigen, dass die CB1-Rezeptordichte bei täglichen Cannabiskonsumenten in bestimmten Hirnregionen um 20 bis 30 Prozent reduziert sein kann.
+
+**Rezeptor-Desensibilisierung:** Die verbleibenden Rezeptoren reagieren weniger empfindlich auf THC. Die intrazelluläre Signalkaskade, die normalerweise durch die Aktivierung des CB1-Rezeptors ausgelöst wird, wird gedämpft.
+
+Beide Prozesse führen dazu, dass die gleiche Menge THC weniger Wirkung erzielt. Die Toleranzentwicklung verläuft nicht gleichmäßig über alle Wirkungsbereiche: Gegenüber den psychoaktiven Effekten und der Tachykardie (erhöhte Herzfrequenz) entwickelt sich Toleranz relativ schnell, während die Toleranz gegenüber appetitanregenden Wirkungen langsamer eintritt.
+
+## Toleranzpause (T-Break): Das Konzept
+
+Eine Toleranzpause – im englischsprachigen Raum als T-Break bekannt – ist eine bewusste Phase des Konsumverzichts mit dem Ziel, die CB1-Rezeptordichte und -sensitivität wiederherzustellen. Die wissenschaftliche Evidenz dazu ist ermutigend: Eine Studie der Universität Toronto aus dem Jahr 2012 zeigte mittels PET-Bildgebung, dass sich die CB1-Rezeptordichte nach bereits zwei Tagen Abstinenz messbar erholte und nach etwa vier Wochen das Niveau von Nichtkonsumenten erreichte.
+
+Praktische Empfehlungen für eine Toleranzpause:
+
+- **Minimale Dauer:** Bereits 48 Stunden zeigen erste Effekte. Für eine deutliche Erholung werden zwei bis vier Wochen empfohlen.
+- **Erwartbare Entzugssymptome:** Reizbarkeit, Schlafstörungen (besonders lebhafte Träume), verminderter Appetit, innere Unruhe. Diese Symptome sind in der Regel mild und klingen nach wenigen Tagen ab.
+- **Wiedereinstieg:** Nach einer Toleranzpause ist die Empfindlichkeit deutlich erhöht. Die gewohnte Dosis kann dann überwältigend wirken. Es empfiehlt sich, mit einer deutlich reduzierten Menge zu beginnen.
+
+## Zeichen problematischer Toleranz
+
+Toleranzentwicklung ist zunächst ein neutrales physiologisches Phänomen. Sie kann jedoch zum Warnsignal werden, wenn bestimmte Muster auftreten:
+
+- Die Dosis wird kontinuierlich gesteigert, ohne dass ein bewusster Entschluss dahintersteht.
+- Der Konsum findet zunehmend allein und zu immer früheren Tageszeiten statt.
+- Versuche, den Konsum zu reduzieren oder zu pausieren, scheitern wiederholt.
+- Andere Lebensbereiche – Arbeit, Beziehungen, Hobbys – werden zugunsten des Konsums vernachlässigt.
+- Ohne Cannabis stellen sich Unruhe, Gereiztheit oder Schlafprobleme ein, die als unerträglich empfunden werden.
+
+Diese Muster können auf eine sich entwickelnde Cannabis-Gebrauchsstörung (Cannabis Use Disorder nach DSM-5) hindeuten.
+
+## Wann professionelle Hilfe sinnvoll ist
+
+Eine Toleranzpause ist ein gutes Werkzeug für reflektierte Konsumenten, die ihre Beziehung zu Cannabis bewusst gestalten möchten. Wenn jedoch eigenständige Konsumreduktion oder -pausen wiederholt scheitern, ist professionelle Unterstützung keine Schwäche, sondern ein kluger Schritt.
+
+Anlaufstellen sind die örtliche Suchtberatung (z. B. DROBS, Caritas, Diakonie), der Hausarzt oder die Hausärztin, die BZgA-Telefonberatung unter 0800 135 3771 sowie die Online-Beratung quit-the-shit.net. Für Mitglieder von BlattWerk e. V. steht die Suchtpräventionsbeauftragte Jennifer Trebbin als erste Ansprechpartnerin zur Verfügung und kann an geeignete Stellen weiterverweisen.`,
+    content_en: `## What Is Tolerance?
+
+In pharmacology, tolerance refers to the phenomenon whereby a substance produces a diminishing effect with repeated use – or whereby a higher dose is required to achieve the same effect. Tolerance development is a common phenomenon with cannabis and particularly affects the psychoactive, analgesic and appetite-stimulating effects of THC. It is not a sign of weakness or lack of discipline but a normal neurobiological adaptation process.
+
+## The Mechanism: CB1 Receptor Downregulation
+
+The neurobiological basis of cannabis tolerance is well researched. THC exerts its effects primarily through binding to CB1 receptors in the brain. With regular THC exposure, the brain responds with two adaptation mechanisms:
+
+**Receptor downregulation:** The number of CB1 receptors on the cell surface is reduced. Receptors are internalised – withdrawn into the cell interior – and partially degraded. Imaging studies using PET scans show that CB1 receptor density in daily cannabis users can be reduced by 20 to 30 per cent in certain brain regions.
+
+**Receptor desensitisation:** The remaining receptors become less responsive to THC. The intracellular signalling cascade normally triggered by CB1 receptor activation is dampened.
+
+Both processes cause the same amount of THC to produce less effect. Tolerance development does not proceed uniformly across all effects: tolerance to psychoactive effects and tachycardia (elevated heart rate) develops relatively quickly, while tolerance to appetite-stimulating effects develops more slowly.
+
+## Tolerance Break (T-Break): The Concept
+
+A tolerance break – known as a T-Break – is a deliberate phase of abstinence aimed at restoring CB1 receptor density and sensitivity. The scientific evidence is encouraging: a 2012 University of Toronto study using PET imaging showed that CB1 receptor density measurably recovered after just two days of abstinence and reached the levels of non-users after approximately four weeks.
+
+Practical recommendations for a tolerance break:
+
+- **Minimum duration:** As little as 48 hours shows initial effects. For significant recovery, two to four weeks are recommended.
+- **Expected withdrawal symptoms:** Irritability, sleep disturbances (particularly vivid dreams), reduced appetite, restlessness. These symptoms are generally mild and subside within a few days.
+- **Resumption:** After a tolerance break, sensitivity is markedly increased. The usual dose can then be overwhelming. It is advisable to start with a significantly reduced amount.
+
+## Signs of Problematic Tolerance
+
+Tolerance development is initially a neutral physiological phenomenon. It can, however, become a warning sign when certain patterns emerge:
+
+- Dosage is continuously increased without a conscious decision behind it.
+- Consumption increasingly occurs alone and at ever-earlier times of day.
+- Attempts to reduce or pause consumption fail repeatedly.
+- Other areas of life – work, relationships, hobbies – are neglected in favour of consumption.
+- Without cannabis, restlessness, irritability or sleep problems occur that are perceived as intolerable.
+
+These patterns may indicate a developing Cannabis Use Disorder (as defined by DSM-5).
+
+## When Professional Help Makes Sense
+
+A tolerance break is a good tool for reflective consumers who want to consciously manage their relationship with cannabis. However, when self-directed reduction or breaks fail repeatedly, professional support is not a weakness but a wise step.
+
+Points of contact include local addiction counselling services (e.g. DROBS, Caritas, Diakonie), the family doctor, the BZgA telephone helpline at 0800 135 3771, and the online counselling service quit-the-shit.net. For members of BlattWerk e.V., the addiction prevention officer Jennifer Trebbin is available as a first point of contact and can refer to appropriate services.`,
+    tags: ['Toleranz', 'Prävention', 'Konsum', 'Gesundheit'],
+    reading_time: 6,
+    last_updated: '2026-04-06',
+    related_slugs: [
+      'frueherkennung-problemkonsum',
+      'selbstcheck-warnzeichen',
+      'safer-use-regeln',
+      'beratungsstellen-hildesheim',
+    ],
+    images: [
+      {
+        src: '/images/knowledge/prevention.jpg',
+        alt_de: 'Prävention und Gesundheitsschutz',
+        alt_en: 'Prevention and health protection',
+      },
+    ],
+  },
+
+  // ─── BERATUNGSSTELLEN IN HILDESHEIM ───────────────────────────────────────────
+  {
+    slug: 'beratungsstellen-hildesheim',
+    category: 'prevention',
+    title_de: 'Hilfe finden — Beratungsstellen in Hildesheim und Umgebung',
+    title_en: 'Finding Help — Counselling Services in Hildesheim and the Surrounding Area',
+    summary_de:
+      'Wer Unterstützung bei problematischem Cannabiskonsum sucht, findet in Hildesheim und Umgebung mehrere Anlaufstellen. Ein Überblick über lokale und überregionale Hilfsangebote.',
+    summary_en:
+      'Those seeking support for problematic cannabis use can find several points of contact in Hildesheim and the surrounding area. An overview of local and national support services.',
+    content_de: `## Warum dieser Artikel wichtig ist
+
+Prävention bedeutet nicht nur Aufklärung vor dem Konsum – sie bedeutet auch, den Zugang zu Hilfe so niedrigschwellig wie möglich zu gestalten. Wer das Gefühl hat, dass der eigene Cannabiskonsum problematisch wird, oder wer sich um eine nahestehende Person sorgt, verdient schnelle und unkomplizierte Orientierung. Alle hier genannten Beratungsangebote sind vertraulich und unterliegen der Schweigepflicht.
+
+## Lokale Beratungsstellen in Hildesheim
+
+### DROBS Hildesheim (Drogenberatungsstelle)
+
+Die DROBS ist die zentrale Anlaufstelle für Suchtberatung in Hildesheim. Sie bietet kostenlose und vertrauliche Beratung für Betroffene, Angehörige und Interessierte – unabhängig von der konsumierten Substanz. Das Angebot umfasst Einzelberatung, Gruppenangebote, Krisenintervention und Vermittlung in weiterführende Behandlung. Eine vorherige Terminvereinbarung ist empfehlenswert, aber auch offene Sprechstunden sind verfügbar.
+
+### Caritas Suchtberatung Hildesheim
+
+Die Suchtberatung des Caritasverbands für Stadt und Landkreis Hildesheim bietet ebenfalls kostenlose Beratung für Menschen mit Suchtproblemen und deren Angehörige. Das konfessionelle Angebot steht ausdrücklich allen Menschen offen, unabhängig von Religionszugehörigkeit. Die Caritas bietet neben Einzelgesprächen auch ambulante Rehabilitation und Nachsorge an.
+
+### Diakonie Hildesheim — Sucht- und Sozialberatung
+
+Die diakonische Sucht- und Sozialberatung ergänzt das lokale Angebot mit einem Schwerpunkt auf sozialer Integration. Neben der klassischen Suchtberatung umfasst das Angebot Unterstützung bei sozialen Problemlagen, die häufig mit Suchterkrankungen einhergehen – etwa bei Wohnungs- oder Arbeitsproblemen.
+
+## Überregionale Hilfsangebote
+
+### BZgA-Telefonberatung
+
+Die Bundeszentrale für gesundheitliche Aufklärung betreibt eine kostenlose und anonyme Telefonberatung unter der Nummer **0800 135 3771** (Montag bis Donnerstag 10–22 Uhr, Freitag bis Sonntag 10–18 Uhr). Die Beraterinnen und Berater sind speziell für Suchtfragen geschult und können an lokale Hilfsstellen weitervermitteln.
+
+### Telefonseelsorge
+
+In akuten Krisensituationen – auch nachts und am Wochenende – ist die Telefonseelsorge erreichbar unter **0800 111 0 111** oder **0800 111 0 222**. Der Dienst ist kostenlos, anonym und rund um die Uhr verfügbar.
+
+### Online-Beratung: quit-the-shit.net
+
+Das Online-Programm quit-the-shit.net der BZgA richtet sich speziell an Cannabiskonsumenten, die ihren Konsum reduzieren oder beenden möchten. Das Programm bietet ein Konsumtagebuch, persönliche Online-Beratung und Informationsmaterialien.
+
+### drugcom.de
+
+Das Informationsportal drugcom.de der BZgA bietet umfangreiche, wissenschaftlich fundierte Informationen zu Cannabis und anderen Substanzen sowie Selbsttests zur Einschätzung des eigenen Konsumverhaltens.
+
+## BlattWerk e. V. — Interne Unterstützung
+
+Als Cannabis Social Club hat BlattWerk e. V. gemäß den Anforderungen des KCanG eine Suchtpräventionsbeauftragte benannt: **Jennifer Trebbin** steht allen Mitgliedern als vertrauliche Ansprechpartnerin zur Verfügung. Sie kann bei Fragen zum eigenen Konsumverhalten beraten, Warnsignale gemeinsam einordnen und an geeignete professionelle Stellen weiterverweisen. Die Kontaktaufnahme ist über die Vereinskommunikation oder direkt über die auf der Seite [Suchtprävention](/suchtpraevention) genannten Wege möglich.
+
+## Der erste Schritt
+
+Der schwierigste Schritt ist oft der erste. Es erfordert Mut, sich einzugestehen, dass Unterstützung hilfreich sein könnte. Wichtig zu wissen: Suchtberatung ist keine Verurteilung. Sie ist ein Angebot, das eigene Konsumverhalten in einem geschützten Rahmen zu reflektieren – ohne Druck, ohne Vorwürfe und ohne Meldung an Behörden.`,
+    content_en: `## Why This Article Matters
+
+Prevention means not only education before consumption – it also means making access to help as low-threshold as possible. Anyone who feels their own cannabis use is becoming problematic, or who is concerned about someone close to them, deserves quick and straightforward guidance. All counselling services listed here are confidential and subject to professional secrecy.
+
+## Local Counselling Services in Hildesheim
+
+### DROBS Hildesheim (Drug Counselling Centre)
+
+DROBS is the central point of contact for addiction counselling in Hildesheim. It offers free and confidential counselling for those affected, their relatives and anyone interested – regardless of the substance consumed. The services include individual counselling, group sessions, crisis intervention and referral to further treatment. Prior appointment is recommended, but walk-in consultations are also available.
+
+### Caritas Addiction Counselling Hildesheim
+
+The addiction counselling service of the Caritas association for the city and district of Hildesheim also offers free counselling for people with addiction problems and their relatives. The denominational service is explicitly open to all people, regardless of religious affiliation. In addition to individual sessions, Caritas offers outpatient rehabilitation and aftercare.
+
+### Diakonie Hildesheim — Addiction and Social Counselling
+
+The Diakonie addiction and social counselling service complements the local offerings with a focus on social integration. In addition to traditional addiction counselling, the service includes support with social issues that often accompany addiction – such as housing or employment problems.
+
+## National Support Services
+
+### BZgA Telephone Counselling
+
+The Federal Centre for Health Education operates a free and anonymous telephone counselling service at **0800 135 3771** (Monday to Thursday 10am–10pm, Friday to Sunday 10am–6pm). The counsellors are specially trained in addiction issues and can refer to local support services.
+
+### Telefonseelsorge (Crisis Hotline)
+
+In acute crisis situations – including at night and on weekends – the Telefonseelsorge is reachable at **0800 111 0 111** or **0800 111 0 222**. The service is free, anonymous and available around the clock.
+
+### Online Counselling: quit-the-shit.net
+
+The BZgA's online programme quit-the-shit.net is specifically aimed at cannabis users who want to reduce or stop their consumption. The programme offers a consumption diary, personal online counselling and information materials.
+
+### drugcom.de
+
+The BZgA's information portal drugcom.de provides comprehensive, scientifically based information on cannabis and other substances as well as self-tests for assessing one's own consumption behaviour.
+
+## BlattWerk e.V. — Internal Support
+
+As a Cannabis Social Club, BlattWerk e.V. has appointed an addiction prevention officer in accordance with KCanG requirements: **Jennifer Trebbin** is available to all members as a confidential contact person. She can advise on questions about one's own consumption behaviour, help assess warning signs and refer to appropriate professional services. Contact can be made via the association's communication channels or directly through the routes listed on the [addiction prevention](/suchtpraevention) page.
+
+## The First Step
+
+The hardest step is often the first. It takes courage to admit that support might be helpful. Important to know: addiction counselling is not a judgement. It is an offer to reflect on one's own consumption behaviour in a protected setting – without pressure, without blame and without reporting to authorities.`,
+    tags: ['Hildesheim', 'Beratung', 'Hilfe', 'Prävention'],
+    reading_time: 4,
+    last_updated: '2026-04-06',
+    related_slugs: [
+      'frueherkennung-problemkonsum',
+      'toleranzentwicklung-cannabis',
+      'selbstcheck-warnzeichen',
+      'cannabis-schwangerschaft',
+    ],
+    images: [
+      {
+        src: '/images/knowledge/prevention.jpg',
+        alt_de: 'Prävention und Beratung',
+        alt_en: 'Prevention and counselling',
+      },
+    ],
+  },
 ];

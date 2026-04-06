@@ -159,8 +159,8 @@ export function UeberUnsClient({ isDE }: Props) {
             </h2>
             <p className="text-ink-muted mb-10 max-w-xl">
               {isDE
-                ? 'Der Vorstand vertritt den Verein nach außen und koordiniert die Vereinsarbeit.'
-                : 'The board represents the association externally and coordinates club activities.'}
+                ? 'Der Vorstand vertritt BlattWerk e.V. in Hildesheim nach außen und koordiniert die Vereinsarbeit.'
+                : 'The board represents BlattWerk e.V. in Hildesheim externally and coordinates club activities.'}
             </p>
 
             <div className="grid md:grid-cols-3 gap-5 mb-16">

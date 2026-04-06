@@ -106,8 +106,8 @@ export function StrainOverview() {
           </h1>
           <p className="text-lg text-ink-muted max-w-2xl">
             {lang === 'de'
-              ? 'Unsere Sortenauswahl als Planungsgrundlage für den gemeinschaftlichen Anbau. Genetik, Terpenprofil und Wirkungsspektrum — wissenschaftlich aufbereitet.'
-              : 'Our strain selection as a planning basis for communal cultivation. Genetics, terpene profile and effect spectrum — scientifically documented.'}
+              ? 'Unsere Sortenauswahl für den gemeinschaftlichen Anbau in Hildesheim. Genetik, Terpenprofil und Wirkungsspektrum — wissenschaftlich aufbereitet.'
+              : 'Our strain selection for communal cultivation in Hildesheim. Genetics, terpene profile and effect spectrum — scientifically documented.'}
           </p>
         </div>
       </section>
