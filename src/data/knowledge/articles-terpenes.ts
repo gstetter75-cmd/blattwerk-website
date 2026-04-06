@@ -1547,4 +1547,106 @@ In our strain database, you'll find the complete terpene profile and cannabinoid
     last_updated: '2026-04-05',
     related_slugs: ['was-sind-terpene', 'myrcen', 'limonen', 'caryophyllen'],
   },
+
+  // ─── DER ENTOURAGE-EFFEKT ────────────────────────────────────────────────────
+  {
+    slug: 'entourage-effekt',
+    category: 'terpenes',
+    title_de: 'Der Entourage-Effekt: Wie Cannabinoide und Terpene zusammenwirken',
+    title_en: 'The Entourage Effect: How Cannabinoids and Terpenes Work Together',
+    summary_de:
+      'Der Entourage-Effekt beschreibt das Zusammenspiel von Cannabinoiden, Terpenen und Flavonoiden in der Cannabispflanze. Dieser Artikel erklärt die Forschung, den Unterschied zwischen Vollspektrum und Isolat und warum Terpenprofile wichtiger sind als Sortenlabels.',
+    summary_en:
+      'The entourage effect describes the interplay of cannabinoids, terpenes, and flavonoids in the cannabis plant. This article explains the research, the difference between full-spectrum and isolate, and why terpene profiles matter more than strain labels.',
+    content_de: `## Was ist der Entourage-Effekt?
+
+Der Entourage-Effekt ist ein pharmakologisches Konzept, das beschreibt, wie die verschiedenen chemischen Verbindungen in der Cannabispflanze — Cannabinoide, Terpene, Flavonoide und andere sekundäre Pflanzenstoffe — in Kombination anders wirken als isoliert betrachtet. Die Kernaussage: Das Ganze ist mehr als die Summe seiner Teile.
+
+Der Begriff wurde 1998 vom israelischen Wissenschaftler Prof. Raphael Mechoulam und seinem Kollegen Shimon Ben-Shabat geprägt. Mechoulam, der 1964 als Erster die Struktur von THC identifizierte, beobachtete, dass bestimmte endogene Fettsäuren (2-Linoleoyl-Glycerol und 2-Palmitoyl-Glycerol) allein keine Wirkung am Cannabinoid-Rezeptor zeigten, aber die Aktivität von 2-Arachidonoyl-Glycerol (2-AG) am CB2-Rezeptor signifikant verstärkten. Diese Beobachtung legte nahe, dass auch in der Cannabispflanze Begleitsubstanzen die Wirkung der Hauptcannabinoide modulieren könnten.
+
+## Die wissenschaftliche Grundlage
+
+2011 veröffentlichte der Neurologe Ethan Russo die einflussreiche Studie „Taming THC: Potential Cannabis Synergy and Phytocannabinoid-Terpenoid Entourage Effects" im British Journal of Pharmacology. Russo sammelte systematisch die pharmakologischen Eigenschaften der häufigsten Cannabis-Terpene und formulierte Hypothesen über deren Zusammenspiel mit Cannabinoiden:
+
+**Myrcen + THC:** Myrcen kann die Durchlässigkeit der Blut-Hirn-Schranke erhöhen und so die Aufnahmegeschwindigkeit von THC ins Gehirn beeinflussen. In Tiermodellen zeigte Myrcen analgetische und sedierende Eigenschaften.
+
+**Limonen + CBD:** Limonen zeigt in Studien anxiolytische (angstlösende) Eigenschaften und könnte in Kombination mit CBD die stimmungsaufhellende Wirkung verstärken.
+
+**Beta-Caryophyllen:** Dieses Sesquiterpen ist einzigartig, da es direkt an den CB2-Rezeptor des Endocannabinoidsystems bindet — ein Mechanismus, der sonst nur Cannabinoiden vorbehalten ist. Es zeigt entzündungshemmende Eigenschaften ohne psychoaktive Wirkung.
+
+**Linalool + THC:** Linalool moduliert GABA-Rezeptoren ähnlich wie bestimmte Beruhigungsmittel und könnte so angstauslösende Effekte von THC bei empfindlichen Personen abmildern.
+
+Es ist wichtig zu betonen, dass viele dieser Mechanismen in Zellkultur- oder Tiermodellen beobachtet wurden. Die klinische Forschung am Menschen ist noch in einem frühen Stadium. Einige Wissenschaftler, darunter Margaret Haney von der Columbia University, haben die Stärke des Entourage-Effekts in Frage gestellt und betonen die Notwendigkeit kontrollierter klinischer Studien.
+
+## Vollspektrum vs. Isolat
+
+Die Debatte um den Entourage-Effekt hat praktische Konsequenzen, insbesondere im Bereich medizinischer Cannabisprodukte:
+
+**Vollspektrum-Extrakte** enthalten das gesamte Spektrum an Cannabinoiden, Terpenen und Flavonoiden der Ausgangspflanze. Befürworter argumentieren, dass diese Produkte durch den Entourage-Effekt wirksamer sind als isolierte Einzelstoffe.
+
+**Breitspektrum-Extrakte** enthalten mehrere Cannabinoide und Terpene, aber kein THC. Sie stellen einen Kompromiss dar für Anwender, die THC vermeiden möchten, aber dennoch vom Entourage-Effekt profitieren wollen.
+
+**Isolate** sind hochreine Einzelsubstanzen (z. B. reines CBD-Isolat mit >99 % Reinheit). Sie bieten präzise Dosierbarkeit, aber ohne Begleitsubstanzen.
+
+Eine 2015 an der Hebrew University of Jerusalem durchgeführte Studie (Gallily et al.) zeigte in einem Mausmodell, dass Vollspektrum-CBD-Extrakt eine glockenförmige Dosis-Wirkungs-Kurve durchbrach, die bei reinem CBD-Isolat beobachtet wurde — was auf eine breitere therapeutische Wirksamkeit hindeutet.
+
+## Warum Terpenprofile wichtiger sind als Indica/Sativa
+
+Die traditionelle Einteilung in Indica (beruhigend) und Sativa (anregend) basiert auf morphologischen Merkmalen der Pflanze (Wuchsform, Blattbreite) und hat sich als wissenschaftlich unzuverlässig erwiesen. Genetische Studien zeigen, dass die meisten modernen Sorten Hybride sind und sich nicht klar einer Kategorie zuordnen lassen.
+
+Das Terpenprofil einer Sorte — also die spezifische Kombination und Konzentration der vorhandenen Terpene — ist ein deutlich zuverlässigerer Indikator für das zu erwartende Wirkprofil. Eine Sorte mit hohem Myrcen-Anteil wird tendenziell beruhigender wirken, unabhängig davon, ob sie als Indica oder Sativa vermarktet wird. Eine Sorte mit dominantem Limonen und Pinen-Profil wird eher anregende, klare Effekte zeigen.
+
+In unserer [Sortendatenbank](/sortendatenbank) sind die vollständigen Terpenprofile und Cannabinoidwerte jeder Sorte dokumentiert. Dies ermöglicht eine evidenzbasierte Sortenwahl anstelle einer Orientierung an Marketing-Labels.
+
+## Zusammenfassung
+
+Der Entourage-Effekt ist ein wissenschaftlich plausibles, aber noch nicht vollständig bewiesenes Konzept. Die vorhandene Evidenz deutet darauf hin, dass Terpene die Wirkung von Cannabinoiden modulieren können — durch direkte Rezeptorinteraktion, Beeinflussung der Bioverfügbarkeit oder synergistische pharmakologische Effekte. Für eine fundierte Sortenwahl ist das Terpenprofil ein wertvollerer Anhaltspunkt als die veraltete Indica/Sativa-Klassifikation. Die Forschung auf diesem Gebiet entwickelt sich rasant, und zukünftige klinische Studien werden die genauen Mechanismen und klinische Relevanz weiter klären.`,
+    content_en: `## What Is the Entourage Effect?
+
+The entourage effect is a pharmacological concept describing how the various chemical compounds in the cannabis plant — cannabinoids, terpenes, flavonoids, and other secondary metabolites — act differently in combination than in isolation. The core message: the whole is greater than the sum of its parts.
+
+The term was coined in 1998 by Israeli scientist Prof. Raphael Mechoulam and his colleague Shimon Ben-Shabat. Mechoulam, who first identified the structure of THC in 1964, observed that certain endogenous fatty acids (2-linoleoyl-glycerol and 2-palmitoyl-glycerol) showed no effect on the cannabinoid receptor alone but significantly enhanced the activity of 2-arachidonoyl-glycerol (2-AG) at the CB2 receptor. This observation suggested that companion substances in the cannabis plant might also modulate the effects of major cannabinoids.
+
+## The Scientific Basis
+
+In 2011, neurologist Ethan Russo published the influential study "Taming THC: Potential Cannabis Synergy and Phytocannabinoid-Terpenoid Entourage Effects" in the British Journal of Pharmacology. Russo systematically compiled the pharmacological properties of the most common cannabis terpenes and formulated hypotheses about their interaction with cannabinoids:
+
+**Myrcene + THC:** Myrcene may increase the permeability of the blood-brain barrier, thus influencing the rate at which THC reaches the brain. In animal models, myrcene showed analgesic and sedative properties.
+
+**Limonene + CBD:** Limonene demonstrates anxiolytic (anxiety-reducing) properties in studies and could enhance mood-elevating effects in combination with CBD.
+
+**Beta-Caryophyllene:** This sesquiterpene is unique in that it binds directly to the CB2 receptor of the endocannabinoid system — a mechanism otherwise reserved for cannabinoids. It shows anti-inflammatory properties without psychoactive effects.
+
+**Linalool + THC:** Linalool modulates GABA receptors similarly to certain sedatives and could therefore mitigate anxiety-inducing effects of THC in sensitive individuals.
+
+It is important to emphasise that many of these mechanisms have been observed in cell culture or animal models. Clinical human research is still in its early stages. Some scientists, including Margaret Haney from Columbia University, have questioned the strength of the entourage effect and stress the need for controlled clinical trials.
+
+## Full-Spectrum vs. Isolate
+
+The debate around the entourage effect has practical consequences, particularly in the field of medical cannabis products:
+
+**Full-spectrum extracts** contain the entire range of cannabinoids, terpenes, and flavonoids from the source plant. Proponents argue that these products are more effective than isolated individual compounds due to the entourage effect.
+
+**Broad-spectrum extracts** contain multiple cannabinoids and terpenes but no THC. They represent a compromise for users who wish to avoid THC but still want to benefit from the entourage effect.
+
+**Isolates** are highly pure individual substances (e.g., pure CBD isolate with >99% purity). They offer precise dosing but without companion substances.
+
+A 2015 study conducted at the Hebrew University of Jerusalem (Gallily et al.) showed in a mouse model that full-spectrum CBD extract overcame a bell-shaped dose-response curve observed with pure CBD isolate — suggesting broader therapeutic efficacy.
+
+## Why Terpene Profiles Matter More Than Indica/Sativa
+
+The traditional classification into indica (sedating) and sativa (stimulating) is based on morphological plant characteristics (growth pattern, leaf width) and has proven scientifically unreliable. Genetic studies show that most modern strains are hybrids and cannot be clearly assigned to one category.
+
+A strain's terpene profile — the specific combination and concentration of terpenes present — is a significantly more reliable indicator of the expected effect profile. A strain with a high myrcene content will tend to be more sedating, regardless of whether it is marketed as indica or sativa. A strain with a dominant limonene and pinene profile will tend to show more stimulating, clear effects.
+
+In our [strain database](/sortendatenbank), the complete terpene profiles and cannabinoid values of each strain are documented. This enables evidence-based strain selection instead of relying on marketing labels.
+
+## Summary
+
+The entourage effect is a scientifically plausible but not yet fully proven concept. The available evidence suggests that terpenes can modulate the effects of cannabinoids — through direct receptor interaction, influencing bioavailability, or synergistic pharmacological effects. For informed strain selection, the terpene profile is a more valuable indicator than the outdated indica/sativa classification. Research in this field is developing rapidly, and future clinical studies will further clarify the exact mechanisms and clinical relevance.`,
+    tags: ['Entourage', 'Terpene', 'Cannabinoide', 'Forschung'],
+    reading_time: 6,
+    last_updated: '2026-04-06',
+    related_slugs: ['was-sind-terpene', 'indica-vs-sativa', 'myrcen', 'caryophyllen'],
+  },
 ];

@@ -1912,4 +1912,214 @@ In our strain database, you can specifically filter for strains with moderate TH
     last_updated: '2026-04-05',
     related_slugs: ['indoor-anbau-grundlagen', 'indica-vs-sativa', 'dosierung-einsteiger'],
   },
+
+  // ─── INDOOR VS. OUTDOOR ANBAU ────────────────────────────────────────────────
+  {
+    slug: 'indoor-vs-outdoor-anbau',
+    category: 'growing',
+    title_de: 'Indoor vs. Outdoor Anbau: Ein sachlicher Vergleich',
+    title_en: 'Indoor vs. Outdoor Growing: A Factual Comparison',
+    summary_de:
+      'Eine neutrale Gegenüberstellung von Indoor- und Outdoor-Cannabisanbau – Licht, Klima, Kosten, Erträge, Qualität und rechtliche Rahmenbedingungen für Anbauvereinigungen nach dem KCanG.',
+    summary_en:
+      'A neutral comparison of indoor and outdoor cannabis cultivation — light, climate, costs, yields, quality, and legal considerations for cultivation associations under the KCanG.',
+    images: growingImage,
+    content_de: `## Einleitung
+
+Die Wahl zwischen Indoor- und Outdoor-Anbau ist eine der grundlegendsten Entscheidungen im Cannabisanbau. Beide Methoden haben spezifische Vor- und Nachteile, die von den jeweiligen Zielen, dem verfügbaren Budget und den rechtlichen Rahmenbedingungen abhängen. Für Cannabis Social Clubs (CSCs) in Deutschland ergeben sich aus dem Konsumcannabisgesetz (KCanG) zusätzliche Anforderungen, die diese Entscheidung maßgeblich beeinflussen.
+
+## Lichtkontrolle
+
+**Indoor:** Die vollständige Kontrolle über den Lichtzyklus ist einer der größten Vorteile des Indoor-Anbaus. Durch künstliche Beleuchtung (LED, HPS, CMH) kann der Grower die Photoperiode exakt steuern – 18/6 für die vegetative Phase, 12/12 für die Blüte. Dies ermöglicht mehrere Erntezyklen pro Jahr, unabhängig von der Jahreszeit. Lichtintensität, Spektrum und Dauer lassen sich präzise an die Bedürfnisse der Pflanzen anpassen.
+
+**Outdoor:** Die Pflanzen sind dem natürlichen Sonnenlicht ausgesetzt, das ein vollständiges Spektrum mit hoher Intensität bietet. Die Sonne liefert bis zu 2000 µmol/m²/s an PPFD – deutlich mehr als die meisten künstlichen Lichtquellen. Allerdings ist der Grower von Wetterbedingungen, Jahreszeiten und geographischer Lage abhängig. In Mitteleuropa ist typischerweise nur eine Ernte pro Jahr möglich (Aussaat im Frühjahr, Ernte im Herbst).
+
+## Temperatur und Luftfeuchtigkeit
+
+**Indoor:** Temperatur und Luftfeuchtigkeit lassen sich durch Klimaanlagen, Heizungen, Luftentfeuchter und Belüftungssysteme präzise steuern. VPD-Werte (Vapor Pressure Deficit) können in jeder Wachstumsphase optimiert werden. Das Risiko von Schimmel (Botrytis) lässt sich durch kontrollierte Klimabedingungen minimieren.
+
+**Outdoor:** Die Pflanzen sind Temperaturschwankungen, Regen, Wind und wechselnder Luftfeuchtigkeit ausgesetzt. In feuchten Herbstwochen, wenn Outdoor-Pflanzen in der späten Blütephase stehen, steigt das Schimmelrisiko erheblich. Starkregen, Hagel oder Frost können die Ernte gefährden oder zerstören. Gleichzeitig fördern natürliche Temperaturschwankungen zwischen Tag und Nacht die Terpenproduktion.
+
+## Erträge und Qualität
+
+**Indoor:** Typische Erträge liegen bei 400–600 g/m² pro Erntezyklus, bei optimierten Setups auch höher. Die Qualität ist in der Regel gleichmäßig und reproduzierbar. Trichom-Dichte und Cannabinoidgehalt lassen sich durch kontrollierte Bedingungen maximieren. Mehrere Ernten pro Jahr (4–6 Zyklen) sind möglich.
+
+**Outdoor:** Einzelne Pflanzen können deutlich größer werden und Erträge von mehreren Hundert Gramm bis mehreren Kilogramm pro Pflanze liefern. Die Gesamtqualität kann variieren, da Umweltfaktoren weniger kontrollierbar sind. Viele erfahrene Grower berichten von komplexeren Terpenprofilen bei Outdoor-Pflanzen, was auf das breitere Sonnenlichtspektrum und natürlichen Stress zurückgeführt wird.
+
+## Kosten
+
+**Indoor:** Die Anfangsinvestition ist erheblich – Beleuchtung, Belüftung, Klimatisierung, Aktivkohlefilter, Substrate und Nährstoffe summieren sich schnell. Die laufenden Stromkosten sind der größte Posten: Eine professionelle Indoor-Anlage verbraucht mehrere tausend Kilowattstunden pro Monat. Dafür fallen keine wetterbedingten Ernteverluste an.
+
+**Outdoor:** Die Anfangsinvestition ist deutlich geringer – Erde, Samen, Bewässerung und ggf. ein Gewächshaus sind die Hauptkosten. Die Betriebskosten beschränken sich auf Wasser, Nährstoffe und Pflanzenschutz. Allerdings besteht ein höheres Risiko für Totalverluste durch Wetter, Schädlinge oder Diebstahl.
+
+## Rechtliche Rahmenbedingungen nach dem KCanG
+
+Das Konsumcannabisgesetz stellt an Anbauvereinigungen spezifische Anforderungen, die den Anbauort direkt betreffen. CSCs müssen den Anbau in gesicherten Räumlichkeiten durchführen, die vor dem Zugriff Unbefugter geschützt sind. Der Anbau muss dokumentiert und die Ernte nachvollziehbar sein. Zutritt dürfen nur berechtigte Mitglieder und autorisiertes Personal haben.
+
+Diese Sicherheitsanforderungen sprechen in der Praxis stark für den Indoor-Anbau: Geschlossene, abschließbare Räume lassen sich leichter sichern und überwachen als Freilandflächen. Zugangskontrolle, Videoüberwachung und Alarmanlagen sind indoor wesentlich einfacher umzusetzen. Die meisten CSCs in Deutschland entscheiden sich daher für den Indoor-Anbau.
+
+## Fazit
+
+Die Entscheidung zwischen Indoor und Outdoor hängt von den individuellen Rahmenbedingungen ab. Für Cannabis Social Clubs in Deutschland ist der Indoor-Anbau aufgrund der rechtlichen Sicherheitsanforderungen des KCanG in den meisten Fällen die praktikablere Wahl. Outdoor-Anbau bietet Kostenvorteile und ökologische Vorzüge, ist jedoch in Bezug auf Sicherheit, Klimakontrolle und Reproduzierbarkeit schwieriger zu realisieren. Eine sachliche Abwägung aller Faktoren – rechtliche Vorgaben, Budget, Qualitätsanspruch und verfügbare Infrastruktur – ist die Grundlage für eine fundierte Entscheidung.`,
+    content_en: `## Introduction
+
+The choice between indoor and outdoor growing is one of the most fundamental decisions in cannabis cultivation. Both methods have specific advantages and disadvantages that depend on the respective goals, available budget, and legal framework. For Cannabis Social Clubs (CSCs) in Germany, the Cannabis Act (KCanG) imposes additional requirements that significantly influence this decision.
+
+## Light Control
+
+**Indoor:** Complete control over the light cycle is one of the greatest advantages of indoor growing. With artificial lighting (LED, HPS, CMH), the grower can precisely control the photoperiod — 18/6 for the vegetative phase, 12/12 for flowering. This enables multiple harvest cycles per year, regardless of the season. Light intensity, spectrum, and duration can be precisely tailored to the plants' needs.
+
+**Outdoor:** Plants are exposed to natural sunlight, which provides a full spectrum at high intensity. The sun delivers up to 2000 µmol/m²/s of PPFD — significantly more than most artificial light sources. However, the grower depends on weather conditions, seasons, and geographic location. In Central Europe, typically only one harvest per year is possible (sowing in spring, harvesting in autumn).
+
+## Temperature and Humidity
+
+**Indoor:** Temperature and humidity can be precisely controlled through air conditioning, heaters, dehumidifiers, and ventilation systems. VPD values (Vapor Pressure Deficit) can be optimised for each growth phase. The risk of mould (Botrytis) can be minimised through controlled climate conditions.
+
+**Outdoor:** Plants are exposed to temperature fluctuations, rain, wind, and changing humidity. During humid autumn weeks, when outdoor plants are in late flowering, the risk of mould increases considerably. Heavy rain, hail, or frost can endanger or destroy the harvest. At the same time, natural temperature fluctuations between day and night promote terpene production.
+
+## Yields and Quality
+
+**Indoor:** Typical yields range from 400–600 g/m² per harvest cycle, potentially higher with optimised setups. Quality is generally consistent and reproducible. Trichome density and cannabinoid content can be maximised through controlled conditions. Multiple harvests per year (4–6 cycles) are possible.
+
+**Outdoor:** Individual plants can grow significantly larger and yield several hundred grams to several kilograms per plant. Overall quality may vary since environmental factors are less controllable. Many experienced growers report more complex terpene profiles in outdoor plants, attributed to the broader sunlight spectrum and natural stress.
+
+## Costs
+
+**Indoor:** The initial investment is substantial — lighting, ventilation, climate control, carbon filters, substrates, and nutrients add up quickly. Ongoing electricity costs are the largest expense: a professional indoor facility consumes several thousand kilowatt-hours per month. However, there are no weather-related harvest losses.
+
+**Outdoor:** The initial investment is significantly lower — soil, seeds, irrigation, and possibly a greenhouse are the main costs. Operating costs are limited to water, nutrients, and pest management. However, there is a higher risk of total losses due to weather, pests, or theft.
+
+## Legal Framework Under the KCanG
+
+The Cannabis Act places specific requirements on cultivation associations that directly affect the growing location. CSCs must conduct cultivation in secured premises protected from unauthorised access. Cultivation must be documented, and the harvest must be traceable. Only authorised members and personnel may have access.
+
+These security requirements strongly favour indoor growing in practice: enclosed, lockable rooms are easier to secure and monitor than open-field areas. Access control, video surveillance, and alarm systems are much simpler to implement indoors. Most CSCs in Germany therefore opt for indoor cultivation.
+
+## Conclusion
+
+The decision between indoor and outdoor depends on individual circumstances. For Cannabis Social Clubs in Germany, indoor growing is the more practical choice in most cases due to the KCanG's security requirements. Outdoor growing offers cost advantages and ecological benefits but is more difficult to realise in terms of security, climate control, and reproducibility. A factual assessment of all factors — legal requirements, budget, quality expectations, and available infrastructure — forms the basis for an informed decision.`,
+    tags: ['Indoor', 'Outdoor', 'Anbau', 'Vergleich'],
+    reading_time: 6,
+    last_updated: '2026-04-06',
+    related_slugs: ['indoor-anbau-grundlagen', 'beleuchtung-led-guide', 'schaedlinge-krankheiten'],
+  },
+
+  // ─── BLÜTEPHASE ───────────────────────────────────────────────────────────────
+  {
+    slug: 'bluetephase-cannabis',
+    category: 'growing',
+    title_de: 'Blütephase — Der wichtigste Abschnitt im Cannabisanbau',
+    title_en: 'The Flowering Phase — The Most Important Stage in Cannabis Growing',
+    summary_de:
+      'Die Blütephase im Detail: Lichtzyklus, wöchentliche Entwicklung, Trichomreifung, Erntezeitpunkt, Spülung und häufige Fehler — aus botanisch-wissenschaftlicher Perspektive.',
+    summary_en:
+      'The flowering phase in detail: light cycle, week-by-week development, trichome maturation, harvest timing, flushing, and common mistakes — from a botanical-scientific perspective.',
+    images: growingImage,
+    content_de: `## Einleitung
+
+Die Blütephase ist der entscheidende Abschnitt im Lebenszyklus der Cannabispflanze. In diesem Zeitraum bilden sich die Blütenstände (Infloreszenz), in denen Cannabinoide, Terpene und Flavonoide produziert und in den Trichomdrüsen gespeichert werden. Die Phase dauert je nach Genetik 7 bis 12 Wochen und erfordert präzise Kontrolle der Umweltbedingungen.
+
+## Der Lichtzyklus: Auslöser der Blütenbildung
+
+Bei photoperiodischen Cannabissorten wird die Blüte durch eine Veränderung des Lichtzyklus eingeleitet. Der Wechsel von 18 Stunden Licht / 6 Stunden Dunkelheit (vegetative Phase) auf 12 Stunden Licht / 12 Stunden ununterbrochene Dunkelheit (12/12) simuliert den kürzer werdenden Herbsttag und aktiviert die Blütenbildung.
+
+Der entscheidende Faktor ist die Länge der ununterbrochenen Dunkelphase. Das Phytochrom-System der Pflanze — ein lichtempfindliches Proteinpaar (Phytochrom Red und Phytochrom Far-Red) — registriert die Dunkeldauer. Bereits kurze Lichtunterbrechungen während der Dunkelphase können das Phytochrom-Gleichgewicht stören und die Blütenbildung verzögern oder Hermaphroditismus (Zwitterbildung) auslösen.
+
+Autoflowering-Sorten bilden eine Ausnahme: Sie beginnen altersbedingt zu blühen, unabhängig vom Lichtzyklus, da sie genetische Anteile von Cannabis ruderalis tragen.
+
+## Woche für Woche: Die Entwicklung der Blüte
+
+**Woche 1–2 (Stretch-Phase):** Nach dem Umstellen auf 12/12 durchläuft die Pflanze einen deutlichen Wachstumsschub — den sogenannten „Stretch". Die Pflanze kann ihre Höhe um 50–100 % steigern. Erste weibliche Blütenmerkmale (weiße Härchen, sogenannte Pistille oder Stigmen) werden an den Nodien sichtbar.
+
+**Woche 3–4 (Blütenentwicklung):** Die Pistille verdichten sich zu erkennbaren Blütenständen. Die Trichomproduktion beginnt — zunächst als klare, durchsichtige Drüsenköpfe auf Blütenblättern und kleinen Blättern (Sugar Leaves). Der Nährstoffbedarf verschiebt sich: weniger Stickstoff, mehr Phosphor und Kalium.
+
+**Woche 5–6 (Reifephase beginnt):** Die Blütenstände nehmen an Dichte und Gewicht zu. Die Trichome erscheinen unter dem Mikroskop milchig-trüb — ein Zeichen dafür, dass die Cannabinoid-Produktion auf Hochtouren läuft. Der Geruch intensiviert sich deutlich, da die Terpenproduktion ihren Höhepunkt erreicht. Die Pistille beginnen sich von weiß nach orange oder braun zu verfärben.
+
+**Woche 7–9 (Reifung und Erntezeitfenster):** Die Trichome durchlaufen einen Farbwechsel: klar → milchig → bernsteinfarben. Dieses Farbspektrum ist der zuverlässigste Indikator für den Reifegrad. 70–80 % der Pistille haben sich verfärbt. Die unteren Blätter vergilben und sterben ab — dies ist ein natürlicher Prozess, bei dem die Pflanze Nährstoffe in die Blüten umverteilt.
+
+**Woche 10+ (Spätblüher):** Sativa-dominante Genetiken und bestimmte Landrassen können 10–14 Wochen blühen. Diese Sorten entwickeln oft besonders komplexe Terpenprofile.
+
+## Trichomreifung als Ernteindikatior
+
+Die Beurteilung der Trichome unter einer Lupe (30–60× Vergrößerung) oder einem Taschenmikroskop ist der genaueste Weg, den Erntezeitpunkt zu bestimmen:
+
+- **Klare Trichome:** Die Cannabinoid-Synthese ist noch nicht abgeschlossen. Zu frühe Ernte ergibt geringere Potenz und ein unausgewogenes Wirkprofil.
+- **Milchig-trübe Trichome:** THC-Gehalt auf dem Maximum. Ernte zu diesem Zeitpunkt ergibt das stärkste Wirkprofil.
+- **Bernsteinfarbene Trichome:** THC hat begonnen, zu CBN (Cannabinol) zu oxidieren. Höherer Anteil bernsteinfarbener Trichome korreliert mit einem sedierenderem Wirkprofil.
+
+Ein häufig empfohlenes Ernteziel: 70–80 % milchige Trichome, 10–20 % bernsteinfarbene, weniger als 10 % klare.
+
+## Spülung (Flushing)
+
+In den letzten 1–2 Wochen vor der Ernte gießen viele Grower ausschließlich mit reinem Wasser, ohne Nährstoffe — ein Prozess, der als „Flushing" oder Spülung bezeichnet wird. Das Ziel: überschüssige Nährstoffsalze im Substrat und Pflanzengewebe abzubauen, was den Geschmack und die Rauchqualität verbessern soll.
+
+Die wissenschaftliche Evidenz für die Wirksamkeit des Flushings ist begrenzt. Eine viel zitierte Studie von RX Green Technologies (2020) fand keinen signifikanten Unterschied im Mineralstoffgehalt der Blüten zwischen gespülten und nicht gespülten Pflanzen. Dennoch berichten viele erfahrene Grower subjektiv von weicherer Verbrennung und besserem Geschmack. Die Praxis bleibt in der Anbau-Community umstritten.
+
+## Häufige Fehler in der Blütephase
+
+**Lichtunterbrechung:** Selbst kurzer Lichteinfall während der Dunkelphase kann die Blüte stören. Alle Lichtlecks im Growroom müssen abgedichtet werden.
+
+**Überdüngung:** Besonders in der späten Blüte ist weniger mehr. Nährstoffverbrennungen zeigen sich als braune Blattspitzen und können den Geschmack negativ beeinflussen.
+
+**Zu frühe Ernte:** Ungeduld ist der häufigste Anfängerfehler. Ein zu früher Erntezeitpunkt bedeutet geringere Potenz und unreife Terpene. Die Trichomkontrolle unter dem Mikroskop ist unverzichtbar.
+
+**Zu hohe Luftfeuchtigkeit:** In der späten Blüte sollte die relative Luftfeuchtigkeit unter 40 % liegen, um Botrytis (Grauschimmel) zu verhindern. Dichte Blütenstände sind besonders anfällig.
+
+**Hitzestress:** Temperaturen über 28 °C in der Blüte können Terpene zerstören und die Trichomqualität beeinträchtigen. Optimal sind 20–26 °C während der Lichtphase.`,
+    content_en: `## Introduction
+
+The flowering phase is the decisive stage in the cannabis plant's life cycle. During this period, the inflorescences form, in which cannabinoids, terpenes, and flavonoids are produced and stored in the trichome glands. Depending on genetics, this phase lasts 7 to 12 weeks and requires precise control of environmental conditions.
+
+## The Light Cycle: Trigger for Flower Formation
+
+In photoperiodic cannabis varieties, flowering is initiated by a change in the light cycle. Switching from 18 hours of light / 6 hours of darkness (vegetative phase) to 12 hours of light / 12 hours of uninterrupted darkness (12/12) simulates the shortening autumn days and activates flower formation.
+
+The critical factor is the length of uninterrupted darkness. The plant's phytochrome system — a light-sensitive protein pair (Phytochrome Red and Phytochrome Far-Red) — registers the dark duration. Even brief light interruptions during the dark period can disrupt the phytochrome equilibrium and delay flowering or trigger hermaphroditism.
+
+Autoflowering varieties are an exception: they begin flowering based on age, regardless of the light cycle, as they carry genetic components from Cannabis ruderalis.
+
+## Week by Week: Flower Development
+
+**Week 1–2 (Stretch Phase):** After switching to 12/12, the plant undergoes a significant growth spurt known as "the stretch." The plant may increase its height by 50–100%. First female flower characteristics (white hairs, called pistils or stigmas) become visible at the nodes.
+
+**Week 3–4 (Bud Development):** Pistils condense into recognisable flower clusters. Trichome production begins — initially as clear, transparent gland heads on flower petals and small leaves (sugar leaves). Nutrient requirements shift: less nitrogen, more phosphorus and potassium.
+
+**Week 5–6 (Ripening Begins):** Flower clusters gain density and weight. Under the microscope, trichomes appear milky-cloudy — indicating that cannabinoid production is running at full capacity. The smell intensifies significantly as terpene production reaches its peak. Pistils begin to change colour from white to orange or brown.
+
+**Week 7–9 (Maturation and Harvest Window):** Trichomes undergo a colour transition: clear → milky → amber. This colour spectrum is the most reliable indicator of maturity. 70–80% of pistils have changed colour. Lower leaves yellow and die off — a natural process in which the plant redistributes nutrients to the flowers.
+
+**Week 10+ (Late Bloomers):** Sativa-dominant genetics and certain landraces can flower for 10–14 weeks. These varieties often develop particularly complex terpene profiles.
+
+## Trichome Maturation as Harvest Indicator
+
+Examining trichomes under a loupe (30–60× magnification) or a pocket microscope is the most accurate way to determine the harvest time:
+
+- **Clear trichomes:** Cannabinoid synthesis is not yet complete. Harvesting too early results in lower potency and an unbalanced effect profile.
+- **Milky-cloudy trichomes:** THC content at its maximum. Harvesting at this point yields the most potent effect profile.
+- **Amber trichomes:** THC has begun oxidising to CBN (cannabinol). A higher proportion of amber trichomes correlates with a more sedative effect profile.
+
+A commonly recommended harvest target: 70–80% milky trichomes, 10–20% amber, fewer than 10% clear.
+
+## Flushing
+
+In the last 1–2 weeks before harvest, many growers water exclusively with plain water, without nutrients — a process known as flushing. The goal: to break down excess nutrient salts in the substrate and plant tissue, which is said to improve taste and smoke quality.
+
+The scientific evidence for the effectiveness of flushing is limited. A widely cited study by RX Green Technologies (2020) found no significant difference in mineral content of flowers between flushed and non-flushed plants. Nevertheless, many experienced growers subjectively report smoother combustion and better flavour. The practice remains controversial in the growing community.
+
+## Common Mistakes During the Flowering Phase
+
+**Light interruption:** Even brief light exposure during the dark phase can disrupt flowering. All light leaks in the grow room must be sealed.
+
+**Over-fertilisation:** Especially in late flowering, less is more. Nutrient burns manifest as brown leaf tips and can negatively affect flavour.
+
+**Harvesting too early:** Impatience is the most common beginner mistake. Harvesting too early means lower potency and immature terpenes. Trichome inspection under a microscope is indispensable.
+
+**Excessive humidity:** In late flowering, relative humidity should be below 40% to prevent Botrytis (grey mould). Dense flower clusters are particularly susceptible.
+
+**Heat stress:** Temperatures above 28°C during flowering can destroy terpenes and impair trichome quality. Optimal temperatures are 20–26°C during the light phase.`,
+    tags: ['Blüte', 'Anbau', 'Ernte', 'Trichome'],
+    reading_time: 7,
+    last_updated: '2026-04-06',
+    related_slugs: ['indoor-anbau-grundlagen', 'trocknung-fermentierung', 'naehrstoffe-duengung'],
+  },
 ];

@@ -1380,4 +1380,120 @@ Research is advancing rapidly. Many studies from countries with legalised cannab
       'cannabis-vs-alkohol-nikotin',
     ],
   },
+
+  // ─── CANNABIS UND SCHLAF ──────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-und-schlaf',
+    category: 'health',
+    title_de: 'Cannabis und Schlaf: Was die Forschung sagt',
+    title_en: 'Cannabis and Sleep: What Research Says',
+    summary_de:
+      'Ein sachlicher Überblick über die Auswirkungen von Cannabis auf den Schlaf — THC, CBD, Myrcen, Schlafphasen, Toleranzeffekte und Abhängigkeitsrisiken. Keine medizinische Beratung.',
+    summary_en:
+      'A factual overview of the effects of cannabis on sleep — THC, CBD, myrcene, sleep stages, tolerance effects, and dependency risks. Not medical advice.',
+    images: healthImage,
+    content_de: `## Vorbemerkung
+
+Dieser Artikel dient ausschließlich der sachlichen Information und stellt keine medizinische Beratung dar. Wer unter Schlafproblemen leidet, sollte ärztlichen Rat einholen. Die Forschungslage zu Cannabis und Schlaf ist noch unvollständig, und viele Ergebnisse stammen aus Beobachtungsstudien oder kleinen Stichproben.
+
+## Cannabis als Einschlafhilfe: Ein verbreitetes Phänomen
+
+Viele Cannabiskonsumenten berichten, dass Cannabis ihnen beim Einschlafen hilft. Tatsächlich ist die Verbesserung des Schlafs einer der am häufigsten genannten Gründe für den Cannabiskonsum. Eine Umfrage der National Sleep Foundation (USA, 2022) ergab, dass etwa 70 % der befragten Cannabiskonsumenten angaben, Cannabis auch zur Verbesserung ihres Schlafs zu verwenden.
+
+Doch die Beziehung zwischen Cannabis und Schlaf ist komplex und keineswegs einheitlich positiv. Die Wirkung hängt von zahlreichen Faktoren ab: der Zusammensetzung der konsumierten Sorte (Cannabinoid- und Terpenprofil), der Dosierung, der Konsumhäufigkeit, der individuellen Physiologie und der zugrunde liegenden Ursache der Schlafprobleme.
+
+## THC und Schlafphasen
+
+THC (Tetrahydrocannabinol) zeigt in Studien eine biphasische Wirkung auf den Schlaf. In niedrigen Dosen kann es die Einschlafzeit verkürzen und die Gesamtschlafdauer leicht erhöhen. In hohen Dosen oder bei chronischem Konsum verändert sich das Bild.
+
+**Einfluss auf die Schlafarchitektur:** Mehrere Studien (u.a. Babson et al., 2017; Kesner & Lovinger, 2020) zeigen, dass THC den Anteil der REM-Schlafphase (Rapid Eye Movement) reduziert. REM-Schlaf ist die Schlafphase, in der die meisten Träume stattfinden und die für Gedächtniskonsolidierung, emotionale Verarbeitung und kognitive Erholung wichtig ist. Eine Reduktion des REM-Schlafs bedeutet weniger Traumaktivität — was für Personen mit PTSD-bedingten Albträumen kurzfristig hilfreich sein kann, langfristig aber die kognitive Erholung beeinträchtigen könnte.
+
+**Tiefschlaf (Slow-Wave Sleep):** Einige Studien deuten darauf hin, dass THC den Anteil an Tiefschlaf (Stadium N3) zunächst erhöhen kann. Tiefschlaf ist wichtig für die körperliche Erholung, Immunfunktion und Wachstumshormonausschüttung. Allerdings scheint dieser Effekt bei regelmäßigem Konsum nachzulassen.
+
+## Die Rolle von CBD
+
+CBD (Cannabidiol) hat ein anderes Wirkprofil als THC. Es bindet nicht direkt an CB1-Rezeptoren und erzeugt keinen Rausch. Die Forschung zu CBD und Schlaf zeigt gemischte Ergebnisse:
+
+Eine 2019 in The Permanente Journal veröffentlichte Studie (Shannon et al.) untersuchte 72 Patienten mit Angststörungen und Schlafproblemen. In den ersten beiden Monaten verbesserten sich die Schlafwerte bei 66,7 % der Teilnehmer — allerdings schwankten die Ergebnisse im Verlauf der Studie.
+
+CBD scheint in niedrigen Dosen (unter 160 mg) eher wachheitsfördernd zu wirken, während höhere Dosen mit sedierenden Effekten assoziiert werden. Die anxiolytischen (angstlösenden) Eigenschaften von CBD könnten indirekt den Schlaf verbessern, indem sie Einschlafprobleme reduzieren, die durch Angst oder Grübeln verursacht werden.
+
+## Myrcen und Schlaf
+
+Myrcen ist das häufigste Terpen in den meisten Cannabissorten und wird traditionell mit sedierenden Eigenschaften assoziiert. In der Volksmedizin wird Hopfentee — reich an Myrcen — seit Jahrhunderten als Schlafmittel verwendet.
+
+Tierversuche (do Vale et al., 2002) zeigten, dass Myrcen in Mäusen die Schlafdauer verlängerte und muskelrelaxierende Wirkung hatte. Die Übertragbarkeit auf den Menschen ist jedoch nicht gesichert. Die Myrcen-Konzentrationen, die in Cannabisblüten vorkommen, liegen deutlich unter den in Tierstudien verwendeten Dosen.
+
+Sorten mit hohem Myrcen-Anteil (häufig als „Indica" vermarktet) werden subjektiv als beruhigender empfunden — ob dies primär auf Myrcen oder auf die Gesamtheit des Terpenprofils und der Cannabinoidzusammensetzung zurückzuführen ist, bleibt wissenschaftlich unklar.
+
+## Toleranzentwicklung und Rebound-Effekt
+
+Bei regelmäßigem Cannabiskonsum entwickelt sich eine Toleranz gegenüber den schlaffördernden Effekten. Dies bedeutet, dass mit der Zeit höhere Dosen benötigt werden, um denselben schlaffördernden Effekt zu erzielen — ein Mechanismus, der das Risiko einer Abhängigkeitsentwicklung erhöht.
+
+Wird der Konsum nach einer Phase regelmäßiger Nutzung abrupt beendet, berichten viele Betroffene von einem sogenannten Rebound-Effekt: deutlich verstärktem Träumen (da die zuvor unterdrückte REM-Aktivität kompensiert wird), Einschlafproblemen und Schlaflosigkeit. Diese Entzugssymptome können 2 bis 6 Wochen andauern und sind einer der Hauptgründe, warum es Betroffenen schwerfällt, den Konsum einzustellen.
+
+## Abhängigkeitsrisiko
+
+Cannabiskonsumstörung (Cannabis Use Disorder, CUD) betrifft laut DSM-5 etwa 9 % der regelmäßigen Konsumenten. Schlafstörungen sind sowohl ein häufiges Symptom einer bestehenden CUD als auch ein Grund, warum Betroffene den Konsum fortsetzen — eine Art Teufelskreis. Wer Cannabis primär als Schlafmittel verwendet, sollte sich bewusst sein, dass alternative, nicht-pharmakologische Ansätze (kognitive Verhaltenstherapie für Insomnie / CBT-I, Schlafhygiene, Entspannungstechniken) evidenzbasiert und ohne Abhängigkeitsrisiko wirksam sind.
+
+## Zusammenfassung
+
+Die Beziehung zwischen Cannabis und Schlaf ist vielschichtig. Kurzfristig kann Cannabis — insbesondere THC — die Einschlafzeit verkürzen. Gleichzeitig verändert es die Schlafarchitektur, insbesondere durch Reduktion des REM-Schlafs. CBD zeigt ein komplexeres Bild mit dosisabhängigen Effekten. Toleranzentwicklung und Rebound-Effekte bei Absetzen sind gut dokumentiert. Die Forschung befindet sich noch in einem frühen Stadium, und kontrollierte klinische Langzeitstudien fehlen weitgehend. Wer unter chronischen Schlafproblemen leidet, sollte professionelle Hilfe in Anspruch nehmen, anstatt Cannabis als Selbstmedikation zu verwenden.`,
+    content_en: `## Preliminary Note
+
+This article is for informational purposes only and does not constitute medical advice. Anyone suffering from sleep problems should consult a physician. The research on cannabis and sleep is still incomplete, and many findings come from observational studies or small samples.
+
+## Cannabis as a Sleep Aid: A Common Phenomenon
+
+Many cannabis users report that cannabis helps them fall asleep. In fact, improving sleep is one of the most commonly cited reasons for cannabis use. A survey by the National Sleep Foundation (USA, 2022) found that approximately 70% of surveyed cannabis users reported using cannabis to improve their sleep.
+
+However, the relationship between cannabis and sleep is complex and by no means uniformly positive. The effect depends on numerous factors: the composition of the consumed strain (cannabinoid and terpene profile), dosage, frequency of use, individual physiology, and the underlying cause of sleep problems.
+
+## THC and Sleep Stages
+
+THC (tetrahydrocannabinol) shows a biphasic effect on sleep in studies. In low doses, it can shorten sleep onset time and slightly increase total sleep duration. In high doses or with chronic use, the picture changes.
+
+**Impact on sleep architecture:** Several studies (including Babson et al., 2017; Kesner & Lovinger, 2020) show that THC reduces the proportion of REM sleep (Rapid Eye Movement). REM sleep is the stage in which most dreams occur and which is important for memory consolidation, emotional processing, and cognitive recovery. A reduction in REM sleep means less dream activity — which may be helpful short-term for individuals with PTSD-related nightmares but could impair cognitive recovery in the long run.
+
+**Deep sleep (Slow-Wave Sleep):** Some studies suggest that THC can initially increase the proportion of deep sleep (Stage N3). Deep sleep is important for physical recovery, immune function, and growth hormone release. However, this effect appears to diminish with regular use.
+
+## The Role of CBD
+
+CBD (cannabidiol) has a different effect profile than THC. It does not bind directly to CB1 receptors and produces no intoxication. Research on CBD and sleep shows mixed results:
+
+A 2019 study published in The Permanente Journal (Shannon et al.) examined 72 patients with anxiety disorders and sleep problems. In the first two months, sleep scores improved in 66.7% of participants — however, results fluctuated over the course of the study.
+
+CBD appears to promote wakefulness at low doses (under 160 mg), while higher doses are associated with sedative effects. The anxiolytic (anxiety-reducing) properties of CBD could indirectly improve sleep by reducing the difficulty falling asleep caused by anxiety or rumination.
+
+## Myrcene and Sleep
+
+Myrcene is the most common terpene in most cannabis strains and is traditionally associated with sedative properties. In folk medicine, hop tea — rich in myrcene — has been used as a sleep aid for centuries.
+
+Animal studies (do Vale et al., 2002) showed that myrcene prolonged sleep duration in mice and had muscle-relaxant effects. However, the transferability to humans is not established. The myrcene concentrations found in cannabis flowers are significantly below the doses used in animal studies.
+
+Strains with high myrcene content (often marketed as "indica") are subjectively perceived as more calming — whether this is primarily due to myrcene or to the totality of the terpene profile and cannabinoid composition remains scientifically unclear.
+
+## Tolerance Development and Rebound Effect
+
+With regular cannabis use, tolerance develops to the sleep-promoting effects. This means that over time, higher doses are needed to achieve the same sleep-inducing effect — a mechanism that increases the risk of dependency development.
+
+If use is abruptly discontinued after a period of regular consumption, many individuals report a so-called rebound effect: significantly intensified dreaming (as previously suppressed REM activity is compensated), difficulty falling asleep, and insomnia. These withdrawal symptoms can last 2 to 6 weeks and are one of the main reasons why affected individuals find it difficult to stop using.
+
+## Dependency Risk
+
+Cannabis Use Disorder (CUD) affects approximately 9% of regular users according to the DSM-5. Sleep disturbances are both a common symptom of existing CUD and a reason why affected individuals continue using — a kind of vicious cycle. Those who primarily use cannabis as a sleep aid should be aware that alternative, non-pharmacological approaches (Cognitive Behavioural Therapy for Insomnia / CBT-I, sleep hygiene, relaxation techniques) are evidence-based and effective without dependency risk.
+
+## Summary
+
+The relationship between cannabis and sleep is multifaceted. In the short term, cannabis — particularly THC — can reduce sleep onset time. At the same time, it alters sleep architecture, particularly by reducing REM sleep. CBD shows a more complex picture with dose-dependent effects. Tolerance development and rebound effects upon discontinuation are well documented. Research is still in an early stage, and controlled long-term clinical studies are largely lacking. Anyone suffering from chronic sleep problems should seek professional help rather than using cannabis as self-medication.`,
+    tags: ['Schlaf', 'Gesundheit', 'CBD', 'Myrcen'],
+    reading_time: 6,
+    last_updated: '2026-04-06',
+    related_slugs: [
+      'cannabis-psychische-gesundheit',
+      'safer-use-regeln',
+      'cannabis-und-psyche',
+      'dosierung-einsteiger',
+    ],
+  },
 ];
