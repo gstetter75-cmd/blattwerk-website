@@ -67,7 +67,7 @@ export function UeberUnsClient({ isDE }: Props) {
   const rules = isDE
     ? [
         'Konsum nur für Mitglieder ab 21 Jahren.',
-        'Cannabis nur in vorgesehenen Bereichen.',
+        'Kein Konsum auf dem Vereinsgelände — gesetzliches Verbot nach §17 KCanG.',
         'Keine Weitergabe an Nicht-Mitglieder oder Minderjährige.',
         'Max. 25g/Tag, 50g/Monat pro Mitglied.',
         'Respektvoller Umgang miteinander.',
@@ -77,7 +77,7 @@ export function UeberUnsClient({ isDE }: Props) {
       ]
     : [
         'Cannabis only for members aged 21+.',
-        'Cannabis only in designated areas.',
+        'No consumption on club premises — prohibited by law (§17 KCanG).',
         'No sharing with non-members or minors.',
         'Max. 25g/day, 50g/month per member.',
         'Respectful interaction at all times.',
