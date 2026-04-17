@@ -104,7 +104,7 @@ export default async function ImpressumPage({
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Kassenwart' : 'Treasurer'}</dt>
-                <dd className="text-ink">Thomas Andreas</dd>
+                <dd className="text-ink">Rene Sackel</dd>
               </div>
             </dl>
           </div>
@@ -185,7 +185,7 @@ export default async function ImpressumPage({
             <dl className="space-y-3 text-sm">
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Ansprechpartner' : 'Contact person'}</dt>
-                <dd className="text-ink">Thomas Andreas</dd>
+                <dd className="text-ink">Rene Sackel</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted flex items-center gap-1.5">

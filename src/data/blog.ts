@@ -334,50 +334,6 @@ Our recommendation: Read our detailed article "Cannabis and Road Traffic" in our
     author: 'Gero Stetter',
   },
   {
-    slug: 'indoor-anbau-erste-wochen',
-    date: '2026-04-05',
-    title_de: 'Indoor-Anbau: Unsere ersten Wochen',
-    title_en: 'Indoor Growing: Our First Weeks',
-    summary_de: 'Die Anbauräume stehen, die ersten Pflanzen wachsen. Ein ehrlicher Blick auf die Anfangsphase unseres gemeinschaftlichen Anbaus — was funktioniert, was nicht.',
-    summary_en: 'The grow rooms are set up, the first plants are growing. An honest look at the initial phase of our communal cultivation — what works, what doesn\'t.',
-    content_de: `Seit dem Erhalt unserer Anbaulizenz im März sind einige Wochen vergangen. Zeit für ein erstes, ehrliches Update aus den Anbauräumen.
-
-Die Infrastruktur steht. Beleuchtung, Belüftung, Bewässerung, Klimasteuerung — alles installiert und in Betrieb. Das klingt einfacher, als es war. Allein die Planung der Lüftungssysteme hat uns mehr Zeit gekostet als erwartet. Geruchsfilter, Luftumwälzung, Temperatur- und Feuchtigkeitskontrolle — das muss alles zusammenspielen, bevor auch nur eine Pflanze in die Erde kommt.
-
-Unsere ersten Sorten stehen in der Vegetationsphase. Wir haben bewusst mit robusten, anfängerfreundlichen Sorten begonnen — Sorten, die Fehler verzeihen und nicht sofort eingehen, wenn ein Parameter mal nicht stimmt. Northern Lights und Blue Dream waren unsere Startauswahl, beide bekannt für Widerstandsfähigkeit und zuverlässiges Wachstum.
-
-Was gut läuft: Die LED-Beleuchtung liefert gleichmäßige PPFD-Werte, die Pflanzen wachsen sichtbar. Die Temperatur halten wir tagsüber bei 24–26°C, nachts bei 18–20°C. Die relative Luftfeuchtigkeit liegt bei 60–70% in der Vegetationsphase — genau im Zielbereich.
-
-Was uns überrascht hat: Der Stromverbrauch. Trotz energieeffizienter LED-Technik ist der Energiebedarf für Beleuchtung, Klimatisierung und Belüftung erheblich. Das haben wir in der Kalkulation zwar berücksichtigt, aber die realen Zahlen liegen am oberen Ende unserer Schätzung.
-
-Was wir noch lernen: Nährstoffmanagement. Die richtige Dosierung von Stickstoff, Phosphor und Kalium in jeder Wachstumsphase ist eine Wissenschaft für sich. Wir dokumentieren alles akribisch — pH-Wert, EC-Wert, Blattfarbe, Wuchshöhe — um für die nächsten Durchgänge besser vorbereitet zu sein.
-
-Der Anbaurat trifft sich wöchentlich, um den Fortschritt zu besprechen und Anpassungen vorzunehmen. Transparenz gegenüber unseren Mitgliedern ist uns wichtig: Wir werden regelmäßig über den Stand berichten — auch dann, wenn mal etwas nicht nach Plan läuft.
-
-Die nächsten Schritte: Sobald die Pflanzen groß genug sind, beginnt die Blütephase. Dann ändert sich das Lichtregime von 18/6 auf 12/12 Stunden. Bis zur ersten Ernte rechnen wir mit weiteren 8–12 Wochen. Danach folgt Trocknung, Fermentierung und Qualitätsprüfung, bevor irgendetwas an Mitglieder abgegeben wird.
-
-Wir halten euch auf dem Laufenden.`,
-    content_en: `A few weeks have passed since receiving our cultivation license in March. Time for a first, honest update from the grow rooms.
-
-The infrastructure is in place. Lighting, ventilation, irrigation, climate control — all installed and operational. That sounds simpler than it was. The ventilation system planning alone cost us more time than expected. Odor filters, air circulation, temperature and humidity control — everything has to work together before a single plant goes into the soil.
-
-Our first strains are in the vegetative phase. We deliberately started with robust, beginner-friendly strains — varieties that forgive mistakes and don't immediately die if a parameter is slightly off. Northern Lights and Blue Dream were our starting selection, both known for resilience and reliable growth.
-
-What's going well: The LED lighting delivers consistent PPFD values, plants are visibly growing. We maintain daytime temperatures at 24–26°C, nighttime at 18–20°C. Relative humidity sits at 60–70% during vegetation — right on target.
-
-What surprised us: The electricity consumption. Despite energy-efficient LED technology, the energy demand for lighting, climate control and ventilation is substantial. We accounted for this in our budget, but the real numbers are at the upper end of our estimates.
-
-What we're still learning: Nutrient management. The right dosing of nitrogen, phosphorus and potassium at each growth stage is a science in itself. We document everything meticulously — pH value, EC value, leaf color, plant height — to be better prepared for the next cycles.
-
-The growing council meets weekly to discuss progress and make adjustments. Transparency toward our members is important to us: we will report regularly on the status — even when things don't go according to plan.
-
-Next steps: Once the plants are large enough, the flowering phase begins. Then the light regime changes from 18/6 to 12/12 hours. We expect another 8–12 weeks until the first harvest. Then comes drying, curing and quality testing before anything is distributed to members.
-
-We'll keep you posted.`,
-    tags: ['Anbau', 'Update', 'Indoor', 'Grow'],
-    author: 'Gero Stetter',
-  },
-  {
     slug: 'unser-weg-zur-lizenz',
     date: '2026-04-01',
     title_de: 'Unser Weg zur Anbaulizenz — 10 Monate, die sich gelohnt haben',
@@ -422,31 +378,35 @@ If you want to found a CSC yourself: On our "Start a CSC" page, we share our exp
     author: 'Gero Stetter',
   },
   {
-    slug: 'anbau-gestartet',
+    slug: 'vorbereitung-laeuft',
     date: '2026-03-25',
-    title_de: 'Der Anbau hat begonnen',
-    title_en: 'Growing Has Started',
-    summary_de: 'Nach Erhalt der Anbaulizenz haben wir mit dem Aufbau unserer Anbau-Infrastruktur begonnen. Die ersten Schritte sind getan.',
-    summary_en: 'After receiving our cultivation license, we have started building our growing infrastructure. The first steps are done.',
-    content_de: `Es ist offiziell: BlattWerk e.V. baut an. Nach monatelanger Vorbereitung und dem Erhalt der Anbaulizenz am 18. März 2026 sind wir in die aktive Phase gestartet.
+    title_de: 'Die Vorbereitungen laufen',
+    title_en: 'Preparations Are Underway',
+    summary_de: 'Nach Erhalt der Anbaulizenz bereiten wir uns auf den gemeinschaftlichen Anbau vor. Infrastruktur, Planung und Organisation stehen im Fokus.',
+    summary_en: 'After receiving our cultivation license, we are preparing for communal cultivation. Infrastructure, planning and organization are our focus.',
+    content_de: `Nach dem Erhalt der Anbaulizenz am 18. März 2026 stehen bei BlattWerk e.V. die nächsten Schritte an: Wir bereiten uns auf den gemeinschaftlichen Anbau vor.
 
-In den letzten Tagen haben wir damit begonnen, unsere Anbauräume einzurichten. Beleuchtung, Belüftung, Bewässerung — Schritt für Schritt entsteht die Infrastruktur für unseren gemeinschaftlichen Anbau.
+Aktuell planen wir die Einrichtung unserer Anbauräume. Beleuchtung, Belüftung, Bewässerung — es gibt viel zu tun, bevor es losgehen kann. Jede Entscheidung wird sorgfältig abgewogen, denn Qualität steht für uns an erster Stelle.
 
-Unsere ersten Sorten stehen fest und wurden sorgfältig ausgewählt. Dabei achten wir auf Vielfalt: Indica, Sativa und Hybrid-Sorten mit unterschiedlichen Terpenprofilen und THC/CBD-Verhältnissen.
+Parallel dazu beschäftigen wir uns intensiv mit der Sortenauswahl. In unserer Sortendatenbank dokumentieren wir bereits über 50 Sorten mit Genetik, Terpenprofilen und THC/CBD-Werten — eine fundierte Grundlage für unsere Planung.
 
-Als nächstes stehen die ersten Pflanzungen an. Wir halten euch auf dem Laufenden — hier im Blog und auf Instagram.
+Außerdem arbeiten wir an den organisatorischen Strukturen: Dokumentation, Qualitätssicherung und Jugendschutz müssen stehen, bevor der erste Samen in die Erde kommt.
 
-Ihr wollt Teil davon sein? Der Beitritt erfolgt über die Hanf-App.`,
-    content_en: `It's official: BlattWerk e.V. is growing. After months of preparation and receiving our cultivation license on March 18, 2026, we've entered the active phase.
+Wir halten euch über den Fortschritt auf dem Laufenden — hier im Blog und auf Instagram.
 
-Over the past few days, we've started setting up our growing rooms. Lighting, ventilation, irrigation — step by step, the infrastructure for our communal cultivation is taking shape.
+Ihr wollt Teil dieser Gemeinschaft werden? Der Beitritt erfolgt über die Hanf-App.`,
+    content_en: `After receiving our cultivation license on March 18, 2026, BlattWerk e.V. is taking the next steps: we are preparing for communal cultivation.
 
-Our first strains have been selected with care. We focus on variety: Indica, Sativa and hybrid strains with different terpene profiles and THC/CBD ratios.
+We are currently planning the setup of our growing facilities. Lighting, ventilation, irrigation — there is much to do before we can begin. Every decision is carefully considered, because quality is our top priority.
 
-Next up: the first plantings. We'll keep you posted — here on the blog and on Instagram.
+In parallel, we are working intensively on strain selection. Our strain database already documents over 50 strains with genetics, terpene profiles and THC/CBD values — a solid foundation for our planning.
 
-Want to be part of it? Join via the Hanf-App.`,
-    tags: ['Anbau', 'Meilenstein', 'Infrastruktur'],
+We are also building the organizational structures: documentation, quality assurance and youth protection must be in place before the first seed goes into the ground.
+
+We'll keep you updated on our progress — here on the blog and on Instagram.
+
+Want to become part of this community? Join via the Hanf-App.`,
+    tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur'],
     author: 'Gero Stetter',
   },
   {
@@ -458,16 +418,16 @@ Want to be part of it? Join via the Hanf-App.`,
     summary_en: 'On March 18, 2026, BlattWerk e.V. received its official cultivation license. A historic moment for our association and for Hildesheim.',
     content_de: `Heute ist ein Tag, den wir lange herbeigesehnt haben: BlattWerk e.V. hat die offizielle Anbaulizenz erhalten.
 
-Damit sind wir berechtigt, als Anbauvereinigung gemäß dem Konsumcannabisgesetz (KCanG) Cannabis gemeinschaftlich anzubauen und an unsere Mitglieder abzugeben.
+Damit sind wir als Anbauvereinigung gemäß dem Konsumcannabisgesetz (KCanG) berechtigt, Cannabis gemeinschaftlich anzubauen und an unsere Mitglieder abzugeben.
 
 Der Weg hierhin war nicht einfach. Von der Vereinsgründung über die Erstellung des Präventionskonzepts, die Suche nach geeigneten Räumlichkeiten bis hin zum Lizenzantrag — jeder Schritt erforderte Sorgfalt, Geduld und die Unterstützung unserer Mitglieder.
 
-Was bedeutet das konkret?
-- Wir dürfen offiziell Cannabis anbauen
-- Die Abgabe an Mitglieder nach Selbstkostenpreis ist erlaubt
+Was bedeutet die Lizenz?
+- Die offizielle Genehmigung zum gemeinschaftlichen Anbau liegt vor
+- Die Abgabe an Mitglieder nach Selbstkostenpreis wird ermöglicht
 - Alle gesetzlichen Auflagen (Jugendschutz, Prävention, Dokumentation) werden von uns erfüllt
 
-Wir sind stolz auf das, was wir gemeinsam erreicht haben. Jetzt beginnt die eigentliche Arbeit — und wir freuen uns darauf.
+Wir sind stolz auf das, was wir gemeinsam erreicht haben. Jetzt beginnt die Vorbereitung auf den Anbau — und wir freuen uns darauf.
 
 Danke an alle Mitglieder und Unterstützer, die diesen Weg mit uns gegangen sind.`,
     content_en: `Today is a day we've been looking forward to for a long time: BlattWerk e.V. has received its official cultivation license.
@@ -476,12 +436,12 @@ This authorizes us as a cultivation association under the Cannabis Act (KCanG) t
 
 The path here wasn't easy. From founding the association, creating the prevention concept, finding suitable premises to the license application — every step required diligence, patience and the support of our members.
 
-What does this mean in practice?
-- We are officially permitted to grow cannabis
-- Distribution to members at cost price is allowed
+What does the license mean?
+- We have official approval for communal cultivation
+- Distribution to members at cost price is enabled
 - All legal requirements (youth protection, prevention, documentation) are met by us
 
-We are proud of what we've achieved together. Now the real work begins — and we're looking forward to it.
+We are proud of what we've achieved together. Now the preparation for cultivation begins — and we're looking forward to it.
 
 Thank you to all members and supporters who have walked this path with us.`,
     tags: ['Lizenz', 'Meilenstein', 'KCanG'],

@@ -200,7 +200,7 @@ export function SuchtpraeventionClient({ isDE }: Props) {
               </div>
               <div className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
                 <p className="text-xs font-medium text-gold-theme mb-3">
-                  {isDE ? 'Stellvertretung' : 'Deputy Officer'}
+                  {isDE ? 'Externe Ansprechpartnerin' : 'External Contact Person'}
                 </p>
                 <h3 className="font-heading font-semibold text-lg">Angela Stetter</h3>
                 <p className="text-sm text-ink-muted mt-2 italic">

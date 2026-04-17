@@ -25,7 +25,7 @@ export function UeberUnsClient({ isDE }: Props) {
     },
     {
       role: isDE ? 'Kassenwart' : 'Treasurer',
-      name: 'Thomas Andreas',
+      name: 'Rene Sackel',
       text: isDE
         ? 'Finanzverwaltung, Buchführung, Beitragswesen'
         : 'Financial management, bookkeeping, membership fees',
@@ -120,8 +120,8 @@ export function UeberUnsClient({ isDE }: Props) {
                   </p>
                   <p>
                     {isDE
-                      ? 'Am 18. März 2026 haben wir die offizielle Anbaulizenz erhalten. Das war ein Meilenstein — für uns und für Hildesheim. Seitdem bauen wir an und entwickeln unsere Infrastruktur weiter. Werde Teil davon.'
-                      : 'On March 18, 2026, we received our official cultivation license. That was a milestone — for us and for Hildesheim. Since then, we\'ve been growing and developing our infrastructure. Be part of it.'}
+                      ? 'Am 18. März 2026 haben wir die offizielle Anbaulizenz erhalten. Das war ein Meilenstein — für uns und für Hildesheim. Seitdem bereiten wir alles für den gemeinschaftlichen Anbau vor. Werde Teil davon.'
+                      : 'On March 18, 2026, we received our official cultivation license. That was a milestone — for us and for Hildesheim. Since then, we\'ve been preparing everything for communal cultivation. Be part of it.'}
                   </p>
                   <p>
                     {isDE

@@ -31,8 +31,8 @@ export function createMetadata(locale: string, meta: PageMeta, path = ''): Metad
 
 export const PAGE_META = {
   home: {
-    de: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — lizenzierter Cannabis Social Club in Hildesheim. Anbaulizenz erteilt, aktiver Anbau. Mitglied werden ab 21 Jahren. Gemeinschaft & Qualität nach KCanG.' },
-    en: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — licensed Cannabis Social Club in Hildesheim. Cultivation license granted, active growing. Join from age 21. Community & quality under KCanG.' },
+    de: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — lizenzierter Cannabis Social Club in Hildesheim. Anbaulizenz erteilt. Mitglied werden ab 21 Jahren. Gemeinschaft & Qualität nach KCanG.' },
+    en: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — licensed Cannabis Social Club in Hildesheim. Cultivation license granted. Join from age 21. Community & quality under KCanG.' },
   },
   about: {
     de: { title: 'Über uns — Cannabis Verein Hildesheim | BlattWerk', description: 'Vorstand, Anbaurat, Vereinsregeln und Mission von BlattWerk e.V. — Cannabis Social Club Hildesheim. Gegründet 2025, Anbaulizenz seit März 2026.' },

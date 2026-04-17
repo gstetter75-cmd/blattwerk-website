@@ -68,14 +68,14 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Cannabis Social Club Hildesheim — Wir bauen an.'
-                : 'Cannabis Social Club Hildesheim — We\'re Growing.'}
+                ? 'Gemeinschaft. Verantwortung. Transparenz.'
+                : 'Community. Responsibility. Transparency.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">
               {isDE
-                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz und aktivem Anbau. Gemeinschaft, Qualität und Transparenz.'
-                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license and active growing. Community, quality and transparency.'}
+                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Gemeinschaft, Aufklärung und Qualität.'
+                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. Community, education and quality.'}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -107,7 +107,7 @@ function HomeContent() {
               {isDE ? 'Unser Weg' : 'Our Journey'}
             </p>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-12">
-              {isDE ? 'Unser Weg — vom Verein zum aktiven Anbau' : 'Our journey — from club to active growing'}
+              {isDE ? 'Unser Weg — vom Verein zur Anbauvereinigung' : 'Our journey — from club to cultivation association'}
             </h2>
 
             <div className="grid md:grid-cols-4 gap-6">
@@ -129,14 +129,14 @@ function HomeContent() {
                 {
                   icon: Sprout,
                   status: 'active' as const,
-                  title: isDE ? 'Anbau läuft' : 'Growing in progress',
-                  text: isDE ? 'Infrastruktur aufbauen, erste Pflanzen setzen' : 'Building infrastructure, planting first crops',
+                  title: isDE ? 'Vorbereitung' : 'Preparation',
+                  text: isDE ? 'Infrastruktur planen und aufbauen' : 'Planning and building infrastructure',
                   date: isDE ? 'Jetzt' : 'Now',
                 },
                 {
                   icon: Sun,
                   status: 'upcoming' as const,
-                  title: isDE ? 'Erste Ernte' : 'First harvest',
+                  title: isDE ? 'Anbaustart' : 'Growing start',
                   text: isDE ? 'Qualitätsgeprüft, für unsere Mitglieder' : 'Quality-tested, for our members',
                   date: isDE ? 'Bald' : 'Soon',
                 },
@@ -198,8 +198,8 @@ function HomeContent() {
                 </p>
                 <p className="text-ink-muted leading-relaxed mb-8">
                   {isDE
-                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Jetzt bauen wir an — und du kannst Teil davon sein.'
-                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Now we\'re growing — and you can be part of it.'}
+                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Jetzt bereiten wir alles vor — und du kannst Teil davon sein.'
+                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Now we\'re preparing everything — and you can be part of it.'}
                 </p>
                 <Link
                   href="/ueber-uns"
@@ -211,7 +211,7 @@ function HomeContent() {
 
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { icon: Users, title: isDE ? 'Gemeinschaft' : 'Community', text: isDE ? 'Aktive Mitglieder, die gemeinsam anbauen' : 'Active members growing together' },
+                  { icon: Users, title: isDE ? 'Gemeinschaft' : 'Community', text: isDE ? 'Engagierte Mitglieder mit gemeinsamer Vision' : 'Committed members with a shared vision' },
                   { icon: Check, title: isDE ? 'Lizenziert' : 'Licensed', text: isDE ? 'Offiziell genehmigt nach KCanG' : 'Officially approved under KCanG' },
                   { icon: BookOpen, title: isDE ? 'Aufklärung' : 'Education', text: isDE ? 'Wissen statt Klischees' : 'Knowledge over clichés' },
                   { icon: Leaf, title: isDE ? 'Qualität' : 'Quality', text: isDE ? 'Kontrollierter Anbau, geprüfte Sorten' : 'Controlled cultivation, tested strains' },
@@ -242,8 +242,8 @@ function HomeContent() {
             </h2>
             <p className="text-base leading-relaxed opacity-70 max-w-xl mx-auto mb-8">
               {isDE
-                ? 'Wir suchen Mitglieder, die mit uns anbauen und lernen wollen. Der Beitritt erfolgt über die Hanf-App.'
-                : 'We\'re looking for members who want to grow and learn with us. Join via the Hanf-App.'}
+                ? 'Wir suchen Mitglieder, die Teil unserer Gemeinschaft werden wollen. Der Beitritt erfolgt über die Hanf-App.'
+                : 'We\'re looking for members who want to be part of our community. Join via the Hanf-App.'}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
