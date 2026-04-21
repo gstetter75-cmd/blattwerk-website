@@ -19,7 +19,9 @@ export interface BlattWerkEvent {
   readonly type_en: string;
 }
 
-export const upcomingEvents: readonly BlattWerkEvent[] = [
+export const upcomingEvents: readonly BlattWerkEvent[] = [];
+
+export const pastEvents: readonly BlattWerkEvent[] = [
   {
     date: '2026-04-12',
     time: '15:00',
@@ -34,9 +36,6 @@ export const upcomingEvents: readonly BlattWerkEvent[] = [
     type_de: 'Versammlung',
     type_en: 'Assembly',
   },
-];
-
-export const pastEvents: readonly BlattWerkEvent[] = [
   {
     date: '2026-03-15',
     title_de: 'Anbaugenehmigung erteilt',
