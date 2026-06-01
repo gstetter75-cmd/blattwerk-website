@@ -130,6 +130,7 @@ export function StrainOverview() {
               {query && (
                 <button
                   onClick={() => setQuery('')}
+                  aria-label={lang === 'de' ? 'Suche löschen' : 'Clear search'}
                   className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer text-ink-muted"
                 >
                   <X className="w-3.5 h-3.5" />
@@ -172,6 +173,7 @@ export function StrainOverview() {
             {/* Mobile filter toggle */}
             <button
               onClick={() => setSidebarOpen(!sidebarOpen)}
+              aria-label={lang === 'de' ? 'Filter öffnen' : 'Open filters'}
               className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer border border-[var(--border)]"
               style={{
                 color: hasActiveFilters ? 'var(--accent)' : undefined,
@@ -189,6 +191,7 @@ export function StrainOverview() {
             {/* Mobile strain finder link */}
             <Link
               href="/sortendatenbank/finder"
+              aria-label={lang === 'de' ? 'Sortenfinder' : 'Strain Finder'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <Sparkles className="w-4 h-4" />
@@ -197,6 +200,7 @@ export function StrainOverview() {
             {/* Mobile compare link */}
             <Link
               href="/sortendatenbank/vergleich"
+              aria-label={lang === 'de' ? 'Vergleichen' : 'Compare'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <GitCompareArrows className="w-4 h-4" />

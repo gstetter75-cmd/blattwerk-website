@@ -74,6 +74,7 @@ function StrainSelector({
       >
         <button
           onClick={onRemove}
+          aria-label={lang === 'de' ? `${selected.name} entfernen` : `Remove ${selected.name}`}
           className="absolute top-3 right-3 p-1 rounded-full hover:bg-bg-elevated transition-colors cursor-pointer"
         >
           <X className="w-4 h-4 text-ink-faint" />

@@ -1623,6 +1623,6 @@ Germany has learned from these experiences and created a considerably more regul
     tags: ['CSC', 'Spanien', 'Modell', 'International'],
     reading_time: 6,
     last_updated: '2026-04-06',
-    related_slugs: ['cannabis-geschichte-weltweit', 'legalisierung-deutschland', 'legalisierung-international', 'kcang-ueberblick'],
+    related_slugs: ['cannabis-geschichte-weltweit', 'legalisierung-deutschland', 'cannabis-weltweit-legalisierung', 'kcang-ueberblick'],
   },
 ] as const;
