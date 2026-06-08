@@ -1473,6 +1473,6 @@ Regardless of whether full spectrum, broad spectrum or isolate: the quality of a
     tags: ['Vollspektrum', 'Isolat', 'Cannabinoide', 'Terpene'],
     reading_time: 6,
     last_updated: '2026-04-06',
-    related_slugs: ['thc', 'cbd', 'cbc-cannabichromene', 'cbg', 'endocannabinoid-system', 'terpene-grundlagen'],
+    related_slugs: ['thc', 'cbd', 'cbc-cannabichromene', 'cbg', 'endocannabinoid-system', 'was-sind-terpene'],
   },
 ];

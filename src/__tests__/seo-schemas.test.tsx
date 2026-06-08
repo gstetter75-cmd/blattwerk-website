@@ -9,6 +9,20 @@ import {
   EventListSchema,
 } from '@/lib/schema';
 import { upcomingEvents } from '@/data/events';
+import type { BlattWerkEvent } from '@/data/events';
+
+const mockEvent: BlattWerkEvent = {
+  date: '2026-09-20',
+  time: '18:00',
+  title_de: 'Test-Veranstaltung',
+  title_en: 'Test Event',
+  description_de: 'Testbeschreibung',
+  description_en: 'Test description',
+  location_de: 'Hildesheim',
+  location_en: 'Hildesheim',
+  type_de: 'Test',
+  type_en: 'Test',
+};
 
 function getJsonLd(element: React.ReactElement): Record<string, unknown> {
   const html = renderToString(element);
@@ -143,12 +157,11 @@ describe('Schema.org JSON-LD', () => {
       const html = renderToString(<EventListSchema events={upcomingEvents} locale="de" />);
       const matches = html.match(/application\/ld\+json/g);
       const eventsWithTime = upcomingEvents.filter(e => e.time);
-      expect(matches?.length).toBe(eventsWithTime.length);
+      expect(matches?.length ?? 0).toBe(eventsWithTime.length);
     });
 
     it('includes correct event details', () => {
-      const singleEvent = [upcomingEvents[0]];
-      const html = renderToString(<EventListSchema events={singleEvent} locale="de" />);
+      const html = renderToString(<EventListSchema events={[mockEvent]} locale="de" />);
       const match = html.match(/>({.*?})</s);
       const data = JSON.parse(match![1]);
       expect(data['@type']).toBe('Event');

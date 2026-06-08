@@ -30,6 +30,7 @@ export function ResourceRow({
             href={resource.url}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`${resource.name} (öffnet externe Website)`}
             className="text-sm text-ink-faint transition-opacity hover:opacity-60"
           >
             &#8599;
