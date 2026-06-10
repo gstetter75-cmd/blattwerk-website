@@ -79,7 +79,7 @@ const FAQ_ITEMS_EN = [
   },
   {
     question: 'When can I obtain cannabis for the first time?',
-    answer: 'Once our first harvest is complete and quality-tested. We are currently in active cultivation and will announce the exact date via blog and email.',
+    answer: 'Once our first harvest is complete and quality-tested. Growing is planned to start in October 2026. We will announce the exact date via blog and email.',
   },
   {
     question: 'Which strains does BlattWerk grow?',
