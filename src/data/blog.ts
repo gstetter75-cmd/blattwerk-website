@@ -18,6 +18,96 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'vereinsleben-juni-2026',
+    date: '2026-06-10',
+    title_de: 'Vereinsleben bei BlattWerk — was gerade passiert',
+    title_en: 'Club Life at BlattWerk — What\'s Happening Right Now',
+    summary_de: 'Ein Blick hinter die Kulissen: Was tut sich gerade bei BlattWerk e.V.? Treffen, Workshops, Vorbereitungen und wie du dich einbringen kannst.',
+    summary_en: 'A look behind the scenes: what\'s going on at BlattWerk e.V. right now? Meetings, workshops, preparations and how you can get involved.',
+    content_de: `Es ist ruhig auf der Website — aber im Verein ist einiges los. Hier ein ehrlicher Einblick in das, was bei BlattWerk e.V. gerade passiert.
+
+**Vorstandstreffen und Planung**
+
+Der Vorstand trifft sich regelmäßig, um die Vorbereitung auf den Anbaustart zu koordinieren. Die Themen: Raumeinrichtung, Budgetplanung, Sortenauswahl, Mitgliederverwaltung und rechtliche Fragen. Viel davon ist Kleinstarbeit, die nach außen kaum sichtbar ist — aber die Basis für alles weitere legt.
+
+**Anbauräume werden eingerichtet**
+
+Die Einrichtung unserer Anbauräume läuft. Wir sind dabei, Beleuchtung, Belüftung und Bewässerung Schritt für Schritt aufzubauen. Wer handwerklich fit ist und Lust hat zu helfen, darf sich gerne melden — solche Unterstützung ist immer willkommen.
+
+**Workshops für Mitglieder**
+
+Im Sommer 2026 planen wir erste interne Workshops für Mitglieder:
+
+- **Grow-Grundlagen** — Was passiert in den einzelnen Wachstumsphasen? Worauf kommt es bei Licht, Substrat und Nährstoffen an?
+- **Safer Use** — Verantwortungsvoller Konsum, Wechselwirkungen, Grenzen kennen.
+- **Rechtliches Update** — Was hat sich beim KCanG getan? Was ist als Mitglied relevant?
+
+Die genauen Termine werden wir rechtzeitig hier im Blog und über die Hanf-App bekanntgeben.
+
+**Mitgliederwachstum**
+
+Wir wachsen. Ohne genaue Zahlen zu nennen: Der Verein hat in den letzten Wochen neue Mitglieder gewonnen — Menschen aus Hildesheim und Umgebung, die eine legale, transparente Alternative zum Schwarzmarkt suchen. Genau dafür sind wir angetreten.
+
+Wer noch nicht Mitglied ist: Der Beitritt läuft über die Hanf-App, der monatliche Beitrag beträgt 10 €. Alle Infos auf unserer [Mitgliedschaftsseite](/mitgliedschaft).
+
+**Wie du dich einbringen kannst**
+
+BlattWerk lebt von denen, die mitmachen. Du musst nicht hauptberuflich dabei sein — auch kleine Beiträge zählen:
+
+- Bei der Einrichtung der Anbauräume helfen
+- An Workshops und Infoveranstaltungen teilnehmen
+- Ideen und Feedback einbringen
+- Einfach dabei sein und die Gemeinschaft mitgestalten
+
+Schreib uns bei Interesse: [info@blattwerk.dev](mailto:info@blattwerk.dev)
+
+**Nächster Meilenstein: Oktober 2026**
+
+Anbaustart. Bis dahin arbeiten wir weiter — und halten euch hier auf dem Laufenden.`,
+    content_en: `It\'s quiet on the website — but there\'s plenty happening in the club. Here\'s an honest look at what\'s going on at BlattWerk e.V. right now.
+
+**Board Meetings and Planning**
+
+The board meets regularly to coordinate preparations for the growing start. Topics include: setting up growing facilities, budget planning, strain selection, member management and legal questions. Much of this is small-scale work that\'s barely visible externally — but it lays the foundation for everything else.
+
+**Growing Facilities Being Set Up**
+
+The setup of our growing facilities is underway. We\'re working step by step on lighting, ventilation and irrigation. If you\'re handy and want to help, feel free to get in touch — that kind of support is always welcome.
+
+**Workshops for Members**
+
+In summer 2026, we are planning the first internal workshops for members:
+
+- **Growing Basics** — What happens during the different growth phases? What matters with light, substrate and nutrients?
+- **Safer Use** — Responsible consumption, interactions, knowing your limits.
+- **Legal Update** — What\'s changed with the KCanG? What\'s relevant for members?
+
+Exact dates will be announced here on the blog and via the Hanf-App in good time.
+
+**Member Growth**
+
+We\'re growing. Without naming exact figures: the club has gained new members in recent weeks — people from Hildesheim and the surrounding area looking for a legal, transparent alternative to the black market. That\'s exactly what we set out to achieve.
+
+Not yet a member? Joining is done via the Hanf-App, with a monthly fee of €10. All details on our [membership page](/mitgliedschaft).
+
+**How You Can Get Involved**
+
+BlattWerk lives through the people who participate. You don\'t have to be fully committed — small contributions count too:
+
+- Help set up the growing facilities
+- Attend workshops and info events
+- Share ideas and feedback
+- Simply be part of it and help shape the community
+
+Interested? Write to us: info@blattwerk.dev
+
+**Next Milestone: October 2026**
+
+Growing start. Until then, we keep working — and we\'ll keep you posted here.`,
+    tags: ['Vereinsleben', 'Community', 'Workshops', 'Mitgliedschaft'],
+    author: 'Gero Stetter',
+  },
+  {
     slug: 'unser-anbaukonzept',
     date: '2026-06-10',
     title_de: 'Unser Anbaukonzept — Philosophie, Setup und Qualitätssicherung',
