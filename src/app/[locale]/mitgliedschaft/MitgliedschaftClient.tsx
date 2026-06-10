@@ -175,8 +175,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
         ? 'Wann kann ich das erste Mal Cannabis beziehen?'
         : 'When can I obtain cannabis for the first time?',
       a: isDE
-        ? 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Wir befinden uns aktuell im aktiven Anbau. Über den genauen Zeitpunkt informieren wir über unseren Blog und per E-Mail.'
-        : 'Once our first harvest is complete and quality-tested. We are currently in active cultivation. We will announce the exact date via our blog and email.',
+        ? 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Der Anbaustart ist für Oktober 2026 geplant. Über den genauen Zeitpunkt informieren wir über unseren Blog und per E-Mail.'
+        : 'Once our first harvest is complete and quality-tested. Growing is planned to start in October 2026. We will announce the exact date via our blog and email.',
     },
     {
       q: isDE
