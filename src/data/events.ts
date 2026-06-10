@@ -22,6 +22,7 @@ export interface BlattWerkEvent {
 export const upcomingEvents: readonly BlattWerkEvent[] = [
   {
     date: '2026-06-11',
+    time: '10:00',
     location_de: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
     location_en: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
     title_de: 'Mary Jane Berlin 2026',
