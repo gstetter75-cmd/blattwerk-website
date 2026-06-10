@@ -65,8 +65,8 @@ export function CscGruendungClient({ isDE }: Props) {
       title: isDE ? 'Wartezeit & Behördenkommunikation' : 'Waiting Period & Authority Communication',
       duration: isDE ? '3–12 Monate' : '3–12 months',
       text: isDE
-        ? 'Die Bearbeitungszeit variiert enorm — je nach Bundesland und Behörde zwischen 3 und 12 Monaten. In dieser Zeit kommen Rückfragen, Nachforderungen und manchmal Ortstermine. Bleibt erreichbar, reagiert schnell und professionell auf jede Anfrage. Bei uns dauerte es von der Vereinsgründung (Mai 2025) bis zur Anbaulizenz (März 2026) etwa 6 Monate — das ist eher am schnelleren Ende.'
-        : 'Processing time varies enormously — between 3 and 12 months depending on state and authority. During this time there are follow-up questions, additional requests and sometimes site visits. Stay reachable, respond quickly and professionally to every inquiry. For us it took about 6 months from founding (May 2025) to cultivation license (March 2026) — that\'s on the faster end.',
+        ? 'Die Bearbeitungszeit variiert enorm — je nach Bundesland und Behörde zwischen 3 und 12 Monaten. In dieser Zeit kommen Rückfragen, Nachforderungen und manchmal Ortstermine. Bleibt erreichbar, reagiert schnell und professionell auf jede Anfrage. Bei uns dauerte es von der Vereinsgründung (Mai 2025) bis zur Anbaulizenz (März 2026) etwa 10 Monate — das ist eher am schnelleren Ende.'
+        : 'Processing time varies enormously — between 3 and 12 months depending on state and authority. During this time there are follow-up questions, additional requests and sometimes site visits. Stay reachable, respond quickly and professionally to every inquiry. For us it took about 10 months from founding (May 2025) to cultivation license (March 2026) — that\'s on the faster end.',
     },
     {
       icon: Sprout,
@@ -164,8 +164,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Wie lange dauert es von der Idee bis zur Anbaulizenz?' : 'How long from idea to cultivation license?',
       a: isDE
-        ? 'Im besten Fall 6–9 Monate, realistischer sind 9–18 Monate. Bei uns dauerte es von der Vereinsgründung (Mai 2025) bis zur Anbaulizenz (März 2026) etwa 6 Monate — aber wir hatten Monate an Vorbereitung davor. Die Behörden-Bearbeitungszeit allein liegt je nach Bundesland bei 3–12 Monaten.'
-        : 'Best case 6–9 months, more realistically 9–18 months. For us it took about 6 months from founding (May 2025) to cultivation license (March 2026) — but we had months of preparation before that. Authority processing time alone is 3–12 months depending on the state.',
+        ? 'Im besten Fall 6–9 Monate, realistischer sind 9–18 Monate. Bei uns dauerte es von der Vereinsgründung (Mai 2025) bis zur Anbaulizenz (März 2026) etwa 10 Monate. Die Behörden-Bearbeitungszeit allein liegt je nach Bundesland bei 3–12 Monaten.'
+        : 'Best case 6–9 months, more realistically 9–18 months. For us it took about 10 months from founding (May 2025) to cultivation license (March 2026). Authority processing time alone is 3–12 months depending on the state.',
     },
     {
       q: isDE ? 'Brauche ich Cannabis-Erfahrung oder Anbau-Know-how?' : 'Do I need cannabis experience or growing know-how?',
