@@ -18,6 +18,86 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'unser-anbaukonzept',
+    date: '2026-06-10',
+    title_de: 'Unser Anbaukonzept — Philosophie, Setup und Qualitätssicherung',
+    title_en: 'Our Growing Concept — Philosophy, Setup and Quality Assurance',
+    summary_de: 'Wie wir anbauen werden: indoor, kontrolliert, qualitätsorientiert. Ein Einblick in unser Anbaukonzept — von der Beleuchtung bis zur Qualitätsprüfung vor der Abgabe.',
+    summary_en: 'How we will grow: indoor, controlled, quality-focused. A look into our growing concept — from lighting to quality testing before distribution.',
+    content_de: `Mit dem Anbaustart im Oktober 2026 rückt die Frage, wie wir eigentlich anbauen werden, immer konkreter. Wir haben die letzten Monate genutzt, um unser Anbaukonzept auszuarbeiten — und möchten es hier transparent vorstellen.
+
+**Unsere Philosophie: Qualität vor Quantität**
+
+Wir sind kein Gewerbebetrieb. Wir bauen für unsere Mitglieder an — nicht für den Markt, nicht für Gewinn. Das verändert die Prioritäten grundlegend. Für uns steht Qualität an erster Stelle: kontrollierte Bedingungen, sorgfältige Sortenauswahl und lückenlose Dokumentation. Lieber eine kleinere Ernte mit konsistenter Qualität als eine große mit Kompromissen.
+
+**Indoor-Anbau: Warum wir auf Kontrolle setzen**
+
+Wir setzen auf Indoor-Anbau in kontrollierten Räumlichkeiten. Das hat konkrete Gründe: konstante Bedingungen unabhängig von Jahreszeit und Wetter, vollständige Kontrolle über Temperatur, Luftfeuchtigkeit, Licht und Nährstoffe, kein Eintrag von Schädlingen oder Umwelteinflüssen von außen und eine ganzjährig planbare Erntefolge.
+
+Gerade für einen CSC, der verlässlich an seine Mitglieder abgeben möchte, ist Berechenbarkeit wichtig. Outdoor-Anbau hat seine Vorzüge — für uns ist der Indoor-Weg zum jetzigen Zeitpunkt der richtige.
+
+**Beleuchtung: Full-Spectrum LED**
+
+Wir setzen auf moderne Full-Spectrum LED-Technik. Gegenüber HPS-Lampen bieten LEDs deutliche Vorteile: niedrigerer Energieverbrauch, weniger Wärmeentwicklung und ein besseres Lichtspektrum für alle Wachstumsphasen. Qualitäts-LEDs mit Samsung LM301H-Dioden liefern den PPFD-Wert, den unsere Pflanzen für optimale Entwicklung brauchen.
+
+**Substrat und Nährstoffe: organisch wo möglich**
+
+Wir arbeiten mit hochwertigem Kokos-Substrat in Kombination mit organischen Nährstoffen. Die biologische Komponente verbessert das Terpenprofil der Ernte und führt zu einem reineren Endprodukt. Synthetische Dünger werden nur dort eingesetzt, wo es fachlich sinnvoll ist.
+
+**Qualitätssicherung vor der Abgabe**
+
+Bevor eine Ernte an Mitglieder abgegeben wird, durchläuft sie eine mehrstufige Qualitätssicherung: Sichtprüfung auf Schimmel, Schädlinge und Verunreinigungen, externe Laboranalyse auf THC/CBD-Gehalt und Schadstoffe sowie Dokumentation von Sorte, Erntedatum und Analyseergebnis.
+
+Jedes Mitglied soll beim Bezug genau wissen, was es bekommt — Sorte, Potenz, Terpenspektrum. Keine Unsicherheit, keine Streckmittel.
+
+**Trocknung und Fermentierung**
+
+Der letzte Schritt vor der Abgabe ist oft der unterschätzte: eine sorgfältige Trocknung (10–14 Tage bei 60–65% Luftfeuchtigkeit) und anschließende Fermentierung in luftdichten Behältern. Erst dieser Prozess entfaltet das volle Geschmacks- und Aromaprofil einer Sorte.
+
+**Ausblick**
+
+In den kommenden Wochen schließen wir die Einrichtung unserer Anbauräume ab. Ab Oktober geht's los — und wir werden euch hier regelmäßig über den Fortschritt informieren.
+
+Fragen zum Anbaukonzept? Schreibt uns: [info@blattwerk.dev](mailto:info@blattwerk.dev)`,
+    content_en: `With our growing start in October 2026 approaching, the question of how we will actually grow is becoming increasingly concrete. We've used the past months to develop our growing concept — and we want to present it here transparently.
+
+**Our Philosophy: Quality over Quantity**
+
+We are not a commercial operation. We grow for our members — not for the market, not for profit. This fundamentally shifts priorities. For us, quality comes first: controlled conditions, careful strain selection and complete documentation. We'd rather have a smaller harvest with consistent quality than a large one with compromises.
+
+**Indoor Growing: Why We Prioritise Control**
+
+We rely on indoor growing in controlled premises. There are concrete reasons: consistent conditions regardless of season and weather, complete control over temperature, humidity, light and nutrients, no introduction of pests or external environmental influences, and a year-round plannable harvest cycle.
+
+Particularly for a CSC that wants to reliably supply its members, predictability matters. Outdoor growing has its merits — for us, the indoor path is the right one at this stage.
+
+**Lighting: Full-Spectrum LED**
+
+We use modern full-spectrum LED technology. Compared to HPS lamps, LEDs offer clear advantages: lower energy consumption, less heat generation and a better light spectrum for all growth phases. Quality LEDs with Samsung LM301H diodes deliver the PPFD values our plants need for optimal development.
+
+**Substrate and Nutrients: Organic Where Possible**
+
+We work with high-quality coco substrate combined with organic nutrients. The biological component improves the terpene profile of the harvest and leads to a cleaner end product. Synthetic fertilisers are only used where professionally appropriate.
+
+**Quality Assurance Before Distribution**
+
+Before a harvest is distributed to members, it goes through a multi-stage quality assurance process: visual inspection for mould, pests and contamination, external laboratory analysis for THC/CBD content and contaminants, and documentation of strain, harvest date and analysis result.
+
+Every member should know exactly what they're receiving — strain, potency, terpene spectrum. No uncertainty, no adulterants.
+
+**Drying and Curing**
+
+The final step before distribution is often the underestimated one: careful drying (10–14 days at 60–65% humidity) followed by curing in airtight containers. Only this process fully develops the flavour and aroma profile of a strain.
+
+**Outlook**
+
+In the coming weeks, we will complete the setup of our growing facilities. Starting in October, we're off — and we'll keep you regularly updated here on progress.
+
+Questions about our growing concept? Write to us: info@blattwerk.dev`,
+    tags: ['Anbau', 'Qualität', 'Indoor', 'Konzept', 'Transparenz'],
+    author: 'Gero Stetter',
+  },
+  {
     slug: 'kcang-2026-was-hat-sich-geaendert',
     date: '2026-04-14',
     title_de: 'KCanG 2026 — Was hat sich seit Inkrafttreten geändert?',
