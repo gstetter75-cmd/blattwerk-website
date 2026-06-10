@@ -380,11 +380,11 @@ If you want to found a CSC yourself: On our "Start a CSC" page, we share our exp
   {
     slug: 'vorbereitung-laeuft',
     date: '2026-03-25',
-    title_de: 'Die Vorbereitungen laufen',
-    title_en: 'Preparations Are Underway',
-    summary_de: 'Nach Erhalt der Anbaulizenz bereiten wir uns auf den gemeinschaftlichen Anbau vor. Infrastruktur, Planung und Organisation stehen im Fokus.',
-    summary_en: 'After receiving our cultivation license, we are preparing for communal cultivation. Infrastructure, planning and organization are our focus.',
-    content_de: `Nach dem Erhalt der Anbaulizenz am 18. März 2026 stehen bei BlattWerk e.V. die nächsten Schritte an: Wir bereiten uns auf den gemeinschaftlichen Anbau vor.
+    title_de: 'Vorbereitungen laufen — Anbaustart Oktober 2026',
+    title_en: 'Preparations underway — Growing starts October 2026',
+    summary_de: 'Nach Erhalt der Anbaulizenz laufen die Vorbereitungen für unseren Anbaustart im Oktober 2026. Infrastruktur, Sortenauswahl und Raumplanung stehen im Fokus.',
+    summary_en: 'After receiving our cultivation license, we are preparing for our growing start in October 2026. Infrastructure, strain selection and room planning are our current focus.',
+    content_de: `Die Anbaulizenz ist da — jetzt beginnen die Vorbereitungen. Nach dem Erhalt der offiziellen Genehmigung am 18. März 2026 arbeiten wir mit Hochdruck daran, alles für den Anbaustart im Oktober 2026 vorzubereiten.
 
 Aktuell planen wir die Einrichtung unserer Anbauräume. Beleuchtung, Belüftung, Bewässerung — es gibt viel zu tun, bevor es losgehen kann. Jede Entscheidung wird sorgfältig abgewogen, denn Qualität steht für uns an erster Stelle.
 
@@ -392,10 +392,10 @@ Parallel dazu beschäftigen wir uns intensiv mit der Sortenauswahl. In unserer S
 
 Außerdem arbeiten wir an den organisatorischen Strukturen: Dokumentation, Qualitätssicherung und Jugendschutz müssen stehen, bevor der erste Samen in die Erde kommt.
 
-Wir halten euch über den Fortschritt auf dem Laufenden — hier im Blog und auf Instagram.
+Bis zum Anbaustart halten wir euch hier im Blog und auf Instagram auf dem Laufenden.
 
 Ihr wollt Teil dieser Gemeinschaft werden? Der Beitritt erfolgt über die Hanf-App.`,
-    content_en: `After receiving our cultivation license on March 18, 2026, BlattWerk e.V. is taking the next steps: we are preparing for communal cultivation.
+    content_en: `The cultivation license is here — now the preparations begin. After receiving our official permit on March 18, 2026, we are working hard to get everything ready for our growing start in October 2026.
 
 We are currently planning the setup of our growing facilities. Lighting, ventilation, irrigation — there is much to do before we can begin. Every decision is carefully considered, because quality is our top priority.
 
@@ -403,10 +403,10 @@ In parallel, we are working intensively on strain selection. Our strain database
 
 We are also building the organizational structures: documentation, quality assurance and youth protection must be in place before the first seed goes into the ground.
 
-We'll keep you updated on our progress — here on the blog and on Instagram.
+We'll keep you posted here on the blog and on Instagram until the growing start.
 
 Want to become part of this community? Join via the Hanf-App.`,
-    tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur'],
+    tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur']
     author: 'Gero Stetter',
   },
   {

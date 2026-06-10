@@ -68,14 +68,14 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Gemeinschaft. Verantwortung. Transparenz.'
-                : 'Community. Responsibility. Transparency.'}
+                ? 'Cannabis Social Club Hildesheim — Anbaustart Oktober 2026.'
+                : 'Cannabis Social Club Hildesheim — Growing starts October 2026.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">
               {isDE
-                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Gemeinschaft, Aufklärung und Qualität.'
-                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. Community, education and quality.'}
+                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Wir bereiten den Anbaustart für Oktober 2026 vor. Gemeinschaft, Qualität und Transparenz.'
+                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. We\'re preparing our growing start for October 2026. Community, quality and transparency.'}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -129,8 +129,8 @@ function HomeContent() {
                 {
                   icon: Sprout,
                   status: 'active' as const,
-                  title: isDE ? 'Vorbereitung' : 'Preparation',
-                  text: isDE ? 'Infrastruktur planen und aufbauen' : 'Planning and building infrastructure',
+                  title: isDE ? 'Anbau-Vorbereitung' : 'Growing preparation',
+                  text: isDE ? 'Infrastruktur aufbauen, Anbaustart Oktober 2026' : 'Building infrastructure, growing starts October 2026',
                   date: isDE ? 'Jetzt' : 'Now',
                 },
                 {
@@ -138,7 +138,7 @@ function HomeContent() {
                   status: 'upcoming' as const,
                   title: isDE ? 'Anbaustart' : 'Growing start',
                   text: isDE ? 'Qualitätsgeprüft, für unsere Mitglieder' : 'Quality-tested, for our members',
-                  date: isDE ? 'Bald' : 'Soon',
+                  date: isDE ? 'Ende 2026' : 'Late 2026',
                 },
               ].map(({ icon: Icon, status, title, text, date }) => (
                 <div
@@ -198,8 +198,8 @@ function HomeContent() {
                 </p>
                 <p className="text-ink-muted leading-relaxed mb-8">
                   {isDE
-                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Jetzt bereiten wir alles vor — und du kannst Teil davon sein.'
-                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Now we\'re preparing everything — and you can be part of it.'}
+                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Wir bereiten den Anbaustart für Oktober 2026 vor — und du kannst Teil davon sein.'
+                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. We\'re preparing for our growing start in October 2026 — and you can be part of it.'}
                 </p>
                 <Link
                   href="/ueber-uns"
