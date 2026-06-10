@@ -1,9 +1,7 @@
 'use client';
 
-import { Check, Sprout, Users, Shield, BookOpen, Leaf, Download } from 'lucide-react';
+import { Check, Sprout, Users, Shield, BookOpen, Leaf } from 'lucide-react';
 import { HomeSection } from '@/components/shared/HomeSection';
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 interface Props {
   isDE: boolean;
@@ -222,25 +220,18 @@ export function UeberUnsClient({ isDE }: Props) {
                 : 'Binding for all members. Violations may lead to exclusion.'}
             </p>
 
-            <ol className="space-y-3 mb-8">
+            <ol className="space-y-3">
               {rules.map((rule, i) => (
                 <li key={i} className="flex items-start gap-4 py-3">
                   <span className="text-xs font-mono text-ink-faint mt-0.5 w-5 shrink-0 text-right">
                     {i + 1}.
                   </span>
-                  <span className="text-sm text-ink-muted leading-relaxed">{rule}</span>
+                  <span className="text-sm text-ink-muted leading-relaxed">
+                    {rule}
+                  </span>
                 </li>
               ))}
             </ol>
-
-            <a
-              href={`${BASE_PATH}/docs/satzung.pdf`}
-              download="BlattWerk-Satzung.pdf"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-accent/30 text-accent text-sm font-medium hover:bg-accent/10 transition-colors"
-            >
-              <Download className="w-4 h-4" />
-              {isDE ? 'Vereinssatzung als PDF herunterladen' : 'Download Club Statutes as PDF'}
-            </a>
           </div>
         </section>
       </HomeSection>
