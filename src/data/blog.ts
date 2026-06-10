@@ -18,6 +18,94 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'maryjane-berlin-2026',
+    date: '2026-06-10',
+    title_de: 'BlattWerk auf der Mary Jane Berlin — wir sind dabei',
+    title_en: 'BlattWerk at Mary Jane Berlin — we\'re there',
+    summary_de: 'Vom 11. bis 14. Juni 2026 ist BlattWerk e.V. auf der Mary Jane in Berlin. Europas größte Cannabis-Fachmesse — und wir mittendrin.',
+    summary_en: 'From June 11 to 14, 2026, BlattWerk e.V. will be at Mary Jane in Berlin. Europe\'s largest cannabis trade fair — and we\'ll be right in the middle of it.',
+    content_de: `Nächste Woche ist es so weit: BlattWerk e.V. fährt zur Mary Jane nach Berlin.
+
+Die Mary Jane ist Europas führende Cannabis-Fachmesse — vier Tage voller Aussteller, Vorträge, Netzwerken und allem, was die Cannabis-Branche gerade bewegt. Für uns als lizenzierte Anbauvereinigung ist die Messe eine wichtige Gelegenheit: neue Kontakte knüpfen, uns über Ausrüstung und Technik informieren und mit anderen CSCs austauschen, die denselben Weg gegangen sind.
+
+**Was uns interessiert**
+
+Unser Fokus liegt auf dem Praktischen: Welche Anbauausstattung hat sich in anderen Vereinen bewährt? Welche Sorten funktionieren für den Indoor-Grow besonders gut? Was hat sich bei der Behördenkommunikation geändert? Solche Fragen lassen sich nirgendwo besser klären als in direkten Gesprächen mit Leuten, die es bereits tun.
+
+**Ihr seid auch da?**
+
+Wenn ihr auf der Mary Jane seid und BlattWerk e.V. treffen möchtet — schreibt uns vorher kurz an [info@blattwerk.dev](mailto:info@blattwerk.dev) oder sprecht uns einfach an. Wir freuen uns über jedes Gespräch.
+
+**Was wir mitnehmen**
+
+Alles, was wir auf der Messe lernen, fließt in unsere Vorbereitung für den Anbaustart im Oktober ein. Den Bericht folgt hier im Blog nach unserer Rückkehr.`,
+    content_en: `Next week it's time: BlattWerk e.V. is heading to Mary Jane in Berlin.
+
+Mary Jane is Europe's leading cannabis trade fair — four days full of exhibitors, talks, networking and everything that's currently moving the cannabis industry. For us as a licensed cultivation association, the fair is an important opportunity: making new contacts, learning about equipment and technology, and exchanging experiences with other CSCs who have gone the same path.
+
+**You're there too?**
+
+If you're at Mary Jane and want to meet BlattWerk e.V. — drop us a line beforehand at info@blattwerk.dev or just come and talk to us. We're happy to chat.
+
+**What we'll take home**
+
+Everything we learn at the fair will flow into our preparation for the growing start in October. The follow-up report will be here on the blog after our return.`,
+    tags: ['Mary Jane', 'Messe', 'Berlin', 'Netzwerk'],
+    author: 'Gero Stetter',
+  },
+  {
+    slug: 'sortenauswahl-erster-grow',
+    date: '2026-06-10',
+    title_de: 'Unsere Sortenauswahl für den ersten Grow',
+    title_en: 'Our Strain Selection for the First Grow',
+    summary_de: 'Welche Sorten bauen wir als erstes an — und warum? Ein Blick in unsere Überlegungen zu Genetics, THC/CBD, Terpenen und Anbautauglichkeit.',
+    summary_en: 'Which strains will we grow first — and why? A look into our thinking on genetics, THC/CBD, terpenes and grow suitability.',
+    content_de: `Eine der spannendsten Fragen bei der Vorbereitung: Welche Sorten bauen wir als erstes an?
+
+Die Entscheidung ist nicht trivial. Als CSC haben wir eine Verantwortung gegenüber unseren Mitgliedern — wir wollen Vielfalt bieten, aber auch Verlässlichkeit. Gerade beim ersten Grow zählt Stabilität mehr als Experimentierfreude.
+
+**Unsere Auswahlkriterien**
+
+Bei der Sortenauswahl orientieren wir uns an mehreren Faktoren:
+
+- **Anbautauglichkeit Indoor:** Wir suchen Sorten mit kompaktem Wuchs, guter Resistenz gegen Schimmel und Schädlinge und einer vorhersehbaren Blütezeit von 8–10 Wochen.
+- **Cannabinoid-Profil:** Wir wollen eine ausgewogene Mischung aus THC-starken Sorten, CBD-betonten Sorten und mittleren Profilen — so decken wir unterschiedliche Bedürfnisse unserer Mitglieder ab.
+- **Terpenspektrum:** Aromatische Vielfalt ist uns wichtig. Wir achten auf ein breites Spektrum: von erdigen Myrcen-lastigen Sorten bis zu fruchtig-terpinhaltigen Profilen.
+- **Verfügbarkeit und Stabilität:** Wir setzen auf Sorten von renommierten Saatgutanbietern mit stabilen, dokumentierten Genetiken — keine Exoten, die im ersten Grow unberechenbar sein könnten.
+
+**Indica, Sativa, Hybrid**
+
+Unser erster Grow wird aus allen drei Typen bestehen. Die genaue Aufteilung richtet sich nach dem Feedback unserer Mitglieder — wer Wünsche hat, kann sich gerne melden.
+
+**In der Sortendatenbank**
+
+Alle Sorten, die wir in Betracht ziehen, sind in unserer [Sortendatenbank](/sortendatenbank) dokumentiert. Der Sortenvergleich hilft euch, die Unterschiede auf einen Blick zu sehen.
+
+Die finale Liste geben wir rechtzeitig vor dem Anbaustart bekannt.`,
+    content_en: `One of the most exciting questions in our preparation: which strains will we grow first?
+
+The decision isn't trivial. As a CSC, we have a responsibility to our members — we want to offer variety, but also reliability. Especially in the first grow, stability matters more than experimentation.
+
+**Our Selection Criteria**
+
+- **Indoor suitability:** Compact growth, good resistance to mould and pests, predictable flowering time of 8–10 weeks.
+- **Cannabinoid profile:** A balanced mix of THC-strong, CBD-focused and medium profiles.
+- **Terpene spectrum:** Broad aromatic variety, from earthy myrcene-heavy to fruity profiles.
+- **Stability:** Strains from reputable seed banks with documented genetics.
+
+**Indica, Sativa, Hybrid**
+
+Our first grow will include all three types. The exact split depends on member feedback — if you have preferences, feel free to get in touch.
+
+**In the Strain Database**
+
+All strains we're considering are documented in our [strain database](/sortendatenbank). The comparison tool helps you see the differences at a glance.
+
+The final list will be announced well before the growing start.`,
+    tags: ['Sorten', 'Genetics', 'Indoor', 'Planung'],
+    author: 'Gero Stetter',
+  },
+  {
     slug: 'vereinsleben-juni-2026',
     date: '2026-06-10',
     title_de: 'Vereinsleben bei BlattWerk — was gerade passiert',

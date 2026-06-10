@@ -19,7 +19,21 @@ export interface BlattWerkEvent {
   readonly type_en: string;
 }
 
-export const upcomingEvents: readonly BlattWerkEvent[] = [];
+export const upcomingEvents: readonly BlattWerkEvent[] = [
+  {
+    date: '2026-06-11',
+    location_de: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
+    location_en: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
+    title_de: 'Mary Jane Berlin 2026',
+    title_en: 'Mary Jane Berlin 2026',
+    description_de:
+      'BlattWerk e.V. ist auf der Mary Jane — Europas führender Cannabis-Fachmesse. Kommt vorbei, sprecht mit uns und lernt den Verein persönlich kennen. Wir sind vom 11. bis 14. Juni vor Ort.',
+    description_en:
+      'BlattWerk e.V. is at Mary Jane — Europe\'s leading cannabis trade fair. Come by, talk to us and get to know the club in person. We\'ll be there from June 11 to 14.',
+    type_de: 'Messe',
+    type_en: 'Trade Fair',
+  },
+];
 
 export const pastEvents: readonly BlattWerkEvent[] = [
   {
