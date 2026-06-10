@@ -576,7 +576,7 @@ We are also building the organizational structures: documentation, quality assur
 We'll keep you posted here on the blog and on Instagram until the growing start.
 
 Want to become part of this community? Join via the Hanf-App.`,
-    tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur']
+    tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur'],
     author: 'Gero Stetter',
   },
   {
