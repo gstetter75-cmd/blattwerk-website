@@ -19,8 +19,8 @@ jobs:
 
       - run: npm install
 
-      - name: Lint
-        run: npm run lint
+      - name: Type Check
+        run: npx tsc --noEmit
 
       - name: Unit Tests
         run: npm test
