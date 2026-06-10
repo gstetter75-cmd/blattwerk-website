@@ -3,6 +3,8 @@
  * New posts are added at the top of the array.
  */
 
+export type BlogCategory = 'vereinsnews' | 'anbau' | 'recht' | 'wissen';
+
 export interface BlogPost {
   readonly slug: string;
   readonly date: string;
@@ -14,6 +16,7 @@ export interface BlogPost {
   readonly content_en: string;
   readonly tags: readonly string[];
   readonly author: string;
+  readonly category: BlogCategory;
 }
 
 export const blogPosts: readonly BlogPost[] = [
@@ -52,6 +55,7 @@ If you're at Mary Jane and want to meet BlattWerk e.V. — drop us a line before
 Everything we learn at the fair will flow into our preparation for the growing start in October. The follow-up report will be here on the blog after our return.`,
     tags: ['Mary Jane', 'Messe', 'Berlin', 'Netzwerk'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
   },
   {
     slug: 'sortenauswahl-erster-grow',
@@ -104,6 +108,7 @@ All strains we're considering are documented in our [strain database](/sortendat
 The final list will be announced well before the growing start.`,
     tags: ['Sorten', 'Genetics', 'Indoor', 'Planung'],
     author: 'Gero Stetter',
+    category: 'anbau',
   },
   {
     slug: 'vereinsleben-juni-2026',
@@ -194,6 +199,7 @@ Interested? Write to us: info@blattwerk.dev
 Growing start. Until then, we keep working — and we\'ll keep you posted here.`,
     tags: ['Vereinsleben', 'Community', 'Workshops', 'Mitgliedschaft'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
   },
   {
     slug: 'unser-anbaukonzept',
@@ -274,6 +280,7 @@ In the coming weeks, we will complete the setup of our growing facilities. Start
 Questions about our growing concept? Write to us: info@blattwerk.dev`,
     tags: ['Anbau', 'Qualität', 'Indoor', 'Konzept', 'Transparenz'],
     author: 'Gero Stetter',
+    category: 'anbau',
   },
   {
     slug: 'kcang-2026-was-hat-sich-geaendert',
@@ -330,6 +337,7 @@ The second pillar of the KCanG — regional pilot projects for commercial sales 
 For more information on the legal framework, visit our [knowledge base](/wissensdatenbank/legal). Anyone wanting to start a CSC can find a practical guide with real-world experience on our [Start a CSC](/csc-gruendung) page.`,
     tags: ['KCanG', 'Recht', 'Politik', '2026'],
     author: 'Redaktion BlattWerk e.V.',
+    category: 'recht',
   },
   {
     slug: 'qualitaetskontrolle-cannabis-social-club',
@@ -390,6 +398,7 @@ The KCanG requires clear labeling. Each distribution must include the THC and CB
 At BlattWerk e.V., quality control is an integral part of cultivation operations. Every harvest is documented and laboratory-tested before distribution to members. For more information on the strains we grow, visit our [strain database](/sortendatenbank). Background knowledge on cannabinoids and terpenes can be found in our [knowledge base](/wissensdatenbank).`,
     tags: ['Qualität', 'Anbau', 'Labortest', 'KCanG'],
     author: 'Redaktion BlattWerk e.V.',
+    category: 'anbau',
   },
   {
     slug: 'cannabis-social-clubs-niedersachsen',
@@ -425,6 +434,7 @@ The development of Cannabis Social Clubs in Lower Saxony is still in its early s
 
 If you have questions about founding a club or want to exchange ideas with us, you can reach us anytime via our [contact form](/kontakt).`,
     tags: ['Niedersachsen', 'CSC', 'Anbauvereinigung', 'Regional'],
+    category: 'recht',
     author: 'Redaktion BlattWerk e.V.',
   },
   {
@@ -498,6 +508,7 @@ The monthly fee is €10. This funds club operations: rent, electricity, adminis
 Find all details on our [membership page](/mitgliedschaft). For questions, reach us at info@blattwerk.dev.`,
     tags: ['Mitgliedschaft', 'Anleitung', 'Aufnahme', 'Hanf-App'],
     author: 'Redaktion BlattWerk e.V.',
+    category: 'vereinsnews',
   },
   {
     slug: 'terpene-verstehen',
@@ -554,6 +565,7 @@ The classic division into indica (relaxing) and sativa (stimulating) is based on
 In our [strain database](/sortendatenbank), you'll find the complete terpene profile for every strain. Learn more about the science behind terpenes in our [knowledge base](/wissensdatenbank).`,
     tags: ['Terpene', 'Wissen', 'Wirkung', 'Myrcen', 'Limonen'],
     author: 'Redaktion BlattWerk e.V.',
+    category: 'wissen',
   },
   {
     slug: 'cannabis-fuehrerschein-2026',
@@ -590,6 +602,7 @@ Rule 5: Temporal separation is the only safe protection. THC can be detectable i
 Our recommendation: Read our detailed article "Cannabis and Road Traffic" in our knowledge base for all details — including regulations on blood draws, police stops, and cycling under THC influence.`,
     tags: ['Führerschein', 'Straßenverkehr', 'THC-Grenzwert', 'MPU', 'Recht'],
     author: 'Gero Stetter',
+    category: 'recht',
   },
   {
     slug: 'unser-weg-zur-lizenz',
@@ -634,6 +647,7 @@ What we did right: Transparency. We communicated openly from the start — towar
 If you want to found a CSC yourself: On our "Start a CSC" page, we share our experiences in detail — including cost breakdown, timeline and the mistakes we made. Feel free to reach out if you have questions.`,
     tags: ['Meilenstein', 'Gründung', 'Lizenz', 'Erfahrungsbericht'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
   },
   {
     slug: 'vorbereitung-laeuft',
@@ -666,6 +680,7 @@ We'll keep you posted here on the blog and on Instagram until the growing start.
 Want to become part of this community? Join via the Hanf-App.`,
     tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur'],
     author: 'Gero Stetter',
+    category: 'anbau',
   },
   {
     slug: 'anbaulizenz-erteilt',
@@ -704,6 +719,7 @@ We are proud of what we've achieved together. Now the preparation for cultivatio
 Thank you to all members and supporters who have walked this path with us.`,
     tags: ['Lizenz', 'Meilenstein', 'KCanG'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
   },
   {
     slug: 'vereinsgruendung',
@@ -732,6 +748,7 @@ In the coming months, we will prepare the license application, develop the preve
 Anyone interested in becoming part of this community: Membership is open to all adults aged 21 and over.`,
     tags: ['Gründung', 'Meilenstein', 'Verein'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
   },
 ];
 
