@@ -54,11 +54,11 @@ function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
 export function KontaktInfoClient({ isDE }: Props) {
   const openingHours = [
     {
-      day: isDE ? 'Montag – Freitag' : 'Monday – Friday',
-      time: isDE ? 'nach Vereinbarung' : 'by appointment',
+      day: isDE ? 'Mittwoch (Sprechstunde)' : 'Wednesday (office hour)',
+      time: '18:00 – 20:00',
     },
     {
-      day: isDE ? 'Samstag' : 'Saturday',
+      day: isDE ? 'Sonstige Termine' : 'Other appointments',
       time: isDE ? 'nach Vereinbarung' : 'by appointment',
     },
     {

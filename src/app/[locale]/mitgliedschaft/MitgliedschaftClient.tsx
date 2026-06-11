@@ -88,8 +88,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
     {
       title: isDE ? 'Vollmitglied & Loslegen' : 'Full Member & Get Started',
       text: isDE
-        ? 'Nach der Ausweiskontrolle bist du vollwertiges Mitglied. Der monatliche Beitrag von 10 € wird per Lastschrift eingezogen. Sobald die erste Ernte steht, kannst du Cannabis zum Selbstkostenpreis beziehen.'
-        : 'After the ID check, you are a full member. The monthly fee of €10 is collected by direct debit. Once the first harvest is ready, you can obtain cannabis at cost price.',
+        ? 'Nach der Ausweiskontrolle bist du vollwertiges Mitglied. Der monatliche Beitrag wird per Lastschrift eingezogen (Vollmitglied 10 €, Passivmitglied 2 €). Sobald die erste Ernte steht, können Vollmitglieder Cannabis zum Selbstkostenpreis beziehen.'
+        : 'After the ID check, you are a full member. The monthly fee is collected by direct debit (full member €10, passive member €2). Once the first harvest is ready, full members can obtain cannabis at cost price.',
     },
   ];
 
@@ -226,6 +226,18 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 ? 'Keine Gewinnabsicht, keine anonymen Strukturen. Ein Verein von und für Erwachsene, die Cannabis verantwortungsvoll konsumieren.'
                 : 'No profit motive, no anonymous structures. A club by and for adults who consume cannabis responsibly.'}
             </p>
+
+            {/* Aufnahmestopp-Hinweis */}
+            <div className="mt-8 max-w-2xl p-5 rounded-xl border border-amber-300 bg-amber-50 dark:bg-amber-950/20 dark:border-amber-700">
+              <p className="text-sm font-semibold text-amber-800 dark:text-amber-400 mb-1">
+                {isDE ? 'Aufnahme vorübergehend pausiert' : 'Admissions temporarily paused'}
+              </p>
+              <p className="text-sm text-amber-700 dark:text-amber-500 leading-relaxed">
+                {isDE
+                  ? 'Wir nehmen aktuell aus organisatorischen Gründen keine neuen Mitglieder auf. Wir möchten niemandem Kosten verursachen, bevor der tatsächliche Anbau beginnt. Sobald der Anbaustart feststeht, informieren wir hier und per Blog.'
+                  : 'We are currently not accepting new members for organisational reasons. We do not want to incur costs for anyone before the actual cultivation begins. Once the growing start date is confirmed, we will announce it here and via the blog.'}
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -325,7 +337,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
         <section className="py-16 lg:py-24">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
-              {isDE ? 'Kosten & Beiträge' : 'Costs & Fees'}
+              {isDE ? 'Mitgliedschaftsmodelle' : 'Membership Models'}
             </h2>
             <p className="text-ink-muted mb-10 max-w-xl">
               {isDE
@@ -333,18 +345,53 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 : 'BlattWerk e.V. is non-profit. All fees exclusively cover ongoing operating costs.'}
             </p>
 
-            {fees.map(({ label, value, note }, i) => (
-              <div
-                key={i}
-                className={`py-5 ${i > 0 ? 'border-t border-[var(--border)]' : ''}`}
-              >
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm font-medium text-ink">{label}</span>
-                  <span className="font-mono text-sm font-bold">{value}</span>
+            <div className="grid sm:grid-cols-2 gap-6">
+              {/* Vollmitgliedschaft */}
+              <div className="p-6 rounded-xl border-2 border-accent bg-accent/5">
+                <p className="text-xs font-mono text-accent mb-3 uppercase tracking-widest">
+                  {isDE ? 'Vollmitgliedschaft' : 'Full Membership'}
+                </p>
+                <div className="flex items-baseline gap-1 mb-1">
+                  <span className="font-heading font-bold text-3xl">10 €</span>
+                  <span className="text-sm text-ink-muted">/ {isDE ? 'Monat' : 'month'}</span>
                 </div>
-                <p className="text-xs text-ink-faint">{note}</p>
+                <p className="text-xs text-ink-faint mb-5">
+                  {isDE ? '+ 12 € Aufnahmegebühr (einmalig)' : '+ €12 admission fee (one-time)'}
+                </p>
+                <ul className="space-y-2 text-sm text-ink-muted">
+                  <li>✓ {isDE ? 'Cannabis-Bezug zum Selbstkostenpreis' : 'Cannabis at cost price'}</li>
+                  <li>✓ {isDE ? 'Stimmrecht bei Mitgliederversammlung' : 'Voting rights at general assembly'}</li>
+                  <li>✓ {isDE ? 'Teilnahme an Veranstaltungen & Workshops' : 'Access to events & workshops'}</li>
+                  <li>✓ {isDE ? 'Zugang zu Vereinsräumen' : 'Access to club premises'}</li>
+                </ul>
               </div>
-            ))}
+
+              {/* Passivmitgliedschaft */}
+              <div className="p-6 rounded-xl border border-[var(--border)] bg-bg-elevated">
+                <p className="text-xs font-mono text-ink-faint mb-3 uppercase tracking-widest">
+                  {isDE ? 'Passivmitgliedschaft' : 'Passive Membership'}
+                </p>
+                <div className="flex items-baseline gap-1 mb-1">
+                  <span className="font-heading font-bold text-3xl">2 €</span>
+                  <span className="text-sm text-ink-muted">/ {isDE ? 'Monat' : 'month'}</span>
+                </div>
+                <p className="text-xs text-ink-faint mb-5">
+                  {isDE ? '+ 12 € Aufnahmegebühr (einmalig)' : '+ €12 admission fee (one-time)'}
+                </p>
+                <ul className="space-y-2 text-sm text-ink-muted">
+                  <li>✓ {isDE ? 'Stimmrecht bei Mitgliederversammlung' : 'Voting rights at general assembly'}</li>
+                  <li>✓ {isDE ? 'Teilnahme an Veranstaltungen & Workshops' : 'Access to events & workshops'}</li>
+                  <li className="text-ink-faint">✗ {isDE ? 'Kein Cannabis-Bezug' : 'No cannabis access'}</li>
+                  <li className="text-ink-faint">✗ {isDE ? 'Kein Zugang zu Anbauräumen' : 'No access to growing facilities'}</li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="text-xs text-ink-faint mt-6 max-w-xl">
+              {isDE
+                ? 'Cannabis-Bezug ist zusätzlich zum Beitrag zum Selbstkostenpreis möglich (Anbau, Energie, Material — kein Gewinnaufschlag). Der genaue Preis hängt von Sorte und Erntemenge ab.'
+                : 'Cannabis can be obtained in addition to the membership fee at cost price (growing, energy, materials — no markup). The exact price depends on the strain and harvest quantity.'}
+            </p>
           </div>
         </section>
       </HomeSection>

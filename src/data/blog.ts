@@ -33,9 +33,9 @@ export const blogPosts: readonly BlogPost[] = [
 
 Nach langer Suche haben wir geeignete Räumlichkeiten für unseren Anbau gefunden und gesichert. Die Lage, die Größe und die baulichen Voraussetzungen passen zu unserem Anbaukonzept. Das war einer der aufwändigsten Schritte im gesamten Prozess — und er ist geschafft.
 
-**Das Anbaukonzept ist ausgearbeitet**
+**Das Anbaukonzept steht**
 
-Parallel zur Raumsuche haben wir unser Anbaukonzept fertiggestellt: Beleuchtung, Belüftung, Bewässerung, Ernte- und Trocknungsinfrastruktur — alles geplant und auf unsere Mitgliederzahl und Bedarfsmengen abgestimmt. Das Konzept orientiert sich an den Anforderungen des KCanG und unseren eigenen Qualitätsstandards.
+Parallel zur Raumsuche haben wir unser Anbaukonzept ausgearbeitet: Wie wird beleuchtet, belüftet, bewässert? Welche Ernte- und Trocknungsinfrastruktur brauchen wir? Das alles ist auf unsere Mitgliederzahl und Bedarfsmengen abgestimmt und auf dem Papier fertig. Die Ausstattung selbst bestellen wir erst, wenn die Genehmigung vorliegt — das macht organisatorisch und finanziell mehr Sinn.
 
 **Nutzungsänderung beantragt**
 
@@ -43,7 +43,7 @@ Der nächste formale Schritt ist eingereicht: Wir haben bei der Stadt Hildesheim
 
 **Was als nächstes kommt**
 
-Sobald die Genehmigung erteilt ist, beginnt der Ausbau der Räumlichkeiten. Danach folgt die Einrichtung der Anbauinfrastruktur — und dann endlich der Anbaustart.
+Sobald die Genehmigung erteilt ist, bestellen wir die Ausstattung und beginnen den Ausbau der Räumlichkeiten. Danach folgt die Einrichtung der Anbauinfrastruktur — und dann endlich der Anbaustart.
 
 Wir halten euch hier im Blog und über unsere Mitgliederkommunikation auf dem Laufenden. Es geht voran.`,
     content_en: `We can turn another page: preparations for our growing start are in full swing — and we want to keep you up to date.
@@ -54,7 +54,7 @@ After a long search, we have found and secured suitable premises for our cultiva
 
 **Growing concept finalised**
 
-In parallel with the search for premises, we have finalised our growing concept: lighting, ventilation, irrigation, harvest and drying infrastructure — everything planned and tailored to our membership numbers and required quantities. The concept is aligned with the requirements of the KCanG and our own quality standards.
+In parallel with the search for premises, we have worked out our growing concept: how will lighting, ventilation and irrigation be set up? What harvest and drying infrastructure do we need? All of this is tailored to our membership numbers and required quantities, and is ready on paper. We will order the actual equipment once the permit is in place — which makes more sense organisationally and financially.
 
 **Change-of-use application submitted**
 
@@ -62,11 +62,161 @@ The next formal step has been taken: we have submitted an application to the Cit
 
 **What comes next**
 
-As soon as the permit is granted, the fit-out of the premises will begin. After that comes the installation of the growing infrastructure — and then finally the growing start.
+Once the permit is granted, we will order the equipment and begin fitting out the premises. After that comes the installation of the growing infrastructure — and then finally the growing start.
 
 We will keep you updated here on the blog and through our member communications. Things are moving forward.`,
     tags: ['Anbau', 'Vorbereitung', 'Räumlichkeiten', 'Nutzungsänderung', 'Update'],
     author: 'Gero Stetter',
+    category: 'vereinsnews',
+  },
+  {
+    slug: 'cannabis-abgabe-so-funktioniert-es',
+    date: '2026-06-09',
+    title_de: 'So läuft die Cannabis-Abgabe bei BlattWerk ab',
+    title_en: 'How cannabis distribution works at BlattWerk',
+    summary_de: 'Wie läuft der Cannabis-Bezug im CSC konkret ab? Was muss ich mitbringen, wie viel darf ich bekommen und was passiert bei der Abgabe? Alle Antworten im Überblick.',
+    summary_en: 'How does cannabis distribution at a CSC actually work? What do I need to bring, how much can I receive and what happens at the point of distribution? All the answers in one overview.',
+    content_de: `Viele Interessierte und neue Mitglieder stellen sich dieselbe Frage: Wie läuft das bei BlattWerk eigentlich ab, wenn ich Cannabis beziehen möchte? Wir erklären den Prozess von Anfang bis Ende.
+
+**Grundvoraussetzung: Vollmitgliedschaft**
+
+Cannabis kann nur von Vollmitgliedern bezogen werden — nicht von Passivmitgliedern und nicht von Nicht-Mitgliedern. Die Vollmitgliedschaft setzt eine abgeschlossene Ausweiskontrolle durch ein Vorstandsmitglied voraus.
+
+**Schritt 1: Vorbeikommen**
+
+Die Abgabe findet in unserem Vereinsbüro am Wetzellplatz 2 in Hildesheim statt. Du kommst persönlich vorbei — keine Lieferung, kein Versand. Das ist gesetzlich so vorgeschrieben: Cannabis darf nur direkt vor Ort an Mitglieder abgegeben werden.
+
+**Schritt 2: Ausweis und Mitgliedsausweis**
+
+Du bringst deinen Personalausweis oder Reisepass mit. Die Identitätsprüfung ist bei jeder Abgabe verpflichtend — nicht nur bei der ersten.
+
+**Schritt 3: Mengengrenzen**
+
+Das KCanG legt klare Grenzen fest:
+- Maximal **25 Gramm pro Tag**
+- Maximal **50 Gramm pro Kalendermonat**
+
+Diese Grenzen gelten für alle Clubs in Deutschland. Wir dokumentieren jede Abgabe, wie es das Gesetz verlangt.
+
+**Schritt 4: Preis**
+
+Du zahlst den Selbstkostenpreis — das sind die anteiligen Kosten für Anbau, Energie, Material und Verarbeitung. Kein Gewinnaufschlag. Der genaue Preis variiert je nach Sorte und Erntemenge und wird vor der Abgabe kommuniziert.
+
+**Schritt 5: Verpackung und Dokumentation**
+
+Das Cannabis wird in neutraler, kindersicherer Verpackung mit Pflichtangaben nach KCanG ausgegeben: Sortenname, THC/CBD-Gehalt, Erntedatum, Warnhinweise.
+
+**Was du nicht tun darfst**
+
+Das Cannabis ist ausschließlich für deinen persönlichen Konsum. Weitergabe an Dritte — auch unentgeltlich — ist strafbar. Das gilt auch für den Transport: Unterwegs darfst du maximal 25 Gramm mitführen.
+
+**Wann geht es los?**
+
+Aktuell läuft unsere Anbau-Vorbereitung. Die erste Abgabe wird stattfinden, sobald die erste Ernte qualitätsgeprüft und freigegeben ist. Wir informieren alle Mitglieder rechtzeitig per E-Mail und hier im Blog.`,
+    content_en: `Many interested people and new members ask the same question: how does it actually work at BlattWerk when I want to obtain cannabis? We explain the process from start to finish.
+
+**Basic requirement: Full membership**
+
+Cannabis can only be obtained by full members — not by passive members and not by non-members. Full membership requires a completed ID check by a board member.
+
+**Step 1: Come in person**
+
+Distribution takes place at our club office at Wetzellplatz 2 in Hildesheim. You come in person — no delivery, no postal service. This is legally required: cannabis may only be handed over directly on-site to members.
+
+**Step 2: ID and membership card**
+
+Bring your ID card or passport. Identity verification is mandatory at every distribution — not just the first time.
+
+**Step 3: Quantity limits**
+
+The KCanG sets clear limits:
+- Maximum **25 grams per day**
+- Maximum **50 grams per calendar month**
+
+These limits apply to all clubs in Germany. We document every distribution as required by law.
+
+**Step 4: Price**
+
+You pay the cost price — the proportional costs for growing, energy, materials and processing. No profit markup. The exact price varies by strain and harvest quantity and will be communicated before distribution.
+
+**Step 5: Packaging and documentation**
+
+Cannabis is dispensed in neutral, child-resistant packaging with mandatory information under the KCanG: strain name, THC/CBD content, harvest date, warning notices.
+
+**What you must not do**
+
+The cannabis is exclusively for your personal consumption. Passing it on to third parties — even for free — is a criminal offence. This also applies to transport: you may carry a maximum of 25 grams when out and about.
+
+**When does it start?**
+
+Our growing preparations are currently underway. The first distribution will take place once the first harvest has been quality-checked and approved. We will notify all members in good time by email and here on the blog.`,
+    tags: ['Abgabe', 'Mitgliedschaft', 'KCanG', 'Prozess', 'FAQ'],
+    author: 'Redaktion BlattWerk e.V.',
+    category: 'vereinsnews',
+  },
+  {
+    slug: 'cannabis-social-club-hildesheim',
+    date: '2026-06-08',
+    title_de: 'Cannabis Social Club in Hildesheim — was BlattWerk e.V. bietet',
+    title_en: 'Cannabis Social Club in Hildesheim — what BlattWerk e.V. offers',
+    summary_de: 'BlattWerk e.V. ist der erste lizenzierte Cannabis Social Club in Hildesheim und der Region. Was das bedeutet, was wir anbieten und warum der Standort Hildesheim für uns eine bewusste Entscheidung war.',
+    summary_en: 'BlattWerk e.V. is the first licensed Cannabis Social Club in Hildesheim and the region. What this means, what we offer, and why Hildesheim as a location was a deliberate choice.',
+    content_de: `Seit dem 1. April 2024 ist Cannabis-Anbau in Vereinen in Deutschland legal — geregelt durch das Konsumcannabisgesetz (KCanG). Seitdem entstehen Cannabis Social Clubs (CSCs) im ganzen Land. BlattWerk e.V. ist der erste lizenzierte CSC in Hildesheim.
+
+**Hildesheim als bewusste Entscheidung**
+
+Wir sind alle aus Hildesheim oder dem direkten Umland. Die Idee war von Anfang an klar: Wir gründen einen Club für die Menschen hier — nicht irgendwo, sondern in unserer Stadt. Hildesheim hat eine lebendige Vereinskultur, eine junge Bevölkerung und eine Verwaltung, die dem Thema aufgeschlossen begegnet ist.
+
+**Was BlattWerk anbietet**
+
+Als lizenzierte Anbauvereinigung nach dem KCanG bieten wir unseren Mitgliedern:
+
+- **Legalen Cannabis-Bezug** direkt aus unserem Anbau, ohne Zwischenhändler
+- **Geprüfte Qualität** — jede Ernte wird auf Reinheit und Cannabinoid-Gehalt analysiert
+- **Transparenz** über Herkunft, Anbaumethode und Inhaltsstoffe
+- **Mitbestimmung** bei der Sortenauswahl und der Vereinsentwicklung
+- **Präventionsangebote** und ehrliche Aufklärung über Cannabis und Risiken
+
+**Wer bei BlattWerk Mitglied werden kann**
+
+Jeder Erwachsene mit Wohnsitz in Deutschland kann Mitglied werden — unabhängig davon, ob man in Hildesheim wohnt oder aus dem Umland kommt (Hannover, Alfeld, Peine, Salzgitter, Hameln). Das KCanG erlaubt die Mitgliedschaft in einem Club, unabhängig vom Wohnort, solange man in Deutschland gemeldet ist.
+
+**Anbaulizenz seit März 2026**
+
+Die offizielle Anbaugenehmigung wurde uns am 18. März 2026 erteilt. Damit sind wir eine der wenigen lizenzierten Anbauvereinigungen in Niedersachsen. Aktuell laufen die Vorbereitungen für unseren ersten Grow.
+
+**Interesse?**
+
+Wer Mitglied werden möchte oder einfach mehr erfahren will: Komm zu unserer wöchentlichen Sprechstunde (jeden Mittwoch, 18–20 Uhr, Wetzellplatz 2 Hildesheim) oder schreib uns über das Kontaktformular.`,
+    content_en: `Since 1 April 2024, cannabis cultivation in clubs has been legal in Germany — regulated by the Cannabis Act (KCanG). Since then, Cannabis Social Clubs (CSCs) have been forming across the country. BlattWerk e.V. is the first licensed CSC in Hildesheim.
+
+**Hildesheim as a deliberate choice**
+
+We are all from Hildesheim or the immediate surrounding area. The idea was clear from the start: we are founding a club for the people here — not somewhere abstract, but in our city. Hildesheim has a lively club culture, a young population and an administration that approached the topic openly.
+
+**What BlattWerk offers**
+
+As a licensed cultivation association under the KCanG, we offer our members:
+
+- **Legal cannabis access** directly from our own cultivation, without middlemen
+- **Tested quality** — every harvest is analysed for purity and cannabinoid content
+- **Transparency** about origin, growing method and ingredients
+- **Co-determination** on strain selection and club development
+- **Prevention services** and honest education about cannabis and risks
+
+**Who can join BlattWerk**
+
+Any adult registered in Germany can become a member — regardless of whether they live in Hildesheim or come from the surrounding area (Hanover, Alfeld, Peine, Salzgitter, Hameln). The KCanG allows membership in one club regardless of place of residence, as long as you are registered in Germany.
+
+**Cultivation licence since March 2026**
+
+The official cultivation permit was granted to us on 18 March 2026. This makes us one of the few licensed cultivation associations in Lower Saxony. Preparations for our first grow are currently underway.
+
+**Interested?**
+
+Anyone who wants to become a member or simply find out more: come to our weekly office hour (every Wednesday, 6–8 pm, Wetzellplatz 2 Hildesheim) or write to us via the contact form.`,
+    tags: ['Hildesheim', 'Cannabis Social Club', 'Niedersachsen', 'KCanG', 'Mitgliedschaft'],
+    author: 'Redaktion BlattWerk e.V.',
     category: 'vereinsnews',
   },
   {
