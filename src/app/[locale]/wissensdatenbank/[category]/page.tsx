@@ -149,8 +149,8 @@ export default async function CategoryPage({
         </div>
       </section>
       <HeroImage
-        src="/images/knowledge/cannabis-science.jpg"
-        alt={isDE ? 'Cannabis-Wissenschaft' : 'Cannabis science'}
+        src="/images/knowledge/cannabis-growing.jpg"
+        alt={isDE ? 'Cannabis-Wissen — BlattWerk Wissensdatenbank' : 'Cannabis knowledge — BlattWerk knowledge base'}
         height="180px"
         gradient="top"
       />

@@ -101,8 +101,8 @@ export default async function ContactPage({
 
       <KontaktInfoClient isDE={isDE} />
       <HeroImage
-        src="/images/cannabis-plants-outdoor.jpg"
-        alt={isDE ? 'Cannabis-Pflanzen' : 'Cannabis plants'}
+        src="/images/cannabis-contact.jpg"
+        alt={isDE ? 'BlattWerk e.V. — Kontakt aufnehmen' : 'BlattWerk e.V. — Get in touch'}
         height="200px"
         gradient="top"
       />
