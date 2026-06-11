@@ -29,8 +29,8 @@ export default async function AboutPage({
       />
       <UeberUnsClient isDE={isDE} />
       <HeroImage
-        src="/images/cannabis-seedlings.jpg"
-        alt={isDE ? 'Cannabis-Setzlinge im Wachstum' : 'Cannabis seedlings growing'}
+        src="/images/cannabis-leaf-dark.jpg"
+        alt={isDE ? 'Cannabis-Blatt — BlattWerk e.V. Hildesheim' : 'Cannabis leaf — BlattWerk e.V. Hildesheim'}
         height="240px"
         gradient="top"
       />
