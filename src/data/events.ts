@@ -125,6 +125,16 @@ export const upcomingEvents: readonly BlattWerkEvent[] = [
 
 export const pastEvents: readonly BlattWerkEvent[] = [
   {
+    date: '2026-06-02',
+    time: '14:00',
+    title_de: 'Abstimmung Vermieter',
+    title_en: 'Landlord Meeting',
+    description_de: 'Abstimmungsgespräch mit dem Vermieter zu aktuellen organisatorischen Fragen rund um die Vereinsräumlichkeiten.',
+    description_en: 'Coordination meeting with the landlord on current organisational matters regarding the club premises.',
+    type_de: 'Termin',
+    type_en: 'Appointment',
+  },
+  {
     date: '2026-05-09',
     time: '15:00',
     location_de: 'Salzhemmendorf',
