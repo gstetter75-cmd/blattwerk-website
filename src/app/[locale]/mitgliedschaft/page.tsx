@@ -36,7 +36,7 @@ const FAQ_ITEMS_DE = [
   },
   {
     question: 'Wann kann ich das erste Mal Cannabis beziehen?',
-    answer: 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Der Anbaustart ist für Oktober 2026 geplant. Wir informieren über den genauen Zeitpunkt per Blog und E-Mail.',
+    answer: 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Der Anbaustart hängt von der noch ausstehenden Genehmigung der Nutzungsänderung ab — wir informieren alle Mitglieder rechtzeitig per Blog und E-Mail.',
   },
   {
     question: 'Welche Sorten baut BlattWerk an?',

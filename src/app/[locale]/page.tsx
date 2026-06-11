@@ -68,14 +68,14 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Cannabis Social Club Hildesheim — Anbaustart Oktober 2026.'
-                : 'Cannabis Social Club Hildesheim — Growing starts October 2026.'}
+                ? 'Cannabis Social Club Hildesheim — Anbau in Vorbereitung.'
+                : 'Cannabis Social Club Hildesheim — Growing in preparation.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">
               {isDE
-                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Wir bereiten den Anbaustart für Oktober 2026 vor. Gemeinschaft, Qualität und Transparenz.'
-                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. We\'re preparing our growing start for October 2026. Community, quality and transparency.'}
+                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Räume stehen, Konzept steht, Genehmigung beantragt. Gemeinschaft, Qualität und Transparenz.'
+                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. Premises secured, concept finalised, permit applied for. Community, quality and transparency.'}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -198,8 +198,8 @@ function HomeContent() {
                 </p>
                 <p className="text-ink-muted leading-relaxed mb-8">
                   {isDE
-                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Wir bereiten den Anbaustart für Oktober 2026 vor — und du kannst Teil davon sein.'
-                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. We\'re preparing for our growing start in October 2026 — and you can be part of it.'}
+                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Räume und Konzept stehen — sobald die Nutzungsänderung genehmigt ist, geht es los. Du kannst jetzt Teil davon sein.'
+                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Premises and concept are ready — once the change-of-use permit is approved, we\'re off. You can be part of it now.'}
                 </p>
                 <Link
                   href="/ueber-uns"
