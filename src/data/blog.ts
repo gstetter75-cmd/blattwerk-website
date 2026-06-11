@@ -77,8 +77,8 @@ Die Entscheidung ist nicht trivial. Als CSC haben wir eine Verantwortung gegenü
 Bei der Sortenauswahl orientieren wir uns an mehreren Faktoren:
 
 - **Anbautauglichkeit Indoor:** Wir suchen Sorten mit kompaktem Wuchs, guter Resistenz gegen Schimmel und Schädlinge und einer vorhersehbaren Blütezeit von 8–10 Wochen.
-- **Cannabinoid-Profil:** Wir wollen eine ausgewogene Mischung aus THC-starken Sorten, CBD-betonten Sorten und mittleren Profilen — so decken wir unterschiedliche Bedürfnisse unserer Mitglieder ab.
-- **Terpenspektrum:** Aromatische Vielfalt ist uns wichtig. Wir achten auf ein breites Spektrum: von erdigen Myrcen-lastigen Sorten bis zu fruchtig-terpinhaltigen Profilen.
+- **Cannabinoid-Profil:** Wir wollen eine ausgewogene Mischung aus [THC](/wissensdatenbank/cannabinoids/thc)-starken Sorten, [CBD](/wissensdatenbank/cannabinoids/cbd)-betonten Sorten und mittleren Profilen — so decken wir unterschiedliche Bedürfnisse unserer Mitglieder ab.
+- **Terpenspektrum:** Aromatische Vielfalt ist uns wichtig. Wir achten auf ein breites [Terpenspektrum](/wissensdatenbank/terpenes/was-sind-terpene): von erdigen Myrcen-lastigen Sorten bis zu fruchtig-terpinhaltigen Profilen.
 - **Verfügbarkeit und Stabilität:** Wir setzen auf Sorten von renommierten Saatgutanbietern mit stabilen, dokumentierten Genetiken — keine Exoten, die im ersten Grow unberechenbar sein könnten.
 
 **Indica, Sativa, Hybrid**
@@ -97,8 +97,8 @@ The decision isn't trivial. As a CSC, we have a responsibility to our members �
 **Our Selection Criteria**
 
 - **Indoor suitability:** Compact growth, good resistance to mould and pests, predictable flowering time of 8–10 weeks.
-- **Cannabinoid profile:** A balanced mix of THC-strong, CBD-focused and medium profiles.
-- **Terpene spectrum:** Broad aromatic variety, from earthy myrcene-heavy to fruity profiles.
+- **Cannabinoid profile:** A balanced mix of [THC](/wissensdatenbank/cannabinoids/thc)-strong, [CBD](/wissensdatenbank/cannabinoids/cbd)-focused and medium profiles.
+- **Terpene spectrum:** Broad aromatic variety — learn more about [terpene profiles](/wissensdatenbank/terpenes/was-sind-terpene).
 - **Stability:** Strains from reputable seed banks with documented genetics.
 
 **Indica, Sativa, Hybrid**
@@ -226,11 +226,11 @@ Gerade für einen CSC, der verlässlich an seine Mitglieder abgeben möchte, ist
 
 **Beleuchtung: Full-Spectrum LED**
 
-Wir setzen auf moderne Full-Spectrum LED-Technik. Gegenüber HPS-Lampen bieten LEDs deutliche Vorteile: niedrigerer Energieverbrauch, weniger Wärmeentwicklung und ein besseres Lichtspektrum für alle Wachstumsphasen. Qualitäts-LEDs mit Samsung LM301H-Dioden liefern den PPFD-Wert, den unsere Pflanzen für optimale Entwicklung brauchen.
+Wir setzen auf moderne Full-Spectrum LED-Technik. Gegenüber HPS-Lampen bieten LEDs deutliche Vorteile: niedrigerer Energieverbrauch, weniger Wärmeentwicklung und ein besseres Lichtspektrum für alle Wachstumsphasen. Qualitäts-LEDs mit Samsung LM301H-Dioden liefern den PPFD-Wert, den unsere Pflanzen für optimale Entwicklung brauchen. Mehr Hintergründe in unserem Artikel [Beleuchtung im Cannabis-Indoor-Grow](/wissensdatenbank/growing/beleuchtung-led-guide).
 
 **Substrat und Nährstoffe: organisch wo möglich**
 
-Wir arbeiten mit hochwertigem Kokos-Substrat in Kombination mit organischen Nährstoffen. Die biologische Komponente verbessert das Terpenprofil der Ernte und führt zu einem reineren Endprodukt. Synthetische Dünger werden nur dort eingesetzt, wo es fachlich sinnvoll ist.
+Wir arbeiten mit hochwertigem Kokos-Substrat in Kombination mit organischen [Nährstoffen](/wissensdatenbank/growing/naehrstoffe-duengung). Die biologische Komponente verbessert das [Terpenprofil](/wissensdatenbank/terpenes/was-sind-terpene) der Ernte und führt zu einem reineren Endprodukt. Synthetische Dünger werden nur dort eingesetzt, wo es fachlich sinnvoll ist.
 
 **Qualitätssicherung vor der Abgabe**
 
@@ -240,7 +240,7 @@ Jedes Mitglied soll beim Bezug genau wissen, was es bekommt — Sorte, Potenz, T
 
 **Trocknung und Fermentierung**
 
-Der letzte Schritt vor der Abgabe ist oft der unterschätzte: eine sorgfältige Trocknung (10–14 Tage bei 60–65% Luftfeuchtigkeit) und anschließende Fermentierung in luftdichten Behältern. Erst dieser Prozess entfaltet das volle Geschmacks- und Aromaprofil einer Sorte.
+Der letzte Schritt vor der Abgabe ist oft der unterschätzte: eine sorgfältige [Trocknung und Fermentierung](/wissensdatenbank/growing/trocknung-fermentierung) (10–14 Tage bei 60–65% Luftfeuchtigkeit in luftdichten Behältern). Erst dieser Prozess entfaltet das volle Geschmacks- und Aromaprofil einer Sorte.
 
 **Ausblick**
 
@@ -261,11 +261,11 @@ Particularly for a CSC that wants to reliably supply its members, predictability
 
 **Lighting: Full-Spectrum LED**
 
-We use modern full-spectrum LED technology. Compared to HPS lamps, LEDs offer clear advantages: lower energy consumption, less heat generation and a better light spectrum for all growth phases. Quality LEDs with Samsung LM301H diodes deliver the PPFD values our plants need for optimal development.
+We use modern full-spectrum LED technology. Compared to HPS lamps, LEDs offer clear advantages: lower energy consumption, less heat generation and a better light spectrum for all growth phases. Quality LEDs with Samsung LM301H diodes deliver the PPFD values our plants need for optimal development. More background in our article [Lighting in Cannabis Indoor Growing](/wissensdatenbank/growing/beleuchtung-led-guide).
 
 **Substrate and Nutrients: Organic Where Possible**
 
-We work with high-quality coco substrate combined with organic nutrients. The biological component improves the terpene profile of the harvest and leads to a cleaner end product. Synthetic fertilisers are only used where professionally appropriate.
+We work with high-quality coco substrate combined with organic [nutrients](/wissensdatenbank/growing/naehrstoffe-duengung). The biological component improves the [terpene profile](/wissensdatenbank/terpenes/was-sind-terpene) of the harvest and leads to a cleaner end product. Synthetic fertilisers are only used where professionally appropriate.
 
 **Quality Assurance Before Distribution**
 
@@ -275,7 +275,7 @@ Every member should know exactly what they're receiving — strain, potency, ter
 
 **Drying and Curing**
 
-The final step before distribution is often the underestimated one: careful drying (10–14 days at 60–65% humidity) followed by curing in airtight containers. Only this process fully develops the flavour and aroma profile of a strain.
+The final step before distribution is often the underestimated one: careful [drying and curing](/wissensdatenbank/growing/trocknung-fermentierung) (10–14 days at 60–65% humidity in airtight containers). Only this process fully develops the flavour and aroma profile of a strain.
 
 **Outlook**
 
@@ -315,7 +315,7 @@ In Niedersachsen ist das LAVES für die Genehmigung zuständig. Das Verfahren gi
 
 Die zweite Säule des KCanG — regionale Modellprojekte für den kommerziellen Verkauf in lizenzierten Fachgeschäften — befindet sich weiterhin in der Vorbereitungsphase. Mehrere Kommunen haben Interesse bekundet, konkrete Starttermine stehen jedoch noch aus. Die wissenschaftliche Begleitforschung wird die Auswirkungen auf Gesundheitsschutz, Jugendschutz und den Schwarzmarkt untersuchen.
 
-Weitere Informationen zur rechtlichen Grundlage findest du in unserer [Wissensdatenbank](/wissensdatenbank/legal). Wer selbst einen CSC gründen möchte, findet auf unserer Seite [CSC gründen](/csc-gruendung) einen Praxisleitfaden mit Erfahrungswerten.`,
+Weitere Informationen zur rechtlichen Grundlage findest du in unserem Artikel [KCanG im Überblick](/wissensdatenbank/legal/kcang-ueberblick). Wer selbst einen CSC gründen möchte, findet auf unserer Seite [CSC gründen](/csc-gruendung) einen Praxisleitfaden mit Erfahrungswerten.`,
     content_en: `On April 1, 2024, the Cannabis Act (KCanG) came into effect. Two years later, it is time for an initial assessment: what has been implemented, where are the problems, and what remains to be done?
 
 **Licensed Cultivation Associations in Germany**
@@ -338,7 +338,7 @@ In Lower Saxony, LAVES is responsible for licensing. The process is considered c
 
 The second pillar of the KCanG — regional pilot projects for commercial sales in licensed specialty shops — remains in the preparatory phase. Several municipalities have expressed interest, but concrete start dates are still pending. The accompanying scientific research will examine effects on health protection, youth protection and the black market.
 
-For more information on the legal framework, visit our [knowledge base](/wissensdatenbank/legal). Anyone wanting to start a CSC can find a practical guide with real-world experience on our [Start a CSC](/csc-gruendung) page.`,
+For more information on the legal framework, read our article [KCanG Overview](/wissensdatenbank/legal/kcang-ueberblick). Anyone wanting to start a CSC can find a practical guide with real-world experience on our [Start a CSC](/csc-gruendung) page.`,
     tags: ['KCanG', 'Recht', 'Politik', '2026'],
     author: 'Redaktion BlattWerk e.V.',
     category: 'recht',
@@ -543,7 +543,7 @@ Terpene sind flüchtige organische Verbindungen, die in vielen Pflanzen vorkomme
 
 Die klassische Einteilung in Indica (entspannend) und Sativa (anregend) basiert auf Wuchsform, nicht auf Wirkung. In der Realität bestimmt das Terpenprofil — zusammen mit dem Cannabinoidverhältnis — wie eine Sorte wirkt. Eine „Sativa" mit hohem Myrcen-Anteil kann durchaus sedierend wirken, während eine „Indica" mit viel Limonen energetisierend sein kann.
 
-In unserer [Sortendatenbank](/sortendatenbank) findest du für jede Sorte das vollständige Terpenprofil. Mehr über die Wissenschaft hinter Terpenen erfährst du in unserer [Wissensdatenbank](/wissensdatenbank).`,
+In unserer [Sortendatenbank](/sortendatenbank) findest du für jede Sorte das vollständige Terpenprofil. Vertiefe dein Wissen mit unseren Artikeln: [Was sind Terpene?](/wissensdatenbank/terpenes/was-sind-terpene), [Myrcen](/wissensdatenbank/terpenes/myrcen), [Limonen](/wissensdatenbank/terpenes/limonen) und [Caryophyllen](/wissensdatenbank/terpenes/caryophyllen).`,
     content_en: `Anyone exploring cannabis quickly encounters terms like THC and CBD. But the real diversity of cannabis lies in terpenes — aromatic compounds that decisively influence taste, smell and especially effects.
 
 **What Are Terpenes?**
@@ -566,7 +566,7 @@ Terpenes are volatile organic compounds found in many plants — not just cannab
 
 The classic division into indica (relaxing) and sativa (stimulating) is based on growth form, not effects. In reality, the terpene profile — together with the cannabinoid ratio — determines how a strain works. A "sativa" with high myrcene can be quite sedating, while an "indica" with lots of limonene can be energizing.
 
-In our [strain database](/sortendatenbank), you'll find the complete terpene profile for every strain. Learn more about the science behind terpenes in our [knowledge base](/wissensdatenbank).`,
+In our [strain database](/sortendatenbank), you'll find the complete terpene profile for every strain. Deepen your knowledge with our articles: [What Are Terpenes?](/wissensdatenbank/terpenes/was-sind-terpene), [Myrcene](/wissensdatenbank/terpenes/myrcen), [Limonene](/wissensdatenbank/terpenes/limonen) and [Caryophyllene](/wissensdatenbank/terpenes/caryophyllen).`,
     tags: ['Terpene', 'Wissen', 'Wirkung', 'Myrcen', 'Limonen'],
     author: 'Redaktion BlattWerk e.V.',
     category: 'wissen',
@@ -590,7 +590,7 @@ Regel 4: Die MPU kann schnell kommen. Ab dem zweiten Verstoß oder bei hohen THC
 
 Regel 5: Zeitliche Trennung ist der einzige sichere Schutz. THC kann je nach Konsumhäufigkeit unterschiedlich lange im Blut nachweisbar sein. Bei gelegentlichem Konsum fällt der aktive THC-Spiegel innerhalb von 6–8 Stunden unter den Grenzwert. Bei regelmäßigem Konsum kann es deutlich länger dauern. Die einzige sichere Regel: Nicht fahren, wenn du konsumiert hast. Im Zweifel lieber einen Tag länger warten.
 
-Unsere Empfehlung: Informiere dich in unserem ausführlichen Artikel „Cannabis und Straßenverkehr" in der Wissensdatenbank über alle Details — inklusive der Regelungen zu Blutentnahme, Polizeikontrollen und Fahrradfahren unter THC-Einfluss.`,
+Unsere Empfehlung: Informiere dich in unserem Artikel [Cannabis und Straßenverkehr](/wissensdatenbank/legal/cannabis-strassenverkehr) über alle Details — inklusive der Regelungen zu Blutentnahme, Polizeikontrollen und Fahrradfahren unter THC-Einfluss. Den spezifischen Leitfaden zum Thema [Führerschein und Cannabis](/wissensdatenbank/legal/fuehrerschein-cannabis) findest du ebenfalls in unserer Wissensdatenbank.`,
     content_en: `Since August 2024, there has been a specific THC limit of 3.5 ng/ml in blood serum for cannabis in road traffic. This removed cannabis from the blanket drug prohibition and placed it under a regulation similar to alcohol. What does this mean for you specifically?
 
 Rule 1: The limit is 3.5 ng/ml. Anyone caught driving with a THC level above 3.5 ng/ml in blood serum commits an administrative offense. First offense: €500 fine, 1-month driving ban, 2 points. Second offense: €1,000, 3-month ban. Third offense onwards: €1,500, 3-month ban. Important: The limit refers to active THC in blood serum, not THC-COOH (the metabolite). THC-COOH is detectable much longer but is not used for the limit.
@@ -603,7 +603,7 @@ Rule 4: The MPU can come quickly. From the second offense or with high THC level
 
 Rule 5: Temporal separation is the only safe protection. THC can be detectable in blood for varying lengths of time depending on consumption frequency. With occasional use, active THC levels fall below the limit within 6–8 hours. With regular use, it can take significantly longer. The only safe rule: Don't drive if you've consumed. When in doubt, wait an extra day.
 
-Our recommendation: Read our detailed article "Cannabis and Road Traffic" in our knowledge base for all details — including regulations on blood draws, police stops, and cycling under THC influence.`,
+Our recommendation: Read our article [Cannabis and Road Traffic](/wissensdatenbank/legal/cannabis-strassenverkehr) for all details — including regulations on blood draws, police stops, and cycling under THC influence. The specific guide on [Driving License and Cannabis](/wissensdatenbank/legal/fuehrerschein-cannabis) is also available in our knowledge base.`,
     tags: ['Führerschein', 'Straßenverkehr', 'THC-Grenzwert', 'MPU', 'Recht'],
     author: 'Gero Stetter',
     category: 'recht',
@@ -631,7 +631,7 @@ Was wir anders machen würden: Erstens, die Räumlichkeiten früher suchen — p
 
 Was wir richtig gemacht haben: Transparenz. Wir haben von Anfang an offen kommuniziert — gegenüber der Behörde, gegenüber unseren Mitgliedern und gegenüber der Öffentlichkeit. Das hat Vertrauen aufgebaut und Türen geöffnet.
 
-Wer selbst einen CSC gründen möchte: Auf unserer Seite „CSC gründen" teilen wir unsere Erfahrungen im Detail — inklusive Kostenaufstellung, Zeitplan und den Fehlern, die wir gemacht haben. Schreibt uns gerne, wenn ihr Fragen habt.`,
+Wer selbst einen CSC gründen möchte: Auf unserer Seite [CSC gründen](/csc-gruendung) teilen wir unsere Erfahrungen im Detail — inklusive Kostenaufstellung, Zeitplan und den Fehlern, die wir gemacht haben. Die rechtlichen Grundlagen erklärt unser Artikel [KCanG im Überblick](/wissensdatenbank/legal/kcang-ueberblick). Schreibt uns gerne, wenn ihr Fragen habt.`,
     content_en: `Ten months. That's how long it took from the first idea to the official cultivation license. Sounds doable? It was — but it was significantly more work than most people imagine.
 
 It all started in May 2025. Five of us sat together and decided: We're founding a Cannabis Social Club in Hildesheim. The KCanG had been in effect since April 2024, the first licenses were being granted nationwide, and we didn't want to just watch.
@@ -648,7 +648,7 @@ What we would do differently: First, search for premises earlier — in parallel
 
 What we did right: Transparency. We communicated openly from the start — toward the authority, toward our members and toward the public. That built trust and opened doors.
 
-If you want to found a CSC yourself: On our "Start a CSC" page, we share our experiences in detail — including cost breakdown, timeline and the mistakes we made. Feel free to reach out if you have questions.`,
+If you want to found a CSC yourself: On our [Start a CSC](/csc-gruendung) page, we share our experiences in detail — including cost breakdown, timeline and the mistakes we made. The legal foundations are explained in our article [KCanG Overview](/wissensdatenbank/legal/kcang-ueberblick). Feel free to reach out if you have questions.`,
     tags: ['Meilenstein', 'Gründung', 'Lizenz', 'Erfahrungsbericht'],
     author: 'Gero Stetter',
     category: 'vereinsnews',
@@ -664,7 +664,7 @@ If you want to found a CSC yourself: On our "Start a CSC" page, we share our exp
 
 Aktuell planen wir die Einrichtung unserer Anbauräume. Beleuchtung, Belüftung, Bewässerung — es gibt viel zu tun, bevor es losgehen kann. Jede Entscheidung wird sorgfältig abgewogen, denn Qualität steht für uns an erster Stelle.
 
-Parallel dazu beschäftigen wir uns intensiv mit der Sortenauswahl. In unserer Sortendatenbank dokumentieren wir bereits über 50 Sorten mit Genetik, Terpenprofilen und THC/CBD-Werten — eine fundierte Grundlage für unsere Planung.
+Parallel dazu beschäftigen wir uns intensiv mit der Sortenauswahl. In unserer [Sortendatenbank](/sortendatenbank) dokumentieren wir bereits über 50 Sorten mit Genetik, [Terpenprofilen](/wissensdatenbank/terpenes/was-sind-terpene) und THC/CBD-Werten — eine fundierte Grundlage für unsere Planung.
 
 Außerdem arbeiten wir an den organisatorischen Strukturen: Dokumentation, Qualitätssicherung und Jugendschutz müssen stehen, bevor der erste Samen in die Erde kommt.
 
@@ -675,7 +675,7 @@ Ihr wollt Teil dieser Gemeinschaft werden? Der Beitritt erfolgt über die Hanf-A
 
 We are currently planning the setup of our growing facilities. Lighting, ventilation, irrigation — there is much to do before we can begin. Every decision is carefully considered, because quality is our top priority.
 
-In parallel, we are working intensively on strain selection. Our strain database already documents over 50 strains with genetics, terpene profiles and THC/CBD values — a solid foundation for our planning.
+In parallel, we are working intensively on strain selection. Our [strain database](/sortendatenbank) already documents over 50 strains with genetics, [terpene profiles](/wissensdatenbank/terpenes/was-sind-terpene) and THC/CBD values — a solid foundation for our planning.
 
 We are also building the organizational structures: documentation, quality assurance and youth protection must be in place before the first seed goes into the ground.
 
