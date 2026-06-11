@@ -138,7 +138,7 @@ function HomeContent() {
                   status: 'upcoming' as const,
                   title: isDE ? 'Anbaustart' : 'Growing start',
                   text: isDE ? 'Qualitätsgeprüft, für unsere Mitglieder' : 'Quality-tested, for our members',
-                  date: isDE ? 'Ende 2026' : 'Late 2026',
+                  date: isDE ? 'Nach Genehmigung' : 'After permit',
                 },
               ].map(({ icon: Icon, status, title, text, date }) => (
                 <div
