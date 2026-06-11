@@ -99,15 +99,18 @@ export function LocalBusinessSchema() {
     <JsonLd
       data={{
         '@context': 'https://schema.org',
-        '@type': 'SportsClub',
+        '@type': ['LocalBusiness', 'Organization'],
         '@id': `${BASE_URL}/#local-business`,
         name: 'BlattWerk e.V.',
+        legalName: 'BlattWerk e.V.',
         description:
           'Lizenzierter Cannabis Social Club in Hildesheim. Vereinsbüro am Wetzellplatz — Aufklärung, Prävention und Mitgliederbetreuung nach KCanG.',
         url: BASE_URL,
         telephone: '+4915233539841',
         email: 'info@blattwerk.dev',
         image: `${BASE_URL}/images/logo.png`,
+        logo: `${BASE_URL}/images/logo.png`,
+        foundingDate: '2025-09-04',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Wetzellplatz 2',
@@ -121,12 +124,13 @@ export function LocalBusinessSchema() {
           latitude: 52.1535,
           longitude: 9.9515,
         },
+        hasMap: 'https://maps.google.com/?q=Wetzellplatz+2,+31137+Hildesheim',
         openingHoursSpecification: [
           {
             '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-            opens: '09:00',
-            closes: '18:00',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: '10:00',
+            closes: '17:00',
           },
         ],
         areaServed: {
