@@ -40,8 +40,8 @@ export default async function EventsPage({
         accentColor="gold"
       />
       <HeroImage
-        src="/images/cannabis-plants-outdoor.jpg"
-        alt={isDE ? 'Cannabis-Pflanzen im Freien' : 'Cannabis plants outdoors'}
+        src="/images/cannabis-indoor.jpg"
+        alt={isDE ? 'Cannabis-Pflanzen im Indoor-Grow' : 'Cannabis plants in indoor grow'}
         height="240px"
       />
       <EventsClient isDE={isDE} upcomingEvents={upcomingEvents} pastEvents={pastEvents} />

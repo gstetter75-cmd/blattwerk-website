@@ -27,9 +27,9 @@ export const blogPosts: readonly BlogPost[] = [
     title_en: 'BlattWerk at Mary Jane Berlin — we\'re there',
     summary_de: 'Vom 11. bis 14. Juni 2026 ist BlattWerk e.V. auf der Mary Jane in Berlin. Europas größte Cannabis-Fachmesse — und wir mittendrin.',
     summary_en: 'From June 11 to 14, 2026, BlattWerk e.V. will be at Mary Jane in Berlin. Europe\'s largest cannabis trade fair — and we\'ll be right in the middle of it.',
-    content_de: `Nächste Woche ist es so weit: BlattWerk e.V. fährt zur Mary Jane nach Berlin.
+    content_de: `Diese Woche ist es so weit: BlattWerk e.V. fährt als Besucher zur Mary Jane nach Berlin.
 
-Die Mary Jane ist Europas führende Cannabis-Fachmesse — vier Tage voller Aussteller, Vorträge, Netzwerken und allem, was die Cannabis-Branche gerade bewegt. Für uns als lizenzierte Anbauvereinigung ist die Messe eine wichtige Gelegenheit: neue Kontakte knüpfen, uns über Ausrüstung und Technik informieren und mit anderen CSCs austauschen, die denselben Weg gegangen sind.
+Die Mary Jane ist Europas führende Cannabis-Fachmesse — vier Tage voller Aussteller, Vorträge, Netzwerken und allem, was die Cannabis-Branche gerade bewegt. Wir sind nicht als Aussteller dabei, sondern als Verein, der lernen, Kontakte knüpfen und sich einen Überblick verschaffen möchte.
 
 **Was uns interessiert**
 
@@ -37,18 +37,22 @@ Unser Fokus liegt auf dem Praktischen: Welche Anbauausstattung hat sich in ander
 
 **Ihr seid auch da?**
 
-Wenn ihr auf der Mary Jane seid und BlattWerk e.V. treffen möchtet — schreibt uns vorher kurz an [info@blattwerk.dev](mailto:info@blattwerk.dev) oder sprecht uns einfach an. Wir freuen uns über jedes Gespräch.
+Wenn ihr auf der Mary Jane seid und uns begegnet — sprecht uns gerne an. Wir freuen uns über den Austausch.
 
 **Was wir mitnehmen**
 
-Alles, was wir auf der Messe lernen, fließt in unsere Vorbereitung für den Anbaustart im Oktober ein. Den Bericht folgt hier im Blog nach unserer Rückkehr.`,
-    content_en: `Next week it's time: BlattWerk e.V. is heading to Mary Jane in Berlin.
+Alles, was wir auf der Messe lernen, fließt in unsere Vorbereitung für den Anbaustart im Oktober ein. Den Bericht gibt es hier im Blog nach unserer Rückkehr.`,
+    content_en: `This week it's time: BlattWerk e.V. is heading to Mary Jane in Berlin — as visitors.
 
-Mary Jane is Europe's leading cannabis trade fair — four days full of exhibitors, talks, networking and everything that's currently moving the cannabis industry. For us as a licensed cultivation association, the fair is an important opportunity: making new contacts, learning about equipment and technology, and exchanging experiences with other CSCs who have gone the same path.
+Mary Jane is Europe's leading cannabis trade fair — four days full of exhibitors, talks, networking and everything that's currently moving the cannabis industry. We're not there as exhibitors, but as a club looking to learn, make contacts and get an overview.
+
+**What we're interested in**
+
+Our focus is on the practical: which growing equipment has proven itself in other clubs? Which strains work particularly well for indoor grows? What has changed in communication with authorities? These questions are best answered in direct conversations with people who are already doing it.
 
 **You're there too?**
 
-If you're at Mary Jane and want to meet BlattWerk e.V. — drop us a line beforehand at info@blattwerk.dev or just come and talk to us. We're happy to chat.
+If you're at Mary Jane and run into us — feel free to say hi. We're happy to exchange ideas.
 
 **What we'll take home**
 

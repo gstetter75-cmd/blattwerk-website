@@ -28,9 +28,9 @@ export const upcomingEvents: readonly BlattWerkEvent[] = [
     title_de: 'Mary Jane Berlin 2026',
     title_en: 'Mary Jane Berlin 2026',
     description_de:
-      'BlattWerk e.V. ist auf der Mary Jane — Europas führender Cannabis-Fachmesse. Kommt vorbei, sprecht mit uns und lernt den Verein persönlich kennen. Wir sind vom 11. bis 14. Juni vor Ort.',
+      'BlattWerk e.V. besucht die Mary Jane — Europas führende Cannabis-Fachmesse. Wir sind als Verein vor Ort, um Kontakte zu knüpfen, uns zu informieren und mit anderen CSCs auszutauschen. Wir sind vom 11. bis 14. Juni dabei.',
     description_en:
-      'BlattWerk e.V. is at Mary Jane — Europe\'s leading cannabis trade fair. Come by, talk to us and get to know the club in person. We\'ll be there from June 11 to 14.',
+      'BlattWerk e.V. is visiting Mary Jane — Europe\'s leading cannabis trade fair. We\'re attending as a club to network, learn and exchange experiences with other CSCs. We\'ll be there from June 11 to 14.',
     type_de: 'Messe',
     type_en: 'Trade Fair',
   },
