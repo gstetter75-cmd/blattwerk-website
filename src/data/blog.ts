@@ -21,6 +21,55 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'anbau-update-juni-2026',
+    date: '2026-06-11',
+    title_de: 'Anbau-Update Juni 2026 — Räume stehen, Genehmigung beantragt',
+    title_en: 'Growing update June 2026 — premises secured, permit applied for',
+    summary_de: 'Die Räumlichkeiten für unseren Anbau stehen fest, das Konzept ist ausgearbeitet und die Nutzungsänderung bei der Stadt beantragt. Jetzt warten wir auf das grüne Licht.',
+    summary_en: 'Our growing premises are secured, the concept is finalised and the change-of-use application has been submitted to the city. Now we are waiting for the green light.',
+    content_de: `Wir können ein weiteres Kapitel aufschlagen: Die Vorbereitungen für unseren Anbaustart sind in vollem Gange — und wir möchten euch auf dem Laufenden halten.
+
+**Die Räumlichkeiten stehen**
+
+Nach langer Suche haben wir geeignete Räumlichkeiten für unseren Anbau gefunden und gesichert. Die Lage, die Größe und die baulichen Voraussetzungen passen zu unserem Anbaukonzept. Das war einer der aufwändigsten Schritte im gesamten Prozess — und er ist geschafft.
+
+**Das Anbaukonzept ist ausgearbeitet**
+
+Parallel zur Raumsuche haben wir unser Anbaukonzept fertiggestellt: Beleuchtung, Belüftung, Bewässerung, Ernte- und Trocknungsinfrastruktur — alles geplant und auf unsere Mitgliederzahl und Bedarfsmengen abgestimmt. Das Konzept orientiert sich an den Anforderungen des KCanG und unseren eigenen Qualitätsstandards.
+
+**Nutzungsänderung beantragt**
+
+Der nächste formale Schritt ist eingereicht: Wir haben bei der Stadt Hildesheim die Genehmigung zur Nutzungsänderung für die Räumlichkeiten beantragt. Das ist ein reguläres Verfahren, das wir bei der Suche nach geeigneten Räumlichkeiten bereits eingeplant haben. Jetzt liegt der Ball bei der Behörde.
+
+**Was als nächstes kommt**
+
+Sobald die Genehmigung erteilt ist, beginnt der Ausbau der Räumlichkeiten. Danach folgt die Einrichtung der Anbauinfrastruktur — und dann endlich der Anbaustart.
+
+Wir halten euch hier im Blog und über unsere Mitgliederkommunikation auf dem Laufenden. Es geht voran.`,
+    content_en: `We can turn another page: preparations for our growing start are in full swing — and we want to keep you up to date.
+
+**Premises secured**
+
+After a long search, we have found and secured suitable premises for our cultivation. The location, size and structural conditions match our growing concept. This was one of the most demanding steps in the entire process — and it is done.
+
+**Growing concept finalised**
+
+In parallel with the search for premises, we have finalised our growing concept: lighting, ventilation, irrigation, harvest and drying infrastructure — everything planned and tailored to our membership numbers and required quantities. The concept is aligned with the requirements of the KCanG and our own quality standards.
+
+**Change-of-use application submitted**
+
+The next formal step has been taken: we have submitted an application to the City of Hildesheim for a change of use for the premises. This is a standard procedure that we already accounted for when looking for suitable premises. The ball is now in the authority's court.
+
+**What comes next**
+
+As soon as the permit is granted, the fit-out of the premises will begin. After that comes the installation of the growing infrastructure — and then finally the growing start.
+
+We will keep you updated here on the blog and through our member communications. Things are moving forward.`,
+    tags: ['Anbau', 'Vorbereitung', 'Räumlichkeiten', 'Nutzungsänderung', 'Update'],
+    author: 'Gero Stetter',
+    category: 'vereinsnews',
+  },
+  {
     slug: 'maryjane-berlin-2026',
     date: '2026-06-10',
     title_de: 'BlattWerk auf der Mary Jane Berlin — wir sind dabei',

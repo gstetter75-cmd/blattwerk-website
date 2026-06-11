@@ -130,7 +130,7 @@ function HomeContent() {
                   icon: Sprout,
                   status: 'active' as const,
                   title: isDE ? 'Anbau-Vorbereitung' : 'Growing preparation',
-                  text: isDE ? 'Infrastruktur aufbauen, Anbaustart Oktober 2026' : 'Building infrastructure, growing starts October 2026',
+                  text: isDE ? 'Räume gesichert, Konzept steht — Nutzungsänderung bei der Stadt beantragt' : 'Premises secured, concept finalised — change-of-use permit applied for',
                   date: isDE ? 'Jetzt' : 'Now',
                 },
                 {
