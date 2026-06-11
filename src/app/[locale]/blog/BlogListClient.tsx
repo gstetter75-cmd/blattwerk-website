@@ -74,6 +74,7 @@ export function BlogListClient({ posts, isDE }: BlogListClientProps) {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
+                data-testid="blog-post-card"
                 className="group block p-6 rounded-xl border border-[var(--border)] bg-bg-elevated hover:border-accent/30 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <div className="flex items-center gap-3 mb-3">
