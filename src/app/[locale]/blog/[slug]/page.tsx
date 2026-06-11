@@ -4,9 +4,17 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowLeft, Clock, Tag, User } from 'lucide-react';
 import { blogPosts, getBlogPostBySlug } from '@/data/blog';
+import type { BlogCategory } from '@/data/blog';
 import { renderMarkdown } from '@/lib/markdown';
 import { BreadcrumbSchema, ArticleSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
+
+const CATEGORY_OG_IMAGE: Record<BlogCategory, string> = {
+  vereinsnews: '/images/cannabis-plant-veg.jpg',
+  anbau: '/images/cannabis-indoor.jpg',
+  recht: '/images/cannabis-leaf-dark.jpg',
+  wissen: '/images/cannabis-seedlings.jpg',
+};
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -28,6 +36,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = isDE ? post.title_de : post.title_en;
   const description = (isDE ? post.summary_de : post.summary_en).slice(0, 160);
 
+  const ogImage = CATEGORY_OG_IMAGE[post.category] ?? '/images/og-image.png';
+
   return {
     title,
     description,
@@ -37,6 +47,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
     },
     alternates: createAlternates(locale, `blog/${slug}`),
   };

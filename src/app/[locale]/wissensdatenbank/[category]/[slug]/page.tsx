@@ -9,6 +9,17 @@ import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
 import { renderMarkdown } from '@/lib/markdown';
 import { createAlternates } from '@/lib/metadata';
 
+const CATEGORY_OG_IMAGE: Record<string, string> = {
+  legal: '/images/cannabis-leaf-dark.jpg',
+  health: '/images/cannabis-plant-veg.jpg',
+  cannabinoids: '/images/cannabis-seedlings.jpg',
+  terpenes: '/images/cannabis-plant-veg.jpg',
+  growing: '/images/cannabis-indoor.jpg',
+  history: '/images/cannabis-leaf-dark.jpg',
+  medicine: '/images/cannabis-seedlings.jpg',
+  prevention: '/images/cannabis-plants-outdoor.jpg',
+};
+
 export function generateStaticParams() {
   return allArticles.flatMap((article) => [
     { locale: 'de', category: article.category, slug: article.slug },
@@ -33,6 +44,8 @@ export async function generateMetadata({
   const description = (isDE ? article.summary_de : article.summary_en).slice(0, 160);
   const categoryLabel = isDE ? category.label_de : category.label_en;
 
+  const ogImage = CATEGORY_OG_IMAGE[categoryKey] ?? '/images/og-image.png';
+
   return {
     title,
     description,
@@ -45,6 +58,13 @@ export async function generateMetadata({
       authors: ['BlattWerk e.V.'],
       tags: article.tags,
       section: categoryLabel,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
     },
     alternates: createAlternates(locale, `wissensdatenbank/${categoryKey}/${slug}`),
   };
