@@ -163,9 +163,9 @@ export const pastEvents: readonly BlattWerkEvent[] = [
     title_de: 'Anbaulizenz erteilt',
     title_en: 'Cultivation License Granted',
     description_de:
-      'BlattWerk e.V. hat die offizielle Anbaulizenz erhalten. Die Vorbereitungen für den Anbaustart im Oktober 2026 beginnen.',
+      'BlattWerk e.V. hat die offizielle Anbaulizenz erhalten. Die Vorbereitungen für den Anbaustart beginnen.',
     description_en:
-      'BlattWerk e.V. has received the official cultivation license. Preparations for the growing start in October 2026 begin.',
+      'BlattWerk e.V. has received the official cultivation license. Preparations for the growing start begin.',
     type_de: 'Meilenstein',
     type_en: 'Milestone',
   },

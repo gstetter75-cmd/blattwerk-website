@@ -176,7 +176,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
         : 'When can I obtain cannabis for the first time?',
       a: isDE
         ? 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Der Anbaustart hängt von der noch ausstehenden Genehmigung der Nutzungsänderung ab. Über den genauen Zeitpunkt informieren wir per Blog und E-Mail.'
-        : 'Once our first harvest is complete and quality-tested. Growing is planned to start in October 2026. We will announce the exact date via our blog and email.',
+        : 'Once our first harvest is complete and quality-tested. The growing start depends on the pending change-of-use permit. We will notify all members in good time via blog and email.',
     },
     {
       q: isDE
