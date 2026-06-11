@@ -7,12 +7,47 @@ import { ArrowLeft, Clock, Calendar, Tag, AlertTriangle, BookOpen, User } from '
 import { allArticles, getArticleBySlug, getCategoryByKey } from '@/data/knowledge';
 import { ArticleSchema, BreadcrumbSchema } from '@/lib/schema';
 import { renderMarkdown } from '@/lib/markdown';
+import { createAlternates } from '@/lib/metadata';
 
 export function generateStaticParams() {
   return allArticles.flatMap((article) => [
     { locale: 'de', category: article.category, slug: article.slug },
     { locale: 'en', category: article.category, slug: article.slug },
   ]);
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; category: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, category: categoryKey, slug } = await params;
+  const isDE = locale === 'de';
+
+  const article = getArticleBySlug(slug);
+  const category = getCategoryByKey(categoryKey);
+
+  if (!article || !category) return {};
+
+  const title = isDE ? article.title_de : article.title_en;
+  const description = (isDE ? article.summary_de : article.summary_en).slice(0, 160);
+  const categoryLabel = isDE ? category.label_de : category.label_en;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      publishedTime: article.last_updated,
+      modifiedTime: article.last_updated,
+      authors: ['BlattWerk e.V.'],
+      tags: article.tags,
+      section: categoryLabel,
+    },
+    alternates: createAlternates(locale, `wissensdatenbank/${categoryKey}/${slug}`),
+  };
 }
 
 export default async function ArticlePage({
