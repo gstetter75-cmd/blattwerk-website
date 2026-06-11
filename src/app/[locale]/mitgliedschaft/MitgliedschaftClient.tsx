@@ -227,15 +227,15 @@ export function MitgliedschaftClient({ isDE }: Props) {
                 : 'No profit motive, no anonymous structures. A club by and for adults who consume cannabis responsibly.'}
             </p>
 
-            {/* Aufnahmestopp-Hinweis */}
-            <div className="mt-8 max-w-2xl p-5 rounded-xl border border-amber-300 bg-amber-50 dark:bg-amber-950/20 dark:border-amber-700">
-              <p className="text-sm font-semibold text-amber-800 dark:text-amber-400 mb-1">
-                {isDE ? 'Aufnahme vorübergehend pausiert' : 'Admissions temporarily paused'}
+            {/* Warteliste-Hinweis */}
+            <div className="mt-8 max-w-2xl p-5 rounded-xl border border-accent/40 bg-accent/5">
+              <p className="text-sm font-semibold text-accent mb-1">
+                {isDE ? 'Jetzt auf die Warteliste' : 'Join the waiting list now'}
               </p>
-              <p className="text-sm text-amber-700 dark:text-amber-500 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 {isDE
-                  ? 'Wir nehmen aktuell aus organisatorischen Gründen keine neuen Mitglieder auf. Wir möchten niemandem Kosten verursachen, bevor der tatsächliche Anbau beginnt. Sobald der Anbaustart feststeht, informieren wir hier und per Blog.'
-                  : 'We are currently not accepting new members for organisational reasons. We do not want to incur costs for anyone before the actual cultivation begins. Once the growing start date is confirmed, we will announce it here and via the blog.'}
+                  ? 'Wir setzen neue Mitglieder aktuell bewusst auf die Warteliste — so entstehen für niemanden Kosten, bevor der Anbau tatsächlich beginnt. Sobald der Anbaustart feststeht, werden alle Wartelistenmitglieder informiert und vollständig aufgenommen.'
+                  : 'We are currently deliberately placing new members on the waiting list — so no costs arise for anyone before cultivation actually begins. Once the growing start date is confirmed, all waiting list members will be informed and fully admitted.'}
               </p>
             </div>
           </div>
