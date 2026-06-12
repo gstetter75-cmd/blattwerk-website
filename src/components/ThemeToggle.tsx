@@ -30,12 +30,12 @@ export function ThemeToggle() {
     localStorage.setItem(STORAGE_KEY, next);
   };
 
-  if (!mounted) return <div className="w-8 h-8" />;
+  if (!mounted) return <div className="w-11 h-11" />;
 
   return (
     <button
       onClick={toggle}
-      className="w-8 h-8 flex items-center justify-center rounded-lg text-ink-muted hover:text-ink hover:bg-bg-surface transition-colors"
+      className="w-11 h-11 flex items-center justify-center rounded-lg text-ink-muted hover:text-ink hover:bg-bg-surface transition-colors"
       aria-label={theme === 'light' ? 'Dark mode' : 'Light mode'}
     >
       {theme === 'light' ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
