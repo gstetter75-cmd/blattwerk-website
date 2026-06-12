@@ -48,7 +48,7 @@ export function Footer() {
             <p className="text-xs text-ink-faint mb-5 leading-relaxed">
               Cannabis Social Club<br />Hildesheim
             </p>
-            <div className="flex gap-2">
+            <div className="flex flex-col gap-2">
               {SOCIAL.map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
@@ -56,9 +56,10 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-ink-faint hover:text-accent hover:border-accent/30 transition-colors duration-200"
+                  className="inline-flex items-center gap-2 text-sm text-ink-faint hover:text-accent transition-colors duration-200"
                 >
-                  <Icon className="w-4 h-4" />
+                  <Icon className="w-4 h-4 shrink-0" />
+                  <span>{label}</span>
                 </a>
               ))}
             </div>
