@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const FAQ_ITEMS_DE = [
   {
     question: 'Wie lange dauert der Aufnahmeprozess?',
-    answer: 'Nach der Mitgliedsanfrage über die Hanf-App wirst du als vorläufiges Mitglied zugelassen. Für die vollständige Mitgliedschaft musst du einem Vorstandsmitglied persönlich deinen Ausweis vorzeigen.',
+    answer: 'Sobald der Anbau startet: In der Abgabestelle vor Ort dauert die Aufnahme ca. 5 Minuten — Ausweis zeigen, Satzung unterschreiben, fertig. Als Online-Antrag über die Hanf-App dauert es 1–2 Tage bis zur Bestätigung.',
   },
   {
     question: 'Kann ich in mehreren Clubs gleichzeitig Mitglied sein?',
@@ -55,7 +55,7 @@ const FAQ_ITEMS_DE = [
 const FAQ_ITEMS_EN = [
   {
     question: 'How long does the admission process take?',
-    answer: 'After submitting your membership request via the Hanf-App, you are admitted as a provisional member. For full membership, you must personally present your ID to a board member.',
+    answer: 'Once growing starts: In-person at our premises the admission takes around 5 minutes — show your ID, sign the statutes, done. As an online application via the Hanf-App it takes 1–2 days for confirmation.',
   },
   {
     question: 'Can I be a member of multiple clubs at the same time?',

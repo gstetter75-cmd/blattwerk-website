@@ -127,8 +127,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
         ? 'Wie lange dauert der Aufnahmeprozess?'
         : 'How long does the admission process take?',
       a: isDE
-        ? 'In der Regel 1–2 Wochen ab Eingang deines vollständigen Antrags. Die Dauer hängt davon ab, wie schnell du alle Unterlagen einreichst. Sobald dein Antrag genehmigt ist, wirst du per E-Mail benachrichtigt.'
-        : 'Usually 1–2 weeks from receipt of your complete application. The duration depends on how quickly you submit all documents. You will be notified by email once your application is approved.',
+        ? 'Sobald der Anbau startet: In der Abgabestelle vor Ort dauert die Aufnahme ca. 5 Minuten — du zeigst deinen Ausweis, unterschreibst die Satzung und bist dabei. Als Online-Antrag über die Hanf-App dauert es 1–2 Tage, bis deine Unterlagen geprüft und bestätigt sind.'
+        : 'Once growing starts: In-person at our premises the admission takes around 5 minutes — you show your ID, sign the statutes and you\'re in. As an online application via the Hanf-App, it takes 1–2 days for your documents to be reviewed and confirmed.',
     },
     {
       q: isDE
