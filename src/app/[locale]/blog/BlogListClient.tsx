@@ -78,10 +78,10 @@ export function BlogListClient({ posts, isDE }: BlogListClientProps) {
                 className="group block p-6 rounded-xl border border-[var(--border)] bg-bg-elevated hover:border-accent/30 hover:-translate-y-0.5 transition-all duration-200"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-mono text-ink-faint">
+                  <time dateTime={post.date} className="text-xs font-mono text-ink-faint">
                     <Clock className="w-3 h-3 inline mr-1" />
                     {formattedDate}
-                  </span>
+                  </time>
                   <span className="text-xs text-ink-faint">·</span>
                   <span className="text-xs text-ink-faint">{post.author}</span>
                 </div>

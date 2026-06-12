@@ -112,10 +112,10 @@ export default async function BlogPostPage({ params }: PageProps) {
 
           <header className="mb-10">
             <div className="flex flex-wrap items-center gap-3 mb-4 text-xs text-ink-faint">
-              <span className="inline-flex items-center gap-1">
+              <time dateTime={post.date} className="inline-flex items-center gap-1">
                 <Clock className="w-3 h-3" />
                 {formattedDate}
-              </span>
+              </time>
               <span>·</span>
               <span className="inline-flex items-center gap-1">
                 <User className="w-3 h-3" />

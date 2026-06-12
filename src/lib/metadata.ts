@@ -31,20 +31,20 @@ export function createMetadata(locale: string, meta: PageMeta, path = ''): Metad
 
 export const PAGE_META = {
   home: {
-    de: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — lizenzierter Cannabis Social Club in Hildesheim. Anbaulizenz erteilt. Mitglied werden ab 21 Jahren. Gemeinschaft & Qualität nach KCanG.' },
-    en: { title: 'Cannabis Social Club Hildesheim | BlattWerk e.V.', description: 'BlattWerk e.V. — licensed Cannabis Social Club in Hildesheim. Cultivation license granted. Join from age 21. Community & quality under KCanG.' },
+    de: { title: 'Cannabis Social Club Hildesheim', description: 'BlattWerk e.V. — lizenzierter Cannabis Social Club in Hildesheim. Anbaulizenz erteilt. Mitglied werden ab 21 Jahren. Gemeinschaft & Qualität nach KCanG.' },
+    en: { title: 'Cannabis Social Club Hildesheim', description: 'BlattWerk e.V. — licensed Cannabis Social Club in Hildesheim. Cultivation license granted. Join from age 21. Community & quality under KCanG.' },
   },
   about: {
-    de: { title: 'Über uns — Cannabis Verein Hildesheim | BlattWerk', description: 'Vorstand, Anbaurat, Vereinsregeln und Mission von BlattWerk e.V. — Cannabis Social Club Hildesheim. Gegründet 2025, Anbaulizenz seit März 2026.' },
-    en: { title: 'About Us — Cannabis Club Hildesheim | BlattWerk', description: 'Board, growing council, rules and mission of BlattWerk e.V. — Cannabis Social Club Hildesheim. Founded 2025, cultivation license since March 2026.' },
+    de: { title: 'Über uns — Cannabis Verein Hildesheim', description: 'Vorstand, Anbaurat, Vereinsregeln und Mission von BlattWerk e.V. — Cannabis Social Club Hildesheim. Gegründet 2025, Anbaulizenz seit März 2026.' },
+    en: { title: 'About Us — Cannabis Club Hildesheim', description: 'Board, growing council, rules and mission of BlattWerk e.V. — Cannabis Social Club Hildesheim. Founded 2025, cultivation license since March 2026.' },
   },
   membership: {
-    de: { title: 'Mitglied werden — Cannabis Club Hildesheim | BlattWerk', description: 'Jetzt Mitglied werden bei BlattWerk e.V. in Hildesheim. Ab 21 Jahren, 10 €/Monat. Voraussetzungen, Aufnahmeprozess und häufige Fragen.' },
+    de: { title: 'Mitglied werden — Cannabis Club Hildesheim', description: 'Jetzt Mitglied werden bei BlattWerk e.V. in Hildesheim. Ab 21 Jahren, 10 €/Monat. Voraussetzungen, Aufnahmeprozess und häufige Fragen.' },
     en: { title: 'Become a Member — Cannabis Club Hildesheim', description: 'Join BlattWerk e.V. in Hildesheim. From age 21, €10/month. Requirements, admission process and membership FAQs.' },
   },
   strains: {
-    de: { title: 'Cannabis-Sortendatenbank | BlattWerk e.V.', description: 'Cannabis-Sorten dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
-    en: { title: 'Cannabis Strain Database | BlattWerk e.V.', description: 'Cannabis strains documented: genetics, terpene profiles, THC/CBD levels, effects and growing info. Indica, sativa, hybrid. BlattWerk e.V. Hildesheim.' },
+    de: { title: 'Cannabis-Sortendatenbank', description: 'Cannabis-Sorten dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
+    en: { title: 'Cannabis Strain Database', description: 'Cannabis strains documented: genetics, terpene profiles, THC/CBD levels, effects and growing info. Indica, sativa, hybrid. BlattWerk e.V. Hildesheim.' },
   },
   knowledge: {
     de: { title: 'Cannabis-Wissensdatenbank — Recht, Anbau & mehr', description: '40+ fundierte Artikel zu Cannabis: KCanG-Recht, Safer Use, Terpene, Cannabinoide, Indoor-Anbau, Prävention. Evidenzbasiert von BlattWerk e.V. Hildesheim.' },
@@ -59,8 +59,8 @@ export const PAGE_META = {
     en: { title: 'Events & Workshops — CSC Hildesheim', description: 'Workshops, lectures and member assemblies at BlattWerk e.V. in Hildesheim. Safer-use workshop, grow introduction and more.' },
   },
   contact: {
-    de: { title: 'Kontakt — BlattWerk e.V. Hildesheim', description: 'Kontaktiere BlattWerk e.V. am Wetzellplatz 2 in Hildesheim. Kontaktformular, Anfahrt, Öffnungszeiten und direkter Draht per E-Mail oder WhatsApp.' },
-    en: { title: 'Contact — BlattWerk e.V. Hildesheim', description: 'Contact BlattWerk e.V. at Wetzellplatz 2 in Hildesheim. Contact form, directions, opening hours and direct contact via email or WhatsApp.' },
+    de: { title: 'Kontakt — Hildesheim', description: 'Kontaktiere BlattWerk e.V. am Wetzellplatz 2 in Hildesheim. Kontaktformular, Anfahrt, Öffnungszeiten und direkter Draht per E-Mail oder WhatsApp.' },
+    en: { title: 'Contact — Hildesheim', description: 'Contact BlattWerk e.V. at Wetzellplatz 2 in Hildesheim. Contact form, directions, opening hours and direct contact via email or WhatsApp.' },
   },
   privacy: {
     de: { title: 'Datenschutzerklärung', description: 'Datenschutzerklärung von BlattWerk e.V. – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.' },

@@ -104,7 +104,7 @@ function HomeContent() {
         <section className="py-16 lg:py-24 border-t border-[var(--border)]">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <p className="text-sm font-medium text-accent mb-4">
-              {isDE ? 'Unser Weg' : 'Our Journey'}
+              {isDE ? 'Meilensteine' : 'Milestones'}
             </p>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-12">
               {isDE ? 'Unser Weg — vom Verein zur Anbauvereinigung' : 'Our journey — from club to cultivation association'}
@@ -277,7 +277,7 @@ function HomeContent() {
               {isDE ? 'Mehr entdecken' : 'Explore More'}
             </p>
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-10">
-              {isDE ? 'Mehr entdecken' : 'Explore More'}
+              {isDE ? 'Alle Bereiche im Überblick' : 'Everything in one place'}
             </h2>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
