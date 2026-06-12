@@ -50,6 +50,7 @@ function DropdownMenu({
 }) {
   return (
     <div
+      role="menu"
       className="animate-scale-in absolute top-full left-1/2 -translate-x-1/2 mt-2 w-72 rounded-xl border border-[var(--border)] bg-bg-elevated shadow-lg overflow-hidden"
       style={{ zIndex: Z.dropdown }}
     >
@@ -58,6 +59,7 @@ function DropdownMenu({
           <Link
             key={child.key}
             href={child.href}
+            role="menuitem"
             onClick={onClose}
             className="group flex flex-col gap-0.5 px-4 py-3 rounded-lg hover:bg-bg-surface transition-colors duration-150"
           >
@@ -163,21 +165,35 @@ export function Header() {
                     onMouseEnter={() => hasChildren ? handleMouseEnter(item.key) : setOpenMenu(null)}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <Link
-                      href={item.href}
-                      className={`relative flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150 ${
-                        active
-                          ? 'text-accent'
-                          : 'text-ink-muted hover:text-ink hover:bg-black/[0.03]'
-                      }`}
-                    >
-                      {t(item.key)}
-                      {hasChildren && (
+                    {hasChildren ? (
+                      <button
+                        onClick={() => setOpenMenu(openMenu === item.key ? null : item.key)}
+                        onKeyDown={(e) => e.key === 'Escape' && setOpenMenu(null)}
+                        aria-expanded={openMenu === item.key}
+                        aria-haspopup="menu"
+                        className={`relative flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150 cursor-pointer ${
+                          active
+                            ? 'text-accent'
+                            : 'text-ink-muted hover:text-ink hover:bg-black/[0.03]'
+                        }`}
+                      >
+                        {t(item.key)}
                         <ChevronDown className={`w-3.5 h-3.5 opacity-40 transition-transform duration-150 ${
                           openMenu === item.key ? 'rotate-180' : ''
                         }`} />
-                      )}
-                    </Link>
+                      </button>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className={`relative flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-150 ${
+                          active
+                            ? 'text-accent'
+                            : 'text-ink-muted hover:text-ink hover:bg-black/[0.03]'
+                        }`}
+                      >
+                        {t(item.key)}
+                      </Link>
+                    )}
 
                     {hasChildren && openMenu === item.key && (
                       <DropdownMenu
@@ -237,15 +253,21 @@ export function Header() {
             <nav className="flex-1 px-6 py-6">
               {navItems.map((item) => (
                 <div key={item.key} className="border-b border-[var(--border)]">
-                  <Link
-                    href={item.href}
-                    className={`block py-4 text-base font-medium transition-colors ${
-                      isActive(item.href) ? 'text-accent' : 'text-ink hover:text-accent'
-                    }`}
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {t(item.key)}
-                  </Link>
+                  {item.children ? (
+                    <p className="py-4 text-base font-medium text-ink-faint">
+                      {t(item.key)}
+                    </p>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className={`block py-4 text-base font-medium transition-colors ${
+                        isActive(item.href) ? 'text-accent' : 'text-ink hover:text-accent'
+                      }`}
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {t(item.key)}
+                    </Link>
+                  )}
                   {item.children && (
                     <div className="pb-3 pl-4 flex flex-col gap-1">
                       {item.children.map((child) => (
