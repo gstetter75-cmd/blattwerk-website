@@ -119,20 +119,22 @@ export function StrainOverview() {
           <div className="flex gap-3 mb-8">
             {/* Search input -- bottom border only */}
             <div className="relative flex-1 max-w-sm">
-              <Search className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
+              <Search aria-hidden="true" className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={lang === 'de' ? 'Sorte suchen\u2026' : 'Search strain\u2026'}
+                aria-label={lang === 'de' ? 'Sorte suchen' : 'Search strain'}
                 className="w-full pl-7 pr-7 py-2.5 bg-transparent text-sm focus:outline-none transition-colors text-ink border-b border-[var(--border)] focus:border-accent"
               />
               {query && (
                 <button
                   onClick={() => setQuery('')}
+                  aria-label={lang === 'de' ? 'Suche l\u00f6schen' : 'Clear search'}
                   className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer text-ink-muted"
                 >
-                  <X className="w-3.5 h-3.5" />
+                  <X aria-hidden="true" className="w-3.5 h-3.5" />
                 </button>
               )}
             </div>

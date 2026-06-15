@@ -74,9 +74,10 @@ function StrainSelector({
       >
         <button
           onClick={onRemove}
+          aria-label={lang === 'de' ? `${selected.name} entfernen` : `Remove ${selected.name}`}
           className="absolute top-2 right-2 p-2 rounded-full hover:bg-bg-elevated transition-colors cursor-pointer"
         >
-          <X className="w-4 h-4 text-ink-faint" />
+          <X aria-hidden="true" className="w-4 h-4 text-ink-faint" />
         </button>
         <h3 className="font-heading italic text-lg text-ink mb-1">{selected.name}</h3>
         <span className={`inline-block text-xs px-2 py-0.5 rounded-full ${config.badge}`}>

@@ -5,6 +5,7 @@ import { SelfAssessment } from '@/components/prevention/SelfAssessment';
 import { RiskAccordion } from '@/components/prevention/RiskAccordion';
 import { ResourceRow } from '@/components/prevention/ResourceRow';
 import { StickyEmergencyBar } from '@/components/prevention/StickyEmergencyBar';
+import { Link } from '@/i18n/navigation';
 import {
   conceptItems,
   riskTopics,
@@ -289,13 +290,13 @@ export function SuchtpraeventionClient({ isDE }: Props) {
             </p>
             <div className="flex flex-wrap gap-3">
               {knowledgeLinks.map(({ slug, label }) => (
-                <a
+                <Link
                   key={slug}
-                  href={`/${isDE ? 'de' : 'en'}/wissensdatenbank/${slug}`}
+                  href={`/wissensdatenbank/${slug}`}
                   className="px-5 py-3 rounded-xl border border-[var(--border)] bg-bg-elevated text-sm font-medium transition-all hover:border-accent hover:text-accent"
                 >
                   {label} &#8599;
-                </a>
+                </Link>
               ))}
             </div>
           </div>

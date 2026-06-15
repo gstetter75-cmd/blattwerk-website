@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { Cookie } from 'lucide-react';
 import { Z } from '@/lib/z-index';
+import { Link } from '@/i18n/navigation';
 
 const STORAGE_KEY = 'blattwerk-cookie-consent';
 
@@ -54,12 +55,12 @@ export function CookieBanner() {
               <p className="text-sm font-semibold text-ink mb-1">{t.title}</p>
               <p className="text-xs text-ink-muted leading-relaxed">
                 {t.text}{' '}
-                <a
-                  href={`/${locale === 'en' ? 'en' : 'de'}/datenschutz/`}
+                <Link
+                  href="/datenschutz"
                   className="underline text-accent hover:opacity-70 transition-opacity"
                 >
                   {t.privacy}
-                </a>
+                </Link>
               </p>
             </div>
           </div>
