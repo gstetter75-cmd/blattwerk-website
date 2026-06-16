@@ -22,6 +22,8 @@
   --glass:       rgba(0, 0, 0, 0.03);
   --shadow:      rgba(0, 0, 0, 0.04);
 
+  --header-bg:   rgba(250, 250, 247, 0.95);
+
   --warning:     #b45309;
   --warning-bg:  rgba(180, 83, 9, 0.06);
   --warning-text: rgba(180, 83, 9, 0.8);
@@ -49,6 +51,8 @@
   --glass:       rgba(255, 255, 255, 0.03);
   --shadow:      rgba(0, 0, 0, 0.3);
 
+  --header-bg:   rgba(14, 26, 18, 0.95);
+
   --warning:     #fbbf24;
   --warning-bg:  rgba(251, 191, 36, 0.08);
   --warning-text: rgba(251, 191, 36, 0.8);
@@ -75,6 +79,8 @@
     --border:      rgba(255, 255, 255, 0.08);
     --glass:       rgba(255, 255, 255, 0.03);
     --shadow:      rgba(0, 0, 0, 0.3);
+
+    --header-bg:   rgba(14, 26, 18, 0.95);
 
     --warning:     #fbbf24;
     --warning-bg:  rgba(251, 191, 36, 0.08);
@@ -115,6 +121,17 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
   outline: 2px solid var(--accent);
   outline-offset: 3px;
   border-radius: 2px;
+}
+
+/* Logo visibility in dark mode */
+[data-theme="dark"] .logo-adaptive {
+  filter: brightness(0) invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-adaptive {
+    filter: brightness(0) invert(1);
+  }
 }
 
 /* Screen-reader only class */

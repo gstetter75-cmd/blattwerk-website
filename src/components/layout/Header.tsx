@@ -133,7 +133,7 @@ export function Header() {
         }`}
         style={{
           zIndex: Z.elevated,
-          background: scrolled ? 'rgba(250, 250, 247, 0.95)' : 'transparent',
+          background: scrolled ? 'var(--header-bg)' : 'transparent',
           backdropFilter: scrolled ? 'blur(12px)' : 'none',
         }}
       >
@@ -147,7 +147,7 @@ export function Header() {
                 alt="BlattWerk e.V."
                 width={160}
                 height={48}
-                className="h-10 lg:h-12 w-auto object-contain"
+                className="h-10 lg:h-12 w-auto object-contain logo-adaptive"
                 priority
               />
             </Link>
