@@ -20,8 +20,8 @@ export function CscGruendungClient({ isDE }: Props) {
       title: isDE ? 'Gründungsteam aufbauen' : 'Build Founding Team',
       duration: isDE ? '1–2 Monate' : '1–2 months',
       text: isDE
-        ? 'Mindestens 5 Personen, die bereit sind, langfristig Verantwortung zu übernehmen. Ihr braucht einen Vorstand (mindestens Vorsitz, Stellvertretung, Schatzmeister), idealerweise Leute mit Vereinserfahrung, Buchhaltungskenntnissen und — wenn möglich — Anbau-Know-how. Unser Tipp: Unterschätzt den organisatorischen Aufwand nicht. Ein CSC ist kein Hobbyprojekt, sondern ein Vollzeit-Engagement für die ersten Monate.'
-        : 'At least 5 people willing to take long-term responsibility. You need a board (at least chair, deputy, treasurer), ideally people with association experience, accounting skills and — if possible — growing know-how. Our tip: Don\'t underestimate the organizational effort. A CSC is not a hobby project, it\'s a full-time commitment for the first months.',
+        ? 'In Deutschland braucht ihr gesetzlich mindestens 7 Gründungsmitglieder. Ihr braucht außerdem einen Vorstand (mindestens Vorsitz, Stellvertretung, Schatzmeister), idealerweise Leute mit Vereinserfahrung, Buchhaltungskenntnissen und — wenn möglich — Anbau-Know-how. Unser Tipp: Unterschätzt den organisatorischen Aufwand nicht. Ein CSC ist kein Hobbyprojekt, sondern ein Vollzeit-Engagement für die ersten Monate.'
+        : 'In Germany, you legally need at least 7 founding members. You also need a board (at least chair, deputy, treasurer), ideally people with association experience, accounting skills and — if possible — growing know-how. Our tip: Don\'t underestimate the organizational effort. A CSC is not a hobby project, it\'s a full-time commitment for the first months.',
     },
     {
       icon: FileText,
@@ -29,8 +29,8 @@ export function CscGruendungClient({ isDE }: Props) {
       title: isDE ? 'Satzung & Vereinsgründung' : 'Statutes & Association Founding',
       duration: isDE ? '2–4 Wochen' : '2–4 weeks',
       text: isDE
-        ? 'Die Satzung muss KCanG-konform sein und alle gesetzlichen Anforderungen an Anbauvereinigungen abdecken: Nicht-Gewinnorientierung, Suchtpräventionskonzept, Jugendschutz, Dokumentationspflichten, Abgaberegelungen. Dann die Gründungsversammlung abhalten, notariell beurkunden lassen und im Vereinsregister eintragen. Wichtig: Lasst die Satzung von einem spezialisierten Anwalt prüfen — Fehler hier verzögern den Lizenzantrag um Monate.'
-        : 'The statutes must be KCanG-compliant and cover all legal requirements for cultivation associations: non-profit status, addiction prevention concept, youth protection, documentation obligations, distribution rules. Then hold the founding assembly, have it notarized and register in the association register. Important: Have the statutes reviewed by a specialized lawyer — mistakes here delay the license application by months.',
+        ? 'Die Satzung muss KCanG-konform sein und alle gesetzlichen Anforderungen an Anbauvereinigungen abdecken: Nicht-Gewinnorientierung, Suchtpräventionskonzept, Jugendschutz, Dokumentationspflichten, Abgaberegelungen. Dann die Gründungsversammlung abhalten, notariell beurkunden lassen und im Vereinsregister eintragen. Einen Anwalt braucht ihr für die Satzung nicht — es gibt genug öffentlich zugängliche Musterdokumente und Erfahrungsberichte anderer CSCs.'
+        : 'The statutes must be KCanG-compliant and cover all legal requirements for cultivation associations: non-profit status, addiction prevention concept, youth protection, documentation obligations, distribution rules. Then hold the founding assembly, have it notarized and register in the association register. You do not need a lawyer for the statutes — there are plenty of publicly available templates and experience reports from other CSCs.',
     },
     {
       icon: Shield,
@@ -81,13 +81,13 @@ export function CscGruendungClient({ isDE }: Props) {
 
   const costItems = [
     { label: isDE ? 'Notar & Vereinsregister' : 'Notary & Register', value: '500–1.000 €' },
-    { label: isDE ? 'Rechtsberatung (Satzung, Lizenzantrag)' : 'Legal advice (statutes, license)', value: '2.000–5.000 €' },
+    { label: isDE ? 'Rechtsberatung (Lizenzantrag)' : 'Legal advice (license application)', value: '1.000–3.000 €' },
     { label: isDE ? 'Mietkaution & erste Mieten' : 'Deposit & first rents', value: '3.000–10.000 €' },
     { label: isDE ? 'Umbau & Sicherheitstechnik' : 'Renovation & security', value: '10.000–40.000 €' },
     { label: isDE ? 'Anbauausstattung (Licht, Klima, Bewässerung)' : 'Growing equipment (light, climate, irrigation)', value: '15.000–40.000 €' },
     { label: isDE ? 'Samen, Substrate, Nährstoffe' : 'Seeds, substrates, nutrients', value: '1.000–3.000 €' },
     { label: isDE ? 'Versicherungen' : 'Insurance', value: '500–2.000 €/Jahr' },
-    { label: isDE ? 'Laufende Betriebskosten (Strom, Miete, Material)' : 'Ongoing costs (electricity, rent, materials)', value: '2.000–5.000 €/Monat' },
+    { label: isDE ? 'Laufende Betriebskosten (Strom, Miete, Material)' : 'Ongoing costs (electricity, rent, materials)', value: 'mind. 10.000 €/Monat' },
   ];
 
   const mistakesToAvoid = [
@@ -98,16 +98,10 @@ export function CscGruendungClient({ isDE }: Props) {
         : 'Most founding initiatives fail not due to willpower but money. Plan with a five-figure starting budget and a financial reserve for the first 6 months without income.',
     },
     {
-      title: isDE ? 'Satzung ohne Anwalt' : 'Statutes Without Lawyer',
-      text: isDE
-        ? 'Eine fehlerhafte Satzung ist der häufigste Grund für abgelehnte oder verzögerte Lizenzanträge. Die 2.000–3.000 € für eine anwaltliche Prüfung sind die beste Investition im gesamten Gründungsprozess.'
-        : 'A faulty statute is the most common reason for rejected or delayed license applications. The €2,000–3,000 for a legal review is the best investment in the entire founding process.',
-    },
-    {
       title: isDE ? 'Zu wenige Gründungsmitglieder' : 'Too Few Founding Members',
       text: isDE
-        ? 'Ein CSC lässt sich nicht zu zweit stemmen. Ihr braucht ein Team, das die Arbeit auf mehrere Schultern verteilt — Verwaltung, Anbau, Finanzen, Prävention, Öffentlichkeitsarbeit. Mindestens 5–7 engagierte Leute zum Start.'
-        : 'A CSC cannot be managed by two people. You need a team that distributes the work — administration, growing, finances, prevention, public relations. At least 5–7 committed people to start.',
+        ? 'Ein CSC lässt sich nicht zu zweit stemmen. Gesetzlich braucht ihr mindestens 7 Gründungsmitglieder — aber für den Betrieb sollte das Team deutlich größer sein. Ihr braucht Leute für Verwaltung, Anbau, Finanzen, Prävention und Öffentlichkeitsarbeit. Je mehr engagierte Menschen zum Start, desto stabiler der Verein.'
+        : 'A CSC cannot be managed by two people. You legally need at least 7 founding members — but for operations the team should be significantly larger. You need people for administration, growing, finances, prevention and public relations. The more committed people at the start, the more stable the association.',
     },
     {
       title: isDE ? 'Räumlichkeiten zu spät suchen' : 'Finding Premises Too Late',
@@ -158,8 +152,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Was kostet es insgesamt, einen CSC zu gründen?' : 'What does it cost in total to found a CSC?',
       a: isDE
-        ? 'Rechnet realistisch mit einem sechsstelligen Startkapital, je nach Bundesland, Standort und Größe des geplanten Anbaus. Die größten Posten sind Räumlichkeiten (Miete, Kaution, Umbau), Anbauausstattung und Rechtsberatung. Dazu kommen laufende Kosten von 2.000–5.000 €/Monat, bevor überhaupt die erste Ernte stattfindet. Ohne finanzielle Reserve für 6–12 Monate wird es eng.'
-        : 'Realistically plan with a six-figure starting capital, depending on state, location and planned grow size. The biggest items are premises (rent, deposit, renovation), growing equipment and legal advice. Add ongoing costs of €2,000–5,000/month before the first harvest even happens. Without a financial reserve for 6–12 months, it gets tight.',
+        ? 'Allein für den Anbau — Umbau, Technik, Ausstattung, erste Betriebsmonate — müsst ihr realistisch mit ca. 100.000 € rechnen. Das ist kein Ausreißer, das ist die Realität. Dazu kommen laufende Betriebskosten von mindestens 10.000 €/Monat, bevor die erste Ernte überhaupt stattfindet. Ohne eine solide Finanzierungsplanung für 6–12 Monate ohne Einnahmen lässt sich ein CSC nicht wirtschaftlich betreiben.'
+        : 'For the grow alone — renovation, technology, equipment, first months of operation — you need to realistically plan for approx. €100,000. That is not an outlier, that is the reality. Add ongoing operating costs of at least €10,000/month before the first harvest even takes place. Without solid financing for 6–12 months without income, a CSC cannot be operated sustainably.',
     },
     {
       q: isDE ? 'Wie lange dauert es von der Idee bis zur Anbaulizenz?' : 'How long from idea to cultivation license?',
@@ -176,8 +170,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Könnt ihr uns bei der Satzung helfen?' : 'Can you help with the statutes?',
       a: isDE
-        ? 'Wir können euch zeigen, was in unserer Satzung steht und warum — als Orientierung und Diskussionsgrundlage. Eure Satzung müsst ihr aber selbst erarbeiten und zwingend von einem spezialisierten Anwalt prüfen lassen. Eine fehlerhafte Satzung ist der häufigste Grund für abgelehnte Lizenzanträge.'
-        : 'We can show you what\'s in our statutes and why — as orientation and basis for discussion. But you must develop your own and absolutely have it reviewed by a specialized lawyer. A faulty statute is the most common reason for rejected license applications.',
+        ? 'Wir können euch zeigen, was in unserer Satzung steht und warum — als Orientierung und Diskussionsgrundlage. Eure Satzung müsst ihr aber selbst erarbeiten. Einen Anwalt braucht ihr dafür nicht — es gibt ausreichend Mustersatzungen und Erfahrungsberichte anderer CSCs. Für den Lizenzantrag selbst kann rechtlicher Beistand jedoch sinnvoll sein, wenn ihr euch unsicher seid.'
+        : 'We can show you what\'s in our statutes and why — as orientation and basis for discussion. But you need to develop your own. You do not need a lawyer for the statutes — there are enough template statutes and experience reports from other CSCs. For the license application itself, legal support can be useful if you are unsure.',
     },
     {
       q: isDE ? 'Welche Rechtsform brauche ich?' : 'What legal form do I need?',
@@ -194,8 +188,8 @@ export function CscGruendungClient({ isDE }: Props) {
     {
       q: isDE ? 'Was ist der häufigste Fehler bei der CSC-Gründung?' : 'What is the most common mistake when founding a CSC?',
       a: isDE
-        ? 'Die Kosten unterschätzen und die Räumlichkeiten zu spät suchen. Viele Gründungsinitiativen planen mit einem fünfstelligen Budget und scheitern, sobald die ersten Mietkautionen und Anwaltsrechnungen kommen. Der zweithäufigste Fehler: Eine fehlerhafte Satzung einreichen und den Lizenzantrag dadurch um Monate verzögern.'
-        : 'Underestimating costs and searching for premises too late. Many founding initiatives plan with a five-figure budget and fail when the first deposits and lawyer bills arrive. Second most common mistake: submitting faulty statutes and delaying the license application by months.',
+        ? 'Die Kosten unterschätzen und die Räumlichkeiten zu spät suchen. Viele Gründungsinitiativen planen mit einem fünfstelligen Budget — und scheitern, sobald sie merken, dass allein der Anbauaufbau ca. 100.000 € kostet und die laufenden Kosten bei mind. 10.000 €/Monat liegen. Räumlichkeitssuche und Finanzierungsplan müssen von Tag 1 an parallel laufen.'
+        : 'Underestimating costs and searching for premises too late. Many founding initiatives plan with a five-figure budget — and fail once they realize that setting up the grow alone costs approx. €100,000 and ongoing costs are at least €10,000/month. The premises search and financing plan must run in parallel from day one.',
     },
     {
       q: isDE ? 'Welches Bundesland ist am gründungsfreundlichsten?' : 'Which state is most founder-friendly?',
@@ -303,8 +297,8 @@ export function CscGruendungClient({ isDE }: Props) {
               <p className="text-sm text-ink-muted leading-relaxed">
                 <strong className="text-ink">{isDE ? 'Unser Fazit:' : 'Our takeaway:'}</strong>{' '}
                 {isDE
-                  ? 'Plant mit einem sechsstelligen Startbudget und einer finanziellen Reserve für 6–12 Monate laufende Kosten ohne Einnahmen. Die Mitgliedsbeiträge allein reichen in der Anfangsphase nicht aus.'
-                  : 'Plan with a six-figure starting budget and a financial reserve for 6–12 months of ongoing costs without income. Membership fees alone are not sufficient in the initial phase.'}
+                  ? 'Alleine für den Anbau — Umbau, Technik, Ausstattung, erste Betriebsmonate — rechnet realistisch mit ca. 100.000 €. Dazu kommen laufende Betriebskosten von mindestens 10.000 €/Monat, lange bevor die erste Ernte kommt. Die Mitgliedsbeiträge allein reichen in der Anfangsphase nicht aus.'
+                  : 'For the grow alone — renovation, technology, equipment, first months of operation — plan realistically with approx. €100,000. Add ongoing operating costs of at least €10,000/month, long before the first harvest. Membership fees alone are not sufficient in the initial phase.'}
               </p>
             </div>
           </div>
@@ -316,7 +310,7 @@ export function CscGruendungClient({ isDE }: Props) {
         <section className="py-16 lg:py-24 bg-bg-surface">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
-              {isDE ? '5 Fehler, die wir anderen ersparen wollen' : '5 Mistakes We Want to Help Others Avoid'}
+              {isDE ? '4 Fehler, die wir anderen ersparen wollen' : '4 Mistakes We Want to Help Others Avoid'}
             </h2>
             <p className="text-ink-muted mb-10 max-w-xl">
               {isDE
