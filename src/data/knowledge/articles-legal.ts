@@ -1837,4 +1837,192 @@ Anyone wanting to found a CSC should read our complete experience report on our 
     last_updated: '2026-04-05',
     related_slugs: ['anbauvereinigungen-kcang', 'cannabis-social-clubs', 'kcang-ueberblick'],
   },
+
+  // ─── CANNABIS AUF REISEN ─────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-auf-reisen',
+    category: 'legal',
+    title_de: 'Cannabis und Reisen: Bahn, Flug und EU-Ausland',
+    title_en: 'Cannabis and Travel: Train, Flight and EU Abroad',
+    summary_de:
+      'Was gilt bei Zugreisen, am Flughafen und im EU-Ausland? Ein Überblick über die Rechtslage für Reisende mit Cannabis – von der Deutschen Bahn bis zu europäischen Grenzübergängen.',
+    summary_en:
+      'What are the rules when travelling by train, at airports and abroad in the EU? An overview of the legal situation for travellers with cannabis – from Deutsche Bahn to European border crossings.',
+    content_de: `Cannabis ist in Deutschland unter bestimmten Bedingungen legal – doch sobald man sich fortbewegt, stellen sich schnell neue rechtliche Fragen. Was gilt in öffentlichen Verkehrsmitteln? Darf man Cannabis im Zug mitnehmen? Und was passiert beim Grenzübertritt in EU-Länder?
+
+## Zugreisen: Cannabis in der Deutschen Bahn
+
+Die Deutsche Bahn ist ein privatrechtliches Unternehmen, das eigene Hausordnungen festlegt. Cannabis-Konsum ist in Zügen und auf Bahnhöfen grundsätzlich verboten – ähnlich wie das Rauchen in geschlossenen Bereichen. Der Besitz von bis zu 25 Gramm Cannabis im Zug ist hingegen nicht per se strafbar, solange man volljährig ist und die gesetzlichen Mengen einhält.
+
+Allerdings gelten auf Bahnhöfen häufig lokale Schutzzonregelungen. Viele Bahnhöfe befinden sich in Fußgängerzonen oder in der Nähe von Schulen und Jugendzentren, wo erweiterte Konsumverbote nach § 5 KCanG gelten können. Für den Transport gilt: Cannabis muss in einem Behälter aufbewahrt werden, sodass keine Geruchsbelästigung für andere Reisende entsteht. Eine geruchsdichte Verpackung ist nicht nur aus Rücksicht empfehlenswert, sondern verhindert auch unnötige Aufmerksamkeit.
+
+## Am Flughafen: Besondere Bundeshoheit
+
+Flughäfen sind ein kompliziertes Terrain. Technisch gesehen gilt das KCanG auch auf Flughäfen – wer im Ankunftsbereich oder im öffentlichen Bereich des Flughafens steht, unterliegt deutschen Gesetzen. Sobald man jedoch die Sicherheitskontrolle passiert und sich im Abflugbereich (Airside) befindet, gelten zusätzliche Regeln.
+
+**Inlandsflüge:** Selbst auf einem rein innerdeutschen Flug ist Cannabis im Handgepäck oder Koffer problematisch. Die Bundespolizei, die für die Sicherheit an Flughäfen zuständig ist, hat ein Interesse daran, Substanzen zu entdecken, die in anderen Bundesländern möglicherweise anders bewertet werden. Zwar ist Cannabis bundesweit legal, aber die Stimmung an Flughäfen ist traditionell konservativ. Grundsätzlich raten wir davon ab, Cannabis auf Inlandsflügen mitzunehmen.
+
+**Internationale Flüge:** Wer ins Ausland fliegt, verlässt deutsches Territorium. Das Mitführen von Cannabis auf einem internationalen Flug – selbst zu einem Land, das Cannabis toleriert – stellt beim Abflug aus Deutschland eine potenzielle Ausfuhr dar, die nach dem KCanG strafbar ist. Beim Ziel-Land kommt noch das dortige Recht hinzu. **Cannabis darf auf keinen Fall auf internationalen Flügen mitgenommen werden.**
+
+## Grenzübertritt in EU-Länder: Eine Tabelle der Unterschiede
+
+Die EU hat keine einheitliche Cannabis-Politik. Jedes Mitgliedsland regelt den Umgang mit Cannabis eigenständig. Die Mitnahme von Cannabis über eine EU-Grenze – selbst zu einem toleranteren Land – ist **Ausfuhr** aus Deutschland und in der Regel **Einfuhr** in das Zielland. Beide Handlungen können strafbar sein.
+
+**Niederlande:** Trotz der bekannten Coffeeshop-Kultur ist Cannabis rechtlich gesehen auch dort verboten. Der Besitz bis 5 Gramm wird in der Praxis toleriert, aber der Import aus Deutschland ist strafbar.
+
+**Österreich:** Seit 2022 ist der private Anbau bis zu zwei Pflanzen entkriminalisiert, der Besitz bleibt aber grundsätzlich strafbar. Mitnahme aus Deutschland: klar strafbar.
+
+**Schweiz:** Kein EU-Mitglied, aber häufiges Reiseziel. Die Schweiz erlaubt CBD-Cannabis (unter 1% THC) und hat Besitz kleiner Mengen entkriminalisiert, aber THC-Cannabis bleibt verboten. Grenzkontrollen sind regulär.
+
+**Frankreich:** Eine der strengsten Cannabis-Politiken in Europa. Besitz ist strafbar und wird trotz gelegentlicher Diskussionen über Reform konsequent verfolgt.
+
+**Tschechien:** Seit 2024 schrittweise Legalisierung in Arbeit. Aktuelle Rechtslage: Besitz kleiner Mengen ist entkriminalisiert, Import aus Deutschland aber strafbar.
+
+## Praktische Empfehlungen
+
+**Grundregel:** Cannabis ist ortsfest. Es gehört in die Wohnung, nicht in den Koffer für Auslandsreisen.
+
+Für Inlandsreisen gilt: Bei Bahn- oder Autofahrten innerhalb Deutschlands darf man bis zu 25 Gramm (öffentlich) legal transportieren – aber konsumieren darf man es in der Regel nicht (Bahnhöfe, Züge, Fahrzeuge mit Fahrfunktion fallen unter verschiedene Konsumverbote).
+
+Wer auf Reisen medizinisches Cannabis benötigt, kann beim Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) unter bestimmten Voraussetzungen eine Ausnahmegenehmigung beantragen – dies ist jedoch ein aufwendiges Verfahren und primär für Patienten relevant.`,
+    content_en: `Cannabis is legal in Germany under certain conditions – but once you start travelling, new legal questions arise quickly. What rules apply on public transport? Can you carry cannabis on a train? And what happens when crossing into EU countries?
+
+## Train Travel: Cannabis on Deutsche Bahn
+
+Deutsche Bahn is a private company with its own house rules. Cannabis consumption on trains and at stations is generally prohibited – similar to smoking in enclosed areas. However, possession of up to 25 grams of cannabis on a train is not per se illegal, as long as you are an adult and comply with legal limits.
+
+That said, many train stations fall within local protection zones. Many stations are located in pedestrian zones or near schools and youth centres where extended consumption bans under § 5 KCanG may apply. For transport: cannabis should be stored in a container to prevent odour bothering other passengers. Odour-proof packaging is not only a matter of courtesy but also avoids unnecessary attention.
+
+## At the Airport: Special Federal Jurisdiction
+
+Airports are complicated territory. Technically, the KCanG applies at airports – anyone standing in the arrivals area or the public part of the airport is subject to German law. However, once you pass security and are in the departure area (airside), additional rules apply.
+
+**Domestic flights:** Even on a purely domestic German flight, cannabis in carry-on or checked luggage is problematic. The Federal Police, responsible for airport security, has an interest in discovering substances that might be assessed differently in other federal states. While cannabis is legal nationwide, the atmosphere at airports is traditionally conservative. We generally advise against taking cannabis on domestic flights.
+
+**International flights:** Anyone flying abroad is leaving German territory. Carrying cannabis on an international flight – even to a country that tolerates cannabis – constitutes a potential export upon departure from Germany, which is criminal under the KCanG. At the destination, local law also applies. **Cannabis must never be taken on international flights.**
+
+## Crossing EU Borders: A Table of Differences
+
+The EU has no unified cannabis policy. Each member state regulates cannabis independently. Taking cannabis across an EU border – even to a more tolerant country – constitutes **export** from Germany and usually **import** into the destination country. Both acts can be criminal offences.
+
+**Netherlands:** Despite the well-known coffeeshop culture, cannabis is technically still prohibited there too. Possession of up to 5 grams is tolerated in practice, but import from Germany is criminal.
+
+**Austria:** Since 2022, private cultivation of up to two plants has been decriminalised, but possession remains generally prohibited. Taking cannabis from Germany: clearly criminal.
+
+**Switzerland:** Not an EU member but a frequent travel destination. Switzerland allows CBD cannabis (under 1% THC) and has decriminalised possession of small amounts, but THC cannabis remains prohibited. Border controls are regular.
+
+**France:** One of the strictest cannabis policies in Europe. Possession is criminal and consistently prosecuted despite occasional reform discussions.
+
+**Czech Republic:** Gradual legalisation underway since 2024. Current legal situation: possession of small amounts is decriminalised, but import from Germany is criminal.
+
+## Practical Recommendations
+
+**Basic rule:** Cannabis stays at home. It does not belong in a suitcase for trips abroad.
+
+For domestic travel: when travelling by train or car within Germany, you may legally transport up to 25 grams (in public) – but you generally cannot consume it (train stations, trains, vehicles in use all fall under various consumption bans).
+
+Anyone needing medical cannabis while travelling can apply for an exemption from the Federal Institute for Drugs and Medical Devices (BfArM) under certain conditions – this is, however, an elaborate process primarily relevant for patients.`,
+    tags: ['Reisen', 'Bahn', 'Flughafen', 'EU', 'Ausland', 'Transport', 'KCanG'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['kcang-ueberblick', 'besitzmengen-konsumzonen', 'cannabis-strassenverkehr', 'fuehrerschein-cannabis'],
+  },
+
+  // ─── POLIZEIKONTROLLE RECHTE ─────────────────────────────────────────────────
+  {
+    slug: 'polizeikontrolle-rechte',
+    category: 'legal',
+    title_de: 'Meine Rechte bei einer Polizeikontrolle mit Cannabis',
+    title_en: 'My Rights During a Police Stop Involving Cannabis',
+    summary_de:
+      'Was darf die Polizei, wenn sie Cannabis riecht oder vermutet? Schweigepflicht, Körperdurchsuchung, Drogentest – ein praxisnaher Überblick über deine Rechte und Pflichten bei einer Kontrolle.',
+    summary_en:
+      'What can the police do if they smell or suspect cannabis? Right to silence, body searches, drug tests – a practical overview of your rights and obligations during a police stop.',
+    content_de: `Seit dem 1. April 2024 ist Cannabis in Deutschland teillegalisiert. Dennoch bleiben Polizeikontrollen ein Teil des Alltags für viele Konsumenten – sei es im Straßenverkehr, in Fußgängerzonen oder bei sonstigen Begegnungen mit Beamten. Wer seine Rechte kennt, kann ruhiger und informierter reagieren.
+
+## Grundregeln: Ruhe bewahren und kooperieren
+
+Das Wichtigste zuerst: Bleib ruhig. Widerstand gegen Polizeimaßnahmen ist keine gute Idee – selbst wenn du der Meinung bist, dass die Maßnahme unrechtmäßig ist, ist der richtige Weg, sie im Nachhinein anzufechten, nicht sie zu verhindern. Höflichkeit und Kooperation sind in aller Regel besser für den Ausgang einer Kontrolle als Konfrontation.
+
+## Das Schweigerecht: Du musst nichts sagen
+
+Du hast das Recht zu schweigen. Auf Fragen der Polizei musst du keine inhaltlichen Antworten geben. Du bist lediglich verpflichtet, dich auszuweisen – deinen Namen, Geburtsdatum und Wohnort zu nennen (und wenn nötig einen Ausweis vorzuzeigen). Alles andere – ob du Cannabis besitzt, wo du herkommst, was du vorhast – musst du nicht beantworten.
+
+**Praxistipp:** Sage ruhig: *„Ich mache von meinem Schweigerecht Gebrauch."* Das ist keine Aussage, die gegen dich verwendet werden kann, und verhindert, dass unüberlegte Äußerungen dich belasten.
+
+## Körperdurchsuchung: Wann ist sie erlaubt?
+
+Die Polizei darf dich nur unter bestimmten Voraussetzungen durchsuchen. Eine bloße Vermutung oder ein ungutes Gefühl reichen nicht aus. Häufig verwendete Rechtsgrundlagen:
+
+**Cannabis-Geruch als Anfangsverdacht:** Wenn Beamte Cannabis riechen, kann dies einen Anfangsverdacht auf Besitz oder Konsum begründen. Ein Anfangsverdacht berechtigt zu einer Identitätsfeststellung und unter bestimmten Umständen zu einer Durchsuchung der äußeren Kleidung oder Taschen.
+
+**Gefahrenabwehr:** Wenn die Polizei glaubt, dass du eine Gefahr darstellst, kann sie dich auch ohne konkreten Tatverdacht durchsuchen – insbesondere an sogenannten gefährlichen Orten (in manchen Bundesländern).
+
+**Dein Recht:** Du darfst fragen, auf welcher Rechtsgrundlage die Durchsuchung erfolgt. Notiere dir den Namen und die Dienstnummer der Beamten. Wenn du die Durchsuchung für rechtswidrig hältst, widerspreche verbal und ruhig – aber versuche nicht, sie körperlich zu verhindern. Kläre das hinterher juristisch.
+
+## Wenn du die erlaubte Menge bei dir hast
+
+Wenn du als Erwachsener bis zu 25 Gramm Cannabis bei dir trägst und die Beamten das feststellen, musst du mit einer Kontrolle, aber nicht mit einer Strafverfolgung rechnen. Die Beamten werden möglicherweise die Menge wiegen und dokumentieren. Wenn alles im Rahmen ist, musst du gehen gelassen werden.
+
+**Wichtig:** Mehrere Personen, die jeweils bis zu 25 Gramm bei sich haben, können in der Summe als gemeinschaftlicher Besitz gewertet werden, wenn der Umstand nahelegt, dass das Cannabis für mehrere Personen bestimmt ist. Das ist eine rechtliche Grauzone.
+
+## Drogenvortest: Urintest oder Bluttest
+
+Bei einer Verkehrskontrolle kann die Polizei einen Drogenvortest (Speichel- oder Urintest) anordnen, wenn der Verdacht besteht, dass du unter dem Einfluss von Betäubungsmitteln ein Fahrzeug geführt hast. Der THC-Grenzwert im Blutserum liegt bei 3,5 ng/ml.
+
+Du kannst die Teilnahme am Drogenvortest verweigern – musst dann aber damit rechnen, dass dies als Verweigerungshinweis gewertet wird und ein richterlich angeordneter Bluttest folgt. Der Bluttest ist dann verbindlich.
+
+**Außerhalb des Straßenverkehrs:** In normalen Personenkontrollen gibt es keine rechtliche Grundlage, einen Drogentest anzuordnen. Hier gilt das Schweigerecht vollumfänglich.
+
+## Was tun nach der Kontrolle?
+
+Dokumentiere alles so bald wie möglich: Uhrzeit, Ort, Namen der Beamten, was gesagt wurde, was beschlagnahmt wurde. Wenn du glaubst, dass deine Rechte verletzt wurden oder eine Beschlagnahme zu Unrecht erfolgte, wende dich an einen Rechtsanwalt. Viele Kanzleien bieten kostenlose Erstberatungen an.
+
+Bei Beschlagnahme von Cannabis unterhalb der Grenzmenge kannst du die Herausgabe verlangen – das Cannabis gehört dir, wenn du legal handelt.`,
+    content_en: `Since 1 April 2024, cannabis has been partially legalised in Germany. Nevertheless, police stops remain a part of everyday life for many consumers – whether on the road, in pedestrian zones, or in other encounters with officers. Knowing your rights allows you to react more calmly and with greater awareness.
+
+## Basic Rules: Stay Calm and Cooperate
+
+First things first: stay calm. Resisting police measures is not a good idea – even if you believe the measure is unlawful, the right approach is to challenge it afterwards, not to prevent it. Politeness and cooperation are generally better for the outcome of a stop than confrontation.
+
+## The Right to Silence: You Don't Have to Say Anything
+
+You have the right to remain silent. You are not required to give substantive answers to police questions. You are only obliged to identify yourself – to give your name, date of birth and address (and show ID if necessary). Everything else – whether you have cannabis, where you're coming from, what you're planning – you do not have to answer.
+
+**Practical tip:** Simply say: *"I am exercising my right to silence."* This is not a statement that can be used against you, and prevents ill-considered remarks from incriminating you.
+
+## Body Searches: When Are They Permitted?
+
+The police may only search you under certain conditions. A mere suspicion or gut feeling is not sufficient. Commonly used legal bases:
+
+**Cannabis smell as initial suspicion:** If officers smell cannabis, this can establish an initial suspicion of possession or consumption. An initial suspicion authorises identity verification and, under certain circumstances, a search of outer clothing or bags.
+
+**Preventive measures:** If police believe you pose a danger, they can search you even without a specific criminal suspicion – particularly at so-called dangerous locations (in some federal states).
+
+**Your right:** You may ask for the legal basis of the search. Note the names and badge numbers of the officers. If you consider the search unlawful, object verbally and calmly – but do not try to prevent it physically. Resolve this legally afterwards.
+
+## If You're Carrying the Permitted Amount
+
+If you are an adult carrying up to 25 grams of cannabis and officers discover this, you can expect a check but not criminal prosecution. Officers will likely weigh and document the quantity. If everything is within limits, you must be allowed to leave.
+
+**Important:** Multiple people each carrying up to 25 grams can collectively be considered joint possession if circumstances suggest the cannabis is intended for multiple persons. This is a legal grey area.
+
+## Drug Test: Urine or Blood Test
+
+During a traffic stop, police may order a drug screening test (saliva or urine) if there is suspicion that you drove a vehicle under the influence of drugs. The THC limit in blood serum is 3.5 ng/ml.
+
+You can refuse to participate in the screening test – but must then expect this to be treated as an indication of refusal, and a court-ordered blood test may follow. The blood test is then binding.
+
+**Outside of road traffic:** In regular personal stops, there is no legal basis for ordering a drug test. The right to silence applies in full.
+
+## What to Do After the Stop?
+
+Document everything as soon as possible: time, location, names of officers, what was said, what was confiscated. If you believe your rights were violated or a seizure was unjustified, consult a lawyer. Many law firms offer free initial consultations.
+
+If cannabis below the legal limit is confiscated, you can request its return – the cannabis belongs to you if you acted legally.`,
+    tags: ['Polizei', 'Kontrolle', 'Rechte', 'Schweigerecht', 'Durchsuchung', 'KCanG'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['kcang-ueberblick', 'besitzmengen-konsumzonen', 'cannabis-strassenverkehr', 'fuehrerschein-cannabis'],
+  },
 ];

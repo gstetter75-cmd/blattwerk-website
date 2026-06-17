@@ -2019,4 +2019,177 @@ This article is for information purposes and does not replace medical advice.`,
     last_updated: '2026-04-05',
     related_slugs: ['cannabis-schmerztherapie', 'endocannabinoid-system-medizin', 'medizinisches-cannabis-deutschland', 'wechselwirkungen-medikamente'],
   },
+
+  // ─── CANNABIS BEI ANGST UND PTBS ─────────────────────────────────────────────
+  {
+    slug: 'cannabis-angst-ptbs',
+    category: 'medicine',
+    title_de: 'Cannabis bei Angststörungen und PTBS: Chancen und Risiken',
+    title_en: 'Cannabis for Anxiety Disorders and PTSD: Opportunities and Risks',
+    summary_de:
+      'Cannabis kann Angst lindern – oder sie verstärken. Alles hängt von Dosis, Zusammensetzung und Person ab. Ein evidenzbasierter Überblick über Cannabis bei Angst und posttraumatischer Belastungsstörung.',
+    summary_en:
+      'Cannabis can relieve anxiety – or intensify it. Everything depends on dose, composition and individual. An evidence-based overview of cannabis for anxiety and post-traumatic stress disorder.',
+    content_de: `Cannabis und Angst stehen in einer paradoxen Beziehung: Einerseits ist "Paranoia" eine der am häufigsten berichteten unerwünschten Wirkungen von Cannabis. Andererseits ist Angstlinderung einer der häufigsten Gründe, warum Menschen Cannabis medicinal verwenden. Wie lässt sich dieser Widerspruch erklären?
+
+## Das Paradox: Cannabis als Angstauslöser und Angstlöser
+
+Die Auflösung des Paradoxes liegt in der Dosisabhängigkeit und in den Unterschieden zwischen Cannabinoiden:
+
+**THC und Angst – dosisabhängig:**
+Niedrig dosiertes THC kann anxiolytisch (angstlösend) wirken. Hoch dosiertes THC kann Angst und Paranoia auslösen, insbesondere bei unerfahrenen Konsumenten oder in unvertrauter Umgebung. Dieser biphasische Effekt ist gut dokumentiert. Die "Kippe" liegt für die meisten Menschen irgendwo zwischen 7,5 und 12,5 mg THC – eine kleine Menge für erfahrene Konsumenten, aber leicht überschritten bei unbekannten Produkten.
+
+**CBD und Angst:**
+CBD zeigt ein deutlich günstigeres Profil. In mehreren klinischen Studien konnte gezeigt werden, dass CBD angstlösende Effekte hat – ohne das Risiko, selbst Angst auszulösen. Eine vielzitierte Studie (Bergamaschi et al., 2011) zeigte, dass CBD (600 mg oral) bei Menschen mit sozialer Phobie die Angst bei einer simulierten öffentlichen Rede signifikant reduzierte.
+
+**Warum dieser Unterschied?** THC aktiviert direkt CB1-Rezeptoren in der Amygdala – dem Angstzentrum des Gehirns. Bei hoher Aktivierung kann das Angstreaktionen verstärken. CBD moduliert das Endocannabinoid-System indirekt, hemmt die Spaltung von Anandamid (einem natürlichen angstlösenden Endocannabinoid) und kann zudem 5-HT1A-Serotonin-Rezeptoren aktivieren – ähnlich wie manche Antidepressiva.
+
+## Posttraumatische Belastungsstörung (PTBS)
+
+PTBS ist vielleicht das Anwendungsgebiet, für das die Datenlage zu Cannabis am interessantesten ist. Aus folgendem Grund:
+
+**REM-Schlaf und Alpträume:** THC unterdrückt den REM-Schlaf – den Traumschlaf. Für PTBS-Patienten, die unter quälenden Rückblenden und Albträumen leiden, kann das kurzfristig heilsam sein. Mehrere Fallstudienreihen und retrospektive Studien berichten, dass Cannabis die Häufigkeit und Intensität von Albträumen bei PTBS deutlich reduziert.
+
+**Konsolidierung traumatischer Erinnerungen:** Das Endocannabinoid-System spielt eine wichtige Rolle bei der Löschung von Angsterinnerungen (Extinction Learning). Cannabinoide könnten theoretisch diesen Prozess unterstützen.
+
+**Klinische Studien:** Kontrollierte Studien zu Cannabis und PTBS sind noch selten und oft methodisch begrenzt. Eine 2021 publizierte randomisierte Pilotstudie (Bonn-Miller et al.) mit 150 PTBS-Patienten zeigte für alle untersuchten Cannabis-Formen (hoher THC, gemischt, hoch CBD) keine signifikante Überlegenheit gegenüber Placebo in der Primäroutcome-Messung – obwohl viele Teilnehmer subjektiv Verbesserungen berichteten.
+
+**Kanada: Veteranen und Cannabis:** Kanadische Kriegsveteranen mit PTBS sind seit Jahren die treibende Kraft hinter Rezepten für medizinisches Cannabis. Das kanadische Gesundheitsministerium hat Cannabis für PTBS auf bestimmte Wege genehmigt. Die Praxis ist weit verbreitet, auch wenn die Evidenz noch lückenhaft ist.
+
+## Generalisierte Angststörung und soziale Phobie
+
+Für generalisierte Angststörung (GAD) fehlt robuste klinische Evidenz für Cannabis. Problematisch ist, dass regelmäßiger Cannabis-Konsum bei Menschen mit Angststörungen zu einem Teufelskreis führen kann: Cannabis reduziert kurzfristig die Angst (negative Verstärkung), erhöht aber langfristig die Grundangst durch Toleranzentwicklung und Entzugsphänomene.
+
+Für soziale Phobie gibt es interessante CBD-Daten (s.o.), aber auch hier fehlt eine ausreichend große randomisierte klinische Studie, um Empfehlungen zu rechtfertigen.
+
+## Risiken bei Angststörungen
+
+**Suchtentwicklung als Selbstmedikation:** Wer Cannabis primär zur Angstlinderung einsetzt, entwickelt mit höherer Wahrscheinlichkeit eine problematische Nutzung als jemand, der es weniger regelmäßig konsumiert.
+
+**Rebound-Angst:** Nach dem Absetzen von regelmäßigem THC-Konsum berichten viele Menschen über erhöhte Angst ("Entzugsangst") – die dann wieder mit Cannabis behandelt wird.
+
+**Soziale Vermeidung:** Cannabis kann Vermeidungsverhalten bei sozialen Situationen verstärken, wenn Menschen nur noch in Gegenwart von Cannabis soziale Kontakte suchen.
+
+## Was BlattWerk empfiehlt
+
+Wer Cannabis bei Angststörungen oder PTBS einsetzen möchte, sollte:
+1. Einen Arzt oder eine Ärztin informieren und einbeziehen.
+2. Mit niedrig dosiertem CBD-betontem Cannabis oder reinem CBD beginnen.
+3. Auf THC-reiche Produkte besonders vorsichtig sein.
+4. Cannabis nicht als Ersatz für psychotherapeutische Behandlung nutzen.
+5. Die eigene Nutzung beobachten: Wird die Angst langfristig besser oder schlechter?`,
+    content_en: `Cannabis and anxiety are in a paradoxical relationship: on one hand, "paranoia" is one of the most frequently reported adverse effects of cannabis. On the other hand, anxiety relief is one of the most common reasons people use cannabis medicinally. How can this contradiction be explained?
+
+## The Paradox: Cannabis as Anxiety Trigger and Anxiety Reliever
+
+The resolution of the paradox lies in dose-dependence and in the differences between cannabinoids:
+
+**THC and anxiety – dose-dependent:**
+Low-dose THC can have anxiolytic (anxiety-reducing) effects. High-dose THC can trigger anxiety and paranoia, especially in inexperienced users or unfamiliar environments. This biphasic effect is well documented. The "tipping point" for most people lies somewhere between 7.5 and 12.5 mg THC.
+
+**CBD and anxiety:**
+CBD shows a significantly more favourable profile. Several clinical studies have shown that CBD has anxiety-reducing effects – without the risk of itself causing anxiety. A widely cited study (Bergamaschi et al., 2011) showed that CBD (600 mg oral) significantly reduced anxiety in people with social phobia during a simulated public speech.
+
+## Post-Traumatic Stress Disorder (PTSD)
+
+PTSD is perhaps the application area for which the cannabis data is most interesting. THC suppresses REM sleep – dream sleep. For PTSD patients suffering from distressing flashbacks and nightmares, this can be helpful in the short term. Several case series and retrospective studies report that cannabis significantly reduces the frequency and intensity of nightmares in PTSD.
+
+Canadian war veterans with PTSD have been the driving force behind medical cannabis prescriptions for years. The practice is widespread, even if the evidence is still incomplete.
+
+## Generalised Anxiety Disorder and Social Phobia
+
+For generalised anxiety disorder (GAD), robust clinical evidence for cannabis is lacking. Problematically, regular cannabis use in people with anxiety disorders can lead to a vicious cycle: cannabis reduces anxiety short-term (negative reinforcement) but increases baseline anxiety long-term through tolerance development and withdrawal phenomena.
+
+## What BlattWerk Recommends
+
+Anyone wanting to use cannabis for anxiety disorders or PTSD should: inform and involve a doctor; start with low-dose CBD-emphasised cannabis or pure CBD; be especially cautious with THC-rich products; not use cannabis as a substitute for psychotherapeutic treatment; and monitor their own use – is anxiety getting better or worse in the long term?`,
+    tags: ['Angst', 'PTBS', 'Angststörung', 'CBD', 'THC', 'Medizin', 'Trauma'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['medizinisches-cannabis-deutschland', 'cannabis-schlaf', 'wechselwirkungen-medikamente', 'endocannabinoid-system-medizin'],
+  },
+
+  // ─── CANNABIS FÜR KREBSPATIENTEN ─────────────────────────────────────────────
+  {
+    slug: 'cannabis-krebspatienten',
+    category: 'medicine',
+    title_de: 'Cannabis für Krebspatienten: Übelkeit, Schmerz und Lebensqualität',
+    title_en: 'Cannabis for Cancer Patients: Nausea, Pain and Quality of Life',
+    summary_de:
+      'Cannabis ist kein Krebsmittel – aber es kann Krebspatienten erheblich helfen: bei Übelkeit durch Chemotherapie, bei Schmerzen, Appetitlosigkeit und Schlafstörungen. Ein nüchterner Überblick.',
+    summary_en:
+      'Cannabis is not a cancer cure – but it can help cancer patients considerably: with chemotherapy-induced nausea, pain, loss of appetite and sleep disturbances. A sober overview.',
+    content_de: `Eines der häufigsten Missverständnisse über Cannabis und Krebs muss gleich zu Beginn adressiert werden: **Cannabis heilt keinen Krebs.** Die im Internet kursierende Behauptung, Cannabis töte Krebszellen oder sei ein Heilmittel für Krebs, basiert auf präklinischen Zellkultur- und Tierversuchen, die bisher keine Entsprechung in kontrollierten klinischen Studien am Menschen gefunden haben.
+
+Was Cannabis jedoch kann – und wofür es bei Krebspatienten zunehmend eingesetzt wird – ist die Linderung von Symptomen und Nebenwirkungen: Übelkeit, Schmerzen, Appetitlosigkeit, Angst und Schlafstörungen. In diesen Bereichen ist die Evidenz deutlich stärker.
+
+## Antiemetische Wirkung: Cannabis gegen Chemotherapie-Übelkeit
+
+Chemotherapie-induzierte Übelkeit und Erbrechen (CINV – Chemotherapy-Induced Nausea and Vomiting) gehören zu den belastendsten Nebenwirkungen der Krebstherapie. Für viele Patienten ist die Angst vor Übelkeit schlimmer als die Krebsdiagnose selbst.
+
+Das Endocannabinoid-System spielt eine wichtige Rolle bei der Regulation von Übelkeit und Erbrechen. CB1-Rezeptoren im Hirnstamm und im Darm sind direkt beteiligt. Das ist der Grund, warum synthetisches THC (Dronabinol) seit den 1980er Jahren zur Behandlung von CINV zugelassen ist.
+
+**Zugelassene Cannabis-basierte Medikamente:**
+- **Dronabinol (Marinol, Syndros):** Synthetisches THC, seit 1985 von der FDA für CINV zugelassen. In Deutschland ist Dronabinol verschreibungsfähig.
+- **Nabilon (Cesamet):** Ein synthetisches THC-Analogon, ebenfalls für CINV zugelassen.
+- **Nabiximols (Sativex):** Ein THC/CBD-Spray, in Deutschland für Spastizität bei MS zugelassen, wird off-label auch bei Krebsschmerzen eingesetzt.
+
+**Evidenz:** Eine Cochrane-Übersichtsarbeit aus 2015 (Tramèr et al.) analysierte 23 Studien mit über 1.300 Patienten. Das Ergebnis: Cannabinoide sind wirksamer als Placebo und vergleichbar mit herkömmlichen Antiemetika (Ondansetron, Metoclopramid), aber mit stärkerem Nebenwirkungsprofil. Für Patienten, die auf Standard-Antiemetika nicht ansprechen, sind Cannabinoide eine wichtige Option.
+
+## Schmerzlinderung bei Krebspatienten
+
+Krebsschmerzen sind oft ein Mix aus verschiedenen Schmerztypen: nozizeptiver Schmerz durch das Tumorwachstum, neuropathischer Schmerz durch Nervenschädigung (Tumor oder Chemotherapie), und entzündlicher Schmerz.
+
+Cannabis zeigt besondere Stärken bei **neuropathischen Schmerzen** – einem Bereich, in dem Opioide oft weniger effektiv sind. Die Kombination aus THC und CBD (wie in Sativex) hat in Studien bei Krebsschmerzen Wirksamkeit gezeigt, die über Placebo hinausgeht.
+
+**Opioide sparen:** Ein wichtiger Aspekt ist, dass Cannabis möglicherweise den Opioidbedarf reduzieren kann (Opioid-Sparing-Effekt). Eine 2011 publizierte Studie zeigte, dass THC/CBD-Spray die schmerzreduzierende Wirkung von Opioiden signifikant verstärkte und den Bedarf an Opioid-Dosiserhöhungen reduzierte.
+
+## Appetitlosigkeit und Gewichtsverlust (Kachexie)
+
+Gewichtsverlust und Muskelabbau (Kachexie) sind bei Krebspatienten häufig und können die Lebensqualität stark beeinträchtigen und sogar die Prognose verschlechtern. THC ist bekannt dafür, den Appetit zu stimulieren ("Munchies") – über CB1-Rezeptoren im Hypothalamus.
+
+Dronabinol ist in den USA für Anorexie bei AIDS-Patienten zugelassen und wird off-label bei Krebskachexie eingesetzt. Die Evidenz für eine Verbesserung des Gewichts ist allerdings gemischt – eine Verbesserung des subjektiven Appetits und der Lebensqualität ist besser belegt als tatsächlicher Gewichtsaufbau.
+
+## Was BlattWerk Krebspatienten empfiehlt
+
+**Gespräch mit dem Onkologen suchen:** Medizinisches Cannabis kann für Krebspatienten sinnvoll sein, sollte aber immer in Absprache mit dem behandelnden Arzt eingesetzt werden. Wechselwirkungen mit Chemotherapeutika sind möglich.
+
+**Rezeptcannabis ist der sichere Weg:** In Deutschland ist medizinisches Cannabis auf Rezept erhältlich und wird bei bestimmten Indikationen von der Krankenkasse übernommen. Das bietet Qualitätssicherung, definierte Dosierung und Arztbegleitung.
+
+**Keinen Heilungsversprechen glauben:** Produkte, die Cannabis als Krebsheilmittel vermarkten, sind unseriös und könnten dazu führen, dass Patienten bewährte schulmedizinische Behandlungen ablehnen.
+
+**Palliative Anwendung:** Im palliativen Kontext – wenn kurative Behandlung nicht mehr möglich ist – hat Cannabis einen klaren Platz als Mittel zur Verbesserung der Lebensqualität.`,
+    content_en: `One of the most common misconceptions about cannabis and cancer must be addressed right at the start: **cannabis does not cure cancer.** The claims circulating online that cannabis kills cancer cells or is a cure for cancer are based on preclinical cell culture and animal studies that have so far found no correspondence in controlled clinical trials in humans.
+
+What cannabis can do – and what it is increasingly used for in cancer patients – is relieving symptoms and side effects: nausea, pain, loss of appetite, anxiety and sleep disturbances. In these areas, the evidence is considerably stronger.
+
+## Antiemetic Effect: Cannabis Against Chemotherapy Nausea
+
+Chemotherapy-induced nausea and vomiting (CINV) is one of the most burdensome side effects of cancer therapy. The endocannabinoid system plays an important role in regulating nausea and vomiting, which is why synthetic THC (dronabinol) has been approved for CINV treatment since the 1980s.
+
+**Approved cannabis-based medications:**
+- **Dronabinol (Marinol, Syndros):** Synthetic THC, FDA-approved for CINV since 1985. Prescribable in Germany.
+- **Nabilone (Cesamet):** A synthetic THC analogue, also approved for CINV.
+- **Nabiximols (Sativex):** A THC/CBD spray, approved in Germany for MS spasticity, also used off-label for cancer pain.
+
+A 2015 Cochrane review analysing 23 studies with over 1,300 patients found: cannabinoids are more effective than placebo and comparable with conventional antiemetics, but with a stronger side effect profile.
+
+## Pain Relief in Cancer Patients
+
+Cancer pain is often a mix of pain types: nociceptive pain from tumour growth, neuropathic pain from nerve damage, and inflammatory pain. Cannabis shows particular strength with **neuropathic pain** – an area where opioids are often less effective.
+
+An important aspect is that cannabis may reduce opioid requirements (opioid-sparing effect). A 2011 study showed that THC/CBD spray significantly enhanced the pain-reducing effect of opioids and reduced the need for opioid dose increases.
+
+## Appetite Loss and Weight Loss (Cachexia)
+
+THC is known for stimulating appetite ("the munchies") – via CB1 receptors in the hypothalamus. Dronabinol is approved in the USA for anorexia in AIDS patients and used off-label for cancer cachexia.
+
+## What BlattWerk Recommends for Cancer Patients
+
+Seek dialogue with the oncologist; use medical cannabis on prescription for quality assurance and physician guidance; do not believe healing promises – products marketed as cancer cures are disreputable; in the palliative context, cannabis has a clear role in improving quality of life.`,
+    tags: ['Krebs', 'Krebstherapie', 'Übelkeit', 'Chemotherapie', 'Schmerz', 'Palliativ', 'Medizin'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-schmerztherapie', 'medizinisches-cannabis-deutschland', 'wechselwirkungen-medikamente', 'endocannabinoid-system-medizin'],
+  },
 ] as const;

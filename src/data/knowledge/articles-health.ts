@@ -1496,4 +1496,252 @@ The relationship between cannabis and sleep is multifaceted. In the short term, 
       'dosierung-einsteiger',
     ],
   },
+
+  // ─── CANNABIS UND SPORT ──────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-sport-erholung',
+    category: 'health',
+    title_de: 'Cannabis und Sport: Was die Forschung wirklich sagt',
+    title_en: 'Cannabis and Sport: What Research Actually Says',
+    summary_de:
+      'Von Regeneration bis Schmerzlinderung: Immer mehr Sportler berichten positiv über Cannabis. Was sagt die Wissenschaft? CBD, THC und der Unterschied zwischen Freizeit- und Leistungssport.',
+    summary_en:
+      'From recovery to pain relief: more and more athletes report positive experiences with cannabis. What does science say? CBD, THC and the difference between recreational and competitive sport.',
+    content_de: `Cannabis und Sport – eine Kombination, die noch vor wenigen Jahren tabu war. Heute berichten Profisportler öffentlich über CBD zur Regeneration, und Freizeitsportler fragen sich, ob Cannabis ihrem Training hilft oder schadet. Die Forschungslage ist differenzierter als die öffentliche Diskussion vermuten lässt.
+
+## Die WADA-Entscheidung: CBD ist kein Doping mehr
+
+Der Weltantidopingverband (WADA) hat CBD (Cannabidiol) im Jahr 2018 von der Verbotsliste gestrichen. CBD gilt damit im Leistungssport als erlaubte Substanz. THC hingegen ist weiterhin verboten – in Wettkampfzeiten ist der Grenzwert 150 ng/ml Urin (ein deutlich höherer Grenzwert als früher, aber immer noch ein Verbot).
+
+**Wichtig für Sportler:** Die WADA-Erlaubnis für CBD bezieht sich auf reines CBD. Vollspektrum-Extrakte und andere Cannabisprodukte können Spuren von THC enthalten, die bei Dopingkontrollen anschlagen. Wer im Leistungssport CBD-Produkte nutzt, sollte nur zertifizierte, THC-freie Präparate verwenden (Kölner Liste, Informed Sport).
+
+## CBD zur Regeneration: Potenzial und Grenzen
+
+CBD wird von vielen Sportlern primär für die Regeneration eingesetzt. Die theoretische Grundlage ist plausibel: CBD hat entzündungshemmende Eigenschaften (über Hemmung der Entzündungsmediatoren und CB2-Rezeptor-Aktivierung), kann Schlafqualität verbessern (was wiederum die Regeneration fördert) und zeigt in Studien muskelrelaxierende Effekte.
+
+**Was die Studien zeigen:** Die Forschungslage zu CBD und Sport ist noch dünn – die meisten Studien sind klein, kurz oder wurden mit Tieren durchgeführt. Eine 2020 veröffentlichte Übersichtsarbeit (McCartney et al., Sports Medicine) kommt zu dem Schluss, dass CBD-Präparate möglicherweise analgetische (schmerzlindernde) und entzündungshemmende Eigenschaften aufweisen, aber klinisch belastbare Daten für sportliche Erholung fehlen noch.
+
+**Praktische Einschätzung:** CBD schadet wahrscheinlich nicht und könnte bei einigen Athleten die Schlafqualität und das subjektive Wohlbefinden verbessern. Es ist kein Wundermittel, das Regeneration dramatisch beschleunigt.
+
+## THC und Athletik: Mehr Risiken als Nutzen
+
+THC hat ein gemischtes Verhältnis zum Sport. Einerseits berichten viele Freizeitsportler über verbesserte Fokus, reduziertes Schmerz- und Anstrengungsempfinden bei ruhigeren Aktivitäten (Yoga, Wandern, Schwimmen). Andererseits beeinträchtigt THC nachweislich:
+
+**Koordination und Reaktionszeit:** THC verlangsamt die Reaktionszeit und beeinträchtigt die motorische Koordination. Für Sportarten mit hohem Verletzungsrisiko (Klettern, Radfahren, Kampfsport) ist THC-Einfluss ein ernstes Sicherheitsrisiko.
+
+**Herzfrequenz:** THC erhöht die Herzfrequenz um 20–30 % für 1–2 Stunden nach Konsum. Bei intensivem Sport erhöht das die kardiovaskuläre Belastung. Für Menschen mit Herzerkrankungen oder Bluthochdruck ist das bedenklich.
+
+**Motivation und Ermüdung:** Langfristiger, regelmäßiger THC-Konsum kann motivationale Aspekte beeinflussen. Das sogenannte Amotivationssyndrom ist in der Forschung umstritten, aber einige Studien zeigen bei regelmäßigen Nutzern eine geringere Trainingsmotivation.
+
+**Lungenfunktion:** Rauchkonsum von Cannabis – unabhängig von THC – ist mit Bronchitis-Symptomen und verminderter Lungenfunktion verbunden. Für Ausdauersport ist das eindeutig nachteilig. Vapourisieren reduziert dieses Risiko, eliminiert es aber nicht vollständig.
+
+## Schmerz und Cannabis beim Sport
+
+Chronische Überlastungsschmerzen, Muskelkater (DOMS), arthritische Beschwerden – viele Sportler setzen Cannabis als Schmerzmittel ein, oft als Alternative zu NSAIDs (Ibuprofen, Aspirin) oder Opiaten.
+
+Die Evidenz für Cannabis als Schmerztherapeutikum ist stärker als für die Regeneration – insbesondere für neuropathische Schmerzen und Entzündungsschmerzen. Allerdings gibt es auch hier wenig sportspezifische Forschung. Was bei klinischen Schmerzpatienten funktioniert, ist nicht automatisch auf sportbedingte Schmerzen übertragbar.
+
+**Pragmatische Einschätzung:** Cannabis als gelegentliches Schmerzlinderungsmittel nach dem Sport ist für gesunde Erwachsene wahrscheinlich sicherer als die regelmäßige Einnahme von NSAIDs. Regelmäßige Abhängigkeit von Cannabis zur Schmerzbehandlung sollte ärztlich begleitet werden.
+
+## Zusammenfassung: Für welche Sportler könnte Cannabis sinnvoll sein?
+
+**CBD (legal, ohne THC):** Regeneration, Entzündungshemmung, Schlafverbesserung. Keine bekannten Risiken bei moderatem Konsum. Im Leistungssport erlaubt (bei THC-freien Produkten).
+
+**Cannabis (mit THC) im Freizeitsport:** Bei Yoga, Wandern, entspannteren Aktivitäten von manchen als förderlich erlebt. Nicht geeignet für technische Sportarten, Motorsport, Klettern. Kein Fahrzeug unter THC-Einfluss führen (3,5 ng/ml-Grenzwert im Blutserum).
+
+**Cannabis als Schmerztherapie:** Kann sinnvoll sein, sollte aber ärztlich begleitet werden, wenn es regelmäßig eingesetzt wird.`,
+    content_en: `Cannabis and sport – a combination that was taboo just a few years ago. Today, professional athletes publicly discuss CBD for recovery, and recreational athletes wonder whether cannabis helps or harms their training. The research picture is more nuanced than public discussion suggests.
+
+## The WADA Decision: CBD Is No Longer Doping
+
+The World Anti-Doping Agency (WADA) removed CBD (cannabidiol) from its prohibited list in 2018. CBD is therefore considered a permitted substance in competitive sport. THC, however, remains prohibited – during competition periods, the threshold is 150 ng/ml urine (a significantly higher threshold than before, but still a ban).
+
+**Important for athletes:** WADA's permission for CBD refers to pure CBD. Full-spectrum extracts and other cannabis products may contain traces of THC that trigger doping controls. Athletes using CBD products in competitive sport should use only certified, THC-free preparations (Kölner Liste, Informed Sport).
+
+## CBD for Recovery: Potential and Limitations
+
+Many athletes use CBD primarily for recovery. The theoretical basis is plausible: CBD has anti-inflammatory properties (through inhibition of inflammatory mediators and CB2 receptor activation), can improve sleep quality (which in turn promotes recovery), and shows muscle-relaxing effects in studies.
+
+**What studies show:** Research on CBD and sport is still sparse – most studies are small, short or conducted with animals. A 2020 review (McCartney et al., Sports Medicine) concludes that CBD preparations may have analgesic (pain-relieving) and anti-inflammatory properties, but clinically robust data for athletic recovery are still lacking.
+
+**Practical assessment:** CBD is unlikely to cause harm and could improve sleep quality and subjective well-being in some athletes. It is not a miracle cure that dramatically accelerates recovery.
+
+## THC and Athletics: More Risks Than Benefits
+
+THC has a mixed relationship with sport. On one hand, many recreational athletes report improved focus and reduced perception of pain and exertion during calmer activities (yoga, hiking, swimming). On the other hand, THC demonstrably impairs:
+
+**Coordination and reaction time:** THC slows reaction time and impairs motor coordination. For sports with a high injury risk (climbing, cycling, combat sports), THC impairment is a serious safety risk.
+
+**Heart rate:** THC increases heart rate by 20–30% for 1–2 hours after consumption. During intense exercise, this increases cardiovascular strain. For people with heart conditions or high blood pressure, this is concerning.
+
+**Motivation and fatigue:** Long-term, regular THC use can affect motivational aspects. The so-called amotivation syndrome is contested in research, but some studies show lower training motivation in regular users.
+
+**Lung function:** Smoking cannabis – regardless of THC – is associated with bronchitis symptoms and reduced lung function. For endurance sports, this is clearly disadvantageous. Vaporising reduces this risk but does not eliminate it entirely.
+
+## Pain and Cannabis in Sport
+
+Chronic overuse pain, delayed onset muscle soreness (DOMS), arthritic complaints – many athletes use cannabis as a pain reliever, often as an alternative to NSAIDs (ibuprofen, aspirin) or opiates.
+
+Evidence for cannabis as a pain therapeutic is stronger than for recovery – particularly for neuropathic pain and inflammatory pain. However, sport-specific research is also sparse here. What works for clinical pain patients is not automatically transferable to sports-related pain.
+
+**Pragmatic assessment:** Cannabis as an occasional pain reliever after sport is probably safer for healthy adults than regular NSAID use. Regular dependence on cannabis for pain management should be medically supervised.
+
+## Summary: For Which Athletes Might Cannabis Be Beneficial?
+
+**CBD (legal, without THC):** Recovery, anti-inflammation, sleep improvement. No known risks with moderate use. Permitted in competitive sport (with THC-free products).
+
+**Cannabis (with THC) in recreational sport:** Experienced as beneficial by some for yoga, hiking, more relaxed activities. Not suitable for technical sports, motorsport, climbing. Never drive a vehicle under THC influence (3.5 ng/ml threshold in blood serum).
+
+**Cannabis as pain therapy:** Can be sensible but should be medically supervised when used regularly.`,
+    tags: ['Sport', 'Regeneration', 'CBD', 'THC', 'WADA', 'Schmerz', 'Safer Use'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['safer-use-regeln', 'konsumformen-risiken', 'cannabis-und-schlaf', 'dosierung-einsteiger'],
+  },
+
+  // ─── CANNABIS IM ALTER ───────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-senioren',
+    category: 'health',
+    title_de: 'Cannabis im Alter: Besonderheiten für ältere Konsumenten',
+    title_en: 'Cannabis in Old Age: Specifics for Older Consumers',
+    summary_de:
+      'Ältere Erwachsene sind die am schnellsten wachsende Gruppe unter Cannabiskonsumenten. Was muss man dabei beachten? Pharmakologie, Wechselwirkungen und Dosierungsempfehlungen für Senioren.',
+    summary_en:
+      'Older adults are the fastest-growing group among cannabis consumers. What should be considered? Pharmacology, drug interactions and dosage recommendations for seniors.',
+    content_de: `Ältere Erwachsene ab 60 Jahren sind in Deutschland und den USA die am schnellsten wachsende Gruppe unter Cannabiskonsumenten. Viele nutzen Cannabis zur Behandlung chronischer Schmerzen, Schlafstörungen oder Angst – häufig als Alternative zu Medikamenten mit stärkeren Nebenwirkungen. Gleichzeitig bringt das Alter physiologische Veränderungen mit sich, die einen besonderen Umgang mit Cannabis erfordern.
+
+## Veränderte Pharmakologie im Alter
+
+Mit zunehmendem Alter verändert sich die Art, wie der Körper Substanzen verarbeitet. Diese Veränderungen betreffen auch Cannabis:
+
+**Verteilungsvolumen:** Ältere Menschen haben in der Regel einen höheren Körperfettanteil. Da THC lipophil (fettlöslich) ist, verteilt es sich stärker im Fettgewebe und bleibt länger im Körper. Das führt zu längerer Wirkdauer und potenziell stärkeren Effekten.
+
+**Leberstoffwechsel:** Die Leberenzymsysteme (insbesondere CYP3A4 und CYP2C9), die THC abbauen, arbeiten im Alter langsamer. Das verlängert die Halbwertszeit und kann zu Anreicherungseffekten bei regelmäßigem Konsum führen.
+
+**Gehirnsensitivität:** Das alternde Gehirn reagiert empfindlicher auf psychoaktive Substanzen. Niedrige THC-Dosen, die für jüngere Erwachsene mild sind, können bei älteren Menschen stärker ausgeprägte Effekte – einschließlich Desorientierung, Angst oder Verwirrtheit – erzeugen.
+
+**Fazit:** Für ältere Konsumenten gilt besonders das Prinzip „Start low, go slow". Die übliche Einstiegsdosis für Ältere sollte etwa halb so groß sein wie für jüngere Erwachsene, und der Schritt zur nächsten Dosis sollte deutlich langsamer erfolgen.
+
+## Sturzrisiko: Eine ernste Gefahr
+
+Stürze sind für ältere Menschen eine der häufigsten Ursachen für schwere Verletzungen und Krankenhausaufenthalte. Cannabis – insbesondere THC – kann das Sturzrisiko aus mehreren Gründen erhöhen:
+
+**Orthostatische Hypotonie:** Cannabis kann den Blutdruck kurzzeitig senken, besonders beim Aufstehen. Bei älteren Menschen, die ohnehin häufiger zu Blutdruckschwankungen neigen, kann das zu Schwindel und Stürzen führen.
+
+**Beeinträchtigte Balance:** THC beeinflusst das Kleinhirn und damit die Gleichgewichtsregulation.
+
+**Verlangsamte Reaktion:** Die verlangsamte Reaktionszeit durch THC kann dazu führen, dass Stolperfallen nicht rechtzeitig erkannt werden.
+
+**Empfehlung:** Ältere Konsumenten sollten nach dem Konsum keine Treppen steigen oder andere Aktivitäten mit Sturzgefahr durchführen. Das Konsum-Setting sollte sicher und bequem sein.
+
+## Wechselwirkungen mit Medikamenten: Besonderes Risiko
+
+Ältere Menschen nehmen häufig mehrere Medikamente gleichzeitig. Cannabis – insbesondere CBD, aber auch THC – kann mit verschiedenen Medikamenten interagieren:
+
+**Blutverdünner (Warfarin/Marcumar):** CBD hemmt das Enzym CYP2C9, das Warfarin abbaut. Das kann zu erhöhten Warfarin-Spiegeln und erhöhtem Blutungsrisiko führen. Regelmäßige INR-Kontrollen sind wichtig.
+
+**Blutdrucksenker:** Cannabis kann Blutdrucksenker in ihrer Wirkung verstärken und zu unerwünschtem Blutdruckabfall führen.
+
+**Schlafmittel/Beruhigungsmittel:** Additive Wirkung mit Benzodiazepinen und anderen ZNS-dämpfenden Substanzen. Erhöhtes Risiko für Sedierung und Atemprobleme.
+
+**Herzmedikamente:** THC erhöht die Herzfrequenz und kann bei Herzpatienten problematisch sein. Menschen mit Herzrhythmusstörungen oder koronarer Herzerkrankung sollten Cannabis nur unter ärztlicher Aufsicht verwenden.
+
+**Grundregel:** Ältere Cannabis-Konsumenten mit regelmäßiger Medikation sollten ihren Arzt informieren und mögliche Wechselwirkungen besprechen.
+
+## Konsumformen für ältere Erwachsene
+
+Die Konsumform beeinflusst das Risikoprofil erheblich:
+
+**Inhalation (Rauchen, Dampfen):** Rauchen ist für ältere Personen mit eingeschränkter Lungenfunktion (COPD, Asthma) nicht geeignet. Vapourisieren ist weniger schädlich für die Lungen, erfordert aber technisches Geschick.
+
+**Orale Einnahme (Öle, Kapseln, Edibles):** Für viele ältere Konsumenten die bevorzugte Form. Vorteile: keine Lungenbelastung, diskret, genaue Dosierung möglich. Nachteile: verzögerter Wirkungseintritt (1–3 Stunden), Gefahr der Überdosierung wenn die Wirkung nicht schnell genug einsetzt.
+
+**Topische Anwendung (Salben, Cremes):** Für lokale Schmerzlinderung (Arthritis, Muskelschmerzen) ist topisches CBD eine Option ohne systemische Wirkung.
+
+## Positive Anwendungsbereiche für Senioren
+
+Trotz der Risiken berichten viele ältere Konsumenten von erheblichem Nutzen:
+
+**Chronische Schmerzen:** Einer der häufigsten Gründe für Cannabis-Nutzung bei Senioren. Arthritis, Rückenschmerzen, neuropathische Schmerzen – Cannabis kann eine ergänzende Therapieoption sein.
+
+**Schlafstörungen:** Altersbedingter Schlafmangel ist weit verbreitet. THC kann die Einschlafzeit verkürzen; CBD kann die Schlafqualität verbessern.
+
+**Appetitlosigkeit:** Bei krebsbedingter Kachexie oder altersbedingt vermindertem Appetit kann THC die Nahrungsaufnahme fördern.
+
+**Angst und Wohlbefinden:** Niedrig dosiertes CBD kann Angstsymptome lindern ohne die Risiken von Benzodiazepinen.
+
+## Fazit
+
+Cannabis kann für ältere Erwachsene eine sinnvolle Ergänzung zur bestehenden Therapie sein – aber nur mit erhöhter Vorsicht. Start low, go slow gilt hier mehr als überall sonst. Arztgespräch vor dem Start, besonders bei Polypharmazie, ist essenziell.`,
+    content_en: `Older adults aged 60 and over are the fastest-growing group of cannabis consumers in Germany and the USA. Many use cannabis to treat chronic pain, sleep disorders or anxiety – often as an alternative to medications with stronger side effects. At the same time, age brings physiological changes that require a particular approach to cannabis.
+
+## Changed Pharmacology With Age
+
+As we age, the way the body processes substances changes. These changes also affect cannabis:
+
+**Volume of distribution:** Older people generally have a higher body fat percentage. Since THC is lipophilic (fat-soluble), it distributes more strongly in fat tissue and remains in the body longer. This leads to longer duration of action and potentially stronger effects.
+
+**Liver metabolism:** The liver enzyme systems (particularly CYP3A4 and CYP2C9) that break down THC work more slowly with age. This prolongs the half-life and can lead to accumulation with regular use.
+
+**Brain sensitivity:** The ageing brain is more sensitive to psychoactive substances. Low THC doses that are mild for younger adults can produce more pronounced effects in older people – including disorientation, anxiety or confusion.
+
+**Conclusion:** The "start low, go slow" principle applies especially to older consumers. The usual starting dose for older adults should be about half that for younger adults, and the step to the next dose should be considerably slower.
+
+## Fall Risk: A Serious Danger
+
+Falls are one of the most common causes of serious injuries and hospitalisation for older people. Cannabis – particularly THC – can increase fall risk for several reasons:
+
+**Orthostatic hypotension:** Cannabis can briefly lower blood pressure, especially when standing up. In older people who are already more prone to blood pressure fluctuations, this can lead to dizziness and falls.
+
+**Impaired balance:** THC affects the cerebellum and thus balance regulation.
+
+**Slowed reaction:** The slowed reaction time caused by THC can mean that trip hazards are not recognised in time.
+
+**Recommendation:** Older consumers should not climb stairs or engage in other activities with fall risk after consumption. The consumption setting should be safe and comfortable.
+
+## Drug Interactions: Special Risk
+
+Older people often take several medications simultaneously. Cannabis – particularly CBD but also THC – can interact with various medications:
+
+**Blood thinners (warfarin/Marcumar):** CBD inhibits the enzyme CYP2C9, which breaks down warfarin. This can lead to elevated warfarin levels and increased bleeding risk. Regular INR monitoring is important.
+
+**Blood pressure medications:** Cannabis can enhance the effect of antihypertensives and lead to undesirable blood pressure drops.
+
+**Sleep aids/sedatives:** Additive effect with benzodiazepines and other CNS-depressant substances. Increased risk of sedation and breathing problems.
+
+**Heart medications:** THC increases heart rate and can be problematic for cardiac patients. People with arrhythmias or coronary artery disease should use cannabis only under medical supervision.
+
+**Basic rule:** Older cannabis consumers with regular medication should inform their doctor and discuss possible interactions.
+
+## Consumption Methods for Older Adults
+
+The consumption method significantly influences the risk profile:
+
+**Inhalation (smoking, vaping):** Smoking is unsuitable for older people with impaired lung function (COPD, asthma). Vaporising is less harmful to the lungs but requires technical skill.
+
+**Oral intake (oils, capsules, edibles):** The preferred form for many older consumers. Advantages: no lung stress, discreet, precise dosing possible. Disadvantages: delayed onset of effect (1–3 hours), risk of overdose if the effect doesn't come quickly enough.
+
+**Topical application (ointments, creams):** For local pain relief (arthritis, muscle pain), topical CBD is an option without systemic effects.
+
+## Positive Applications for Seniors
+
+Despite the risks, many older consumers report considerable benefit:
+
+**Chronic pain:** One of the most common reasons for cannabis use among seniors. Arthritis, back pain, neuropathic pain – cannabis can be a complementary therapy option.
+
+**Sleep disorders:** Age-related sleep loss is widespread. THC can shorten sleep onset time; CBD can improve sleep quality.
+
+**Loss of appetite:** For cancer-related cachexia or age-related reduced appetite, THC can promote food intake.
+
+**Anxiety and wellbeing:** Low-dose CBD can relieve anxiety symptoms without the risks of benzodiazepines.
+
+## Conclusion
+
+Cannabis can be a sensible complement to existing therapy for older adults – but only with heightened caution. Start low, go slow applies here more than anywhere else. A doctor's consultation before starting, especially with polypharmacy, is essential.`,
+    tags: ['Senioren', 'Alter', 'Wechselwirkungen', 'Dosierung', 'Sturzrisiko', 'Safer Use'],
+    reading_time: 9,
+    last_updated: '2026-06-17',
+    related_slugs: ['dosierung-einsteiger', 'safer-use-regeln', 'konsumformen-risiken', 'cannabis-und-schlaf'],
+  },
 ];

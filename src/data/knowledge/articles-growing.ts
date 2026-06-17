@@ -2122,4 +2122,302 @@ The scientific evidence for the effectiveness of flushing is limited. A widely c
     last_updated: '2026-04-06',
     related_slugs: ['indoor-anbau-grundlagen', 'trocknung-fermentierung', 'naehrstoffe-duengung'],
   },
+
+  // ─── AUTOFLOWERING ───────────────────────────────────────────────────────────
+  {
+    slug: 'autoflowering-anbau',
+    category: 'growing',
+    title_de: 'Autoflowering-Sorten: Anbau ohne Lichtzyklus',
+    title_en: 'Autoflowering Strains: Growing Without Light Cycles',
+    summary_de:
+      'Autoflowering-Sorten blühen unabhängig vom Lichtzyklus – dank Cannabis-ruderalis-Genetik. Für Einsteiger und CSC-Anbauprojekte ein interessanter Ansatz mit spezifischen Anforderungen.',
+    summary_en:
+      'Autoflowering strains flower independently of the light cycle – thanks to Cannabis ruderalis genetics. An interesting approach for beginners and CSC growing projects with specific requirements.',
+    content_de: `Autoflowering-Sorten haben die Cannabiszucht revolutioniert. Statt auf Lichtsignale zu warten, beginnen sie nach einer genetisch festgelegten Zeitspanne automatisch zu blühen – unabhängig davon, ob die Tage kürzer werden. Das macht sie besonders interessant für Einsteiger, den Outdoor-Anbau und Szenarien, in denen mehrere Ernten pro Jahr geplant sind.
+
+## Cannabis Ruderalis: Die genetische Basis
+
+Die Fähigkeit zur automatischen Blüte stammt aus Cannabis ruderalis, einer Unterart aus Zentralasien und Sibirien. Ruderalis-Pflanzen mussten sich in einem Klima mit kurzen Sommern und unberechenbarer Tageslänge durchsetzen – die Lösung der Evolution war, die Blüte an das Alter der Pflanze statt an die Lichtdauer zu koppeln.
+
+Modernes Autoflowering-Saatgut ist das Ergebnis jahrelanger Kreuzungen zwischen Ruderalis und leistungsstarken Indica- oder Sativa-Sorten. Die frühen Autos der 2000er und frühen 2010er Jahre hatten noch niedrigen THC-Gehalt und bescheidene Erträge. Die Sorten der dritten und vierten Generation, die heute auf dem Markt sind, haben diesen Rückstand weitgehend aufgeholt.
+
+## Zeitlicher Ablauf: Seed to Harvest in 60–80 Tagen
+
+Der wichtigste praktische Vorteil von Autoflowering-Sorten ist die kurze Gesamtdauer. Während photoperiodische Sorten 3–4 Monate brauchen (Veg + Blüte), schließt eine Autoflowering-Sorte ihren Zyklus in der Regel in 60–80 Tagen vom Samen bis zur Ernte ab.
+
+**Woche 1–2:** Keimung und Sämlingsstadium. Die Wurzel entwickelt sich, die ersten echten Blätter erscheinen. Sensibler Abschnitt – keine Überdüngung.
+
+**Woche 3–4:** Vegetative Phase. Die Pflanze wächst schnell. Erste Blütenansätze können bereits in Woche 3–4 sichtbar werden, ohne dass der Lichtzyklus geändert wird.
+
+**Woche 5–9:** Blüte. Die Pflanze konzentriert alle Energie auf die Blütenentwicklung. Trichomproduktion nimmt zu, Geruch intensiviert sich.
+
+**Woche 8–10:** Ernte (sortenabhängig). Trichomkontrolle wie bei photoperiodischen Sorten entscheidet über den genauen Zeitpunkt.
+
+## Lichtzyklus: 18/6 oder 20/4 als Standard
+
+Da Autoflowering-Sorten kein 12/12-Signal brauchen, kann der Lichtzyklus während des gesamten Lebenszyklus konstant gehalten werden. Die meisten Grower wählen zwischen:
+
+**18 Stunden Licht / 6 Stunden Dunkel:** Die häufigste Einstellung. Gutes Wachstum, moderate Stromkosten, ähnelt dem natürlichen Sommertag.
+
+**20/4 oder sogar 24/0:** Autos können auch unter konstantem Licht wachsen. 20/4 gilt als guter Kompromiss zwischen maximaler Lichtmenge und kurzer Erholungsphase für die Pflanze.
+
+## Substrat und Nährstoffe: Leichter als bei Photoperiodischen
+
+Autoflowering-Pflanzen sind kleiner und wachsen schneller – das bedeutet, sie benötigen ein leichteres, weniger nährstoffreiches Substrat als ihre photoperiodischen Verwandten. Zu viele Nährstoffe in frühen Stadien können die Entwicklung hemmen.
+
+**Empfohlene Mischung:** 70 % lockeres Blumenerde-Qualitätssubstrat + 30 % Perlite. Dies sorgt für gute Drainage und ausreichend Sauerstoff an der Wurzel.
+
+**Nährstoffdosierung:** Beginne mit halber Empfehlungsdosis und erhöhe vorsichtig nach Bedarf. Autos reagieren empfindlicher auf Überdüngung als große Photoperiodische.
+
+**Topfgröße:** 7–11 Liter sind für die meisten Autoflowering-Sorten ausreichend. Da Autos nur einmal umgetopft werden sollten (oder besser gar nicht), direkt in den Endtopf setzen.
+
+## Erträge und Qualität: Aufgeholt, aber noch Unterschiede
+
+Moderne Autoflowering-Sorten können unter optimalen Bedingungen 80–150 Gramm pro Pflanze erreichen. Leistungsstarke Sorten wie Wedding Cake Auto, Gorilla Glue Auto oder Bruce Banner Auto liefern Werte, die mit guten Photoperiodischen konkurrieren.
+
+Der THC-Gehalt liegt bei hochwertigen Autos heute bei 20–25 %, vereinzelt darüber. Das Terpenprofil ist ebenfalls deutlich besser geworden. Dennoch: Unter gleichen Bedingungen produzieren Photoperiodische in der Regel mehr Gesamtertrag, da sie länger in der vegetativen Phase gehalten werden können.
+
+## Outdoor: Mehrfachernte in einer Saison
+
+Für den Außenanbau sind Autoflowering-Sorten eine besondere Option. In Deutschland ermöglicht die kurze Kulturdauer von 60–80 Tagen theoretisch bis zu zwei Ernten zwischen Mai und Oktober – vorausgesetzt, die Temperaturen stimmen.
+
+**Praktischer Ablauf Outdoor (Deutschland):**
+- Erste Aussaat: Mitte Mai (nach letzten Frösten)
+- Erste Ernte: Mitte Juli bis Anfang August
+- Zweite Aussaat: Anfang Juli
+- Zweite Ernte: Mitte September
+
+Der Outdoor-Anbau von bis zu drei weiblichen Pflanzen ist nach dem KCanG für Volljährige erlaubt – Autoflowering-Sorten eignen sich dafür gut, da keine Lichtsteuerung nötig ist.
+
+## Häufige Fehler mit Autos
+
+**Umtopfen:** Autos haben eine feste Zeitplan. Jeder Stress durch Umtopfen kostet Entwicklungszeit, die nicht aufgeholt werden kann. Direkt in den Endtopf säen oder keimen lassen.
+
+**Zu viel Dünger:** Besonders in den ersten drei Wochen. Autos starten in der Regel mit dem, was das Substrat liefert – externe Nährstoffgaben erst ab Woche 3–4.
+
+**Zu kleiner Topf:** Wurzelbeschränkung limitiert das Wachstum direkt. Mindestens 7 Liter, für große Sorten 11–15 Liter.
+
+**Zu wenig Licht:** Autos sind keine Wundermittel bei schlechten Lichtbedingungen. 400–600 µmol/m²/s PPFD ist das Minimum für ordentliche Ergebnisse.`,
+    content_en: `Autoflowering strains have revolutionised cannabis cultivation. Instead of waiting for light signals, they automatically start flowering after a genetically fixed period – regardless of whether days are getting shorter. This makes them particularly interesting for beginners, outdoor growing, and scenarios where multiple harvests per year are planned.
+
+## Cannabis Ruderalis: The Genetic Basis
+
+The ability to flower automatically comes from Cannabis ruderalis, a subspecies from Central Asia and Siberia. Ruderalis plants had to survive in a climate with short summers and unpredictable day length – evolution's solution was to link flowering to the plant's age rather than light duration.
+
+Modern autoflowering seed stock is the result of years of crosses between ruderalis and high-performing indica or sativa varieties. Early autos from the 2000s and early 2010s had low THC content and modest yields. Third and fourth generation varieties available today have largely closed this gap.
+
+## Timeline: Seed to Harvest in 60–80 Days
+
+The most important practical advantage of autoflowering strains is the short total duration. While photoperiodic strains take 3–4 months (veg + flower), an autoflowering strain typically completes its cycle in 60–80 days from seed to harvest.
+
+**Week 1–2:** Germination and seedling stage. The root develops, first true leaves appear. A sensitive period – no overfeeding.
+
+**Week 3–4:** Vegetative phase. The plant grows rapidly. First flower sites can become visible as early as week 3–4 without changing the light cycle.
+
+**Week 5–9:** Flowering. The plant concentrates all energy on flower development. Trichome production increases, aroma intensifies.
+
+**Week 8–10:** Harvest (strain-dependent). Trichome inspection, as with photoperiodic strains, determines the exact timing.
+
+## Light Cycle: 18/6 or 20/4 as Standard
+
+Since autoflowering strains don't need a 12/12 signal, the light cycle can be kept constant throughout the entire life cycle. Most growers choose between:
+
+**18 hours light / 6 hours dark:** The most common setting. Good growth, moderate electricity costs, similar to a natural summer day.
+
+**20/4 or even 24/0:** Autos can also grow under constant light. 20/4 is considered a good compromise between maximum light and a brief recovery period for the plant.
+
+## Substrate and Nutrients: Lighter Than for Photoperiodics
+
+Autoflowering plants are smaller and grow faster – meaning they need a lighter, less nutrient-rich substrate than their photoperiodic counterparts. Too many nutrients in early stages can inhibit development.
+
+**Recommended mix:** 70% quality potting soil + 30% perlite. This ensures good drainage and sufficient oxygen at the root.
+
+**Nutrient dosing:** Start at half the recommended dose and increase carefully as needed. Autos are more sensitive to overfeeding than large photoperiodics.
+
+**Pot size:** 7–11 litres is sufficient for most autoflowering strains. Since autos should only be transplanted once (or ideally not at all), plant directly into the final pot.
+
+## Yields and Quality: Caught Up, But Still Differences
+
+Modern autoflowering strains can achieve 80–150 grams per plant under optimal conditions. High-performance strains like Wedding Cake Auto, Gorilla Glue Auto, or Bruce Banner Auto deliver results that compete with good photoperiodics.
+
+THC content in premium autos today reaches 20–25%, occasionally higher. The terpene profile has also improved significantly. Nevertheless: under the same conditions, photoperiodics generally produce more total yield since they can be kept in the vegetative phase longer.
+
+## Outdoors: Multiple Harvests in One Season
+
+For outdoor growing, autoflowering strains are a special option. In Germany, the short cultivation period of 60–80 days theoretically allows up to two harvests between May and October – provided temperatures cooperate.
+
+**Practical outdoor schedule (Germany):**
+- First sowing: mid-May (after last frosts)
+- First harvest: mid-July to early August
+- Second sowing: early July
+- Second harvest: mid-September
+
+Outdoor growing of up to three female plants is permitted under the KCanG for adults – autoflowering strains are well-suited for this as no light management is needed.
+
+## Common Mistakes with Autos
+
+**Transplanting:** Autos operate on a fixed schedule. Any stress from transplanting costs development time that cannot be recovered. Sow or germinate directly in the final pot.
+
+**Too much fertiliser:** Especially in the first three weeks. Autos generally start with what the substrate provides – external nutrient additions from week 3–4 at the earliest.
+
+**Too small a pot:** Root restriction directly limits growth. Minimum 7 litres, for large strains 11–15 litres.
+
+**Too little light:** Autos are not a miracle solution under poor light conditions. 400–600 µmol/m²/s PPFD is the minimum for decent results.`,
+    tags: ['Autoflowering', 'Anbau', 'Ruderalis', 'Einsteiger', 'Outdoor'],
+    reading_time: 9,
+    last_updated: '2026-06-17',
+    related_slugs: ['indoor-anbau-grundlagen', 'bluetephase-cannabis', 'beleuchtung-led-guide', 'cannabis-sorten-anfaenger'],
+  },
+
+  // ─── KLIMASTEUERUNG / VPD ────────────────────────────────────────────────────
+  {
+    slug: 'klima-feuchte-co2',
+    category: 'growing',
+    title_de: 'Klimasteuerung im Growroom: VPD, Temperatur und CO₂',
+    title_en: 'Climate Control in the Grow Room: VPD, Temperature and CO₂',
+    summary_de:
+      'Optimale Klimabedingungen sind der Schlüssel zu gesunden Pflanzen und hohem Ertrag. Vapor Pressure Deficit (VPD), Temperaturfenster, Luftfeuchtigkeit und CO₂-Einsatz im Überblick.',
+    summary_en:
+      'Optimal climate conditions are the key to healthy plants and high yields. Vapor Pressure Deficit (VPD), temperature windows, humidity targets and CO₂ use explained.',
+    content_de: `Licht bekommt im Cannabisanbau die meiste Aufmerksamkeit – dabei ist das Klima im Growroom mindestens genauso wichtig. Temperatur, Luftfeuchtigkeit, Luftzirkulation und CO₂-Konzentration beeinflussen direkt, wie effizient die Pflanze Photosynthese betreibt, wie gut sie Nährstoffe aufnimmt und wie hoch ihr Resistenz gegen Schädlinge und Pilze ist.
+
+## Vapor Pressure Deficit (VPD): Das unterschätzte Konzept
+
+VPD ist der entscheidende Parameter für optimales Pflanzenwachstum – wird aber von vielen Growern noch immer vernachlässigt. VPD beschreibt die Differenz zwischen dem Wasserdampfdruck, den die Luft bei einer bestimmten Temperatur aufnehmen kann (Sättigungsdampfdruck), und dem tatsächlich vorhandenen Wasserdampfdruck.
+
+Einfach gesagt: VPD misst, wie „durstig" die Luft ist. Hoher VPD bedeutet, die Luft ist trocken und saugt aggressiv Feuchtigkeit aus den Blättern. Niedriger VPD bedeutet, die Luft ist fast gesättigt und die Pflanze kann kaum noch transpirieren.
+
+**Warum VPD wichtig ist:** Die Pflanze reguliert ihren Wasserhaushalt über die Stomata (Spaltöffnungen). Sind die Stomata offen, verdunsten Wasser und nehmen gleichzeitig CO₂ auf – Voraussetzung für Photosynthese. Zu hoher VPD zwingt die Stomata zum Schließen (Schutz vor Austrocknung). Zu niedriger VPD verlangsamt die Transpiration und damit die Nährstoffaufnahme.
+
+**Optimale VPD-Werte:**
+- Sämlingsstadium: 0,4–0,8 kPa
+- Vegetative Phase: 0,8–1,2 kPa
+- Frühe Blüte: 1,0–1,5 kPa
+- Späte Blüte: 1,5–2,0 kPa
+
+VPD-Tabellen (abhängig von Temperatur und rF) findest du online oder als Poster für den Growroom. Viele moderne Grow-Controller berechnen den VPD automatisch.
+
+## Temperatur: Phasenbezogene Empfehlungen
+
+Cannabis wächst in einem weiten Temperaturbereich, hat aber klare Präferenzen:
+
+**Vegetative Phase (Lichtphase):** 22–28 °C ideal. Unterhalb von 18 °C verlangsamt sich das Wachstum deutlich. Über 30 °C beginnt Hitzestress.
+
+**Blütephase (Lichtphase):** 20–26 °C ideal. Niedrigere Temperaturen (20–22 °C) in der späten Blüte können die Terpenproduktion und Harzqualität verbessern. Temperaturen über 28 °C in der Blüte zerstören Terpene und können die Cannabinoidqualität beeinträchtigen.
+
+**Dunkelphase:** Die Temperatur sollte 5–8 °C unter der Lichtphasentemperatur liegen – Tagestemperaturschwankungen von 5–10 °C sind normal und fördern das Wachstum, wenn sie kontrolliert verlaufen.
+
+**Wurzelzone:** Wurzeln mögen es etwas kühler als die Blätter. 18–22 °C in der Wurzelzone ist optimal. Nasse, kalte Substrate verlangsamen die Nährstoffaufnahme erheblich.
+
+## Relative Luftfeuchtigkeit (rF): Phase für Phase optimieren
+
+**Sämlingsstadium:** 65–80 % rF. Sämlinge haben noch kein ausgereiftes Wurzelsystem und nehmen viel Feuchtigkeit über die Blätter auf. Hohe Luftfeuchtigkeit ist hier vorteilhaft.
+
+**Vegetative Phase:** 50–70 % rF. Die Pflanze transpiriert aktiv und kann hohe Luftfeuchtigkeit gut verwerten.
+
+**Frühe Blüte:** 40–60 % rF. Mit zunehmender Blütedichte steigt die Gefahr von Schimmel.
+
+**Späte Blüte:** 35–45 % rF. In den letzten 2–3 Wochen vor der Ernte ist niedrige Luftfeuchtigkeit entscheidend, um Botrytis (Grauschimmel) in den dichten Blütenständen zu verhindern. Dies ist der häufigste Erntefehler: zu hohe Luftfeuchtigkeit in der Reifephase.
+
+**Ausrüstung:** Ein Entfeuchter ist in der Blütephase oft unverzichtbar, besonders in feuchteren Klimazonen oder bei großen Pflanzenbeständen. Günstige Entfeuchter mit 10–20 Liter/Tag Kapazität reichen für kleinere Growrooms aus.
+
+## Luftzirkulation vs. Abluft: Zwei verschiedene Systeme
+
+**Luftzirkulation (intern):** Ventilatoren, die Luft innerhalb des Growrooms bewegen. Sie stärken die Stämme (Thigmomorphogenese), verteilen CO₂ gleichmäßig, verhindern feuchte Totzonen und reduzieren Schimmelgefahr. Mindestens ein Oszillationsventilator pro Growroom ist Pflicht.
+
+**Abluft (extern):** Aktivkohlefilter + Abluftventilator, der Luft aus dem Growroom nach außen führt. Geruchskontrolle, Temperaturreguliierung und CO₂-Erneuerung. Faustformel: Die Luft im Growroom sollte 1–3 Mal pro Minute ausgetauscht werden.
+
+**Berechnung der Lüfterleistung:** Volumen des Growrooms (m³) × 60 × Faktor (1–3) = benötigte m³/Stunde. Für einen 2 m × 2 m × 2 m Growroom (8 m³): 8 × 60 × 2 = 960 m³/h als Ausgangspunkt.
+
+## CO₂-Anreicherung: Nur für fortgeschrittene Setups
+
+Pflanzen brauchen CO₂ für die Photosynthese. In der natürlichen Außenluft liegt der CO₂-Gehalt bei etwa 420 ppm. Durch CO₂-Anreicherung kann man die Konzentration auf 1.000–1.500 ppm erhöhen und damit das Pflanzenwachstum deutlich beschleunigen.
+
+**Wichtige Voraussetzungen für CO₂-Einsatz:**
+1. Die Beleuchtung muss leistungsstark genug sein (mindestens 800–1000 µmol/m²/s PPFD). Bei schwächerem Licht limitiert nicht das CO₂, sondern die Lichtenergie das Wachstum.
+2. Temperaturen müssen erhöht werden (26–30 °C), da Pflanzen bei höherer Temperatur + CO₂ effizienter photosynthetisieren.
+3. Das System muss abgedichtet sein – bei offener Lüftung verpufft das CO₂ sofort.
+
+**CO₂-Quellen:** Flaschen mit Druckminderer und Controller, CO₂-Generatoren (verbrennen Propan/Butan), natürliche CO₂-Beutel (geringer Effekt).
+
+**Fazit CO₂:** Für die meisten Hobby- und CSC-Setups ist CO₂-Anreicherung nicht notwendig. Optimiertes Klima, optimale Nährstoffe und optimales Licht haben einen größeren Effekt auf den Ertrag als CO₂.
+
+## Monitoring: Hygrometer und Controller
+
+Zuverlässige Messung ist die Grundlage für gutes Klimamanagement. Ein gutes digitales Thermo-Hygrometer (Kombination aus Thermometer und Feuchtigkeitsmesser) mit Min/Max-Aufzeichnung kostet 10–30 Euro und ist unverzichtbar.
+
+Für größere Setups empfehlen sich Grow-Controller, die Temperatur, rF und VPD kontinuierlich messen und Lüfter, Entfeuchter und Heizung automatisch steuern. Marken wie Trolmaster, Inkbird oder Autopilot bieten zuverlässige Produkte im mittleren Preissegment.`,
+    content_en: `Lighting gets the most attention in cannabis growing – yet the climate in the grow room is at least as important. Temperature, humidity, air circulation and CO₂ concentration directly influence how efficiently the plant photosynthesises, how well it absorbs nutrients, and how resistant it is to pests and fungi.
+
+## Vapor Pressure Deficit (VPD): The Underestimated Concept
+
+VPD is the decisive parameter for optimal plant growth – yet it is still neglected by many growers. VPD describes the difference between the water vapour pressure the air can absorb at a given temperature (saturation vapour pressure) and the water vapour pressure actually present.
+
+Simply put: VPD measures how "thirsty" the air is. High VPD means the air is dry and aggressively draws moisture from the leaves. Low VPD means the air is nearly saturated and the plant can barely transpire.
+
+**Why VPD matters:** Plants regulate their water balance through stomata (pores in leaves). When stomata are open, water evaporates while simultaneously absorbing CO₂ – a prerequisite for photosynthesis. Too-high VPD forces stomata to close (protection against drying out). Too-low VPD slows transpiration and thus nutrient uptake.
+
+**Optimal VPD values:**
+- Seedling stage: 0.4–0.8 kPa
+- Vegetative phase: 0.8–1.2 kPa
+- Early flowering: 1.0–1.5 kPa
+- Late flowering: 1.5–2.0 kPa
+
+VPD tables (depending on temperature and RH) are available online or as posters for the grow room. Many modern grow controllers calculate VPD automatically.
+
+## Temperature: Phase-Based Recommendations
+
+Cannabis grows across a wide temperature range but has clear preferences:
+
+**Vegetative phase (light period):** 22–28 °C ideal. Below 18 °C, growth slows significantly. Above 30 °C, heat stress begins.
+
+**Flowering phase (light period):** 20–26 °C ideal. Lower temperatures (20–22 °C) in late flowering can improve terpene production and resin quality. Temperatures above 28 °C in flowering destroy terpenes and can impair cannabinoid quality.
+
+**Dark period:** Temperature should be 5–8 °C below the light period temperature – day temperature swings of 5–10 °C are normal and promote growth when controlled.
+
+**Root zone:** Roots prefer slightly cooler conditions than leaves. 18–22 °C in the root zone is optimal. Wet, cold substrates significantly slow nutrient uptake.
+
+## Relative Humidity (RH): Optimise Phase by Phase
+
+**Seedling stage:** 65–80 % RH. Seedlings don't yet have a mature root system and absorb much moisture through their leaves. High humidity is advantageous here.
+
+**Vegetative phase:** 50–70 % RH. The plant transpires actively and can utilise high humidity well.
+
+**Early flowering:** 40–60 % RH. With increasing flower density, the risk of mould rises.
+
+**Late flowering:** 35–45 % RH. In the last 2–3 weeks before harvest, low humidity is critical to prevent Botrytis (grey mould) in dense flower clusters. This is the most common harvest mistake: humidity too high during the ripening phase.
+
+**Equipment:** A dehumidifier is often indispensable during flowering, especially in more humid climates or with large plant populations. Affordable dehumidifiers with 10–20 litres/day capacity are sufficient for smaller grow rooms.
+
+## Air Circulation vs. Exhaust: Two Different Systems
+
+**Internal circulation:** Fans that move air within the grow room. They strengthen stems (thigmomorphogenesis), distribute CO₂ evenly, prevent humid dead zones and reduce mould risk. At least one oscillating fan per grow room is essential.
+
+**Exhaust (external):** Carbon filter + exhaust fan drawing air out of the grow room. Odour control, temperature regulation and CO₂ renewal. Rule of thumb: the air in the grow room should be exchanged 1–3 times per minute.
+
+**Calculating fan capacity:** Room volume (m³) × 60 × factor (1–3) = required m³/hour. For a 2 m × 2 m × 2 m grow room (8 m³): 8 × 60 × 2 = 960 m³/h as a starting point.
+
+## CO₂ Enrichment: Only for Advanced Setups
+
+Plants need CO₂ for photosynthesis. Natural outdoor air contains approximately 420 ppm of CO₂. Through CO₂ enrichment, the concentration can be raised to 1,000–1,500 ppm, significantly accelerating plant growth.
+
+**Important prerequisites for CO₂ use:**
+1. Lighting must be powerful enough (at least 800–1,000 µmol/m²/s PPFD). With weaker lights, light energy – not CO₂ – limits growth.
+2. Temperatures must be increased (26–30 °C), as plants photosynthesise more efficiently at higher temperature + CO₂.
+3. The system must be sealed – with open ventilation, CO₂ dissipates immediately.
+
+**CO₂ sources:** Cylinders with pressure regulator and controller, CO₂ generators (burning propane/butane), natural CO₂ bags (limited effect).
+
+**CO₂ conclusion:** For most hobby and CSC setups, CO₂ enrichment is not necessary. Optimised climate, optimal nutrients and optimal lighting have a greater impact on yield than CO₂.
+
+## Monitoring: Hygrometers and Controllers
+
+Reliable measurement is the foundation of good climate management. A good digital thermo-hygrometer (combining thermometer and humidity gauge) with min/max recording costs €10–30 and is indispensable.
+
+For larger setups, grow controllers that continuously measure temperature, RH and VPD and automatically control fans, dehumidifiers and heaters are recommended.`,
+    tags: ['Klima', 'VPD', 'Luftfeuchtigkeit', 'Temperatur', 'CO2', 'Growroom'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['indoor-anbau-grundlagen', 'schaedlinge-krankheiten', 'beleuchtung-led-guide', 'naehrstoffe-duengung'],
+  },
 ];

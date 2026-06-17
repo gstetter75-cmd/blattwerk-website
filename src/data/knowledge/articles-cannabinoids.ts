@@ -1475,4 +1475,250 @@ Regardless of whether full spectrum, broad spectrum or isolate: the quality of a
     last_updated: '2026-04-06',
     related_slugs: ['thc', 'cbd', 'cbc-cannabichromene', 'cbg', 'endocannabinoid-system', 'was-sind-terpene'],
   },
+
+  // ─── THCA UND DECARBOXYLIERUNG ───────────────────────────────────────────────
+  {
+    slug: 'thca-decarboxylierung',
+    category: 'cannabinoids',
+    title_de: 'THCa und Decarboxylierung: Warum rohes Cannabis nicht high macht',
+    title_en: 'THCa and Decarboxylation: Why Raw Cannabis Doesn\'t Get You High',
+    summary_de:
+      'Frische Cannabisblüten enthalten kaum THC – sondern THCa, die nicht-psychoaktive Vorstufe. Erst durch Hitze (Rauchen, Vapourisieren, Kochen) entsteht THC. Was steckt hinter diesem Prozess?',
+    summary_en:
+      'Fresh cannabis flowers contain little THC – but THCa, the non-psychoactive precursor. Only through heat (smoking, vaporising, cooking) does THC form. What is behind this process?',
+    content_de: `Eines der häufigsten Missverständnisse über Cannabis: frische, unbehandelte Blüten enthalten kaum das THC, das für die psychoaktive Wirkung verantwortlich ist. Stattdessen produziert die Pflanze Tetrahydrocannabinolsäure (THCa) – ein Molekül, das strukturell fast identisch mit THC ist, aber eine entscheidend andere pharmakologische Eigenschaft hat: Es ist nicht psychoaktiv.
+
+## Was ist THCa?
+
+THCa (Tetrahydrocannabinolsäure) ist die biosynthetische Vorstufe von THC in der Cannabispflanze. Die Pflanze selbst synthetisiert primär THCa – nicht THC. In lebenden, nicht erhitzten Blüten ist bis zu 99 % des Gesamtpotenzials als THCa gespeichert.
+
+Der Unterschied zwischen THCa und THC ist chemisch betrachtet simpel: THCa besitzt eine zusätzliche Carboxylgruppe (–COOH) im Molekül. Diese Gruppe verändert die dreidimensionale Struktur des Moleküls so, dass es nicht mehr in den CB1-Rezeptor des Endocannabinoid-Systems passt – und damit keine psychoaktive Wirkung erzeugt.
+
+## Was ist Decarboxylierung?
+
+Decarboxylierung (kurz: Decarb) bezeichnet die chemische Reaktion, bei der die Carboxylgruppe (–COOH) vom THCa-Molekül abgespalten wird. Das Produkt: CO₂ (Kohlendioxid) wird freigesetzt, und es entsteht THC.
+
+Diese Reaktion wird durch Hitze ausgelöst. Die Temperatur und Dauer bestimmen, wie vollständig die Decarboxylierung abläuft:
+
+**Beim Rauchen/Verbrennen:** Temperatur weit über 200 °C. Die Decarboxylierung ist schlagartig, aber unvollständig – ein Teil des THCa und THC verbrennt oder oxidiert zu CBN. Deshalb ist die Effizienz beim Rauchen relativ gering.
+
+**Beim Vapourisieren:** 170–230 °C je nach Gerät. Deutlich schonender als Rauchen. Gute Decarboxylierung ohne vollständige Verbrennung der Cannabinoide.
+
+**Beim Backen/Kochen:** Die optimale Decarboxylierungstemperatur für THCa liegt bei etwa 105–120 °C über einen Zeitraum von 30–45 Minuten. Bei zu hoher Temperatur oder zu langer Zeit degradiert THC zu CBN.
+
+**Empfohlenes Decarb-Protokoll (für Edibles):**
+- 105 °C für 45–60 Minuten: Gute Decarboxylierung, wenig THC-Verlust
+- 120 °C für 30 Minuten: Schnellere Alternative mit etwas mehr Verlust
+- Kein Backen über 160 °C – dann oxidiert THC stark zu CBN
+
+## Rohkost-Cannabis: THCa ohne Decarboxylierung
+
+Eine wachsende Gruppe von Gesundheitsbewussten konsumiert rohes Cannabis – Säfte aus frischen Blättern und Blüten – genau deshalb: um THCa ohne psychoaktive Wirkung aufzunehmen.
+
+THCa zeigt in präklinischen Studien (Zellen, Tiermodelle) interessante Eigenschaften: entzündungshemmend, neuroprotektiv, antiemetisch (wirkt gegen Übelkeit) und antiproliferativ (hemmt Zellwachstum in vitro). Die klinische Forschung am Menschen steckt aber noch in den Anfängen.
+
+**Praktisch:** Rohes Cannabis kann in einem Entsafter mit anderen Gemüsesorten gemixt werden. Der Geschmack ist grasig-bitter und für die meisten Menschen gewöhnungsbedürftig. Diese Methode ist nicht für Mitglieder in Cannabis Social Clubs relevant (dort wird nur aufbereitetes Cannabis abgegeben), aber für Eigenanbauer interessant.
+
+## THCa auf dem Analysebericht: Wie liest man den Gehalt?
+
+Auf offiziellen Analyseberichten für Cannabis (wie sie in CSCs und Apotheken verwendet werden) werden THCa und THC getrennt ausgewiesen. Um den tatsächlichen THC-Gesamtgehalt nach Decarboxylierung zu berechnen, gilt:
+
+**Gesamtes THC (nach Decarb) = THCa × 0,877 + THC**
+
+Der Faktor 0,877 ergibt sich aus dem Massenverlust durch das Abspalten der Carboxylgruppe (CO₂ verlässt das Molekül).
+
+**Beispiel:** Ein Analysebericht zeigt 18 % THCa und 0,5 % THC. Das Gesamtpotenzial wäre: 18 × 0,877 + 0,5 = 15,8 + 0,5 = **16,3 % Gesamt-THC nach Decarboxylierung**.
+
+## Lagerung und natürliche Decarboxylierung
+
+Auch ohne Hitze findet über Zeit eine langsame Decarboxylierung statt – durch UV-Licht, Wärme und Sauerstoff. Altes oder schlecht gelagertes Cannabis hat daher oft einen höheren THC-Gehalt (als Anteil des Gesamtpotenzials) und einen niedrigeren THCa-Gehalt – und es ist potenter als der aufgedruckte THCa-Wert vermuten lässt.
+
+**Richtige Lagerung zur Verhinderung unerwünschter Decarboxylierung:** Kühl, dunkel, luftdicht, bei 60–65 % relativer Luftfeuchtigkeit. Boveda-Humidipacks in Glasgefäßen sind die empfohlene Methode.
+
+## CBDa und andere Säureformen
+
+Das Prinzip der Decarboxylierung gilt nicht nur für THCa. Alle Cannabinoide existieren in der lebenden Pflanze primär in ihrer Säureform:
+
+- **CBDa** → CBD (durch Decarboxylierung)
+- **CBGa** → CBG
+- **CBCa** → CBC
+
+CBDa ist die Vorstufe von CBD – frisches Cannabis enthält also viel CBDa, das erst durch Hitze zu CBD wird. Auch CBDa zeigt in frühen Studien interessante Eigenschaften (besonders als Anti-Emetikum).`,
+    content_en: `One of the most common misconceptions about cannabis: fresh, untreated flowers contain very little THC – the compound responsible for psychoactive effects. Instead, the plant produces tetrahydrocannabinolic acid (THCa) – a molecule structurally almost identical to THC but with one crucial difference: it is not psychoactive.
+
+## What Is THCa?
+
+THCa (tetrahydrocannabinolic acid) is the biosynthetic precursor of THC in the cannabis plant. The plant itself primarily synthesises THCa – not THC. In living, unheated flowers, up to 99% of the total potential is stored as THCa.
+
+The difference between THCa and THC is chemically simple: THCa has an additional carboxyl group (–COOH) in the molecule. This group alters the three-dimensional structure of the molecule such that it no longer fits the CB1 receptor of the endocannabinoid system – and therefore produces no psychoactive effect.
+
+## What Is Decarboxylation?
+
+Decarboxylation (short: decarb) refers to the chemical reaction in which the carboxyl group (–COOH) is cleaved from the THCa molecule. The product: CO₂ (carbon dioxide) is released and THC is formed.
+
+This reaction is triggered by heat. Temperature and duration determine how complete the decarboxylation is:
+
+**When smoking/burning:** Temperature well above 200 °C. Decarboxylation is instantaneous but incomplete – some THCa and THC burns or oxidises to CBN. This is why smoking efficiency is relatively low.
+
+**When vaporising:** 170–230 °C depending on the device. Considerably gentler than smoking. Good decarboxylation without complete combustion of cannabinoids.
+
+**When baking/cooking:** The optimal decarboxylation temperature for THCa is approximately 105–120 °C over 30–45 minutes. At too-high temperature or too long, THC degrades to CBN.
+
+**Recommended decarb protocol (for edibles):**
+- 105 °C for 45–60 minutes: Good decarboxylation, little THC loss
+- 120 °C for 30 minutes: Faster alternative with slightly more loss
+- Never bake above 160 °C – THC oxidises heavily to CBN at that point
+
+## Raw Cannabis: THCa Without Decarboxylation
+
+A growing group of health-conscious individuals consumes raw cannabis – juices from fresh leaves and flowers – precisely for this reason: to absorb THCa without psychoactive effects.
+
+THCa shows interesting properties in preclinical studies (cells, animal models): anti-inflammatory, neuroprotective, antiemetic (counteracts nausea) and antiproliferative (inhibits cell growth in vitro). Clinical research in humans is still in its infancy.
+
+**Practically:** Raw cannabis can be juiced with other vegetables in a juicer. The taste is grassy-bitter and takes getting used to for most people. This method is not relevant for Cannabis Social Club members (only processed cannabis is distributed there), but is interesting for home growers.
+
+## THCa on Lab Reports: How to Read the Content
+
+On official analysis reports for cannabis (as used in CSCs and pharmacies), THCa and THC are listed separately. To calculate the actual total THC content after decarboxylation:
+
+**Total THC (after decarb) = THCa × 0.877 + THC**
+
+The factor 0.877 results from the mass loss from splitting off the carboxyl group (CO₂ leaves the molecule).
+
+**Example:** A lab report shows 18% THCa and 0.5% THC. Total potential would be: 18 × 0.877 + 0.5 = 15.8 + 0.5 = **16.3% total THC after decarboxylation**.
+
+## Storage and Natural Decarboxylation
+
+Even without heat, slow decarboxylation occurs over time – through UV light, heat and oxygen. Old or poorly stored cannabis therefore often has a higher THC content (as a proportion of total potential) and lower THCa content – and it is more potent than the printed THCa value suggests.
+
+**Correct storage to prevent unwanted decarboxylation:** Cool, dark, airtight, at 60–65% relative humidity. Boveda humidity packs in glass jars are the recommended method.
+
+## CBDa and Other Acid Forms
+
+The principle of decarboxylation applies not only to THCa. All cannabinoids exist primarily in their acid form in the living plant:
+
+- **CBDa** → CBD (through decarboxylation)
+- **CBGa** → CBG
+- **CBCa** → CBC
+
+CBDa is the precursor of CBD – fresh cannabis therefore contains much CBDa, which only becomes CBD through heat. CBDa also shows interesting properties in early studies (particularly as an antiemetic).`,
+    tags: ['THCa', 'Decarboxylierung', 'THC', 'Rohkost', 'Chemie', 'Cannabinoide'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['thc', 'cbd', 'endocannabinoid-system', 'vollspektrum-vs-isolat'],
+  },
+
+  // ─── DELTA-8 / HHC / SYNTHETISCHE CANNABINOIDE ──────────────────────────────
+  {
+    slug: 'delta8-hhc-synthetisch',
+    category: 'cannabinoids',
+    title_de: 'Delta-8-THC, HHC & Co.: Synthetische Cannabinoide und die Rechtslage',
+    title_en: 'Delta-8 THC, HHC & Co.: Synthetic Cannabinoids and the Legal Situation',
+    summary_de:
+      'Delta-8-THC, HHC und ähnliche Substanzen tauchen in Headshops und Onlineshops auf. Was sind diese Verbindungen? Sind sie in Deutschland legal? Und welche Risiken birgt ihr Konsum?',
+    summary_en:
+      'Delta-8 THC, HHC and similar substances are appearing in headshops and online stores. What are these compounds? Are they legal in Germany? And what risks does their consumption carry?',
+    content_de: `In den letzten Jahren sind neue Cannabis-ähnliche Substanzen auf den Markt gekommen, die in einer rechtlichen Grauzone operieren: Delta-8-THC, HHC (Hexahydrocannabinol), HHCP, THC-O und weitere. Diese Verbindungen werden oft als „legal" vermarktet – aber stimmt das? Und was weiß die Wissenschaft über ihre Sicherheit?
+
+## Was ist Delta-8-THC?
+
+Delta-8-THC (Delta-8-Tetrahydrocannabinol) ist ein natürlich vorkommendes, psychoaktives Cannabinoid, das in sehr kleinen Mengen in der Cannabispflanze entsteht. Es ist ein isomeres Derivat von Delta-9-THC – dem „klassischen" THC. Die Bezeichnung „Delta-8" vs. „Delta-9" bezieht sich auf die Position einer Doppelbindung im Molekül.
+
+**Wirkung:** Delta-8-THC ist psychoaktiv, aber nach Berichten von Nutzern und ersten Studien etwas schwächer als Delta-9-THC. Manche beschreiben die Wirkung als klarer und weniger angstauslösend. Allerdings sind kaum klinische Daten vorhanden.
+
+**Herstellung:** Da Delta-8-THC in natürlichen Pflanzen nur in Spuren vorkommt, wird es meist synthetisch aus CBD (das reichlich in Hanfpflanzen vorkommt) durch eine chemische Reaktion (Isomerisierung) hergestellt. Das wirft Fragen zur Reinheit und möglichen Verunreinigungen auf.
+
+## Was ist HHC (Hexahydrocannabinol)?
+
+HHC ist ebenfalls ein THC-Derivat, bei dem die Doppelbindungen im THC-Molekül durch Hydrierung (Hinzufügen von Wasserstoff) gesättigt werden. Das Ergebnis ist eine stabilere Verbindung, die weder im KCanG noch im BtMG ursprünglich namentlich erwähnt ist.
+
+**Wirkung:** HHC hat psychoaktive Eigenschaften ähnlich wie THC, aber mit etwas anderem Profil. Einige Nutzer berichten über stärkere stimulierende Effekte. Klinische Studien fehlen nahezu vollständig.
+
+**Varianten:** Es gibt mehrere HHC-Formen: HHCPO, HHCP, HHC-Acetat und andere. Jede Variante hat ein leicht anderes Molekülgerüst und potenziell andere Wirkungen und Risiken.
+
+## Rechtslage in Deutschland: Grauer Markt
+
+Die rechtliche Einordnung dieser Substanzen in Deutschland ist komplex:
+
+**BtMG (Betäubungsmittelgesetz):** Das BtMG listet spezifische Verbindungen. Delta-8-THC und HHC waren ursprünglich nicht explizit gelistet – weshalb Händler argumentierten, sie seien legal.
+
+**KCanG (ab April 2024):** Das KCanG regelt primär natürliches Cannabis. Synthetische Derivate fallen je nach Molekülstruktur möglicherweise nicht darunter.
+
+**Analogklausel:** Das BtMG enthält eine sogenannte Analogklausel (§ 2 Abs. 3), die Substanzen erfasst, die ihrer chemischen Struktur nach mit gelisteten Betäubungsmitteln vergleichbar sind. Delta-8-THC ist THC-ähnlich genug, um möglicherweise unter diese Klausel zu fallen.
+
+**Aktuelle Rechtsprechung:** Gerichte und Behörden haben unterschiedliche Einschätzungen getroffen. In einigen Bundesländern wurden Händler verfolgt, in anderen nicht. Die Rechtslage ist uneinheitlich und in Entwicklung.
+
+**BlattWerk-Empfehlung:** Diese rechtliche Unsicherheit allein ist ein guter Grund, Delta-8-THC, HHC und ähnliche Produkte zu meiden.
+
+## Sicherheitsrisiken: Unbekannte Territorium
+
+Neben der rechtlichen Unsicherheit gibt es handfeste gesundheitliche Bedenken:
+
+**Mangelnde Reinheit:** Da diese Substanzen oft chemisch aus CBD synthetisiert werden, können Reaktionsnebenprodukte und Verunreinigungen im Endprodukt verbleiben. Eine 2021 veröffentlichte Analyse des US-amerikanischen NOLA-Instituts fand in vielen untersuchten Delta-8-THC-Produkten problematische Nebenprodukte und unbekannte Verbindungen.
+
+**Keine standardisierten Tests:** Für natürliches Cannabis in Deutschland gibt es klare Testanforderungen (KCanG). Für synthetische Cannabinoide fehlen solche Standards auf dem Graumarkt.
+
+**Unbekannte Langzeitfolgen:** THC und CBD werden seit Jahrzehnten erforscht. Delta-8-THC, HHC und Varianten sind neue Substanzen – Langzeitstudien gibt es nicht.
+
+**Interaktionen mit Medikamenten:** Da kaum Forschung vorhanden ist, sind mögliche Wechselwirkungen mit Medikamenten nicht bekannt.
+
+## Fazit: Finger weg von synthetischen Cannabinoiden
+
+Als Cannabis Social Club empfehlen wir klar: natürliches Cannabis aus lizenziertem Anbau mit bekannter Qualität ist synthetischen Cannabinoid-Derivaten in jeder Hinsicht vorzuziehen. Die rechtlichen Risiken, die mangelnde Qualitätskontrolle und die fehlende Forschung sprechen eindeutig dagegen.
+
+Wer Cannabis zur Freude oder zur Linderung von Beschwerden nutzen möchte, findet im natürlichen Cannabis – mit bekanntem Cannabinoid- und Terpenprofil aus geprüftem Anbau – eine sicherere und verlässlichere Option.`,
+    content_en: `In recent years, new cannabis-like substances have entered the market operating in a legal grey area: Delta-8-THC, HHC (hexahydrocannabinol), HHCP, THC-O and others. These compounds are often marketed as "legal" – but is that true? And what does science know about their safety?
+
+## What Is Delta-8-THC?
+
+Delta-8-THC (delta-8-tetrahydrocannabinol) is a naturally occurring, psychoactive cannabinoid that forms in very small quantities in the cannabis plant. It is an isomeric derivative of delta-9-THC – the "classic" THC. The designation "delta-8" vs. "delta-9" refers to the position of a double bond in the molecule.
+
+**Effects:** Delta-8-THC is psychoactive but, according to user reports and early studies, slightly weaker than delta-9-THC. Some describe the effect as clearer and less anxiety-inducing. However, almost no clinical data is available.
+
+**Production:** Since delta-8-THC occurs only in trace amounts in natural plants, it is mostly produced synthetically from CBD (which is abundant in hemp plants) through a chemical reaction (isomerisation). This raises questions about purity and possible contaminants.
+
+## What Is HHC (Hexahydrocannabinol)?
+
+HHC is also a THC derivative in which the double bonds in the THC molecule are saturated through hydrogenation (adding hydrogen). The result is a more stable compound that was not originally named in the KCanG or BtMG.
+
+**Effects:** HHC has psychoactive properties similar to THC but with a somewhat different profile. Some users report stronger stimulating effects. Clinical studies are almost entirely absent.
+
+**Variants:** There are several HHC forms: HHCPO, HHCP, HHC acetate and others. Each variant has a slightly different molecular structure and potentially different effects and risks.
+
+## Legal Situation in Germany: Grey Market
+
+The legal classification of these substances in Germany is complex:
+
+**BtMG (Narcotics Act):** The BtMG lists specific compounds. Delta-8-THC and HHC were not originally explicitly listed – which is why dealers argued they were legal.
+
+**KCanG (from April 2024):** The KCanG primarily regulates natural cannabis. Synthetic derivatives may or may not fall under it depending on molecular structure.
+
+**Analogue clause:** The BtMG contains a so-called analogue clause (§ 2 para. 3), which covers substances comparable in chemical structure to listed narcotics. Delta-8-THC is sufficiently similar to THC to potentially fall under this clause.
+
+**Current case law:** Courts and authorities have reached different assessments. In some federal states, dealers have been prosecuted; in others, not. The legal situation is inconsistent and evolving.
+
+**BlattWerk recommendation:** This legal uncertainty alone is a good reason to avoid delta-8-THC, HHC and similar products.
+
+## Safety Risks: Unknown Territory
+
+Beyond legal uncertainty, there are concrete health concerns:
+
+**Lack of purity:** Since these substances are often chemically synthesised from CBD, reaction by-products and contaminants can remain in the final product. A 2021 analysis found problematic by-products and unknown compounds in many examined delta-8-THC products.
+
+**No standardised tests:** For natural cannabis in Germany, clear testing requirements exist (KCanG). For synthetic cannabinoids, such standards are absent on the grey market.
+
+**Unknown long-term effects:** THC and CBD have been researched for decades. Delta-8-THC, HHC and variants are new substances – long-term studies do not exist.
+
+**Drug interactions:** Since barely any research exists, possible interactions with medications are unknown.
+
+## Conclusion: Avoid Synthetic Cannabinoids
+
+As a Cannabis Social Club, we clearly recommend: natural cannabis from licensed cultivation with known quality is preferable to synthetic cannabinoid derivatives in every respect. The legal risks, the lack of quality control and the absence of research speak clearly against them.
+
+Anyone wishing to use cannabis for enjoyment or to relieve complaints will find a safer and more reliable option in natural cannabis – with a known cannabinoid and terpene profile from verified cultivation.`,
+    tags: ['Delta-8', 'HHC', 'Synthetisch', 'Recht', 'Sicherheit', 'Cannabinoide'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['thc', 'vollspektrum-vs-isolat', 'kcang-ueberblick', 'endocannabinoid-system'],
+  },
 ];

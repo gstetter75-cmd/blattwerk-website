@@ -1649,4 +1649,202 @@ The entourage effect is a scientifically plausible but not yet fully proven conc
     last_updated: '2026-04-06',
     related_slugs: ['was-sind-terpene', 'indica-vs-sativa', 'myrcen', 'caryophyllen'],
   },
+
+  // ─── PINEN ───────────────────────────────────────────────────────────────────
+  {
+    slug: 'pinen-wirkung',
+    category: 'terpenes',
+    title_de: 'Pinen: Das Kiefernwald-Terpen und seine Effekte',
+    title_en: 'Pinene: The Pine Forest Terpene and Its Effects',
+    summary_de:
+      'Alpha-Pinen und Beta-Pinen sind die häufigsten Terpene in der Natur. In Cannabis können sie THC-bedingte Gedächtnisprobleme abschwächen, die Konzentration fördern und bronchierweiternd wirken.',
+    summary_en:
+      'Alpha-pinene and beta-pinene are the most common terpenes in nature. In cannabis, they can attenuate THC-induced memory problems, promote concentration and have bronchodilating effects.',
+    content_de: `Wer schon einmal durch einen Kiefernwald spaziert ist, hat Pinen gerochen. Das frische, harzige, leicht medizinische Aroma, das mit Kiefern, Tannen und Fichten assoziiert wird, stammt hauptsächlich von Alpha-Pinen – dem am häufigsten vorkommenden Terpen der Natur überhaupt.
+
+## Zwei Formen: Alpha- und Beta-Pinen
+
+Pinen kommt in zwei isomeren Formen vor, die sich in ihrer Molekülstruktur leicht unterscheiden:
+
+**Alpha-Pinen (α-Pinen):** Die häufigere Form in Cannabis. Geruch: frisch, kiefer, leicht harzig, manchmal mit Anklängen von Salbei und Rosmarin. Alpha-Pinen ist das mit Abstand am meisten verbreitete Terpen auf der Erde – es kommt in Kiefern, Rosmarin, Salbei, Basilikum, Dill und Hunderten anderen Pflanzen vor.
+
+**Beta-Pinen (β-Pinen):** Ebenfalls in Cannabis vorhanden, aber in geringerer Konzentration. Geruch: leicht holzig, basil, etwas erdig. Beta-Pinen ist stärker in Basilikum, Petersilie und Kamille vertreten.
+
+In Cannabis kommen meist beide Formen vor, mit Alpha-Pinen als Hauptisomer.
+
+## Vorkommen in Cannabis-Sorten
+
+Pinen ist in Cannabis-Sorten weit verbreitet, jedoch meist nicht das dominante Terpen (das ist häufiger Myrcen, Limonen oder Caryophyllen). Pinen findet sich besonders häufig in Sorten mit stark aromatischem, "waldigen" oder kräuterigem Geruchsprofil.
+
+**Sorten mit hohem Pinen-Anteil:**
+- **Jack Herer:** Klassische Sativa-dominante Sorte, bekannt für ihren frischen, kieferartigen Geruch. Pinen ist oft das zweit- oder dritthäufigste Terpen.
+- **Trainwreck:** Bekannt für scharfes, kieferartiges Aroma.
+- **Blue Dream:** Leichte, frische Note mit Pinen-Anteil.
+- **Dutch Treat:** Stark kiefer- und eukalyptusartig, hoher Pinen-Gehalt.
+- **OG Kush:** Enthält neben Myrcen und Limonen auch relevante Pinen-Mengen.
+
+## Mögliche Wirkungen: Was die Forschung sagt
+
+Pinen ist eine der am besten erforschten Substanzen unter den Terpenen, wenngleich die direkte Forschung in Bezug auf Cannabis noch begrenzt ist.
+
+**Gedächtnis und THC-Antagonismus:** Eine der interessantesten potentiellen Eigenschaften von Alpha-Pinen ist seine Wirkung auf das Gedächtnis. THC kann kurzfristige Gedächtnisbeeinträchtigungen verursachen – durch Hemmung des Enzyms Acetylcholinesterase. Alpha-Pinen hemmt dasselbe Enzym, jedoch auf eine Art, die eher dem Wirkmechanismus von Acetylcholinesterase-Inhibitoren (wie Donepezil bei Alzheimer) ähnelt. In Studien (insbesondere Russo 2011) wird die Hypothese formuliert, dass Pinen THC-bedingte Gedächtnisstörungen abschwächen könnte. Dies ist noch experimentell und nicht klinisch belegt.
+
+**Konzentration und Alertheit:** Entgegen dem Klischee, dass Cannabis immer entspannt und schläfrig macht, wird Pinen mit einer eher aktivierenden, konzentrationsförderlichen Wirkung in Verbindung gebracht. Sorten mit hohem Pinen-Anteil werden von vielen Nutzern als "klarköpfiger" beschrieben.
+
+**Bronchodilatation:** Alpha-Pinen hat in Studien bronchierweiternd wirkende Eigenschaften gezeigt – es kann die Atemwege weiten. Historisch wurde Rosmarin (reich an Alpha-Pinen) als Heilmittel bei Atemwegserkrankungen eingesetzt. Ob dieser Effekt beim Cannabis-Konsum relevant ist, ist unklar.
+
+**Entzündungshemmend:** In präklinischen Studien zeigt Alpha-Pinen entzündungshemmende Eigenschaften, unter anderem durch Hemmung von NF-κB, einem zentralen Entzündungsmediator.
+
+**Antibakteriell:** Pinen zeigt in Labor-Studien antibakterielle Aktivität gegen verschiedene Bakterienstämme. Praktische Relevanz im Kontext von Cannabis-Konsum ist jedoch begrenzt.
+
+## Aromatherapie und der "Wald-Effekt"
+
+Der sogenannte "Waldbaden"-Trend (Shinrin-yoku, japanisch) beschreibt die nachgewiesene stressreduzierende und immunstimulierende Wirkung des Aufenthalts in Wäldern. Phytonzide – die von Bäumen ausgedünsteten Verbindungen, darunter Alpha-Pinen – werden als Hauptwirkstoff vermutet. Ob und wie direkt diese Effekte auf das Inhalieren von Pinen aus Cannabis übertragbar sind, ist wissenschaftlich nicht eindeutig geklärt.
+
+## Pinen im Entourage-Effekt
+
+Im Zusammenspiel mit anderen Terpenen und Cannabinoiden kann Pinen spezifische Effekte modulieren. Besonders relevant ist die mögliche Abschwächung von THC-bedingter Angst und Gedächtnisschwäche. Sorten mit einem ausgewogenen Profil aus THC, etwas CBD, Myrcen, Pinen und Limonen werden von Nutzern oft als besonders angenehm im Effektprofil beschrieben – klarer, fokussierter als reine High-THC-Myrcen-dominante Sorten.`,
+    content_en: `Anyone who has walked through a pine forest has smelled pinene. The fresh, resinous, slightly medicinal aroma associated with pines, firs and spruces comes mainly from alpha-pinene – the most common terpene in nature.
+
+## Two Forms: Alpha- and Beta-Pinene
+
+Pinene occurs in two isomeric forms that differ slightly in molecular structure:
+
+**Alpha-pinene (α-pinene):** The more common form in cannabis. Smell: fresh, piney, slightly resinous, sometimes with notes of sage and rosemary. Alpha-pinene is by far the most widespread terpene on Earth – found in pines, rosemary, sage, basil, dill and hundreds of other plants.
+
+**Beta-pinene (β-pinene):** Also present in cannabis but in lower concentration. Smell: slightly woody, basil-like, somewhat earthy. Beta-pinene is more strongly represented in basil, parsley and chamomile.
+
+Cannabis usually contains both forms, with alpha-pinene as the main isomer.
+
+## Occurrence in Cannabis Strains
+
+Pinene is widespread in cannabis strains, though usually not the dominant terpene (that is more often myrcene, limonene or caryophyllene). Pinene is found especially frequently in strains with a strongly aromatic, "woody" or herby smell profile.
+
+**Strains with high pinene content:**
+- **Jack Herer:** Classic sativa-dominant strain, known for its fresh, piney aroma. Pinene is often the second or third most common terpene.
+- **Trainwreck:** Known for sharp, piney aroma.
+- **Blue Dream:** Light, fresh note with a pinene component.
+- **Dutch Treat:** Strongly piney and eucalyptus-like, high pinene content.
+- **OG Kush:** Contains relevant amounts of pinene alongside myrcene and limonene.
+
+## Potential Effects: What Research Says
+
+Pinene is one of the best-researched substances among terpenes, though direct research relating to cannabis is still limited.
+
+**Memory and THC antagonism:** One of the most interesting potential properties of alpha-pinene is its effect on memory. THC can cause short-term memory impairments – through inhibition of the enzyme acetylcholinesterase. Alpha-pinene inhibits the same enzyme, but in a way more similar to the mechanism of acetylcholinesterase inhibitors (like donepezil in Alzheimer's). The hypothesis has been formulated (particularly by Russo, 2011) that pinene might attenuate THC-induced memory impairments. This is still experimental and not clinically proven.
+
+**Concentration and alertness:** Contrary to the cliché that cannabis always relaxes and sedates, pinene is associated with a rather activating, concentration-promoting effect. Strains with high pinene content are described by many users as "clearer-headed."
+
+**Bronchodilation:** Alpha-pinene has shown bronchodilating properties in studies – it can widen the airways. Historically, rosemary (rich in alpha-pinene) was used as a remedy for respiratory conditions. Whether this effect is relevant during cannabis consumption is unclear.
+
+**Anti-inflammatory:** In preclinical studies, alpha-pinene shows anti-inflammatory properties, including through inhibition of NF-κB, a central inflammatory mediator.
+
+**Antibacterial:** Pinene shows antibacterial activity against various bacterial strains in laboratory studies. Practical relevance in the context of cannabis consumption is limited.
+
+## Pinene in the Entourage Effect
+
+In combination with other terpenes and cannabinoids, pinene can modulate specific effects. Particularly relevant is the possible attenuation of THC-induced anxiety and memory impairment. Strains with a balanced profile of THC, some CBD, myrcene, pinene and limonene are often described by users as particularly pleasant in their effect profile – clearer, more focused than pure high-THC myrcene-dominant strains.`,
+    tags: ['Pinen', 'Terpene', 'Konzentration', 'Gedächtnis', 'Kiefer', 'Entourage'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['was-sind-terpene', 'entourage-effekt', 'myrcen', 'limonen', 'indica-vs-sativa'],
+  },
+
+  // ─── OCIMEN UND BISABOLOL ────────────────────────────────────────────────────
+  {
+    slug: 'ocimen-bisabolol',
+    category: 'terpenes',
+    title_de: 'Ocimen und Bisabolol: Süßlich-blumige Terpene der Cannabispflanze',
+    title_en: 'Ocimene and Bisabolol: Sweet, Floral Terpenes of the Cannabis Plant',
+    summary_de:
+      'Ocimen verbreitet süßlich-fruchtige Aromen, Bisabolol erinnert an Kamille. Beide Terpene kommen in vielen Cannabissorten vor und bringen eigene mögliche Wirkprofile mit.',
+    summary_en:
+      'Ocimene spreads sweet-fruity aromas, bisabolol is reminiscent of chamomile. Both terpenes occur in many cannabis strains and bring their own possible effect profiles.',
+    content_de: `Nicht alle Cannabisterpene sind so bekannt wie Myrcen, Limonen oder Caryophyllen – aber das macht sie nicht weniger interessant. Ocimen und Bisabolol sind zwei Terpene, die in zahlreichen Cannabis-Sorten vorkommen und zur olfaktorischen Komplexität und möglicherweise zum Wirkprofil beitragen.
+
+## Ocimen: Süßlich, fruchtig, florales Terpen
+
+**Chemie und Vorkommen:** Ocimen (auch bekannt als Ocymene) ist ein Monoterpen, das in zahlreichen Pflanzen vorkommt, darunter Minze, Petersilie, Orchideen, Basilikum und – als Namensgeberin – das Basilikum-Basilikum (Ocimum basilicum). Es gibt mehrere isomere Formen: cis-β-Ocimen, trans-β-Ocimen und das weniger häufige α-Ocimen.
+
+**Geruchsprofil:** Süßlich, leicht fruchtig, manchmal mit holzig-kräuterigen Untertönen. Ocimen ist flüchtiger als viele andere Terpene – es verdunstet schnell bei Raumtemperatur. Im Geruch einer Cannabis-Sorte trägt Ocimen zur Frische und Süße bei, ohne so dominant zu sein wie Myrcen oder Limonen.
+
+**In Cannabis:** Ocimen ist ein sekundäres Terpen – selten das dominante, aber häufig in relevantem Maß vorhanden. Sorten wie Clementine, Space Queen, J1, Strawberry Cough und Green Crack enthalten nennenswerte Ocimen-Anteile.
+
+**Mögliche Eigenschaften:**
+- **Antiviral:** Labor-Studien zeigen antivirale Eigenschaften gegen verschiedene Viren. Praktische Relevanz im Cannabis-Kontext unklar.
+- **Antimykotisch:** Ocimen zeigt in vitro Aktivität gegen Pilzinfektionen.
+- **Decongestant:** Einige Quellen beschreiben abschwellende Eigenschaften – ähnlich wie beim verwandten Terpenen aus Eukalyptus und Minze.
+
+Klinische Studien am Menschen fehlen nahezu vollständig. Die beschriebenen Eigenschaften stammen hauptsächlich aus präklinischer Forschung.
+
+**Im Zusammenspiel:** In fruchtigen, süßen Sorten kombiniert Ocimen oft mit Limonen und Terpinolen. Diese Kombination erzeugt leichte, frische, aufmunternde Wirkungsprofile.
+
+## Bisabolol: Kamille-Duft aus der Cannabispflanze
+
+**Chemie und Vorkommen:** Bisabolol (auch α-Bisabolol) ist ein Sesquiterpen mit charakteristischem, feinem Kamille-Duft. Es ist der Hauptwirkstoff in Kamillenblüten-Extrakt (Matricaria chamomilla) und wird seit Jahrhunderten in Kosmetik und Heilkunde eingesetzt. Bisabolol kommt auch in Birkenrinde, Candeia-Holz und – natürlich – in bestimmten Cannabis-Sorten vor.
+
+**Geruchsprofil:** Fein floral, leicht süßlich, kaum wahrnehmbar scharf. Bisabolol hat eines der diskretesten Aromaprofile unter den Terpenen – es ist subtiler Untertonträger, der andere Aromen abrundet, ohne selbst dominant zu werden.
+
+**In Cannabis:** Bisabolol ist selten das dominante Terpen, aber in vielen Sorten in geringen Mengen vorhanden. Höhere Bisabolol-Gehalte finden sich in: ACDC (CBD-reich), Pink Kush, Master Kush, Headband und einigen OG-Derivaten.
+
+**Mögliche Eigenschaften:**
+- **Hautpflege und anti-irritant:** Bisabolol ist dank seiner entzündungshemmenden und hautberuhigenden Eigenschaften seit Jahrzehnten in der Kosmetik (Cremes, Lotionen, After-Sun-Produkte) etabliert. Es reduziert Rötungen und beruhigt gereizte Haut.
+- **Entzündungshemmend:** In Laborstudien zeigt Bisabolol ähnliche entzündungshemmende Wirkungen wie in der Kamillenpflanze.
+- **Anxiolytisch:** Kamille – und damit Bisabolol – wird traditionell als beruhigendes Mittel bei Angst und Unruhe eingesetzt. Erste Studien deuten auf eine direkte anxiolytische Wirkung hin, vergleichbar mit Linalool.
+- **Analgetisch:** Einige präklinische Studien beschreiben schmerzlindernde Eigenschaften.
+- **Antimikrobiell:** Bisabolol zeigt in vitro antimikrobielle Eigenschaften.
+
+**Im Zusammenspiel:** In Sorten wie ACDC, wo CBD und Bisabolol beide präsent sind, wird ein entspannendes, beruhigendes Wirkprofil berichtet, ohne starke Sedierung.
+
+## Wie man diese Terpene erkennt
+
+Da Ocimen und Bisabolol selten dominant sind, erkennt man sie am besten in Kombination mit anderen Terpenen. Eine Cannabis-Sorte mit Limonene-Ocimen-Terpinolen-Profil wird süßlich-fruchtig-frisch riechen. Eine Sorte mit CBD-Linalool-Bisabolol-Profil wird blumig, kremig und leicht kamillenhaft duften.
+
+Für die gezielte Sortenauswahl nach Terpenprofil findest du in unserer Sortendatenbank die vollständigen Analysen – inklusive Nebenkomponenten wie Ocimen und Bisabolol.`,
+    content_en: `Not all cannabis terpenes are as well-known as myrcene, limonene or caryophyllene – but that doesn't make them less interesting. Ocimene and bisabolol are two terpenes that occur in numerous cannabis strains and contribute to olfactory complexity and possibly to the effect profile.
+
+## Ocimene: Sweet, Fruity, Floral Terpene
+
+**Chemistry and occurrence:** Ocimene (also known as ocymene) is a monoterpene found in numerous plants, including mint, parsley, orchids, basil and – as its namesake – sweet basil (Ocimum basilicum). There are several isomeric forms: cis-β-ocimene, trans-β-ocimene and the less common α-ocimene.
+
+**Smell profile:** Sweet, slightly fruity, sometimes with woody-herby undertones. Ocimene is more volatile than many other terpenes – it evaporates quickly at room temperature. In the aroma of a cannabis strain, ocimene contributes freshness and sweetness without being as dominant as myrcene or limonene.
+
+**In cannabis:** Ocimene is a secondary terpene – rarely dominant, but often present in relevant amounts. Strains such as Clementine, Space Queen, J1, Strawberry Cough and Green Crack contain notable ocimene content.
+
+**Possible properties:**
+- **Antiviral:** Laboratory studies show antiviral properties against various viruses. Practical relevance in the cannabis context is unclear.
+- **Antifungal:** Ocimene shows in vitro activity against fungal infections.
+- **Decongestant:** Some sources describe decongestant properties – similar to related terpenes from eucalyptus and mint.
+
+Clinical studies in humans are almost entirely absent. The described properties come mainly from preclinical research.
+
+**In combination:** In fruity, sweet strains, ocimene often combines with limonene and terpinolene. This combination creates light, fresh, uplifting effect profiles.
+
+## Bisabolol: Chamomile Scent from the Cannabis Plant
+
+**Chemistry and occurrence:** Bisabolol (also α-bisabolol) is a sesquiterpene with a characteristic, delicate chamomile aroma. It is the main active ingredient in chamomile flower extract (Matricaria chamomilla) and has been used in cosmetics and medicine for centuries. Bisabolol is also found in birch bark, candeia wood and – naturally – in certain cannabis strains.
+
+**Smell profile:** Delicately floral, slightly sweet, barely perceptibly sharp. Bisabolol has one of the most discreet aroma profiles among terpenes – it is a subtle undertone carrier that rounds out other aromas without becoming dominant itself.
+
+**In cannabis:** Bisabolol is rarely the dominant terpene, but present in small amounts in many strains. Higher bisabolol content is found in: ACDC (CBD-rich), Pink Kush, Master Kush, Headband and some OG derivatives.
+
+**Possible properties:**
+- **Skin care and anti-irritant:** Thanks to its anti-inflammatory and skin-soothing properties, bisabolol has been established in cosmetics (creams, lotions, after-sun products) for decades. It reduces redness and soothes irritated skin.
+- **Anti-inflammatory:** In laboratory studies, bisabolol shows anti-inflammatory effects similar to those of the chamomile plant.
+- **Anxiolytic:** Chamomile – and thus bisabolol – is traditionally used as a calming remedy for anxiety and restlessness. Early studies suggest a direct anxiolytic effect, comparable to linalool.
+- **Analgesic:** Some preclinical studies describe pain-relieving properties.
+- **Antimicrobial:** Bisabolol shows in vitro antimicrobial properties.
+
+**In combination:** In strains like ACDC, where CBD and bisabolol are both present, a relaxing, calming effect profile is reported without strong sedation.
+
+## How to Identify These Terpenes
+
+Since ocimene and bisabolol are rarely dominant, they are best recognised in combination with other terpenes. A cannabis strain with a limonene-ocimene-terpinolene profile will smell sweetly-fruity-fresh. A strain with a CBD-linalool-bisabolol profile will smell floral, creamy and slightly chamomile-like.
+
+For targeted strain selection by terpene profile, you'll find the complete analyses in our strain database – including secondary components such as ocimene and bisabolol.`,
+    tags: ['Ocimen', 'Bisabolol', 'Terpene', 'Kamille', 'Florales Aroma', 'Entspannung'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['was-sind-terpene', 'linalool-wirkung', 'entourage-effekt', 'limonen', 'caryophyllen'],
+  },
 ];

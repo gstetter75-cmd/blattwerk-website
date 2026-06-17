@@ -1625,4 +1625,210 @@ Germany has learned from these experiences and created a considerably more regul
     last_updated: '2026-04-06',
     related_slugs: ['cannabis-geschichte-weltweit', 'legalisierung-deutschland', 'cannabis-weltweit-legalisierung', 'kcang-ueberblick'],
   },
+
+  // ─── US-PROHIBITION ──────────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-usa-prohibition',
+    category: 'history',
+    title_de: 'Cannabis in den USA: Von Reefer Madness bis zur Legalisierung',
+    title_en: 'Cannabis in the USA: From Reefer Madness to Legalisation',
+    summary_de:
+      'Wie die USA Cannabis kriminalisierten, einen weltweiten Krieg gegen Drogen ausriefen – und heute selbst beim Abbau ihrer Prohibitionspolitik führend sind. Eine politische Geschichte.',
+    summary_en:
+      'How the USA criminalised cannabis, declared a global war on drugs – and today is itself leading in dismantling its prohibitionist policies. A political history.',
+    content_de: `Die Geschichte der Cannabis-Prohibition in den USA ist eine Geschichte aus Rassismus, politischem Kalkül, populären Medien und schließlich einem langen, unvollständigen Rückzug. Kein anderes Land hat die globale Cannabispolitik stärker beeinflusst – und kein anderes Land ist heute so uneinheitlich in der Legalisierungsdebatte.
+
+## Frühes Nordamerika: Hanf als Nutzpflanze
+
+Bis ins späte 19. Jahrhundert war Cannabis (Hemp) in Nordamerika eine weitverbreitete Nutzpflanze. Kolonisten bauten Hanf für Seile, Textilien und Papier an. Hanf-Bauern erhielten zeitweise staatliche Subventionen, und George Washington selbst baute Hanf auf seinem Gut an. Cannabis als Rausch- und Heilmittel war bekannt, aber gesellschaftlich nicht stigmatisiert.
+
+Die ersten Beschränkungen begannen um 1910–1920, ausgelöst von einer Kombination aus:
+- **Immigration und Rassismus:** Mexikanische Einwanderer brachten die Gewohnheit des Cannabis-Rauchens mit. In rassistisch aufgeladenem Klima wurde "Marihuana" (die Spanischbezeichnung) als Bedrohung durch Fremde dargestellt.
+- **Alkohol-Prohibition-Nachwirkungen:** Die Prohibition (1920–1933) hatte eine Kultur der Drogenpanik etabliert.
+
+## Harry Anslinger und der Marihuana Tax Act (1937)
+
+Die zentrale Figur der US-Cannabis-Prohibition ist Harry Anslinger, der von 1930 bis 1962 das Federal Bureau of Narcotics (FBN) leitete. Anslinger betrieb eine orchestrierte Medienkampagne, die Cannabis mit Gewalt, Wahnsinn und ethnischen Minderheiten verknüpfte. Berühmte Zitate Anslingers waren offen rassistisch – er verband Cannabis explizit mit schwarzen Jazz-Musikern und mexikanischen Einwanderern.
+
+1936 erschien der Propaganda-Film **"Reefer Madness"** – eine melodramatische Darstellung von Jugendlichen, die nach dem Rauchen eines Joints zu Mördern und Wahnsinnigen werden. Der Film, ursprünglich zur Abschreckung produziert, ist heute ein Kultklassiker der Absurdität.
+
+1937 verabschiedete der US-Kongress den **Marihuana Tax Act**, der Cannabis de facto illegal machte (durch prohibitive Besteuerung). Die American Medical Association protestierte – Cannabis wurde damals noch medizinisch eingesetzt – wurde aber überstimmt.
+
+## Nixon, der War on Drugs und der Controlled Substances Act (1970)
+
+Die endgültige Bundesillegalisierung kam unter Präsident Nixon. Im **Controlled Substances Act von 1970** wurde Cannabis als Schedule-I-Substanz eingestuft – zusammen mit Heroin – was "kein medizinischen Nutzen und hohes Missbrauchspotenzial" bedeutete.
+
+Nixon gründete auch die DEA (Drug Enforcement Administration) und erklärte 1971 offiziell den "War on Drugs". Jahrzehnte später enthüllte John Ehrlichman – Nixons Innenpolitikberater – in einem Interview, dass der War on Drugs bewusst auf zwei Feinde ausgerichtet war: die Antikriegsbewegung (Hippies/Linke) und schwarze Gemeinschaften. Cannabis-Kriminalisierung war ein politisches Werkzeug.
+
+## Reagan und die Eskalation
+
+Ronald Reagan intensivierte den War on Drugs in den 1980er Jahren erheblich. Das **Anti-Drug Abuse Act von 1986** führte Mindeststrafen ein, die Crack-Kokain 100-mal härter bestraften als Pulverkokain – was in der Praxis vor allem schwarze Gemeinschaften traf. Cannabis blieb Schedule I.
+
+Die US-Gefängnispopulation explodierte: Von etwa 500.000 Gefangenen 1980 auf über 2 Millionen im Jahr 2000 – die USA hatten mehr Menschen pro Kopf inhaftiert als jedes andere Land der Welt, mit Cannabis als einer der häufigsten Anklagegründe.
+
+## Die Wende: Medizinisches Cannabis und Volksinitiativen
+
+1996 verabschiedete Kalifornien **Proposition 215** – das erste Gesetz zur Legalisierung von medizinischem Cannabis in den USA. Andere Bundesstaaten folgten. Bis 2012 hatten fast 20 Staaten medizinische Cannabis-Programme eingeführt.
+
+2012 stimmten die Bürger von **Colorado** und **Washington** für die erste Legalisierung von Freizeit-Cannabis überhaupt. Die Bundesregierung unter Obama entschied, nicht aggressiv dagegen vorzugehen.
+
+Seitdem ist die Legalisierung auf Staatsebene dramatisch vorangeschritten: Bis 2026 haben über 24 US-Bundesstaaten Cannabis für Erwachsene legalisiert, darunter Großstaaten wie California, New York, Michigan und Illinois.
+
+## Die Inkohärenz: Federal vs. State
+
+Das grundlegende Problem der US-Cannabis-Politik bleibt bestehen: Cannabis ist federal (bundesweit) noch immer Schedule-I-illegal. Das schafft dramatische Inkohärenzen:
+
+- Cannabis-Unternehmen können keine normalen Bankkonten eröffnen (Bundesbankensystem)
+- Cannabis-Besitz auf Bundesland ist strafbar (Nationalparks, Flughäfen, Bundesgebäude)
+- Veteranen können kein VA-Arzt-Rezept für Cannabis bekommen
+- Steuerrecht (§ 280E) verhindert normale Unternehmensabzüge
+
+2022 nutzte Präsident Biden seine Begnadigungsvollmacht für Menschen, die federal wegen Cannabis-Besitz verurteilt worden waren. Die Debatte um eine bundesweite Legalisierung oder zumindest Rescheduling läuft weiter.
+
+## Was die US-Geschichte für Deutschland bedeutet
+
+Die USA haben unfreiwillig ein umfassendes Experiment durchgeführt: Prohibition, dann schrittweise Legalisierung in verschiedenen Formen. Die Erkenntnisse: Prohibition reduziert den Konsum kaum, schafft aber riesige illegale Märkte und zielt unverhältnismäßig auf marginalisierte Gemeinschaften. Legalisierung schafft Regulierung, Qualitätskontrolle und Steuereinnahmen.
+
+Deutschland hat mit dem KCanG einen sorgfältigeren, aber auch bürokratischeren Ansatz gewählt – mit Lernpotenzial aus beiden Seiten der amerikanischen Erfahrung.`,
+    content_en: `The history of cannabis prohibition in the USA is a story of racism, political calculation, popular media and ultimately a long, incomplete retreat. No other country has influenced global cannabis policy more – and no other country is today so inconsistent in the legalisation debate.
+
+## Early North America: Hemp as an Industrial Crop
+
+Until the late 19th century, cannabis (hemp) was a widespread industrial crop in North America. Colonists grew hemp for rope, textiles and paper. Hemp farmers sometimes received government subsidies, and George Washington himself grew hemp on his estate. Cannabis as an intoxicant and medicine was known but not socially stigmatised.
+
+The first restrictions began around 1910–1920, triggered by a combination of immigration panic, racial prejudice, and the cultural aftermath of alcohol prohibition.
+
+## Harry Anslinger and the Marihuana Tax Act (1937)
+
+The central figure of US cannabis prohibition is Harry Anslinger, who headed the Federal Bureau of Narcotics (FBN) from 1930 to 1962. Anslinger ran an orchestrated media campaign linking cannabis with violence, insanity and ethnic minorities. His infamous quotes were openly racist – he explicitly connected cannabis with Black jazz musicians and Mexican immigrants.
+
+In 1936, the propaganda film **"Reefer Madness"** was released – a melodramatic portrayal of teenagers becoming murderers and lunatics after smoking a joint. The film, originally produced for deterrence, is today a cult classic of absurdity.
+
+In 1937, the US Congress passed the **Marihuana Tax Act**, effectively making cannabis illegal through prohibitive taxation. The American Medical Association protested – cannabis was still used medicinally at the time – but was overruled.
+
+## Nixon, the War on Drugs and the Controlled Substances Act (1970)
+
+The definitive federal criminalisation came under President Nixon. The **Controlled Substances Act of 1970** classified cannabis as a Schedule I substance – alongside heroin – meaning "no medical value and high abuse potential."
+
+Nixon also founded the DEA (Drug Enforcement Administration) and officially declared the "War on Drugs" in 1971. Decades later, John Ehrlichman – Nixon's domestic policy advisor – revealed in an interview that the War on Drugs was deliberately aimed at two enemies: the antiwar movement (hippies/left) and Black communities. Cannabis criminalisation was a political tool.
+
+## The Turn: Medical Cannabis and Ballot Initiatives
+
+In 1996, California passed **Proposition 215** – the first law to legalise medical cannabis in the USA. Other states followed. By 2012, nearly 20 states had introduced medical cannabis programmes.
+
+In 2012, voters in **Colorado** and **Washington** voted for the first recreational cannabis legalisation ever. The Obama federal government decided not to aggressively oppose it.
+
+Since then, legalisation at state level has advanced dramatically: by 2026, more than 24 US states have legalised cannabis for adults, including major states like California, New York, Michigan and Illinois.
+
+## The Incoherence: Federal vs. State
+
+The fundamental problem of US cannabis policy remains: cannabis is federally still Schedule-I illegal. This creates dramatic incoherencies that continue to affect cannabis businesses, consumers and patients across the country.
+
+In 2022, President Biden used his pardon power for people federally convicted of cannabis possession. The debate about nationwide legalisation or at least rescheduling continues.
+
+## What US History Means for Germany
+
+The USA inadvertently ran a comprehensive experiment: prohibition, then gradual legalisation in various forms. The findings: prohibition barely reduces consumption but creates huge illegal markets and disproportionately targets marginalised communities. Legalisation creates regulation, quality control and tax revenue.
+
+Germany has chosen a more careful but also more bureaucratic approach with the KCanG – with learning potential from both sides of the American experience.`,
+    tags: ['USA', 'Prohibition', 'Geschichte', 'Politik', 'War on Drugs', 'Legalisierung'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-geschichte-weltweit', 'legalisierung-deutschland', 'cannabis-weltweit-legalisierung', 'hanf-industriegeschichte'],
+  },
+
+  // ─── CANNABIS ALS HEILMITTEL DURCH DIE GESCHICHTE ───────────────────────────
+  {
+    slug: 'cannabis-medizin-historisch',
+    category: 'history',
+    title_de: 'Cannabis als Heilmittel durch die Geschichte',
+    title_en: 'Cannabis as Medicine Through History',
+    summary_de:
+      'Seit 5.000 Jahren setzt die Menschheit Cannabis zu Heilzwecken ein – von altchinesischen Pharmakopöen über Kolonial-Arzneibücher bis zur modernen medizinischen Forschung.',
+    summary_en:
+      'For 5,000 years, humanity has used cannabis for healing – from ancient Chinese pharmacopoeias through colonial medical books to modern medical research.',
+    content_de: `Die medizinische Nutzung von Cannabis ist keine Erfindung der modernen Alternativmedizin – sie ist so alt wie die dokumentierte Geschichte der Heilkunde. Kulturen auf allen Kontinenten haben Cannabis in ihrer Medizin eingesetzt, oft mit bemerkenswert präzisen Beobachtungen zu seinen Wirkungen.
+
+## Das Alte China: Erste schriftliche Belege
+
+Der früheste schriftlich dokumentierte medizinische Einsatz von Cannabis stammt aus dem alten China. Das **Shennong Bencao Jing** (Shennongs Klassiker der Materia Medica), eine der ältesten pharmazeutischen Schriften, die auf ca. 2.700 v. Chr. datiert wird (wenn auch die vorliegende Form aus der Han-Dynastie stammt), beschreibt Cannabis (Má oder Dàmá) ausführlich.
+
+Cannabis wurde im alten China gegen eine Vielzahl von Beschwerden eingesetzt: Rheuma, Malaria, Vergesslichkeit, weibliche Beschwerden und Beriberi (Vitamin-B1-Mangel). Besonders bedeutend ist, dass chinesische Mediziner sowohl die weibliche (THC-reiche) als auch die männliche Pflanze kannten und deren unterschiedliche Eigenschaften beschrieben.
+
+Im 2. Jahrhundert n. Chr. beschreibt der chinesische Arzt Hua Tuo die Verwendung einer Cannabis-Wein-Mischung als Anästhetikum bei chirurgischen Eingriffen – die erste bekannte Beschreibung einer Cannabis-basierten Vollnarkose.
+
+## Indien und das Ayurveda: Bhang, Charas, Ganja
+
+In der indischen Medizintradition (Ayurveda) nimmt Cannabis eine zentrale Rolle ein. Das Atharvaveda (ca. 1.500–1.000 v. Chr.), eines der vier heiligen Veden-Texte, erwähnt Cannabis (Bhanga) als eine der fünf heiligen Pflanzen.
+
+Indische Ärzte verwendeten Cannabis in drei Hauptformen:
+- **Bhang:** Eine Paste aus Blättern und Blüten, oft in Milch aufgelöst. Eingesetzt gegen Angst, Fieber, Dysenterie und als Stimmungsaufheller.
+- **Charas:** Reines Harz (ähnlich dem modernen Haschisch). Hochpotente medizinische und spirituelle Anwendung.
+- **Ganja:** Getrocknete Blüten der weiblichen Pflanze.
+
+Das ayurvedische Werk **Sushruta Samhita** (ca. 6. Jahrhundert v. Chr.) beschreibt Cannabis als Heilmittel gegen Katarrherkrankungen der Ohren und Trübungen.
+
+## Das islamische Goldene Zeitalter: Ibn Sina und die Pharmakologie
+
+Im islamischen Goldenen Zeitalter (8.–13. Jahrhundert) systematisierten arabische und persische Gelehrte das medizinische Wissen der Antike und erweiterten es erheblich. **Ibn Sina** (Avicenna, 980–1037), vielleicht der einflussreichste Arzt des Mittelalters, beschreibt Cannabis in seinem Hauptwerk **Kanon der Medizin** (Al-Qanun fi't-tibb) detailliert.
+
+Ibn Sina beobachtete die harntreibenden, entzündungshemmenden und schmerzlindernden Eigenschaften von Cannabis. Er setzte es gegen Kopfschmerzen, Ohrenerkrankungen und Gonorrhoe ein. Das Kanon-Werk blieb in Europa bis ins 17. Jahrhundert Standardlehrstoff an medizinischen Fakultäten.
+
+## Europa und die Kolonialzeit
+
+Im mittelalterlichen Europa war Cannabis (als Hanf) primär als Nutzpflanze bekannt. Medizinische Anwendungen wurden von Hildegard von Bingen (12. Jahrhundert) beschrieben, die Cannabis gegen Magenbeschwerden empfahl.
+
+Mit der europäischen Kolonialexpansion stieß Europa auf die umfangreichen indischen Cannabis-Medizintraditionen. Britische Kolonialärzte in Indien – besonders **William Brooke O'Shaughnessy** – führten Cannabis in die westliche Medizin ein. O'Shaughnessy publizierte 1843 eine bahnbrechende Arbeit über Cannabis als Analgetikum und Antiepileptikum. Er demonstrierte erfolgreich Cannabis-Extrakte bei Tetanus-Patienten und Kindern mit Epilepsie.
+
+In der zweiten Hälfte des 19. Jahrhunderts war Cannabis-Extrakt in fast jedem westlichen Pharmakopöe-Werk verzeichnet. Cannabis-Tinkturen wurden gegen Kopfschmerzen, Menstruationsbeschwerden, Rheuma, Cholera und viele andere Erkrankungen eingesetzt. Bekannte Hersteller waren Eli Lilly und Parke-Davis in den USA.
+
+## Das 20. Jahrhundert: Kriminalisierung unterbricht die Forschung
+
+Die Kriminalisierung von Cannabis im frühen 20. Jahrhundert – beginnend mit US-amerikanischen Gesetzen und ausgeweitet durch internationale Abkommen – unterbrach die medizinische Forschung für Jahrzehnte. Cannabis verschwand aus offiziellen Pharmakopöen, und klinische Studien wurden faktisch unmöglich.
+
+Erst in den 1960er Jahren begann die moderne wissenschaftliche Untersuchung. **Raphael Mechoulam** und Yechiel Gaoni isolierten 1964 erstmals THC in reiner Form. 1992 entdeckten Mechoulam und Lumir Hanus das erste körpereigene Cannabinoid: Anandamid – was zur Entdeckung des Endocannabinoid-Systems führte.
+
+## Heute: Renaissance der medizinischen Forschung
+
+Seit der Entdeckung des Endocannabinoid-Systems hat die medizinische Cannabis-Forschung eine Renaissance erlebt. Hunderte klinische Studien zu Schmerztherapie, Epilepsie (besonders CBD bei kindlicher Epilepsie), Chemotherapie-Nebenwirkungen und neurologischen Erkrankungen laufen weltweit.
+
+Das Medikament **Epidiolex** (reines CBD) wurde 2018 von der FDA für schwere Epilepsie-Formen zugelassen – das erste pflanzlich basierte Cannabinoid-Medikament mit FDA-Zulassung. In Deutschland ist medizinisches Cannabis seit 2017 verschreibungsfähig.
+
+Die Geschichte der medizinischen Cannabis-Nutzung ist damit keine lineare Erfolgsgeschichte, sondern eine Geschichte von Entdeckung, Verdrängung und Wiederentdeckung.`,
+    content_en: `The medical use of cannabis is not an invention of modern alternative medicine – it is as old as the documented history of healing. Cultures on all continents have used cannabis in their medicine, often with remarkably precise observations about its effects.
+
+## Ancient China: First Written Evidence
+
+The earliest written documented medical use of cannabis comes from ancient China. The **Shennong Bencao Jing** (Shennong's Classic of Materia Medica), one of the oldest pharmaceutical writings, dated to approximately 2,700 BCE, describes cannabis (Má or Dàmá) extensively.
+
+Cannabis was used in ancient China against a variety of complaints: rheumatism, malaria, forgetfulness, female complaints and beriberi (vitamin B1 deficiency). Particularly significant is that Chinese physicians knew both the female (THC-rich) and male plants and described their different properties.
+
+In the 2nd century CE, the Chinese physician Hua Tuo describes using a cannabis-wine mixture as an anaesthetic during surgical procedures – the first known description of cannabis-based general anaesthesia.
+
+## India and Ayurveda: Bhang, Charas, Ganja
+
+In the Indian medical tradition (Ayurveda), cannabis plays a central role. The Atharvaveda (c. 1,500–1,000 BCE), one of the four sacred Vedic texts, mentions cannabis (Bhanga) as one of the five sacred plants.
+
+Indian physicians used cannabis in three main forms: Bhang (a paste of leaves and flowers), Charas (pure resin) and Ganja (dried flowers of the female plant).
+
+## The Islamic Golden Age: Ibn Sina and Pharmacology
+
+During the Islamic Golden Age (8th–13th centuries), Arab and Persian scholars systematised and considerably expanded medical knowledge from antiquity. **Ibn Sina** (Avicenna, 980–1037) describes cannabis in detail in his masterwork **The Canon of Medicine**, observing its diuretic, anti-inflammatory and analgesic properties.
+
+## Europe and the Colonial Era
+
+**William Brooke O'Shaughnessy**, a British colonial physician in India, introduced cannabis to Western medicine through a groundbreaking 1843 publication on cannabis as an analgesic and antiepileptic. In the second half of the 19th century, cannabis extract was listed in almost every Western pharmacopoeia.
+
+## The 20th Century: Criminalisation Interrupts Research
+
+Criminalisation in the early 20th century interrupted medical research for decades. In 1964, **Raphael Mechoulam** and Yechiel Gaoni first isolated pure THC. The 1992 discovery of anandamide led to the discovery of the endocannabinoid system.
+
+## Today: Renaissance of Medical Research
+
+Since the discovery of the endocannabinoid system, medical cannabis research has experienced a renaissance. The drug **Epidiolex** (pure CBD) received FDA approval in 2018 for severe epilepsy – the first plant-based cannabinoid medication with FDA approval. In Germany, medical cannabis has been prescribable since 2017.`,
+    tags: ['Geschichte', 'Medizin', 'Heilmittel', 'China', 'Indien', 'Ayurveda', 'Forschung'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-geschichte-weltweit', 'hanf-industriegeschichte', 'legalisierung-deutschland', 'cannabis-nachkriegszeit-deutschland'],
+  },
 ] as const;

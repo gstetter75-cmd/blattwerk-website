@@ -1639,4 +1639,221 @@ The hardest step is often the first. It takes courage to admit that support migh
       },
     ],
   },
+
+  // ─── CANNABIS-ENTZUG ─────────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-entzug',
+    category: 'prevention',
+    title_de: 'Cannabis-Entzug: Was passiert, wenn man aufhört?',
+    title_en: 'Cannabis Withdrawal: What Happens When You Stop?',
+    summary_de:
+      'Regelmäßiger Cannabis-Konsum kann zu körperlicher Abhängigkeit führen. Was sind die Symptome des Cannabis-Entzugs, wie lange dauert er – und wie kommt man am besten durch diese Phase?',
+    summary_en:
+      'Regular cannabis use can lead to physical dependence. What are the symptoms of cannabis withdrawal, how long does it last – and how do you best get through this phase?',
+    content_de: `Cannabis-Entzug ist real. Lange wurde bestritten, dass Cannabis körperliche Abhängigkeit erzeugen kann – heute ist das Cannabis Withdrawal Syndrome (CWS) im DSM-5, dem internationalen Diagnosehandbuch für psychische Störungen, als eigenständiges Krankheitsbild anerkannt. Was das bedeutet, wie sich ein Entzug anfühlt und wie man ihn gut überstehen kann, erklärt dieser Artikel.
+
+## Wer ist betroffen?
+
+Nicht jeder Cannabiskonsum führt zu Entzugssymptomen. Betroffen sind in erster Linie Menschen, die:
+
+- **Regelmäßig konsumieren:** Täglicher oder nahezu täglicher Konsum über mindestens mehrere Wochen
+- **Über längere Zeit konsumiert haben:** Das Risiko steigt mit der Konsumhistorie
+- **Potentes Cannabis verwendet haben:** Höherer THC-Gehalt erhöht das Abhängigkeitsrisiko
+
+Etwa 9–17 % aller Cannabis-Nutzer entwickeln laut Studien eine Abhängigkeit. Unter täglichen Nutzern liegt die Zahl deutlich höher – bei 25–50 %. Kein Widerspruch: Die meisten Gelegenheitskonsumenten entwickeln keine Abhängigkeit; bei regelmäßiger, intensiver Nutzung ist das Risiko aber erheblich.
+
+## Symptome des Cannabis-Entzugs
+
+Entzugssymptome treten typischerweise innerhalb von **24–72 Stunden** nach dem letzten Konsum auf. Die häufigsten Symptome:
+
+**Psychisch/emotional:**
+- Reizbarkeit, Aggressivität, Gereiztheit (häufigste Beschwerde)
+- Angst, Nervosität, innere Unruhe
+- Depressive Verstimmung, Niedergeschlagenheit
+- Starkes Verlangen nach Cannabis (Craving)
+
+**Körperlich:**
+- Schlafstörungen: Einschlafschwierigkeiten, häufiges Aufwachen, intensive Träume / Albträume (durch Rückkehr des unterdrückten REM-Schlafs)
+- Appetitlosigkeit, Übelkeit
+- Kopfschmerzen
+- Schwitzen, Schüttelfrost
+- Leichte Zittrigkeit
+
+**Kognitiv:**
+- Konzentrationsschwierigkeiten
+- Verlangsamtes Denken (verbessert sich nach 1–2 Wochen)
+
+## Zeitlicher Verlauf
+
+**Tag 1–3:** Symptome beginnen und nehmen zu. Häufig die schwerste Phase. Reizbarkeit, Schlafprobleme und Appetitlosigkeit sind am stärksten ausgeprägt.
+
+**Tag 4–7:** Körperliche Symptome klingen langsam ab. Psychische Symptome (Angst, Reizbarkeit, Craving) bleiben stärker.
+
+**Woche 2–4:** Deutliche Verbesserung der körperlichen Symptome. Schlaf normalisiert sich schrittweise. Stimmung und Antrieb können noch schwanken.
+
+**Woche 4–6:** Bei den meisten Menschen klingen alle wesentlichen Entzugssymptome ab. Manchen berichten über länger anhaltende Schlafstörungen oder leichte emotionale Instabilität.
+
+**Wichtig:** Cannabis-Entzug ist, anders als Alkohol- oder Opioidentzug, **nicht lebensgefährlich**. Krämpfe oder schwere körperliche Komplikationen treten nicht auf. Unangenehm – ja. Gefährlich – nein.
+
+## Was hilft beim Cannabis-Entzug?
+
+**Körperliche Aktivität:** Sport ist einer der wirksamsten "natürlichen" Gegenmittel gegen Entzugssymptome. Bewegung setzt Endorphine frei, verbessert Schlaf und Stimmung und lenkt ab.
+
+**Schlafhygiene:** Regelmäßige Schlafzeiten, kein Bildschirm vor dem Schlafengehen, kühles Zimmer. Kräutertees (Baldrian, Kamille) können helfen.
+
+**Soziale Unterstützung:** Die Entscheidung aufzuhören mit vertrauten Menschen teilen. Isolation verstärkt das Craving.
+
+**Auslöser meiden:** Situationen, Orte und Personen meiden, die mit dem Cannabis-Konsum assoziiert sind – zumindest in der ersten Zeit.
+
+**Ernährung:** Trotz Appetitlosigkeit regelmäßig essen. Viel Wasser trinken. Koffein und Alkohol sollten reduziert werden – beide können Angst und Schlafprobleme verstärken.
+
+**Professionelle Hilfe:** Bei schweren Symptomen oder wenn Eigenbemühungen nicht funktionieren, ist Unterstützung durch eine Suchtberatungsstelle sinnvoll. Kognitive Verhaltenstherapie (CBT) ist die am besten evaluierte Therapie für Cannabis Use Disorder.
+
+## Das Problem des Rückfalls
+
+Der Hauptgrund für Rückfälle ist die Entzugsangst – also die Angst, die durch den Entzug ausgelöst wird und die mit Cannabis "behandelt" werden kann. Wenn du weißt, dass diese Angst temporär und chemisch bedingt ist, kann das helfen, sie durchzustehen.
+
+Rückfälle sind bei Suchterkrankungen statistisch normal – sie bedeuten nicht das Ende des Weges, sondern sind oft Teil des Prozesses. Wichtig ist, nach einem Rückfall nicht aufzugeben, sondern den Versuch fortzusetzen.
+
+## Wann ist professionelle Hilfe nötig?
+
+Bei folgenden Zeichen solltest du professionelle Unterstützung suchen:
+- Schwere Depressionen oder Suizidgedanken
+- Schlaflosigkeit über mehr als 2 Wochen
+- Unfähigkeit, den Alltag zu bewältigen
+- Mehrfache Rückfälle trotz Eigenbemühungen
+
+Unsere lokalen Beratungsangebote in Hildesheim findest du auf der Präventionsseite von BlattWerk e.V.`,
+    content_en: `Cannabis withdrawal is real. For a long time it was denied that cannabis could produce physical dependence – today, Cannabis Withdrawal Syndrome (CWS) is recognised as an independent clinical picture in DSM-5, the international diagnostic manual for mental disorders.
+
+## Who Is Affected?
+
+Not every cannabis use leads to withdrawal symptoms. Those primarily affected are people who: consume regularly (daily or near-daily for at least several weeks); have consumed over a longer period; and have used potent cannabis (higher THC content increases dependency risk).
+
+Approximately 9–17% of all cannabis users develop dependence according to studies. Among daily users, the figure is considerably higher – at 25–50%.
+
+## Symptoms of Cannabis Withdrawal
+
+Withdrawal symptoms typically appear within **24–72 hours** after the last use. The most common symptoms:
+
+**Psychological/emotional:** Irritability, aggressiveness (most common complaint); anxiety, nervousness, inner restlessness; depressive mood, despondency; strong craving for cannabis.
+
+**Physical:** Sleep disturbances (difficulty falling asleep, frequent waking, intense dreams/nightmares through return of suppressed REM sleep); loss of appetite, nausea; headaches; sweating, chills; mild trembling.
+
+## Timeline
+
+- **Days 1–3:** Symptoms begin and intensify. Often the hardest phase.
+- **Days 4–7:** Physical symptoms slowly subside. Psychological symptoms remain stronger.
+- **Week 2–4:** Significant improvement in physical symptoms. Sleep gradually normalises.
+- **Week 4–6:** Most essential withdrawal symptoms subside in most people.
+
+**Important:** Cannabis withdrawal, unlike alcohol or opioid withdrawal, is **not life-threatening**. Uncomfortable – yes. Dangerous – no.
+
+## What Helps During Cannabis Withdrawal?
+
+Physical activity; sleep hygiene; social support; avoiding triggers; regular nutrition; professional help when self-efforts don't work (CBT is the best-evaluated therapy for Cannabis Use Disorder).
+
+## When Is Professional Help Needed?
+
+Seek professional support in case of: severe depression or suicidal thoughts; insomnia for more than 2 weeks; inability to manage daily life; multiple relapses despite self-efforts.
+
+Our local counselling services in Hildesheim can be found on the BlattWerk e.V. prevention page.`,
+    tags: ['Entzug', 'Abhängigkeit', 'Aufhören', 'Prävention', 'Hilfe', 'CWS'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['toleranzentwicklung-cannabis', 'frueherkennung-problemkonsum', 'selbstcheck-warnzeichen', 'beratungsstellen-hildesheim'],
+  },
+
+  // ─── SICHERES AUFBEWAHREN ────────────────────────────────────────────────────
+  {
+    slug: 'cannabis-sicher-aufbewahren',
+    category: 'prevention',
+    title_de: 'Cannabis sicher aufbewahren: Kinderschutz und Qualitätserhalt',
+    title_en: 'Storing Cannabis Safely: Child Safety and Quality Preservation',
+    summary_de:
+      'Wer Cannabis zuhause aufbewahrt, hat eine Verantwortung – für Minderjährige im Haushalt und für die Qualität des Cannabis. Tipps zu kindersicherer Aufbewahrung und optimaler Lagerung.',
+    summary_en:
+      'Anyone storing cannabis at home has a responsibility – to minors in the household and to cannabis quality. Tips on childproof storage and optimal preservation.',
+    content_de: `Das KCanG erlaubt den Besitz von bis zu 50 Gramm Cannabis in der eigenen Wohnung – macht aber auch klare Vorgaben: Cannabis muss so aufbewahrt werden, dass Minderjährige keinen Zugang haben. Das ist keine optionale Empfehlung, sondern eine gesetzliche Pflicht.
+
+## Rechtliche Grundlage: § 10 KCanG
+
+Das Konsumcannabisgesetz verpflichtet Erwachsene, Cannabis so aufzubewahren, dass es für Minderjährige nicht zugänglich ist. Wer Cannabis für Kinder oder Jugendliche zugänglich macht (auch fahrlässig), macht sich strafbar. Diese Pflicht besteht unabhängig davon, ob tatsächlich Kinder im Haushalt leben – die Norm richtet sich an alle.
+
+**Praktische Anforderung:** Cannabis muss in verschlossenen Behältern aufbewahrt werden, zu denen Kinder keinen Zugang haben. Eine einfache Keksdose im Regal erfüllt diese Anforderung nicht.
+
+## Kindersichere Aufbewahrungslösungen
+
+**Abschließbare Kisten/Boxen:** Lockboxen aus Metall mit Zahlenschloss oder Schlüsselschloss sind günstig und effektiv. Im Online-Handel erhältlich ab ca. 20–40 Euro. Wichtig: Die Box sollte schwer genug sein, dass ein Kind sie nicht einfach mitnehmen kann, oder muss zusätzlich befestigt werden.
+
+**Tresor/Safe:** Für größere Mengen oder besondere Sorgfalt. Auch kleine Wandtresore bieten optimalen Schutz. Kosten: 50–200 Euro je nach Größe und Schlossmechanismus.
+
+**Cannabis-spezifische Lock-Behälter:** Es gibt speziell für Cannabis konzipierte kindersichere Container mit Kindersicherungsverschluss (ähnlich wie Medikamentenbehälter). Oft geruchsdicht und mit Hygrometer.
+
+**Kind-resistente Verpackungen für die Abgabe:** Cannabis, das von einem Cannabis Social Club oder einer Apotheke abgegeben wird, kommt in kindersicherer Verpackung. Diese behalten und weiterverwenden!
+
+## Optimale Lagerung für Qualitätserhalt
+
+Gute Aufbewahrung schützt nicht nur vor unberechtigtem Zugang, sondern erhält auch die Qualität des Cannabis. Die wichtigsten Feinde von Cannabis sind: Licht (UV-Strahlung), Sauerstoff, Feuchtigkeit (zu viel oder zu wenig) und Wärme.
+
+**Licht:** UV-Licht ist der stärkste Qualitätskiller. THC wird durch UV-Bestrahlung zu CBN abgebaut – die Potenz sinkt. Aufbewahrung im Dunkeln oder in UV-blockenden Behältern ist essenziell.
+
+**Temperatur:** 15–21 °C ist optimal. Zu warm beschleunigt den Abbau von Cannabinoiden und Terpenen. Zu kalt kann zu Kondensation führen, wenn das Cannabis aus dem kalten Behälter an warme Luft kommt. **Kein Kühlschrank** – dort ist die Temperatur zwar niedrig, aber die Feuchtigkeitsschwankungen beim Öffnen und Schließen sind problematisch.
+
+**Luftfeuchtigkeit:** 59–63 % relative Luftfeuchtigkeit ist der Süßpunkt für Cannabis-Lagerung. Zu trocken: Terpene verdampfen, Cannabis wird bröselig, Rauch kann rauer sein. Zu feucht: Schimmelgefahr.
+
+**Oxygen:** Sauerstoff oxidiert THC zu CBN. Luftdichte Behälter (Glas mit Gummidichtung) sind wichtig. Vakuum-Versiegelung ist für Langzeitlagerung noch besser.
+
+## Das ideale Lagerungssystem
+
+**Glasbehälter mit Deckel und Gummidichtung** (Mason Jars / Einmachgläser): Günstig, inert (reagiert nicht mit Cannabis), luftdicht, leicht zu reinigen. Größen je nach Bedarf.
+
+**Boveda-Humidipacks oder vergleichbare Feuchtigkeitsregulatoren:** Diese kleinen Beutelchen regulieren die relative Luftfeuchtigkeit im Behälter automatisch auf den eingestellten Wert (verfügbar in 58 % oder 62 %). Sie nehmen Feuchtigkeit auf oder geben sie ab – je nach Bedarf. Kostet ca. 1–3 Euro pro Stück, schützt aber erheblich die Qualität.
+
+**Lagerort:** Kühler, dunkler Schrank (kein Fensterbrett, keine Fensterbank), idealerweise abseits von Küche (Hitze/Dampf) und Bad (Feuchtigkeit).
+
+## Wie lange ist Cannabis haltbar?
+
+Richtig gelagert behält Cannabis mehrere Monate bis über ein Jahr seine Qualität. Faustregel:
+- **3–6 Monate:** Kein wesentlicher Qualitätsverlust bei guter Lagerung
+- **6–12 Monate:** Leichter THC-Abbau, Terpene nehmen ab, Geschmack verändert sich
+- **Über 1 Jahr:** Deutliche Qualitätsverschlechterung, hoher CBN-Anteil (beruhigend-sedierend)
+
+## Beschriftung: Wichtig für Sicherheit und Qualität
+
+Cannabis, das nicht sofort verbraucht wird, sollte beschriftet werden: Sortenname, Abgabedatum, THC-Gehalt. Das verhindert Verwechslungen und hilft bei der Dosierung. Bei mehreren Sorten mit unterschiedlichen Potenz-Levels ist Beschriftung Pflicht – auch als Schutzmaßnahme gegen versehentliche Überdosierung.`,
+    content_en: `The KCanG allows possession of up to 50 grams of cannabis at home – but also sets clear requirements: cannabis must be stored in a way that minors have no access. This is not an optional recommendation but a legal obligation.
+
+## Legal Basis: § 10 KCanG
+
+The Cannabis Consumption Act obliges adults to store cannabis so that it is not accessible to minors. Anyone who makes cannabis accessible to children or young people (even negligently) commits an offence.
+
+## Childproof Storage Solutions
+
+**Lockable boxes:** Metal lockboxes with combination or key lock are affordable and effective. Available online from approximately €20–40.
+
+**Safe:** For larger quantities or special care. Small wall safes also offer optimal protection. Cost: €50–200.
+
+**Cannabis-specific lock containers:** Child-resistant containers specifically designed for cannabis with child-safety closures. Often odour-proof and with hygrometer.
+
+## Optimal Storage for Quality Preservation
+
+Good storage not only protects against unauthorised access but also preserves cannabis quality. The main enemies of cannabis are: light (UV radiation), oxygen, moisture (too much or too little) and heat.
+
+**Light:** UV light is the biggest quality killer. THC is broken down to CBN by UV radiation. Storage in the dark or in UV-blocking containers is essential.
+
+**Temperature:** 15–21 °C is optimal. **No refrigerator** – humidity fluctuations when opening and closing are problematic.
+
+**Humidity:** 59–63% relative humidity is the sweet spot for cannabis storage. Humidity packs (Boveda 58% or 62%) regulate automatically.
+
+**Oxygen:** Airtight glass containers (Mason jars) are important. Vacuum sealing is even better for long-term storage.
+
+## Labelling: Important for Safety and Quality
+
+Cannabis that is not consumed immediately should be labelled: strain name, dispensing date, THC content. This prevents mix-ups and aids dosing.`,
+    tags: ['Lagerung', 'Kinderschutz', 'Sicherheit', 'Qualität', 'KCanG', 'Prävention'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['jugendschutz-u18-risiken', 'kcang-ueberblick', 'elternratgeber-cannabis', 'besitzmengen-konsumzonen'],
+  },
 ];
