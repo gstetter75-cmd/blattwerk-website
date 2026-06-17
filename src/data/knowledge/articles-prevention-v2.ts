@@ -2386,4 +2386,239 @@ Digital offers are an excellent first step. Those needing more support should ad
     last_updated: '2026-06-17',
     related_slugs: ['beratungsstellen-hildesheim', 'cannabis-entzug', 'frueherkennung-problemkonsum', 'selbstcheck-warnzeichen'],
   },
+  {
+    slug: 'cannabis-mpu-fuehrerschein',
+    category: 'prevention',
+    title_de: 'Cannabis und Führerschein: MPU, THC-Grenzwert und Fahreignung',
+    title_en: 'Cannabis and Driving Licence: MPU, THC Limit and Fitness to Drive',
+    summary_de:
+      'Der neue THC-Grenzwert von 3,5 ng/ml im Straßenverkehr, MPU-Anordnung und Fahreignungsprüfung: Was cannabis-konsumierende Autofahrende in Deutschland jetzt wissen müssen.',
+    summary_en:
+      'The new THC limit of 3.5 ng/ml in road traffic, MPU orders and fitness-to-drive assessment: what cannabis-consuming drivers in Germany need to know now.',
+    content_de: `## Neuer THC-Grenzwert seit Oktober 2024
+
+Mit dem Straßenverkehrsgesetz-Änderungsgesetz vom 21. Oktober 2024 wurde in Deutschland erstmals ein wissenschaftlich begründeter THC-Grenzwert für den Straßenverkehr eingeführt: **3,5 Nanogramm THC pro Milliliter Blutserum (ng/ml)**. Davor galten null Toleranz und selbst minimale THC-Rückstände als Ordnungswidrigkeit – ein System, das Abstinenzzeiten nicht abbildete.
+
+Der neue Grenzwert schützt jedoch nicht vor allen Konsequenzen. Wer Cannabis konsumiert und Auto fährt, trägt weiterhin erhebliche rechtliche und sicherheitliche Risiken.
+
+## Was der Grenzwert bedeutet
+
+### Unterhalb von 3,5 ng/ml (nüchtern gefahren)
+Kein Ordnungswidrigkeitentatbestand allein durch THC-Nachweis. Wichtig: Das gilt nur, wenn keine Beeinträchtigung erkennbar ist und kein Mischkonsum (Alkohol ≥ 0,2 ‰) vorliegt.
+
+### Zwischen 3,5 ng/ml und ca. 10 ng/ml
+**Ordnungswidrigkeit:** 500 Euro Bußgeld, 1 Punkt in Flensburg, 1 Monat Fahrverbot.
+
+### Bei Mischkonsum (THC + Alkohol ab 0,2 ‰)
+Erhöhte Bußgelder (1.000 Euro aufwärts), 2 Punkte, 3 Monate Fahrverbot – unabhängig vom THC-Wert.
+
+### Bei erkennbarer Fahrbeeinträchtigung
+Auch unterhalb des Grenzwerts können Polizei und Staatsanwaltschaft eine Strafanzeige wegen Trunkenheitsfahrt (§ 316 StGB) erstatten, wenn Fahrfehler oder Beeinträchtigungen nachgewiesen werden. Das ist keine Ordnungswidrigkeit mehr, sondern eine Straftat.
+
+### Bei Ersttätern unter 21 Jahren / Fahranfänger in der Probezeit
+**Nulltoleranz:** Jeglicher THC-Nachweis führt zu Bußgeld, Punkt und Probezeitverlängerung.
+
+## Wann droht die MPU?
+
+Die **Medizinisch-Psychologische Untersuchung (MPU)** – im Volksmund „Idiotentest" – ist eine Fahreignungsbegutachtung, die die Fahrerlaubnisbehörde anordnen kann. Cannabis-bezogene MPU-Anordnung kann erfolgen bei:
+
+### Gelegentlichem Konsum + Verstoß
+Wer einmalig mit mehr als 3,5 ng/ml erwischt wird und nachweislich gelegentlicher Konsument ist, erhält meist eine **Anfrage der Behörde**. Dazu kommt oft eine Aufforderung zur freiwilligen Vorlage eines ärztlichen Gutachtens.
+
+### Regelmäßigem/gewohnheitsmäßigem Konsum
+Wer **regelmäßig** Cannabis konsumiert (definiert als: kein ausreichendes Trennungsvermögen zwischen Konsum und Fahren), muss mit MPU-Anordnung rechnen – unabhängig davon, ob er je auffällig im Straßenverkehr geworden ist. Die Fahrerlaubnisbehörde kann von regulärem Konsum auf fehlende Fahreignung schließen.
+
+### Kombination mit Alkohol oder anderen Drogen
+Mischkonsum erhöht das MPU-Risiko erheblich.
+
+### § 14 FeV: Die gesetzliche Grundlage
+Gemäß § 14 Fahrerlaubnis-Verordnung (FeV) kann die Behörde ein ärztliches Gutachten oder eine MPU anordnen, wenn Tatsachen vorliegen, die Bedenken an der Fahreignung begründen. Polizeiberichte, Laborwerte und Zeugenaussagen können solche Tatsachen darstellen.
+
+## Die MPU: Ablauf und Anforderungen
+
+Die MPU besteht in der Regel aus drei Teilen:
+
+### 1. Medizinischer Teil
+Körperliche Untersuchung, Blut-/Urinuntersuchung. Bei Cannabis: Nachweis von Abstinenz durch Laborwerte (THC-COOH im Urin, HDL/CDT im Blut). Oft wird ein Abstinenz-Nachweis von mindestens **6 bis 12 Monaten** gefordert.
+
+### 2. Leistungstest
+Reaktionstests, Konzentrationsübungen, Koordinationstests am Computer. Misst kognitive Leistungsfähigkeit.
+
+### 3. Psychologisches Gespräch
+Das Kernelement: Ein Gutachter befragt die Person zu Konsumgeschichte, Einstellung zum Fahren, Trennungsvermögen und persönlicher Entwicklung. Ehrlichkeit ist essenziell – erfahrene Gutachter erkennen inkonsistente Darstellungen.
+
+**Bestandene MPU:** Fahrerlaubnis wird wiedererteilt oder erhalten.
+**Nicht bestandene MPU:** Führerscheinentzug.
+
+## Trennungsvermögen: Das Schlüsselkonzept
+
+Die Fahrerlaubnisbehörden fordern ein **Trennungsvermögen** – die Fähigkeit und Bereitschaft, Cannabiskonsum und Fahren klar voneinander zu trennen. Dieser Begriff ist unscharf, führt aber in der Praxis dazu, dass regelmäßige Konsumenten (auch wenn sie nie bekifft gefahren sind) Probleme bei der MPU haben können: Der Gutachter muss davon überzeugt sein, dass der Betreffende *jederzeit* in der Lage ist, nicht zu fahren, wenn er konsumiert hat.
+
+## Was tun nach einer Polizeikontrolle mit THC-Fund?
+
+1. **Keine Selbstbelastung:** Sie müssen keine Angaben zum Konsum machen. Schweigen ist keine Schuld.
+2. **Rechtsanwalt einschalten:** Vor allem wenn eine MPU-Anordnung droht. Ein auf Verkehrsrecht spezialisierter Anwalt kann helfen, Fristen und Rechte zu wahren.
+3. **Abstinenznachweise sichern:** Falls eine MPU wahrscheinlich wird, beginnen Sie sofort mit dokumentierter Abstinenz (regelmäßige Blut- und Urintests beim Arzt).
+4. **MPU-Vorbereitung:** Seriöse MPU-Vorbereitungskurse (keine "Lernhilfen zum Schummeln") helfen, das Gespräch strukturiert anzugehen.
+
+## Besondere Situation: Medizinisches Cannabis
+
+Wer **medizinisches Cannabis** auf Rezept einnimmt, ist nicht automatisch fahrungeeignet. Jedoch gilt:
+- Arzt und Patient müssen die Fahrtauglichkeit gemeinsam beurteilen.
+- Bei stabilisierter Dosierung und fehlendem Rausch kann die Fahrtauglichkeit gegeben sein.
+- Im Zweifelsfall sollte eine verkehrsmedizinische Begutachtung erfolgen.
+- Bitte auch das Merkblatt des BfArM zur Fahrtauglichkeit bei medizinischem Cannabis beachten.
+
+## Zusammenfassung
+
+Cannabis und Autofahren: Ja, es gibt jetzt einen Grenzwert (3,5 ng/ml). Nein, das bedeutet nicht, dass Cannabis-Konsum und Autofahren problemlos kombinierbar sind. Wer kurz nach dem Konsum fährt, riskiert Bußgeld, Führerscheinentzug und MPU – unabhängig vom subjektiven Gefühl der Nüchternheit. Sicherster Weg: Wer konsumiert hat, fährt nicht.`,
+    content_en: `## New THC Limit Since October 2024
+
+Germany introduced a science-based THC road traffic limit of **3.5 ng/ml blood serum** in October 2024. Below this limit, no administrative offence exists (unless impairment is evident or there is mixed consumption with alcohol ≥0.2 ‰).
+
+## When Is an MPU (Medical-Psychological Assessment) Ordered?
+
+The MPU ("Idiotentest") can be ordered by licence authorities when:
+- A driver is caught with >3.5 ng/ml THC
+- Regular cannabis use is established (even without road traffic offences)
+- Mixed consumption (cannabis + alcohol) is involved
+
+## The MPU Assessment Process
+
+The MPU consists of: (1) medical examination including abstinence proof via lab work (6–12 months abstinence often required); (2) cognitive performance tests; (3) psychological interview assessing separation ability (Trennungsvermögen) – the ability to always separate consumption from driving.
+
+## Key Rule
+
+The safest approach: if you have consumed cannabis, do not drive. THC can impair driving ability for hours after consumption, even when the subjective feeling of intoxication has passed.`,
+    tags: ['Führerschein', 'MPU', 'Straßenverkehr', 'THC-Grenzwert', 'Fahreignung', 'Prävention', 'Recht'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['polizeikontrolle-rechte', 'kcang-besitz-grenzen', 'cannabis-entzug', 'selbstcheck-warnzeichen'],
+  },
+  {
+    slug: 'drogentest-arbeit-sport',
+    category: 'prevention',
+    title_de: 'Drogentest am Arbeitsplatz und im Sport: Rechte, Nachweiszeiten, Konsequenzen',
+    title_en: 'Drug Testing at Work and in Sport: Rights, Detection Times, Consequences',
+    summary_de:
+      'Wann darf der Arbeitgeber einen Drogentest verlangen? Wie lange ist THC nachweisbar? Was gilt für Leistungssportler unter WADA-Regeln? Die wichtigsten Fakten im Überblick.',
+    summary_en:
+      'When may an employer demand a drug test? How long is THC detectable? What applies to competitive athletes under WADA rules? The key facts at a glance.',
+    content_de: `## Drogentest am Arbeitsplatz: Was ist erlaubt?
+
+Die Frage, ob Arbeitgeber Drogentests anordnen dürfen, ist in Deutschland nicht einheitlich gesetzlich geregelt. Es gilt ein Abwägungsgebot zwischen Arbeitnehmerrechten (Persönlichkeitsrecht, körperliche Unversehrtheit) und berechtigten Arbeitgeberinteressen (Arbeitssicherheit, betriebliche Ordnung).
+
+### Grundsatz: Kein allgemeines Recht auf Drogentest
+
+Ein pauschales Recht des Arbeitgebers, von allen Mitarbeitenden Drogentests zu verlangen, existiert **nicht**. Tests sind nur unter bestimmten Voraussetzungen zulässig.
+
+### Zulässige Situationen für Drogentests
+
+**1. Sicherheitssensible Tätigkeiten**
+Bei Tätigkeiten, bei denen Beeinträchtigungen durch Drogen zu erheblichen Sicherheitsrisiken führen können, ist ein Test eher zulässig:
+- Kraftfahrer, Lokführer, Piloten
+- Maschinenführer, Kranführer, Gerüstbauer
+- Arbeiten in chemischen Anlagen, Sprengstoffbereichen
+- Sicherheitspersonal in kritischer Infrastruktur
+
+**2. Begründeter konkreter Verdacht**
+Wenn ein Arbeitgeber konkrete Anhaltspunkte hat, dass ein Mitarbeiter unter Drogeneinfluss steht (offensichtliche Ausfallerscheinungen, Unfall), kann ein Test im Einzelfall gerechtfertigt sein.
+
+**3. Tarifvertrag oder Betriebsvereinbarung**
+Wenn ein Betriebsrat vorhanden ist, können Drogentests durch eine Betriebsvereinbarung geregelt werden. Ohne Betriebsvereinbarung ist die Rechtslage für den Arbeitgeber unsicherer.
+
+**4. Freiwilligkeit**
+Viele Unternehmen bieten freiwillige Drogentests an. "Freiwillig" bedeutet jedoch: keine Konsequenzen bei Ablehnung. Wer bei Ablehnung sanktioniert wird, hat keine echte Freiwilligkeit.
+
+### Was passiert bei positivem Test?
+
+Ein positiver Drogentest allein ist kein Kündigungsgrund. Relevant ist, ob der Mitarbeiter:
+- Unter Einfluss während der Arbeit stand (nachweisliche Beeinträchtigung)
+- Arbeitsvertraglich ausdrücklich zu Abstinenz verpflichtet ist (z. B. bei sicherheitsrelevanten Positionen)
+- Vorherige Abmahnungen wegen Drogenproblematik erhalten hat
+
+Eine einmalige positive Probe ohne erkennbare Beeinträchtigung rechtfertigt in der Regel **keine** Kündigung. Bei Suchterkrankung gilt zusätzlich der Schutz des § 26 SGB IX (Rehabilitation vor Rente), der den Arbeitgeber zur Weiterbeschäftigung mit Hilfsangeboten verpflichtet.
+
+### Wer darf nicht einmal gefragt werden?
+
+Arbeitnehmer müssen auf die Frage "Konsumieren Sie Drogen?" keine ehrliche Antwort geben und dürfen auch lügen, ohne dass dies eine Kündigung rechtfertigt – solange keine Arbeitspflichten verletzt wurden. Das Datenschutzrecht (DSGVO, § 26 BDSG) schützt Gesundheitsdaten als besondere Kategorie.
+
+## Nachweiszeiten: Wie lange ist THC nachweisbar?
+
+Die Nachweiszeiten von Cannabis hängen stark vom Konsummuster ab:
+
+| Konsummuster | Urin (THC-COOH) | Blutserum (THC) | Speichel (THC) |
+|---|---|---|---|
+| Einmalkonsum | 2–4 Tage | 3–6 Stunden | 4–24 Stunden |
+| Gelegentlicher Konsum (1–3×/Woche) | 5–10 Tage | 6–12 Stunden | bis 24 Stunden |
+| Regelmäßiger Konsum (täglich) | 10–30 Tage | 12–24 Stunden | bis 48 Stunden |
+| Chronischer Konsum (jahrelang täglich) | bis zu 90 Tage | mehrere Tage | bis 72 Stunden |
+
+**Warum ist Urin so viel länger nachweisbar?**
+Im Urin wird nicht THC selbst, sondern der inaktive Metabolit **THC-COOH** gemessen. Dieser wird im Fettgewebe gespeichert und über Wochen langsam freigesetzt. Die Urinprobe beweist also keinen akuten Konsum oder Rausch – nur dass Cannabis irgendwann in den vergangenen Wochen konsumiert wurde.
+
+**Für Drogentests am Arbeitsplatz relevant:** Ein positiver Urintest beweist keine aktuelle Beeinträchtigung. In rechtlichen Auseinandersetzungen ist dies ein wichtiges Argument.
+
+## Drogentest im Leistungssport: WADA-Regeln
+
+Der **Leistungssport** folgt eigenen Regeln. Die **WADA (World Anti-Doping Agency)** regelt das internationale Anti-Doping-Recht. Für Cannabis gilt:
+
+### Status von THC im WADA-Code
+
+THC ist auf der **WADA-Verbotsliste** gelistet – allerdings nur **im Wettkampf** (In-Competition). Außerhalb von Wettkämpfen (Out-of-Competition) ist Cannabis seit 2023 auf der Monitoringliste, nicht mehr auf der Verbotsliste. Das heißt: Im Training darf Cannabis konsumiert werden, ohne gegen WADA-Regeln zu verstoßen.
+
+### Grenzwert im Wettkampf
+
+Der WADA-Grenzwert für THC im Urin beträgt **150 ng/ml THC-COOH**. Dieser Wert ist deutlich höher als frühere Grenzwerte (früher: 15 ng/ml), um sicherzustellen, dass nur akuter Wettkampf-naher Konsum geahndet wird, nicht Konsum aus der Vorwoche.
+
+### Wie lange droht bei Wettkampf-nahem Konsum ein positiver Test?
+
+Bei regelmäßigem Konsum mit mehrwöchiger Abstinenz vor dem Wettkampf kann der Urinspiegel unter 150 ng/ml sinken. Als Faustregel: Bei gelegentlichem Konsum reichen 1–2 Wochen Abstinenz. Bei täglichem Konsum sind 3–4 Wochen oder mehr nötig.
+
+### Konsequenzen bei positivem Dopingtest
+
+Ein positiver WADA-Test führt zu:
+- Vorläufige Sperre bis zur Entscheidung
+- In der Regel 1–4 Jahre Wettkampfsperre (je nach Sportverband und Grad des Verschuldens)
+- Disqualifikation und Aberkennung von Ergebnissen
+- In manchen Sportarten mögliche Karriereende-Konsequenz
+
+### Besonderheit: Medizinisches Cannabis
+
+Sportler mit ärztlicher Verschreibung für medizinisches Cannabis können einen **Therapeutic Use Exemption (TUE)** beantragen. Die Genehmigung ist jedoch schwierig, da Cannabis bei gesunden Spitzensportlern selten medizinisch unersetzbar ist.
+
+## CBD im Sport: Erlaubt seit 2018
+
+Wichtig für Sportler: **Reines CBD ist seit 2018 von der WADA-Verbotsliste gestrichen** und im Sport erlaubt. Allerdings ist Vorsicht geboten: Viele CBD-Produkte sind mit THC kontaminiert (bis zu 0,3 % in Vollspektrum-Produkten). Sportler sollten ausschließlich **THC-freie Isolat-CBD-Produkte** verwenden und auf Chargentest-Zertifikate achten (z. B. Informed Sport Zertifizierung).
+
+## Zusammenfassung
+
+- **Arbeitgeber** dürfen nicht pauschal Drogentests verlangen; nur in sicherheitsrelevanten Tätigkeiten und bei konkretem Verdacht
+- Ein positiver Urintest beweist keinen akuten Rausch – nur zurückliegenden Konsum
+- **Leistungssportler** dürfen Cannabis außerhalb von Wettkämpfen konsumieren; im Wettkampf gilt ein THC-Uringrenzwert von 150 ng/ml
+- **CBD** ist im Sport erlaubt; auf THC-Freiheit des Produkts achten`,
+    content_en: `## Drug Testing at Work: What Is Permitted?
+
+German law does not grant employers a blanket right to demand drug tests. Tests are only permissible in specific situations: safety-sensitive roles (drivers, crane operators, chemical plant workers), on concrete suspicion of impairment, or under works agreements negotiated with the works council.
+
+A positive urine test alone is not grounds for dismissal and does not prove current impairment – only past consumption.
+
+## Detection Times
+
+| Pattern | Urine (THC-COOH) | Blood (THC) |
+|---|---|---|
+| Single use | 2–4 days | 3–6 hours |
+| Regular (daily) | 10–30 days | 12–24 hours |
+| Chronic (years) | up to 90 days | several days |
+
+## Drug Testing in Sport: WADA Rules
+
+THC is prohibited **in-competition** only. The urine threshold is **150 ng/ml THC-COOH**. Out-of-competition use is not prohibited under current WADA rules (since 2023, monitoring only).
+
+**CBD** is permitted in sport since 2018 – but athletes should use certified THC-free isolate products to avoid inadvertent contamination.`,
+    tags: ['Drogentest', 'Arbeitsplatz', 'Sport', 'WADA', 'Nachweiszeiten', 'Prävention', 'Recht'],
+    reading_time: 11,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-mpu-fuehrerschein', 'polizeikontrolle-rechte', 'kcang-besitz-grenzen', 'cannabis-sport-erholung'],
+  },
 ];

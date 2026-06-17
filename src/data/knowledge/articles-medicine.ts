@@ -2192,4 +2192,221 @@ Seek dialogue with the oncologist; use medical cannabis on prescription for qual
     last_updated: '2026-06-17',
     related_slugs: ['cannabis-schmerztherapie', 'medizinisches-cannabis-deutschland', 'wechselwirkungen-medikamente', 'endocannabinoid-system-medizin'],
   },
+  {
+    slug: 'cannabis-multiple-sklerose',
+    category: 'medicine',
+    title_de: 'Cannabis bei Multipler Sklerose: Spastik, Schmerz und Lebensqualität',
+    title_en: 'Cannabis for Multiple Sclerosis: Spasticity, Pain and Quality of Life',
+    summary_de:
+      'Multiple Sklerose ist eine der am besten belegten Indikationen für medizinisches Cannabis. Nabiximols (Sativex®) ist in Deutschland zur Behandlung mittelschwerer bis schwerer Spastik zugelassen.',
+    summary_en:
+      'Multiple sclerosis is one of the best-documented indications for medical cannabis. Nabiximols (Sativex®) is approved in Germany for moderate to severe spasticity.',
+    content_de: `## Was ist Multiple Sklerose?
+
+Multiple Sklerose (MS) ist eine chronisch-entzündliche Erkrankung des Zentralnervensystems (Gehirn und Rückenmark). Das Immunsystem greift fälschlicherweise die Myelinscheide an – die schützende Hülle der Nervenfasern. Dadurch entstehen Entzündungsherde (Läsionen), die die Nervenleitfähigkeit stören oder unterbrechen. MS äußert sich in einer Vielzahl von Symptomen: Muskelschwäche, Spastik, Schmerzen, Fatigue, Sehstörungen, Blasenprobleme und kognitive Einschränkungen.
+
+Weltweit sind rund 2,8 Millionen Menschen betroffen; in Deutschland etwa 280.000. MS tritt meist im Alter zwischen 20 und 40 Jahren erstmals auf und ist damit eine der häufigsten neurologischen Erkrankungen bei jungen Erwachsenen.
+
+## Warum ist das Endocannabinoid-System bei MS relevant?
+
+Das Endocannabinoid-System (ECS) spielt im Zentralnervensystem eine zentrale Rolle – es reguliert neuronale Erregbarkeit, synaptische Plastizität, Immunfunktionen und neuroinflammatorische Prozesse. CB1-Rezeptoren sind besonders dicht in den Basalganglien, im Kleinhirn und im Rückenmark exprimiert – Regionen, die bei MS häufig betroffen sind. Bei MS-Patienten wurden veränderte Endocannabinoid-Spiegel (erhöhtes Anandamid) nachgewiesen, was auf eine Art „endogene Antwort" des Körpers auf neuronale Schädigung hindeuten könnte.
+
+Tierexperimentelle Studien mit MS-Modellen (Experimentelle Autoimmune Enzephalomyelitis, EAE) zeigten, dass Cannabinoide entzündungshemmend, neuroprotektiv und spastizitätssenkend wirken können. Diese Befunde motivierten umfangreiche klinische Forschung.
+
+## Sativex® – das erste zugelassene cannabinoidbasierte MS-Medikament
+
+**Nabiximols** (Handelsname Sativex®) ist ein oromukosales Spray, das THC und CBD im Verhältnis 1:1 (2,7 mg THC + 2,5 mg CBD pro Sprühstoß) enthält. Es wird auf die Mundschleimhaut gesprüht und ermöglicht eine rasche Resorption. In Deutschland ist Sativex® seit 2011 zugelassen für:
+
+> *Erwachsene MS-Patienten mit mittelschwerer bis schwerer Spastik, die auf andere Anti-Spastika nicht ausreichend angesprochen haben.*
+
+### Studienlage: Spastik
+
+Die Zulassung basiert auf mehreren randomisierten, placebokontrollierten Studien. Die wichtigsten Ergebnisse:
+
+- **CAMS-Studie (2003):** 630 MS-Patienten; signifikante Verbesserung der Spastik und Schlafstörungen bei oralen Cannabinoiden im Vergleich zu Placebo.
+- **MUSEC-Studie (2012):** Sativex® reduzierte Spastik-Scores signifikant. 74 % der Responder berichteten eine klinisch bedeutsame Verbesserung.
+- **MOVE 2-Studie (2014, Real-World-Daten):** Über 1.600 Patienten; etwa 40 % sprachen in der Anfangsphase gut an (≥20 % Verbesserung auf der NRS-Skala).
+
+### Praktische Anwendung von Sativex®
+
+Sativex® wird einschleichend dosiert. In den ersten zwei Wochen wird die individuelle optimale Tagesdosis ermittelt – üblicherweise 4–8 Sprühstöße pro Tag (maximal 12). Ein wichtiger Aspekt: Nicht alle Patienten sprechen an. Die Behandlungsleitlinien empfehlen eine **Initial-Response-Evaluation** nach 4 Wochen: Nur wenn eine Verbesserung von ≥20 % auf einer Numerischen Rating-Skala (NRS) erzielt wird, soll die Therapie fortgesetzt werden.
+
+**Nebenwirkungen:** Schwindel, Mundschleimhaut-Reizung, Sedierung und – bei Langzeitgebrauch – Abhängigkeitspotenzial (gering im Vergleich zu hochdosiertem inhalativem THC). Da das Spray direkt auf die Schleimhaut aufgetragen wird, wird ein psychoaktives Rauschgefühl meist vermieden.
+
+## Weitere Symptome: Schmerz, Blasenfunktion, Schlaf
+
+Neben Spastik gibt es Evidenz für weitere MS-Symptome:
+
+### Neuropathische Schmerzen
+Neuropathische Schmerzen – Brennen, Kribbeln, elektrisierende Schmerzen – gehören zu den häufigsten und belastendsten MS-Beschwerden. Mehrere Studien zeigen, dass Cannabinoide (THC, CBD, Nabiximols) neuropathische Schmerzen bei MS signifikant reduzieren. Der Effekt ist moderat, aber klinisch bedeutsam, besonders wenn andere Analgetika nicht ausreichen.
+
+### Überaktive Blase
+Eine 2018 in *European Urology* veröffentlichte Studie fand, dass Nabiximols die Zahl der Harninkontinenz-Episoden und die Harndringlichkeit bei MS-Patienten signifikant reduzierte – ein oft unterschätztes Einsatzfeld.
+
+### Schlafstörungen
+MS-Patienten leiden häufig unter schlechtem Schlaf, bedingt durch Schmerzen, Spastik und Fatigue. Cannabinoide können die Schlafqualität verbessern, primär durch Linderung der Schmerz- und Spastiksymptome.
+
+## Was ist mit CBD allein?
+
+Reines CBD (ohne THC) hat in der MS-Forschung entzündungshemmende und neuroprotektive Eigenschaften gezeigt – bislang vor allem in präklinischen Studien. Klinische Studien zu CBD als Monotherapie bei MS sind noch begrenzt. Da CBD kein psychoaktives Potenzial hat, wäre es für viele Patienten die bevorzugte Option – die aktuelle Evidenz stützt jedoch noch nicht eine klare Empfehlung.
+
+## Kostenübernahme und Verschreibungspraxis
+
+Nabiximols/Sativex® wird von gesetzlichen Krankenkassen in Deutschland erstattet, wenn die Zulassungskriterien erfüllt sind. Die Verordnung erfolgt auf BtM-Rezept durch einen Neurologen oder spezialisierten Arzt. Cannabisblüten können ergänzend oder alternativ verordnet werden, wenn eine individuelle Indikation besteht und andere Therapien nicht ausreichen.
+
+## Zusammenfassung
+
+Multiple Sklerose ist eine der am besten untersuchten Indikationen für medizinisches Cannabis. Sativex® (Nabiximols, THC+CBD) ist das einzige in Deutschland zugelassene cannabisbasierte MS-Medikament mit Schwerpunkt Spastik. Für Schmerzbehandlung und Blasenfunktion gibt es ergänzende Evidenz. MS-Patienten sollten die Möglichkeiten mit einem MS-Spezialisten besprechen.
+
+> **Hinweis:** Dieser Artikel informiert über die aktuell verfügbare Evidenz. Er ersetzt keine ärztliche Beratung. Jede Behandlungsentscheidung sollte mit dem behandelnden Neurologen abgestimmt werden.`,
+    content_en: `## What is Multiple Sclerosis?
+
+Multiple sclerosis (MS) is a chronic inflammatory disease of the central nervous system. The immune system mistakenly attacks the myelin sheath of nerve fibres, creating lesions that disrupt nerve conduction. MS affects around 2.8 million people worldwide, approximately 280,000 in Germany.
+
+## Sativex® – the First Approved Cannabinoid MS Medication
+
+**Nabiximols** (trade name Sativex®) is an oromucosal spray delivering THC and CBD in a 1:1 ratio. In Germany it has been approved since 2011 for moderate to severe spasticity in MS patients who have not responded adequately to other anti-spastics.
+
+Clinical trials (CAMS 2003, MUSEC 2012, MOVE 2 2014) demonstrated significant reductions in spasticity scores. Around 40% of patients are good responders, defined as ≥20% improvement on a Numerical Rating Scale.
+
+## Beyond Spasticity: Pain, Bladder and Sleep
+
+Evidence also supports cannabinoid use for neuropathic pain, overactive bladder (with significant reductions in incontinence episodes) and sleep disturbance in MS patients.
+
+## Summary
+
+MS is one of the best-documented indications for medical cannabis. Sativex® is the only approved cannabinoid-based MS medication in Germany. MS patients should discuss the options with their neurologist.
+
+> **Note:** This article provides information about current evidence and does not replace medical advice.`,
+    tags: ['Multiple Sklerose', 'Spastik', 'Sativex', 'Nabiximols', 'Medizin', 'Neurologie', 'Schmerz'],
+    reading_time: 11,
+    last_updated: '2026-06-17',
+    related_slugs: ['medizinisches-cannabis-deutschland', 'endocannabinoid-system-medizin', 'cannabis-schmerztherapie', 'wechselwirkungen-medikamente'],
+  },
+  {
+    slug: 'cannabis-epilepsie-cbd',
+    category: 'medicine',
+    title_de: 'CBD bei Epilepsie: Von Dravet-Syndrom bis Lennox-Gastaut',
+    title_en: 'CBD for Epilepsy: From Dravet Syndrome to Lennox-Gastaut',
+    summary_de:
+      'Epidiolex® (pharmazeutisches CBD) ist das erste pflanzliche Cannabinoid-Medikament mit FDA-Zulassung und EU-Zulassung für schwere kindliche Epilepsiesyndrome. Wie wirkt CBD antiepileptisch?',
+    summary_en:
+      'Epidiolex® (pharmaceutical CBD) is the first plant-derived cannabinoid medication with FDA and EU approval for severe childhood epilepsy syndromes. How does CBD exert its antiepileptic effect?',
+    content_de: `## Cannabis und Epilepsie: Eine uralte Verbindung
+
+Die Behandlung von Epilepsie mit Cannabis ist historisch tief verwurzelt. In Mesopotamien wurden vor 3.000 Jahren Krampfanfälle mit Hanfzubereitungen behandelt. Der britische Arzt William O'Shaughnessy berichtete 1843 über erfolgreiche Anfallsbehandlungen mit Hanf-Tinktur in Indien. In der westlichen Pharmazie des 19. Jahrhunderts war Cannabistinktur in Epilepsiebehandlungen verbreitet, bevor synthetische Antikonvulsiva (Phenobarbital, 1912) sie verdrängten.
+
+Jahrzehntelang schlummerte die Forschung – bis zu den viralen YouTube-Videos Anfang der 2010er Jahre, die zeigten, wie Charlotte Figi, ein kleines Mädchen mit Dravet-Syndrom, nach CBD-Öl-Behandlung dramatisch weniger Anfälle hatte. Diese Videos lösten eine globale Forschungswelle und eine Elternbewegung aus, die Gesetzgebung veränderte.
+
+## Das Dravet-Syndrom: Wenn herkömmliche Medikamente versagen
+
+Das **Dravet-Syndrom** (auch Severe Myoclonic Epilepsy of Infancy, SMEI) ist eine seltene, genetisch bedingte Epilepsieform, die meist im ersten Lebensjahr mit langen febrilen Anfällen beginnt. Mutationen im SCN1A-Gen – das für einen Natriumkanal in Gehirnzellen kodiert – sind ursächlich. Betroffene Kinder leiden unter häufigen, lang andauernden Anfällen verschiedener Arten, dazu kommen kognitive Entwicklungsverzögerungen und Verhaltensauffälligkeiten.
+
+Das Besondere und Tragische am Dravet-Syndrom: Es spricht auf die meisten klassischen Antiepileptika nicht an, einige (vor allem Natriumkanalblocker wie Lamotrigin, Carbamazepin) können die Anfälle sogar verschlimmern. Valproat und Clobazam bieten partielle Kontrolle, aber keine vollständige.
+
+## Das Lennox-Gastaut-Syndrom
+
+Das **Lennox-Gastaut-Syndrom (LGS)** ist eine weitere schwere kindliche Epilepsieform mit verschiedenartigen Anfallstypen (tonische, atonische, atypische Absence-Anfälle), charakteristischen EEG-Mustern und intellektuellen Entwicklungsstörungen. Es ist für etwa 5 % aller Epilepsiefälle im Kindesalter verantwortlich und ebenfalls oft therapieresistent.
+
+## Epidiolex® – von Einzelfallberichten zur FDA-Zulassung
+
+**Epidiolex®** (in der EU: Epidyolex®) ist eine pharmazeutisch standardisierte CBD-Lösung (100 mg/ml) des britischen Herstellers GW Pharmaceuticals (heute Jazz Pharmaceuticals). Sie enthält über 98 % reines Cannabidiol, gelöst in Sesamöl mit Sucralose und Erdbeeraroma.
+
+### Der Weg zur Zulassung
+
+Nachdem Elterninitiativen in den USA intensiv Lobbying betrieben und Einzelfallberichte sich häuften, finanzierte GW Pharmaceuticals umfassende klinische Studien. Das Programm umfasste über 500 Patienten in Phase-III-Studien:
+
+**CARE1 (Dravet, 2017):** 120 Kinder; CBD (20 mg/kg/Tag) reduzierte konvulsive Anfälle um 39 % gegenüber 13 % bei Placebo. 5 % der CBD-Gruppe wurden anfallsfrei.
+
+**CARE2 (Dravet, 2017):** 171 Kinder; niedrigere (10 mg/kg) und höhere Dosis (20 mg/kg) vs. Placebo; beide aktiven Arme signifikant überlegen.
+
+**GWPCARE3/4 (LGS, 2018):** Signifikante Reduktion von Sturzanfällen (atonische und tonische Anfälle); CBD 50 % Responder-Rate deutlich höher als Placebo.
+
+2018 erteilte die **FDA** die Zulassung für Epidiolex® bei Dravet-Syndrom und Lennox-Gastaut-Syndrom – die erste je erteilte FDA-Zulassung für ein pflanzliches Cannabinoid-Medikament. 2019 folgte die **EMA-Zulassung** (als Epidyolex®) in der EU. In Deutschland ist es damit als verschreibungsfähiges Medikament im normalen Rezeptweg (kein BtM-Rezept erforderlich, da CBD nicht BtM-pflichtig) erhältlich.
+
+2020 wurde die Indikation auf **tuberöse Sklerose** erweitert.
+
+## Wirkmechanismus: Wie wirkt CBD antiepileptisch?
+
+Die antiepileptische Wirkung von CBD ist komplex und unterscheidet sich grundlegend vom THC-Wirkmechanismus:
+
+### 1. Natriumkanal-Modulation
+CBD hemmt spannungsabhängige Natriumkanäle (Nav1.1, Nav1.6) – besonders relevant bei Dravet-Syndrom, wo Nav1.1-Mutationen vorliegen. Durch Hemmung dieser Kanäle stabilisiert CBD übererregbare Nervenmembranen.
+
+### 2. Kalziumkanal-Modulation
+CBD hemmt spannungsabhängige Kalziumkanäle (T-Typ), die bei der Entstehung bestimmter Anfallsmuster (Absence-Anfälle) eine Rolle spielen.
+
+### 3. GPR55-Antagonismus
+GPR55 ist ein Orphan-Rezeptor, der bei Überaktivierung die neuronale Erregbarkeit steigert. CBD ist ein potenter GPR55-Antagonist und dämpft dadurch Übererregbarkeit.
+
+### 4. Adenosin-Reuptake-Hemmung
+CBD hemmt die Wiederaufnahme von Adenosin – einem endogenen Neurotransmitter mit antikonvulsiver Wirkung. Erhöhte Adenosinspiegel reduzieren Anfallsbereitschaft.
+
+### 5. Entzündungshemmung
+Neuroinflammation trägt zur Anfallsentstehung bei. CBD hat ausgeprägte anti-inflammatorische Eigenschaften (Hemmung von Mikroglia-Aktivierung, IL-6, TNF-α).
+
+CBD wirkt also über mehrere unabhängige Mechanismen – dies könnte erklären, warum es bei therapieresistenten Epilepsieformen wirkt, die auf einzelne Ionenkanal-gerichtete Antiepileptika nicht ansprechen.
+
+## Wechselwirkungen: Die Interaktion mit Clobazam
+
+Ein wichtiger klinischer Befund: CBD interagiert signifikant mit **Clobazam** (einem häufig verwendeten Antiepileptikum). CBD hemmt das Leberenzym CYP2C19, das für den Abbau von Clobazam verantwortlich ist. Das führt zu erhöhten Clobazam-Spiegeln und – vor allem – zu stark erhöhten Spiegeln des aktiven Metaboliten N-Desmethylclobazam (NCLB). Dies kann zu verstärkter Wirksamkeit *und* Nebenwirkungen (Sedierung, Schwindel) führen. Bei kombinierter Gabe ist eine Dosisanpassung von Clobazam häufig notwendig.
+
+**Weitere relevante Wechselwirkungen:** CBD hemmt auch CYP3A4 und CYP1A2, was zu veränderten Spiegeln von Valproat, Stiripentol und anderen Antiepileptika führen kann. Therapeutisches Drug Monitoring ist bei Kombination essenziell.
+
+## Dosierung und praktische Anwendung
+
+Epidiolex®/Epidyolex® wird einschleichend dosiert:
+- **Startwoche:** 2,5 mg/kg zweimal täglich (5 mg/kg/Tag)
+- **Erhaltungsdosis:** 5–10 mg/kg zweimal täglich (10–20 mg/kg/Tag)
+- **Maximaldosis:** 20 mg/kg/Tag
+
+Die Titration erfolgt über mindestens zwei Wochen. Bei Clobazam-Komedikation Dosisanpassung.
+
+## Nebenwirkungen
+
+Die häufigsten Nebenwirkungen in klinischen Studien:
+- **Schläfrigkeit/Sedierung** (23 %): Oft dosisabhängig, häufiger bei Clobazam-Kombination
+- **Verminderter Appetit** (16 %)
+- **Diarrhoe** (20 %)
+- **Erhöhte Leberwerte** (Transaminasen): Bei bis zu 10 % der Patienten, meist vorübergehend; Regelmäßige Leberwert-Kontrollen sind erforderlich, besonders bei Valproat-Komedikation.
+
+## Was ist mit anderen Epilepsieformen?
+
+Die Zulassung gilt für spezifische Epilepsiesyndrome. Für andere therapieresistente Epilepsieformen (CDKL5-Deficiency Disorder, Rett-Syndrom, etc.) gibt es Fallberichte und kleinere Studien mit positiven Ergebnissen. Präparate-Cannabisblüten oder andere Cannabis-basierte Mittel werden off-label eingesetzt. Die Evidenz ist hier deutlich schwächer als für die zugelassenen Indikationen.
+
+## Bedeutung für Deutschland
+
+In Deutschland können Patienten mit Dravet-Syndrom, LGS und tuberöser Sklerose Epidyolex® über normale Arztrezepte (kein BtM-Rezept) erhalten. Die Kostenübernahme durch gesetzliche Krankenkassen ist bei zugelassener Indikation grundsätzlich gegeben. Für andere Epilepsieformen ist eine individuelle Begründung und oft ein Widerspruchsverfahren notwendig.
+
+> **Hinweis:** Dieser Artikel richtet sich an Betroffene, Angehörige und Interessierte. Therapieentscheidungen bei Epilepsie sind hochgradig individuell und müssen mit einem Epilepsie-Spezialisten (Neuropädiater, Epileptologe) besprochen werden.`,
+    content_en: `## CBD and Epilepsy: An Ancient Connection
+
+Cannabis has been used to treat epilepsy for thousands of years. Modern research was sparked by viral videos in the early 2010s showing Charlotte Figi, a child with Dravet syndrome, experiencing dramatic seizure reduction after CBD oil treatment.
+
+## Dravet Syndrome and Lennox-Gastaut Syndrome
+
+Both are severe childhood epilepsy syndromes resistant to most conventional antiepileptics. Dravet syndrome involves SCN1A mutations affecting sodium channels; Lennox-Gastaut syndrome involves multiple seizure types with intellectual disability.
+
+## Epidiolex® – FDA and EMA Approved
+
+**Epidiolex®** (EU: Epidyolex®) is a pharmaceutical-grade CBD solution (100 mg/ml). Phase III trials demonstrated:
+- CARE1 (Dravet): CBD reduced convulsive seizures by 39% vs 13% placebo
+- GWPCARE3/4 (LGS): Significant reduction in drop seizures
+
+The FDA approved Epidiolex® in 2018 – the first FDA approval for a plant-derived cannabinoid medicine. EMA approval followed in 2019.
+
+## How CBD Works Against Seizures
+
+CBD acts through multiple mechanisms: inhibition of voltage-gated sodium and calcium channels, GPR55 antagonism, adenosine reuptake inhibition, and anti-inflammatory effects. This multi-target action may explain its efficacy in drug-resistant epilepsies.
+
+## Key Drug Interaction: Clobazam
+
+CBD inhibits CYP2C19, causing elevated levels of clobazam and its active metabolite. Dose adjustment of clobazam is often necessary when combining with Epidiolex®.
+
+> **Note:** Treatment decisions in epilepsy are highly individual and must be discussed with an epileptology specialist.`,
+    tags: ['Epilepsie', 'CBD', 'Epidiolex', 'Dravet-Syndrom', 'Lennox-Gastaut', 'Medizin', 'Neurologie', 'Kinder'],
+    reading_time: 13,
+    last_updated: '2026-06-17',
+    related_slugs: ['medizinisches-cannabis-deutschland', 'endocannabinoid-system-medizin', 'wechselwirkungen-medikamente', 'cannabis-multiple-sklerose'],
+  },
 ] as const;

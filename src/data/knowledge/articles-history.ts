@@ -1831,4 +1831,138 @@ Since the discovery of the endocannabinoid system, medical cannabis research has
     last_updated: '2026-06-17',
     related_slugs: ['cannabis-geschichte-weltweit', 'hanf-industriegeschichte', 'legalisierung-deutschland', 'cannabis-nachkriegszeit-deutschland'],
   },
+  {
+    slug: 'cannabis-kolonialzeit-hanf',
+    category: 'history',
+    title_de: 'Cannabis in der Kolonialzeit: Hanf, Handel und Kontrolle',
+    title_en: 'Cannabis in the Colonial Era: Hemp, Trade and Control',
+    summary_de:
+      'Im 16.–19. Jahrhundert war Hanf ein strategisch wichtiger Rohstoff der Kolonialreiche – für Segel, Seile und Papier. Gleichzeitig wurde Cannabis als Genussmittel in den Kolonien zunehmend kriminalisiert.',
+    summary_en:
+      'In the 16th–19th centuries, hemp was a strategically important raw material of colonial empires – for sails, ropes and paper. At the same time, cannabis as a recreational substance was increasingly criminalised in the colonies.',
+    content_de: `## Hanf als Fundament kolonialer Seemacht
+
+Die europäischen Seefahrtsnationen – Portugal, Spanien, die Niederlande, England und Frankreich – verdankten ihre maritime Expansion zu einem erheblichen Teil einer unscheinbaren Pflanze: Cannabis sativa in ihrer faserreichen Nutzhanf-Form. Im Zeitalter der Entdeckungen (15.–17. Jahrhundert) waren Hanfseile und Hanfsegel buchstäblich unverzichtbar. Ein einziges Linienschiff der britischen Royal Navy im 18. Jahrhundert benötigte bis zu 60 Tonnen Hanffaser – für Tauwerk, Segeltuch, Kalfaterung und Takelung.
+
+### Der Hanfgürtel: Russland als Hauptlieferant
+
+Großbritannien importierte im 18. und frühen 19. Jahrhundert über 90 % seines Industriehanfs aus Russland. Die Regionen um Riga, Archangelsk und Sankt Petersburg entwickelten sich zu den wichtigsten Hanf-Exportzentren der Welt. Russische Gutsbesitzer und die Zarenkrone profitierten enorm von der britischen Nachfrage. Als Napoleon 1807 im Tilsiter Frieden Russland zwang, dem britischen Handelsblockade beizutreten (Kontinentalsperre), war einer der Hauptstreitpunkte eben dieser Hanfhandel – Russland konnte auf die britischen Einnahmen nicht verzichten.
+
+### Koloniale Hanfproduktion in Amerika
+
+Britische Kolonisten in Nordamerika wurden aktiv ermutigt – teils rechtlich verpflichtet – Hanf anzubauen. Im Jahr 1619 verabschiedete die Virginia Assembly ein Gesetz, das alle Grundbesitzer zum Hanfanbau verpflichtete. Ähnliche Gesetze gab es in Maryland und anderen Kolonien. Die Kolonien sollten die Mutterland-Abhängigkeit von russischem Hanf verringern. In der Praxis blieb amerikanischer Hanf jedoch qualitativ minderwertig und konnte die Importnachfrage nie vollständig ersetzen.
+
+## Cannabis als Genussmittel in den Kolonien
+
+Neben dem Hanfanbau stieß Europa in den Kolonien auf eine lebendige Tradition des Cannabis-Konsums – eine Tradition, die es aktiv verdrängt hat.
+
+### Indien und das Britische Raj
+
+Britische Kolonialadministratoren in Indien konfrontierten sich ab dem frühen 19. Jahrhundert mit einer tief verwurzelten Cannabis-Kultur. Bhang (essbare Cannabis-Zubereitung aus Milch und Gewürzen), Ganja (getrocknete Blüten) und Charas (handgeriebenes Harz) waren feste Bestandteile hinduistischer Feste, sufistischer Praktiken und der alltäglichen Lebensweise breiter Bevölkerungsschichten. Der britische Kolonialstaat war zunächst pragmatisch: Er besteuerte den Cannabis-Handel, ähnlich wie er Opium besteuerte. Die 1893/94 eingesetzte **Indian Hemp Drugs Commission** – eine der gründlichsten je durchgeführten Untersuchungen zu Cannabis – kam nach umfangreichen Befragungen zu dem Schluss, dass moderater Cannabiskonsum kaum schädlicher sei als Alkohol und eine Verbotsgesetzgebung unverhältnismäßig und kontraproduktiv wäre. Trotzdem blieb Cannabis unter britischer Kontrolle stärker reguliert und wurde in die frühe internationale Drogengesetzgebung einbezogen.
+
+### Afrika: Cannabis und Arbeitsmigration
+
+In Süd- und Ostafrika – insbesondere im heutigen Südafrika, Mosambik und Zimbabwe – war Cannabis (lokal als *Dagga* bezeichnet) seit Jahrhunderten Teil der Zulu-, Sotho- und anderen Bantu-Kulturen. Britische und niederländische Kolonisatoren betrachteten Cannabis zunächst mit Misstrauen, vor allem weil migrierende Minenarbeiter Cannabis nutzten, um die extreme Belastung der Bergarbeit zu ertragen. Südafrika war 1923 das erste afrikanische Land, das Cannabis auf Druck der Kolonialregierung in die Liste verbotener Substanzen beim Völkerbund aufnehmen ließ – ein Schritt, der die globale Prohibition maßgeblich beförderte.
+
+### Karibik und Lateinamerika
+
+Indentured labourers (Vertragsarbeiter) aus Indien, die nach Abschaffung der Sklaverei nach Trinidad, Jamaika und anderen karibischen Inseln kamen, brachten ihre Cannabis-Tradition mit. Lokal als *Ganja* bekannt, fand die Pflanze rasch Eingang in die afrokaribische Kultur und wurde – Jahrzehnte später – ein zentrales Element der Rastafari-Bewegung. In Mexiko war Cannabis (Cannabis) im 19. Jahrhundert unter Unterschichten weit verbreitet. US-amerikanische Interessen ab den 1910er Jahren nutzten anti-mexikanische Stimmungen, um Cannabis mit Einwanderer-"Bedrohungen" zu verknüpfen – ein rassistisch motivierter Diskurs, der die US-Prohibition maßgeblich antrieb.
+
+## Die Haager Opiumkonvention und der Beginn der globalen Cannabis-Prohibition
+
+Das Jahr 1912 markiert einen Wendepunkt. Die Haager Opiumkonvention – ursprünglich auf Opium und Kokain abzielend – legte den Grundstein für ein internationales Drogenkontrollsystem. Obwohl Cannabis 1912 noch nicht direkt erfasst wurde, öffnete die Konvention die Tür für spätere Erweiterungen. Auf der Internationalen Opiumkonferenz 1925 in Genf wurde Cannabis auf Betreiben Ägyptens und Südafrikas erstmals in ein internationales Kontrollabkommen aufgenommen. Seitdem war der Weg zur globalen Cannabis-Prohibition beschritten.
+
+## Fazit: Kolonialer Widerspruch
+
+Die Kolonialgeschichte von Cannabis ist von einem fundamentalen Widerspruch geprägt: Hanf als Industriepflanze wurde aktiv gefördert und war wirtschaftlich unverzichtbar. Cannabis als Genussmittel der kolonisierten Bevölkerungen wurde hingegen kriminalisiert – oft nicht aus medizinischen Gründen, sondern aus Motiven sozialer Kontrolle, Rassismus und wirtschaftlicher Konkurrenz. Dieses Erbe prägt die internationale Drogenpolitik bis heute.`,
+    content_en: `## Hemp as the Foundation of Colonial Sea Power
+
+The European maritime nations – Portugal, Spain, the Netherlands, England and France – owed their naval expansion in no small part to an inconspicuous plant: Cannabis sativa in its fibre-rich hemp form. In the Age of Discovery (15th–17th centuries), hemp ropes and hemp sails were literally indispensable. A single Royal Navy ship of the line in the 18th century required up to 60 tonnes of hemp fibre – for rigging, sailcloth, caulking and tackle.
+
+### The Hemp Belt: Russia as Primary Supplier
+
+In the 18th and early 19th centuries, Britain imported over 90% of its industrial hemp from Russia. The regions around Riga, Arkhangelsk and St Petersburg became the world's leading hemp export centres. When Napoleon in 1807 (Treaty of Tilsit) forced Russia to join the Continental System blocking British trade, one of the main sticking points was precisely this hemp trade.
+
+## Cannabis as a Recreational Substance in the Colonies
+
+Alongside hemp cultivation, Europe encountered a vibrant tradition of cannabis consumption in the colonies – a tradition it actively suppressed.
+
+### India and the British Raj
+
+The 1893/94 **Indian Hemp Drugs Commission** – one of the most thorough investigations into cannabis ever conducted – concluded after extensive hearings that moderate cannabis use was little more harmful than alcohol and that prohibition would be disproportionate and counterproductive. Nevertheless, cannabis remained more tightly regulated under British rule.
+
+### Africa and the Origins of Global Prohibition
+
+South Africa was the first African country to have cannabis placed on the League of Nations' prohibited substances list in 1923 – a step that significantly advanced global prohibition. The colonial framing of cannabis as a danger associated with migrant mine workers reveals the social control motives behind early prohibition.
+
+## Conclusion: Colonial Contradiction
+
+The colonial history of cannabis is marked by a fundamental contradiction: hemp as an industrial crop was actively promoted and economically indispensable. Cannabis as a recreational substance of colonised populations was criminalised – often not for medical reasons, but from motives of social control, racism and economic competition. This legacy continues to shape international drug policy today.`,
+    tags: ['Kolonialzeit', 'Geschichte', 'Hanf', 'Prohibition', 'Indien', 'Afrika', 'Seefahrt'],
+    reading_time: 12,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-geschichte-weltweit', 'cannabis-usa-prohibition', 'hanf-industriegeschichte', 'cannabis-medizin-historisch'],
+  },
+  {
+    slug: 'cannabis-1960er-subkultur',
+    category: 'history',
+    title_de: 'Cannabis und die Gegenkultur der 1960er und 70er Jahre',
+    title_en: 'Cannabis and the Counterculture of the 1960s and 1970s',
+    summary_de:
+      'Von den Beatniks über Woodstock bis zur Anti-Vietnam-Bewegung: Cannabis wurde in den 1960er–70er Jahren zum Symbol der Gegenkultur – mit direkten Konsequenzen für die weltweite Drogenpolitik.',
+    summary_en:
+      'From the Beats to Woodstock to the anti-Vietnam movement: cannabis became a symbol of the counterculture in the 1960s–70s, with direct consequences for global drug policy.',
+    content_de: `## Der Boden war bereitet: Die Beatniks der 1950er
+
+Die Geschichte von Cannabis als Gegenkultur-Substanz beginnt in den 1950er Jahren mit der Beat Generation. Jack Kerouac, Allen Ginsberg, William S. Burroughs und andere Beatniks fanden in Jazzkellern und Literatur-Cafés von New York, San Francisco und Greenwich Village zusammen und machten Cannabis – zusammen mit Jazz und experimenteller Literatur – zu einem Marker ihrer Ablehnung der konsermativen Nachkriegsgesellschaft. Ginsbergs episches Gedicht „Howl" (1956) thematisierte offen Drogenerfahrungen. Diese Subkultur blieb zunächst eng und städtisch begrenzt, legte aber das kulturelle Fundament für die Explosion der 1960er.
+
+## Die Sechziger: Vom Rand zur Massenbewegung
+
+### Hippies und Flower Power
+
+Die Mitte der 1960er erlebte eine rasche Ausweitung: Cannabis wanderte aus den urbanen Beatnik-Kreisen in die Studentencampus. Die Hippie-Bewegung, die sich besonders in San Francisco (Haight-Ashbury), New York (East Village) und später in ganz Nordamerika und Europa ausbreitete, erklärte Cannabis zu einem Sakrament des friedlichen Protests und der Bewusstseinserweiterung. Das Summer of Love (1967) in San Francisco, bei dem über 100.000 junge Menschen zusammenkamen, wurde zum Sinnbild dieser Ära.
+
+### Die Verbindung mit Antikriegsbewegung und Bürgerrechtsbewegung
+
+Cannabis-Konsum war in dieser Zeit untrennbar mit politischem Protest verknüpft. Viele junge Männer, die dem Vietnamkrieg entzogen oder ihn offen ablehnten, sahen in Cannabis ein Symbol ihrer Ablehnung einer Gesellschaft, die in ihren Augen zugleich Krieg führte und Rassismus duldul. Der schwarze Bürgerrechtsführer John Lewis und andere Aktivisten thematisierten offen, wie die selektive Durchsetzung der Drogengesetze gegen Schwarze und arme Gemeinschaften eingesetzt wurde.
+
+### Woodstock 1969
+
+Das Woodstock-Festival im August 1969 – drei Tage Musik mit über 400.000 Besucherinnen und Besuchern auf einer Farm in Bethel, New York – wurde zum Kulminationspunkt der Gegenkultur. Zeitungsberichte und Filmaufnahmen (Dokumentarfilm „Woodstock", 1970) machten den massenhaften Cannabiskonsum der Öffentlichkeit überdeutlich. Paradoxerweise verlief das Festival trotz minimalem Polizeieinsatz und massivem Drogenkonsum weitgehend friedlich – eine Tatsache, die die Prohibition-Narrativ erheblich unter Druck setzte.
+
+## Die kulturelle Übertragung: Musik und Cannabis
+
+Kein Medium verbreitete die Cannabis-Kultur wirksamer als Musik. Bob Dylan – der The Beatles 1964 in New York erstmals Cannabis anbot – popularisierte die Verbindung von Cannabis mit künstlerischer Kreativität. Die Beatles brachten eine kosmopolitische, von Maharishi und östlicher Spiritualität beeinflusste Variante der Gegenkultur nach Europa. Jimi Hendrix, Janis Joplin, Jefferson Airplane – praktisch die gesamte Rockszene dieser Jahre war offen mit Cannabis assoziiert. Reggae und Bob Marley machten Cannabis später zu einem globalen spirituellen Symbol, tief verwurzelt in der Rastafari-Theologie.
+
+## Die politische Reaktion: Nixons War on Drugs
+
+Die politische Antwort ließ nicht auf sich warten. US-Präsident Richard Nixon erklärte 1971 Drogen zum „öffentlichen Feind Nr. 1" und startete den offiziellen „War on Drugs". Der Shafer-Kommission-Bericht (1972), den Nixon selbst in Auftrag gegeben hatte, empfahl die Entkriminalisierung von Cannabis für den Eigengebrauch. Nixon ignorierte den Bericht. Sein innenpolitischer Chefstratege John Ehrlichman enthüllte Jahrzehnte später in einem Interview (erstmals veröffentlicht 2016 in Harper's Magazine): *„The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and black people. […] We knew we couldn't make it illegal to be either against the war or black, but by getting the public to associate the hippies with marijuana and blacks with heroin, and then criminalizing both heavily, we could disrupt those communities."* – Ein erschütterndes Zeugnis für die politischen Motive der Prohibition.
+
+## Europa in den 1970ern: Zwischen Liberalisierung und Repression
+
+In Westeuropa verlief die Entwicklung uneinheitlich. Die Niederlande begannen 1976 mit dem Gedoogbeleid (Toleranzpolitik), der die praktische Duldung kleiner Mengen Cannabis einläutete. Das Berliner und Münchener Studentenmilieu der späten 1960er – stark von der Frankfurter Schule und der APO beeinflusst – sah in Cannabis ein Medium der politischen Subversion. In der BRD wurden erste Debatten über Strafreduzierungen geführt; das Betäubungsmittelgesetz von 1971 behielt aber die Strafbarkeit bei.
+
+## Das Erbe der Gegenkultur
+
+Die 1960er–70er haben das Bild von Cannabis in der westlichen Öffentlichkeit dauerhaft verändert. Cannabis war nicht mehr nur eine exotische Substanz aus Kolonialgebieten oder ein Randphänomen urbaner Subkulturen – es war zur Symbolfigur einer ganzen Generation geworden, die nach gesellschaftlicher Transformation suchte. Dieses kulturelle Erbe ist bis heute spürbar: in der Musik, in der Sprache der Legalisierungsbewegungen und in der Art, wie jüngere Generationen Cannabis wahrnehmen – nicht als Scourge, sondern als Teil eines selbstbestimmten Lebensstils.`,
+    content_en: `## The Beatniks of the 1950s
+
+The story of cannabis as a counterculture substance begins in the 1950s with the Beat Generation. Jack Kerouac, Allen Ginsberg, William S. Burroughs and others gathered in jazz cellars and literary cafés and made cannabis – alongside jazz and experimental literature – a marker of their rejection of conservative postwar society.
+
+## The Sixties: From the Margins to a Mass Movement
+
+The Hippie movement, spreading particularly from San Francisco's Haight-Ashbury district, declared cannabis a sacrament of peaceful protest and consciousness expansion. The Summer of Love (1967) brought over 100,000 young people together and became the emblem of this era. Cannabis was inseparable from the anti-Vietnam and civil rights movements.
+
+## Woodstock 1969 and Political Backlash
+
+Woodstock in August 1969 brought the mass consumption of cannabis to public attention. Paradoxically, the festival passed largely peacefully despite minimal policing and widespread drug use – a fact that put significant pressure on the prohibition narrative. Nixon responded by declaring drugs "Public Enemy No. 1" in 1971. His aide John Ehrlichman later admitted the War on Drugs was designed to target anti-war activists and Black communities.
+
+## The Cultural Legacy
+
+The 1960s–70s permanently changed the public perception of cannabis in the West. It became the symbol of a generation seeking social transformation – a cultural legacy still felt today in music, in the language of legalisation movements, and in how younger generations perceive cannabis as part of a self-determined lifestyle.`,
+    tags: ['Geschichte', 'Gegenkultur', '1960er', '1970er', 'Hippies', 'Woodstock', 'War on Drugs', 'Nixon'],
+    reading_time: 12,
+    last_updated: '2026-06-17',
+    related_slugs: ['cannabis-usa-prohibition', 'cannabis-geschichte-weltweit', 'legalisierung-deutschland', 'cannabis-nachkriegszeit-deutschland'],
+  },
 ] as const;
