@@ -85,7 +85,7 @@ Next year we'll be back — perhaps with our own stand.`,
     tags: ['Mary Jane', 'Berlin', 'Messe', 'Netzwerk', 'Rückblick'],
     author: 'Gero Stetter',
     category: 'vereinsnews',
-    image: '/images/maryjane-2026-team.jpg',
+    image: '/images/optimized/maryjane-2026-team.webp',
   },
   {
     slug: 'anbau-update-juni-2026',
