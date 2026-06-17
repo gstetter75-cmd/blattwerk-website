@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, MapPinned } from 'lucide-react';
+import { Mail, MapPin, Clock, MapPinned } from 'lucide-react';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { HomeSection } from '@/components/shared/HomeSection';
 
@@ -72,11 +72,6 @@ export function KontaktInfoClient({ isDE }: Props) {
       icon: Mail,
       label: 'E-Mail',
       value: 'info@blattwerk.dev',
-    },
-    {
-      icon: Phone,
-      label: isDE ? 'Telefon' : 'Phone',
-      value: '+49 15233539841',
     },
     {
       icon: MapPin,

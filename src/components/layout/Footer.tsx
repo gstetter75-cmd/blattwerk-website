@@ -119,11 +119,6 @@ export function Footer() {
                   info@blattwerk.dev
                 </a>
               </li>
-              <li>
-                <a href="tel:+4915233539841" className="text-sm text-ink-muted hover:text-accent transition-colors">
-                  +49 15233539841
-                </a>
-              </li>
             </ul>
           </div>
         </div>
