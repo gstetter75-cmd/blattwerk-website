@@ -60,9 +60,7 @@ export function OrganizationSchema() {
             availableLanguage: ['German', 'English'],
           },
         ],
-        sameAs: [
-          'https://www.instagram.com/blattwerk_ev',
-        ],
+        sameAs: [],
       }}
     />
   );
@@ -138,9 +136,7 @@ export function LocalBusinessSchema() {
           name: 'Hildesheim',
           sameAs: 'https://de.wikipedia.org/wiki/Hildesheim',
         },
-        sameAs: [
-          'https://www.instagram.com/blattwerk_ev',
-        ],
+        sameAs: [],
       }}
     />
   );

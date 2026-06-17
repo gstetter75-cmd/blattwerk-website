@@ -1,6 +1,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Instagram, MessageCircle, Mail } from 'lucide-react';
+import { MessageCircle, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 const NAV = [
@@ -20,7 +20,6 @@ const LEGAL = [
 ] as const;
 
 const SOCIAL = [
-  { icon: Instagram, href: 'https://www.instagram.com/blattwerk_ev', label: 'Instagram' },
   { icon: MessageCircle, href: 'https://wa.me/4915233539841', label: 'WhatsApp' },
   { icon: Mail, href: 'mailto:info@blattwerk.dev', label: 'E-Mail' },
 ] as const;

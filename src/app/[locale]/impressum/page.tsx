@@ -42,8 +42,8 @@ export default async function ImpressumPage({
           {/* Geltungsbereich */}
           <p className="text-sm text-ink-muted leading-relaxed px-1">
             {isDE
-              ? 'Dieses Impressum gilt für alle Angebote unter der Domain www.blattwerk.dev inklusive aller Subdomains sowie die WhatsApp-, Instagram- und Facebook-Auftritte von BlattWerk e.V.'
-              : 'This legal notice applies to all services under the domain www.blattwerk.dev including all subdomains as well as the WhatsApp, Instagram and Facebook presences of BlattWerk e.V.'}
+              ? 'Dieses Impressum gilt für alle Angebote unter der Domain www.blattwerk.dev inklusive aller Subdomains sowie den WhatsApp-Auftritt von BlattWerk e.V.'
+              : 'This legal notice applies to all services under the domain www.blattwerk.dev including all subdomains as well as the WhatsApp presence of BlattWerk e.V.'}
           </p>
 
           {/* Verein */}

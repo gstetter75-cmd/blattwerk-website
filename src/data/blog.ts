@@ -934,7 +934,7 @@ Parallel dazu beschäftigen wir uns intensiv mit der Sortenauswahl. In unserer [
 
 Außerdem arbeiten wir an den organisatorischen Strukturen: Dokumentation, Qualitätssicherung und Jugendschutz müssen stehen, bevor der erste Samen in die Erde kommt.
 
-Bis zum Anbaustart halten wir euch hier im Blog und auf Instagram auf dem Laufenden.
+Bis zum Anbaustart halten wir euch hier im Blog auf dem Laufenden.
 
 Ihr wollt Teil dieser Gemeinschaft werden? Der Beitritt erfolgt über die Hanf-App.`,
     content_en: `The cultivation license is here — now the preparations begin. After receiving our official permit on March 18, 2026, we are working hard to get everything ready for our growing start in October 2026.
@@ -945,7 +945,7 @@ In parallel, we are working intensively on strain selection. Our [strain databas
 
 We are also building the organizational structures: documentation, quality assurance and youth protection must be in place before the first seed goes into the ground.
 
-We'll keep you posted here on the blog and on Instagram until the growing start.
+We'll keep you posted here on the blog until the growing start.
 
 Want to become part of this community? Join via the Hanf-App.`,
     tags: ['Vorbereitung', 'Meilenstein', 'Infrastruktur'],
