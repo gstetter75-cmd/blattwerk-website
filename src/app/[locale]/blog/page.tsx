@@ -56,7 +56,7 @@ export default async function BlogPage({
 
       <section className="pb-20 lg:pb-28">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <BlogListClient posts={blogPosts} isDE={isDE} />
+          <BlogListClient posts={[...blogPosts].sort((a, b) => b.date.localeCompare(a.date))} isDE={isDE} />
         </div>
       </section>
 
