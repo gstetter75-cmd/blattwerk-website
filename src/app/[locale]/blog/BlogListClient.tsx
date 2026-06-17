@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Link } from '@/i18n/navigation';
 import { Clock, ArrowRight, Tag } from 'lucide-react';
+import Image from 'next/image';
 import type { BlogPost, BlogCategory } from '@/data/blog';
 
 const CATEGORIES: {
@@ -75,33 +76,45 @@ export function BlogListClient({ posts, isDE }: BlogListClientProps) {
                 key={post.slug}
                 href={`/blog/${post.slug}`}
                 data-testid="blog-post-card"
-                className="group block p-6 rounded-xl border border-[var(--border)] bg-bg-elevated hover:border-accent/30 hover:-translate-y-0.5 transition-all duration-200"
+                className="group flex gap-0 rounded-xl border border-[var(--border)] bg-bg-elevated hover:border-accent/30 hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <time dateTime={post.date} className="text-xs font-mono text-ink-faint">
-                    <Clock className="w-3 h-3 inline mr-1" />
-                    {formattedDate}
-                  </time>
-                  <span className="text-xs text-ink-faint">·</span>
-                  <span className="text-xs text-ink-faint">{post.author}</span>
-                </div>
-                <h2 className="font-heading font-semibold text-xl mb-2 group-hover:text-accent transition-colors">
-                  {title}
-                </h2>
-                <p className="text-sm text-ink-muted leading-relaxed mb-4">{summary}</p>
-                <div className="flex items-center justify-between">
-                  <div className="flex flex-wrap gap-1.5">
-                    {post.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="inline-flex items-center gap-1 px-2 py-0.5 bg-accent/10 text-xs text-accent rounded-full"
-                      >
-                        <Tag className="w-3 h-3" />
-                        {tag}
-                      </span>
-                    ))}
+                {post.image && (
+                  <div className="hidden sm:block shrink-0 w-40 relative">
+                    <Image
+                      src={post.image}
+                      alt={title}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
-                  <ArrowRight className="w-4 h-4 text-ink-faint group-hover:text-accent group-hover:translate-x-1 transition-all" />
+                )}
+                <div className="flex-1 p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <time dateTime={post.date} className="text-xs font-mono text-ink-faint">
+                      <Clock className="w-3 h-3 inline mr-1" />
+                      {formattedDate}
+                    </time>
+                    <span className="text-xs text-ink-faint">·</span>
+                    <span className="text-xs text-ink-faint">{post.author}</span>
+                  </div>
+                  <h2 className="font-heading font-semibold text-xl mb-2 group-hover:text-accent transition-colors">
+                    {title}
+                  </h2>
+                  <p className="text-sm text-ink-muted leading-relaxed mb-4">{summary}</p>
+                  <div className="flex items-center justify-between">
+                    <div className="flex flex-wrap gap-1.5">
+                      {post.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="inline-flex items-center gap-1 px-2 py-0.5 bg-accent/10 text-xs text-accent rounded-full"
+                        >
+                          <Tag className="w-3 h-3" />
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-ink-faint group-hover:text-accent group-hover:translate-x-1 transition-all" />
+                  </div>
                 </div>
               </Link>
             );

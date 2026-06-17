@@ -17,6 +17,7 @@ export interface BlogPost {
   readonly tags: readonly string[];
   readonly author: string;
   readonly category: BlogCategory;
+  readonly image?: string;
 }
 
 export const blogPosts: readonly BlogPost[] = [
@@ -84,6 +85,7 @@ Next year we'll be back — perhaps with our own stand.`,
     tags: ['Mary Jane', 'Berlin', 'Messe', 'Netzwerk', 'Rückblick'],
     author: 'Gero Stetter',
     category: 'vereinsnews',
+    image: '/images/maryjane-2026-team.jpg',
   },
   {
     slug: 'anbau-update-juni-2026',

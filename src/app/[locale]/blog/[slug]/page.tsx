@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowLeft, Clock, Tag, User } from 'lucide-react';
+import Image from 'next/image';
 import { blogPosts, getBlogPostBySlug } from '@/data/blog';
 import type { BlogCategory } from '@/data/blog';
 import { renderMarkdown } from '@/lib/markdown';
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = isDE ? post.title_de : post.title_en;
   const description = (isDE ? post.summary_de : post.summary_en).slice(0, 160);
 
-  const ogImage = CATEGORY_OG_IMAGE[post.category] ?? '/images/og-image.png';
+  const ogImage = post.image ?? CATEGORY_OG_IMAGE[post.category] ?? '/images/og-image.png';
 
   return {
     title,
@@ -137,6 +138,18 @@ export default async function BlogPostPage({ params }: PageProps) {
               ))}
             </div>
           </header>
+
+          {post.image && (
+            <div className="mb-10 rounded-xl overflow-hidden">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${post.image}`}
+                alt={title}
+                width={900}
+                height={500}
+                className="w-full object-cover"
+              />
+            </div>
+          )}
 
           <div
             className="prose-blog space-y-4 text-base leading-relaxed text-ink-muted"
