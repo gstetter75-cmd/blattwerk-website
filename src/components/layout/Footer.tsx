@@ -43,7 +43,7 @@ export function Footer() {
               alt="BlattWerk e.V."
               width={140}
               height={56}
-              className="h-12 w-auto object-contain mb-3"
+              className="h-12 w-auto object-contain mb-3 logo-adaptive"
             />
             <p className="text-xs text-ink-faint mb-5 leading-relaxed">
               Cannabis Social Club<br />Hildesheim
