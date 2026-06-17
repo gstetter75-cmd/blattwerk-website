@@ -21,6 +21,71 @@ export interface BlogPost {
 
 export const blogPosts: readonly BlogPost[] = [
   {
+    slug: 'maryjane-berlin-2026-rueckblick',
+    date: '2026-06-17',
+    title_de: 'Mary Jane Berlin 2026 — unser Rückblick',
+    title_en: 'Mary Jane Berlin 2026 — Our Recap',
+    summary_de: 'Vier Tage Berlin, Europas größte Cannabis-Fachmesse, ein Team voller neuer Eindrücke — und konkrete Erkenntnisse, die direkt in unseren Anbaustart einfließen. Was wir mitgenommen haben.',
+    summary_en: 'Four days in Berlin, Europe\'s largest cannabis trade fair, a team full of new impressions — and concrete insights flowing directly into our growing start. What we took home.',
+    content_de: `Die Mary Jane ist vorbei — und wir sind zurück in Hildesheim. Zeit für einen ehrlichen Rückblick.
+
+Wir hatten im Vorfeld bereits [angekündigt](/blog/maryjane-berlin-2026), dass wir nicht als Aussteller, sondern als lernender Verein hinfahren. Genau das haben wir getan — und es hat sich gelohnt.
+
+**Vier Tage, viele Gespräche**
+
+Die Mary Jane 2026 war größer als erwartet. Hunderte Aussteller aus ganz Europa, Panels zu Rechtslage, Anbautechnik, Vereinsmanagement und Prävention, und vor allem: Dutzende Gründer und Vorstände anderer Cannabis Social Clubs, die denselben Weg gegangen sind wie wir.
+
+Was auf einer Messe dieser Größe kaum von offiziellen Bühnen kommt, erfährt man in den Gesprächen am Rande: Welche Lüftungslösungen funktionieren wirklich? Welche Behörden machen Probleme, welche kooperieren? Wie managen andere Vereine die Mitgliederverwaltung? Solche Informationen lassen sich nicht googeln.
+
+**Was wir konkret mitnehmen**
+
+Für unseren Anbaustart im Oktober haben wir klare Erkenntnisse gewonnen:
+
+- **Beleuchtung:** Der Markt hat sich in den letzten zwei Jahren stark entwickelt. Wir haben uns mehrere Systeme vor Ort angesehen und werden unsere Entscheidung auf dieser Grundlage überdenken.
+- **Klimatisierung:** Mehrere etablierte CSCs haben uns von ihren Erfahrungen mit Kühl- und Entfeuchtungslösungen berichtet. Konkrete Modelle, keine Werbung.
+- **Vereinsstruktur:** Wie andere Vereine Mitgliederverwaltung, Abgabe-Dokumentation und Prävention organisieren — mit echten Tools, nicht mit Theorie.
+
+**Ein Abend, der in Erinnerung bleibt**
+
+Besonders in Erinnerung bleibt uns der Abend auf der Dachterrasse — zusammen mit Gleichgesinnten aus anderen CSCs, die wie wir einfach machen wollen, was gesetzlich möglich ist. Das Foto, das wir in der Hanf-App geteilt haben, zeigt unser Team in diesem Moment. Keine große Inszenierung, keine Bühne — einfach ein paar Menschen, die etwas aufbauen.
+
+**Fazit**
+
+Die Mary Jane ist nicht für jeden. Wer als Endkunde hingeht, kann sich informieren und die Branche erleben. Für uns als aktiven Verein war sie konkret nützlich: Wir haben Kontakte geknüpft, Fragen beantwortet bekommen, die uns seit Monaten beschäftigen, und einen Überblick über den Stand der Dinge gewonnen.
+
+Nächstes Jahr kommen wir wieder — vielleicht mit eigenem Stand.`,
+    content_en: `Mary Jane is over — and we're back in Hildesheim. Time for an honest recap.
+
+We had [announced beforehand](/blog/maryjane-berlin-2026) that we were going not as exhibitors but as a club looking to learn. That's exactly what we did — and it was worth it.
+
+**Four days, many conversations**
+
+Mary Jane 2026 was bigger than expected. Hundreds of exhibitors from across Europe, panels on legal situation, cultivation technology, club management and prevention, and above all: dozens of founders and board members from other Cannabis Social Clubs who have taken the same path as us.
+
+What rarely comes from the official stages at a fair this size, you learn in conversations on the sidelines: which ventilation solutions actually work? Which authorities create problems, which cooperate? How do other clubs manage member administration? That kind of information you can't google.
+
+**What we're taking home**
+
+For our growing start in October, we came away with clear insights:
+
+- **Lighting:** The market has evolved significantly in the past two years. We looked at several systems in person and will reconsider our decision on this basis.
+- **Climate control:** Several established CSCs shared their experience with cooling and dehumidification solutions. Concrete models, no advertising.
+- **Club structure:** How other clubs organise member management, distribution documentation and prevention — with real tools, not theory.
+
+**An evening to remember**
+
+What sticks in our memory most is the evening on the rooftop terrace — together with like-minded people from other CSCs, all simply trying to do what is legally possible. The photo we shared in the Hanf-App shows our team in that moment. No staging, no spotlight — just a few people building something.
+
+**Takeaway**
+
+Mary Jane isn't for everyone. Those who attend as end consumers can get informed and experience the industry. For us as an active association it was concretely useful: we made contacts, got answers to questions that had been on our minds for months, and gained an overview of where things stand.
+
+Next year we'll be back — perhaps with our own stand.`,
+    tags: ['Mary Jane', 'Berlin', 'Messe', 'Netzwerk', 'Rückblick'],
+    author: 'Gero Stetter',
+    category: 'vereinsnews',
+  },
+  {
     slug: 'anbau-update-juni-2026',
     date: '2026-06-11',
     title_de: 'Anbau-Update Juni 2026 — Räume stehen, Genehmigung beantragt',
@@ -818,7 +883,7 @@ Our recommendation: Read our article [Cannabis and Road Traffic](/wissensdatenba
 
 Alles begann im Mai 2025. Zu fünft saßen wir zusammen und haben beschlossen: Wir gründen einen Cannabis Social Club in Hildesheim. Das KCanG war seit April 2024 in Kraft, die ersten Lizenzen wurden bundesweit erteilt, und wir wollten nicht nur zuschauen.
 
-Die Vereinsgründung war der einfachste Teil. Satzung schreiben, Gründungsversammlung abhalten, Notar, Vereinsregister — das ist bürokratisch, aber überschaubar. Im September 2025 waren wir offiziell im Vereinsregister eingetragen. Was wir unterschätzt haben: Die Satzung muss KCanG-konform sein. Unsere erste Version hatte Lücken bei den Dokumentationspflichten. Die Nachbesserung hat zwei Wochen gekostet. Unser Rat: Lasst die Satzung von Anfang an von einem spezialisierten Anwalt prüfen.
+Die Vereinsgründung war der einfachste Teil. Satzung schreiben, Gründungsversammlung abhalten, Notar, Vereinsregister — das ist bürokratisch, aber überschaubar. Im September 2025 waren wir offiziell im Vereinsregister eingetragen. Was wir unterschätzt haben: Die Satzung muss KCanG-konform sein. Unsere erste Version hatte Lücken bei den Dokumentationspflichten. Die Nachbesserung hat zwei Wochen gekostet. Einen Anwalt braucht ihr dafür nicht — es gibt genug Mustervorlagen und Erfahrungsberichte anderer CSCs, mit denen man arbeiten kann.
 
 Parallel haben wir das Suchtpräventionskonzept erarbeitet. Das KCanG verlangt ein konkretes, umsetzbares Konzept — keine Kopie aus dem Internet. Wir haben lokale Beratungsstellen in Hildesheim eingebunden, einen Selbsteinschätzungstest entwickelt und interne Ansprechpersonen benannt. Das Konzept war am Ende 15 Seiten lang und hat den Genehmigungsprozess nachweislich beschleunigt, weil die Behörde gesehen hat, dass wir es ernst meinen.
 
@@ -835,7 +900,7 @@ Wer selbst einen CSC gründen möchte: Auf unserer Seite [CSC gründen](/csc-gru
 
 It all started in May 2025. Five of us sat together and decided: We're founding a Cannabis Social Club in Hildesheim. The KCanG had been in effect since April 2024, the first licenses were being granted nationwide, and we didn't want to just watch.
 
-Founding the association was the easy part. Writing statutes, holding a founding assembly, notary, association register — bureaucratic but manageable. By September 2025, we were officially registered. What we underestimated: The statutes must be KCanG-compliant. Our first version had gaps in the documentation requirements. The revision cost two weeks. Our advice: Have the statutes reviewed by a specialized lawyer from the start.
+Founding the association was the easy part. Writing statutes, holding a founding assembly, notary, association register — bureaucratic but manageable. By September 2025, we were officially registered. What we underestimated: The statutes must be KCanG-compliant. Our first version had gaps in the documentation requirements. The revision cost two weeks. You don't need a lawyer for this — there are enough templates and experience reports from other CSCs to work with.
 
 In parallel, we developed the addiction prevention concept. The KCanG requires a concrete, implementable concept — not an internet copy. We involved local counseling centers in Hildesheim, developed a self-assessment test and appointed internal contact persons. The concept ended up being 15 pages long and demonstrably accelerated the approval process because the authority saw we take it seriously.
 
