@@ -77,9 +77,10 @@ export default async function BlogPostPage({ params }: PageProps) {
     day: 'numeric',
   });
 
-  const postIndex = blogPosts.findIndex((p) => p.slug === slug);
-  const prevPost = postIndex < blogPosts.length - 1 ? blogPosts[postIndex + 1] : null;
-  const nextPost = postIndex > 0 ? blogPosts[postIndex - 1] : null;
+  const sortedPosts = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date));
+  const postIndex = sortedPosts.findIndex((p) => p.slug === slug);
+  const prevPost = postIndex < sortedPosts.length - 1 ? sortedPosts[postIndex + 1] : null;
+  const nextPost = postIndex > 0 ? sortedPosts[postIndex - 1] : null;
 
   return (
     <>
