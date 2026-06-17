@@ -79,12 +79,13 @@ export function BlogListClient({ posts, isDE }: BlogListClientProps) {
                 className="group flex gap-0 rounded-xl border border-[var(--border)] bg-bg-elevated hover:border-accent/30 hover:-translate-y-0.5 transition-all duration-200 overflow-hidden"
               >
                 {post.image && (
-                  <div className="hidden sm:block shrink-0 w-40 relative">
+                  <div className="hidden sm:block shrink-0 w-40 self-stretch overflow-hidden">
                     <Image
                       src={post.image}
                       alt={title}
-                      fill
-                      className="object-cover"
+                      width={160}
+                      height={160}
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 )}
