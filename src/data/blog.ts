@@ -326,6 +326,7 @@ Everything we learn at the fair will flow into our preparation for the growing s
     tags: ['Mary Jane', 'Messe', 'Berlin', 'Netzwerk'],
     author: 'Gero Stetter',
     category: 'vereinsnews',
+    image: '/images/optimized/maryjane-berlin-logo.webp',
   },
   {
     slug: 'sortenauswahl-erster-grow',
