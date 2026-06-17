@@ -1856,4 +1856,534 @@ Cannabis that is not consumed immediately should be labelled: strain name, dispe
     last_updated: '2026-06-17',
     related_slugs: ['jugendschutz-u18-risiken', 'kcang-ueberblick', 'elternratgeber-cannabis', 'besitzmengen-konsumzonen'],
   },
+
+  // ─── CANNABIS UND PSYCHOSE-RISIKO ────────────────────────────────────────────
+  {
+    slug: 'cannabis-psychose-risiko',
+    category: 'prevention',
+    title_de: 'Cannabis und Psychose: Wer trägt ein erhöhtes Risiko?',
+    title_en: 'Cannabis and Psychosis: Who Carries an Elevated Risk?',
+    summary_de:
+      'Starker Cannabiskonsum kann bei bestimmten Personen psychotische Episoden auslösen oder eine bestehende Veranlagung aktivieren. Welche Risikofaktoren gibt es – und was bedeutet das für die Praxis?',
+    summary_en:
+      'Heavy cannabis use can trigger psychotic episodes in certain individuals or activate a latent predisposition. What are the risk factors – and what does this mean in practice?',
+    content_de: `Der Zusammenhang zwischen Cannabiskonsum und Psychose ist einer der meistdiskutierten Aspekte der Cannabis-Forschung. Die Frage ist nicht mehr „ob", sondern „wann, bei wem und wie stark" – und was das für Konsumenten bedeutet.
+
+## Was ist eine Cannabis-induzierte Psychose?
+
+Eine Psychose bezeichnet einen Zustand, in dem jemand den Kontakt zur Realität verliert: Halluzinationen (Dinge sehen oder hören, die nicht existieren), Wahnvorstellungen (falsche, unerschütterliche Überzeugungen), Denkstörungen und schwere Desorganisation.
+
+Cannabis kann akute, kurzzeitige psychotische Symptome auslösen – das ist bei hohen THC-Dosen auch bei völlig gesunden Menschen möglich. Diese akuten Symptome klingen in der Regel ab, wenn die Wirkung nachlässt. Problematischer ist der Zusammenhang mit anhaltenden oder chronischen Psychosen.
+
+## Der Forschungsstand: Kausalität oder Korrelation?
+
+Die Datenlage ist eindeutig: Regelmäßige Cannabiskonsumenten haben ein 2–4-fach erhöhtes Risiko, eine psychotische Störung zu entwickeln, im Vergleich zu Nicht-Konsumenten. Hochpotentes Cannabis (über 10–15 % THC) erhöht dieses Risiko weiter.
+
+Dieser Zusammenhang ist kausal – nicht nur korrelativ. Mehrere große Längsschnittstudien (darunter die bekannte Dunedin-Studie, die über 1.000 Menschen über Jahrzehnte begleitete) zeigen, dass Cannabis-Konsum dem Auftreten von Psychose-Symptomen zeitlich vorausgeht – und nicht umgekehrt.
+
+**Mechanismus:** THC aktiviert CB1-Rezeptoren im präfrontalen Kortex und im limbischen System und stört dabei die Dopamin-Regulation. Erhöhte Dopaminaktivität in bestimmten Hirnregionen ist ein Kernmerkmal der Schizophrenie. THC kann diesen Dopaminüberschuss auslösen – insbesondere bei genetisch vorbelasteten Personen.
+
+CBD wirkt dem gegenüber: Es hat antipsychotische Eigenschaften und dämpft die THC-induzierten psychoseverstärkenden Effekte. Das ist einer der Gründe, warum die Zusammensetzung des Cannabis – nicht nur der THC-Gehalt – wichtig ist.
+
+## Wer trägt ein erhöhtes Risiko?
+
+Nicht jeder, der Cannabis konsumiert, entwickelt eine Psychose. Die Mehrheit der Konsumenten tut es nicht. Aber bestimmte Faktoren erhöhen das Risiko deutlich:
+
+**Genetische Vorbelastung:** Wer Verwandte ersten Grades (Eltern, Geschwister) mit Schizophrenie oder bipolarer Störung hat, trägt ein erheblich höheres Risiko. Cannabis kann bei dieser Gruppe als Auslöser wirken – auch wenn die Erkrankung möglicherweise ohnehin ausgebrochen wäre.
+
+**Erstkontakt im Jugendalter:** Das Gehirn entwickelt sich bis zum Alter von 25 Jahren, besonders der präfrontale Kortex. Cannabis-Konsum unter 16 Jahren ist mit einem bis zu 4-fach erhöhten Psychose-Risiko verbunden. Unter 18 ist das Risiko signifikant erhöht.
+
+**Hochpotentes Cannabis:** Sorten mit 20 %+ THC und kaum CBD erhöhen das Risiko im Vergleich zu ausgewogenen Sorten deutlich. Eine 2019 publizierte Studie (Di Forti et al., Lancet Psychiatry) in fünf europäischen Städten fand, dass in Städten mit hohem Hochpotenz-Cannabis-Anteil deutlich mehr Erstepisoden-Psychosen auftraten.
+
+**Häufiger Konsum:** Täglicher Konsum erhöht das Risiko gegenüber gelegentlichem Konsum erheblich. Bei täglichem Hochpotenz-Konsum steigt das Risiko auf das 5-fache gegenüber Nicht-Konsumenten.
+
+**Vorbestehende psychische Vulnerabilität:** Wer bereits unter subklinischen Psychose-Symptomen leidet (Stimmenhören, Verfolgungsgedanken in leichter Form, magisches Denken), sollte Cannabis meiden.
+
+**Trauma-Geschichte:** Frühe Traumata erhöhen die psychiatrische Vulnerabilität allgemein. In Kombination mit Cannabis-Konsum steigt das Risiko weiter.
+
+## Warnsignale: Wann sofort aufhören?
+
+Folgende Symptome während oder nach Cannabis-Konsum sind ernst zu nehmen und sollten Anlass sein, sofort mit dem Konsum aufzuhören und professionelle Hilfe zu suchen:
+
+- Stimmen hören oder Dinge sehen, die andere nicht wahrnehmen (nach Abklingen der akuten Wirkung)
+- Starke, anhaltende Überzeugung, verfolgt zu werden oder dass andere über einen reden
+- Gedanken, die sich „eingepflanzt" oder „von außen gesteuert" anfühlen
+- Schwere Denkverwirrung, die nach dem Konsum bleibt
+- Ausgeprägte Paranoia, die mehrere Tage anhält
+
+**Wichtig:** Bei akuten psychotischen Symptomen ist der Gang in die psychiatrische Notaufnahme oder der Ruf des ärztlichen Notdienstes (116 117) angebracht. Das ist kein Zeichen von Schwäche – es ist die richtige Reaktion.
+
+## Was bedeutet das für verantwortungsvollen Konsum?
+
+BlattWerk e.V. verfolgt als Cannabis Social Club den Ansatz des verantwortungsvollen, informierten Umgangs. Für Personen mit Psychose-Risikofaktoren bedeutet das:
+
+- Kein Cannabis vor 21 Jahren (KCanG-Vorgabe sieht 18 vor, aber 21 für Hochpotenz-Abgabe bei CSCs)
+- Bei Familiengeschichte mit Psychose oder Schizophrenie: sehr gut überlegen, ob überhaupt
+- Niedrig-THC-Sorten mit CBD-Anteil bevorzugen
+- Kein täglicher Konsum
+- Konsumpausen einhalten und beobachten, wie es einem geht
+
+Für unsere Mitglieder stehen im Rahmen des Suchtpräventionskonzepts Gespräche mit unserer Suchtpräventionsbeauftragten zur Verfügung.`,
+    content_en: `The connection between cannabis use and psychosis is one of the most discussed aspects of cannabis research. The question is no longer "whether", but "when, in whom and how strongly" – and what this means for consumers.
+
+## What Is Cannabis-Induced Psychosis?
+
+Psychosis describes a state in which someone loses contact with reality: hallucinations, delusions, thought disorders and severe disorganisation.
+
+Cannabis can trigger acute, short-term psychotic symptoms – this is possible even in completely healthy people at high THC doses. These acute symptoms generally subside when the effects wear off. More problematic is the link to persistent or chronic psychoses.
+
+## The Research Evidence
+
+The data is clear: regular cannabis users have a 2–4 times higher risk of developing a psychotic disorder compared to non-users. High-potency cannabis (above 10–15% THC) increases this risk further. This connection is causal – not merely correlational.
+
+**Mechanism:** THC activates CB1 receptors in the prefrontal cortex and limbic system, disrupting dopamine regulation. Increased dopamine activity in certain brain regions is a core feature of schizophrenia.
+
+CBD, by contrast, has antipsychotic properties and dampens the psychosis-amplifying effects of THC.
+
+## Who Carries an Elevated Risk?
+
+- **Genetic predisposition:** First-degree relatives with schizophrenia or bipolar disorder
+- **First contact in adolescence:** Cannabis use under 16 is associated with up to 4 times higher psychosis risk
+- **High-potency cannabis:** Strains with 20%+ THC and little CBD
+- **Frequent use:** Daily use significantly increases risk compared to occasional use
+- **Pre-existing mental vulnerability:** Anyone already experiencing subclinical psychosis symptoms
+- **Trauma history:** Early traumas increase general psychiatric vulnerability
+
+## Warning Signs: When to Stop Immediately?
+
+If you experience voices, visions, or strong persecutory thoughts that persist after the acute effects wear off, stop using immediately and seek professional help.
+
+## What This Means for Responsible Use
+
+BlattWerk e.V. recommends: no cannabis before 21; if there's a family history of psychosis, reconsider entirely; prefer low-THC strains with CBD content; avoid daily use; take breaks and observe how you feel.`,
+    tags: ['Psychose', 'Risiko', 'Schizophrenie', 'THC', 'Prävention', 'Jugendschutz'],
+    reading_time: 10,
+    last_updated: '2026-06-17',
+    related_slugs: ['jugendschutz-u18-risiken', 'cannabis-und-psyche', 'mischkonsum-risiken', 'frueherkennung-problemkonsum'],
+  },
+
+  // ─── EINSTIEGSDROGE: MYTHOS ODER REALITÄT ────────────────────────────────────
+  {
+    slug: 'einstiegsdroge-mythos',
+    category: 'prevention',
+    title_de: 'Ist Cannabis eine Einstiegsdroge? Mythos und Fakten',
+    title_en: 'Is Cannabis a Gateway Drug? Myth and Facts',
+    summary_de:
+      'Das „Einstiegsdroge"-Argument war jahrzehntelang das Kernargument gegen Cannabis. Was sagt die Wissenschaft wirklich? Eine differenzierte Betrachtung der Gateway-Hypothese.',
+    summary_en:
+      'The "gateway drug" argument was the core argument against cannabis for decades. What does science actually say? A nuanced examination of the gateway hypothesis.',
+    content_de: `„Cannabis ist eine Einstiegsdroge, die zu Heroin und Kokain führt" – dieses Argument wurde jahrzehntelang zur Rechtfertigung der Cannabis-Prohibition verwendet. Es steckt in jedem Anti-Drogen-Programm der 1980er und 1990er Jahre. Aber was sagt die Wissenschaft wirklich dazu?
+
+## Die Gateway-Hypothese: Was sie behauptet
+
+Die Gateway-Hypothese (auch Gateway-Theorie) behauptet, dass Cannabiskonsum kausal das Risiko erhöht, später härtere Drogen wie Kokain, Heroin oder Amphetamine zu konsumieren. Die Logik: Wer Cannabis probiert, wird offen für andere Drogen.
+
+Diese Theorie hat einen wahren Kern und einen falschen Kern.
+
+## Der wahre Kern: Sequenzialität
+
+Es stimmt, dass die Reihenfolge von Drogenkonsum typischerweise einer Sequenz folgt: Alkohol und Zigaretten vor Cannabis, Cannabis vor illegalen Drogen. Studien zeigen, dass die große Mehrheit der Konsumenten von Heroin oder Kokain zuvor Cannabis konsumiert hat.
+
+Aber: Das ist eine Korrelation, keine Kausalität. Es beweist nicht, dass Cannabis zu Heroin führt – es zeigt nur, dass Menschen, die generell bereit sind, Substanzen zu konsumieren, in einer bestimmten Reihenfolge vorgehen.
+
+## Der falsche Kern: Kausalität fehlt
+
+Die entscheidende Frage ist: Erhöht Cannabis **kausal** das Risiko für härtere Drogen – oder gibt es andere Faktoren?
+
+**Alternativhypothese 1: Gemeinsame Vulnerabilität**
+Menschen mit bestimmten genetischen und psychosozialen Risikofaktoren neigen sowohl zu Cannabiskonsum als auch zu Konsum härterer Drogen. Cannabis ist nicht die Ursache – beide Verhaltensweisen haben dieselben Wurzeln (z.B. Sensationssuche, schwieriges Umfeld, Trauma, früher Substanzkonsum in der Familie).
+
+**Alternativhypothese 2: Der Schwarzmarkt als Gateway**
+In prohibitionistischen Systemen kaufen Menschen Cannabis von Dealern, die auch andere Drogen verkaufen. Das erhöht die Verfügbarkeit und Exposition gegenüber anderen Substanzen. In anderen Worten: Nicht Cannabis führt zu Heroin, sondern das System, das beides auf dem gleichen Markt hält. Dies unterstützt paradoxerweise die Legalisierung.
+
+**Alternativhypothese 3: Alkohol und Tabak als eigentliche Einstiegsdrogen**
+Fast alle harten Drogen-Konsumenten haben zuerst Alkohol und Zigaretten konsumiert. Wenn die Gateway-Theorie stimmt, müsste man Alkohol und Tabak als viel stärkere Einstiegsdrogen bezeichnen – was die politischen Implikationen der Theorie absurd macht.
+
+## Evidenz aus Ländern mit Legalisierung
+
+Wenn Cannabis kausal zu härteren Drogen führt, müsste die Legalisierung von Cannabis zu einem Anstieg des Konsums harter Drogen führen. Das Gegenteil ist beobachtbar:
+
+In den US-Bundesstaaten, die Cannabis legalisiert haben, gibt es keine konsistenten Beweise für einen Anstieg von Heroin- oder Kokainkonsum. Einige Studien zeigen sogar einen Rückgang bei Opioid-Todesfällen in Bundesstaaten mit legalem medizinischem Cannabis – ein Phänomen, das als „Substitutionseffekt" diskutiert wird (Cannabis als Ersatz für schmerzmittelbedingte Opioide).
+
+In den Niederlanden, wo Cannabis in Coffeeshops seit Jahrzehnten erhältlich ist, liegen die Raten harter Drogennutzung deutlich unter dem EU-Durchschnitt.
+
+## Was aber wirklich zutrifft: Frühkonsum als Risikofaktor
+
+Auch wenn die klassische Gateway-Theorie wissenschaftlich nicht haltbar ist, gibt es einen wichtigen wahren Aspekt: **Frühzeitiger Konsum** (vor 16 Jahren) erhöht das Risiko für spätere Suchtprobleme – bei Cannabis, aber auch bei anderen Substanzen. Das liegt an der Gehirnentwicklung und der prägenden Wirkung früher Erfahrungen.
+
+Das ist jedoch ein Argument für konsequenten Jugendschutz – nicht für Prohibition bei Erwachsenen.
+
+## Zusammenfassung
+
+| Aussage | Bewertung |
+|---|---|
+| Cannabis-Konsum geht anderen Drogenkonsum zeitlich voraus | Oft wahr (Sequenzialität) |
+| Cannabis verursacht kausal späteren Drogenkonsum | Nicht belegt |
+| Legalisierung führt zu mehr Konsum harter Drogen | Nicht belegt, teilweise widerlegt |
+| Frühzeitiger Cannabis-Konsum erhöht Suchtrisiken | Wahr – starkes Argument für Jugendschutz |
+
+Die Gateway-Hypothese ist wissenschaftlich nicht haltbar als Argument für Prohibition von Erwachsenenkonsum. Sie enthält aber einen relevanten Kern: Früh anfangen ist riskant, und Jugendschutz ist essenziell.`,
+    content_en: `"Cannabis is a gateway drug that leads to heroin and cocaine" – this argument was used for decades to justify cannabis prohibition. But what does science actually say?
+
+## The Gateway Hypothesis: What It Claims
+
+The gateway hypothesis claims that cannabis use causally increases the risk of later consuming harder drugs. This theory has a true core and a false core.
+
+## The True Core: Sequentiality
+
+It is true that drug use typically follows a sequence: alcohol and cigarettes before cannabis, cannabis before illegal drugs. But this is a correlation, not causation. It doesn't prove cannabis leads to heroin – it only shows that people generally willing to use substances proceed in a certain order.
+
+## The False Core: Causality Is Missing
+
+**Alternative hypothesis 1: Common vulnerability** – People with certain genetic and psychosocial risk factors tend toward both cannabis use and harder drugs. Cannabis is not the cause – both behaviours share the same roots.
+
+**Alternative hypothesis 2: The black market as gateway** – In prohibitionist systems, people buy cannabis from dealers who also sell other drugs. Not cannabis leads to heroin, but the system that keeps both on the same market. This paradoxically supports legalisation.
+
+**Alternative hypothesis 3: Alcohol and tobacco as the real gateway drugs** – Almost all hard drug users first consumed alcohol and cigarettes. If the gateway theory holds, they are far stronger gateway substances.
+
+## Evidence from Legalised Countries
+
+If cannabis causally leads to harder drugs, legalisation would cause an increase in hard drug use. The opposite is observable: US states with legalised cannabis show no consistent evidence of increased heroin or cocaine use. Some studies even show a decrease in opioid deaths in medical cannabis states.
+
+## What Actually Holds: Early Use as a Risk Factor
+
+Early use (before 16) increases the risk of later addiction problems – at cannabis and other substances. This is an argument for consistent youth protection – not prohibition for adults.`,
+    tags: ['Einstiegsdroge', 'Gateway', 'Mythos', 'Forschung', 'Prävention', 'Prohibition'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['jugendschutz-u18-risiken', 'mischkonsum-risiken', 'toleranzentwicklung-cannabis', 'cannabis-psychose-risiko'],
+  },
+
+  // ─── CANNABIS UND SCHULE / AUSBILDUNG ────────────────────────────────────────
+  {
+    slug: 'cannabis-schule-ausbildung',
+    category: 'prevention',
+    title_de: 'Cannabis und Schule: Risiken für Lernende und Auszubildende',
+    title_en: 'Cannabis and School: Risks for Students and Apprentices',
+    summary_de:
+      'Schüler und Azubis gehören zu den besonders gefährdeten Gruppen beim Cannabiskonsum. Wie beeinflusst Cannabis Lernen, Gedächtnis und Zukunftschancen – und was sagt das KCanG zu Schulen?',
+    summary_en:
+      'Students and apprentices are among the most vulnerable groups for cannabis use. How does cannabis affect learning, memory and future prospects – and what does the KCanG say about schools?',
+    content_de: `Das Thema Cannabis und Schule hat durch die Teillegalisierung im April 2024 eine neue Dimension bekommen. Einerseits ist Cannabis für Erwachsene ab 18 Jahren legal. Andererseits sind Schüler – auch solche, die bereits 18 sind – einer Bildungsphase, in der Cannabis erheblichen Schaden anrichten kann.
+
+## Was das KCanG für Schulen regelt
+
+Das Konsumcannabisgesetz definiert klare Schutzzonen:
+
+**Schulgebäude und Schulgelände:** Cannabiskonsum ist auf dem Schulgelände verboten – für alle, unabhängig vom Alter. Das gilt auch für Parkplätze, Sportanlagen und schulische Außenbereiche.
+
+**100-Meter-Schutzzone:** In einem Umkreis von 100 Metern um Schulen, Kinder- und Jugendhilfeeinrichtungen, Spielplätze und Fußgängerzonen ist der Konsum von Cannabis verboten. Diese Zone gilt auch für Volljährige.
+
+**Abgabe an Minderjährige:** Der Erwerb von Cannabis unter 18 Jahren ist strafbar. Cannabis Social Clubs dürfen nur an Volljährige abgeben.
+
+**Praktische Konsequenz:** Für Schüler unter 18 ist Cannabis illegal. Für Schüler ab 18 ist Konsum außerhalb der Schutzzonen zwar legal, hat aber erhebliche Auswirkungen auf die Schulleistung.
+
+## Wie Cannabis das Lernen beeinflusst
+
+Das Gehirn bis etwa 25 Jahre befindet sich in intensiver Entwicklung – besonders der präfrontale Kortex, der für Planung, Entscheidungsfindung, Impulskontrolle und komplexes Denken zuständig ist. Genau dieser Bereich ist besonders empfindlich gegenüber THC.
+
+**Kurzfristige Effekte auf das Lernen:**
+- Beeinträchtigte Aufmerksamkeit und Konzentration für Stunden nach dem Konsum
+- Verlangsamte Informationsverarbeitung
+- Eingeschränktes Arbeitsgedächtnis (kurzfristiges Behalten von Informationen)
+- Schwierigkeiten bei komplexen Aufgaben, die mehrere Denkschritte erfordern
+
+**Langfristige Effekte bei regelmäßigem Konsum:**
+Eine 2012 veröffentlichte Längsschnittstudie (Meier et al., PNAS) mit über 1.000 Teilnehmern zeigte: Menschen, die im Jugendalter regelmäßig Cannabis konsumierten, hatten im Alter von 38 Jahren im Durchschnitt einen IQ-Verlust von 8 Punkten im Vergleich zu Nicht-Konsumenten. Dieser Effekt war bei Erwachsenen, die erst nach der Adoleszenz begannen, nicht zu beobachten.
+
+Weitere Studien zeigen:
+- Geringere Schulabschlussquoten bei regelmäßigen jugendlichen Konsumenten
+- Mehr Schulausschlüsse und Disziplinarprobleme
+- Schlechtere akademische Leistungen
+- Häufigeres Dropout aus Ausbildung und Studium
+
+**Wichtig:** Diese Effekte sind dosisabhängig und stärker bei jüngerem Beginn. Gelegentlicher Konsum (z.B. einmal pro Woche) hat geringere Effekte als täglicher Konsum.
+
+## Besonderheiten der Berufsausbildung
+
+Für Auszubildende kommen spezifische Risiken hinzu:
+
+**Arbeitssicherheit:** Viele Ausbildungsberufe haben erhöhte Anforderungen an Aufmerksamkeit und Reaktionsfähigkeit – Elektrik, Maschinenbedienung, Fahrzeugführung, Pflege. THC beeinträchtigt diese Fähigkeiten für Stunden.
+
+**Probezeit und Kündigung:** Arbeitgeber können bei auffälligem Verhalten kündigen. Der Nachweis von Cannabis-Konsum (auch legal) kann Grundlage für arbeitsrechtliche Konsequenzen sein, wenn die Arbeitssicherheit beeinträchtigt ist.
+
+**Führerschein:** Viele Ausbildungsberufe erfordern einen Führerschein. Wer unter THC-Einfluss fährt (THC-Grenzwert: 3,5 ng/ml im Blutserum), riskiert Führerscheientzug – und damit seine Ausbildungschancen.
+
+**Berufsschule:** Auch die Berufsschule ist eine Schutzzone. Konsum im Umfeld der Berufsschule kann Disziplinarmaßnahmen nach sich ziehen.
+
+## Was Schüler und Azubis wissen sollten
+
+**Wenn du 18 bist und Cannabis konsumierst:**
+- Konsumiere niemals vor oder während des Schultages – auch nicht in der Pause
+- Beachte die 100-Meter-Schutzzone
+- Plane genug Abstand zwischen Konsum und schulischen Anforderungen (THC-Effekte dauern Stunden)
+- Beobachte, ob sich deine Noten oder deine Motivation verschlechtert
+
+**Wenn ein Mitschüler regelmäßig Cannabis konsumiert und Probleme zeigt:**
+- Sprich ihn oder sie direkt, aber ohne Vorwurf an (siehe Artikel: Interventionsgespräch)
+- Wende dich an Vertrauenslehrer oder Schulsozialarbeit
+- Anonyme Beratung: Telefonseelsorge 0800 111 0 111
+
+## Was Schulen und Lehrkräfte tun können
+
+Seit der Teillegalisierung stehen Schulen vor neuen Herausforderungen. Suchtpräventionsprogramme, die ausschließlich mit Verboten und Abschreckung arbeiten, sind weniger wirksam als Programme, die:
+- Ehrlich über Risiken informieren (ohne zu dramatisieren)
+- Lebenskompetenzen stärken (Selbstwirksamkeit, Entscheidungskompetenz, Ablehnen von Gruppendruck)
+- Früh erkennen und ansprechen (Vertrauenslehrerinnen, Schulpsychologinnen)
+
+BlattWerk e.V. bietet als Cannabis Social Club mit Suchtpräventionsprogramm auf Anfrage Informationsveranstaltungen für Schulen und Bildungseinrichtungen an.`,
+    content_en: `The topic of cannabis and school has taken on a new dimension through partial legalisation in April 2024. Cannabis is legal for adults from 18. But students – including those already 18 – are in an educational phase where cannabis can cause considerable harm.
+
+## What the KCanG Regulates for Schools
+
+The Cannabis Consumption Act defines clear protection zones:
+
+- **School premises:** Cannabis consumption is prohibited on school grounds for everyone, regardless of age.
+- **100-metre protection zone:** Consumption is prohibited within 100 metres of schools and youth facilities.
+- **Distribution to minors:** Purchasing cannabis under 18 is a criminal offence.
+
+## How Cannabis Affects Learning
+
+The brain up to about age 25 is in intensive development – especially the prefrontal cortex, responsible for planning, decision-making, impulse control and complex thinking.
+
+**Short-term effects:** Impaired attention and concentration for hours; slowed information processing; restricted working memory; difficulties with complex tasks.
+
+**Long-term effects with regular use:** A 2012 longitudinal study (Meier et al., PNAS) showed people who regularly used cannabis in adolescence had on average an 8-point IQ loss compared to non-users by age 38. This effect was not observed in adults who only began after adolescence.
+
+## Specifics of Vocational Training
+
+- **Work safety:** Many trades require attention and reaction ability that THC impairs for hours
+- **Driving licence:** Required in many apprenticeships; driving under THC influence risks licence revocation
+- **Probationary period:** Employers can dismiss in cases of impairment affecting work safety
+
+## What to Do
+
+If you're 18 and consume cannabis: never before or during the school day; observe the 100-metre zone; allow enough time between consumption and school demands.
+
+If a classmate shows problems: speak to them directly without accusation; contact a trusted teacher or school social worker.`,
+    tags: ['Schule', 'Ausbildung', 'Jugendschutz', 'Lernen', 'Gedächtnis', 'Prävention'],
+    reading_time: 9,
+    last_updated: '2026-06-17',
+    related_slugs: ['jugendschutz-u18-risiken', 'cannabis-psychose-risiko', 'elternratgeber-cannabis', 'toleranzentwicklung-cannabis'],
+  },
+
+  // ─── INTERVENTIONSGESPRÄCH ───────────────────────────────────────────────────
+  {
+    slug: 'interventionsgespraech',
+    category: 'prevention',
+    title_de: 'Mit Freunden über Konsum sprechen: Ein Leitfaden zum Interventionsgespräch',
+    title_en: 'Talking to Friends About Their Use: A Guide to Intervention Conversations',
+    summary_de:
+      'Du machst dir Sorgen um jemanden, dessen Cannabiskonsum problematisch wirkt. Wie sprichst du das an, ohne die Beziehung zu gefährden? Konkrete Tipps für ein wirksames Gespräch.',
+    summary_en:
+      'You are worried about someone whose cannabis use seems problematic. How do you address this without endangering the relationship? Concrete tips for an effective conversation.',
+    content_de: `Es ist schwer, jemandem zu sagen, dass man sich Sorgen um seinen Konsum macht. Zu groß die Angst, abgewiesen zu werden, zu dramatisieren oder die Freundschaft zu gefährden. Gleichzeitig kann das Schweigen die Situation verschlimmern. Dieser Artikel gibt dir konkrete Werkzeuge für ein Gespräch, das wirklich helfen kann.
+
+## Wann ist ein Gespräch sinnvoll?
+
+Bevor du das Gespräch suchst, lohnt sich eine ehrliche Selbstreflexion. Ist deine Sorge berechtigt? Anzeichen, die ein Gespräch nahelegen:
+
+- Die Person verpasst zunehmend Termine, Schule, Arbeit oder wichtige Ereignisse
+- Die Stimmung und das Verhalten haben sich deutlich verändert
+- Die Person spricht kaum noch über Themen außer Cannabis
+- Freundschaften oder Familienbeziehungen leiden
+- Die Person konsumiert täglich oder mehrmals täglich
+- Geld- oder rechtliche Probleme im Zusammenhang mit Cannabis
+- Die Person selbst äußert Zweifel oder Wunsch aufzuhören, tut es aber nicht
+
+Wichtig: Ein gelegentlicher Konsum oder Konsum, der keine Probleme verursacht, ist kein Grund für ein Gespräch. Betreffe dich nicht in die autonomen Entscheidungen anderer Erwachsener ein, wenn keine klaren Probleme sichtbar sind.
+
+## Vorbereitung: Was du vorher klären solltest
+
+**Eigene Position reflektieren:** Bist du selbst betroffen – z.B. weil das Verhalten dich belastet? Oder machst du dir primär Sorgen um die andere Person? Beides ist gültig, führt aber zu unterschiedlichen Gesprächseinstiegen.
+
+**Konkrete Beispiele sammeln:** Vage Vorwürfe („Du kiffst zu viel") sind schwer zu bearbeiten. Konkrete Beobachtungen sind wirkungsvoller: „Ich habe gemerkt, dass du in den letzten Wochen dreimal nicht zur Verabredung erschienen bist", „Du wirkst in letzter Zeit häufig abwesend."
+
+**Realistisches Ziel setzen:** Du kannst niemanden zwingen aufzuhören. Dein Ziel für das erste Gespräch ist: Sorge ausdrücken, Gesprächsbereitschaft signalisieren, vielleicht eine Reflexion anstoßen. Nicht mehr.
+
+**Richtigen Zeitpunkt wählen:** Nicht direkt nach oder während des Konsums. In einem ruhigen Moment, wenn beide entspannt sind.
+
+## Das Gespräch: Dos and Don'ts
+
+### Was funktioniert (Dos)
+
+**„Ich"-Botschaften verwenden:** Statt „Du kiffst zu viel" → „Ich mache mir Sorgen um dich, weil ich bemerkt habe, dass..." „Ich"-Botschaften werden weniger als Angriff erlebt und lösen weniger Abwehr aus.
+
+**Neugierig fragen statt anklagen:** „Wie geht es dir gerade wirklich?" „Ich habe das Gefühl, du bist in letzter Zeit viel abwesend – stimmt das?" Echte Neugier öffnet Türen.
+
+**Zuhören ohne zu unterbrechen:** Wenn die Person antwortet, lass sie ausreden. Auch wenn du anderer Meinung bist.
+
+**Sorge von Urteil trennen:** „Ich sage dir das nicht, weil ich finde, dass du ein schlechter Mensch bist. Ich sage es dir, weil du mir wichtig bist."
+
+**Hilfe anbieten, nicht aufzwingen:** „Wenn du mal reden möchtest oder Unterstützung brauchst, bin ich da." Angebote statt Forderungen.
+
+### Was nicht funktioniert (Don'ts)
+
+**Moralische Verurteilung:** Religiöse oder moralische Argumente gegen Cannabis-Konsum werden als Angriff erlebt und führen zu Abwehr.
+
+**Ultimaten beim ersten Gespräch:** „Entweder du hörst auf oder ich breche den Kontakt ab" führt meist dazu, dass die Person abbricht – und ohne Unterstützung dasteht.
+
+**Gruppeninterventionen ohne Vorbereitung:** Sogenannte Konfrontations-Interventionen (alle sitzen zusammen und sprechen die Person an) können gut funktionieren – aber nur mit professioneller Begleitung. Ohne das können sie die Person beschämen und in die Isolation treiben.
+
+**Das Gespräch im Streit suchen:** In aufgeheizten Situationen ist niemand aufnahmebereit.
+
+**Inhalt trivialisieren:** „Das ist doch nicht so schlimm" signalisiert, dass die Sorge keine Unterstützung wert ist.
+
+## Wenn das Gespräch schwierig verläuft
+
+Die Person weist deine Sorge zurück? Das ist häufig. Nicht jedes erste Gespräch führt sofort zu Einsicht. Bleib freundlich: „Ich verstehe, dass du das anders siehst. Mein Angebot gilt trotzdem."
+
+Die Person wird aggressiv? Beende das Gespräch ruhig: „Ich merke, das ist gerade zu viel. Ich bin da, wenn du reden möchtest."
+
+## Wenn du selbst überfordert bist
+
+Manchmal ist die Situation zu schwer, um sie allein zu tragen – besonders wenn die Person dir sehr nahesteht. Dann ist professionelle Unterstützung für dich selbst angebracht:
+
+- **Angehörigenberatung:** Viele Suchtberatungsstellen bieten spezifische Beratung für Angehörige an – auch ohne die betroffene Person
+- **Al-Anon/Nar-Anon:** Selbsthilfegruppen für Angehörige von Suchterkrankten
+- **Telefonseelsorge:** 0800 111 0 111 (kostenlos, anonym, 24/7)
+
+BlattWerk e.V. bietet Mitgliedern Gespräche mit der Suchtpräventionsbeauftragten an – auch vertrauliche Beratung für Menschen, die sich um jemanden sorgen.`,
+    content_en: `It is hard to tell someone you are worried about their use. Yet silence can worsen the situation. This article provides concrete tools for a conversation that can really help.
+
+## When Is a Conversation Appropriate?
+
+Signs that suggest a conversation: increasingly missed appointments, school or work; significantly changed mood and behaviour; talking about little other than cannabis; friendships or family relationships suffering; daily or multiple-daily use; money or legal problems linked to cannabis.
+
+Important: occasional use that causes no problems is not a reason for a conversation. Don't interfere in the autonomous decisions of other adults when no clear problems are visible.
+
+## The Conversation: Dos and Don'ts
+
+**What works (Dos):**
+- Use "I" messages: instead of "you smoke too much" → "I'm worried about you because I've noticed that..."
+- Ask curiously rather than accusingly: "How are you really doing?"
+- Listen without interrupting
+- Separate concern from judgement: "I'm saying this not because I think you're a bad person, but because you matter to me"
+- Offer help, don't impose: "If you ever want to talk or need support, I'm here"
+
+**What doesn't work (Don'ts):**
+- Moral condemnation
+- Ultimatums in the first conversation
+- Group interventions without professional guidance
+- Seeking the conversation during an argument
+
+## When You're Overwhelmed Yourself
+
+Sometimes the situation is too heavy to carry alone. Then professional support for yourself is appropriate: addiction counselling for relatives, Al-Anon/Nar-Anon, or the Telefonseelsorge: 0800 111 0 111 (free, anonymous, 24/7).`,
+    tags: ['Gespräch', 'Intervention', 'Hilfe', 'Freundschaft', 'Familie', 'Prävention'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['frueherkennung-problemkonsum', 'elternratgeber-cannabis', 'beratungsstellen-hildesheim', 'selbstcheck-warnzeichen'],
+  },
+
+  // ─── DIGITALE HILFSANGEBOTE ───────────────────────────────────────────────────
+  {
+    slug: 'digitale-hilfsangebote',
+    category: 'prevention',
+    title_de: 'Digitale Hilfe bei Suchtproblemen: Apps, Chats und Online-Beratung',
+    title_en: 'Digital Help for Addiction Problems: Apps, Chats and Online Counselling',
+    summary_de:
+      'Wer Unterstützung bei Cannabisproblemen sucht, muss heute nicht mehr persönlich in eine Beratungsstelle gehen. Apps, Chat-Beratungen und Online-Selbsthilfe ermöglichen niedrigschwelligen Zugang.',
+    summary_en:
+      'Anyone seeking support for cannabis problems no longer has to visit a counselling centre in person. Apps, chat counselling and online self-help enable low-threshold access.',
+    content_de: `Die Hürde, eine Suchtberatungsstelle aufzusuchen, ist für viele Menschen groß. Termine, Wartezeiten, die Angst vor dem Schritt – all das hält Menschen davon ab, sich Hilfe zu holen. Digitale Angebote können diese Hürde deutlich senken: Sie sind anonym, jederzeit erreichbar und oft kostenlos.
+
+## Online-Beratung und Chat-Angebote
+
+**Drogenhilfe.de / camamo.de:**
+Die Online-Beratung der Drogenbeauftragten der Bundesregierung bietet kostenlose, anonyme Beratung über ein Chat-System. Das Angebot richtet sich an Konsumenten, die sich Sorgen machen, aber noch nicht bereit für ein persönliches Gespräch sind.
+
+**OnlinePlus der DHS:**
+Die Deutsche Hauptstelle für Suchtfragen (DHS) bietet mit dem Programm OnlinePlus ein strukturiertes Online-Selbsthilfeprogramm für Cannabisabhängige an. Es basiert auf kognitiver Verhaltenstherapie und führt Nutzer über 8 Wochen durch Module zu Konsumreduktion und Rückfallprävention. Kostenlos und anonym nutzbar.
+
+**Rauchfrei-Apps:** Obwohl für Tabak konzipiert, nutzen manche Cannabis-Konsumenten Rauchfrei-Apps für ihre Konsumziele – sie helfen bei der Protokollierung und bieten Motivationsbausteine.
+
+**ChatBot-Angebote der Bundeszentrale für gesundheitliche Aufklärung (BZgA):**
+Die BZgA betreibt unter drugcom.de ein umfassendes Informations- und Beratungsangebot mit Chat-Option für Jugendliche und junge Erwachsene.
+
+## Apps zur Konsumkontrolle und Aufhören
+
+**Smoke Free / QuitNow! (für Cannabis adaptierbar):**
+Diese Apps wurden für Raucher entwickelt, sind aber auch für Cannabis nutzbar. Kernfunktionen: Konsumtage protokollieren, gesparte Zeit und Geld visualisieren, Entzugssymptome tracken, Meilensteine feiern.
+
+**Soberlink / I Am Sober:**
+Nüchternheits-Tracking-Apps mit Community-Funktion. Tägliche Check-ins, Motivationsbotschaften und die Möglichkeit, eine Accountability-Person einzubeziehen.
+
+**Daylio:**
+Journal-App, in der Stimmung und Aktivitäten protokolliert werden können. Für Cannabis-Konsumenten nützlich, um Muster zwischen Konsum, Stimmung und Wohlbefinden zu erkennen.
+
+## Online-Selbsthilfe und -Communitys
+
+**Reddit r/leaves:**
+Eine englischsprachige Online-Community für Menschen, die Cannabis aufhören oder reduzieren möchten. Über 250.000 Mitglieder teilen Erfahrungen, geben Tipps und unterstützen sich gegenseitig. Anonym, keine Registrierungspflicht zum Lesen.
+
+**Cannabis Anonym (CA) Online-Meetings:**
+Cannabis Anonym bietet nach dem 12-Schritte-Prinzip auch Video-Meetings an, die online zugänglich sind. Keine Registrierung, anonym.
+
+## Telefonische Hilfsangebote
+
+**BZgA Drogentelefon:** 0800 135 3771 (kostenlos, Mo–Do 10–22 Uhr, Fr–So 10–18 Uhr)
+Professionelle Beratung durch geschultes Fachpersonal. Anonym, kein Anmeldebedarf.
+
+**Telefonseelsorge:** 0800 111 0 111 oder 0800 111 0 222
+Für akute Krisen, auch wenn Cannabis das Problem verstärkt. Kostenlos, anonym, rund um die Uhr.
+
+**Nummern gegen Kummer (für Jugendliche):** 116 111
+Speziell für junge Menschen, auch bei Themen wie Cannabis.
+
+## Was digitale Angebote können – und was nicht
+
+**Stärken:**
+- Niedrigschwellig: keine Termine, keine Wartezeiten, kein Gesicht zeigen
+- Anonym: kein Datenschutzbedenken bei lokalen Beratungsstellen
+- Zeitlich flexibel: auch nachts und am Wochenende
+- Erste Orientierung: ob man überhaupt Hilfe braucht
+
+**Grenzen:**
+- Schwere Abhängigkeit oder psychische Erkrankung erfordert persönliche Begleitung
+- Krisenintervention bei akuten Situationen ist nur begrenzt möglich
+- Keine Verbindlichkeit: ohne menschlichen Kontakt ist die Ausstiegsmotivation schwerer aufrechtzuerhalten
+- Kein Ersatz für Therapie bei CBD-Doppeldiagnosen (gleichzeitige psychische Erkrankung)
+
+**Empfehlung:** Digitale Angebote sind ein ausgezeichneter erster Schritt. Wer mehr Unterstützung braucht, sollte zusätzlich den Weg zu einer persönlichen Beratungsstelle gehen – die lokalen Angebote in Hildesheim findest du in unserem Artikel zu Beratungsstellen.`,
+    content_en: `The hurdle to visit an addiction counselling centre is high for many people. Digital offers can significantly lower this threshold: they are anonymous, reachable at any time and often free of charge.
+
+## Online Counselling and Chat Services
+
+**drugcom.de (BZgA):** Comprehensive information and counselling for young people and adults, with chat option.
+
+**OnlinePlus (DHS):** Structured online self-help programme for cannabis dependence based on cognitive behavioural therapy, free and anonymous, over 8 weeks.
+
+## Apps for Consumption Control and Quitting
+
+**Smoke Free / QuitNow! (adaptable for cannabis):** Designed for smokers but usable for cannabis. Log consumption days, visualise saved time and money, track withdrawal symptoms.
+
+**I Am Sober:** Sobriety tracking with community function, daily check-ins, accountability feature.
+
+**Daylio:** Journal app for logging mood and activities – useful for identifying patterns between use and wellbeing.
+
+## Online Self-Help and Communities
+
+**Reddit r/leaves:** English-language community for people stopping or reducing cannabis. Over 250,000 members. Anonymous.
+
+**Cannabis Anonymous online meetings:** Video meetings following the 12-step principle. Anonymous, no registration required.
+
+## Phone Services
+
+- **BZgA drug hotline:** 0800 135 3771 (free, Mon–Thu 10am–10pm, Fri–Sun 10am–6pm)
+- **Telefonseelsorge:** 0800 111 0 111 (free, anonymous, 24/7)
+- **Nummern gegen Kummer (for young people):** 116 111
+
+## What Digital Offers Can Do – and Cannot
+
+**Strengths:** Low-threshold; anonymous; time-flexible; first orientation.
+
+**Limitations:** Severe dependence requires personal accompaniment; crisis intervention limited; less accountability without human contact.
+
+Digital offers are an excellent first step. Those needing more support should additionally seek a personal counselling centre – local services in Hildesheim can be found in our counselling centres article.`,
+    tags: ['Digital', 'App', 'Online', 'Beratung', 'Hilfe', 'Prävention', 'Selbsthilfe'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['beratungsstellen-hildesheim', 'cannabis-entzug', 'frueherkennung-problemkonsum', 'selbstcheck-warnzeichen'],
+  },
 ];
