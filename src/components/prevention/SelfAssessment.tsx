@@ -124,6 +124,7 @@ export function SelfAssessment({ isDE }: Props) {
           <div className="flex flex-wrap gap-2">
             {answerOptions.map((opt) => (
               <button
+                type="button"
                 key={opt.value}
                 onClick={() => handleAnswer(i, opt.value)}
                 className="px-3 py-1.5 text-xs rounded-lg border transition-all"
@@ -143,6 +144,7 @@ export function SelfAssessment({ isDE }: Props) {
 
       <div className="flex items-center gap-4">
         <button
+          type="button"
           onClick={() => setShowResult(true)}
           disabled={!allAnswered}
           className="px-6 py-3 rounded-xl text-sm font-semibold transition-all"
@@ -156,6 +158,7 @@ export function SelfAssessment({ isDE }: Props) {
         </button>
         {Object.keys(answers).length > 0 && (
           <button
+            type="button"
             onClick={handleReset}
             className="px-4 py-3 rounded-xl text-sm text-ink-muted transition-opacity hover:opacity-70"
           >

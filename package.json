@@ -13,29 +13,29 @@
     "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
-    "@hookform/resolvers": "^5.2.2",
-    "framer-motion": "^12.38.0",
+    "@hookform/resolvers": "^5.4.0",
+    "framer-motion": "^12.40.0",
     "lucide-react": "^0.577.0",
-    "next": "^16.1.7",
-    "next-intl": "^4.8.3",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-hook-form": "^7.72.0",
-    "zod": "^4.3.6"
+    "next": "^16.2.9",
+    "next-intl": "^4.13.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-hook-form": "^7.80.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@tailwindcss/postcss": "^4.2.1",
+    "@playwright/test": "^1.61.0",
+    "@tailwindcss/postcss": "^4.3.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@types/node": "^25.5.0",
-    "@types/react": "^19.2.14",
+    "@types/node": "^25.9.4",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "jsdom": "^29.0.1",
-    "postcss": "^8.5.8",
+    "jsdom": "^29.1.1",
+    "postcss": "^8.5.15",
     "serve": "^14.2.6",
-    "tailwindcss": "^4.2.1",
+    "tailwindcss": "^4.3.1",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.1"
+    "vitest": "^4.1.9"
   }
 }

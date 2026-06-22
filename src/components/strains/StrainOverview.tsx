@@ -129,7 +129,9 @@ export function StrainOverview() {
               />
               {query && (
                 <button
+                  type="button"
                   onClick={() => setQuery('')}
+                  aria-label={lang === 'de' ? 'Suche leeren' : 'Clear search'}
                   className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer text-ink-muted"
                 >
                   <X className="w-3.5 h-3.5" />
@@ -171,6 +173,7 @@ export function StrainOverview() {
 
             {/* Mobile filter toggle */}
             <button
+              type="button"
               onClick={() => setSidebarOpen(!sidebarOpen)}
               className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer border border-[var(--border)]"
               style={{
@@ -215,6 +218,7 @@ export function StrainOverview() {
                   </span>
                   {hasActiveFilters && (
                     <button
+                      type="button"
                       onClick={resetFilters}
                       className="text-[10px] font-bold uppercase tracking-[0.14em] flex items-center gap-1 cursor-pointer"
                       style={{ color: 'rgba(248,113,113,0.8)' }}
@@ -287,6 +291,7 @@ export function StrainOverview() {
                         </span>
                         {hasActiveFilters && (
                           <button
+                            type="button"
                             onClick={resetFilters}
                             className="text-[10px] font-bold uppercase tracking-[0.14em] flex items-center gap-1 cursor-pointer"
                             style={{ color: 'rgba(248,113,113,0.8)' }}
@@ -344,6 +349,7 @@ export function StrainOverview() {
                     {lang === 'de' ? 'Keine Ergebnisse' : 'No results found'}
                   </p>
                   <button
+                    type="button"
                     onClick={resetFilters}
                     className="mt-3 text-sm cursor-pointer underline text-accent"
                   >

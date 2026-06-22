@@ -281,6 +281,7 @@ export function StrainFinder() {
                 const active = state.goal === opt.value;
                 return (
                   <button
+                    type="button"
                     key={opt.value}
                     onClick={() => setState((prev) => ({ ...prev, goal: opt.value }))}
                     className="w-full text-left p-5 border transition-colors duration-200 cursor-pointer"
@@ -303,6 +304,7 @@ export function StrainFinder() {
                 const active = state.thcPref === opt.value;
                 return (
                   <button
+                    type="button"
                     key={opt.value}
                     onClick={() => setState((prev) => ({ ...prev, thcPref: opt.value }))}
                     className="w-full text-left p-5 border transition-colors duration-200 cursor-pointer"
@@ -331,6 +333,7 @@ export function StrainFinder() {
                   const disabled = !active && state.flavors.size >= MAX_FLAVORS;
                   return (
                     <button
+                      type="button"
                       key={opt.value}
                       onClick={() => toggleFlavor(opt.value)}
                       disabled={disabled}
@@ -361,6 +364,7 @@ export function StrainFinder() {
                       : 'Try different criteria for better results.'}
                   </p>
                   <button
+                    type="button"
                     onClick={reset}
                     className="text-sm cursor-pointer underline text-accent"
                   >
@@ -390,6 +394,7 @@ export function StrainFinder() {
                       {lang === 'de' ? 'Vergleichen' : 'Compare'}
                     </Link>
                     <button
+                      type="button"
                       onClick={reset}
                       className="text-sm cursor-pointer text-ink-muted hover:text-accent transition-colors"
                     >
@@ -405,6 +410,7 @@ export function StrainFinder() {
         {step < TOTAL_STEPS && (
           <div className="flex items-center justify-between mt-8 pt-6 border-t border-[var(--border)]">
             <button
+              type="button"
               onClick={goBack}
               disabled={step === 1}
               className="flex items-center gap-2 text-sm transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed text-ink-muted hover:text-ink"
@@ -413,6 +419,7 @@ export function StrainFinder() {
               {lang === 'de' ? 'Zurück' : 'Back'}
             </button>
             <button
+              type="button"
               onClick={goNext}
               disabled={!canNext}
               className="flex items-center gap-2 text-sm font-medium transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed text-accent hover:text-accent/80"
