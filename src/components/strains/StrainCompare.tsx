@@ -73,11 +73,12 @@ function StrainSelector({
         style={{ background: 'var(--glass)', backdropFilter: 'blur(12px)' }}
       >
         <button
+          type="button"
           onClick={onRemove}
-          aria-label={lang === 'de' ? `${selected.name} entfernen` : `Remove ${selected.name}`}
+          aria-label={lang === 'de' ? 'Sorte entfernen' : 'Remove strain'}
           className="absolute top-2 right-2 p-2 rounded-full hover:bg-bg-elevated transition-colors cursor-pointer"
         >
-          <X aria-hidden="true" className="w-4 h-4 text-ink-faint" />
+          <X className="w-4 h-4 text-ink-faint" />
         </button>
         <h3 className="font-heading italic text-lg text-ink mb-1">{selected.name}</h3>
         <span className={`inline-block text-xs px-2 py-0.5 rounded-full ${config.badge}`}>
@@ -99,6 +100,7 @@ function StrainSelector({
   return (
     <div className="relative">
       <button
+        type="button"
         onClick={() => setOpen(!open)}
         className="w-full rounded-xl border-2 border-dashed border-[var(--border)] hover:border-accent/40 p-8 flex flex-col items-center justify-center gap-2 transition-colors cursor-pointer"
       >
@@ -133,6 +135,7 @@ function StrainSelector({
                 const c = typeConfig[s.type];
                 return (
                   <button
+                    type="button"
                     key={s.slug}
                     onClick={() => {
                       onSelect(s.slug);

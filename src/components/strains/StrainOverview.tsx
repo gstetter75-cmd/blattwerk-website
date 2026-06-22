@@ -119,22 +119,22 @@ export function StrainOverview() {
           <div className="flex gap-3 mb-8">
             {/* Search input -- bottom border only */}
             <div className="relative flex-1 max-w-sm">
-              <Search aria-hidden="true" className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
+              <Search className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-muted" />
               <input
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={lang === 'de' ? 'Sorte suchen\u2026' : 'Search strain\u2026'}
-                aria-label={lang === 'de' ? 'Sorte suchen' : 'Search strain'}
                 className="w-full pl-7 pr-7 py-2.5 bg-transparent text-sm focus:outline-none transition-colors text-ink border-b border-[var(--border)] focus:border-accent"
               />
               {query && (
                 <button
+                  type="button"
                   onClick={() => setQuery('')}
-                  aria-label={lang === 'de' ? 'Suche l\u00f6schen' : 'Clear search'}
+                  aria-label={lang === 'de' ? 'Suche leeren' : 'Clear search'}
                   className="absolute right-0 top-1/2 -translate-y-1/2 cursor-pointer text-ink-muted"
                 >
-                  <X aria-hidden="true" className="w-3.5 h-3.5" />
+                  <X className="w-3.5 h-3.5" />
                 </button>
               )}
             </div>
@@ -173,6 +173,7 @@ export function StrainOverview() {
 
             {/* Mobile filter toggle */}
             <button
+              type="button"
               onClick={() => setSidebarOpen(!sidebarOpen)}
               className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer border border-[var(--border)]"
               style={{
@@ -217,6 +218,7 @@ export function StrainOverview() {
                   </span>
                   {hasActiveFilters && (
                     <button
+                      type="button"
                       onClick={resetFilters}
                       className="text-[10px] font-bold uppercase tracking-[0.14em] flex items-center gap-1 cursor-pointer"
                       style={{ color: 'rgba(248,113,113,0.8)' }}
@@ -289,6 +291,7 @@ export function StrainOverview() {
                         </span>
                         {hasActiveFilters && (
                           <button
+                            type="button"
                             onClick={resetFilters}
                             className="text-[10px] font-bold uppercase tracking-[0.14em] flex items-center gap-1 cursor-pointer"
                             style={{ color: 'rgba(248,113,113,0.8)' }}
@@ -346,6 +349,7 @@ export function StrainOverview() {
                     {lang === 'de' ? 'Keine Ergebnisse' : 'No results found'}
                   </p>
                   <button
+                    type="button"
                     onClick={resetFilters}
                     className="mt-3 text-sm cursor-pointer underline text-accent"
                   >

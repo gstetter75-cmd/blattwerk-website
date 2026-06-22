@@ -20,6 +20,7 @@ export function RiskAccordion({ topics }: { readonly topics: readonly RiskTopic[
             className="rounded-xl border border-[var(--border)] bg-bg-elevated overflow-hidden"
           >
             <button
+              type="button"
               onClick={() => setOpenIndex(isOpen ? null : i)}
               className="w-full flex items-center justify-between p-5 text-left transition-colors hover:bg-bg-surface"
               aria-expanded={isOpen}

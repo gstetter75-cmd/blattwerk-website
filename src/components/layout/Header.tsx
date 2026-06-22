@@ -167,6 +167,7 @@ export function Header() {
                   >
                     {hasChildren ? (
                       <button
+                        type="button"
                         onClick={() => setOpenMenu(openMenu === item.key ? null : item.key)}
                         onKeyDown={(e) => e.key === 'Escape' && setOpenMenu(null)}
                         aria-expanded={openMenu === item.key}
@@ -213,6 +214,7 @@ export function Header() {
               <ThemeToggle />
 
               <button
+                type="button"
                 onClick={switchLocale}
                 className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-ink-faint hover:text-ink border border-[var(--border)] rounded-lg transition-colors cursor-pointer"
                 aria-label={locale === 'de' ? 'Switch to English' : 'Auf Deutsch wechseln'}
@@ -231,6 +233,7 @@ export function Header() {
 
               {/* Mobile menu button */}
               <button
+                type="button"
                 onClick={() => setMobileOpen(!mobileOpen)}
                 className="lg:hidden p-2 cursor-pointer text-ink-muted hover:text-ink transition-colors"
                 aria-label={locale === 'de' ? 'Menü' : 'Menu'}
@@ -297,6 +300,7 @@ export function Header() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <button
+                type="button"
                 onClick={switchLocale}
                 className="flex items-center justify-center gap-2 py-3 text-sm text-ink-muted hover:text-ink transition-colors cursor-pointer"
               >
