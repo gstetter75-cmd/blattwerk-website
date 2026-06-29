@@ -108,6 +108,7 @@ export function SearchDialog() {
     <>
       {/* Trigger button */}
       <button
+        type="button"
         onClick={() => setOpen(true)}
         className="flex items-center gap-2 px-3 py-1.5 text-xs text-ink-faint hover:text-ink-muted border border-[var(--border)] rounded-md transition-colors cursor-pointer"
         aria-label={isDE ? 'Suche öffnen' : 'Open search'}
@@ -149,6 +150,7 @@ export function SearchDialog() {
                   className="flex-1 bg-transparent text-sm text-ink placeholder:text-ink-faint outline-none"
                 />
                 <button
+                  type="button"
                   onClick={() => setOpen(false)}
                   className="text-ink-faint hover:text-ink transition-colors cursor-pointer"
                   aria-label={isDE ? 'Schließen' : 'Close'}
@@ -170,6 +172,7 @@ export function SearchDialog() {
                     {results.map((result, i) => (
                       <li key={`${result.type}-${result.href}`} role="option" aria-selected={i === selectedIndex}>
                         <button
+                          type="button"
                           onClick={() => navigate(result.href)}
                           onMouseEnter={() => setSelectedIndex(i)}
                           className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors cursor-pointer ${

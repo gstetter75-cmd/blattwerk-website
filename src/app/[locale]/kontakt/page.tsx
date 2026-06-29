@@ -1,8 +1,6 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { WQFPageHero } from '@/components/layout/WQFPageHero';
-import { ContactForm } from '@/components/contact/ContactForm';
 import { KontaktInfoClient } from './KontaktInfoClient';
 import { BreadcrumbSchema, FAQSchema } from '@/lib/schema';
 import { HeroImage } from '@/components/decorative/HeroImage';

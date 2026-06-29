@@ -21,7 +21,6 @@ import {
   typeConfig,
   difficultyConfig,
 } from '@/data/strains';
-import type { Strain } from '@/data/strains';
 import { StarRating } from './StarRating';
 import { allArticles } from '@/data/knowledge';
 

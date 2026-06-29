@@ -428,15 +428,15 @@ Schreib uns bei Interesse: [info@blattwerk.dev](mailto:info@blattwerk.dev)
 **Nächster Meilenstein: Oktober 2026**
 
 Anbaustart. Bis dahin arbeiten wir weiter — und halten euch hier auf dem Laufenden.`,
-    content_en: `It\'s quiet on the website — but there\'s plenty happening in the club. Here\'s an honest look at what\'s going on at BlattWerk e.V. right now.
+    content_en: `It's quiet on the website — but there's plenty happening in the club. Here's an honest look at what's going on at BlattWerk e.V. right now.
 
 **Board Meetings and Planning**
 
-The board meets regularly to coordinate preparations for the growing start. Topics include: setting up growing facilities, budget planning, strain selection, member management and legal questions. Much of this is small-scale work that\'s barely visible externally — but it lays the foundation for everything else.
+The board meets regularly to coordinate preparations for the growing start. Topics include: setting up growing facilities, budget planning, strain selection, member management and legal questions. Much of this is small-scale work that's barely visible externally — but it lays the foundation for everything else.
 
 **Growing Facilities Being Set Up**
 
-The setup of our growing facilities is underway. We\'re working step by step on lighting, ventilation and irrigation. If you\'re handy and want to help, feel free to get in touch — that kind of support is always welcome.
+The setup of our growing facilities is underway. We're working step by step on lighting, ventilation and irrigation. If you're handy and want to help, feel free to get in touch — that kind of support is always welcome.
 
 **Workshops for Members**
 
@@ -444,19 +444,19 @@ In summer 2026, we are planning the first internal workshops for members:
 
 - **Growing Basics** — What happens during the different growth phases? What matters with light, substrate and nutrients?
 - **Safer Use** — Responsible consumption, interactions, knowing your limits.
-- **Legal Update** — What\'s changed with the KCanG? What\'s relevant for members?
+- **Legal Update** — What's changed with the KCanG? What's relevant for members?
 
 Exact dates will be announced here on the blog and via the Hanf-App in good time.
 
 **Member Growth**
 
-We\'re growing. Without naming exact figures: the club has gained new members in recent weeks — people from Hildesheim and the surrounding area looking for a legal, transparent alternative to the black market. That\'s exactly what we set out to achieve.
+We're growing. Without naming exact figures: the club has gained new members in recent weeks — people from Hildesheim and the surrounding area looking for a legal, transparent alternative to the black market. That's exactly what we set out to achieve.
 
 Not yet a member? Joining is done via the Hanf-App, with a monthly fee of €10. All details on our [membership page](/mitgliedschaft).
 
 **How You Can Get Involved**
 
-BlattWerk lives through the people who participate. You don\'t have to be fully committed — small contributions count too:
+BlattWerk lives through the people who participate. You don't have to be fully committed — small contributions count too:
 
 - Help set up the growing facilities
 - Attend workshops and info events
@@ -467,7 +467,7 @@ Interested? Write to us: info@blattwerk.dev
 
 **Next Milestone: October 2026**
 
-Growing start. Until then, we keep working — and we\'ll keep you posted here.`,
+Growing start. Until then, we keep working — and we'll keep you posted here.`,
     tags: ['Vereinsleben', 'Community', 'Workshops', 'Mitgliedschaft'],
     author: 'Gero Stetter',
     category: 'vereinsnews',

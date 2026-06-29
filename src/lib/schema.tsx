@@ -3,7 +3,6 @@
  * Provides Organization, BreadcrumbList, Article, and FAQPage schemas.
  */
 
-import type { ReactNode } from 'react';
 import type { BlattWerkEvent } from '@/data/events';
 import type { Strain } from '@/data/strains/types';
 import { BASE_URL } from './config';

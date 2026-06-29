@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';

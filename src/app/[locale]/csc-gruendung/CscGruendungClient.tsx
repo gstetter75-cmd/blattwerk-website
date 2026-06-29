@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Link } from '@/i18n/navigation';
-import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, AlertTriangle, CheckCircle, Clock, FileText, Building, Scale, Sprout, Shield } from 'lucide-react';
+import { MessageCircle, Lightbulb, BookOpen, Users, ArrowRight, Mail, AlertTriangle, Clock, FileText, Building, Scale, Sprout, Shield } from 'lucide-react';
 import { HeroImage } from '@/components/decorative/HeroImage';
 import { HomeSection } from '@/components/shared/HomeSection';
 

@@ -126,7 +126,6 @@ export default async function StrainPage({ params }: PageProps) {
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-3">
             {filtered.map((s) => {
-              const sc = typeConfig[s.type];
               return (
                 <Link
                   key={s.slug}

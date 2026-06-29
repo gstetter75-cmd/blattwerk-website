@@ -93,33 +93,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
     },
   ];
 
-  const fees = [
-    {
-      label: isDE ? 'Aufnahmegebühr (einmalig)' : 'Admission fee (one-time)',
-      value: '12,00 €',
-      note: isDE
-        ? 'Deckt die Verwaltungskosten für Identitätsprüfung und Dokumentation.'
-        : 'Covers administrative costs for identity verification and documentation.',
-    },
-    {
-      label: isDE ? 'Monatlicher Mitgliedsbeitrag' : 'Monthly membership fee',
-      value: '10,00 €',
-      note: isDE
-        ? 'Finanziert Miete, Strom, Versicherung und laufende Betriebskosten des Vereins.'
-        : 'Funds rent, electricity, insurance and ongoing operating costs of the club.',
-    },
-    {
-      label: isDE
-        ? 'Cannabis-Bezug (zusätzlich zum Beitrag)'
-        : 'Cannabis purchase (in addition to fee)',
-      value: isDE
-        ? 'nach Selbstkostenpreis'
-        : 'at cost price',
-      note: isDE
-        ? 'Anbau, Energie, Material — kein Gewinnaufschlag. Der exakte Preis hängt von der Sorte und der Erntemenge ab.'
-        : 'Growing, energy, materials — no profit markup. The exact price depends on the strain and harvest quantity.',
-    },
-  ];
+
 
   const faqs = [
     {

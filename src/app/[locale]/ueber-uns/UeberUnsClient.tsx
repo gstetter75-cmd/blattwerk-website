@@ -1,6 +1,6 @@
 'use client';
 
-import { Check, Sprout, Users, Shield, BookOpen, Leaf } from 'lucide-react';
+import { Check, Users, Shield, Leaf } from 'lucide-react';
 import { HomeSection } from '@/components/shared/HomeSection';
 
 interface Props {
