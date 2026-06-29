@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ArrowLeft, ArrowRight, AlertCircle, GitCompareArrows } from 'lucide-react';
-import { strains, effectLabels, flavorLabels, typeConfig } from '@/data/strains';
+import { strains, effectLabels, typeConfig } from '@/data/strains';
 import type { Strain, EffectProfile } from '@/data/strains';
 import { StarRating } from './StarRating';
 

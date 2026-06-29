@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { ArrowLeft, X, ChevronDown, Plus } from 'lucide-react';
+import { ArrowLeft, X, Plus } from 'lucide-react';
 import {
   strains,
   effectLabels,

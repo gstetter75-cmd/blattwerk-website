@@ -7,7 +7,6 @@ import { Search, X, SlidersHorizontal, AlertCircle, GitCompareArrows, Sparkles }
 import { strains, effectLabels, thcRanges, thcRangesMap } from '@/data/strains';
 import type { Strain } from '@/data/strains';
 import { StrainCard } from './StrainCard';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
 
 type SortKey = 'name-asc' | 'thc-desc' | 'rating-desc';
 
@@ -63,7 +62,11 @@ function sortStrains(list: Strain[], sort: SortKey): Strain[] {
 
 function toggle(set: Set<string>, val: string): Set<string> {
   const n = new Set(set);
-  n.has(val) ? n.delete(val) : n.add(val);
+  if (n.has(val)) {
+    n.delete(val);
+  } else {
+    n.add(val);
+  }
   return n;
 }
 
@@ -175,6 +178,8 @@ export function StrainOverview() {
             <button
               type="button"
               onClick={() => setSidebarOpen(!sidebarOpen)}
+              aria-label={lang === 'de' ? 'Filter anzeigen' : 'Toggle filters'}
+              aria-expanded={sidebarOpen}
               className="lg:hidden flex items-center gap-2 px-3 py-2.5 text-sm transition-colors cursor-pointer border border-[var(--border)]"
               style={{
                 color: hasActiveFilters ? 'var(--accent)' : undefined,
@@ -192,6 +197,7 @@ export function StrainOverview() {
             {/* Mobile strain finder link */}
             <Link
               href="/sortendatenbank/finder"
+              aria-label={lang === 'de' ? 'Sortenfinder' : 'Strain Finder'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <Sparkles className="w-4 h-4" />
@@ -200,6 +206,7 @@ export function StrainOverview() {
             {/* Mobile compare link */}
             <Link
               href="/sortendatenbank/vergleich"
+              aria-label={lang === 'de' ? 'Sorten vergleichen' : 'Compare strains'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <GitCompareArrows className="w-4 h-4" />

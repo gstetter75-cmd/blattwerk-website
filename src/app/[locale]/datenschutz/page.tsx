@@ -1,6 +1,6 @@
 import { createMetadata, PAGE_META } from '@/lib/metadata';
 import { setRequestLocale } from 'next-intl/server';
-import { Shield, Mail, Server, Cookie, Eye, UserCheck, FileText } from 'lucide-react';
+import { Shield, Server, Cookie, Eye, UserCheck, FileText } from 'lucide-react';
 import { PageHero } from '@/components/layout/PageHero';
 import { BreadcrumbSchema } from '@/lib/schema';
 
