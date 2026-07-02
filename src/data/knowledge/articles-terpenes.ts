@@ -1847,4 +1847,182 @@ For targeted strain selection by terpene profile, you'll find the complete analy
     last_updated: '2026-06-17',
     related_slugs: ['was-sind-terpene', 'linalool-wirkung', 'entourage-effekt', 'limonen', 'caryophyllen'],
   },
+
+  // ─── VALENCEN UND GERANIOL ───────────────────────────────────────────────────
+  {
+    slug: 'valencen-geraniol',
+    category: 'terpenes',
+    title_de: 'Valencen und Geraniol: Zitrus- und Rosenterpene im Cannabis',
+    title_en: 'Valencene and Geraniol: Citrus and Rose Terpenes in Cannabis',
+    summary_de:
+      'Valencen (Zitrusnoten) und Geraniol (Rosen, Litschi) sind zwei Terpene, die bestimmten Cannabis-Sorten ihr unverwechselbares fruchtiges oder blumiges Aroma verleihen.',
+    summary_en:
+      'Valencene (citrus notes) and geraniol (roses, lychee) are two terpenes that give certain cannabis strains their distinctive fruity or floral aroma.',
+    content_de: `Cannabis riecht nach Kiefern, Zitronen, Pfeffer, Erdbeeren, Mango, Blumen – die Aromenvielfalt ist enorm. Hinter den zitrusartig-süßen und blumig-rosenartigen Noten stecken oft zwei weniger bekannte Terpene: Valencen und Geraniol.
+
+## Valencen: Die Zitrusnote aus der Südfrucht
+
+**Herkunft des Namens:** Valencen ist nach der Valencia-Orange benannt, in der es in hoher Konzentration vorkommt. Es ist das Hauptaroma der Südfrucht und gibt Orangen, Grapefruits und Mandarinen ihren charakteristischen frischen Zitrusduft.
+
+**In Cannabis:** Valencen ist eines der Sesquiterpene – also eine größere und schwerere Terpen-Klasse. Es tritt in Cannabis meist in geringeren Konzentrationen auf als Monoterpene wie Myrcen oder Limonen, kann aber trotzdem das Gesamtaromaprofil deutlich prägen. Cannabis-Sorten mit Valencen erinnern oft an frische Orange, Grapefruit oder Tangerine.
+
+**Bekannte Valencia-reiche Sorten:** Tangie, Clementine, Agent Orange, Super Lemon Haze (als Teil des Aromaprofils zusammen mit Limonen).
+
+**Mögliche Eigenschaften:**
+- **Insektenabwehrend:** Valencen findet industrielle Anwendung als natürliches Insektenschutzmittel. In der Pflanze dient es vermutlich der Schädlingsabwehr.
+- **Entzündungshemmend:** Erste präklinische Studien zeigen anti-inflammatorische Eigenschaften.
+- **Hautschützend:** Valencen zeigt in Laborstudien Aktivität als Schutz vor UV-induzierten Hautschäden.
+
+Klinische Humandaten fehlen weitgehend – diese Eigenschaften sind bislang präklinisch.
+
+**Im Profil:** Valencen verstärkt und ergänzt oft Limonen. Sorten mit beiden Terpenen haben besonders lebhafte, frische Zitrusnoten. Es kombiniert gut mit Pinen und Terpinolen für ein helles, anregendes Wirkungsprofil.
+
+## Geraniol: Rosen, Litschi und Bienenwachs
+
+**Herkunft:** Geraniol ist ein Monoterpenalkohol, das den Hauptaromastoff von Rosengeranie (Pelargonium graveolens) ausmacht. Es findet sich auch in Rosen, Litschi, Ingwer, Zitronengras und Koriander – und ist seit Jahrhunderten in der Parfümerie und Kosmetik etabliert.
+
+**In Cannabis:** Geraniol gehört zu den seltener vorkommenden Terpenen im Cannabis, ist aber in bestimmten Sorten in relevanten Konzentrationen nachweisbar. Der Geruch ist charakteristisch: süßlich-blumig, mit Nuancen von Rose, Litschi und Lavendel.
+
+**Bekannte Geraniol-reiche Sorten:** Headband, Strawberry Diesel, Lemon G, Master Kush (als Teil des Profils).
+
+**Mögliche Eigenschaften:**
+- **Antioxidativ:** Geraniol zeigt in Laborstudien starke antioxidative Wirkung – ähnlich wie Vitamin E.
+- **Neuroprotektiv:** Mehrere Studien beschreiben neuroprotektive Effekte in Tiermodellen, möglicherweise relevant für neurodegenerative Erkrankungen.
+- **Antimikrobiell und antimykotisch:** Geraniol ist ein natürlich vorkommender Wirkstoff gegen Bakterien und Pilze – in der Pflanzenwelt ein Schutzmechanismus.
+- **Anxiolytisch:** In Aromatherapie-Studien wird Geraniol (als Rosenduft) mit beruhigenden Effekten in Verbindung gebracht, ähnlich wie Linalool.
+- **Insektenabwehrend:** Wie Valencen ist auch Geraniol ein natürliches Insektenschutzmittel.
+
+**Im Profil:** Geraniol kombiniert oft mit Myrcen und Linalool für entspannende, blumige Sorten. Es verleiht Sorten, die sonst erdige oder kräuterige Noten haben, einen süßlichen, floralen Touch.
+
+## Wie man Valencen und Geraniol bei der Sortenwahl nutzt
+
+Da diese Terpene selten dominant sind, tauchen sie in der Sortendatenbank meist als sekundäre oder tertiäre Terpene auf. Aber sie können ausschlaggebend sein für das spezifische Aromaprofil, das jemanden an einer Sorte begeistert.
+
+**Wenn du Zitrus-Aromen liebst:** Suche nach Sorten mit hohem Limonen + Valencen-Anteil. Diese Kombination liefert besonders frische, spritzige Orangennoten.
+
+**Wenn du blumige, süße Aromen bevorzugst:** Suche nach Sorten mit Geraniol + Linalool + Bisabolol. Dieses Trio erzeugt blumig-kremige Aromen, die an Rosen und Kamille erinnern.`,
+    content_en: `Behind citrusy-sweet and floral-rosy notes in cannabis often lie two lesser-known terpenes: valencene and geraniol.
+
+## Valencene: The Citrus Note from Sweet Fruits
+
+Named after the Valencia orange, valencene is the main aroma compound of sweet fruits. In cannabis, it appears mainly in lower concentrations but can significantly shape the overall aroma profile. Strains with valencene recall fresh orange, grapefruit or tangerine.
+
+**Possible properties:** Insect-repellent (industrial use as natural pest repellent); anti-inflammatory (preclinical); skin-protective against UV damage.
+
+**Strains:** Tangie, Clementine, Agent Orange, Super Lemon Haze.
+
+## Geraniol: Roses, Lychee and Beeswax
+
+Geraniol is a monoterpene alcohol making up the main aromatic compound of rose geranium. Its smell is characteristically sweet-floral with rose, lychee and lavender nuances.
+
+**Possible properties:** Antioxidant (strong, similar to vitamin E); neuroprotective in animal models; antimicrobial and antifungal; anxiolytic (associated with calming effects in aromatherapy); insect-repellent.
+
+**Strains:** Headband, Strawberry Diesel, Lemon G, Master Kush.
+
+## Using Valencene and Geraniol for Strain Selection
+
+**If you love citrus aromas:** Look for strains with high limonene + valencene content for fresh, zingy orange notes.
+
+**If you prefer floral, sweet aromas:** Look for strains with geraniol + linalool + bisabolol for floral-creamy aromas recalling roses and chamomile.`,
+    tags: ['Valencen', 'Geraniol', 'Terpene', 'Zitrus', 'Blumen', 'Aroma'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['was-sind-terpene', 'limonen', 'linalool-wirkung', 'ocimen-bisabolol', 'entourage-effekt'],
+  },
+
+  // ─── TERPENE UND HITZE ───────────────────────────────────────────────────────
+  {
+    slug: 'terpene-hitze-lagerung',
+    category: 'terpenes',
+    title_de: 'Wie Hitze, Trocknung und Lagerung Terpene verändern',
+    title_en: 'How Heat, Drying and Storage Change Terpenes',
+    summary_de:
+      'Terpene sind flüchtig – sie reagieren empfindlich auf Hitze, Licht, Luft und Zeit. Wer Cannabis richtig trocknet, lagert und konsumiert, erhält das Terpenprofil besser und verbessert das Erlebnis.',
+    summary_en:
+      'Terpenes are volatile – they react sensitively to heat, light, air and time. Proper drying, storage and consumption preserves the terpene profile and improves the experience.',
+    content_de: `Das Terpenprofil, das bei der Laboranalyse einer Cannabis-Sorte gemessen wird, entspricht dem Profil der frisch geernteten Pflanze – oder sollte es zumindest. Zwischen Ernte und Konsum finden jedoch viele Prozesse statt, die Terpene verändern oder vernichten können: Trocknung, Fermentierung, Lagerung und schließlich das Erhitzen beim Konsum.
+
+## Terpene und ihre Siedepunkte
+
+Terpene sind chemisch gesehen relativ flüchtige Verbindungen – sie verdampfen bei moderaten Temperaturen. Das ist übrigens der Grund, warum sie so stark riechen: Sie „schweben" bei Raumtemperatur bereits in der Luft.
+
+**Siedepunkte wichtiger Terpene:**
+- Myrcen: 168 °C
+- Limonen: 176 °C
+- Pinen (alpha): 155 °C
+- Caryophyllen: 130 °C (sesquiterpen – verdampft bei niedrigerer Temperatur!)
+- Linalool: 198 °C
+- Terpinolen: 186 °C
+
+Diese Werte erklären, warum die Vapourisier-Temperatur das Terpenprofil beeinflusst: Wer bei 160 °C vaporisiert, erhält hauptsächlich Pinen und Caryophyllen. Wer bei 210 °C vaporisiert, bekommt das vollständige Terpenspektrum.
+
+## Trocknung: Der kritische erste Schritt nach der Ernte
+
+Frisch geerntetes Cannabis enthält 70–80 % Wassergehalt. Die Trocknung auf 10–15 % ist notwendig, aber sie ist gleichzeitig der Moment, in dem die meisten Terpene verloren gehen können.
+
+**Zu schnelle Trocknung (über 35 °C):** Monoterpene (Myrcen, Limonen, Pinen) sind besonders flüchtig und verdampfen bei zu hoher Temperatur. Die Folge: ausgetrocknetes, geruchloses Cannabis mit deutlich reduziertem Aroma.
+
+**Optimale Trocknung:** Langsam, bei 15–21 °C und 45–55 % relativer Luftfeuchtigkeit, über 7–14 Tage. Dunkler Raum mit leichter Luftzirkulation (kein direkter Luftstrom auf die Pflanzen). Je langsamer getrocknet wird, desto mehr Terpene bleiben erhalten.
+
+**Hängetrocknung vs. Rack-Trocknung:** Hängetrocknung (an der ganzen Pflanze) gilt als schonender für die Trichome und das Terpenprofil, da weniger mechanischer Stress auf die Blüten wirkt.
+
+## Fermentierung (Curing): Terpene entwickeln und stabilisieren
+
+Fermentierung (Curing) ist der Prozess, bei dem getrocknetes Cannabis in luftdichten Behältern für Wochen bis Monate aufbewahrt wird. In dieser Zeit finden langsame enzymatische und chemische Prozesse statt, die das Aromaprofil verbessern.
+
+**Was beim Curing passiert:**
+- Chlorophyll wird abgebaut → Rauch wird glatter
+- Zucker werden abgebaut → weniger hartes Brennen
+- Terpene „runden" sich durch chemische Umwandlungen
+- Bestimmte raue Noten verschwinden
+
+**Optimale Curing-Bedingungen:** Glas-Einmachgläser, 60–65 % rF (Boveda-Packs), 18–21 °C, dunkel, 4–8 Wochen (Minimum 2 Wochen). In den ersten 2 Wochen täglich „burpen" (kurz öffnen), um überschüssige Feuchtigkeit abzulassen.
+
+## Lagerung: Den langen Atem der Terpene
+
+Auch nach abgeschlossenem Curing verändern sich Terpene weiter – nur langsamer.
+
+**Licht (UV):** Der stärkste Feind. UV-Strahlung degradiert nicht nur THC zu CBN, sondern zerstört auch Terpene photochemisch. Dunkle Lagerung ist essenziell.
+
+**Sauerstoff:** Oxidation verändert Terpene und Cannabinoide. Luftdichte Behälter verlangsamen diesen Prozess erheblich.
+
+**Temperatur:** Kühl lagern (15–20 °C). Wärme beschleunigt alle chemischen Reaktionen.
+
+**Feuchtigkeit:** 59–63 % rF erhält die Frische. Zu trocken: Terpene verdampfen schneller. Zu feucht: Schimmelgefahr.
+
+**Praktische Konsequenz:** Cannabis, das korrekt im Glasgefäß mit Boveda-Pack, dunkel und kühl gelagert wird, behält sein Terpenprofil 6–12 Monate auf gutem Niveau. Danach nehmen Aromen typischerweise ab und die Wirkung kann sedierender werden (höherer CBN-Anteil).
+
+## Beim Konsum: Temperatur steuert das Terpen-Erlebnis
+
+Wer Terpene vollständig erleben möchte, sollte beim Vapourisieren mit niedrigen Temperaturen beginnen (160–180 °C) und graduell erhöhen. Die ersten Züge bei niedrigen Temperaturen liefern das vollständige Terpenspektrum – leichter, aromatischer Dampf. Höhere Temperaturen liefern mehr Cannabinoid-Extraktion, aber weniger Terpene.
+
+Beim Rauchen gehen durch die hohe Verbrennungstemperatur viele Terpene verloren. Trotzdem ist der charakteristische Geruch eines Joints oder Verdampfers ein direktes Signal der Terpene – wer intensiven Duft wahrnimmt, weiß, dass das Terpenprofil noch gut erhalten ist.`,
+    content_en: `The terpene profile measured in a cannabis lab analysis corresponds to the profile of the freshly harvested plant. But between harvest and consumption, many processes can change or destroy terpenes: drying, curing, storage and finally heating during consumption.
+
+## Terpene Boiling Points
+
+Terpenes are relatively volatile compounds – they evaporate at moderate temperatures. Key boiling points: myrcene 168 °C, limonene 176 °C, alpha-pinene 155 °C, caryophyllene 130 °C, linalool 198 °C. This explains why vaporiser temperature affects the terpene profile.
+
+## Drying: The Critical First Step After Harvest
+
+**Too fast drying (above 35 °C):** Monoterpenes (myrcene, limonene, pinene) evaporate at high temperature, leaving odourless cannabis.
+
+**Optimal drying:** Slow, at 15–21 °C and 45–55% RH, over 7–14 days. Dark room with light air circulation.
+
+## Curing: Developing and Stabilising Terpenes
+
+Curing in airtight glass jars at 60–65% RH for 4–8 weeks: chlorophyll breaks down, sugars degrade, terpenes "round out". Burp jars daily in the first 2 weeks.
+
+## Storage: Long-Term Terpene Preservation
+
+UV light destroys terpenes photochemically. Oxygen causes oxidation. Store cool (15–20 °C), dark, airtight with humidity packs at 59–63% RH. Good terpene profile maintained for 6–12 months.
+
+## Consuming: Temperature Controls the Terpene Experience
+
+Start vaporising at low temperatures (160–180 °C) for the full terpene spectrum, then gradually increase. The first draws deliver light, aromatic vapour with maximum terpene content.`,
+    tags: ['Terpene', 'Trocknung', 'Curing', 'Lagerung', 'Hitze', 'Qualität', 'Vaporizer'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['was-sind-terpene', 'entourage-effekt', 'myrcen', 'trocknung-fermentierung'],
+  },
 ];

@@ -1721,4 +1721,157 @@ Anyone wishing to use cannabis for enjoyment or to relieve complaints will find 
     last_updated: '2026-06-17',
     related_slugs: ['thc', 'vollspektrum-vs-isolat', 'kcang-ueberblick', 'endocannabinoid-system'],
   },
+
+  // ─── FLAVONOIDE ──────────────────────────────────────────────────────────────
+  {
+    slug: 'flavonoide-cannabis',
+    category: 'cannabinoids',
+    title_de: 'Flavonoide: Die vergessenen Inhaltsstoffe der Cannabispflanze',
+    title_en: 'Flavonoids: The Forgotten Components of the Cannabis Plant',
+    summary_de:
+      'Neben Cannabinoiden und Terpenen enthält Cannabis auch Flavonoide – farbgebende Pflanzenstoffe mit möglichen antioxidativen und entzündungshemmenden Eigenschaften.',
+    summary_en:
+      'In addition to cannabinoids and terpenes, cannabis contains flavonoids – plant pigments with possible antioxidant and anti-inflammatory properties.',
+    content_de: `Die Diskussion über Cannabis-Inhaltsstoffe fokussiert sich meist auf Cannabinoide und Terpene. Dabei wird eine dritte Klasse von Verbindungen oft vergessen: Flavonoide. Diese farbgebenden Pflanzenstoffe kommen in fast allen Früchten, Gemüsen und Kräutern vor – und auch in Cannabis, wo sie möglicherweise zum Gesamtwirkprofil beitragen.
+
+## Was sind Flavonoide?
+
+Flavonoide sind sekundäre Pflanzenstoffe aus der Gruppe der Polyphenole. In der Pflanzenwelt übernehmen sie verschiedene Funktionen: Schutz vor UV-Strahlung, Anziehung von Bestäubern durch Farbe, Abwehr von Fressfeinden. Für den Menschen zeigen sie in Studien antioxidative, entzündungshemmende und weitere biologische Eigenschaften.
+
+Bekannte Flavonoide aus anderen Pflanzen: Quercetin (Zwiebeln, Äpfel), Rutin (Buchweizen), Kaempferol (Brokkoli), Anthocyane (Heidelbeeren, rote Trauben).
+
+## Flavonoide in Cannabis: Was ist spezifisch?
+
+Die Cannabispflanze enthält über 20 bekannte Flavonoide, darunter allgemein vorkommende und cannabis-spezifische:
+
+**Allgemein vorkommende:**
+- **Quercetin:** Eines der am häufigsten vorkommenden Flavonoide. Starke antioxidative Eigenschaften, möglicherweise antiviraler Effekt.
+- **Kaempferol:** Anti-inflammatorisch in präklinischen Studien; kommt auch in Brokkoli, Erdbeeren und Spinat vor.
+- **Apigenin:** Findet sich auch in Kamille; möglicherweise anxiolytisch (angstlösend).
+
+**Cannabis-spezifische Flavonoide (Cannaflavine):**
+- **Cannaflavin A und B:** Diese Flavonoide sind nahezu exklusiv in Cannabis zu finden. Eine 1985 veröffentlichte Studie (Barrett et al.) zeigte, dass Cannaflavin A und B antientzündliche Eigenschaften besitzen – und das etwa 30-mal stärker als Aspirin in gleichwertigen Dosen (in vitro). Diese Entdeckung sorgte für Aufmerksamkeit, klinische Studien am Menschen fehlen jedoch bis heute.
+- **Cannaflavin C:** Erst 2019 identifiziert; mögliche biologische Aktivität wird erforscht.
+
+## Farbe und Flavonoide: Lila und rote Sorten erklärt
+
+Violette, rote oder blaue Cannabissorten – wie Purple Haze, Granddaddy Purple oder einige Outdoor-Sorten im Herbst – verdanken ihre Farbe Anthocyanen, einer Unterklasse der Flavonoide. Anthocyane sind pH-abhängige Farbstoffe: Bei niedrigem pH rot, bei mittlerem pH violett, bei hohem pH blau.
+
+Cannabissorten mit hohem Anthocyan-Gehalt entwickeln ihre lila Farbe oft bei kühlen Temperaturen (unter 15 °C nachts) am Ende der Blüte – weil die Kälte die Chlorophyll-Produktion hemmt und die Anthocyane sichtbar werden. Das ist ausschließlich ästhetisch – lila Sorten sind nicht automatisch potenter oder wirkungsvoller.
+
+## Flavonoide im Entourage-Effekt
+
+Ähnlich wie Terpene könnten Flavonoide zum Entourage-Effekt beitragen – also zum synergistischen Zusammenspiel aller Pflanzenstoffe. Für Flavonoide ist diese Evidenz noch schwächer als für Terpene: Die Forschung steckt in einem frühen Stadium.
+
+Was klar ist: Vollspektrum-Extrakte enthalten Flavonoide, Isolate nicht. Ob das einen klinisch relevanten Unterschied macht, ist noch nicht belegt.
+
+## Warum Flavonoid-Forschung so schwierig ist
+
+Flavonoide kommen in Cannabis in viel geringeren Konzentrationen vor als Cannabinoide und Terpene. Ihre Extraktion und Isolation ist aufwendig. Die Prohibition hat jahrzehntelang jede ernsthafte Forschung blockiert. Und selbst heute fehlen Fördergelder für detaillierte Flavonoid-Studien.
+
+Die Entdeckung der Cannaflavine ist ein Hinweis darauf, dass in Cannabis möglicherweise noch weitere interessante Verbindungen schlummern, die der Wissenschaft noch kaum bekannt sind.`,
+    content_en: `Discussion of cannabis compounds usually focuses on cannabinoids and terpenes. A third class of compounds is often forgotten: flavonoids. These plant pigments are found in almost all fruits, vegetables and herbs – and in cannabis, where they may contribute to the overall effect profile.
+
+## What Are Flavonoids?
+
+Flavonoids are secondary plant substances from the polyphenol group. In plants, they serve various functions: UV protection, attracting pollinators through colour, deterring herbivores. For humans, studies show antioxidant, anti-inflammatory and other biological properties.
+
+## Cannabis-Specific Flavonoids: Cannaflavins
+
+**Cannaflavin A and B** are nearly exclusive to cannabis. A 1985 study (Barrett et al.) showed that cannaflavin A and B have anti-inflammatory properties – approximately 30 times stronger than aspirin in equivalent doses (in vitro). Clinical human studies are still lacking.
+
+## Colour and Flavonoids: Purple and Red Strains Explained
+
+Violet, red or blue cannabis strains owe their colour to anthocyanins, a subclass of flavonoids. Cannabis strains with high anthocyanin content often develop their purple colour at cool temperatures (below 15 °C at night) at the end of flowering. This is purely aesthetic – purple strains are not automatically more potent.
+
+## Flavonoids in the Entourage Effect
+
+Like terpenes, flavonoids could contribute to the entourage effect. Evidence for this is still weaker than for terpenes: research is in an early stage. Full-spectrum extracts contain flavonoids; isolates do not.`,
+    tags: ['Flavonoide', 'Cannaflavin', 'Antioxidant', 'Entzündung', 'Pflanzenstoffe', 'Forschung'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['vollspektrum-vs-isolat', 'entourage-effekt', 'was-sind-terpene', 'endocannabinoid-system'],
+  },
+
+  // ─── THC/CBD-VERHÄLTNISSE ────────────────────────────────────────────────────
+  {
+    slug: 'thc-cbd-verhaeltnis',
+    category: 'cannabinoids',
+    title_de: 'THC/CBD-Verhältnis: Wie das Zusammenspiel die Wirkung bestimmt',
+    title_en: 'THC/CBD Ratio: How the Interplay Determines the Effect',
+    summary_de:
+      'Das Verhältnis von THC zu CBD ist einer der wichtigsten Faktoren für das Wirkungsprofil. Von 20:1 bis 1:20 – was bedeuten diese Verhältnisse und für wen eignen sie sich?',
+    summary_en:
+      'The ratio of THC to CBD is one of the most important factors for the effect profile. From 20:1 to 1:20 – what do these ratios mean and for whom are they suitable?',
+    content_de: `Viele Konsumenten schauen beim Kauf auf den THC-Gehalt – dabei ist das THC/CBD-Verhältnis mindestens genauso entscheidend für das Wirkungsprofil. CBD moduliert die Wirkung von THC auf vielfältige Weise, und verschiedene Verhältnisse eignen sich für unterschiedliche Zwecke und Personen.
+
+## Wie CBD die THC-Wirkung moduliert
+
+CBD und THC konkurrieren partiell um dieselben CB1-Rezeptoren, aber auf unterschiedliche Weise:
+
+**CBD schwächt THC-Nebenwirkungen ab:** CBD reduziert die Wahrscheinlichkeit von Angst und Paranoia durch THC. Es wirkt als partieller CB1-Antagonist und dämpft die überschießende CB1-Aktivierung durch THC.
+
+**CBD hat eigene anxiolytische Effekte:** CBD aktiviert unter anderem 5-HT1A-Serotonin-Rezeptoren und TRPV1-Rezeptoren – Mechanismen, die zur Stimmungsstabilisierung beitragen.
+
+**CBD verlangsamt den THC-Abbau:** CBD hemmt bestimmte Leberenzyme (CYP3A4), die THC abbauen. Das kann die Wirkungsdauer leicht verlängern.
+
+**Praktische Konsequenz:** Eine Sorte mit 15 % THC und 5 % CBD wirkt in der Regel angenehmer und weniger angstauslösend als eine mit 20 % THC und 0 % CBD – auch wenn die Intensität etwas geringer sein kann.
+
+## Gängige Verhältnisse und ihre Einsatzgebiete
+
+**Hohe THC / kaum CBD (20:1, z.B. 20 % THC / 1 % CBD):**
+Das klassische Freizeitprofil vieler moderner High-THC-Sorten. Stärkste psychoaktive Wirkung, aber auch höchstes Risiko für Angst und Paranoia – besonders bei Unerfahrenen oder in hohen Dosen.
+*Geeignet für:* Erfahrene Konsumenten mit hoher Toleranz und ohne Psychose-Risikofaktoren.
+
+**Ausgewogen hoher THC mit etwas CBD (4:1, z.B. 16 % THC / 4 % CBD):**
+Eine der beliebtesten Kombinationen. Die psychoaktive Wirkung ist deutlich spürbar, aber durch das CBD abgerundet. Weniger Angstrisiko, längere und ausgewogene Wirkung.
+*Geeignet für:* Die meisten Freizeitkonsumenten; auch für medizinische Anwendungen wie leichte Schmerztherapie.
+
+**Ausgewogenes Verhältnis (1:1, z.B. 10 % THC / 10 % CBD):**
+Das medizinisch am besten erforschte Profil (Sativex, das einzige EU-zugelassene Cannabis-Medikament, hat ein 1:1-Verhältnis). Psychoaktive Wirkung moderat, therapeutische Bandbreite breit.
+*Geeignet für:* Einsteiger; medizinische Nutzung (Schmerz, Spastik, Angst); Menschen, die weniger „high" sein wollen, aber volle Wirksamkeit suchen.
+
+**CBD-dominant mit wenig THC (1:4 oder höher, z.B. 5 % THC / 20 % CBD):**
+Kaum psychoaktiv, aber voller Entourage-Effekt. Das THC ist zu gering für starken Rausch, unterstützt aber die CBD-Wirkung.
+*Geeignet für:* Medizinische Anwendungen (Entzündung, Angst, Schlaf); Menschen, die funktionsfähig bleiben müssen; Senioren; Patienten mit Psychose-Risiko.
+
+**Reines CBD / Isolat (kein THC):**
+Kein Rausch, aber mögliche therapeutische Effekte durch CBD allein. Für Menschen, die absolut kein THC wollen (Fahrer, Arbeitsplatztests, strenge Abstinenz).
+*Geeignet für:* Therapeutische Anwendungen, Kinder (z.B. Epidiolex für Epilepsie), Patienten mit absolutem THC-Verbot.
+
+## Wie man das Verhältnis einer Sorte ermittelt
+
+In Cannabis Social Clubs wie BlattWerk e.V. wird jede Sorte laboranalysiert. Der Analysebericht zeigt THCa, THC, CBDa und CBD separat. Das Gesamtverhältnis berechnet sich nach Decarboxylierung (Umrechnung von THCa zu THC mit Faktor 0,877).
+
+**Beispiel:** Sorte X zeigt: THCa 18 %, THC 0,5 %, CBDa 4 %, CBD 0,2 %
+- Gesamt-THC nach Decarb: 18 × 0,877 + 0,5 = 16,3 %
+- Gesamt-CBD nach Decarb: 4 × 0,877 + 0,2 = 3,7 %
+- Verhältnis: 16,3 : 3,7 ≈ **4,4 : 1**
+
+Dieses Verhältnis gibt dir eine viel bessere Orientierung als der THC-Wert allein.`,
+    content_en: `Many consumers look at THC content when purchasing – yet the THC/CBD ratio is at least as decisive for the effect profile. CBD modulates THC's effects in multiple ways, and different ratios suit different purposes and people.
+
+## How CBD Modulates THC Effects
+
+CBD partially competes with THC at CB1 receptors: it reduces anxiety and paranoia risk, has its own anxiolytic effects through 5-HT1A receptors, and slightly slows THC breakdown. Practically: a strain with 15% THC and 5% CBD typically feels more pleasant and less anxiety-inducing than one with 20% THC and 0% CBD.
+
+## Common Ratios and Their Applications
+
+- **20:1 (high THC / almost no CBD):** Strongest psychoactive effect; highest anxiety risk. For experienced users with high tolerance.
+- **4:1 (high THC with some CBD):** Rounded, balanced effect. Suitable for most recreational users.
+- **1:1 (balanced):** The best-researched medical profile (Sativex). Moderate psychoactivity, broad therapeutic range. Good for beginners and medical use.
+- **1:4 (CBD-dominant):** Barely psychoactive; full entourage effect. Medical applications, seniors, patients with psychosis risk.
+- **Pure CBD:** No high; therapeutic use, children (Epidiolex for epilepsy), those with absolute THC restrictions.
+
+## Calculating the Ratio from Lab Reports
+
+Total THC after decarb = THCa × 0.877 + THC
+Total CBD after decarb = CBDa × 0.877 + CBD
+
+Divide to get the ratio. This gives far better orientation than THC content alone.`,
+    tags: ['THC', 'CBD', 'Verhältnis', 'Wirkung', 'Dosierung', 'Medizin'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['thc', 'cbd', 'vollspektrum-vs-isolat', 'thca-decarboxylierung', 'endocannabinoid-system'],
+  },
 ];

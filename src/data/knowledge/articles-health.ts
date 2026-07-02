@@ -1744,4 +1744,205 @@ Cannabis can be a sensible complement to existing therapy for older adults – b
     last_updated: '2026-06-17',
     related_slugs: ['dosierung-einsteiger', 'safer-use-regeln', 'konsumformen-risiken', 'cannabis-und-schlaf'],
   },
+
+  // ─── VAPORIZER-GUIDE ─────────────────────────────────────────────────────────
+  {
+    slug: 'vaporizer-guide',
+    category: 'health',
+    title_de: 'Vapourisieren: Der vollständige Guide zu Typen, Temperaturen und Technik',
+    title_en: 'Vaporising: The Complete Guide to Types, Temperatures and Technique',
+    summary_de:
+      'Vapourisieren gilt als gesündere Alternative zum Rauchen – aber nicht alle Geräte sind gleich. Welche Vaporizer-Typen gibt es, welche Temperaturen sind ideal und was sollte man bei der Technik beachten?',
+    summary_en:
+      'Vaporising is considered a healthier alternative to smoking – but not all devices are equal. What types of vaporisers are there, which temperatures are ideal, and what should you watch for in technique?',
+    content_de: `Vapourisieren erhitzt Cannabis auf eine Temperatur, bei der die Cannabinoide und Terpene verdampfen – aber kein Verbrennungsprozess stattfindet. Das vermeidet einen Großteil der schädlichen Verbrennungsprodukte (Teer, Benzol, Kohlenmonoxid), die beim Rauchen entstehen.
+
+## Warum Vapourisieren gesünder ist
+
+Beim Rauchen verbrennt Cannabis bei Temperaturen über 800 °C. Dabei entstehen Hunderte von Verbrennungsprodukten, darunter polyzyklische aromatische Kohlenwasserstoffe (PAK), Benzol und Kohlenmonoxid. Viele dieser Substanzen sind krebserregend oder lungenschädigend.
+
+Beim Vapourisieren werden Temperaturen von 160–230 °C genutzt – heiß genug, um Cannabinoide und Terpene zu verdampfen, aber zu niedrig für vollständige Verbrennung. Eine 2007 veröffentlichte Studie (Abrams et al., Clinical Pharmacology & Therapeutics) zeigte, dass Vapourisieren zwar ähnliche Cannabinoid-Mengen liefert wie Rauchen, aber deutlich weniger Kohlenmonoxid und andere Schadstoffe erzeugt.
+
+**Kein Nullrisiko:** Auch Vapourisieren ist nicht vollständig risikofrei. Zu hohe Temperaturen können Terpene und Cannabinoide in schädliche Nebenprodukte zersetzen. Schlechte Geräte mit minderwertigen Materialien können giftige Dämpfe abgeben.
+
+## Vaporizer-Typen im Überblick
+
+**Desktop-Vaporizer (stationär):**
+Geräte für zuhause, die an die Steckdose angeschlossen werden. Präziseste Temperaturkontrolle, gleichmäßigste Dampfqualität. Bekannteste Modelle: Storz & Bickel Volcano (Ballon-System), Arizer Extreme Q.
+
+Vorteile: Beste Leistung, langlebig, präzise Temperatur, Ballon-System für geteilten Konsum.
+Nachteile: Nicht mobil, hoher Preis (150–800 €), braucht Strom.
+
+**Portable Vaporizer (mobil):**
+Akku-betriebene Geräte für unterwegs. Breites Angebot von einfach bis High-End. Bekannteste: Storz & Bickel Mighty/Crafty+, Arizer Solo, PAX 3, Davinci IQ2.
+
+Vorteile: Mobil, diskreter als Rauchen, gute Leistung bei Markengeräten.
+Nachteile: Akkus müssen geladen werden; günstigere Modelle oft unpräzise; Preisrange 50–400 €.
+
+**Vape-Pens (Stift-förmig):**
+Sehr kleine, günstige Geräte meist für Wachs, Konzentrate oder vorbereitete Kartuschen. Für Blüten weniger geeignet.
+
+Vorteile: Klein, günstig, einfach.
+Nachteile: Schlechte Temperaturkontrolle, begrenzte Leistung, oft minderwertige Materialien.
+
+## Temperaturen und ihre Wirkung
+
+Die Temperatur beim Vapourisieren beeinflusst, welche Verbindungen verdampft werden – und damit das Wirkungsprofil erheblich.
+
+**160–180 °C (niedrig):**
+Vorrangig leichte Terpene (Limonen, Pinen) verdampfen. Klarer, fokussierter Effekt. Weniger THC-Ausbeute. Ideal für: Einsteiger, tagsüber, soziale Situationen.
+
+**185–200 °C (mittel):**
+Optimaler Bereich für die meisten Cannabinoide und Terpene. THC vollständig verfügbar, schwere Terpene (Myrcen, Caryophyllen) verdampfen. Ausgewogenes Wirkungsprofil. Empfehlung für die meisten Konsumenten.
+
+**210–230 °C (hoch):**
+Maximale Wirkstoffausbeute, aber auch Beginn leichter Verbrennungsnebenprodukte. Schwerere, sedierendere Wirkung durch CBN-Entstehung. Ideal für: Abend, Schlaf, schwere Schmerzen.
+
+**Über 230 °C:** Nicht empfohlen – zunehmend schädliche Verbrennungsprodukte, kaum Mehrwert.
+
+## Technik: So vapourisiert man richtig
+
+**Mahlen:** Cannabis gleichmäßig fein (nicht zu fein) mahlen. Ein Grinder mit mittlerer Körnung ist ideal. Zu fein gemahlenes Cannabis verstopft das Gerät.
+
+**Menge:** Kammer nicht überfüllen – 0,1–0,3 g sind oft genug für eine Session. Locker befüllen, nicht pressen.
+
+**Aufheizen:** Gerät vollständig aufheizen lassen, bevor gezogen wird. Ziehen während der Aufheizphase liefert unvollständigen Dampf.
+
+**Zugstärke:** Langsam und gleichmäßig ziehen – nicht wie beim Rauchen kräftig, sondern konstant und tief.
+
+**Gerät reinigen:** Nach jeder Session kurz ausklopfen. Regelmäßige Reinigung (Isopropanol) verbessert Dampfqualität erheblich.
+
+## AVB: Already Vaped Bud
+
+Das nach dem Vapourisieren verbleibende Material (AVB oder AVB – „Already Vaped Bud") ist nicht wertlos. Es enthält noch restliche Cannabinoide (decarboxyliertes THC, CBN) und kann für Edibles weiterverwendet werden – ohne erneutes Erhitzen.`,
+    content_en: `Vaporising heats cannabis to a temperature where cannabinoids and terpenes evaporate – without combustion occurring. This avoids most of the harmful combustion products (tar, benzene, carbon monoxide) produced by smoking.
+
+## Vaporiser Types
+
+**Desktop vaporisers:** Stationary devices for home use; most precise temperature control. Examples: Storz & Bickel Volcano, Arizer Extreme Q.
+
+**Portable vaporisers:** Battery-powered devices for use on the go. Examples: Storz & Bickel Mighty/Crafty+, Arizer Solo, PAX 3. Price range €50–400.
+
+**Vape pens:** Very small, typically for concentrates or cartridges; poor temperature control.
+
+## Temperatures and Their Effects
+
+- **160–180 °C:** Light terpenes (limonene, pinene). Clear, focused effect. Ideal for beginners and daytime use.
+- **185–200 °C:** Optimal range for most cannabinoids and terpenes. Balanced effect profile. Recommended for most users.
+- **210–230 °C:** Maximum active compound yield; heavier, more sedating effect. Ideal for evening/sleep.
+- **Above 230 °C:** Not recommended – increasingly harmful combustion by-products.
+
+## Technique
+
+Grind evenly (not too fine); don't overfill the chamber; let device heat up fully before drawing; draw slowly and steadily; clean regularly with isopropanol.`,
+    tags: ['Vaporizer', 'Vapourisieren', 'Konsumform', 'Temperatur', 'Gesundheit', 'Safer Use'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['konsumformen-risiken', 'safer-use-regeln', 'dosierung-einsteiger', 'cannabis-vs-alkohol-nikotin'],
+  },
+
+  // ─── WIRKUNGSDAUER ───────────────────────────────────────────────────────────
+  {
+    slug: 'wirkungsdauer-konsumformen',
+    category: 'health',
+    title_de: 'Wie lange wirkt Cannabis? Wirkungsdauer nach Konsumform',
+    title_en: 'How Long Does Cannabis Work? Duration by Consumption Method',
+    summary_de:
+      'Ein Joint wirkt anders als ein Edible – nicht nur stärker oder schwächer, sondern auch deutlich unterschiedlich lang. Warum das so ist, und was das für die Dosierung bedeutet.',
+    summary_en:
+      'A joint works differently from an edible – not just stronger or weaker, but also considerably different in duration. Why this is the case, and what it means for dosing.',
+    content_de: `Einer der häufigsten Gründe für unbeabsichtigte Überdosierungen ist ein Missverständnis der Wirkungsdauer. „Ich habe nichts gespürt, also habe ich mehr genommen" – und dann setzen beide Portionen gleichzeitig ein. Das passiert fast ausschließlich bei Edibles, weil deren Wirkung so viel verzögerter einsetzt als bei Inhalation.
+
+## Inhalation (Rauchen, Vapourisieren)
+
+**Wirkungseintritt:** 2–10 Minuten nach dem Konsum
+**Peak:** 20–40 Minuten
+**Gesamtdauer:** 2–4 Stunden (je nach Potenz und Toleranz)
+
+Bei der Inhalation gelangt THC direkt über die Lunge ins Blut und von dort fast unmittelbar ins Gehirn. Das ist der Grund für die schnelle Wirkung. Der schnelle Eintritt ermöglicht auch das sogenannte „Titrieren": Man konsumiert wenig, wartet kurz, bemerkt die Wirkung und entscheidet, ob mehr nötig ist.
+
+**Vapourisieren vs. Rauchen:** Die Wirkungsdauer ist ähnlich. Der Wirkungseintritt beim Vapourisieren kann marginal schneller oder langsamer sein, abhängig von der Temperatur und dem Gerät.
+
+## Orale Einnahme (Edibles, Öle, Kapseln)
+
+**Wirkungseintritt:** 30 Minuten bis 2 Stunden (im Durchschnitt 45–90 Minuten)
+**Peak:** 2–4 Stunden nach Einnahme
+**Gesamtdauer:** 4–8 Stunden, bei höherer Dosis bis zu 12 Stunden
+
+Der große Unterschied: THC wird beim oralen Konsum im Darm resorbiert und in der Leber zu 11-Hydroxy-THC umgewandelt. Dieses Metabolit überquert die Blut-Hirn-Schranke effektiver als THC selbst und erzeugt eine stärkere, längere Wirkung.
+
+**Einflussfaktoren auf den Wirkungseintritt:**
+- **Nüchternheit:** Auf nüchternen Magen wirkt es schneller (30–60 Min.), nach einer fettreichen Mahlzeit kann es 2+ Stunden dauern, da THC lipophil (fettlöslich) ist und mit dem Nahrungsfett aufgenommen wird.
+- **Individuelle Verdauungsgeschwindigkeit:** Variiert stark zwischen Personen.
+- **Qualität des Produkts:** Industriell hergestellte Edibles mit standardisierten Dosen (z.B. 10 mg THC) sind zuverlässiger als selbst hergestellte.
+
+**Goldene Regel für Edibles:** Warte mindestens 2 Stunden, bevor du mehr nimmst. Auch wenn du nichts spürst.
+
+## Sublinguale Einnahme (Öl unter die Zunge)
+
+**Wirkungseintritt:** 15–45 Minuten
+**Gesamtdauer:** 2–6 Stunden
+
+Wenn Cannabisöl oder Tinktur unter die Zunge gehalten wird (sublingual), wird ein Teil des THC direkt über die Mundschleimhaut ins Blut aufgenommen – ohne den Umweg über die Leber. Das erklärt den schnelleren Eintritt im Vergleich zu Edibles.
+
+Ein anderer Teil wird geschluckt und dann wie ein Edible verdaut – was zu einem zweiphasigen Wirkungsprofil führen kann.
+
+## Topische Anwendung (Salben, Cremes)
+
+**Wirkungseintritt:** 30–60 Minuten lokal
+**Systemische Wirkung:** Kaum bis keine (bei normalen topischen Produkten)
+**Dauer:** 2–6 Stunden lokal
+
+Topisch angewendetes Cannabis (CBD oder THC in Cremes) wirkt hauptsächlich lokal über Cannabinoidrezeptoren in der Haut und darunter liegendem Gewebe. Es dringt in der Regel nicht tief genug ins Blut ein, um systemische (psychoaktive) Wirkung zu erzeugen. Ausnahme: transdermale Pflaster mit speziellen Penetrationsverbesserern.
+
+## Zusammenfassung: Schnelle Orientierungstabelle
+
+| Konsumform | Eintritt | Peak | Gesamtdauer |
+|---|---|---|---|
+| Rauchen | 2–10 Min | 20–40 Min | 2–4 Std |
+| Vapourisieren | 5–15 Min | 20–45 Min | 2–4 Std |
+| Edible (nüchtern) | 30–60 Min | 90–180 Min | 4–8 Std |
+| Edible (nach Mahlzeit) | 60–120 Min | 2–4 Std | 6–12 Std |
+| Sublingual | 15–45 Min | 60–120 Min | 2–6 Std |
+| Topisch | 30–60 Min (lokal) | – | 2–6 Std (lokal) |
+
+## Einfluss von Toleranz auf die Wirkungsdauer
+
+Regelmäßige Konsumenten entwickeln Toleranz gegenüber THC. Das bedeutet nicht nur, dass die Intensität der Wirkung abnimmt, sondern auch, dass die Wirkungsdauer tendenziell kürzer wird. Toleranzpausen (auch „T-Break" genannt) von 1–4 Wochen können die Empfindlichkeit weitgehend wiederherstellen.`,
+    content_en: `One of the most common reasons for unintentional overdoses is a misunderstanding of duration of action. "I didn't feel anything, so I took more" – and then both doses kick in simultaneously. This happens almost exclusively with edibles.
+
+## Inhalation (Smoking, Vaporising)
+
+Onset: 2–10 minutes | Peak: 20–40 minutes | Duration: 2–4 hours
+
+THC reaches the brain almost immediately via the lungs. Fast onset enables "titrating" – consume a little, wait briefly, assess, decide if more is needed.
+
+## Oral Intake (Edibles, Oils, Capsules)
+
+Onset: 30 min–2 hours | Peak: 2–4 hours after intake | Duration: 4–8 hours (up to 12 hours)
+
+THC is converted in the liver to 11-hydroxy-THC, which crosses the blood-brain barrier more effectively. On an empty stomach: faster (30–60 min); after a fatty meal: 2+ hours.
+
+**Golden rule for edibles: Wait at least 2 hours before taking more. Even if you feel nothing.**
+
+## Sublingual (Oil Under the Tongue)
+
+Onset: 15–45 minutes | Duration: 2–6 hours
+
+Part of the THC is absorbed directly through the oral mucosa, part is swallowed and digested like an edible – potentially creating a biphasic effect profile.
+
+## Quick Reference Table
+
+| Method | Onset | Peak | Duration |
+|---|---|---|---|
+| Smoking | 2–10 min | 20–40 min | 2–4 hrs |
+| Vaporising | 5–15 min | 20–45 min | 2–4 hrs |
+| Edible (empty stomach) | 30–60 min | 90–180 min | 4–8 hrs |
+| Edible (after meal) | 60–120 min | 2–4 hrs | 6–12 hrs |
+| Sublingual | 15–45 min | 60–120 min | 2–6 hrs |`,
+    tags: ['Wirkungsdauer', 'Edibles', 'Konsumform', 'Dosierung', 'Inhalation', 'Safer Use'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['konsumformen-risiken', 'dosierung-einsteiger', 'vaporizer-guide', 'safer-use-regeln'],
+  },
 ];

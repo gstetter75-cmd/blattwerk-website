@@ -2025,4 +2025,157 @@ If cannabis below the legal limit is confiscated, you can request its return –
     last_updated: '2026-06-17',
     related_slugs: ['kcang-ueberblick', 'besitzmengen-konsumzonen', 'cannabis-strassenverkehr', 'fuehrerschein-cannabis'],
   },
+
+  // ─── AMNESTIE FÜR ALTFÄLLE ───────────────────────────────────────────────────
+  {
+    slug: 'cannabis-amnestie-altfaelle',
+    category: 'legal',
+    title_de: 'Amnestie durch das KCanG: Was passiert mit alten Cannabis-Verurteilungen?',
+    title_en: 'Amnesty Under the KCanG: What Happens to Old Cannabis Convictions?',
+    summary_de:
+      'Das KCanG sieht eine rückwirkende Amnestie für bestimmte Cannabis-Verurteilungen vor. Wer profitiert davon, welche Verfahren wurden eingestellt – und was bedeutet das in der Praxis?',
+    summary_en:
+      'The KCanG provides for retroactive amnesty for certain cannabis convictions. Who benefits, which proceedings were discontinued – and what does this mean in practice?',
+    content_de: `Ein historisch einzigartiger Aspekt des Konsumcannabisgesetzes ist die rückwirkende Amnestie: Handlungen, die nach altem Recht strafbar waren und nach dem KCanG legal sind, werden neu bewertet. Das betrifft Zehntausende Menschen in Deutschland.
+
+## Was regelt die Amnestie?
+
+§ 37 KCanG regelt die Übergangsvorschriften und die rückwirkende Wirkung des Gesetzes. Grundprinzip: Wer für eine Tat verurteilt wurde, die nach dem neuen Recht nicht mehr strafbar ist, hat Anspruch auf Überprüfung seiner Verurteilung.
+
+**Konkret:** Wer z.B. wegen Besitzes von bis zu 25 Gramm Cannabis verurteilt wurde und dessen Strafe noch nicht vollständig vollstreckt ist, kann unter bestimmten Umständen eine Einstellung oder Strafmilderung beantragen.
+
+**Eingestellte Verfahren:** Laufende Strafverfahren wegen Taten, die nach dem KCanG legal sind, wurden automatisch eingestellt. Das betraf Schätzungen zufolge über 100.000 anhängige Verfahren in Deutschland.
+
+## Wer profitiert konkret?
+
+**Freiheitsstrafen wegen reiner Besitzdelikte:** Wer noch eine Freiheitsstrafe verbüßt oder bewährt ist ausschließlich wegen Besitz von Mengen, die nach dem KCanG legal wären (max. 25g in der Öffentlichkeit), kann bei Gericht einen Antrag auf Wiederaufnahme stellen.
+
+**Geldstrafen:** Bezahlte Geldstrafen werden nicht erstattet – die Amnestie wirkt nicht auf bereits vollständig vollstreckte Strafen zurück.
+
+**Einträge im Führungszeugnis:** Auch bereits getilgte oder tilgungsreife Einträge können Gegenstand eines Überprüfungsantrags sein.
+
+**Fahrverbote:** Fahrverbote ausschließlich wegen Cannabis-Besitzdelikten können ebenfalls überprüft werden.
+
+## Was wurde nicht amnestiert?
+
+Die Amnestie gilt nur für Handlungen, die nach dem KCanG vollständig legal sind. Nicht amnestiert werden:
+
+- Besitz über den neuen Grenzmengegn (mehr als 25g öffentlich, mehr als 50g privat)
+- Handel und Weitergabe (bleibt strafbar)
+- Anbau über die erlaubten Grenzen hinaus
+- Fahren unter Einfluss (weiterhin strafbar)
+- Taten gegenüber Minderjährigen
+
+## Praktische Schritte für Betroffene
+
+**Schritt 1:** Prüfen, ob die damalige Tat nach dem KCanG legal wäre. Dazu die Urteilsunterlagen anschauen: Welche genaue Menge? Welches Delikt genau?
+
+**Schritt 2:** Bei noch nicht vollständig vollstreckter Strafe: Antrag auf Wiederaufnahme oder Strafaussetzung beim zuständigen Gericht stellen.
+
+**Schritt 3:** Anwaltliche Beratung einholen – idealerweise bei einer Kanzlei mit Schwerpunkt Betäubungsmittelrecht oder KCanG. Viele Kanzleien haben nach dem KCanG-Inkrafttreten spezielle Beratungsangebote eingerichtet.
+
+**Informationsquellen:** Die Bundesrechtsanwaltskammer, der Deutsche Anwaltverein und spezialisierte Organisationen wie der Verband Cannabis Social Clubs (CSCD) informieren über die Amnestie-Optionen.
+
+## Gesellschaftliche Bedeutung
+
+Die Amnestie-Regelung des KCanG ist ein wichtiges Signal: Wer für Handlungen bestraft wurde, die nun legal sind, soll nicht dauerhaft stigmatisiert bleiben. In den USA ist die Diskussion über Cannabis-Amnestie besonders intensiv, da dort Hunderttausende – unverhältnismäßig viele People of Color – wegen Cannabis inhaftiert wurden. Das KCanG geht in Deutschland einen ersten Schritt in diese Richtung.`,
+    content_en: `A historically unique aspect of the Cannabis Consumption Act is its retroactive amnesty: actions that were criminal under old law and are legal under the KCanG are being reassessed. This affects tens of thousands of people in Germany.
+
+## What Does the Amnesty Cover?
+
+§ 37 KCanG regulates the transitional provisions. Core principle: anyone convicted of an act that is no longer criminal under the new law has the right to have their conviction reviewed.
+
+Running criminal proceedings for acts that are legal under the KCanG were automatically discontinued – affecting an estimated 100,000+ pending cases.
+
+**Who benefits:** Those still serving prison sentences purely for possession offences in amounts that would now be legal; those with fines or probation for such offences; those with entries in the police register.
+
+## What Was Not Amnestied?
+
+The amnesty only covers acts that are fully legal under the KCanG. Not amnestied: possession above new limits; dealing and distribution; cultivation beyond permitted limits; driving under influence; offences against minors.
+
+## Practical Steps for Those Affected
+
+1. Check whether the act would be legal under the KCanG by reviewing conviction documents
+2. If sentence is not yet fully served: apply for review or suspension at the competent court
+3. Seek legal advice from a firm specialising in narcotics law or KCanG`,
+    tags: ['Amnestie', 'Altfälle', 'KCanG', 'Verurteilung', 'Recht', 'Übergangsrecht'],
+    reading_time: 7,
+    last_updated: '2026-06-17',
+    related_slugs: ['kcang-ueberblick', 'eigenanbau-regeln', 'besitzmengen-konsumzonen', 'polizeikontrolle-rechte'],
+  },
+
+  // ─── NIEDERSACHSEN BESONDERHEITEN ────────────────────────────────────────────
+  {
+    slug: 'niedersachsen-kcang-umsetzung',
+    category: 'legal',
+    title_de: 'Niedersachsen und das KCanG: Was lokal gilt',
+    title_en: 'Lower Saxony and the KCanG: What Applies Locally',
+    summary_de:
+      'Das KCanG ist Bundesgesetz – aber die Bundesländer haben Spielraum bei der Umsetzung. Was gilt speziell in Niedersachsen für Cannabiskonsumenten und Anbauvereinigungen wie BlattWerk e.V.?',
+    summary_en:
+      'The KCanG is federal law – but federal states have discretion in implementation. What applies specifically in Lower Saxony for cannabis consumers and cultivation associations like BlattWerk e.V.?',
+    content_de: `Das Konsumcannabisgesetz ist zwar ein Bundesgesetz, das einheitlich gilt – aber die Bundesländer haben bei bestimmten Aspekten Ermessensspielraum: bei der konkreten Aufsicht über Anbauvereinigungen, bei der Auswahl der zuständigen Behörden und bei einzelnen Vollzugsfragen. Für Mitglieder von BlattWerk e.V. in Hildesheim ist es wichtig zu wissen, wie Niedersachsen das KCanG umsetzt.
+
+## Zuständige Behörde in Niedersachsen
+
+In Niedersachsen ist die Erteilung von Genehmigungen für Anbauvereinigungen den **Kommunen** (Landkreisen und kreisfreien Städten) übertragen worden. Für Hildesheim ist der **Landkreis Hildesheim** zuständige Genehmigungsbehörde. Die zuständige Fachbehörde ist das Gesundheitsamt.
+
+Das bedeutet: Anders als in einigen anderen Bundesländern, wo Landesbehörden zuständig sind, findet in Niedersachsen der Kontakt zwischen Anbauvereinigung und Genehmigungsbehörde auf kommunaler Ebene statt. Das kann die Kommunikation vereinfachen, führt aber auch zu Unterschieden zwischen verschiedenen Kommunen im Land.
+
+## Schutzzonregelungen in Niedersachsen
+
+Das KCanG definiert Konsumverbote in Schutzzonnen (§ 5). Niedersachsen hat diese Regelungen grundsätzlich übernommen:
+
+**Verbotene Konsumzonen:**
+- In Schulen, Kindertagesstätten und zugehörigen Außenbereichen
+- Auf Spielplätzen
+- In Fußgängerzonen zwischen 7:00 und 20:00 Uhr
+- In einem Umkreis von 100 Metern um die oben genannten Einrichtungen
+
+**Besonderheit Hildesheim:** Die Hildesheimer Innenstadt hat mehrere Fußgängerzonen. In diesen gilt das Konsumverbot während der genannten Zeiten. Die genaue Abgrenzung der Fußgängerzonen ist bei der Stadt Hildesheim zu erfragen.
+
+## Vollzug: Wie streng geht Niedersachsen vor?
+
+Niedersachsen gilt im Bundesvergleich als eher pragmatisch bei der Umsetzung des KCanG. Die Landesregierung hat signalisiert, den Vollzug sachgerecht, aber nicht überrestriktiv zu gestalten. Polizeiliche Kontrollen sind nicht systematisch auf Cannabis-Besitz ausgerichtet, solange die gesetzlichen Mengen eingehalten werden.
+
+Dennoch gilt: Das Gesetz ist das Gesetz. Wer die Grenzen überschreitet – auch wenn er glaubt, es sei in Niedersachsen milder – riskiert Strafverfolgung.
+
+## Anbauvereinigungen in Niedersachsen: Lizenzpraxis
+
+BlattWerk e.V. hat als eine der ersten Anbauvereinigungen in Niedersachsen eine Genehmigung erhalten (18. März 2026). Die Erfahrungen aus diesem Genehmigungsprozess zeigen:
+
+- Der Landkreis Hildesheim hat das Verfahren professionell und kooperativ durchgeführt
+- Die Anforderungen an das Suchtpräventionskonzept wurden ernst genommen
+- Bauliche und sicherheitstechnische Anforderungen an die Anbauräume wurden detailliert geprüft
+- Der gesamte Genehmigungsprozess dauerte von Antragstellung bis Erteilung mehrere Monate
+
+## Wichtige Kontakte in Niedersachsen
+
+**Genehmigungsbehörde Hildesheim:**
+Landkreis Hildesheim, Gesundheitsamt
+Bischof-Janssen-Str. 31, 31134 Hildesheim
+
+**Suchtberatung Niedersachsen:**
+Das Land Niedersachsen fördert ein Netz an Suchtberatungsstellen. Die Fachstelle Sucht Niedersachsen (www.fss-nds.de) vermittelt lokale Angebote.
+
+**Niedersächsische Landesbehörde für Soziales, Jugend und Familie:**
+Zuständig für übergeordnete Fragen der KCanG-Umsetzung auf Landesebene.`,
+    content_en: `The KCanG is federal law – but federal states have discretion in certain aspects: the specific supervision of cultivation associations, the selection of competent authorities, and individual enforcement questions.
+
+## Competent Authority in Lower Saxony
+
+In Lower Saxony, the granting of permits for cultivation associations has been delegated to **municipalities** (districts and independent cities). For Hildesheim, the **District of Hildesheim** is the competent licensing authority, with the health department as the specialised body.
+
+## Protection Zones in Lower Saxony
+
+Lower Saxony has adopted the KCanG protection zone regulations (§ 5): consumption is prohibited in schools, daycare centres, playgrounds, pedestrian zones (7am–8pm), and within 100 metres of these facilities.
+
+## Cultivation Associations in Lower Saxony
+
+BlattWerk e.V. received its permit on 18 March 2026 as one of the first cultivation associations in Lower Saxony. The process was conducted professionally and cooperatively by the District of Hildesheim, with thorough examination of the addiction prevention concept and construction/security requirements.`,
+    tags: ['Niedersachsen', 'Hildesheim', 'KCanG', 'Behörden', 'Lokal', 'Umsetzung'],
+    reading_time: 6,
+    last_updated: '2026-06-17',
+    related_slugs: ['kcang-ueberblick', 'anbauvereinigungen-kcang', 'besitzmengen-konsumzonen', 'cannabis-social-clubs'],
+  },
 ];

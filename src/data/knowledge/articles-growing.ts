@@ -2420,4 +2420,206 @@ For larger setups, grow controllers that continuously measure temperature, RH an
     last_updated: '2026-06-17',
     related_slugs: ['indoor-anbau-grundlagen', 'schaedlinge-krankheiten', 'beleuchtung-led-guide', 'naehrstoffe-duengung'],
   },
+
+  // ─── PFLANZENERZIEHUNG ───────────────────────────────────────────────────────
+  {
+    slug: 'pflanzenerziehung-sog-lst',
+    category: 'growing',
+    title_de: 'Pflanzenerziehung: SOG, LST, Topping und FIM für mehr Ertrag',
+    title_en: 'Plant Training: SOG, LST, Topping and FIM for Higher Yields',
+    summary_de:
+      'Durch Pflanzenerziehungsmethoden wie SOG, LST, Topping und FIM lässt sich der Ertrag pro Quadratmeter deutlich steigern. Eine Übersicht der wichtigsten Techniken mit Vor- und Nachteilen.',
+    summary_en:
+      'Plant training methods such as SOG, LST, topping and FIM can significantly increase yield per square metre. An overview of the most important techniques with pros and cons.',
+    content_de: `Unbehandelte Cannabispflanzen wachsen natürlich als Weihnachtsbaum-Form: ein dominanter Haupttrieb mit vielen kleinen Seitentrieben. Das Ergebnis: Ein großes, dichtes Köpfchen oben – und viele kleine, lichtarme Blüten unten. Pflanzenerziehungsmethoden brechen diese natürliche Struktur auf und sorgen dafür, dass alle Triebe ähnlich viel Licht bekommen.
+
+## Low Stress Training (LST): Sanftes Biegen
+
+LST ist die einsteigerfreundlichste Methode. Dabei werden die Triebe mit Drähten, Kabelbindern oder Klammern vorsichtig in die horizontale gebogen – ohne Schnitte.
+
+**Prinzip:** Wenn der Haupttrieb horizontal gebogen wird, wachsen die seitlichen Triebe nach oben, da jede Wachstumsspitze versucht, Licht zu erreichen. Das Ergebnis ist eine breitere, flachere Pflanzenkrone mit mehreren gleichwertigen Haupttrieben.
+
+**Vorteil:** Kein Stress durch Schnitte, kaum Heilungszeit, für Autoflowering geeignet (da die wenige Entwicklungszeit nicht durch Verletzungsstress verschwendet wird).
+
+**Nachteil:** Regelmäßige Anpassungen nötig während des Wachstums; weniger drastische Ertragssteigerung als invasivere Methoden.
+
+## Topping: Spitze abschneiden
+
+Beim Topping wird der Haupttrieb über dem zweiten oder dritten Nodium (Blattansatz) abgeschnitten. Das Ergebnis: Aus einem Trieb werden zwei, die beide nach oben wachsen und als neue Haupttriebe fungieren.
+
+**Vorteil:** Aus einer Pflanze mit einem Haupttrieb wird eine mit zwei – und durch wiederholtes Topping auch vier oder mehr.
+
+**Nachteil:** Die Pflanze braucht 3–7 Tage Erholungszeit nach dem Schnitt. Für Autoflowering **nicht empfohlen**, da der Zeitverlust den Ertragsgewinn oft nicht kompensiert.
+
+**Idealer Zeitpunkt:** Wenn die Pflanze 4–6 Nodien entwickelt hat, also in der vegetativen Phase nach etwa 3–4 Wochen.
+
+## FIM (F*** I Missed): Unvollständiges Topping
+
+FIM ist eine Variante des Toppings, bei der die Spitze nicht vollständig, sondern nur zu etwa 75 % entfernt wird. Das Ergebnis: Statt zwei entstehen drei bis vier neue Triebe – mehr Ertragssteigerung, etwas weniger Stress als vollständiges Topping.
+
+**Vorteil:** Mehr neue Triebe als beim klassischen Topping.
+
+**Nachteil:** Weniger vorhersehbar – manchmal entsteht nur ein stärkerer Haupttrieb wie beim normalen Wachstum.
+
+## Screen of Green (SCROG): Das Netz
+
+SCROG kombiniert LST mit einem horizontalen Netz (Mesh), das über die Pflanzen gespannt wird. Triebe werden durch das Netz geführt und horizontal fixiert, bis das Netz gleichmäßig bedeckt ist. Dann beginnt die Blüte.
+
+**Vorteil:** Maximale Lichtausnutzung auf der gesamten Anbaufläche; sehr gleichmäßige Ernte; hervorragend für wenige Pflanzen auf großer Fläche.
+
+**Nachteil:** Zeitaufwendig; die Pflanze ist nach dem Aufstellen schwer zu bewegen; erfordert etwas Erfahrung.
+
+**Netz-Maschenweite:** 5–10 cm Abstand, aus Schnur, Draht oder Nylon.
+
+## Sea of Green (SOG): Viele kleine Pflanzen
+
+SOG ist das Gegenteil von SCROG: Statt wenige, große Pflanzen intensiv zu trainieren, werden viele kleine Pflanzen ohne intensives Training früh in die Blüte gebracht.
+
+**Prinzip:** 4–16 kleine Pflanzen pro Quadratmeter, alle gleichzeitig von der vegetativen in die Blütephase (12/12) nach nur 2–3 Wochen Veg. Jede Pflanze entwickelt ein bis zwei Hauptköpfchen.
+
+**Vorteil:** Kürzere Gesamtdauer (da weniger Zeit in Veg); ideal für Sorten mit starkem vertikalen Wachstum.
+
+**Nachteil:** Mehr Pflanzen = mehr Setzlinge oder Samen; kann bei gesetzlichen Pflanzenzahlobergrenzen problematisch sein (beachte das KCanG: 3 Pflanzen für Privatpersonen).
+
+## Welche Methode für wen?
+
+| Methode | Schwierigkeit | Stressgrad | Für Autos? | Ertragssteigerung |
+|---|---|---|---|---|
+| LST | Einfach | Niedrig | Ja | Mittel |
+| Topping | Mittel | Mittel | Nein | Hoch |
+| FIM | Mittel | Mittel | Nein | Hoch |
+| SCROG | Fortgeschritten | Niedrig | Möglich | Sehr hoch |
+| SOG | Fortgeschritten | Niedrig | Ja | Sehr hoch |
+
+**Empfehlung für Einsteiger:** Mit LST beginnen. Es ist risikoarm, lernt viel über Pflanzenwachstum und gibt schon ordentliche Ertragssteigerungen.`,
+    content_en: `Untrained cannabis plants grow naturally in a Christmas tree shape: one dominant main stem with many small side branches. Plant training methods break up this natural structure so all shoots receive similar amounts of light.
+
+## Low Stress Training (LST)
+
+LST is the most beginner-friendly method. Shoots are gently bent horizontally using wire, cable ties or clips – no cutting. Suitable for autoflowering since no healing time is needed.
+
+## Topping
+
+The main shoot is cut off above the second or third node, producing two new main shoots. Requires 3–7 days recovery. Not recommended for autoflowering.
+
+## FIM
+
+A variant of topping where only about 75% of the tip is removed, producing 3–4 new shoots instead of 2. Less predictable than topping.
+
+## SCROG (Screen of Green)
+
+A horizontal net is stretched over plants; shoots are guided through and fixed horizontally until the net is evenly covered. Maximum light utilisation per square metre.
+
+## SOG (Sea of Green)
+
+Many small plants without intensive training, flipped to flower after just 2–3 weeks of veg. Shorter overall cycle but more plants required.
+
+**Recommendation for beginners:** Start with LST. Risk-free, teaches plant growth patterns, and already delivers decent yield improvements.`,
+    tags: ['Pflanzenerziehung', 'SOG', 'LST', 'Topping', 'SCROG', 'Ertrag', 'Anbau'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['indoor-anbau-grundlagen', 'bluetephase-cannabis', 'autoflowering-anbau', 'beleuchtung-led-guide'],
+  },
+
+  // ─── STECKLINGE UND KLONEN ───────────────────────────────────────────────────
+  {
+    slug: 'cannabis-stecklinge-klonen',
+    category: 'growing',
+    title_de: 'Stecklinge und Klonen: Genetisch identische Pflanzen vermehren',
+    title_en: 'Cuttings and Cloning: Propagating Genetically Identical Plants',
+    summary_de:
+      'Klonen ist die Kunst, aus einer bewährten Mutterpflanze identische Kopien zu ziehen. Kein Samenkauf, kein Geschlechtsrisiko – und immer dasselbe bewährte Profil.',
+    summary_en:
+      'Cloning is the art of growing identical copies from a proven mother plant. No seed purchase, no sex risk – and always the same proven profile.',
+    content_de: `Wer eine außergewöhnlich gute Cannabispflanze gefunden hat – perfektes Aroma, starke Wirkung, gutes Wachstum – möchte diese Genetik erhalten. Der einzige Weg: klonen. Mit Stecklingen lassen sich unbegrenzt genetisch identische Pflanzen ziehen, solange eine gesunde Mutterpflanze vorhanden ist.
+
+## Was ist Klonen?
+
+Klonen bedeutet, einen Trieb von einer Mutterpflanze abzuschneiden, ihn zum Bewurzeln zu bringen und als neue Pflanze aufzuziehen. Das Ergebnis ist genetisch exakt identisch mit der Mutterpflanze – dasselbe Cannabinoid- und Terpenprofil, dasselbe Wuchsverhalten, dasselbe Geschlecht (immer weiblich, wenn die Mutterpflanze weiblich ist).
+
+**Vorteile gegenüber Samen:**
+- Kein Risiko männlicher Pflanzen
+- Bekanntes Qualitätsprofil
+- Zeitersparnis (keine Keimphase)
+- Kostengünstig im laufenden Betrieb
+
+**Nachteile:**
+- Setzt eine vorhandene Mutterpflanze voraus
+- Stecklinge können Krankheiten der Mutterpflanze übertragen
+- Klone von sehr alten Mutterpflanzen können schwächer sein
+
+## Die Mutterpflanze: Fundament des Klonprogramms
+
+Nicht jede Pflanze eignet sich als Mutterpflanze. Ideale Eigenschaften:
+
+- Gesund und kräftig, ohne Anzeichen von Krankheit oder Schädlingsbefall
+- Bewährt in Wirkungsprofil und Ertrag
+- Mindestens 8 Wochen alt (jüngere Pflanzen liefern schwieriger bewurzelnde Stecklinge)
+- In der vegetativen Phase gehalten (12+ Stunden Licht täglich)
+
+Eine Mutterpflanze kann jahrelang in der vegetativen Phase gehalten werden, wenn sie ausreichend Licht und Nährstoffe bekommt. Sie wird regelmäßig zurückgeschnitten, um immer neue Triebe für Stecklinge zu liefern.
+
+## Schritt-für-Schritt: Stecklinge nehmen
+
+**Material:**
+- Scharfe, sterile Schere oder Skalpell (mit Isopropanol desinfizieren)
+- Bewurzelungsmedium: Steinwollwürfel, Jiffy-Pellets oder Kokos-Anzuchtwürfel
+- Bewurzelungshormon (Gel oder Pulver, z.B. Clonex)
+- Klonbox oder Propagator mit Abdeckung
+- Sprühflasche mit Wasser (pH 6,0–6,5)
+
+**Ablauf:**
+1. Einen gesunden Seitentrieb der Mutterpflanze identifizieren (5–15 cm lang, 2–3 Nodien)
+2. Schrägen Schnitt (45°) direkt unter einem Nodium mit steriler Schere
+3. Alle unteren Blätter entfernen, die ins Substrat kommen würden
+4. Stecklingsende sofort in Bewurzelungsgel tauchen
+5. In vorbereitetes, feuchtes Bewurzelungsmedium stecken
+6. Unter Abdeckung bei 22–26 °C und 80–95 % rF stellen
+7. 2× täglich mit klarem Wasser besprühen – nicht gießen
+
+**Bewurzelung:** Nach 7–14 Tagen erscheinen weiße Wurzeln am Stecklingsende (bei Steinwolle oft durch den Würfel sichtbar). Dann kann der Klon in das normale Substrat umgetopft werden.
+
+## Häufige Fehler beim Klonen
+
+**Stress durch Trocknung:** Stecklinge haben noch keine Wurzeln und nehmen Wasser ausschließlich über die Blätter auf. Hohe Luftfeuchtigkeit (80–95 %) ist deshalb essenziell. Die Abdeckung schützt vor Austrocknung.
+
+**Stecklinge zu groß:** Kleinere Stecklinge (5–8 cm) bewurzeln oft schneller als große.
+
+**Unsteriles Werkzeug:** Infektionen durch verunreinigte Scheren können die Stecklinge töten. Immer desinfizieren.
+
+**Falsches Substrat:** Stecklinge brauchen ein leicht saures, feuchtes (nicht nasses) Medium. Reguläres Blumenerde ist oft zu nährstoffreich und hemmt die Bewurzelung.
+
+## Klonen im Kontext des KCanG
+
+Das KCanG erlaubt Privatpersonen den Eigenanbau von maximal drei weiblichen blühenden Pflanzen. Stecklinge in der vegetativen Phase werden nicht gegen diese Grenze gezählt – aber wer mehr als drei blühende Pflanzen hat, handelt außerhalb des Erlaubten. Für Anbauvereinigungen gelten separate Regeln.`,
+    content_en: `Anyone who has found an exceptionally good cannabis plant – perfect aroma, strong effect, good growth – wants to preserve that genetics. The only way: cloning. With cuttings, unlimited genetically identical plants can be grown as long as a healthy mother plant is available.
+
+## What Is Cloning?
+
+Cloning means cutting a shoot from a mother plant, rooting it, and growing it as a new plant. The result is genetically identical to the mother plant – same cannabinoid and terpene profile, same growth pattern, same sex (always female if the mother is female).
+
+## The Mother Plant
+
+Not every plant makes a good mother plant. Ideal properties: healthy and vigorous; proven in effect profile and yield; at least 8 weeks old; kept in the vegetative phase (12+ hours light daily).
+
+## Step-by-Step: Taking Cuttings
+
+1. Identify a healthy side shoot (5–15 cm, 2–3 nodes)
+2. Make an angled cut (45°) just below a node with a sterile blade
+3. Remove all lower leaves that would enter the substrate
+4. Immediately dip the end in rooting gel
+5. Insert into prepared, moist rooting medium
+6. Place under cover at 22–26 °C and 80–95% RH
+7. Mist 2× daily – do not water
+
+After 7–14 days, white roots appear. The clone can then be transferred to normal substrate.
+
+## KCanG Context
+
+The KCanG allows private individuals to grow a maximum of three female flowering plants. Cuttings in the vegetative phase do not count against this limit – but having more than three flowering plants is outside what is permitted.`,
+    tags: ['Klonen', 'Stecklinge', 'Mutterpflanze', 'Vermehrung', 'Anbau', 'Genetik'],
+    reading_time: 8,
+    last_updated: '2026-06-17',
+    related_slugs: ['indoor-anbau-grundlagen', 'autoflowering-anbau', 'pflanzenerziehung-sog-lst', 'cannabis-sorten-anfaenger'],
+  },
 ];
