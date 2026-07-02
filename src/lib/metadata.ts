@@ -25,6 +25,10 @@ export function createMetadata(locale: string, meta: PageMeta, path = ''): Metad
     title: t.title,
     description: t.description,
     alternates: createAlternates(locale, path),
+    openGraph: {
+      title: t.title,
+      description: t.description,
+    },
     ...(meta.noIndex ? { robots: { index: false, follow: true } } : {}),
   };
 }

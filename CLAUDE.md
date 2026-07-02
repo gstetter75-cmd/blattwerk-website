@@ -4,8 +4,8 @@
 
 - **Stack:** Next.js (App Router, static export), Tailwind v4, Framer Motion, next-intl (DE/EN)
 - **GitHub:** gstetter75-cmd/blattwerk-website
-- **Live:** https://gstetter75-cmd.github.io/blattwerk-website/
-- **Hosting:** GitHub Pages (static export via GitHub Actions)
+- **Live:** https://blattwerk.dev
+- **Hosting:** Netlify (static export, netlify.toml + _redirects)
 
 ## Befehle
 
