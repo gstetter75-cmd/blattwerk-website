@@ -1,3 +1,9 @@
+# Root redirect — server-side (replaces JS redirect in index.html, better for Googlebot)
+# Netlify evaluates Accept-Language header; Googlebot gets no language header → /de/
+/    /de/    302    Language=de
+/    /en/    302    Language=en
+/    /de/    302
+
 # Redirects from old site structure (pre-2026) to current locale-based URLs
 
 # Old blog/news pages → relevant knowledge base articles
