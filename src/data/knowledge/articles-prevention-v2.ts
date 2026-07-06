@@ -2493,7 +2493,7 @@ The safest approach: if you have consumed cannabis, do not drive. THC can impair
     tags: ['Führerschein', 'MPU', 'Straßenverkehr', 'THC-Grenzwert', 'Fahreignung', 'Prävention', 'Recht'],
     reading_time: 10,
     last_updated: '2026-06-17',
-    related_slugs: ['polizeikontrolle-rechte', 'kcang-besitz-grenzen', 'cannabis-entzug', 'selbstcheck-warnzeichen'],
+    related_slugs: ['polizeikontrolle-rechte', 'besitzmengen-konsumzonen', 'cannabis-entzug', 'selbstcheck-warnzeichen'],
   },
   {
     slug: 'drogentest-arbeit-sport',
@@ -2619,6 +2619,6 @@ THC is prohibited **in-competition** only. The urine threshold is **150 ng/ml TH
     tags: ['Drogentest', 'Arbeitsplatz', 'Sport', 'WADA', 'Nachweiszeiten', 'Prävention', 'Recht'],
     reading_time: 11,
     last_updated: '2026-06-17',
-    related_slugs: ['cannabis-mpu-fuehrerschein', 'polizeikontrolle-rechte', 'kcang-besitz-grenzen', 'cannabis-sport-erholung'],
+    related_slugs: ['cannabis-mpu-fuehrerschein', 'polizeikontrolle-rechte', 'besitzmengen-konsumzonen', 'cannabis-sport-erholung'],
   },
 ];
