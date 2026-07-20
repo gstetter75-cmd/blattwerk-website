@@ -40,11 +40,11 @@ const navItems: readonly NavItem[] = [
 ];
 
 function DropdownMenu({
-  children,
+  items,
   onClose,
   t,
 }: {
-  children: readonly NavChild[];
+  items: readonly NavChild[];
   onClose: () => void;
   t: (key: string) => string;
 }) {
@@ -55,7 +55,7 @@ function DropdownMenu({
       style={{ zIndex: Z.dropdown }}
     >
       <div className="p-2">
-        {children.map((child) => (
+        {items.map((child) => (
           <Link
             key={child.key}
             href={child.href}
@@ -198,7 +198,7 @@ export function Header() {
 
                     {hasChildren && openMenu === item.key && (
                       <DropdownMenu
-                        children={item.children!}
+                        items={item.children!}
                         onClose={() => setOpenMenu(null)}
                         t={t}
                       />
