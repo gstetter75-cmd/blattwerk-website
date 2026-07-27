@@ -24,44 +24,6 @@ const VORSTAND_EN = 'Internal board meeting for planning and coordination of cur
 
 export const upcomingEvents: readonly BlattWerkEvent[] = [
   {
-    date: '2026-06-11',
-    time: '10:00',
-    location_de: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
-    location_en: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
-    title_de: 'Mary Jane Berlin 2026',
-    title_en: 'Mary Jane Berlin 2026',
-    description_de:
-      'BlattWerk e.V. besucht die Mary Jane — Europas führende Cannabis-Fachmesse. Wir sind als Verein vor Ort, um Kontakte zu knüpfen, uns zu informieren und mit anderen CSCs auszutauschen. Wir sind vom 11. bis 14. Juni dabei.',
-    description_en:
-      "BlattWerk e.V. is visiting Mary Jane — Europe's leading cannabis trade fair. We're attending as a club to network, learn and exchange experiences with other CSCs. We'll be there from June 11 to 14.",
-    type_de: 'Messe',
-    type_en: 'Trade Fair',
-  },
-  {
-    date: '2026-06-13',
-    time: '15:00',
-    location_de: 'Salzhemmendorf',
-    location_en: 'Salzhemmendorf',
-    title_de: 'Vorstandssitzung',
-    title_en: 'Board Meeting',
-    description_de: VORSTAND_DE,
-    description_en: VORSTAND_EN,
-    type_de: 'Versammlung',
-    type_en: 'Assembly',
-  },
-  {
-    date: '2026-07-11',
-    time: '15:00',
-    location_de: 'Salzhemmendorf',
-    location_en: 'Salzhemmendorf',
-    title_de: 'Vorstandssitzung',
-    title_en: 'Board Meeting',
-    description_de: VORSTAND_DE,
-    description_en: VORSTAND_EN,
-    type_de: 'Versammlung',
-    type_en: 'Assembly',
-  },
-  {
     date: '2026-08-08',
     time: '15:00',
     location_de: 'Salzhemmendorf',
@@ -124,6 +86,44 @@ export const upcomingEvents: readonly BlattWerkEvent[] = [
 ];
 
 export const pastEvents: readonly BlattWerkEvent[] = [
+  {
+    date: '2026-07-11',
+    time: '15:00',
+    location_de: 'Salzhemmendorf',
+    location_en: 'Salzhemmendorf',
+    title_de: 'Vorstandssitzung',
+    title_en: 'Board Meeting',
+    description_de: VORSTAND_DE,
+    description_en: VORSTAND_EN,
+    type_de: 'Versammlung',
+    type_en: 'Assembly',
+  },
+  {
+    date: '2026-06-13',
+    time: '15:00',
+    location_de: 'Salzhemmendorf',
+    location_en: 'Salzhemmendorf',
+    title_de: 'Vorstandssitzung',
+    title_en: 'Board Meeting',
+    description_de: VORSTAND_DE,
+    description_en: VORSTAND_EN,
+    type_de: 'Versammlung',
+    type_en: 'Assembly',
+  },
+  {
+    date: '2026-06-11',
+    time: '10:00',
+    location_de: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
+    location_en: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin',
+    title_de: 'Mary Jane Berlin 2026',
+    title_en: 'Mary Jane Berlin 2026',
+    description_de:
+      'BlattWerk e.V. hat die Mary Jane besucht — Europas führende Cannabis-Fachmesse. Wir waren als Verein vor Ort, um Kontakte zu knüpfen, uns zu informieren und mit anderen CSCs auszutauschen.',
+    description_en:
+      "BlattWerk e.V. visited Mary Jane — Europe's leading cannabis trade fair. We attended as a club to network, learn and exchange experiences with other CSCs.",
+    type_de: 'Messe',
+    type_en: 'Trade Fair',
+  },
   {
     date: '2026-06-02',
     time: '14:00',

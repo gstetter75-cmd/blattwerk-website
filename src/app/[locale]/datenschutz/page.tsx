@@ -39,31 +39,36 @@ export default async function DatenschutzPage({
     {
       icon: Cookie,
       title: '4. Cookies und lokaler Speicher',
-      content: `Diese Website verwendet ausschließlich technisch notwendige Cookies und den lokalen Speicher (localStorage) des Browsers.\n\nWir speichern deine Cookie-Einwilligung (cookie_consent) im localStorage, um zu merken, dass du den Cookie-Hinweis bereits gesehen hast. Dieser Eintrag enthält keine personenbezogenen Daten.\n\nWir verwenden keine Tracking-Cookies, keine Analyse-Tools (z.B. Google Analytics) und kein Remarketing. Es werden keine Daten an Werbenetze übermittelt.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am funktionalen Betrieb der Website).`,
+      content: `Diese Website verwendet ausschließlich technisch notwendige Cookies und den lokalen Speicher (localStorage) des Browsers.\n\nWir speichern deine Cookie-Einwilligung (cookie_consent) im localStorage, um zu merken, dass du den Cookie-Hinweis bereits gesehen hast. Dieser Eintrag enthält keine personenbezogenen Daten.\n\nWir verwenden keine Tracking-Cookies und kein Remarketing. Es werden keine Daten an Werbenetze übermittelt. Zur Besucherstatistik nutzen wir Plausible Analytics — ohne Cookies und ohne personenbezogene Daten (siehe Abschnitt 5).\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am funktionalen Betrieb der Website).`,
     },
     {
       icon: Eye,
-      title: '5. Google Maps',
+      title: '5. Plausible Analytics',
+      content: `Diese Website verwendet Plausible Analytics, ein datenschutzfreundliches Webanalyse-Tool der Plausible Insights OÜ (Västriku tn 2, 50403 Tartu, Estland).\n\nPlausible Analytics setzt keine Cookies und sammelt keine personenbezogenen Daten. Es werden keine IP-Adressen gespeichert, keine geräteübergreifende Verfolgung durchgeführt und keine Daten an Werbenetze übermittelt. Plausible erstellt ausschließlich aggregierte, anonyme Statistiken über die Nutzung unserer Website (z.B. Seitenaufrufe, Besucherherkunft).\n\nDa keine personenbezogenen Daten verarbeitet werden, ist nach aktuellem Stand keine Einwilligung nach DSGVO erforderlich.\n\nWeitere Informationen: https://plausible.io/data-policy`,
+    },
+    {
+      icon: Eye,
+      title: '6. Google Maps',
       content: `Auf unserer Kontaktseite nutzen wir Google Maps zur Darstellung unseres Standorts. Google Maps wird erst nach deiner ausdrücklichen Einwilligung geladen (Klick auf „Karte laden").\n\nBeim Laden von Google Maps wird eine Verbindung zu Servern der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA hergestellt. Dabei können personenbezogene Daten (insbesondere IP-Adresse und Standortdaten) an Google übermittelt werden.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Du kannst deine Einwilligung jederzeit widerrufen, indem du die Seite neu lädst.`,
     },
     {
       icon: FileText,
-      title: '6. Schriftarten',
+      title: '7. Schriftarten',
       content: `Diese Website verwendet Google Fonts (Lora, Nunito, Fira Code). Die Schriftarten werden beim Build-Prozess heruntergeladen und von unserem eigenen Server ausgeliefert.\n\nEs wird keine Verbindung zu Google-Servern beim Aufrufen der Website hergestellt. Es findet keine Übermittlung von Nutzerdaten an Google statt.`,
     },
     {
       icon: Eye,
-      title: '7. Deine Rechte',
+      title: '8. Deine Rechte',
       content: `Du hast gegenüber uns folgende Rechte bezüglich deiner personenbezogenen Daten:\n\n• Recht auf Auskunft (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Recht auf Widerspruch (Art. 21 DSGVO)\n\nZur Ausübung deiner Rechte wende dich an: info@blattwerk.dev\n\nDu hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Niedersachsen ist:\n\nDie Landesbeauftragte für den Datenschutz Niedersachsen\nPrinzenstraße 5, 30159 Hannover\nwww.lfd.niedersachsen.de`,
     },
     {
       icon: UserCheck,
-      title: '8. Mitgliederdaten',
+      title: '9. Mitgliederdaten',
       content: `Für Vereinsmitglieder verarbeiten wir zusätzlich die zur Vereinsmitgliedschaft erforderlichen Daten (Name, Geburtsdatum, Adresse, Ausweisdaten, Gesundheitsdaten gemäß KCanG-Anforderungen).\n\nDiese Daten werden gesondert erhoben und in einer separaten Datenschutzerklärung für Mitglieder geregelt, die bei der Aufnahme ausgehändigt wird.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung), Art. 9 Abs. 2 lit. a DSGVO (ausdrückliche Einwilligung für Gesundheitsdaten), § 26 BDSG.`,
     },
     {
       icon: Shield,
-      title: '9. Datensicherheit',
+      title: '10. Datensicherheit',
       content: `Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, um deine Daten gegen Manipulation, Verlust oder unberechtigten Zugriff zu schützen.\n\nDie Verbindung zu unserer Website ist mit TLS/SSL verschlüsselt (HTTPS). Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert.`,
     },
   ] : [
@@ -85,31 +90,36 @@ export default async function DatenschutzPage({
     {
       icon: Cookie,
       title: '4. Cookies and Local Storage',
-      content: `This website uses only technically necessary cookies and the browser's local storage (localStorage).\n\nWe store your cookie consent (cookie_consent) in localStorage to remember that you have already seen the cookie notice. This entry contains no personal data.\n\nWe do not use tracking cookies, analytics tools (e.g. Google Analytics) or remarketing. No data is transmitted to advertising networks.\n\nLegal basis: Art. 6 para. 1 lit. f GDPR (legitimate interest in the functional operation of the website).`,
+      content: `This website uses only technically necessary cookies and the browser's local storage (localStorage).\n\nWe store your cookie consent (cookie_consent) in localStorage to remember that you have already seen the cookie notice. This entry contains no personal data.\n\nWe do not use tracking cookies or remarketing. No data is transmitted to advertising networks. For visitor statistics we use Plausible Analytics — without cookies and without personal data (see section 5).\n\nLegal basis: Art. 6 para. 1 lit. f GDPR (legitimate interest in the functional operation of the website).`,
     },
     {
       icon: Eye,
-      title: '5. Google Maps',
+      title: '5. Plausible Analytics',
+      content: `This website uses Plausible Analytics, a privacy-friendly web analytics tool by Plausible Insights OÜ (Västriku tn 2, 50403 Tartu, Estonia).\n\nPlausible Analytics does not use cookies and does not collect personal data. No IP addresses are stored, no cross-site tracking is performed, and no data is transmitted to advertising networks. Plausible creates aggregated, anonymous statistics about the use of our website (e.g. page views, visitor origin).\n\nSince no personal data is processed, no consent under GDPR is required.\n\nMore information: https://plausible.io/data-policy`,
+    },
+    {
+      icon: Eye,
+      title: '6. Google Maps',
       content: `On our contact page, we use Google Maps to display our location. Google Maps is only loaded after your explicit consent (click on "Load map").\n\nWhen loading Google Maps, a connection to servers of Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA is established. Personal data (in particular IP address and location data) may be transmitted to Google.\n\nLegal basis: Art. 6 para. 1 lit. a GDPR (consent). You can revoke your consent at any time by reloading the page.`,
     },
     {
       icon: FileText,
-      title: '6. Fonts',
+      title: '7. Fonts',
       content: `This website uses Google Fonts (Lora, Nunito, Fira Code). The fonts are downloaded during the build process and served from our own server.\n\nNo connection to Google servers is made when visiting the website. No user data is transmitted to Google.`,
     },
     {
       icon: Eye,
-      title: '7. Your Rights',
+      title: '8. Your Rights',
       content: `You have the following rights regarding your personal data:\n\n• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object (Art. 21 GDPR)\n\nTo exercise your rights, contact: info@blattwerk.dev\n\nYou also have the right to lodge a complaint with a data protection supervisory authority.`,
     },
     {
       icon: UserCheck,
-      title: '8. Member Data',
+      title: '9. Member Data',
       content: `For club members, we additionally process the data required for club membership (name, date of birth, address, ID data, health data according to KCanG requirements).\n\nThis data is collected separately and governed by a separate privacy policy for members, which is provided upon admission.\n\nLegal basis: Art. 6 para. 1 lit. b GDPR (contract performance), Art. 9 para. 2 lit. a GDPR (explicit consent for health data).`,
     },
     {
       icon: Shield,
-      title: '9. Data Security',
+      title: '10. Data Security',
       content: `We use technical and organizational security measures to protect your data against manipulation, loss or unauthorized access.\n\nThe connection to our website is encrypted with TLS/SSL (HTTPS). Our security measures are continuously improved in line with technological developments.`,
     },
   ];
@@ -135,7 +145,7 @@ export default async function DatenschutzPage({
 
           {/* Last updated */}
           <p className="text-xs text-ink-faint text-right">
-            {isDE ? 'Stand: März 2026' : 'As of: March 2026'}
+            {isDE ? 'Stand: Juli 2026' : 'As of: July 2026'}
           </p>
 
           {/* Intro */}

@@ -36,7 +36,11 @@ describe('Netlify Redirects', () => {
   }
 
   it('all redirects use 301 (permanent)', () => {
-    const lines = content.split('\n').filter(l => !l.startsWith('#') && l.trim() && !l.startsWith('https://'));
+    const lines = content
+      .split('\n')
+      .filter(l => !l.startsWith('#') && l.trim() && !l.startsWith('https://'))
+      // Root language-detection redirects intentionally use 302 (different users get different targets)
+      .filter(l => !l.includes('Language=') && !(l.startsWith('/') && l.includes('/de/') && l.includes('302') && !l.includes('Language=')));
     for (const line of lines) {
       expect(line, `Non-301 redirect: ${line}`).toContain('301');
     }
