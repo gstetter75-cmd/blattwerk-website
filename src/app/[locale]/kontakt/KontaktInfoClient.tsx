@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Mail, MapPin, Clock, MapPinned } from 'lucide-react';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { HomeSection } from '@/components/shared/HomeSection';
+import Link from 'next/link';
 
 interface Props {
   isDE: boolean;
@@ -20,9 +21,23 @@ function GoogleMapsEmbed({ isDE }: { isDE: boolean }) {
       >
         <MapPinned className="w-8 h-8 text-ink-faint" />
         <p className="text-sm text-ink-muted text-center max-w-md">
-          {isDE
-            ? 'Beim Laden der Karte werden Daten an Google LLC übermittelt. Mehr dazu in unserer Datenschutzerklärung.'
-            : 'Loading the map transmits data to Google LLC. See our privacy policy for details.'}
+          {isDE ? (
+            <>
+              Beim Laden der Karte werden Daten an Google LLC übermittelt. Mehr dazu in unserer{' '}
+              <Link href="/datenschutz" className="underline hover:text-accent transition-colors">
+                Datenschutzerklärung
+              </Link>
+              .
+            </>
+          ) : (
+            <>
+              Loading the map transmits data to Google LLC. See our{' '}
+              <Link href="/datenschutz" className="underline hover:text-accent transition-colors">
+                privacy policy
+              </Link>{' '}
+              for details.
+            </>
+          )}
         </p>
         <button
           type="button"
