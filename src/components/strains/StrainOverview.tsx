@@ -200,7 +200,7 @@ export function StrainOverview() {
               aria-label={lang === 'de' ? 'Sortenfinder' : 'Strain Finder'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
-              <Sparkles className="w-4 h-4" />
+              <Sparkles className="w-4 h-4" aria-hidden="true" />
             </Link>
 
             {/* Mobile compare link */}
@@ -209,7 +209,7 @@ export function StrainOverview() {
               aria-label={lang === 'de' ? 'Sorten vergleichen' : 'Compare strains'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
-              <GitCompareArrows className="w-4 h-4" />
+              <GitCompareArrows className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>
 
