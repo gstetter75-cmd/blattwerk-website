@@ -30,7 +30,7 @@ export default async function ContactPage({
         {
           question: 'Wo befindet sich BlattWerk?',
           answer:
-            'Unser Büro befindet sich am Wetzellplatz 2 in 31134 Hildesheim.',
+            'Unser Büro befindet sich am Wetzellplatz 2 in 31137 Hildesheim.',
         },
         {
           question: 'Kann ich auch ohne Mitgliedschaft vorbeikommen?',
@@ -57,7 +57,7 @@ export default async function ContactPage({
         {
           question: 'Where is BlattWerk located?',
           answer:
-            'Our office is located at Wetzellplatz 2, 31134 Hildesheim, Germany.',
+            'Our office is located at Wetzellplatz 2, 31137 Hildesheim, Germany.',
         },
         {
           question: 'Can I visit without being a member?',
