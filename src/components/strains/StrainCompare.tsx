@@ -121,6 +121,7 @@ function StrainSelector({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={lang === 'de' ? 'Suchen…' : 'Search…'}
+              aria-label={lang === 'de' ? 'Sorte suchen' : 'Search strain'}
               className="w-full px-3 py-2 bg-bg border border-[var(--border)] rounded-lg text-sm focus:outline-none focus:border-accent"
               autoFocus
             />

@@ -147,6 +147,7 @@ export function SearchDialog() {
                   onChange={(e) => { setQuery(e.target.value); setSelectedIndex(0); }}
                   onKeyDown={onKeyNavigation}
                   placeholder={isDE ? 'Sorten, Artikel durchsuchen...' : 'Search strains, articles...'}
+                  aria-label={isDE ? 'Globale Suche' : 'Global search'}
                   className="flex-1 bg-transparent text-sm text-ink placeholder:text-ink-faint outline-none"
                 />
                 <button

@@ -128,6 +128,7 @@ export function StrainOverview() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={lang === 'de' ? 'Sorte suchen\u2026' : 'Search strain\u2026'}
+                aria-label={lang === 'de' ? 'Sorte suchen' : 'Search strain'}
                 className="w-full pl-7 pr-7 py-2.5 bg-transparent text-sm focus:outline-none transition-colors text-ink border-b border-[var(--border)] focus:border-accent"
               />
               {query && (
@@ -146,6 +147,7 @@ export function StrainOverview() {
             <select
               value={sort}
               onChange={(e) => setSort(e.target.value as SortKey)}
+              aria-label={lang === 'de' ? 'Sortierung' : 'Sort by'}
               className="px-0 py-2.5 bg-transparent text-sm focus:outline-none cursor-pointer appearance-none text-ink-muted border-b border-[var(--border)]"
               style={{ paddingRight: '1.5rem' }}
             >
