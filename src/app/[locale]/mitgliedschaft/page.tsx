@@ -36,7 +36,7 @@ const FAQ_ITEMS_DE = [
   },
   {
     question: 'Wann kann ich das erste Mal Cannabis beziehen?',
-    answer: 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Der Anbaustart hängt von der noch ausstehenden Genehmigung der Nutzungsänderung ab — wir informieren alle Mitglieder rechtzeitig per Blog und E-Mail.',
+    answer: 'Sobald unsere erste Ernte abgeschlossen und qualitätsgeprüft ist. Die Nutzungsänderung ist genehmigt, der Anbau startet in Kürze — wir informieren alle Mitglieder rechtzeitig per Blog und E-Mail.',
   },
   {
     question: 'Welche Sorten baut BlattWerk an?',
@@ -79,7 +79,7 @@ const FAQ_ITEMS_EN = [
   },
   {
     question: 'When can I obtain cannabis for the first time?',
-    answer: 'Once our first harvest is complete and quality-tested. The growing start depends on the pending change-of-use permit — we will notify all members in good time via blog and email.',
+    answer: 'Once our first harvest is complete and quality-tested. The change-of-use permit has been approved and growing starts soon — we will notify all members in good time via blog and email.',
   },
   {
     question: 'Which strains does BlattWerk grow?',
