@@ -140,6 +140,7 @@ export function StrainOverview() {
 
             {/* Sort select */}
             <select
+              aria-label={lang === 'de' ? 'Sortierung' : 'Sort order'}
               value={sort}
               onChange={(e) => setSort(e.target.value as SortKey)}
               className="px-0 py-2.5 bg-transparent text-sm focus:outline-none cursor-pointer appearance-none text-ink-muted border-b border-[var(--border)]"
@@ -192,6 +193,7 @@ export function StrainOverview() {
             {/* Mobile strain finder link */}
             <Link
               href="/sortendatenbank/finder"
+              aria-label={lang === 'de' ? 'Sortenfinder' : 'Strain Finder'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <Sparkles className="w-4 h-4" />
@@ -200,6 +202,7 @@ export function StrainOverview() {
             {/* Mobile compare link */}
             <Link
               href="/sortendatenbank/vergleich"
+              aria-label={lang === 'de' ? 'Vergleichen' : 'Compare'}
               className="sm:hidden flex items-center gap-2 px-3 py-2.5 text-sm text-ink-muted hover:text-accent transition-colors border border-[var(--border)]"
             >
               <GitCompareArrows className="w-4 h-4" />
@@ -354,6 +357,8 @@ export function StrainOverview() {
                   </button>
                 </div>
               ) : (
+                <>
+                <h2 className="sr-only">{lang === 'de' ? 'Alle Sorten' : 'All strains'}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
                   {results.map((strain) => (
                     <div key={strain.slug}>
@@ -361,6 +366,7 @@ export function StrainOverview() {
                     </div>
                   ))}
                 </div>
+                </>
               )}
             </div>
           </div>

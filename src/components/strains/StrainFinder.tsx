@@ -123,16 +123,16 @@ const TYPE_LEFT_BORDER: Record<string, string> = {
 };
 
 const TYPE_TEXT_COLOR: Record<string, string> = {
-  indica: 'rgba(79,70,229,0.85)',
-  sativa: 'rgba(217,119,6,0.85)',
-  hybrid: 'rgba(22,163,74,0.85)',
+  indica: 'var(--type-indica)',
+  sativa: 'var(--type-sativa)',
+  hybrid: 'var(--type-hybrid)',
 };
 
 function ResultCard({ strain, locale }: { strain: Strain; locale: string }) {
   const lang = locale === 'de' ? 'de' : 'en';
   const config = typeConfig[strain.type];
   const accentBorder = TYPE_LEFT_BORDER[strain.type] ?? 'rgba(34,197,94,0.5)';
-  const typeTextColor = TYPE_TEXT_COLOR[strain.type] ?? 'rgba(22,163,74,0.85)';
+  const typeTextColor = TYPE_TEXT_COLOR[strain.type] ?? 'var(--type-hybrid)';
 
   const topEffects = Object.entries(strain.effects)
     .sort(([, a], [, b]) => b - a)
