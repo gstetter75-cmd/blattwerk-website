@@ -17,7 +17,7 @@ export function UeberUnsClient({ isDE }: Props) {
         : 'Representation of the association, coordination of activities',
     },
     {
-      role: isDE ? 'Stell. Vorsitzender' : 'Vice Chairperson',
+      role: isDE ? 'Stellv. Vorsitzender' : 'Vice Chairperson',
       name: 'Salvatore Runza',
       text: isDE
         ? 'Strategische Ausrichtung, Mitgliederbetreuung'

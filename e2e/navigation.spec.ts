@@ -4,7 +4,7 @@ test.describe('Navigation', () => {
   test('Mitgliedschaft page loads', async ({ page }) => {
     await page.goto('/de/mitgliedschaft');
     const content = await page.content();
-    expect(content).toContain('Mitglied werden');
+    expect(content).toContain('Mitgliedschaft bei BlattWerk');
   });
 
   test('Über uns page loads', async ({ page }) => {

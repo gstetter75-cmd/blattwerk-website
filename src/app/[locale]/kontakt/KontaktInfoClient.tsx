@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Mail, MapPin, Clock, MapPinned } from 'lucide-react';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { HomeSection } from '@/components/shared/HomeSection';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 
 interface Props {
   isDE: boolean;

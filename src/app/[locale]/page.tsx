@@ -84,7 +84,7 @@ function HomeContent() {
                 className="inline-flex items-center gap-2.5 px-6 py-3.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90"
                 style={{ background: 'var(--accent)' }}
               >
-                {isDE ? 'Mitglied werden' : 'Become a member'} <ArrowRight className="w-4 h-4" />
+                {isDE ? 'Mitgliedschaft' : 'Membership'} <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/ueber-uns"
@@ -238,12 +238,12 @@ function HomeContent() {
         <section className="py-16 lg:py-20" style={{ background: 'var(--bg-dark)', color: '#F5FAF7' }}>
           <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="font-heading font-bold text-3xl lg:text-4xl mb-4 leading-tight">
-              {isDE ? 'Werde Teil von BlattWerk' : 'Join BlattWerk'}
+              {isDE ? 'Mitgliedschaft' : 'Membership'}
             </h2>
             <p className="text-base leading-relaxed opacity-70 max-w-xl mx-auto mb-8">
               {isDE
-                ? 'Wir suchen Mitglieder, die Teil unserer Gemeinschaft werden wollen. Der Beitritt erfolgt über die Hanf-App.'
-                : 'We\'re looking for members who want to be part of our community. Join via the Hanf-App.'}
+                ? 'Der Aufnahmeantrag erfolgt über die Hanf-App. Mitglied werden können Erwachsene ab 21 Jahren mit Wohnsitz in Deutschland.'
+                : 'Membership applications are made via the Hanf-App. Membership is open to adults aged 21 and over residing in Germany.'}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -347,7 +347,7 @@ function HomeContent() {
                   {t('strain_label')}
                 </p>
                 <h2 className="font-heading font-bold text-2xl lg:text-3xl leading-tight">
-                  {isDE ? 'Unsere Sorten' : 'Our Strains'}
+                  {isDE ? 'Sortendatenbank' : 'Strain Database'}
                 </h2>
               </div>
               <Link

@@ -226,7 +226,7 @@ export function Header() {
                 className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 hover:opacity-90"
                 style={{ background: 'var(--accent)' }}
               >
-                {locale === 'de' ? 'Mitglied werden' : 'Join now'}
+                {locale === 'de' ? 'Mitgliedschaft' : 'Membership'}
               </Link>
 
               {/* Mobile menu button */}
@@ -293,7 +293,7 @@ export function Header() {
                 style={{ background: 'var(--accent)' }}
                 onClick={() => setMobileOpen(false)}
               >
-                {locale === 'de' ? 'Mitglied werden' : 'Join now'}
+                {locale === 'de' ? 'Mitgliedschaft' : 'Membership'}
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <button

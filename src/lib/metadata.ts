@@ -43,8 +43,8 @@ export const PAGE_META = {
     en: { title: 'About Us — Cannabis Club Hildesheim', description: 'Board, growing council, rules and mission of BlattWerk e.V. — Cannabis Social Club Hildesheim. Founded 2025, cultivation license since March 2026.' },
   },
   membership: {
-    de: { title: 'Mitglied werden — Cannabis Club Hildesheim', description: 'Jetzt Mitglied werden bei BlattWerk e.V. in Hildesheim. Ab 21 Jahren, 10 €/Monat. Voraussetzungen, Aufnahmeprozess und häufige Fragen.' },
-    en: { title: 'Become a Member — Cannabis Club Hildesheim', description: 'Join BlattWerk e.V. in Hildesheim. From age 21, €10/month. Requirements, admission process and membership FAQs.' },
+    de: { title: 'Mitgliedschaft — Cannabis Club Hildesheim', description: 'Mitgliedschaft bei BlattWerk e.V. in Hildesheim: Voraussetzungen (ab 21 Jahren), Beiträge, Aufnahmeprozess und häufige Fragen.' },
+    en: { title: 'Membership — Cannabis Club Hildesheim', description: 'Membership at BlattWerk e.V. in Hildesheim: requirements (age 21+), fees, admission process and FAQs.' },
   },
   strains: {
     de: { title: 'Cannabis-Sortendatenbank', description: 'Cannabis-Sorten dokumentiert: Genetik, Terpenprofil, THC/CBD-Werte, Wirkung und Anbauinfos. Indica, Sativa, Hybrid. BlattWerk e.V. Hildesheim.' },
@@ -72,8 +72,8 @@ export const PAGE_META = {
     noIndex: true,
   },
   impressum: {
-    de: { title: 'Impressum', description: 'Impressum von BlattWerk e.V. – Angaben gemäß § 5 TMG. Cannabis Social Club Hildesheim.' },
-    en: { title: 'Legal Notice', description: 'Legal notice of BlattWerk e.V. – Information according to § 5 TMG. Cannabis Social Club Hildesheim.' },
+    de: { title: 'Impressum', description: 'Impressum von BlattWerk e.V. – Angaben gemäß § 5 DDG. Cannabis Social Club Hildesheim.' },
+    en: { title: 'Legal Notice', description: 'Legal notice of BlattWerk e.V. – Information according to § 5 DDG. Cannabis Social Club Hildesheim.' },
     noIndex: true,
   },
 } as const;

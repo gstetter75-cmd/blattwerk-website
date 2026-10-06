@@ -36,5 +36,11 @@
 /kontakt/                           /de/kontakt/      301
 /kontakt                            /de/kontakt/      301
 
+# Legal pages without locale prefix → German version
+/impressum/                         /de/impressum/    301
+/impressum                          /de/impressum/    301
+/datenschutz/                       /de/datenschutz/  301
+/datenschutz                        /de/datenschutz/  301
+
 # www → non-www (if not handled at DNS/Netlify level)
 https://www.blattwerk.dev/*         https://blattwerk.dev/:splat    301!
