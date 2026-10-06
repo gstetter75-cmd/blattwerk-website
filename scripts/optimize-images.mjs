@@ -60,7 +60,8 @@ async function optimizeImage(filePath) {
 
   // Responsive variants
   for (const width of WIDTHS) {
-    if (width >= origWidth) continue;
+    // Always emit every variant referenced by OptimizedImage's srcset;
+    // withoutEnlargement keeps smaller originals at their native width.
     const out = join(OUTPUT_DIR, `${name}-${width}w.webp`);
     if (!existsSync(out)) {
       await sharp(filePath)
