@@ -7,7 +7,6 @@ import { Search, X, SlidersHorizontal, AlertCircle, GitCompareArrows, Sparkles }
 import { strains, effectLabels, thcRanges, thcRangesMap } from '@/data/strains';
 import type { Strain } from '@/data/strains';
 import { StrainCard } from './StrainCard';
-import { WQFPageHero } from '@/components/layout/WQFPageHero';
 
 type SortKey = 'name-asc' | 'thc-desc' | 'rating-desc';
 
@@ -63,7 +62,8 @@ function sortStrains(list: Strain[], sort: SortKey): Strain[] {
 
 function toggle(set: Set<string>, val: string): Set<string> {
   const n = new Set(set);
-  n.has(val) ? n.delete(val) : n.add(val);
+  if (n.has(val)) n.delete(val);
+  else n.add(val);
   return n;
 }
 

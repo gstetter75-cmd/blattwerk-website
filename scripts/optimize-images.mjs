@@ -43,9 +43,6 @@ function getOutputName(filePath) {
 
 async function optimizeImage(filePath) {
   const name = getOutputName(filePath);
-  const image = sharp(filePath);
-  const metadata = await image.metadata();
-  const origWidth = metadata.width || 1200;
 
   const results = [];
 
