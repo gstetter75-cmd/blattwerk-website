@@ -159,7 +159,7 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
                 {strain.rating.toFixed(1)}
               </span>
               <span className="text-sm text-ink-muted">
-                ({strain.review_count.toLocaleString()}{' '}
+                ({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')}{' '}
                 {lang === 'de' ? 'Bewertungen' : 'reviews'})
               </span>
             </div>

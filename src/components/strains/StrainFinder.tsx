@@ -184,7 +184,7 @@ function ResultCard({ strain, locale }: { strain: Strain; locale: string }) {
           <div className="flex items-center gap-2 mt-auto pt-3 border-t border-[var(--border)]">
             <StarRating rating={strain.rating} />
             <span className="text-xs font-mono text-ink-muted">{strain.rating.toFixed(1)}</span>
-            <span className="text-xs text-ink-faint">({strain.review_count.toLocaleString()})</span>
+            <span className="text-xs text-ink-faint">({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')})</span>
           </div>
         </div>
       </article>

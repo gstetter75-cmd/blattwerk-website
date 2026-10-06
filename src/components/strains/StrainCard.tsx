@@ -102,7 +102,7 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
               {strain.rating.toFixed(1)}
             </span>
             <span className="text-xs text-ink-faint">
-              ({strain.review_count.toLocaleString()})
+              ({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')})
             </span>
           </div>
 
