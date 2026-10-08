@@ -33,12 +33,23 @@ export function HomePillar({ children, delay = 0 }: { children: React.ReactNode;
   );
 }
 
-export function HomeSection({ children }: { children: React.ReactNode }) {
+interface HomeSectionProps {
+  readonly children: React.ReactNode;
+  /** Classes for the outer <section> (background, padding). The band stays static; only the content reveals. */
+  readonly className?: string;
+  readonly style?: React.CSSProperties;
+  /** id of the section heading, exposes the section as a named landmark */
+  readonly labelledBy?: string;
+}
+
+export function HomeSection({ children, className, style, labelledBy }: HomeSectionProps) {
   const { ref, visible } = useReveal();
   return (
-    <div ref={ref} className={`reveal ${visible ? 'visible' : ''}`}>
-      {children}
-    </div>
+    <section className={className} style={style} aria-labelledby={labelledBy}>
+      <div ref={ref} className={`reveal ${visible ? 'visible' : ''}`}>
+        {children}
+      </div>
+    </section>
   );
 }
 

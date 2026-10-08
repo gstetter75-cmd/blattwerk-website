@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { allArticles, allCategories, getArticlesByCategory } from '@/data/knowledge';
 import { strains } from '@/data/strains';
-import { upcomingEvents, pastEvents } from '@/data/events';
+import { events, splitEventsByDate } from '@/data/events';
 
 describe('Content Integrity', () => {
   describe('Knowledge Base Coverage', () => {
@@ -64,10 +64,11 @@ describe('Content Integrity', () => {
   });
 
   describe('Events Data', () => {
-    it('upcoming events have all required fields', () => {
-      for (const event of upcomingEvents) {
+    it('all events have valid dates and required fields', () => {
+      for (const event of events) {
         expect(event.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
-        expect(event.time).toBeTruthy();
+        expect(Number.isNaN(new Date(`${event.date}T00:00:00Z`).getTime()), event.date).toBe(false);
+        if (event.time) expect(event.time).toMatch(/^\d{2}:\d{2}$/);
         expect(event.title_de).toBeTruthy();
         expect(event.title_en).toBeTruthy();
         expect(event.description_de).toBeTruthy();
@@ -75,14 +76,27 @@ describe('Content Integrity', () => {
       }
     });
 
+    it('events are listed in chronological order', () => {
+      const dates = events.map(e => e.date);
+      expect(dates).toEqual([...dates].sort());
+    });
+
+    it('event keys (date + title) are unique', () => {
+      const keys = events.map(e => `${e.date}-${e.title_de}`);
+      expect(new Set(keys).size).toBe(keys.length);
+    });
+
     it('past events have dates before upcoming events', () => {
-      const earliestUpcoming = Math.min(...upcomingEvents.map(e => new Date(e.date).getTime()));
-      for (const event of pastEvents) {
-        expect(
-          new Date(event.date).getTime(),
-          `Past event "${event.title_de}" date is after upcoming events`
-        ).toBeLessThan(earliestUpcoming);
+      const { upcoming, past } = splitEventsByDate(events, '2026-10-08');
+      const earliestUpcoming = upcoming[0].date;
+      for (const event of past) {
+        expect(event.date < earliestUpcoming, `Past event "${event.title_de}" is not before upcoming events`).toBe(true);
       }
+    });
+
+    it('cultivation license milestone matches the official date (18.03.2026)', () => {
+      const license = events.find(e => e.title_en === 'Cultivation License Granted');
+      expect(license?.date).toBe('2026-03-18');
     });
   });
 
@@ -104,8 +118,7 @@ describe('Content Integrity', () => {
     });
 
     it('all events have DE and EN content', () => {
-      const allEvents = [...upcomingEvents, ...pastEvents];
-      for (const event of allEvents) {
+      for (const event of events) {
         expect(event.title_de, `Event missing DE title`).toBeTruthy();
         expect(event.title_en, `Event missing EN title`).toBeTruthy();
         expect(event.description_de, `Event missing DE description`).toBeTruthy();

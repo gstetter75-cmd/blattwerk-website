@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { MessageCircle, Mail } from 'lucide-react';
-import Image from 'next/image';
+import { BlattWerkLogo } from '@/components/brand/BlattWerkLogo';
 
 const NAV = [
   { key: 'about',        href: '/ueber-uns' },
@@ -37,13 +37,7 @@ export function Footer() {
 
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/optimized/logo.webp`}
-              alt="BlattWerk e.V."
-              width={140}
-              height={56}
-              className="h-12 w-auto object-contain mb-3 logo-adaptive"
-            />
+            <BlattWerkLogo className="brand-logo block h-10 w-auto mb-4" />
             <p className="text-xs text-ink-faint mb-5 leading-relaxed">
               Cannabis Social Club<br />Hildesheim
             </p>

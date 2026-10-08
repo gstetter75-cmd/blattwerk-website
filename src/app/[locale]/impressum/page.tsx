@@ -244,8 +244,8 @@ export default async function ImpressumPage({
             <AlertTriangle className="w-4 h-4 text-gold-theme shrink-0 mt-0.5 opacity-80" />
             <p className="text-xs text-ink-muted leading-relaxed">
               {isDE
-                ? 'BlattWerk e.V. handelt im Rahmen des Konsumcannabisgesetzes (KCanG). Die Abgabe von Cannabis erfolgt ausschließlich an Vereinsmitglieder ab 21 Jahren gemäß den gesetzlichen Vorgaben.'
-                : 'BlattWerk e.V. operates within the framework of the Consumer Cannabis Act (KCanG). Cannabis is only dispensed to club members aged 21 and over in accordance with legal requirements.'}
+                ? 'BlattWerk e.V. handelt im Rahmen des Konsumcannabisgesetzes (KCanG). Die Abgabe von Cannabis erfolgt gemäß den gesetzlichen Vorgaben und ausschließlich an Vereinsmitglieder ab 21 Jahren — diese Altersgrenze hat der Verein bewusst über das gesetzliche Mindestalter von 18 Jahren hinaus festgelegt.'
+                : 'BlattWerk e.V. operates within the framework of the Consumer Cannabis Act (KCanG). Cannabis is dispensed in accordance with legal requirements and only to club members aged 21 and over — an age limit the club has deliberately set above the legal minimum of 18.'}
             </p>
           </div>
 

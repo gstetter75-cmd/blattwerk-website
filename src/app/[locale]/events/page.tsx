@@ -4,7 +4,7 @@ import { WQFPageHero } from '@/components/layout/WQFPageHero';
 import { HeroImage } from '@/components/decorative/HeroImage';
 import { EventsClient } from './EventsClient';
 import { BreadcrumbSchema, EventListSchema } from '@/lib/schema';
-import { upcomingEvents, pastEvents } from '@/data/events';
+import { events, getTodayIsoDate, partitionByAudience, splitEventsByDate } from '@/data/events';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -19,6 +19,11 @@ export default async function EventsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const isDE = locale === 'de';
+  // Static export: split at build time; EventsClient re-splits with the visitor's date.
+  const buildDate = getTodayIsoDate();
+  const { upcoming } = splitEventsByDate(events, buildDate);
+  // Internal appointments (board meetings etc.) are not public events: keep them out of search results.
+  const { publicEvents } = partitionByAudience(upcoming);
   return (
     <>
       <BreadcrumbSchema
@@ -28,7 +33,7 @@ export default async function EventsPage({
           { name: isDE ? 'Veranstaltungen' : 'Events', href: '/events' },
         ]}
       />
-      <EventListSchema events={upcomingEvents} locale={locale} />
+      <EventListSchema events={publicEvents} locale={locale} />
       <WQFPageHero
         label={isDE ? 'Veranstaltungen' : 'Events'}
         title={isDE ? 'Veranstaltungen & Workshops — Hildesheim' : 'Events & Workshops — Hildesheim'}
@@ -44,7 +49,7 @@ export default async function EventsPage({
         alt={isDE ? 'Cannabis-Pflanzen im Indoor-Grow' : 'Cannabis plants in indoor grow'}
         height="240px"
       />
-      <EventsClient isDE={isDE} upcomingEvents={upcomingEvents} pastEvents={pastEvents} />
+      <EventsClient isDE={isDE} events={events} buildDate={buildDate} />
     </>
   );
 }

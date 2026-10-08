@@ -6,6 +6,10 @@ import { strains, getStrainBySlug, typeConfig } from '@/data/strains';
 import { StrainDetail } from '@/components/strains/StrainDetail';
 import { BreadcrumbSchema, AggregateRatingSchema } from '@/lib/schema';
 import { createAlternates } from '@/lib/metadata';
+import { formatNumber, formatPercent } from '@/data/strains/labels';
+
+// The root layout's title template appends " | BlattWerk e.V." to page titles.
+const BRAND_SUFFIX = ' | BlattWerk e.V.';
 
 const TYPE_SLUGS = ['indica', 'sativa', 'hybrid'] as const;
 type TypeSlug = typeof TYPE_SLUGS[number];
@@ -47,8 +51,8 @@ export async function generateMetadata({ params }: PageProps) {
     const count = strains.filter((s) => s.type === typeSlug).length;
     return {
       title: isDE
-        ? `${label}-Sorten — Cannabis-Sortendatenbank | BlattWerk`
-        : `${label} Strains — Cannabis Strain Database | BlattWerk`,
+        ? `${label}-Sorten — Cannabis-Sortendatenbank`
+        : `${label} Strains — Cannabis Strain Database`,
       description: isDE
         ? `${count} ${label}-Cannabis-Sorten mit THC/CBD-Werten, Terpenprofil und Wirkung. Filtern, vergleichen und die richtige Sorte finden.`
         : `${count} ${label} cannabis strains with THC/CBD values, terpene profiles and effects. Filter, compare and find the right strain.`,
@@ -62,13 +66,15 @@ export async function generateMetadata({ params }: PageProps) {
 
   const description = (isDE ? strain.description_de : strain.description_en).slice(0, 160);
   const dbLabel = isDE ? 'Sortendatenbank' : 'Strain Database';
+  const title = `${strain.name} – ${dbLabel}`;
 
   return {
-    title: `${strain.name} – ${dbLabel} | BlattWerk e.V.`,
+    title,
     description,
     keywords: [strain.name, strain.type, 'Cannabis', 'BlattWerk', dbLabel],
     openGraph: {
-      title: `${strain.name} – ${dbLabel} | BlattWerk e.V.`,
+      // The title template does not apply to Open Graph, so add the brand here
+      title: `${title}${BRAND_SUFFIX}`,
       description,
       type: 'website',
     },
@@ -90,6 +96,7 @@ export default async function StrainPage({ params }: PageProps) {
       .filter((s) => s.type === typeSlug)
       .sort((a, b) => b.rating - a.rating);
     const intro = typeIntro[typeSlug];
+    const lang = isDE ? 'de' : 'en';
 
     return (
       <>
@@ -126,7 +133,6 @@ export default async function StrainPage({ params }: PageProps) {
         <section className="pb-20">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 space-y-3">
             {filtered.map((s) => {
-              const sc = typeConfig[s.type];
               return (
                 <Link
                   key={s.slug}
@@ -143,8 +149,8 @@ export default async function StrainPage({ params }: PageProps) {
                     </p>
                   </div>
                   <div className="flex items-center gap-4 shrink-0">
-                    <span className="font-mono text-xs text-ink-faint">THC {s.cannabinoids.thc}%</span>
-                    <span className="font-mono text-xs text-ink-faint">{s.rating.toFixed(1)}</span>
+                    <span className="font-mono text-xs text-ink-faint">THC {formatPercent(s.cannabinoids.thc, lang)}</span>
+                    <span className="font-mono text-xs text-ink-faint">{formatNumber(s.rating, lang, 1)}</span>
                     <ArrowRight className="w-4 h-4 text-ink-faint group-hover:text-accent transition-colors" />
                   </div>
                 </Link>

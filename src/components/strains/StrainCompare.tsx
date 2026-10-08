@@ -230,7 +230,7 @@ export function StrainCompare() {
   const negativeKeys = Object.keys(negativeLabels) as (keyof typeof negativeLabels)[];
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10 lg:pt-28 space-y-8">
       <Link
         href="/sortendatenbank"
         className="inline-flex items-center gap-2 text-sm text-ink-muted hover:text-ink transition-colors"

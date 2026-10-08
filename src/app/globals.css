@@ -15,11 +15,12 @@
   --text-muted:  #4A6B5A;
   --text-faint:  #536F65;
 
-  --accent:      #2D6A4F;
+  --accent:      #1E4D3B; /* logo green */
   --accent-soft: #95D5B2;
-  --accent-hover:#1B4332;
+  --accent-hover:#143528;
+  --on-accent:   #FFFFFF; /* text on accent fills */
 
-  --gold:        #C17F3E;
+  --gold:        #94591E; /* darkened for 4.5:1 text contrast on sand */
   --gold-soft:   #F5D5A8;
 
   --border:      rgba(0, 0, 0, 0.08);
@@ -51,6 +52,7 @@
   --accent:      #52B788;
   --accent-soft: #2D6A4F;
   --accent-hover:#74D4A6;
+  --on-accent:   #0E1A12;
 
   --gold:        #E8A54B;
   --gold-soft:   #7A5C2D;
@@ -84,6 +86,7 @@
     --accent:      #52B788;
     --accent-soft: #2D6A4F;
     --accent-hover:#74D4A6;
+  --on-accent:   #0E1A12;
 
     --gold:        #E8A54B;
     --gold-soft:   #7A5C2D;
@@ -135,14 +138,29 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
   border-radius: 2px;
 }
 
-/* Logo visibility in dark mode */
-[data-theme="dark"] .logo-adaptive {
-  filter: brightness(0) invert(1);
+/* Dark mode: light accent buttons need dark text for 4.5:1 contrast */
+[data-theme="dark"] .bg-accent.text-white {
+  color: var(--on-accent);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .logo-adaptive {
-    filter: brightness(0) invert(1);
+  :root:not([data-theme="light"]) .bg-accent.text-white {
+    color: var(--on-accent);
+  }
+}
+
+/* Brand logo: forest green on light, warm white on dark */
+.brand-logo {
+  color: #1E4D3B;
+}
+
+[data-theme="dark"] .brand-logo {
+  color: #F3F0E8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .brand-logo {
+    color: #F3F0E8;
   }
 }
 
