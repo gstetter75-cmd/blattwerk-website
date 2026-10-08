@@ -47,7 +47,7 @@
     "section_strains_text": "Explore our comprehensive database with detailed information on cannabis strains – genetics, terpene profiles, effects, and cultivation details.",
     "section_knowledge_title": "Knowledge Base",
     "section_knowledge_text": "In-depth knowledge on cannabinoids, terpenes, cultivation, legal matters, and health – scientifically prepared and clearly explained.",
-    "section_join_title": "Become a Member",
+    "section_join_title": "Membership",
     "section_join_text": "Joining BlattWerk e.V. is done through the Hanf-App. There you can submit your membership application and manage all club matters.",
     "section_join_button": "Go to Hanf-App",
     "explore_strains": "Explore Strain Database",
@@ -76,7 +76,7 @@
     "stat_free": "Free Access",
     "membership_label": "Membership",
     "csc_label": "Cannabis Social Club · Hildesheim",
-    "join_button": "Become a Member"
+    "join_button": "Membership"
   },
   "about": {
     "title": "About BlattWerk e.V.",

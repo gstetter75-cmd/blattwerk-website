@@ -32,8 +32,8 @@ export default async function ImpressumPage({
       <PageHero
         title={isDE ? 'Impressum' : 'Legal Notice'}
         subtitle={isDE
-          ? 'Angaben gemäß § 5 TMG'
-          : 'Information according to § 5 TMG (German Telemedia Act)'}
+          ? 'Angaben gemäß § 5 DDG'
+          : 'Information according to § 5 DDG (German Digital Services Act)'}
       />
 
       <section className="py-16 lg:py-20">
@@ -99,7 +99,7 @@ export default async function ImpressumPage({
                 <dd className="text-ink">Gero Stetter</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
-                <dt className="text-ink-muted">{isDE ? 'Stell. Vorsitzender' : 'Vice-Chairperson'}</dt>
+                <dt className="text-ink-muted">{isDE ? 'Stellv. Vorsitzender' : 'Vice-Chairperson'}</dt>
                 <dd className="text-ink">Salvatore Runza</dd>
               </div>
               <div className="grid grid-cols-[140px_1fr] gap-2">
@@ -152,7 +152,7 @@ export default async function ImpressumPage({
             <div className="flex items-center gap-3 mb-5">
               <UserCheck className="w-5 h-5 text-accent opacity-70" />
               <h2 className="font-heading italic text-xl text-ink">
-                {isDE ? 'Verantwortlicher für Inhalte' : 'Responsible for Content'}
+                {isDE ? 'Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV' : 'Responsible for content according to § 18 para. 2 MStV'}
               </h2>
             </div>
             <dl className="space-y-3 text-sm">
@@ -163,13 +163,13 @@ export default async function ImpressumPage({
               <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted">{isDE ? 'Anschrift' : 'Address'}</dt>
                 <dd className="text-ink">
-                  Grabenstraße 19<br />31020 Salzhemmendorf<br />{isDE ? 'Deutschland' : 'Germany'}
+                  Wetzellplatz 2<br />31137 Hildesheim<br />{isDE ? 'Deutschland' : 'Germany'}
                 </dd>
               </div>
             </dl>
           </div>
 
-          {/* Datenschutzbeauftragter */}
+          {/* Datenschutz-Kontakt */}
           <div className={glassCard}>
             <div className="flex items-center gap-3 mb-5">
               <Shield className="w-5 h-5 text-accent opacity-70" />
@@ -184,16 +184,12 @@ export default async function ImpressumPage({
             </p>
             <dl className="space-y-3 text-sm">
               <div className="grid grid-cols-[140px_1fr] gap-2">
-                <dt className="text-ink-muted">{isDE ? 'Ansprechpartner' : 'Contact person'}</dt>
-                <dd className="text-ink">Rene Sackel</dd>
-              </div>
-              <div className="grid grid-cols-[140px_1fr] gap-2">
                 <dt className="text-ink-muted flex items-center gap-1.5">
                   <Mail className="w-3.5 h-3.5" /> E-Mail
                 </dt>
                 <dd>
-                  <a href="mailto:praevention@blattwerk.dev" className="text-accent hover:text-accent/80 transition-colors">
-                    praevention@blattwerk.dev
+                  <a href="mailto:info@blattwerk.dev" className="text-accent hover:text-accent/80 transition-colors">
+                    info@blattwerk.dev
                   </a>
                 </dd>
               </div>
@@ -207,8 +203,8 @@ export default async function ImpressumPage({
             </h2>
             <p className="text-sm text-ink-muted leading-relaxed">
               {isDE
-                ? 'Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.'
-                : 'As a service provider, we are responsible for our own content on these pages in accordance with § 7 para. 1 TMG and general laws. According to §§ 8 to 10 TMG, however, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this regard is only possible from the point in time at which a concrete infringement of the law becomes known. If we become aware of any such infringements, we will remove this content immediately.'}
+                ? 'Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.'
+                : 'As a service provider, we are responsible for our own content on these pages in accordance with § 7 para. 1 DDG and general laws. According to §§ 8 to 10 DDG, however, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this regard is only possible from the point in time at which a concrete infringement of the law becomes known. If we become aware of any such infringements, we will remove this content immediately.'}
             </p>
           </div>
 
@@ -239,8 +235,8 @@ export default async function ImpressumPage({
           {/* Gültigkeitsdatum */}
           <p className="text-xs text-ink-muted text-center px-1">
             {isDE
-              ? 'Dieses Impressum gilt ab dem 30. April 2025.'
-              : 'This legal notice is effective as of April 30, 2025.'}
+              ? 'Stand: Oktober 2026'
+              : 'As of: October 2026'}
           </p>
 
           {/* KCanG Hinweis */}

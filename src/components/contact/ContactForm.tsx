@@ -224,9 +224,9 @@ export function ContactForm({ isDE }: ContactFormProps) {
         />
         <label htmlFor="privacy" className="text-xs text-ink-muted leading-relaxed">
           {isDE ? (
-            <>Ich habe die <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">Datenschutzerkl&auml;rung</Link> gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *</>
+            <>Ich habe die <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">Datenschutzerkl&auml;rung</Link> zur Kenntnis genommen. Meine Angaben werden zur Bearbeitung meiner Anfrage verarbeitet. *</>
           ) : (
-            <>I have read the <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">privacy policy</Link> and agree to the processing of my data to handle my inquiry. *</>
+            <>I have read the <Link href="/datenschutz" className="text-accent hover:text-accent/80 underline">privacy policy</Link>. My details will be processed to handle my inquiry. *</>
           )}
         </label>
       </div>

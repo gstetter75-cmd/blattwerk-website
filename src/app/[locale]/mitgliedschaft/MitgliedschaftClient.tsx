@@ -16,20 +16,20 @@ export function MitgliedschaftClient({ isDE }: Props) {
     {
       title: isDE ? 'Cannabis zum Selbstkostenpreis' : 'Cannabis at Cost Price',
       text: isDE
-        ? 'Kein Gewinnaufschlag. Du zahlst nur die tatsächlichen Kosten für Anbau, Energie und Material. Das ist gesetzlich vorgeschrieben und macht den Unterschied zum Schwarzmarkt.'
-        : 'No profit markup. You only pay the actual costs for growing, energy and materials. This is legally mandated and sets us apart from the black market.',
+        ? 'Kein Gewinnaufschlag. Mitglieder tragen nur die tatsächlichen Kosten für Anbau, Energie und Material — so schreibt es das KCanG für Anbauvereinigungen vor.'
+        : 'No profit markup. Members only bear the actual costs for growing, energy and materials — as required by the KCanG for cultivation associations.',
     },
     {
-      title: isDE ? 'Geprüfte Qualität & Sortenvielfalt' : 'Tested Quality & Strain Variety',
+      title: isDE ? 'Qualitätskontrolle & Transparenz' : 'Quality Control & Transparency',
       text: isDE
-        ? 'Jede Ernte wird auf Reinheit und Cannabinoid-Gehalt geprüft. Du weißt genau, was du konsumierst — Sorte, THC/CBD-Werte und Terpenprofil. Keine Streckmittel, keine Unsicherheit.'
-        : 'Every harvest is tested for purity and cannabinoid content. You know exactly what you consume — strain, THC/CBD values and terpene profile. No adulterants, no uncertainty.',
+        ? 'Jede Ernte wird auf Reinheit und Cannabinoid-Gehalt geprüft. Bei der Abgabe erhältst du die gesetzlich vorgeschriebenen Informationen zu Sorte, THC- und CBD-Gehalt sowie Hinweise zu Risiken.'
+        : 'Every harvest is tested for purity and cannabinoid content. At distribution you receive the legally required information on strain, THC and CBD content as well as notes on risks.',
     },
     {
       title: isDE ? 'Mitbestimmung & Gemeinschaft' : 'Participation & Community',
       text: isDE
-        ? 'Du hast Stimmrecht bei der Mitgliederversammlung und kannst aktiv mitgestalten — von der Sortenauswahl bis zur Vereinsarbeit. BlattWerk ist kein anonymer Laden, sondern dein Verein.'
-        : 'You have voting rights at the general assembly and can actively participate — from strain selection to club operations. BlattWerk is not an anonymous shop, it\'s your club.',
+        ? 'Du hast Stimmrecht bei der Mitgliederversammlung und kannst aktiv mitgestalten — von der Sortenauswahl bis zur Vereinsarbeit. BlattWerk ist ein Verein, der von seinen Mitgliedern getragen wird.'
+        : 'You have voting rights at the general assembly and can actively participate — from strain selection to club operations. BlattWerk is a club run by its members.',
     },
     {
       title: isDE ? 'Workshops & Wissen' : 'Workshops & Education',
@@ -214,17 +214,17 @@ export function MitgliedschaftClient({ isDE }: Props) {
               {isDE ? 'Mitgliedschaft' : 'Membership'}
             </p>
             <h1 className="font-heading font-bold text-4xl lg:text-5xl leading-tight mb-6 max-w-3xl">
-              {isDE ? 'Mitglied werden bei BlattWerk e.V.' : 'Become a Member at BlattWerk e.V.'}
+              {isDE ? 'Mitgliedschaft bei BlattWerk e.V.' : 'Membership at BlattWerk e.V.'}
             </h1>
             <p className="text-lg text-ink-muted leading-relaxed max-w-2xl mb-4">
               {isDE
-                ? 'BlattWerk e.V. ist ein lizenzierter Cannabis Social Club in Hildesheim. Als Mitglied beziehst du qualitätsgeprüftes Cannabis zum Selbstkostenpreis — legal, transparent und ohne Schwarzmarkt.'
-                : 'BlattWerk e.V. is a licensed Cannabis Social Club in Hildesheim. As a member, you obtain quality-tested cannabis at cost price — legal, transparent and without the black market.'}
+                ? 'BlattWerk e.V. ist eine nach dem KCanG zugelassene Anbauvereinigung in Hildesheim. Hier findest du die Voraussetzungen, Kosten und den Ablauf einer Mitgliedschaft.'
+                : 'BlattWerk e.V. is a cultivation association licensed under the KCanG in Hildesheim. Here you will find the requirements, costs and process of membership.'}
             </p>
             <p className="text-base text-ink-muted leading-relaxed max-w-2xl">
               {isDE
-                ? 'Keine Gewinnabsicht, keine anonymen Strukturen. Ein Verein von und für Erwachsene, die Cannabis verantwortungsvoll konsumieren.'
-                : 'No profit motive, no anonymous structures. A club by and for adults who consume cannabis responsibly.'}
+                ? 'Der Verein arbeitet ohne Gewinnabsicht. Mitglied werden können ausschließlich Erwachsene ab 21 Jahren.'
+                : 'The club operates on a non-profit basis. Membership is open exclusively to adults aged 21 and over.'}
             </p>
 
             {/* Warteliste-Hinweis */}
@@ -247,7 +247,7 @@ export function MitgliedschaftClient({ isDE }: Props) {
         <section className="py-16 lg:py-24 bg-bg-surface">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
-              {isDE ? 'Was du als Mitglied bekommst' : 'What You Get as a Member'}
+              {isDE ? 'Rechte und Leistungen der Mitgliedschaft' : 'Membership Rights and Services'}
             </h2>
             <p className="text-ink-muted mb-10 max-w-xl">
               {isDE
@@ -396,44 +396,44 @@ export function MitgliedschaftClient({ isDE }: Props) {
         </section>
       </HomeSection>
 
-      {/* -- Why BlattWerk -- */}
+      {/* -- Club facts -- */}
       <HomeSection>
         <section className="py-16 lg:py-24 bg-bg-surface">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="font-heading font-bold text-2xl lg:text-3xl mb-4">
-              {isDE ? 'Warum BlattWerk?' : 'Why BlattWerk?'}
+              {isDE ? 'Der Verein im Überblick' : 'The Club at a Glance'}
             </h2>
             <p className="text-ink-muted mb-8 max-w-xl">
               {isDE
-                ? 'Es gibt viele Cannabis Social Clubs. Das unterscheidet uns:'
-                : 'There are many Cannabis Social Clubs. Here\'s what sets us apart:'}
+                ? 'Die wichtigsten Fakten zu BlattWerk e.V.:'
+                : 'Key facts about BlattWerk e.V.:'}
             </p>
 
             <div className="space-y-4">
               {[
                 {
-                  title: isDE ? 'Lizenziert und legal' : 'Licensed and Legal',
+                  title: isDE ? 'Anbauerlaubnis' : 'Cultivation License',
                   text: isDE
-                    ? 'Anbaulizenz erteilt am 18. März 2026. Wir sind kein Graubereich — wir sind eine offiziell genehmigte Anbauvereinigung nach dem KCanG.'
-                    : 'Cultivation license granted on March 18, 2026. We are not a gray area — we are an officially approved cultivation association under the KCanG.',
+                    ? 'Die Erlaubnis als Anbauvereinigung nach dem KCanG wurde am 18. März 2026 erteilt.'
+                    : 'The license as a cultivation association under the KCanG was granted on March 18, 2026.',
                 },
                 {
-                  title: isDE ? 'Transparent & gemeinnützig' : 'Transparent & Non-Profit',
+                  title: isDE ? 'Eingetragener Verein ohne Gewinnabsicht' : 'Registered Non-Profit Association',
                   text: isDE
-                    ? 'Eingetragen im Vereinsregister Hildesheim. Kein Gewinnziel, keine versteckten Kosten. Die Finanzen werden den Mitgliedern offengelegt.'
-                    : 'Registered in the Hildesheim association register. No profit goal, no hidden costs. Finances are disclosed to members.',
+                    ? 'Eingetragen im Vereinsregister beim Amtsgericht Hildesheim. Die Finanzen werden den Mitgliedern offengelegt.'
+                    : 'Registered in the association register at the Hildesheim District Court. Finances are disclosed to members.',
                 },
                 {
-                  title: isDE ? 'Prävention ernst genommen' : 'Prevention Taken Seriously',
+                  title: isDE ? 'Suchtprävention' : 'Addiction Prevention',
                   text: isDE
-                    ? 'Unser Suchtpräventionskonzept ist nicht nur Pflicht — wir meinen es ernst. Selbsttest, lokale Beratungsstellen und ehrliche Aufklärung über Risiken.'
-                    : 'Our addiction prevention concept is not just an obligation — we mean it. Self-test, local counseling and honest education about risks.',
+                    ? 'Der Verein hat ein Suchtpräventionskonzept. Dazu gehören ein Selbsttest, Kontakte zu lokalen Beratungsstellen und Aufklärung über Risiken.'
+                    : 'The club has an addiction prevention concept, including a self-test, contacts to local counseling services and education about risks.',
                 },
                 {
-                  title: isDE ? 'Verwurzelt in Hildesheim' : 'Rooted in Hildesheim',
+                  title: isDE ? 'Sitz in Hildesheim' : 'Based in Hildesheim',
                   text: isDE
-                    ? 'BlattWerk ist kein Franchise und kein anonymes Online-Projekt. Wir sind ein lokaler Verein mit echten Menschen, echten Räumen und einer echten Gemeinschaft am Wetzellplatz 2.'
-                    : 'BlattWerk is not a franchise and not an anonymous online project. We are a local club with real people, real premises and a real community at Wetzellplatz 2.',
+                    ? 'Vereinssitz und Sprechstunde befinden sich am Wetzellplatz 2 in Hildesheim.'
+                    : 'The club\'s seat and office hours are at Wetzellplatz 2 in Hildesheim.',
                 },
               ].map(({ title, text }, i) => (
                 <div key={i} className="flex gap-4 p-5 rounded-xl border border-[var(--border)] bg-bg-elevated">
