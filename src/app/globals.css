@@ -2,9 +2,9 @@
 
 /* ─── Design Tokens — Light, warm, natural ─── */
 :root {
-  --bg:          #FAFAF7;
-  --bg-surface:  #F2EFE9;
-  --bg-elevated: #FFFFFF;
+  --bg:          #F3EEE4; /* "Leinen" warm linen */
+  --bg-surface:  #EAE3D5;
+  --bg-elevated: #FBF8F2;
   --bg-dark:     #1A2E22;
 
   --type-indica: #4338CA;
@@ -13,25 +13,25 @@
 
   --text:        #1A2E22;
   --text-muted:  #4A6B5A;
-  --text-faint:  #536F65;
+  --text-faint:  #4B675C;
 
   --accent:      #1E4D3B; /* logo green */
   --accent-soft: #95D5B2;
   --accent-hover:#143528;
   --on-accent:   #FFFFFF; /* text on accent fills */
 
-  --gold:        #94591E; /* darkened for 4.5:1 text contrast on sand */
+  --gold:        #8A521B; /* 4.5:1+ text contrast on all linen surfaces */
   --gold-soft:   #F5D5A8;
 
   --border:      rgba(0, 0, 0, 0.08);
   --glass:       rgba(0, 0, 0, 0.03);
   --shadow:      rgba(0, 0, 0, 0.04);
 
-  --header-bg:   rgba(250, 250, 247, 0.95);
+  --header-bg:   rgba(243, 238, 228, 0.95);
 
-  --warning:     #b45309;
+  --warning:     #9A4708;
   --warning-bg:  rgba(180, 83, 9, 0.06);
-  --warning-text: rgba(180, 83, 9, 0.8);
+  --warning-text: #9A4708;
 }
 
 /* ─── Dark Mode ─── */
@@ -105,7 +105,7 @@
 
 @theme {
   --color-void:        #1A2E22;
-  --color-paper:       #FAFAF7;
+  --color-paper:       #F3EEE4;
 
   --color-bg:          var(--bg);
   --color-bg-surface:  var(--bg-surface);
