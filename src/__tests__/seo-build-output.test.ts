@@ -1,11 +1,17 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { events, getTodayIsoDate, isInternalEvent, splitEventsByDate } from '@/data/events';
 
 const OUT_DIR = join(__dirname, '../../out');
 
 // Skip these tests if out/ doesn't exist (not built yet)
 const outExists = existsSync(OUT_DIR);
+
+// Event JSON-LD is only emitted for upcoming public events with a start time.
+const hasScheduledUpcomingEvents = splitEventsByDate(events, getTodayIsoDate()).upcoming.some(
+  e => e.time && !isInternalEvent(e),
+);
 
 describe.skipIf(!outExists)('Build Output — SEO Verification', () => {
   describe('Static Files', () => {
@@ -158,10 +164,37 @@ describe.skipIf(!outExists)('Build Output — SEO Verification', () => {
       expect(html).toContain('52.1535');
     });
 
-    it('events page has Event schemas', () => {
+    it.skipIf(!hasScheduledUpcomingEvents)('events page has Event schemas', () => {
       const html = readFileSync(join(OUT_DIR, 'de/events/index.html'), 'utf-8');
       expect(html).toContain('"@type":"Event"');
       expect(html).toContain('EventScheduled');
+    });
+
+    it('home page preloads the hero image with the same candidates as its <picture>', () => {
+      const html = readFileSync(join(OUT_DIR, 'de/index.html'), 'utf-8');
+      const preloads = html.match(/<link[^>]*rel="preload"[^>]*cannabis-plant-veg[^>]*>/g) ?? [];
+      const source = html.match(/<source[^>]*cannabis-plant-veg[^>]*>/)?.[0] ?? '';
+      const srcSetOf = (tag: string, attr: string) => tag.match(new RegExp(`${attr}="([^"]+)"`, 'i'))?.[1];
+      expect(preloads).toHaveLength(1);
+      const [preloadTag = ''] = preloads;
+      expect(srcSetOf(preloadTag, 'imageSrcSet')).toBe(srcSetOf(source, 'srcSet'));
+      expect(srcSetOf(preloadTag, 'imageSizes')).toBe(srcSetOf(source, 'sizes'));
+    });
+
+    it('other pages do not preload the home hero image', () => {
+      const html = readFileSync(join(OUT_DIR, 'de/events/index.html'), 'utf-8');
+      expect(html).not.toMatch(/<link[^>]*rel="preload"[^>]*cannabis-plant-veg/);
+    });
+
+    it('events page keeps internal appointments out of Event schemas', () => {
+      for (const locale of ['de', 'en']) {
+        const html = readFileSync(join(OUT_DIR, `${locale}/events/index.html`), 'utf-8');
+        const eventSchemas = html.match(/\{"@context":"https:\/\/schema\.org","@type":"Event".*?<\/script>/g) ?? [];
+        for (const schema of eventSchemas) {
+          expect(schema).not.toContain('Vorstandssitzung');
+          expect(schema).not.toContain('Board Meeting');
+        }
+      }
     });
 
     it('membership page has FAQ schema', () => {

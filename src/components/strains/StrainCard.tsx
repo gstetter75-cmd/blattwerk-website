@@ -2,7 +2,8 @@
 
 import { Link } from '@/i18n/navigation';
 import type { Strain } from '@/data/strains';
-import { effectLabels, flavorLabels, typeConfig } from '@/data/strains';
+import { effectLabels, typeConfig } from '@/data/strains';
+import { formatNumber, formatPercent, getFlavorLabel } from '@/data/strains/labels';
 import { StarRating } from './StarRating';
 
 interface StrainCardProps {
@@ -30,10 +31,7 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
     .slice(0, 3)
     .map(([key]) => key as keyof typeof effectLabels);
 
-  const topFlavors = strain.flavors.slice(0, 3).map((f) => {
-    const label = flavorLabels[f];
-    return label ? label[lang] : f;
-  });
+  const topFlavors = strain.flavors.slice(0, 3).map((f) => getFlavorLabel(f, lang));
 
   const accentBorder = TYPE_LEFT_BORDER[strain.type] ?? 'rgba(34,197,94,0.5)';
   const typeTextColor = TYPE_TEXT_COLOR[strain.type] ?? 'var(--type-hybrid)';
@@ -64,14 +62,14 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
             <span className="text-ink-muted">
               THC{' '}
               <span className="font-semibold text-accent">
-                {strain.cannabinoids.thc}%
+                {formatPercent(strain.cannabinoids.thc, lang)}
               </span>
             </span>
             <span className="text-ink-faint">&middot;</span>
             <span className="text-ink-muted">
               CBD{' '}
               <span>
-                {strain.cannabinoids.cbd}%
+                {formatPercent(strain.cannabinoids.cbd, lang)}
               </span>
             </span>
           </div>
@@ -99,10 +97,10 @@ export function StrainCard({ strain, locale }: StrainCardProps) {
           <div className="flex items-center gap-2 mt-auto pt-3 border-t border-[var(--border)]">
             <StarRating rating={strain.rating} />
             <span className="text-xs font-mono text-ink-muted">
-              {strain.rating.toFixed(1)}
+              {formatNumber(strain.rating, lang, 1)}
             </span>
             <span className="text-xs text-ink-faint">
-              ({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')})
+              ({formatNumber(strain.review_count, lang)})
             </span>
           </div>
 

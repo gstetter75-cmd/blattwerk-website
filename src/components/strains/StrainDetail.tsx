@@ -15,12 +15,18 @@ import {
   getStrainBySlug,
   effectLabels,
   negativeLabels,
-  flavorLabels,
   medicalLabels,
   terpeneLabels,
   typeConfig,
   difficultyConfig,
 } from '@/data/strains';
+import type { StrainType, Difficulty } from '@/data/strains';
+import {
+  formatNumber,
+  formatPercent,
+  getFlavorLabel,
+  getSusceptibilityLabel,
+} from '@/data/strains/labels';
 import { StarRating } from './StarRating';
 import { allArticles } from '@/data/knowledge';
 
@@ -30,6 +36,28 @@ interface StrainDetailProps {
 }
 
 type Lang = 'de' | 'en';
+
+// Theme-aware colors (CSS variables switch between light and dark theme)
+const TYPE_COLOR: Record<StrainType, string> = {
+  indica: 'var(--type-indica)',
+  sativa: 'var(--type-sativa)',
+  hybrid: 'var(--type-hybrid)',
+};
+
+const DIFFICULTY_DOT: Record<Difficulty, string> = {
+  easy: 'bg-emerald-500',
+  medium: 'bg-amber-500',
+  hard: 'bg-red-500',
+};
+
+/** Text, soft background and border derived from one theme color. */
+function tintStyle(color: string): React.CSSProperties {
+  return {
+    color,
+    background: `color-mix(in srgb, ${color} 10%, transparent)`,
+    borderColor: `color-mix(in srgb, ${color} 30%, transparent)`,
+  };
+}
 
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
@@ -116,7 +144,7 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
     .sort(([, a], [, b]) => b - a) as [keyof typeof negativeLabels, number][];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10 lg:pt-28 space-y-8">
 
       {/* Back link + Compare link */}
       <div className="flex items-center gap-4">
@@ -147,7 +175,10 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               <h1 className="font-heading italic text-3xl sm:text-4xl text-ink font-medium">
                 {strain.name}
               </h1>
-              <span className={`text-sm font-medium px-3 py-1 rounded-full ${config.badgeBordered}`}>
+              <span
+                className="text-sm font-medium px-3 py-1 rounded-full border"
+                style={tintStyle(TYPE_COLOR[strain.type])}
+              >
                 {config.label[lang]}
               </span>
             </div>
@@ -155,10 +186,10 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
             <div className="flex items-center gap-2">
               <StarRating rating={strain.rating} size="md" />
               <span className="font-mono text-sm text-ink font-semibold">
-                {strain.rating.toFixed(1)}
+                {formatNumber(strain.rating, lang, 1)}
               </span>
               <span className="text-sm text-ink-muted">
-                ({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')}{' '}
+                ({formatNumber(strain.review_count, lang)}{' '}
                 {lang === 'de' ? 'Bewertungen' : 'reviews'})
               </span>
             </div>
@@ -171,14 +202,14 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               style={{ background: 'var(--bg-elevated)' }}
             >
               <p className="text-xs text-ink-muted mb-1">THC</p>
-              <p className="text-2xl font-bold text-accent">{strain.cannabinoids.thc}%</p>
+              <p className="text-2xl font-bold text-accent">{formatPercent(strain.cannabinoids.thc, lang)}</p>
             </div>
             <div
               className="text-center rounded-lg px-5 py-4 border border-[var(--border)]"
               style={{ background: 'var(--bg-elevated)' }}
             >
               <p className="text-xs text-ink-muted mb-1">CBD</p>
-              <p className="text-2xl font-bold text-ink">{strain.cannabinoids.cbd}%</p>
+              <p className="text-2xl font-bold text-ink">{formatPercent(strain.cannabinoids.cbd, lang)}</p>
             </div>
           </div>
         </div>
@@ -222,13 +253,13 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
       <Section title={lang === 'de' ? 'Wirkungsprofile' : 'Effect Profile'}>
         <div className="space-y-3.5">
           {sortedEffects.map(([key, value]) => (
-            <div key={key} className="grid grid-cols-[140px_1fr_36px] items-center gap-3">
+            <div key={key} className="grid grid-cols-[140px_1fr_44px] items-center gap-3">
               <span className="text-sm text-ink-muted truncate">{effectLabels[key][lang]}</span>
               <ProgressBar
                 value={value}
                 colorClass={value >= 70 ? 'bg-accent' : value >= 40 ? 'bg-accent/50' : 'bg-accent/25'}
               />
-              <span className="font-mono text-xs text-ink-muted text-right">{value}%</span>
+              <span className="font-mono text-xs text-ink-muted text-right">{formatPercent(value, lang)}</span>
             </div>
           ))}
         </div>
@@ -241,7 +272,7 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
             <div key={key} className="grid grid-cols-[80px_1fr_60px] items-center gap-3">
               <span className="text-sm font-mono text-ink-muted">{label}</span>
               <ProgressBar value={value} max={35} colorClass={colorClass} />
-              <span className="font-mono text-xs text-ink-muted text-right">{value}%</span>
+              <span className="font-mono text-xs text-ink-muted text-right">{formatPercent(value, lang)}</span>
             </div>
           ))}
         </div>
@@ -255,7 +286,7 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               <span className="text-sm text-ink-muted">{terpeneLabels[key][lang]}</span>
               <ProgressBar value={value} max={0.5} colorClass="bg-gold-theme/70" />
               <span className="font-mono text-xs text-ink-muted text-right">
-                {(value * 100).toFixed(0)}%
+                {formatPercent(value * 100, lang, 0)}
               </span>
             </div>
           ))}
@@ -270,7 +301,7 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               key={f}
               className="px-3 py-1.5 bg-bg-elevated border border-[var(--border)] rounded-full text-sm text-ink-muted"
             >
-              {flavorLabels[f]?.[lang] ?? f}
+              {getFlavorLabel(f, lang)}
             </span>
           ))}
         </div>
@@ -280,13 +311,13 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
       <Section title={lang === 'de' ? 'Mögliche Nebenwirkungen' : 'Possible Side Effects'}>
         <div className="space-y-3.5">
           {sortedNegatives.map(([key, value]) => (
-            <div key={key} className="grid grid-cols-[160px_1fr_36px] items-center gap-3">
+            <div key={key} className="grid grid-cols-[160px_1fr_44px] items-center gap-3">
               <span className="text-sm text-ink-muted">{negativeLabels[key][lang]}</span>
               <ProgressBar
                 value={value}
                 colorClass={value >= 60 ? 'bg-red-500/70' : value >= 30 ? 'bg-amber-400/70' : 'bg-ink-muted/30'}
               />
-              <span className="font-mono text-xs text-ink-muted text-right">{value}%</span>
+              <span className="font-mono text-xs text-ink-muted text-right">{formatPercent(value, lang)}</span>
             </div>
           ))}
         </div>
@@ -322,7 +353,11 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               icon: Sprout,
               title: lang === 'de' ? 'Schwierigkeit' : 'Difficulty',
               content: (
-                <span className={`inline-block text-sm font-medium px-2.5 py-0.5 rounded-full ${difficultyConfig[strain.growing.difficulty].badge}`}>
+                <span className="inline-flex items-center gap-2 text-sm font-medium text-ink">
+                  <span
+                    aria-hidden="true"
+                    className={`w-2 h-2 rounded-full ${DIFFICULTY_DOT[strain.growing.difficulty]}`}
+                  />
                   {difficultyConfig[strain.growing.difficulty].label[lang]}
                 </span>
               ),
@@ -342,8 +377,8 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               title: lang === 'de' ? 'Ertrag' : 'Yield',
               content: (
                 <div className="space-y-1 font-mono text-sm">
-                  <p><span className="text-ink-muted">Indoor:</span>{' '}<span className="text-ink font-semibold">{strain.growing.yield_indoor} g/m²</span></p>
-                  <p><span className="text-ink-muted">Outdoor:</span>{' '}<span className="text-ink font-semibold">{strain.growing.yield_outdoor} g/{lang === 'de' ? 'Pflanze' : 'plant'}</span></p>
+                  <p><span className="text-ink-muted">Indoor:</span>{' '}<span className="text-ink font-semibold">{formatNumber(strain.growing.yield_indoor, lang)} g/m²</span></p>
+                  <p><span className="text-ink-muted">Outdoor:</span>{' '}<span className="text-ink font-semibold">{formatNumber(strain.growing.yield_outdoor, lang)} g/{lang === 'de' ? 'Pflanze' : 'plant'}</span></p>
                 </div>
               ),
             },
@@ -376,7 +411,13 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
               content: (
                 <div className="flex flex-wrap gap-2">
                   {strain.growing.susceptibilities.map((s) => (
-                    <span key={s} className="text-xs px-2 py-0.5 bg-red-500/10 text-red-400 rounded-full border border-red-500/20">{s}</span>
+                    <span
+                      key={s}
+                      className="text-xs px-2 py-0.5 rounded-full border"
+                      style={tintStyle('var(--warning)')}
+                    >
+                      {getSusceptibilityLabel(s, lang)}
+                    </span>
                   ))}
                 </div>
               ),
@@ -438,15 +479,18 @@ export function StrainDetail({ slug, locale }: StrainDetailProps) {
                 >
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <p className="font-heading italic text-ink">{s.name}</p>
-                    <span className={`text-xs px-2 py-0.5 rounded-full shrink-0 ${sc.badge}`}>
+                    <span
+                      className="text-xs px-2 py-0.5 rounded-full shrink-0 border"
+                      style={tintStyle(TYPE_COLOR[s.type])}
+                    >
                       {sc.label[lang]}
                     </span>
                   </div>
                   <div className="flex items-center gap-2 font-mono text-xs text-ink-muted">
-                    <span>THC {s.cannabinoids.thc}%</span>
+                    <span>THC {formatPercent(s.cannabinoids.thc, lang)}</span>
                     <span className="text-ink-faint">·</span>
                     <StarRating rating={s.rating} />
-                    <span>{s.rating.toFixed(1)}</span>
+                    <span>{formatNumber(s.rating, lang, 1)}</span>
                   </div>
                 </Link>
               );

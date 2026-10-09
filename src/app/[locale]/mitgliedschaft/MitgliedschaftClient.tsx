@@ -276,8 +276,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
             </h2>
             <p className="text-ink-muted mb-10 max-w-xl">
               {isDE
-                ? 'Diese Voraussetzungen sind gesetzlich vorgeschrieben und gelten für alle Cannabis Social Clubs in Deutschland.'
-                : 'These requirements are legally mandated and apply to all Cannabis Social Clubs in Germany.'}
+                ? 'Mehrere Voraussetzungen schreibt das KCanG für alle Anbauvereinigungen vor. Das Mindestalter von 21 Jahren ist eine bewusste Entscheidung unseres Vereins — gesetzlich wären 18 Jahre möglich.'
+                : 'Several of these requirements are mandated by the KCanG for all cultivation associations. The minimum age of 21 is a deliberate decision by our club — the law would allow 18.'}
             </p>
 
             <div className="grid sm:grid-cols-2 gap-5">
@@ -291,8 +291,8 @@ export function MitgliedschaftClient({ isDE }: Props) {
 
             <p className="text-sm text-ink-muted mt-8 max-w-2xl">
               {isDE
-                ? 'Alle Anforderungen basieren auf dem Konsumcannabisgesetz (KCanG). '
-                : 'All requirements are based on the Cannabis Act (KCanG). '}
+                ? 'Die gesetzlichen Anforderungen basieren auf dem Konsumcannabisgesetz (KCanG). '
+                : 'The legal requirements are based on the Cannabis Act (KCanG). '}
               <Link
                 href="/wissensdatenbank/legal/cannabis-social-clubs"
                 className="text-accent hover:underline"

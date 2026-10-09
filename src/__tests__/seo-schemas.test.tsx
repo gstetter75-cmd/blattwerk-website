@@ -8,7 +8,24 @@ import {
   FAQSchema,
   EventListSchema,
 } from '@/lib/schema';
-import { upcomingEvents } from '@/data/events';
+import { events, type BlattWerkEvent } from '@/data/events';
+
+// Fixed fixtures: the upcoming/past split depends on the current date.
+const scheduledEvents = events.filter(e => e.time);
+
+function makeScheduledEvent(overrides: Partial<BlattWerkEvent> = {}): BlattWerkEvent {
+  return {
+    date: '2026-11-14',
+    time: '15:00',
+    title_de: 'Informationsabend',
+    title_en: 'Information evening',
+    description_de: 'Beschreibung',
+    description_en: 'Description',
+    type_de: 'Vortrag',
+    type_en: 'Lecture',
+    ...overrides,
+  };
+}
 
 function getJsonLd(element: React.ReactElement): Record<string, unknown> {
   const html = renderToString(element);
@@ -139,21 +156,36 @@ describe('Schema.org JSON-LD', () => {
   });
 
   describe('EventListSchema', () => {
-    it('renders Event schemas for upcoming events with time', () => {
-      const html = renderToString(<EventListSchema events={upcomingEvents} locale="de" />);
+    it('renders Event schemas only for events with time', () => {
+      const html = renderToString(<EventListSchema events={events} locale="de" />);
       const matches = html.match(/application\/ld\+json/g);
-      const eventsWithTime = upcomingEvents.filter(e => e.time);
-      expect(matches?.length).toBe(eventsWithTime.length);
+      expect(scheduledEvents.length).toBeGreaterThan(0);
+      expect(matches?.length).toBe(scheduledEvents.length);
     });
 
     it('includes correct event details', () => {
-      const singleEvent = [upcomingEvents[0]];
-      const html = renderToString(<EventListSchema events={singleEvent} locale="de" />);
-      const match = html.match(/>({.*?})</s);
-      const data = JSON.parse(match![1]);
+      const atClubPremises = scheduledEvents.find(e => !e.location_de);
+      expect(atClubPremises).toBeDefined();
+      const data = getJsonLd(<EventListSchema events={[atClubPremises!]} locale="de" />);
       expect(data['@type']).toBe('Event');
       expect(data['eventStatus']).toContain('EventScheduled');
-      expect(data['location']['address']['addressLocality']).toBe('Hildesheim');
+      const location = data['location'] as Record<string, Record<string, string>>;
+      expect(location['address']['addressLocality']).toBe('Hildesheim');
+    });
+
+    it('uses the event\'s own location instead of the club address', () => {
+      const elsewhere = makeScheduledEvent({ location_de: 'Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin' });
+      const data = getJsonLd(<EventListSchema events={[elsewhere]} locale="de" />);
+      const location = data['location'] as Record<string, unknown>;
+      expect(location['name']).toBe('Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin');
+      expect(location['address']).toBe('Station Berlin, Luckenwalder Str. 4–6, 10963 Berlin');
+    });
+
+    it('uses the Berlin UTC offset that applies on the event date', () => {
+      const winter = getJsonLd(<EventListSchema events={[makeScheduledEvent({ date: '2026-11-14' })]} locale="de" />);
+      const summer = getJsonLd(<EventListSchema events={[makeScheduledEvent({ date: '2026-06-11' })]} locale="de" />);
+      expect(winter['startDate']).toBe('2026-11-14T15:00:00+01:00');
+      expect(summer['startDate']).toBe('2026-06-11T15:00:00+02:00');
     });
   });
 });

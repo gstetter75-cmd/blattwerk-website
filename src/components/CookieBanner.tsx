@@ -66,7 +66,7 @@ export function CookieBanner() {
 
           <button
             onClick={acknowledge}
-            className="w-full py-2.5 text-sm font-semibold text-white rounded-lg transition-all duration-200 cursor-pointer hover:opacity-90"
+            className="w-full py-2.5 text-sm font-semibold text-[var(--on-accent)] rounded-lg transition-all duration-200 cursor-pointer hover:opacity-90"
             style={{ background: 'var(--accent)' }}
           >
             {t.acknowledge}

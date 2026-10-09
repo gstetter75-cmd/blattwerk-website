@@ -47,20 +47,6 @@ export default async function LocaleLayout({
       className={`${lora.variable} ${nunito.variable} ${firaCode.variable}`}
     >
       <head>
-        <link
-          rel="preload"
-          as="image"
-          type="image/webp"
-          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/optimized/cannabis-plant-veg-640w.webp`}
-          media="(max-width: 640px)"
-        />
-        <link
-          rel="preload"
-          as="image"
-          type="image/webp"
-          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/optimized/cannabis-plant-veg.webp`}
-          media="(min-width: 641px)"
-        />
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{var t=localStorage.getItem('blattwerk-theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t)}else if(matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})()` }} />
       </head>
       <body className="bg-bg text-ink font-body antialiased">

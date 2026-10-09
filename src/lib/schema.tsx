@@ -3,7 +3,7 @@
  * Provides Organization, BreadcrumbList, Article, and FAQPage schemas.
  */
 
-import type { BlattWerkEvent } from '@/data/events';
+import { getBerlinUtcOffset, type BlattWerkEvent } from '@/data/events';
 import type { Strain } from '@/data/strains/types';
 import { BASE_URL } from './config';
 
@@ -297,6 +297,27 @@ export function AggregateRatingSchema({
 
 /* ── Event (for Google Events Rich Results) ──────────────────────────── */
 
+const CLUB_ADDRESS = {
+  '@type': 'PostalAddress',
+  streetAddress: 'Wetzellplatz 2',
+  addressLocality: 'Hildesheim',
+  postalCode: '31137',
+  addressCountry: 'DE',
+} as const;
+
+/** Events without their own location take place in the club premises. */
+function eventLocation(event: BlattWerkEvent, isDE: boolean): Record<string, unknown> {
+  const ownLocation = isDE ? event.location_de : event.location_en;
+  if (ownLocation) {
+    return { '@type': 'Place', name: ownLocation, address: ownLocation };
+  }
+  return {
+    '@type': 'Place',
+    name: isDE ? 'Vereinsräume' : 'Club premises',
+    address: CLUB_ADDRESS,
+  };
+}
+
 export function EventListSchema({
   events,
   locale = 'de',
@@ -317,23 +338,11 @@ export function EventListSchema({
               '@type': 'Event',
               name: isDE ? event.title_de : event.title_en,
               description: isDE ? event.description_de : event.description_en,
-              startDate: `${event.date}T${event.time}:00+02:00`,
+              startDate: `${event.date}T${event.time}:00${getBerlinUtcOffset(event.date, event.time)}`,
               eventAttendanceMode:
                 'https://schema.org/OfflineEventAttendanceMode',
               eventStatus: 'https://schema.org/EventScheduled',
-              location: {
-                '@type': 'Place',
-                name: isDE
-                  ? event.location_de ?? 'Vereinsräume'
-                  : event.location_en ?? 'Club premises',
-                address: {
-                  '@type': 'PostalAddress',
-                  streetAddress: 'Wetzellplatz 2',
-                  addressLocality: 'Hildesheim',
-                  postalCode: '31137',
-                  addressCountry: 'DE',
-                },
-              },
+              location: eventLocation(event, isDE),
               organizer: {
                 '@type': 'Organization',
                 name: 'BlattWerk e.V.',

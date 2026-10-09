@@ -27,6 +27,27 @@ function getOptimizedName(src: string): string {
   return withoutExt.replace(/\//g, '-');
 }
 
+/**
+ * WebP srcSet for an original image path. Exported so a page can preload
+ * exactly the candidate list the rendered <picture> uses.
+ */
+export function getWebpSrcSet(src: string): string {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const name = getOptimizedName(src);
+  const base = `${basePath}/images/optimized`;
+  return [
+    `${base}/${name}-640w.webp 640w`,
+    `${base}/${name}-1024w.webp 1024w`,
+    `${base}/${name}.webp 1920w`,
+  ].join(', ');
+}
+
+/** URL of the full-size WebP variant (fallback href for an image preload). */
+export function getWebpUrl(src: string): string {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  return `${basePath}/images/optimized/${getOptimizedName(src)}.webp`;
+}
+
 export function OptimizedImage({
   src,
   alt,
@@ -40,14 +61,7 @@ export function OptimizedImage({
   loading,
 }: OptimizedImageProps) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  const name = getOptimizedName(src);
-  const base = `${basePath}/images/optimized`;
-
-  const webpSrcSet = [
-    `${base}/${name}-640w.webp 640w`,
-    `${base}/${name}-1024w.webp 1024w`,
-    `${base}/${name}.webp 1920w`,
-  ].join(', ');
+  const webpSrcSet = getWebpSrcSet(src);
 
   const imgProps = {
     alt,

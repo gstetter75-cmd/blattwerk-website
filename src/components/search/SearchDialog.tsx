@@ -7,6 +7,8 @@ import { Search, X, Leaf, BookOpen, Command } from 'lucide-react';
 import { strains } from '@/data/strains';
 import { allArticles } from '@/data/knowledge';
 import { Z } from '@/lib/z-index';
+import { lockBodyScroll } from '@/lib/scroll-lock';
+import { formatPercent } from '@/data/strains/labels';
 
 interface SearchResult {
   readonly type: 'strain' | 'article';
@@ -32,6 +34,8 @@ export function SearchDialog() {
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
         setOpen((prev) => !prev);
+        setQuery('');
+        setSelectedIndex(0);
       }
       if (e.key === 'Escape') setOpen(false);
     };
@@ -39,16 +43,16 @@ export function SearchDialog() {
     return () => window.removeEventListener('keydown', onKeyDown);
   }, []);
 
-  // Focus input when dialog opens
+  // Focus the input when the dialog opens and lock page scrolling while it is open.
+  // The lock is reference-counted, so closing the search keeps an open mobile menu locked.
   useEffect(() => {
-    if (open) {
-      setQuery('');
-      setSelectedIndex(0);
-      setTimeout(() => inputRef.current?.focus(), 50);
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    if (!open) return;
+    const focusTimer = setTimeout(() => inputRef.current?.focus(), 50);
+    const releaseScrollLock = lockBodyScroll();
+    return () => {
+      clearTimeout(focusTimer);
+      releaseScrollLock();
+    };
   }, [open]);
 
   const results = useMemo((): readonly SearchResult[] => {
@@ -64,7 +68,7 @@ export function SearchDialog() {
       .map((s) => ({
         type: 'strain',
         title: s.name,
-        subtitle: `${s.type} · THC ${s.cannabinoids.thc}%`,
+        subtitle: `${s.type} · THC ${formatPercent(s.cannabinoids.thc, isDE ? 'de' : 'en')}`,
         href: `/sortendatenbank/${s.slug}`,
       }));
 
@@ -108,7 +112,11 @@ export function SearchDialog() {
     <>
       {/* Trigger button */}
       <button
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          setQuery('');
+          setSelectedIndex(0);
+          setOpen(true);
+        }}
         className="flex items-center gap-2 px-3 py-1.5 text-xs text-ink-faint hover:text-ink-muted border border-[var(--border)] rounded-md transition-colors cursor-pointer"
         aria-label={isDE ? 'Suche öffnen' : 'Open search'}
       >
