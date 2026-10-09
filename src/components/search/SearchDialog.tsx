@@ -5,6 +5,7 @@ import { useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { Search, X, Leaf, BookOpen, Command } from 'lucide-react';
 import { strains } from '@/data/strains';
+import { STRAIN_DATABASE_ENABLED } from '@/lib/features';
 import { allArticles } from '@/data/knowledge';
 import { Z } from '@/lib/z-index';
 import { lockBodyScroll } from '@/lib/scroll-lock';
@@ -59,7 +60,7 @@ export function SearchDialog() {
     const q = query.toLowerCase().trim();
     if (!q) return [];
 
-    const strainResults: SearchResult[] = strains
+    const strainResults: SearchResult[] = (STRAIN_DATABASE_ENABLED ? strains : [])
       .filter((s) => {
         const desc = isDE ? s.description_de : s.description_en;
         return s.name.toLowerCase().includes(q) || desc.toLowerCase().includes(q);

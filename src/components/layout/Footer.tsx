@@ -2,8 +2,9 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { MessageCircle, Mail } from 'lucide-react';
 import { BlattWerkLogo } from '@/components/brand/BlattWerkLogo';
+import { visibleNavItems } from '@/lib/features';
 
-const NAV = [
+const ALL_NAV = [
   { key: 'about',        href: '/ueber-uns' },
   { key: 'strains',      href: '/sortendatenbank' },
   { key: 'knowledge',    href: '/wissensdatenbank' },
@@ -12,6 +13,8 @@ const NAV = [
   { key: 'events',       href: '/events' },
   { key: 'csc_founding', href: '/csc-gruendung' },
 ] as const;
+
+const NAV = visibleNavItems(ALL_NAV);
 
 const LEGAL = [
   { key: 'legal_notice', href: '/impressum' },

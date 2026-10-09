@@ -7,6 +7,7 @@ import { Globe, ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
 import { Z } from '@/lib/z-index';
 import { lockBodyScroll } from '@/lib/scroll-lock';
 import { BlattWerkLogo } from '@/components/brand/BlattWerkLogo';
+import { visibleNavItems } from '@/lib/features';
 import { SearchDialog } from '@/components/search/SearchDialog';
 import { ThemeToggle } from '@/components/ThemeToggle';
 
@@ -22,7 +23,7 @@ interface NavItem {
   readonly children?: readonly NavChild[];
 }
 
-const navItems: readonly NavItem[] = [
+const allNavItems: readonly NavItem[] = [
   { key: 'about', href: '/ueber-uns' },
   { key: 'membership', href: '/mitgliedschaft' },
   { key: 'strains', href: '/sortendatenbank' },
@@ -39,6 +40,8 @@ const navItems: readonly NavItem[] = [
     ],
   },
 ];
+
+const navItems = visibleNavItems(allNavItems);
 
 // The full desktop nav only fits from Tailwind's `xl` breakpoint (80rem = 1280px);
 // below that the burger menu is used. Keep this query in sync with the `xl:` classes.
