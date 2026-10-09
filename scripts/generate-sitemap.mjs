@@ -78,7 +78,10 @@ function collectHtmlPaths(dir, base = '') {
   return paths;
 }
 
-const NO_INDEX_SEGMENTS = ['/datenschutz/', '/impressum/'];
+const features = JSON.parse(readFileSync('src/lib/features.json', 'utf-8'));
+// Hidden features (see src/lib/features.ts) stay out of the sitemap
+const HIDDEN_SEGMENTS = features.strainDatabase ? [] : ['/sortendatenbank/'];
+const NO_INDEX_SEGMENTS = ['/datenschutz/', '/impressum/', ...HIDDEN_SEGMENTS];
 
 const allPaths = collectHtmlPaths(OUT_DIR)
   .filter((p) => p.startsWith('/de/') || p.startsWith('/en/'))

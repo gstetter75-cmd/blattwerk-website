@@ -4,6 +4,12 @@
 /    /en/    302    Language=en
 /    /de/    302
 
+# Strain database temporarily hidden (src/lib/features.json) — remove these lines to show it again
+/de/sortendatenbank/*               /de/    302!
+/en/sortendatenbank/*               /en/    302!
+/de/sortendatenbank                 /de/    302!
+/en/sortendatenbank                 /en/    302!
+
 # Redirects from old site structure (pre-2026) to current locale-based URLs
 
 # Old blog/news pages → relevant knowledge base articles

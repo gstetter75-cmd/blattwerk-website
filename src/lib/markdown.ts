@@ -3,6 +3,8 @@
  * Supports: paragraphs, bold, italic, links. No external dependencies.
  */
 
+import { isStrainDatabaseHref, STRAIN_DATABASE_ENABLED } from '@/lib/features';
+
 function escapeHtml(text: string): string {
   return text
     .replace(/&/g, '&amp;')
@@ -20,10 +22,11 @@ function renderInline(text: string): string {
   // Italic: *text*
   result = result.replace(/\*(.+?)\*/g, '<em>$1</em>');
 
-  // Links: [text](/url)
-  result = result.replace(
-    /\[([^\]]+)\]\(([^)]+)\)/g,
-    '<a href="$2" class="text-accent hover:underline">$1</a>',
+  // Links: [text](/url) — links into hidden features render as plain text
+  result = result.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label: string, href: string) =>
+    !STRAIN_DATABASE_ENABLED && isStrainDatabaseHref(href)
+      ? label
+      : `<a href="${href}" class="text-accent hover:underline">${label}</a>`,
   );
 
   return result;

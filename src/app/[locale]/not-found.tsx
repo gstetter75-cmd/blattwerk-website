@@ -1,6 +1,7 @@
 import { Link } from '@/i18n/navigation';
 import { useLocale } from 'next-intl';
 import { ArrowLeft, BookOpen, Leaf, Users, Mail } from 'lucide-react';
+import { visibleNavItems } from '@/lib/features';
 
 export const metadata = {
   title: '404 – Seite nicht gefunden | BlattWerk e.V.',
@@ -11,12 +12,12 @@ export default function NotFound() {
   const locale = useLocale();
   const isDE = locale === 'de';
 
-  const suggestions = [
+  const suggestions = visibleNavItems([
     { href: '/wissensdatenbank', icon: BookOpen, label: isDE ? 'Wissensdatenbank' : 'Knowledge Base' },
     { href: '/sortendatenbank', icon: Leaf, label: isDE ? 'Sortendatenbank' : 'Strain Database' },
     { href: '/mitgliedschaft', icon: Users, label: isDE ? 'Mitgliedschaft' : 'Membership' },
     { href: '/kontakt', icon: Mail, label: isDE ? 'Kontakt' : 'Contact' },
-  ];
+  ]);
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">

@@ -40,7 +40,9 @@ describe('Netlify Redirects', () => {
       .split('\n')
       .filter(l => !l.startsWith('#') && l.trim() && !l.startsWith('https://'))
       // Root language-detection redirects intentionally use 302 (different users get different targets)
-      .filter(l => !l.includes('Language=') && !(l.startsWith('/') && l.includes('/de/') && l.includes('302') && !l.includes('Language=')));
+      .filter(l => !l.includes('Language=') && !(l.startsWith('/') && l.includes('/de/') && l.includes('302') && !l.includes('Language=')))
+      // Temporarily hidden strain database intentionally uses 302 (see src/lib/features.json)
+      .filter(l => !l.startsWith('/de/sortendatenbank') && !l.startsWith('/en/sortendatenbank'));
     for (const line of lines) {
       expect(line, `Non-301 redirect: ${line}`).toContain('301');
     }
@@ -49,5 +51,16 @@ describe('Netlify Redirects', () => {
   it('has www → non-www redirect', () => {
     expect(content).toContain('https://www.blattwerk.dev/*');
     expect(content).toContain('https://blattwerk.dev/:splat');
+  });
+});
+
+describe('Hidden strain database redirects', () => {
+  const content = readFileSync(REDIRECTS_PATH, 'utf-8');
+  const features = JSON.parse(readFileSync(join(__dirname, '../lib/features.json'), 'utf-8'));
+
+  it.runIf(!features.strainDatabase)('force-redirects both locales temporarily while hidden', () => {
+    for (const locale of ['de', 'en']) {
+      expect(content).toMatch(new RegExp(`^/${locale}/sortendatenbank/\\*\\s+/${locale}/\\s+302!$`, 'm'));
+    }
   });
 });

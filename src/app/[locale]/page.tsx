@@ -7,6 +7,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight, ExternalLink, Check, Sprout, Sun, Leaf, BookOpen, Users, Newspaper, Calendar, Shield, Mail, Camera } from 'lucide-react';
 import { strains } from '@/data/strains';
+import { STRAIN_DATABASE_ENABLED } from '@/lib/features';
 import { formatPercent } from '@/data/strains/labels';
 import { allArticles, allCategories } from '@/data/knowledge';
 import { blogPosts } from '@/data/blog';
@@ -435,51 +436,55 @@ function HomeContent() {
         </div>
       </HomeSection>
 
-      {/* ═══════════════════════════════════════
-          STRAINS — preview
-      ═══════════════════════════════════════ */}
-      <HomeSection className={SECTION_Y} labelledBy="home-strains-title">
-        <div className={CONTAINER}>
-          <SectionIntro
-            id="home-strains-title"
-            eyebrow={t('strain_label')}
-            title={isDE ? 'Sortendatenbank' : 'Strain Database'}
-            action={
-              <Link
-                href="/sortendatenbank"
-                className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline shrink-0"
-              >
-                {t('explore_strains')} <ArrowRight className="w-4 h-4" />
-              </Link>
-            }
-          />
+      {STRAIN_DATABASE_ENABLED && (
+        <>
+        {/* ═══════════════════════════════════════
+            STRAINS — preview
+        ═══════════════════════════════════════ */}
+        <HomeSection className={SECTION_Y} labelledBy="home-strains-title">
+          <div className={CONTAINER}>
+            <SectionIntro
+              id="home-strains-title"
+              eyebrow={t('strain_label')}
+              title={isDE ? 'Sortendatenbank' : 'Strain Database'}
+              action={
+                <Link
+                  href="/sortendatenbank"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:underline shrink-0"
+                >
+                  {t('explore_strains')} <ArrowRight className="w-4 h-4" />
+                </Link>
+              }
+            />
 
-          <div className="grid md:grid-cols-3 gap-5">
-            {strains.slice(0, 3).map((strain) => (
-              <Link
-                key={strain.slug}
-                href={`/sortendatenbank/${strain.slug}`}
-                className={`group p-6 rounded-2xl border border-[var(--border)] bg-bg-elevated ${CARD_HOVER}`}
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-accent/10 text-accent">
-                    {strain.type}
-                  </span>
-                  <span className="text-xs text-ink-faint">
-                    THC {formatPercent(strain.cannabinoids.thc, isDE ? 'de' : 'en')}
-                  </span>
-                </div>
-                <h3 className="font-heading font-semibold text-lg mb-2 group-hover:text-accent transition-colors">
-                  {strain.name}
-                </h3>
-                <p className="text-sm text-ink-muted leading-relaxed line-clamp-2">
-                  {isDE ? strain.description_de : strain.description_en}
-                </p>
-              </Link>
-            ))}
+            <div className="grid md:grid-cols-3 gap-5">
+              {strains.slice(0, 3).map((strain) => (
+                <Link
+                  key={strain.slug}
+                  href={`/sortendatenbank/${strain.slug}`}
+                  className={`group p-6 rounded-2xl border border-[var(--border)] bg-bg-elevated ${CARD_HOVER}`}
+                >
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-accent/10 text-accent">
+                      {strain.type}
+                    </span>
+                    <span className="text-xs text-ink-faint">
+                      THC {formatPercent(strain.cannabinoids.thc, isDE ? 'de' : 'en')}
+                    </span>
+                  </div>
+                  <h3 className="font-heading font-semibold text-lg mb-2 group-hover:text-accent transition-colors">
+                    {strain.name}
+                  </h3>
+                  <p className="text-sm text-ink-muted leading-relaxed line-clamp-2">
+                    {isDE ? strain.description_de : strain.description_en}
+                  </p>
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </HomeSection>
+        </HomeSection>
+        </>
+      )}
 
       {/* ═══════════════════════════════════════
           KNOWLEDGE — article previews
