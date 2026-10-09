@@ -68,14 +68,14 @@ function HomeContent() {
               style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)' }}
             >
               {isDE
-                ? 'Cannabis Social Club Hildesheim — Anbau in Vorbereitung.'
-                : 'Cannabis Social Club Hildesheim — Growing in preparation.'}
+                ? 'Cannabis Social Club Hildesheim — Anbaustart steht bevor.'
+                : 'Cannabis Social Club Hildesheim — Growing start coming soon.'}
             </h1>
 
             <p className="text-lg leading-relaxed mb-10 max-w-2xl text-ink-muted">
               {isDE
-                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Räume stehen, Konzept steht, Genehmigung beantragt. Gemeinschaft, Qualität und Transparenz.'
-                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. Premises secured, concept finalised, permit applied for. Community, quality and transparency.'}
+                ? 'BlattWerk e.V. ist ein Cannabis Social Club in Hildesheim — mit erteilter Anbaulizenz. Räume stehen, Nutzungsänderung genehmigt — der Anbau startet in Kürze. Gemeinschaft, Qualität und Transparenz.'
+                : 'BlattWerk e.V. is a Cannabis Social Club in Hildesheim — with a granted cultivation license. Premises secured, change-of-use permit approved — growing starts soon. Community, quality and transparency.'}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -116,8 +116,8 @@ function HomeContent() {
                   icon: Users,
                   status: 'done' as const,
                   title: isDE ? 'Vereinsgründung' : 'Club founded',
-                  text: isDE ? 'Eingetragen im Vereinsregister Hildesheim' : 'Registered in Hildesheim association register',
-                  date: '04.09.2025',
+                  text: isDE ? 'Gründungsversammlung im Mai 2025, eingetragen im Vereinsregister Hildesheim am 04.09.2025' : 'Founding assembly in May 2025, registered in the Hildesheim association register on 04.09.2025',
+                  date: isDE ? 'Mai 2025' : 'May 2025',
                 },
                 {
                   icon: Check,
@@ -128,17 +128,17 @@ function HomeContent() {
                 },
                 {
                   icon: Sprout,
-                  status: 'active' as const,
-                  title: isDE ? 'Anbau-Vorbereitung' : 'Growing preparation',
-                  text: isDE ? 'Räume gesichert, Konzept steht — Nutzungsänderung bei der Stadt beantragt' : 'Premises secured, concept finalised — change-of-use permit applied for',
-                  date: isDE ? 'Jetzt' : 'Now',
+                  status: 'done' as const,
+                  title: isDE ? 'Räume & Nutzungsänderung' : 'Premises & change of use',
+                  text: isDE ? 'Räume gesichert, Konzept steht — Nutzungsänderung von der Stadt genehmigt' : 'Premises secured, concept finalised — change-of-use permit approved',
+                  date: isDE ? 'Genehmigt' : 'Approved',
                 },
                 {
                   icon: Sun,
-                  status: 'upcoming' as const,
+                  status: 'active' as const,
                   title: isDE ? 'Anbaustart' : 'Growing start',
-                  text: isDE ? 'Qualitätsgeprüft, für unsere Mitglieder' : 'Quality-tested, for our members',
-                  date: isDE ? 'Nach Genehmigung' : 'After permit',
+                  text: isDE ? 'Letzte Vorbereitungen laufen — qualitätsgeprüft, für unsere Mitglieder' : 'Final preparations under way — quality-tested, for our members',
+                  date: isDE ? 'Demnächst' : 'Coming soon',
                 },
               ].map(({ icon: Icon, status, title, text, date }) => (
                 <div
@@ -198,8 +198,8 @@ function HomeContent() {
                 </p>
                 <p className="text-ink-muted leading-relaxed mb-8">
                   {isDE
-                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Räume und Konzept stehen — sobald die Nutzungsänderung genehmigt ist, geht es los. Du kannst jetzt Teil davon sein.'
-                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Premises and concept are ready — once the change-of-use permit is approved, we\'re off. You can be part of it now.'}
+                    ? 'Mit der Anbaulizenz im März 2026 haben wir den nächsten großen Schritt gemacht. Räume und Konzept stehen, die Nutzungsänderung ist genehmigt — als Nächstes startet der Anbau.'
+                    : 'With our cultivation license in March 2026, we\'ve taken the next big step. Premises and concept are ready and the change-of-use permit has been approved — next up is the start of growing.'}
                 </p>
                 <Link
                   href="/ueber-uns"

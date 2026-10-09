@@ -43,9 +43,6 @@ function getOutputName(filePath) {
 
 async function optimizeImage(filePath) {
   const name = getOutputName(filePath);
-  const image = sharp(filePath);
-  const metadata = await image.metadata();
-  const origWidth = metadata.width || 1200;
 
   const results = [];
 
@@ -60,7 +57,8 @@ async function optimizeImage(filePath) {
 
   // Responsive variants
   for (const width of WIDTHS) {
-    if (width >= origWidth) continue;
+    // Always emit every variant referenced by OptimizedImage's srcset;
+    // withoutEnlargement keeps smaller originals at their native width.
     const out = join(OUTPUT_DIR, `${name}-${width}w.webp`);
     if (!existsSync(out)) {
       await sharp(filePath)

@@ -34,7 +34,7 @@ npm run lint         # ESLint
 ## Wichtige Regeln
 
 - Der **Verein** steht im Vordergrund — lebendige, aktive Gemeinschaft, nicht abstraktes Infoportal
-- Vereinsstatus korrekt halten: gegründet Mai 2025, Anbaulizenz 18.03.2026
+- Vereinsstatus korrekt halten: gegründet Mai 2025 (Vereinsregister 04.09.2025), Anbaulizenz 18.03.2026, Nutzungsänderung genehmigt (Stand Okt 2026), Anbaustart steht bevor
 - Im Eventbereich **niemals** Veranstaltungen mit Konsum-Bezug listen
 - Mischkonsum wird abgelehnt und auf keiner Veranstaltung geduldet
 - Keine Features entfernen ohne explizite Genehmigung

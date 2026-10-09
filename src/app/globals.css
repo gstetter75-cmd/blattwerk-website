@@ -7,6 +7,10 @@
   --bg-elevated: #FFFFFF;
   --bg-dark:     #1A2E22;
 
+  --type-indica: #4338CA;
+  --type-sativa: #92400E;
+  --type-hybrid: #166534;
+
   --text:        #1A2E22;
   --text-muted:  #4A6B5A;
   --text-faint:  #536F65;
@@ -36,6 +40,10 @@
   --bg-elevated: #1c3024;
   --bg-dark:     #0a1109;
 
+  --type-indica: #A5B4FC;
+  --type-sativa: #FCD34D;
+  --type-hybrid: #86EFAC;
+
   --text:        #E8F0EC;
   --text-muted:  #9BB5A8;
   --text-faint:  #7A9B8A;
@@ -64,6 +72,10 @@
     --bg-surface:  #152419;
     --bg-elevated: #1c3024;
     --bg-dark:     #0a1109;
+
+    --type-indica: #A5B4FC;
+    --type-sativa: #FCD34D;
+    --type-hybrid: #86EFAC;
 
     --text:        #E8F0EC;
     --text-muted:  #9BB5A8;

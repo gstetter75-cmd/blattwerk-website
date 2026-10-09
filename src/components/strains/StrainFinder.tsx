@@ -123,16 +123,16 @@ const TYPE_LEFT_BORDER: Record<string, string> = {
 };
 
 const TYPE_TEXT_COLOR: Record<string, string> = {
-  indica: 'rgba(79,70,229,0.85)',
-  sativa: 'rgba(217,119,6,0.85)',
-  hybrid: 'rgba(22,163,74,0.85)',
+  indica: 'var(--type-indica)',
+  sativa: 'var(--type-sativa)',
+  hybrid: 'var(--type-hybrid)',
 };
 
 function ResultCard({ strain, locale }: { strain: Strain; locale: string }) {
   const lang = locale === 'de' ? 'de' : 'en';
   const config = typeConfig[strain.type];
   const accentBorder = TYPE_LEFT_BORDER[strain.type] ?? 'rgba(34,197,94,0.5)';
-  const typeTextColor = TYPE_TEXT_COLOR[strain.type] ?? 'rgba(22,163,74,0.85)';
+  const typeTextColor = TYPE_TEXT_COLOR[strain.type] ?? 'var(--type-hybrid)';
 
   const topEffects = Object.entries(strain.effects)
     .sort(([, a], [, b]) => b - a)
@@ -184,7 +184,7 @@ function ResultCard({ strain, locale }: { strain: Strain; locale: string }) {
           <div className="flex items-center gap-2 mt-auto pt-3 border-t border-[var(--border)]">
             <StarRating rating={strain.rating} />
             <span className="text-xs font-mono text-ink-muted">{strain.rating.toFixed(1)}</span>
-            <span className="text-xs text-ink-faint">({strain.review_count.toLocaleString()})</span>
+            <span className="text-xs text-ink-faint">({strain.review_count.toLocaleString(lang === 'de' ? 'de-DE' : 'en-US')})</span>
           </div>
         </div>
       </article>
